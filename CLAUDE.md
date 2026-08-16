@@ -293,6 +293,14 @@ Hard-won facts:
   that box does not honour `<NL>` — while the version that renders correctly
   on its three sibling sites never got to write this one.
   tests/test_one_owner.py keeps the two lists disjoint.
+- **Several of this game's labels cannot be written as text AT ALL.** 装甲 成功
+  威力 対象 射程 熟練度 消費 推進 近接 遠隔 use kanji that have NO code in
+  `charset-jp.tbl` (甲 成 功 威 象 射 程 熟 練 費 推 近 遠 隔), and the 6160
+  strings of the corpus never emit one — they exist only as pixels. Before
+  hunting a label through the string tables, check whether its kanji are even
+  encodable; if they are not, it is a sheet or a glyph bank and nothing else.
+  Of the sixteen codes those screens do use, thirteen point at the EMPTY cell
+  in both glyph banks, so there is nothing to repaint there either.
 - **The Medarreloj's status screens are one sheet, and it had a twin.** The
   seven kanji labels of the part page (行動 装甲 回数 成功 威力 対象 射程) are
   pre-rendered 4bpp pixels in `medal-status-tileset` (block 0x6471E0, 8 tiles

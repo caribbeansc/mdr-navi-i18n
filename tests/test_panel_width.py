@@ -29,6 +29,10 @@ VISIBLE_CELLS = 9
 NAME_TABLES = (
     (0x0930D8, 0x80, 0x0956D8),   # skill / part effect names
     (0x090BF8, 0x78, 0x0927A0),   # Medaforce names
+    # Leg-type names. Nothing watched this table, and two of its eight
+    # records (多脚 and 二脚) sat in Japanese for months because of it — the
+    # skill table above stops one record short of where it starts.
+    (0x095758, 0x78, 0x095AA0),
 )
 
 TAG = re.compile(r"<[^>]+>")

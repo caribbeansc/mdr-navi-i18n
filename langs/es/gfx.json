@@ -4845,6 +4845,136 @@
      "text": " ",
      "fill": 6,
      "outline": 5
+    },
+    {
+     "key": "thrust.a",
+     "tile_rect": [
+      0,
+      17,
+      2,
+      1
+     ],
+     "text": "PR",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
+    },
+    {
+     "key": "thrust.b",
+     "tile_rect": [
+      3,
+      17,
+      2,
+      1
+     ],
+     "text": "OP",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
+    },
+    {
+     "key": "mobility.a",
+     "tile_rect": [
+      6,
+      17,
+      2,
+      1
+     ],
+     "text": "MO",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
+    },
+    {
+     "key": "mobility.b",
+     "tile_rect": [
+      2,
+      18,
+      2,
+      1
+     ],
+     "text": "VI",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
+    },
+    {
+     "key": "defense.a",
+     "tile_rect": [
+      0,
+      18,
+      2,
+      1
+     ],
+     "text": "DE",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
+    },
+    {
+     "key": "defense.b",
+     "tile_rect": [
+      4,
+      18,
+      2,
+      1
+     ],
+     "text": "FE",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
+    },
+    {
+     "key": "melee.a",
+     "tile_rect": [
+      6,
+      18,
+      2,
+      1
+     ],
+     "text": "CU",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
+    },
+    {
+     "key": "melee.b",
+     "tile_rect": [
+      2,
+      19,
+      2,
+      1
+     ],
+     "text": "ER",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
+    },
+    {
+     "key": "ranged.a",
+     "tile_rect": [
+      0,
+      19,
+      2,
+      1
+     ],
+     "text": "DI",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
+    },
+    {
+     "key": "ranged.b",
+     "tile_rect": [
+      4,
+      19,
+      2,
+      1
+     ],
+     "text": "ST",
+     "fill": 6,
+     "outline": 5,
+     "top": 0
     }
    ],
    "notes": "Gemela de parts-status con 18 tiles extra. 属性 y 相性 COMPARTEN los tiles 49 y 51 (la mitad derecha, el 性), así que esos van en blanco y cada palabra usa su columna privada: TP en 48/50 y AF en 56/57. El build reubica el bloque (0x6471E0 -> zona alta) y es esa copia la que alimenta la pantalla del Medarreloj."
@@ -5385,25 +5515,28 @@
    "room": 52
   },
   "125fdd9fc83b": {
-   "t": "Cambia el terreno a «montaña»",
+   "t": "Cambia el campo a «montaña»",
    "sites": [
     "0x0913BC"
    ],
-   "room": 52
+   "room": 52,
+   "comment": "medafuerza de terreno: la fila del panel dibuja 28 celdas y corta en seco, así que «Cambia el terreno a «montaña»» (29) perdía su comilla de cierre en pantalla. Toda la familia dice «campo», que además es la palabra del primer renglón"
   },
   "7381c7a810b0": {
-   "t": "Cambia el terreno a «bosque»",
+   "t": "Cambia el campo a «bosque»",
    "sites": [
     "0x091434"
    ],
-   "room": 52
+   "room": 52,
+   "comment": "medafuerza de terreno: la fila del panel dibuja 28 celdas y corta en seco, así que «Cambia el terreno a «montaña»» (29) perdía su comilla de cierre en pantalla. Toda la familia dice «campo», que además es la palabra del primer renglón"
   },
   "477aa066f3d3": {
-   "t": "Cambia el terreno a «mar»",
+   "t": "Cambia el campo a «mar»",
    "sites": [
     "0x091524"
    ],
-   "room": 52
+   "room": 52,
+   "comment": "medafuerza de terreno: la fila del panel dibuja 28 celdas y corta en seco, así que «Cambia el terreno a «montaña»» (29) perdía su comilla de cierre en pantalla. Toda la familia dice «campo», que además es la palabra del primer renglón"
   },
   "ad3603cbdcf0": {
    "t": "Terreno",
@@ -12402,6 +12535,46 @@
    ],
    "room": 26,
    "comment": "ayuda de la vista Destreza, encima de «Destreza +1» (str:4C6AE2). El motor empieza a leer en 0x4C6AC8: escrito un byte antes se pierde la primera letra (salía «arra llena:»); los 8 bytes previos son cabecera del registro"
+  },
+  "ac6329b599cc": {
+   "t": "Baja el daño que recibes",
+   "sites": [
+    "0x090E1C"
+   ],
+   "room": 52,
+   "comment": "medafuerza: segundo renglón de descripción (+0x44 del registro); el nombre y el primer renglón ya estaban traducidos y este se saltó"
+  },
+  "9efcc90e1d5f": {
+   "t": "Cambia el campo a «desierto»",
+   "sites": [
+    "0x091344"
+   ],
+   "room": 52,
+   "comment": "medafuerza de terreno: segundo renglón; ver la nota de ancho en 125fdd9fc83b"
+  },
+  "bc188cbc8f42": {
+   "t": "Cambia el campo a «ciudad»",
+   "sites": [
+    "0x0914AC"
+   ],
+   "room": 52,
+   "comment": "medafuerza de terreno: segundo renglón"
+  },
+  "21f89a5067ee": {
+   "t": "Polípodo",
+   "sites": [
+    "0x095848"
+   ],
+   "room": 16,
+   "comment": "tipo de pierna: la misma palabra que plate_words usa en la placa, para que la ficha y la placa digan lo mismo"
+  },
+  "69e72f8e4e0d": {
+   "t": "Bípedo",
+   "sites": [
+    "0x0958C0"
+   ],
+   "room": 16,
+   "comment": "tipo de pierna: idem"
   }
  },
  "sjis_strings": {
