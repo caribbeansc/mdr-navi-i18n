@@ -1,0 +1,35 @@
+{
+ "part": "script/script_0129",
+ "entries": [
+  {
+   "key": "script:0129:0346",
+   "src": "f710e8f701d4",
+   "t": "<FACE:45>¿Q-qué? Que me hayas<NL>salvado no es tanto"
+  },
+  {
+   "key": "script:0129:036A",
+   "src": "f350c70064cf",
+   "t": "<FACE:48>¡Eso, eso!<NL>¡Es el líder, obvio!"
+  },
+  {
+   "key": "script:0129:0388",
+   "src": "0711cc31119a",
+   "t": "<FACE:45>Pero bueno, al menos<NL>te doy las gracias"
+  },
+  {
+   "key": "script:0129:03A1",
+   "src": "0f56c23a15d3",
+   "t": "<FACE:47>…S-sí, claro"
+  },
+  {
+   "key": "script:0129:03AB",
+   "src": "7da8a2638637",
+   "t": "<FACE:48>…Solo por cortesía"
+  },
+  {
+   "key": "script:0129:03B9",
+   "src": "968e52ff34c7",
+   "t": "<FACE:46>…Gracias…"
+  }
+ ]
+}

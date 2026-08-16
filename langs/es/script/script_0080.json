@@ -1,0 +1,355 @@
+{
+ "part": "script/script_0080",
+ "entries": [
+  {
+   "key": "script:0080:0BC2",
+   "src": "cbd968f0946b",
+   "t": "<FACE:31>Oigaaan… ¿está bien<NL>que hagan esto?"
+  },
+  {
+   "key": "script:0080:0BDD",
+   "src": "36b5f3a2f1dd",
+   "t": "<FACE:7F>¡Todo bien-robo!<WAIT><FACE:31>Peroo… si viene un<NL>jefe, ¿no los regañan?<WAIT>No se preocupen por<NL>Urin, sigan trabajando"
+  },
+  {
+   "key": "script:0080:0C21",
+   "src": "235734b9ca48",
+   "t": "<FACE:7F>Urin es buenísima-robo<NL>¡se preocupa por uno!"
+  },
+  {
+   "key": "script:0080:0C48",
+   "src": "fe67ec804816",
+   "t": "<FACE:32>(Tsk…)<NL><WAIT>(No aguanto más a<NL> estos tipos)<WAIT>(Que se pongan a<NL> trabajar de una vez…)"
+  },
+  {
+   "key": "script:0080:0C8B",
+   "src": "1bc24822a3b4",
+   "t": "<FACE:7D>¿Qué pasa-robo?<NL>¿Te sientes mal-robo?"
+  },
+  {
+   "key": "script:0080:0CA3",
+   "src": "a96499b92e17",
+   "t": "<FACE:31>¿Eh? No es nadaa"
+  },
+  {
+   "key": "script:0080:0CB1",
+   "src": "11c2138d7da5",
+   "t": "<FACE:7F>Menos mal-robo"
+  },
+  {
+   "key": "script:0080:0CBB",
+   "src": "73f74e5da2f7",
+   "t": "<FACE:31>Peroo, este lugar…<NL>¿no está muy polvoso?<WAIT>A Urin le duele la<NL>gargantaaa"
+  },
+  {
+   "key": "script:0080:0CE3",
+   "src": "4f326ec41c78",
+   "t": "<FACE:80>¡Espera un poco-robo!<NL>¡Traigo agua-robo!"
+  },
+  {
+   "key": "script:0080:0D04",
+   "src": "dbfe1cadde77",
+   "t": "<FACE:32>Ay, ya no aguanto…<NL>Con un chico guapo, ya<WAIT>pero ¿por qué hacerme<NL>la linda con bichos…"
+  },
+  {
+   "key": "script:0080:0D4C",
+   "src": "1486c50c0b77",
+   "t": "<FACE:7F>¡Urin, te traje<NL>agua-robo!"
+  },
+  {
+   "key": "script:0080:0D62",
+   "src": "1f1c415a113a",
+   "t": "<FACE:7E>¡¿Qué haces-robo?!<NL><WAIT>¡Urin tomará el agua<NL>que traje yo-robo!<NL>"
+  },
+  {
+   "key": "script:0080:0D84",
+   "src": "11f9feaa44ef",
+   "t": "<FACE:7E>¡Que no-robo!<NL>¡Es la mía-robo!"
+  },
+  {
+   "key": "script:0080:0D95",
+   "src": "f61002884d2d",
+   "t": "<FACE:31>Está bien, chicos…<NL>Urin ya está mejoor"
+  },
+  {
+   "key": "script:0080:0DB3",
+   "src": "a5785827bb75",
+   "t": "<FACE:31>¿Estará roto el filtro<NL>de aire del bloque?"
+  },
+  {
+   "key": "script:0080:0DD1",
+   "src": "7a54bac80354",
+   "t": "<FACE:7D>Ni modo-robo<NL>Este bloque es así"
+  },
+  {
+   "key": "script:0080:0DEB",
+   "src": "ee4786a4b5ef",
+   "t": "<FACE:31>Buuu…"
+  },
+  {
+   "key": "script:0080:0DF2",
+   "src": "b2070a6bd36c",
+   "t": "<FACE:80>Q-qué linda-robo…"
+  },
+  {
+   "key": "script:0080:0DFF",
+   "src": "639a5ec97cbe",
+   "t": "<FACE:7F>¡Qué linda-robo!<NL>"
+  },
+  {
+   "key": "script:0080:0E0A",
+   "src": "0d9851765d80",
+   "t": "<FACE:7F>¡Pero también hay algo<NL>bueno-robo!<WAIT><FACE:31>¿Algo buenoo?"
+  },
+  {
+   "key": "script:0080:0E25",
+   "src": "a5390c1e3365",
+   "t": "<FACE:7F>Nuestro jefe Smog<NL>es de salud débil-robo"
+  },
+  {
+   "key": "script:0080:0E45",
+   "src": "f34a146802a1",
+   "t": "<FACE:7F>Como el bloque es así<NL>Smog no viene-robo<WAIT>¡Y por eso podemos<NL>jugar con Urin-roboo!"
+  },
+  {
+   "key": "script:0080:0E79",
+   "src": "f8906be051d2",
+   "t": "<FACE:08>¿¡Qué!?<NL><WAIT>¿Qué es este bloque<NL>tan polvoriento?"
+  },
+  {
+   "key": "script:0080:0E91",
+   "src": "a6ea057e4185",
+   "t": "<FACE:0A>Tienes razón…<NL><WAIT>Aunque sea una prueba,<NL>tanto polvo sobra…"
+  },
+  {
+   "key": "script:0080:0EC4",
+   "src": "97233adffa8c",
+   "t": "<FACE:1D>Aquí el filtro de aire<NL>está descompuesto<WAIT><FACE:14>Si nos quedamos mucho<NL>nos hará daño, líder"
+  },
+  {
+   "key": "script:0080:0EF9",
+   "src": "16a12e18ae8f",
+   "t": "<FACE:03>Espérenme… uf, uf…<NL>"
+  },
+  {
+   "key": "script:0080:0F0D",
+   "src": "27317a443322",
+   "t": "<FACE:00>Uf… un respiro…"
+  },
+  {
+   "key": "script:0080:0F19",
+   "src": "e735c25408f7",
+   "t": "<FACE:03>¡Cof! ¡Cof, cof…!<NL>"
+  },
+  {
+   "key": "script:0080:0F28",
+   "src": "fd9fb7e001b9",
+   "t": "<FACE:04>¿¡Q-qué es esto…!?<NL>Cuánto polvo… cof, cof"
+  },
+  {
+   "key": "script:0080:0F46",
+   "src": "f64f90cdab4f",
+   "t": "<FACE:0A>Como sea, hay que<NL>recuperar este bloque"
+  },
+  {
+   "key": "script:0080:0F64",
+   "src": "907f63d2f0bc",
+   "t": "<FACE:7F>¡Ahora te toca a ti,<NL>Urin-robo!<WAIT><FACE:31>Esperen, Sperobitos…<NL>"
+  },
+  {
+   "key": "script:0080:0F8C",
+   "src": "5a55b9f359df",
+   "t": "<FACE:31>¡Ajá! Te atrapé…<NL>"
+  },
+  {
+   "key": "script:0080:0F9B",
+   "src": "696099bd5710",
+   "t": "<FACE:31>¡Ah! Si es <PLAYER>…"
+  },
+  {
+   "key": "script:0080:0FA8",
+   "src": "b6d3aa8b2261",
+   "t": "<FACE:00>¿Qué pasa, Hiyori?<WAIT><FACE:09>Esa chica no me gusta…<NL>Siempre me provoca…"
+  },
+  {
+   "key": "script:0080:0FDA",
+   "src": "ac627a44225d",
+   "t": "<FACE:31>¡Pero si es la<NL>señorita Koharubi!"
+  },
+  {
+   "key": "script:0080:0FEC",
+   "src": "6b2e77890689",
+   "t": "<FACE:07>A-ay, qué casualidad…<NL>¿Qué hacías por aquí?"
+  },
+  {
+   "key": "script:0080:100C",
+   "src": "ad1a37f94085",
+   "t": "<FACE:32>(Ya me estaba<NL> aburriendo de aquí…)<NL><WAIT>(Pero si Hiyori me<NL> salva, sube su fama…)"
+  },
+  {
+   "key": "script:0080:104D",
+   "src": "f4a68270e80c",
+   "t": "<FACE:31>(¡Ya sé! Los azuzo<NL> y escapo en el lío)"
+  },
+  {
+   "key": "script:0080:1073",
+   "src": "75f218b82307",
+   "t": "<FACE:7E>¿¡A qué vinieron<NL>ustedes-robo!?<NL><WAIT><FACE:01>¡Está claro!<NL>¡Recuperar el bloque!"
+  },
+  {
+   "key": "script:0080:10A6",
+   "src": "0b121c635db8",
+   "t": "<FACE:32>(Uy, qué bien va esto)"
+  },
+  {
+   "key": "script:0080:10B8",
+   "src": "aac562cf07d4",
+   "t": "<FACE:7E>¡No lo permitiré-robo!<NL><WAIT>¡Este lugar es de Urin<NL>y de nosotros-robo!"
+  },
+  {
+   "key": "script:0080:10DF",
+   "src": "3a68102ef955",
+   "t": "<FACE:06>¿Qué gusto le da<NL>rodearse de esos…"
+  },
+  {
+   "key": "script:0080:10FF",
+   "src": "aed14c459529",
+   "t": "<FACE:32>(¿¡Quééé!? Si es así…)"
+  },
+  {
+   "key": "script:0080:1113",
+   "src": "425d0691ca60",
+   "t": "<FACE:31>Oigaan…<NL><WAIT>A Urin no le gusta<NL>esta gente…<WAIT>Urin quiere jugar más<NL>con los Sperobitos…"
+  },
+  {
+   "key": "script:0080:1141",
+   "src": "59ff47848d7b",
+   "t": "<FACE:80>¡U-Urin!<NL>"
+  },
+  {
+   "key": "script:0080:114E",
+   "src": "a3d8873b1f32",
+   "t": "<FACE:7F>¡Entendido-robo!<NL><WAIT>¡Defenderemos juntos<NL>nuestro bloque-robo!<WAIT>¡Peleemos juntos-robo!"
+  },
+  {
+   "key": "script:0080:1187",
+   "src": "0d8def90584d",
+   "t": "<FACE:31>(¡¿Eh?! ¡¿Por qué?!)<NL>"
+  },
+  {
+   "key": "script:0080:1196",
+   "src": "16b112d79bf0",
+   "t": "<FACE:31>(Buaa… ¿por qué me<NL> pasa esto?)"
+  },
+  {
+   "key": "script:0080:11AB",
+   "src": "f8a601648035",
+   "t": "<FACE:81>N-nos ganaron-robo…<NL>"
+  },
+  {
+   "key": "script:0080:11B9",
+   "src": "7caad7515ce9",
+   "t": "<FACE:7E>¡No-robo! Si cedemos<NL>Urin se pondrá triste<WAIT>¡Eso es-robo!<NL><WAIT>¡No hay bloque mejor<NL>para flojear-robo!<WAIT>¡No nos rendimos-robo!<NL>"
+  },
+  {
+   "key": "script:0080:1209",
+   "src": "52bb6d805529",
+   "t": "<FACE:7E>¡Mira bien-robo!<NL>¡Todo por Urin-robo!"
+  },
+  {
+   "key": "script:0080:1227",
+   "src": "a201328241bf",
+   "t": "<FACE:81>P-perdimos-roboo…<NL>"
+  },
+  {
+   "key": "script:0080:1234",
+   "src": "c845896ca8e5",
+   "t": "<FACE:80>Adiós a la buena vida<NL>de flojear-roboo"
+  },
+  {
+   "key": "script:0080:124D",
+   "src": "3503c9f3b0dc",
+   "t": "<FACE:31>(¿Q-qué hago…?)<NL>"
+  },
+  {
+   "key": "script:0080:125C",
+   "src": "1fd97a61636b",
+   "t": "<FACE:31>(B-bueno, entonces…)"
+  },
+  {
+   "key": "script:0080:126B",
+   "src": "2a7731af89c7",
+   "t": "<FACE:31>¡L-lo sientooo!"
+  },
+  {
+   "key": "script:0080:1278",
+   "src": "10dbb0d394fb",
+   "t": "<FACE:05>¡¿«Lo shientooo»?!<NL>¿Y ya con eso basta?"
+  },
+  {
+   "key": "script:0080:129A",
+   "src": "dbdf588a8504",
+   "t": "<FACE:31>Esos me amenazaron…<NL>¡No me quedaba otraa!<WAIT><FACE:09>¿Amenazada, dices…?<NL>"
+  },
+  {
+   "key": "script:0080:12C3",
+   "src": "7c5e8f66d8bc",
+   "t": "<FACE:09>Oye…"
+  },
+  {
+   "key": "script:0080:12CA",
+   "src": "2f0bde1222f5",
+   "t": "<FACE:31><PLAYER>, tú sí<NL>me entiendes, ¿verdad?"
+  },
+  {
+   "key": "script:0080:12DE",
+   "src": "dd7367582d1b",
+   "t": "<FACE:31>¿Sí? ¿¡Sí!? ¡¡Sí!!"
+  },
+  {
+   "key": "script:0080:12EB",
+   "src": "08aeb59f884f",
+   "t": "<FACE:03>E-espera…"
+  },
+  {
+   "key": "script:0080:12F7",
+   "src": "c9690a29b582",
+   "t": "<FACE:00>Uf… bueno,<NL>ya pidió perdón, ¿no?"
+  },
+  {
+   "key": "script:0080:1313",
+   "src": "6ab08e6f6b79",
+   "t": "<FACE:31>¡Yupiii!"
+  },
+  {
+   "key": "script:0080:131A",
+   "src": "277276eab06c",
+   "t": "<FACE:03>¡Uy…!"
+  },
+  {
+   "key": "script:0080:1322",
+   "src": "1785c02a17cc",
+   "t": "<FACE:08>¡¡Oye!! …Urin…<WAIT><FACE:06><PLAYER> se está<NL>¡¿ahogando, no crees?!"
+  },
+  {
+   "key": "script:0080:1351",
+   "src": "4d8bb6c09a87",
+   "t": "<FACE:00>Uuuf…"
+  },
+  {
+   "key": "script:0080:1359",
+   "src": "48d58902f237",
+   "t": "<FACE:0E><PLAYER> también la<NL>pasa mal…"
+  },
+  {
+   "key": "script:0080:1367",
+   "src": "4e1f92f5906b",
+   "t": "<FACE:31>¡Urin se unió al<NL>equipo!"
+  },
+  {
+   "key": "script:0080:1378",
+   "src": "f1523898e8aa",
+   "t": "<FACE:06>¡Vaya! ¡Parece que no<NL>te disgustó tanto!!"
+  }
+ ]
+}

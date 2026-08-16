@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0090",
+ "entries": [
+  {
+   "key": "script:0090:0514",
+   "src": "1b33f4083b37",
+   "t": "<FACE:05>Este bloque se siente<NL>muy tranquilo<WAIT><FACE:00>Parece una casa<NL>japonesa antigua…"
+  },
+  {
+   "key": "script:0090:0541",
+   "src": "a0fd7d73ea7b",
+   "t": "<FACE:0D>Qué extraño…<NL><WAIT>Tiene que estar en<NL>alguna parte…"
+  },
+  {
+   "key": "script:0090:0562",
+   "src": "35e84e414348",
+   "t": "<FACE:0A>Este ambiente…<NL>Me da la impresión de<WAIT>que hay un cuarto<NL>secreto"
+  },
+  {
+   "key": "script:0090:0585",
+   "src": "24d40e29787f",
+   "t": "<FACE:00>¿Un cuarto secreto…?<NL>¿Como en casas ninja?"
+  },
+  {
+   "key": "script:0090:05A5",
+   "src": "6489d475d65a",
+   "t": "<FACE:0A>A… ah, sí<NL><WAIT>Algo por el estilo"
+  },
+  {
+   "key": "script:0090:05BC",
+   "src": "6553f9b782fc",
+   "t": "<FACE:05>¡Vaya, Fubuki!<NL>¡Sabes de esas cosas!"
+  },
+  {
+   "key": "script:0090:05D7",
+   "src": "733f8a7fd762",
+   "t": "<FACE:0D>¡¿Eh?! No… no es que<NL>sepa tanto…"
+  },
+  {
+   "key": "script:0090:05F1",
+   "src": "4efb8bb650eb",
+   "t": "<FACE:00>Si es así, ¡busquemos<NL>la puerta secreta!"
+  },
+  {
+   "key": "script:0090:0614",
+   "src": "f7e5abd79860",
+   "t": "<FACE:00>En los mangas casi<NL>siempre está por aquí…"
+  },
+  {
+   "key": "script:0090:062E",
+   "src": "2655279549ce",
+   "t": "<FACE:06>¡No va a estar en un<NL>sitio tan obvio!"
+  },
+  {
+   "key": "script:0090:064A",
+   "src": "3b762361d308",
+   "t": "<FACE:08>Vaya…"
+  },
+  {
+   "key": "script:0090:0651",
+   "src": "f0978ab93f2a",
+   "t": "<FACE:73>…Estaba escondida…<NL>me encontraron…<WAIT><PLAYER><NL>…lo sabía…<WAIT>el hombre del destino…"
+  },
+  {
+   "key": "script:0090:067C",
+   "src": "1d859f02c61f",
+   "t": "<FACE:06>¿¡Qué!? ¿¡El hombre<NL>del destino!?<WAIT>¡Y encima, siendo la<NL>mala, te escondes!<WAIT>¡Pelea de frente, con<NL>todas las de la ley!"
+  },
+  {
+   "key": "script:0090:06C3",
+   "src": "80ef069b9d97",
+   "t": "<FACE:04>No, bueno… por eso es<NL>la mala, ¿no…?"
+  },
+  {
+   "key": "script:0090:06DC",
+   "src": "a6b863f68ba2",
+   "t": "<FACE:06>¡Cállate! ¡Qué cara<NL>de bobo se te puso!<WAIT>¿Te crees muy popular?<NL>¡Qué tonto eres!"
+  },
+  {
+   "key": "script:0090:070C",
+   "src": "57278e4b2017",
+   "t": "<FACE:73>…Mi objetivo… era<NL>retenerlos…<WAIT>…No hace falta…<NL>pelear…<WAIT><FACE:06>¡Sí, sí!<NL>¡Qué serena te pones!<WAIT>Ya te encontramos, así<NL>que robobatallamos<WAIT>y si ganamos<NL>te largas de aquí<WAIT><FACE:73>…Eres… una mujer…<NL>que da miedo…"
+  },
+  {
+   "key": "script:0090:078F",
+   "src": "4f0738f319d8",
+   "t": "<FACE:06>¡¿Quééé dijisteeee?!"
+  },
+  {
+   "key": "script:0090:07A4",
+   "src": "76eae0a54aa8",
+   "t": "<FACE:73>…Qué lástima…<NL>Volveremos a vernos…<WAIT>…<PLAYER>…"
+  },
+  {
+   "key": "script:0090:07C1",
+   "src": "a66fa7e8ce73",
+   "t": "<FACE:00>Busquemos en otro lado"
+  },
+  {
+   "key": "script:0090:07CC",
+   "src": "06a67987207a",
+   "t": "<FACE:05>¿Y por allá qué tal?"
+  },
+  {
+   "key": "script:0090:07D9",
+   "src": "7ca9a7478f73",
+   "t": "<FACE:0A>¿Y del otro lado?"
+  },
+  {
+   "key": "script:0090:07E8",
+   "src": "635989c9b51a",
+   "t": "<FACE:19>Parece que no hay nada"
+  },
+  {
+   "key": "script:0090:07F8",
+   "src": "ed7843c14a37",
+   "t": "<FACE:14>Algo parece haber…<NL>pero ni idea"
+  }
+ ]
+}

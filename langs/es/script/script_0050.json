@@ -1,0 +1,100 @@
+{
+ "part": "script/script_0050",
+ "entries": [
+  {
+   "key": "script:0050:0671",
+   "src": "d7dd195e14b1",
+   "t": "<FACE:00>(La voz se oye<NL>clarísimo…)<WAIT>(Esto no es ningún<NL>fantasma…)<WAIT>(¡Seguro que hay<NL>algo aquí!)"
+  },
+  {
+   "key": "script:0050:06AB",
+   "src": "ca58007168e3",
+   "t": "<FACE:04>¿Mm? ¿Qué será<NL>este hoyo…?<WAIT><FACE:59>Por aquí…"
+  },
+  {
+   "key": "script:0050:06C7",
+   "src": "671a45297ba0",
+   "t": "<FACE:00>¿Será que la voz<NL>sale de aquí…?"
+  },
+  {
+   "key": "script:0050:06E0",
+   "src": "3123dc6bf548",
+   "t": "<FACE:03>¿Eh…? ¡Uaaaaaaaaaahh!<NL>"
+  },
+  {
+   "key": "script:0050:06F5",
+   "src": "18dfdd2a2a13",
+   "t": "<FACE:03>Ay, ay, ay…"
+  },
+  {
+   "key": "script:0050:06FF",
+   "src": "ad65d9f36e8f",
+   "t": "<FACE:04>¿Qué fue eso…?<NL><WAIT>Sentí como si algo<NL>me jalara…"
+  },
+  {
+   "key": "script:0050:071D",
+   "src": "c96e7a54863d",
+   "t": "<FACE:03>(Ah, cierto, esto…)"
+  },
+  {
+   "key": "script:0050:072C",
+   "src": "f80838768833",
+   "t": "<FACE:00>Creo que era…<WAIT>¿la «Linterna<NL>semieterna»?<WAIT><FACE:02>Lo que me da Hiyori<NL>a veces sí sirve"
+  },
+  {
+   "key": "script:0050:076A",
+   "src": "5ef158564970",
+   "t": "<FACE:04>(¿Una Medalla…?)<NL><WAIT>(¿Qué será este<NL>dibujo…?<WAIT>¿La larva de algo…?)"
+  },
+  {
+   "key": "script:0050:0798",
+   "src": "8e97a2b9ba71",
+   "t": "<FACE:12>¡Oye, tú!<NL>¡¿Qué estás haciendo?!"
+  },
+  {
+   "key": "script:0050:07AC",
+   "src": "588e3c707bb3",
+   "t": "<FACE:03>¡Ay! ¡Justo cuando más<NL>la necesito!<WAIT><FACE:01>¡Por eso no es de fiar<NL>lo que ella me da!"
+  },
+  {
+   "key": "script:0050:07DE",
+   "src": "977afac4439e",
+   "t": "<FACE:03>¡Ah!<NL><WAIT>Usted es el famoso<NL>medaguerrero…<WAIT>Murasame Shiden…"
+  },
+  {
+   "key": "script:0050:0803",
+   "src": "d49bdf03aafc",
+   "t": "<FACE:0F>¿Mm?<NL><WAIT>Eso aparte, allá al<NL>fondo hay una luz…<WAIT>Echemos un vistazo…"
+  },
+  {
+   "key": "script:0050:082E",
+   "src": "3a7241fc4127",
+   "t": "<FACE:12>(¡Esto es…!)"
+  },
+  {
+   "key": "script:0050:083A",
+   "src": "07df08d93e87",
+   "t": "<FACE:00>Mistral…"
+  },
+  {
+   "key": "script:0050:0845",
+   "src": "b49c52df1e3b",
+   "t": "<FACE:12>¿Qué?<WAIT><FACE:00>Es el nombre de<NL>este Medabot<WAIT>Lo acabo de oír<NL>en mi cabeza"
+  },
+  {
+   "key": "script:0050:0870",
+   "src": "304dcd2268e9",
+   "t": "<FACE:10>(Yo… no oí nada)"
+  },
+  {
+   "key": "script:0050:0884",
+   "src": "c177b0ffc143",
+   "t": "<FACE:04>Aquí tiene que<NL>haber algo…"
+  },
+  {
+   "key": "script:0050:089B",
+   "src": "92e952ae1b8a",
+   "t": "<FACE:00>El timbre de la<NL>escuela suena<WAIT>igual que ahora…"
+  }
+ ]
+}

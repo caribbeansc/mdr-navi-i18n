@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0005",
+ "entries": [
+  {
+   "key": "script:0005:0297",
+   "src": "ae089c9f4cc3",
+   "t": "<FACE:7D>Si nos destinan a un<NL>cuartucho así…<WAIT>¡es que somos unos<NL>fracasados-robo!"
+  },
+  {
+   "key": "script:0005:02C8",
+   "src": "c4d3acf7595e",
+   "t": "<FACE:7D>No hay remedio-robo…<NL>En el torneo de la<WAIT>banda siempre caemos<NL>en primera ronda-robo…<WAIT>Solo nos dan sitios<NL>que no le importan<WAIT>a nadie-robo…"
+  },
+  {
+   "key": "script:0005:0326",
+   "src": "fa366a6106ef",
+   "t": "<FACE:7D>¡Solo queda vencer a<NL>esos colegiales y<WAIT>demostrar que servimos<NL>para algo-robo!"
+  },
+  {
+   "key": "script:0005:0359",
+   "src": "1e486720f9e3",
+   "t": "<FACE:7D>Pero son fuertes-robo…<NL>Nos va a costar<WAIT>ganarles-robo…"
+  },
+  {
+   "key": "script:0005:0383",
+   "src": "cb6be13e127f",
+   "t": "<FACE:7D>¡Por eso si ganamos,<NL>ascendemos-robo!<WAIT>¡Ánimo-robo!"
+  },
+  {
+   "key": "script:0005:03A3",
+   "src": "fcf12e160143",
+   "t": "<FACE:00>¿Eh? Otro bloque<NL>pequeño…<WAIT>Pasemos rápido y…"
+  },
+  {
+   "key": "script:0005:03C4",
+   "src": "5cd25128b307",
+   "t": "<FACE:7E>¡Eso sí que no-robo!<NL>¡Les ganaré y<WAIT>ascenderé-robo!"
+  },
+  {
+   "key": "script:0005:03E6",
+   "src": "d10138136beb",
+   "t": "<FACE:81>Ya sabía que esto<NL>acabaría así-robo…"
+  },
+  {
+   "key": "script:0005:03FC",
+   "src": "26ef64c2e458",
+   "t": "<FACE:7E>¡Ese pesimismo no<NL>vale-robo!<WAIT>¡Quizá nos trasladen<NL>a un bloque<WAIT>importante-robo!"
+  },
+  {
+   "key": "script:0005:043A",
+   "src": "24bc4cd5ce2c",
+   "t": "<FACE:7D>Lo veo difícil-robo…"
+  },
+  {
+   "key": "script:0005:044C",
+   "src": "e55ef69c398a",
+   "t": "<FACE:04>Parece que hablaban<NL>de algo serio"
+  },
+  {
+   "key": "script:0005:0463",
+   "src": "cffba74e4fff",
+   "t": "<FACE:05>…Bueno, da igual<NL><WAIT>El caso es asegurar<NL>este sitio"
+  }
+ ]
+}

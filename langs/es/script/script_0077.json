@@ -1,0 +1,340 @@
+{
+ "part": "script/script_0077",
+ "entries": [
+  {
+   "key": "script:0077:0953",
+   "src": "51bb7512663f",
+   "t": "<FACE:00>Mistral desapareció…<NL><WAIT>¿Qué es lo que está<NL>a punto de pasar?"
+  },
+  {
+   "key": "script:0077:097D",
+   "src": "9c35f5ada83f",
+   "t": "<FACE:08>¡Miren afuera!"
+  },
+  {
+   "key": "script:0077:0987",
+   "src": "f9c95f636ea9",
+   "t": "<FACE:08>¡Cuántos cables hay!"
+  },
+  {
+   "key": "script:0077:0995",
+   "src": "519720b4e0e4",
+   "t": "<FACE:12>¡Los cables invaden<NL>todos los bloques!"
+  },
+  {
+   "key": "script:0077:09B2",
+   "src": "8cdce14b0cd8",
+   "t": "<FACE:10>¡Cortamos la red y van<NL>directo a cada bloque!"
+  },
+  {
+   "key": "script:0077:09E0",
+   "src": "4ca083784781",
+   "t": "<FACE:00>¿Y qué pasará con el<NL>Cluster?<WAIT><FACE:0F>Tomarán el control<NL>total del Cluster…"
+  },
+  {
+   "key": "script:0077:0A14",
+   "src": "a75c1c19fba9",
+   "t": "<FACE:10>Y entonces…<NL>no habrá cómo huir…"
+  },
+  {
+   "key": "script:0077:0A2F",
+   "src": "294429131431",
+   "t": "<FACE:08>¡¿Queeeeé?!<NL><WAIT>¿Nos quedaremos así<NL>para siempre entonces?"
+  },
+  {
+   "key": "script:0077:0A57",
+   "src": "bf42317cd6b1",
+   "t": "<FACE:0F>¡Navi!<NL><WAIT>¿En cuánto tiempo<NL>calculas que caerá?"
+  },
+  {
+   "key": "script:0077:0A76",
+   "src": "24755f53b8d1",
+   "t": "<FACE:53>Tiempo estimado hasta<NL>la toma de control:<WAIT>1 hora, 23 minutos y<NL>12 segundos,<WAIT>más o menos<NL>56 segundos."
+  },
+  {
+   "key": "script:0077:0AB3",
+   "src": "19bdda162d42",
+   "t": "<FACE:10>Hay que hacer algo<NL>en ese tiempo…"
+  },
+  {
+   "key": "script:0077:0AC7",
+   "src": "632bffddf571",
+   "t": "<FACE:01>No hay de otra:<NL>¡vamos por Mistral!<WAIT><FACE:00>Si logramos detenerlo,<NL>seguro se calma todo<WAIT><FACE:0F>Cierto…<NL><WAIT>Puede que sea mejor<NL>que quedarnos quietos…"
+  },
+  {
+   "key": "script:0077:0B2B",
+   "src": "fe74014aa959",
+   "t": "<FACE:0F>Por desgracia, de aquí<NL>no podemos ni salir."
+  },
+  {
+   "key": "script:0077:0B56",
+   "src": "6e6c1db36706",
+   "t": "<FACE:03>¡No puede ser!<NL><WAIT>¿Por qué…?"
+  },
+  {
+   "key": "script:0077:0B66",
+   "src": "94c408dd7845",
+   "t": "<FACE:0F>Bueno, observen…"
+  },
+  {
+   "key": "script:0077:0B73",
+   "src": "db387f0b7c6c",
+   "t": "<FACE:10>¡Navi!"
+  },
+  {
+   "key": "script:0077:0B79",
+   "src": "bf3829c06935",
+   "t": "<FACE:10>¡Vamos a salir fuera!<NL>¡Prepara el equipo!"
+  },
+  {
+   "key": "script:0077:0B96",
+   "src": "e8b34634d59f",
+   "t": "<FACE:53><SFX:6C>¡Por ningún motivo se<NL><DELAY:003C><DELAY:0026>permite salir fuera!<DELAY:001E><END>"
+  },
+  {
+   "key": "script:0077:0BC4",
+   "src": "ba64d6ce0800",
+   "t": "<FACE:03>¿Eh…? ¿Por qué, Navi?<NL><WAIT>¡Cómo que por ningún<NL>motivo!<WAIT><FACE:53>Mis sensores no<NL>logran identificar<WAIT>el material ni la<NL>estructura de lo que<WAIT>rodea al Cluster.<NL>No puedo predecir qué<WAIT>pasaría si alguien<NL>saliera al exterior.<WAIT>Estoy programada para<NL>no permitir que un<WAIT>humano salga a un<NL>entorno así.<WAIT>En ningún caso puedo<NL>autorizar algo que<WAIT>ponga en peligro a un<NL>ser humano."
+  },
+  {
+   "key": "script:0077:0CB0",
+   "src": "f6cbbeb4f26c",
+   "t": "<FACE:01>Pero… ¡así tú también<NL>dejarás de funcionar!"
+  },
+  {
+   "key": "script:0077:0CD5",
+   "src": "48490a6a7d47",
+   "t": "<FACE:53>Mientras yo funcione,<NL>no puedo autorizarlo."
+  },
+  {
+   "key": "script:0077:0CF8",
+   "src": "735f400f4a2c",
+   "t": "<FACE:0F>¡Es inútil, <PLAYER>!<NL>"
+  },
+  {
+   "key": "script:0077:0D02",
+   "src": "7973defdd036",
+   "t": "<FACE:0F>Proteger a los humanos<NL><WAIT>es la base misma del<NL>programa de Navi.<WAIT>¡Cambiarlo costaría<NL>meses a los expertos!"
+  },
+  {
+   "key": "script:0077:0D58",
+   "src": "af6e34157234",
+   "t": "<FACE:00>¿O sea que el programa<NL>que protege a los<WAIT>humanos nos está<NL>empujando al peligro?"
+  },
+  {
+   "key": "script:0077:0D86",
+   "src": "20a2e7127723",
+   "t": "<FACE:13>Qué descuido…<NL><WAIT>Para que la gestión<NL>fuera perfecta…<WAIT>le dejé a Navi todas<NL>las decisiones…<WAIT>Y ahora me sale el<NL>tiro por la culata…"
+  },
+  {
+   "key": "script:0077:0DDA",
+   "src": "6a1185deec82",
+   "t": "<FACE:10>Una máquina nunca va<NL>a juzgar como humano…"
+  },
+  {
+   "key": "script:0077:0E00",
+   "src": "7e2b6dae94e3",
+   "t": "<FACE:01>¿Entonces tú ya te<NL>rindes, Shiden?"
+  },
+  {
+   "key": "script:0077:0E18",
+   "src": "4a3d4ae4203f",
+   "t": "<FACE:01>¡Por más que esperemos<NL>nada va a mejorar!<WAIT><FACE:0F>Eso ya lo sé, pero…<NL><WAIT>…Sí"
+  },
+  {
+   "key": "script:0077:0E4F",
+   "src": "a3c6b2a4e83e",
+   "t": "<FACE:12>¡Espera!"
+  },
+  {
+   "key": "script:0077:0E56",
+   "src": "ceea5f61bb6d",
+   "t": "<FACE:10>¡Navi!<NL><WAIT>Si seguimos esperando<NL>así…<WAIT>¿qué va a pasar?<NL><WAIT>¡Haz una predicción!"
+  },
+  {
+   "key": "script:0077:0E82",
+   "src": "44f2f8a99461",
+   "t": "<FACE:53>Eso no puedo<NL>predecirlo…<WAIT>Nuestra situación no<NL>admite análisis alguno<WAIT>y faltan por completo<NL>datos para predecir.<WAIT><FACE:11>Sobre la situación del<NL>Cluster…<WAIT>¡Una sola cosa tiene<NL>que ser segura!<WAIT>¡Navi!!"
+  },
+  {
+   "key": "script:0077:0F03",
+   "src": "b4c2551f2f95",
+   "t": "<FACE:08>¡Ya sé! ¡Lo entendí!<NL>"
+  },
+  {
+   "key": "script:0077:0F12",
+   "src": "84e452d07430",
+   "t": "<FACE:05>En algún lugar de<NL>esta sala…<WAIT>¡debe haber un monitor<NL>de la energía!<WAIT>¡Búsquenlo todos!"
+  },
+  {
+   "key": "script:0077:0F47",
+   "src": "6dfc7f05b771",
+   "t": "<FACE:06>¿Todavía no? ¡Ay, qué<NL>lentos son!"
+  },
+  {
+   "key": "script:0077:0F5D",
+   "src": "c358ac2bce3c",
+   "t": "<FACE:0F>Quiero datos firmes;<NL>búscalos tú también."
+  },
+  {
+   "key": "script:0077:0F81",
+   "src": "4c12e7529893",
+   "t": "<FACE:0A>Revisa ese monitor"
+  },
+  {
+   "key": "script:0077:0F92",
+   "src": "0f8f5115d61e",
+   "t": "<FACE:19>Pregúntale al líder,<NL>digo yo"
+  },
+  {
+   "key": "script:0077:0FA2",
+   "src": "468f1c360a27",
+   "t": "<FACE:14>Aunque me preguntes a<NL>mí, ni idea, pues"
+  },
+  {
+   "key": "script:0077:0FB7",
+   "src": "e1b9c3fe9e9c",
+   "t": "<FACE:04>¿Eh?<NL><WAIT>¡La energía está<NL>bajando!<WAIT>Las funciones caen<NL>más y más…"
+  },
+  {
+   "key": "script:0077:0FE8",
+   "src": "0af28175684b",
+   "t": "<FACE:03>¡Dice que así, en unos<NL>3 días, todo se apaga!"
+  },
+  {
+   "key": "script:0077:100D",
+   "src": "9248192164a0",
+   "t": "<FACE:0F>Encerrados…<NL><WAIT>En un Cluster sin<NL>paneles solares…<WAIT>lo que aguanta el<NL>soporte de vida es…<WAIT>3 días…<NL><WAIT>O sea, si dejamos así<NL>las cosas…<WAIT>¡en 3 días estaremos<NL>en peligro seguro!"
+  },
+  {
+   "key": "script:0077:1090",
+   "src": "f9b6cd1d767f",
+   "t": "<FACE:53>Así es, tiene razón.<NL><WAIT>Pero…<NL><WAIT>Enviarlos a un<NL>entorno impredecible<WAIT>sigue siendo igual de<NL>peligroso."
+  },
+  {
+   "key": "script:0077:10D7",
+   "src": "c2b2508b1f6f",
+   "t": "<FACE:06>¡Si eso trae otro<NL>peligro, no sirve!<WAIT><FACE:53>Pero si salen fuera…<NL><WAIT>la posibilidad de que<NL>mejore es casi cero."
+  },
+  {
+   "key": "script:0077:1135",
+   "src": "a000742af49c",
+   "t": "<FACE:00>¡Pero no es cero!<NL><WAIT>¡Si no es cero, vale<NL>la pena intentarlo!<WAIT>¡Yo quiero ver lo que<NL>hay afuera!<WAIT>¡Aunque haya peligro,<NL>no me quedo sin saber!<WAIT><FACE:01>Si no hago lo que<NL>puedo y pasa algo…<WAIT>¡seguro me arrepiento!<NL><WAIT>¡Y eso sí que no!"
+  },
+  {
+   "key": "script:0077:11CA",
+   "src": "7b6ad25441bc",
+   "t": "<FACE:53>¡Yo también quisiera<NL>probar a sobrevivir!<WAIT>¡Pero no puedo violar<NL>una prohibición total!<WAIT>Enviar humanos a una<NL>situación desconocida…"
+  },
+  {
+   "key": "script:0077:122F",
+   "src": "3a1be56b93f3",
+   "t": "<FACE:01>¡Justo porque no se<NL>sabe quiero verlo!<WAIT>Si solo dices «qué<NL>raro», ¡raro seguirá!<WAIT>¡Hay que lanzarse<NL>aunque duela!<WAIT>Quedarme mirando en<NL>silencio…<WAIT>y esperar el final sin<NL>hacer nada, ¡no puedo!"
+  },
+  {
+   "key": "script:0077:129A",
+   "src": "1d934be45bf3",
+   "t": "<FACE:0F>Navi, aunque acabe<NL>todo igual…<WAIT>Aunque salga peor, a<NL>veces vale el camino<WAIT>Los humanos tenemos<NL>eso: la «curiosidad»<WAIT>y nada en el mundo<NL>puede detenerla<WAIT><FACE:13>Cuando te creé, olvidé<NL>enseñarte eso…"
+  },
+  {
+   "key": "script:0077:1335",
+   "src": "d6e554d2f676",
+   "t": "<FACE:22>Navi…<NL><WAIT>Aquella vez usted me<NL>dijo algo, ¿recuerda…?<WAIT>Que el ser humano<NL>cambia y progresa…"
+  },
+  {
+   "key": "script:0077:1371",
+   "src": "e06ad4928f78",
+   "t": "<FACE:53>Envidio al ser humano,<NL>que no deja de cambiar<WAIT>Pero usted es humano:<NL>¿por qué no cambia?"
+  },
+  {
+   "key": "script:0077:13C2",
+   "src": "0bd58cf39952",
+   "t": "<FACE:22>¡Esas palabras me<NL>cambiaron hasta a mí!"
+  },
+  {
+   "key": "script:0077:13F1",
+   "src": "cfa0d2611242",
+   "t": "<FACE:22>¡Ahora le toca a<NL>usted, Navi: cámbiese!"
+  },
+  {
+   "key": "script:0077:1414",
+   "src": "b96c0c893377",
+   "t": "<FACE:53>Entendido…<NL><WAIT>Redefiniendo prioridad<NL>ante lo desconocido…"
+  },
+  {
+   "key": "script:0077:144B",
+   "src": "1271024f376f",
+   "t": "<FACE:53>Salir al exterior…<NL><DELAY:0078><DELAY:0014><CLEAR>"
+  },
+  {
+   "key": "script:0077:146F",
+   "src": "1cdb70da736c",
+   "t": "<FACE:02>¡Bieeeen!<WAIT><FACE:07>¡Se puede razonar<NL>contigo!<WAIT><FACE:53>Eso sí, yo los<NL>acompañaré."
+  },
+  {
+   "key": "script:0077:1499",
+   "src": "cd7e498520a2",
+   "t": "<FACE:03>¡¿Acompañarnos?!<WAIT><FACE:53>Bueno, yo…<NL><WAIT>Los acompañará un<NL>Medabot que yo manejo.<WAIT>A través de él me<NL>comunicaré con ustedes<WAIT><FACE:00>¿Un Medabot?"
+  },
+  {
+   "key": "script:0077:14FE",
+   "src": "97fb31217e92",
+   "t": "<FACE:53><SFX:6E>Del Bloque Computadora<NL><DELAY:0078><DELAY:000A>Medabot Navegador<DELAY:0078><DELAY:0008><CLEAR>"
+  },
+  {
+   "key": "script:0077:156E",
+   "src": "1b418cac21fb",
+   "t": "<FACE:08>¡¿Qué?!<NL>¿Este es el Medabot?<WAIT><FACE:07>¡Qué liiindo!"
+  },
+  {
+   "key": "script:0077:1589",
+   "src": "ed713a6aba95",
+   "t": "<FACE:0F>Un momento, Navi…<NL>Ese bloque…<WAIT>¿tenía función de<NL>desarrollo?"
+  },
+  {
+   "key": "script:0077:15B4",
+   "src": "56cffb9edfdf",
+   "t": "<FACE:53>La verdad, el corazón<NL>humano me intrigaba…<WAIT>En secreto intentaba<NL>comprender el corazón<WAIT>humano, y seguí<NL>investigando…<WAIT>Sobre todo el Medabot,<NL>que atrapa el corazón<WAIT>de los niños y no lo<NL>suelta…<WAIT>Es máquina igual que<NL>yo: ¿por qué difiere?<WAIT>Quise resolver ese<NL>enigma…"
+  },
+  {
+   "key": "script:0077:1666",
+   "src": "1cbebb14df97",
+   "t": "<FACE:05>¿O sea que te hiciste<NL>un Medabot enlazado?<WAIT><FACE:53>Así es…<NL><WAIT>Pero no encontraba el<NL>motivo para activarlo…<WAIT>Salvo que llegara una<NL>ocasión como esta…"
+  },
+  {
+   "key": "script:0077:16D7",
+   "src": "ebdba69eecc8",
+   "t": "<FACE:0F>Ya, pero…<NL>para empezar, fabricar<WAIT>un Medabot por tu<NL>cuenta ya es…"
+  },
+  {
+   "key": "script:0077:16FD",
+   "src": "4da0b4c4dccc",
+   "t": "<FACE:02>Déjalo ya, Shiden.<NL>Ya nos dejó salir…"
+  },
+  {
+   "key": "script:0077:1724",
+   "src": "3222115007d1",
+   "t": "<FACE:02>Y además, este<NL>Medabot…<WAIT>parece tener buen<NL>rendimiento…"
+  },
+  {
+   "key": "script:0077:174A",
+   "src": "f47242987c6b",
+   "t": "<FACE:22>…"
+  },
+  {
+   "key": "script:0077:1750",
+   "src": "a195a2a59aca",
+   "t": "<FACE:01>¡Ahora no hay tiempo<NL>de ir a otro lado!"
+  },
+  {
+   "key": "script:0077:176B",
+   "src": "05cac7d95cab",
+   "t": "<FACE:56><SFX:6F>Mucho gusto<DELAY:003C><DELAY:0035><NL>Soy Navico<DELAY:003C><END>"
+  },
+  {
+   "key": "script:0077:1785",
+   "src": "c12eb99a614d",
+   "t": "<FACE:54>¡Navico se unió<NL>al equipo!"
+  }
+ ]
+}

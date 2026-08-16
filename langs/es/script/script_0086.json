@@ -1,0 +1,20 @@
+{
+ "part": "script/script_0086",
+ "entries": [
+  {
+   "key": "script:0086:085D",
+   "src": "f7db6beb91a7",
+   "t": "<FACE:00>Hay que ver qué hay<NL>más adelante…"
+  },
+  {
+   "key": "script:0086:0877",
+   "src": "991032f1b118",
+   "t": "<FACE:01>«¡Hay que tostarlo<NL>bien doradito!»<WAIT><FACE:02>…era broma"
+  },
+  {
+   "key": "script:0086:0899",
+   "src": "81def32d0a00",
+   "t": "<FACE:03>¡Ah! ¿¡Se me quemó<NL>el brazo!?"
+  }
+ ]
+}

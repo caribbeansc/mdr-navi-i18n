@@ -1,0 +1,105 @@
+{
+ "part": "script/script_0154",
+ "entries": [
+  {
+   "key": "script:0154:02C8",
+   "src": "4a07d1df5708",
+   "t": "<FACE:95>¡Ah! ¡Ahí viene!<NL>¡Es ese, ese!"
+  },
+  {
+   "key": "script:0154:02DB",
+   "src": "524e3eaec52a",
+   "t": "<FACE:95>¡Oye, tú!<WAIT>¡Me las vas a pagar<NL>por lo de hace rato!"
+  },
+  {
+   "key": "script:0154:0302",
+   "src": "41ee7085be3e",
+   "t": "<FACE:91>¿Qué pasa, Kikuhime?<WAIT>¿Otra vez nos llamas<NL>a robobatallar?"
+  },
+  {
+   "key": "script:0154:032C",
+   "src": "388f5d1dbd6d",
+   "t": "<FACE:92>Bueno, ya me lo<NL>imaginaba…<WAIT><FACE:91>Ya deja de usar a la<NL>gente así…"
+  },
+  {
+   "key": "script:0154:035F",
+   "src": "55f2a1bde6e9",
+   "t": "<FACE:00>Oye, ¿eres el famoso<NL>medaguerrero Ikki?<WAIT><FACE:91>¿Eh? ¿Famoso?"
+  },
+  {
+   "key": "script:0154:038D",
+   "src": "23574e5b7aea",
+   "t": "<FACE:91>No, qué va…<NL>¿famoso yo…?<WAIT><FACE:00>Quiero preguntarte<NL>algo… Tú eres…"
+  },
+  {
+   "key": "script:0154:03C0",
+   "src": "24efd6fccf91",
+   "t": "<FACE:95>¡Oye! ¿Qué tanto<NL>charlan, eh?<WAIT>¡Vámonos ya a la<NL>robobatalla!<WAIT><FACE:91>Eh… pero es que<NL>él quiere hablarme…"
+  },
+  {
+   "key": "script:0154:0409",
+   "src": "77006507ddb1",
+   "t": "<FACE:95>¡Qué fastidio!<NL>Metí a Ikki al equipo<WAIT>creyendo que así las<NL>batallas irían bien<WAIT>¡Y me salió el tiro<NL>por la culata!"
+  },
+  {
+   "key": "script:0154:0448",
+   "src": "3ee006c88821",
+   "t": "<FACE:95>…En cambio tú<WAIT>¡Sí que tienes buena<NL>mano, eh!<WAIT>A veces podría hacer<NL>equipo contigo, ¿eh?"
+  },
+  {
+   "key": "script:0154:048C",
+   "src": "457007bf8818",
+   "t": "<FACE:03>¿Eh? No, eso da igual…<NL>Yo venía por Ikki…"
+  },
+  {
+   "key": "script:0154:04AF",
+   "src": "200e000fd3d4",
+   "t": "<FACE:95>¡Ni hablar, ese tipo!<NL>¡Es un inútil total!"
+  },
+  {
+   "key": "script:0154:04C9",
+   "src": "181a34e35a27",
+   "t": "<FACE:95>Déjalo y llámanos a<NL>nosotros cuando sea<WAIT>¡Nos vemos!"
+  },
+  {
+   "key": "script:0154:04E9",
+   "src": "96afc0f795b7",
+   "t": "<FACE:96>¡Ah! ¡Espere…!<NL>¿¡Jefaaaaa!?"
+  },
+  {
+   "key": "script:0154:04FF",
+   "src": "e3c6c14ef9ff",
+   "t": "<FACE:03>¡Ah!"
+  },
+  {
+   "key": "script:0154:0504",
+   "src": "aecd58001db9",
+   "t": "<FACE:00>¡Oye, Ikki!<NL>¿Tú y un tal Shiden…?<WAIT><FACE:91>No puede ser… perder<NL>así de fácil…"
+  },
+  {
+   "key": "script:0154:0543",
+   "src": "5bb46369ece1",
+   "t": "<FACE:03>¡No fue tan fácil!<NL>Estuvo bien peleado…"
+  },
+  {
+   "key": "script:0154:0565",
+   "src": "b91eb77c076f",
+   "t": "<FACE:91>¡Basta de consuelos!"
+  },
+  {
+   "key": "script:0154:0577",
+   "src": "f936e6378e6f",
+   "t": "<FACE:92>¡Ah! ¡Espera, Ikkiii!"
+  },
+  {
+   "key": "script:0154:0588",
+   "src": "e6546b330a24",
+   "t": "<FACE:04>Solo venía a entregar<NL>un paquete…<WAIT>…y acabé contra unos<NL>niños de primaria…<WAIT>¿Qué estoy haciendo…?"
+  },
+  {
+   "key": "script:0154:05C4",
+   "src": "8df8f3ecbb8e",
+   "t": "<FACE:95>¡Kikuhime se unió<NL>al equipo!<WAIT><FACE:96>¡Iwanoi se unió<NL>al equipo!<WAIT><FACE:97>¡Kagamiyama se unió<NL>al equipo!"
+  }
+ ]
+}

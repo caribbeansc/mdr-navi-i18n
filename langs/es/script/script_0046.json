@@ -1,0 +1,385 @@
+{
+ "part": "script/script_0046",
+ "entries": [
+  {
+   "key": "script:0046:0B1C",
+   "src": "f7c052c7f4f6",
+   "t": "<FACE:03>¡¿Pe… pero qué?!<NL><WAIT>¿Mi Medalla está<NL>resonando con algo…?"
+  },
+  {
+   "key": "script:0046:0B43",
+   "src": "422ace3df4ec",
+   "t": "<FACE:12>(No puede ser…<DELAY:001E> no…)<NL><WAIT>(Aún no debería<NL>poder moverse…)"
+  },
+  {
+   "key": "script:0046:0B6A",
+   "src": "a6e5e08a147a",
+   "t": "<FACE:00>¿Qué te pasa, Shiden?<NL>Te ves pálido…"
+  },
+  {
+   "key": "script:0046:0B84",
+   "src": "bb5c772b9797",
+   "t": "<FACE:08>¡Miren esto!<NL><WAIT>¡¿No es la «Power<NL>Stone GX» del<WAIT>programa nocturno<NL>de televentas?!"
+  },
+  {
+   "key": "script:0046:0BBB",
+   "src": "4b0377b2c99c",
+   "t": "<FACE:03>¡Cuidado, Hiyori!<NL>Puede ser su trampa…"
+  },
+  {
+   "key": "script:0046:0BD4",
+   "src": "71177ebbe04c",
+   "t": "<FACE:03>¡Rayos! ¡Shiden!"
+  },
+  {
+   "key": "script:0046:0BE1",
+   "src": "fc36e51b9756",
+   "t": "<FACE:06>¡Aaaah! ¡La del suelo<NL>también es falsa!"
+  },
+  {
+   "key": "script:0046:0BFC",
+   "src": "fab1b840e2d1",
+   "t": "<FACE:06>¡Qué trampa tan<NL>ingeniosa!"
+  },
+  {
+   "key": "script:0046:0C0F",
+   "src": "46c02567a6d9",
+   "t": "<FACE:04>¿Ingeniosa…?"
+  },
+  {
+   "key": "script:0046:0C1A",
+   "src": "8017dc16a7d6",
+   "t": "<FACE:00>Pero sabían muy bien<NL>que Hiyori es<WAIT>fanática de las<NL>televentas…"
+  },
+  {
+   "key": "script:0046:0C3F",
+   "src": "42ae2a6755f1",
+   "t": "<FACE:06>¡¿A quién le dices<NL>fanática?!<WAIT><FACE:05>Pero sí que es raro…<NL><WAIT>¡No hay tiempo<NL>para esto!<WAIT>¡Alcancémoslos,<NL>rápido!"
+  },
+  {
+   "key": "script:0046:0C86",
+   "src": "91a4751d272b",
+   "t": "<FACE:7D>¡Hallamos un Medabot<NL>súper genial-robo!<WAIT>¡Pero solo gruñe y no<NL>se mueve nadita-robo!<WAIT>¡¿Tú sí podrás<NL>moverlo-robo?!"
+  },
+  {
+   "key": "script:0046:0CD4",
+   "src": "f0fcf18ed49f",
+   "t": "<FACE:28>¡Fuajajaja! ¡Usted<NL>es el presidente<WAIT>de la compañía RR!<WAIT>¡Ya lo investigamos<NL>todo!<WAIT><FACE:27>¡Díganos por las<NL>buenas cómo se<WAIT>activa ese Medabot!"
+  },
+  {
+   "key": "script:0046:0D26",
+   "src": "e391bc43ba5d",
+   "t": "<FACE:10>¡No lo sé!<NL>¡Quise hacerlo tan<WAIT>poderoso que ninguna<NL>Medalla normal puede<WAIT>moverlo!<NL>¡Es un fracaso!"
+  },
+  {
+   "key": "script:0046:0D63",
+   "src": "75ce6feeacf1",
+   "t": "<FACE:10>Es la primera vez<NL>que lo oigo<WAIT>gruñir así…"
+  },
+  {
+   "key": "script:0046:0D86",
+   "src": "be4eb0746350",
+   "t": "<FACE:01>¡Oigan, ustedes!<NL><WAIT>¡Suelten a Shiden!"
+  },
+  {
+   "key": "script:0046:0D9E",
+   "src": "1fcbf5be3bc3",
+   "t": "<FACE:03>¡¿Eeeh?!<NL><WAIT>¡O<DELAY:0014> otra vez!<NL><WAIT>Otra vez ese gruñido…"
+  },
+  {
+   "key": "script:0046:0DBE",
+   "src": "85ec025d01a9",
+   "t": "<FACE:27>Vaya, vaya…<NL>La Medalla de ese<WAIT>chico tiene algo<NL>que ver…"
+  },
+  {
+   "key": "script:0046:0DE8",
+   "src": "15a571002888",
+   "t": "<FACE:27>Otra vez ese <PLAYER>…"
+  },
+  {
+   "key": "script:0046:0DF4",
+   "src": "0ed84e98cc73",
+   "t": "<FACE:05>¿<PLAYER>?<NL>¿Cómo que otra vez…?"
+  },
+  {
+   "key": "script:0046:0E04",
+   "src": "87141b7eb0ba",
+   "t": "<FACE:27>¡Ejem!<NL><WAIT><FACE:28>Parece que la Medalla<NL>de ese muchacho<WAIT>tiene algo que ver.<NL><WAIT>¡Miembros de la banda!<NL><WAIT>¡Quítenle la Medalla<NL>como sea!"
+  },
+  {
+   "key": "script:0046:0E50",
+   "src": "fcf2a8d02acf",
+   "t": "<FACE:81>¡¿Queeé?!<NL>¿Solo nosotros-robo?<WAIT>¡Un jefe siempre<NL>dirige desde la<WAIT>primera línea-robo!"
+  },
+  {
+   "key": "script:0046:0E86",
+   "src": "7a1beb7f53f0",
+   "t": "<FACE:27>¡Ya! ¡Silencio!<NL><WAIT>¡Los jefes somos<NL>personas importantes<WAIT>y elegidas!<NL><WAIT>¡¿Qué haríamos si me<NL>pasara algo?!<WAIT>¡Desde ahora, ustedes<NL>serán el escudo<WAIT>de su jefe!<NL><WAIT>¡Yo dirigiré desde<NL>la retaguardia!"
+  },
+  {
+   "key": "script:0046:0F0D",
+   "src": "9481d508905b",
+   "t": "<FACE:06>Esa actitud tan<NL>odiosa… La conozco<WAIT>de algún lado…"
+  },
+  {
+   "key": "script:0046:0F24",
+   "src": "a3009be05bea",
+   "t": "<FACE:81>¡Aaah! ¡Se escapó<NL>él solo-robo!<WAIT>¡Qué malo-robo!<NL>¡El nuevo jefe nos<WAIT>explota mucho-roboooo!"
+  },
+  {
+   "key": "script:0046:0F61",
+   "src": "6d78d115016b",
+   "t": "<FACE:12>¡Imposible!<NL>¡Se descontroló<WAIT>por completo!<NL>¡Si su energía se<WAIT>libera, ni el Cluster<NL>lo resistirá!"
+  },
+  {
+   "key": "script:0046:0F9B",
+   "src": "b7e262d712c4",
+   "t": "<FACE:03>¡¿Por qué hiciste<NL>algo así?!"
+  },
+  {
+   "key": "script:0046:0FB1",
+   "src": "90342996b2de",
+   "t": "<FACE:01>¡Hay que detenerlo<NL>como sea!<WAIT>¡Ayúdenme todos!"
+  },
+  {
+   "key": "script:0046:0FD2",
+   "src": "e0036b9980a2",
+   "t": "<FACE:12>¿Detenerlo? ¿Y cómo?<NL><WAIT><FACE:10>¡No existe un Medabot<NL>capaz de vencerlo<WAIT>mientras esté fuera<NL>de control!<WAIT>Y aunque lo<NL>venciéramos, nada<WAIT>garantiza que se<NL>detenga…"
+  },
+  {
+   "key": "script:0046:1034",
+   "src": "fd38eab17220",
+   "t": "<FACE:01>Pero no hay otra<NL>opción, ¿no?"
+  },
+  {
+   "key": "script:0046:1045",
+   "src": "5ca4f058f20f",
+   "t": "<FACE:06>¡Así es!<NL>¡Es mejor que no<WAIT>hacer nada!<NL>Si vas a rendirte,<WAIT>quédate mirando<NL>desde tu rincón."
+  },
+  {
+   "key": "script:0046:107B",
+   "src": "faf0726140f1",
+   "t": "<FACE:05>¡Vamos, todos!<NL>¡Ayudemos a <PLAYER>!"
+  },
+  {
+   "key": "script:0046:1091",
+   "src": "82ea3bd4b57d",
+   "t": "<FACE:12>(Rendirme… Ya veo.)<NL><WAIT><FACE:13>(Nunca confié en mi<NL> propia habilidad…)<WAIT>(Siempre temí pelear<NL> hasta el final…)"
+  },
+  {
+   "key": "script:0046:10E4",
+   "src": "622bdb10e41c",
+   "t": "<FACE:0F>Es verdad… No hay<NL>otra salida.<WAIT>Es todo o nada…<NL><WAIT>¡Vamos a enfrentarlo!<NL>"
+  },
+  {
+   "key": "script:0046:111A",
+   "src": "2d02186019eb",
+   "t": "<FACE:0F>Siendo así…"
+  },
+  {
+   "key": "script:0046:1126",
+   "src": "bdb642e573c5",
+   "t": "<FACE:11>¡Es el Medabot más<NL>fuerte que he creado!<WAIT>Iba a debutarlo a lo<NL>grande en el próximo<WAIT>torneo, pero…<NL><WAIT>¡Ni modo, lo<NL>usaremos ahora!<WAIT>¡Su fuerza no se<NL>compara con nada<WAIT>de lo que han visto!"
+  },
+  {
+   "key": "script:0046:1191",
+   "src": "022d9a2544f0",
+   "t": "<FACE:15>Pues haberlo sacado<NL>antes…<WAIT><FACE:1A>¿Todavía tenía eso<NL>escondido…?"
+  },
+  {
+   "key": "script:0046:11C0",
+   "src": "45142f7685fb",
+   "t": "<FACE:05>Uf… Parece que el<NL>descontrol se detuvo."
+  },
+  {
+   "key": "script:0046:1259",
+   "src": "91fb15d8b3af",
+   "t": "<FACE:0F>Este es el sucesor<NL>del «Sonic Stag»<WAIT>que te regalé…<NL>El «Luminous Stag».<WAIT>Falló su control de<NL>balance y quedó<WAIT>inmóvil, pero con los<NL>datos de activación<WAIT>de hoy podrá<NL>controlarse.<WAIT>Desde ahora, es tuyo."
+  },
+  {
+   "key": "script:0046:12D9",
+   "src": "eecb4569054b",
+   "t": "<FACE:03>¡¿Eh?!<NL><WAIT>Pero si es lo<NL>más nuevo…<WAIT><FACE:0F>Es que parece ser<NL>el más compatible<WAIT>con tu Medalla…"
+  },
+  {
+   "key": "script:0046:130F",
+   "src": "6ba763ffee48",
+   "t": "<FACE:0F>A decir verdad,<NL>este Medabot<WAIT>usa tecnología<NL>obtenida del<WAIT>análisis de aquel<NL>Mistral.<WAIT>Dijiste que hallaste<NL>esa Medalla en una<WAIT>cueva, ¿no?<NL><WAIT>Si es así, debe tener<NL>relación con Mistral."
+  },
+  {
+   "key": "script:0046:138B",
+   "src": "11feea6af3b4",
+   "t": "<FACE:12>Quizás se despertó<NL><WAIT>porque resonó<NL>con esa Medalla…"
+  },
+  {
+   "key": "script:0046:13B5",
+   "src": "f900b518ba36",
+   "t": "<FACE:04>Mistral… Es cierto,<NL>ya no me habla…<WAIT>¿Habrá sido mi<NL>imaginación…?"
+  },
+  {
+   "key": "script:0046:13E9",
+   "src": "6304365ea917",
+   "t": "<FACE:05>¡Qué más da!<NL>¡Acéptalo y ya!"
+  },
+  {
+   "key": "script:0046:13FE",
+   "src": "7f065427ddde",
+   "t": "<FACE:06>(El jefe Sperobo<NL>de recién…)<WAIT>(Estoy segura de<NL>que era…)"
+  },
+  {
+   "key": "script:0046:1420",
+   "src": "cd5d83e32174",
+   "t": "<FACE:0D>¡Señor Shiden!"
+  },
+  {
+   "key": "script:0046:142A",
+   "src": "9328a2c8ad4c",
+   "t": "<FACE:0A>Pero la puerta…<WAIT><FACE:0E>Sin la llave de esta<NL>puerta no podemos<WAIT>entrar…"
+  },
+  {
+   "key": "script:0046:1450",
+   "src": "1b8aae881936",
+   "t": "<FACE:1F>Jujuju…<NL><WAIT>¡Se lo merece!<WAIT><FACE:1E>Desde que encontró<NL>ese Medabot,<WAIT>mi hermano vive<NL>encerrado aquí…"
+  },
+  {
+   "key": "script:0046:1493",
+   "src": "45a6af842d8a",
+   "t": "<FACE:21>Mira que dejarme<NL>de lado a mí…"
+  },
+  {
+   "key": "script:0046:14A8",
+   "src": "5c32ea0342ce",
+   "t": "<FACE:1E>¡Que se quede<NL>encerrado aquí para<WAIT>siempre, como quería!"
+  },
+  {
+   "key": "script:0046:14CD",
+   "src": "5c88ca2116ae",
+   "t": "<FACE:0A>¡Señorita Rainy!"
+  },
+  {
+   "key": "script:0046:14D7",
+   "src": "bc332bb36947",
+   "t": "<FACE:0E>Pero, señorita Rainy…<NL>Este juego de<WAIT>deshojar flores…<NL>¿Por qué siempre deja<WAIT>el último pétalo<NL>sin arrancar?<WAIT><FACE:0A>Es porque…<DELAY:001E> aún<DELAY:001E><NL>lo espera, ¿verdad?<WAIT>…Al señor Shiden…"
+  },
+  {
+   "key": "script:0046:1542",
+   "src": "33928e8c9d79",
+   "t": "<FACE:20>¡¿Qu…?!<NL><WAIT>¡¿Qué cosas dices,<NL>Fubuki?!"
+  },
+  {
+   "key": "script:0046:155A",
+   "src": "3c3fc6c2e61c",
+   "t": "<FACE:00>¡¿Y no viniste hasta<NL>aquí para ayudar<WAIT>a Shiden?!"
+  },
+  {
+   "key": "script:0046:157C",
+   "src": "0b03cadd87b6",
+   "t": "<FACE:20>…No…<NL><WAIT>…¡No es eso!<NL><WAIT>¡Vine a aplastarlos<NL>a ustedes por querer<WAIT>ayudar a mi hermano!"
+  },
+  {
+   "key": "script:0046:15B4",
+   "src": "bb10248571e2",
+   "t": "<FACE:0A>Señorita Rainy…<NL><WAIT>De nada sirve<NL>solo esperar…<WAIT>Si no da el primer<NL>paso…<DELAY:001E><WAIT>nada va a cambiar…"
+  },
+  {
+   "key": "script:0046:15F9",
+   "src": "f8a4b65edd8e",
+   "t": "<FACE:1E>¡No hables como<NL>si supieras!"
+  },
+  {
+   "key": "script:0046:160E",
+   "src": "6bd1dd7a3613",
+   "t": "<FACE:0D>¡Esta es la tarjeta<NL>de la señorita Rainy!"
+  },
+  {
+   "key": "script:0046:1621",
+   "src": "a85d890282b0",
+   "t": "<FACE:0A>¡Con esto la puerta<NL>se abrirá!"
+  },
+  {
+   "key": "script:0046:1632",
+   "src": "04e90db3bb9b",
+   "t": "<FACE:1E>¡Hmf!<NL><WAIT>¡El Medabot del fondo<NL>lleva un buen rato<WAIT>gruñendo! ¡Seguro se<NL>va a descontrolar!"
+  },
+  {
+   "key": "script:0046:166F",
+   "src": "9204eab98805",
+   "t": "<FACE:1E>Que todos…<DELAY:0014> con este<NL>Bloque…<WAIT><FACE:20>¡Ojalá queden<NL>hechos pedazos!"
+  },
+  {
+   "key": "script:0046:16A1",
+   "src": "19e11b655462",
+   "t": "<FACE:0E>Señorita Rainy…"
+  },
+  {
+   "key": "script:0046:16AC",
+   "src": "20fe506d0055",
+   "t": "<FACE:05>¡Abramos la puerta<NL>de una vez!"
+  },
+  {
+   "key": "script:0046:16C0",
+   "src": "b9b3d22edaa1",
+   "t": "<FACE:0A>Ah… sí…"
+  },
+  {
+   "key": "script:0046:16C9",
+   "src": "fdc75db0baa1",
+   "t": "<FACE:0F>Así es…<NL>Ya no lo necesito…"
+  },
+  {
+   "key": "script:0046:16DF",
+   "src": "c7430356ed5f",
+   "t": "<FACE:0F>…Oye, <PLAYER>…<NL><WAIT>Al principio, llegué<NL>a ser el número uno<WAIT>por mérito propio…<NL><WAIT>En un pequeño ranking<NL>en línea que creó<WAIT>mi propia compañía…"
+  },
+  {
+   "key": "script:0046:172C",
+   "src": "7f7c58805d02",
+   "t": "<FACE:13>Pero el ranking<NL>fue creciendo<WAIT>cada vez más<NL>y mantenerme arriba<WAIT>se volvió muy duro…<NL><WAIT>Así que…<DELAY:001E> alteré<NL>los datos…"
+  },
+  {
+   "key": "script:0046:1774",
+   "src": "ebcacc6a5225",
+   "t": "<FACE:10>Pero eso no<NL>podía durar…<WAIT>Con el torneo de mi<NL>compañía tan cerca,<WAIT>para ganar sí o sí…"
+  },
+  {
+   "key": "script:0046:17B5",
+   "src": "d27446ae496d",
+   "t": "<FACE:10>…construí esta cosa…"
+  },
+  {
+   "key": "script:0046:17C5",
+   "src": "eaa958fcd703",
+   "t": "<FACE:13>Pero fallé, y mira<NL>cómo acabó…"
+  },
+  {
+   "key": "script:0046:17D9",
+   "src": "e8d1052de33a",
+   "t": "<FACE:0F>Pero todo eso<NL>se acaba hoy."
+  },
+  {
+   "key": "script:0046:17EF",
+   "src": "fe6bf3106043",
+   "t": "<FACE:0F>Por dedicarme solo<NL>a esto, descuidé<WAIT>mucho a Rainy…"
+  },
+  {
+   "key": "script:0046:180B",
+   "src": "1e810115e697",
+   "t": "<FACE:0A>¡Ah, por cierto!<NL>¡Hace poco vimos a<WAIT>la señorita Rainy!"
+  },
+  {
+   "key": "script:0046:1828",
+   "src": "c18b4778ddc2",
+   "t": "<FACE:12>Ya veo…"
+  },
+  {
+   "key": "script:0046:1830",
+   "src": "1f526243a119",
+   "t": "<FACE:13>Seguro que ella<NL>me guarda rencor…"
+  },
+  {
+   "key": "script:0046:184B",
+   "src": "8bd042bf4ed3",
+   "t": "<FACE:08>¡Oigan! ¡Ese Medabot<NL>se mueve cada vez<WAIT>más violento!"
+  }
+ ]
+}

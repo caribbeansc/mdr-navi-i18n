@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0053",
+ "entries": [
+  {
+   "key": "script:0053:0504",
+   "src": "884a33b851da",
+   "t": "<FACE:03>¡Aaah! ¿Qué es esto?"
+  },
+  {
+   "key": "script:0053:0513",
+   "src": "3c6f5b0c73e3",
+   "t": "<FACE:1C>¡Talaron los árboles<NL>y ya solo hay troncos!"
+  },
+  {
+   "key": "script:0053:0537",
+   "src": "267a90b7dbd0",
+   "t": "<FACE:0A>Seguro esos tipos los<NL>tiraron para pararnos…"
+  },
+  {
+   "key": "script:0053:0558",
+   "src": "8750edbf993c",
+   "t": "<FACE:75>Cof… cof… ¿De verdad<NL>no van a poder pasar…?<WAIT><FACE:7D>¡Claro-robo!<NL>¡Ya está difícil-robo!<WAIT><FACE:75>¿Difícil? …cof…<NL><WAIT>Dije que lo dejaran<NL>totalmente cerrado…"
+  },
+  {
+   "key": "script:0053:05D7",
+   "src": "352c0e26d741",
+   "t": "<FACE:7D>¡Pero así nosotros<NL>no volvemos-robo!"
+  },
+  {
+   "key": "script:0053:05F0",
+   "src": "8d286efe2601",
+   "t": "<FACE:77>¡Idiotas!!<NL>¡Cof cof cof!<WAIT><FACE:75>…El plan ya está cerca<NL><WAIT>En fin, ¡con frenarlos<NL>a esos basta! Cof…"
+  },
+  {
+   "key": "script:0053:063A",
+   "src": "8daf122a25e7",
+   "t": "<FACE:77>Cof… rápido… que no<NL>puedan llegar acá…<WAIT>Háganlo antes de que<NL>lleguen… rápido… cof"
+  },
+  {
+   "key": "script:0053:068D",
+   "src": "5c92d508a996",
+   "t": "<FACE:7D>¡Entendido-robo!<NL><WAIT>¡Tranquilo-robo!<NL><WAIT>Lo enredamos tanto que<NL>llegar hasta acá<WAIT>¡les va a tomar<NL>un buen rato-robo!"
+  },
+  {
+   "key": "script:0053:06D7",
+   "src": "c4552b825081",
+   "t": "<FACE:75>Mmm… ya veo…<NL>Eso pensé… cof…"
+  },
+  {
+   "key": "script:0053:06F3",
+   "src": "00aea82a5444",
+   "t": "<FACE:00>¿Eh? ¿Aquí se acaba?<NL>Resultó bien simple…"
+  },
+  {
+   "key": "script:0053:0718",
+   "src": "4de677d4b897",
+   "t": "<FACE:77>Coof… cof cof cof…<NL>"
+  },
+  {
+   "key": "script:0053:072B",
+   "src": "a77022fca3d6",
+   "t": "<FACE:77>U… ¡ustedeees!! …cof"
+  },
+  {
+   "key": "script:0053:0743",
+   "src": "e7762fe375f8",
+   "t": "<FACE:03>¡Ah, es Smog, el jefe<NL>enfermizo!<WAIT><FACE:01>¡Tú serás mi rival!"
+  },
+  {
+   "key": "script:0053:0768",
+   "src": "5998cf89227a",
+   "t": "<FACE:77>Cof… ¿a quién enfer…<NL>…Ni modo… ¡pelearé!"
+  },
+  {
+   "key": "script:0053:079A",
+   "src": "9581deb20e90",
+   "t": "<FACE:77>Cof… uggh…<NL><WAIT>Por su culpa… suelto<NL>este bloque así nomás…<WAIT>De castigo… cof… se<NL>quedan sin almuerzo…"
+  },
+  {
+   "key": "script:0053:07EC",
+   "src": "a4eadef14306",
+   "t": "<FACE:81>¡Lo sentimos-robo!<NL>"
+  },
+  {
+   "key": "script:0053:07FA",
+   "src": "fe7740f6254d",
+   "t": "<FACE:81>¡Tenga piedad-robo!"
+  },
+  {
+   "key": "script:0053:080B",
+   "src": "d53c8dcb4cb2",
+   "t": "<FACE:04>Sigue dando lástima…<NL>"
+  },
+  {
+   "key": "script:0053:0821",
+   "src": "42c9cca99c1c",
+   "t": "<FACE:00>No podemos dejarlo<NL>así nomás"
+  },
+  {
+   "key": "script:0053:0839",
+   "src": "09fa8d6b6975",
+   "t": "<FACE:05>Parece que se puede<NL>pasar por los troncos"
+  },
+  {
+   "key": "script:0053:084A",
+   "src": "d13b3e8c4d2e",
+   "t": "<FACE:0A>Los tipos están más<NL>adelante, ¿no?"
+  },
+  {
+   "key": "script:0053:085D",
+   "src": "9059f6f661fa",
+   "t": "<FACE:19>A mí no me pregunten,<NL>yo no sé nada"
+  },
+  {
+   "key": "script:0053:0874",
+   "src": "00b662a89fab",
+   "t": "<FACE:14>Parece que sí podemos<NL>seguir adelante"
+  }
+ ]
+}

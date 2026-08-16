@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0079",
+ "entries": [
+  {
+   "key": "script:0079:0526",
+   "src": "961394dab798",
+   "t": "<FACE:00>Ya quedó claro que<NL>no habrá avalanchas<WAIT>así que ya no habrá<NL>concurso de gritos…"
+  },
+  {
+   "key": "script:0079:0562",
+   "src": "e38fbf06f962",
+   "t": "<FACE:7D>¡Uooooooooh-robo!"
+  },
+  {
+   "key": "script:0079:0573",
+   "src": "f44de800a193",
+   "t": "<FACE:00>Esos tipos… ¿otra vez?"
+  },
+  {
+   "key": "script:0079:0582",
+   "src": "aa5ac9ce8101",
+   "t": "<FACE:7D>Fuuuuuu…<NL>…Está firme-robo<WAIT>Desarmar esto va a<NL>llevar rato-robo"
+  },
+  {
+   "key": "script:0079:05B6",
+   "src": "350dc5108035",
+   "t": "<FACE:01>¡Oigan!<NL><WAIT>¡¿No irán a provocar<NL>otra avalancha?!<WAIT><FACE:7D>¡Nada de eso-robo!<NL><WAIT>El jefe Nyuudou dijo<NL>que un montañés nunca<WAIT>deja basura, ¡así que<NL>limpiamos todo-robo!"
+  },
+  {
+   "key": "script:0079:0621",
+   "src": "a5711a1d0b9c",
+   "t": "<FACE:00>¡Ah, con que era eso!<NL><WAIT>Entonces, al terminar,<NL>¿nos dan el bloque?"
+  },
+  {
+   "key": "script:0079:064F",
+   "src": "a75bb1f47d39",
+   "t": "<FACE:7D>…¡Eso es-robo!<NL><WAIT>¡Así que ayuda tú<NL>también-robo!"
+  },
+  {
+   "key": "script:0079:066B",
+   "src": "5430df6f4a45",
+   "t": "<FACE:02>Sí, ya entend…"
+  },
+  {
+   "key": "script:0079:0676",
+   "src": "b85c733c5533",
+   "t": "<FACE:06>¡Nada de eso, obvio!"
+  },
+  {
+   "key": "script:0079:0684",
+   "src": "344bac0fb797",
+   "t": "<FACE:06>¡Oigan, ustedes!<NL>¡A robobatallar ya!<WAIT><FACE:7E>Tsk-robo…<NL>"
+  },
+  {
+   "key": "script:0079:06A9",
+   "src": "683a47160ac0",
+   "t": "<FACE:7D>Si no limpiamos esto<NL>Nyuudou se enoja-robo<WAIT>¡Lo recuperaremos sin<NL>falta-robo!<NL>"
+  },
+  {
+   "key": "script:0079:06DB",
+   "src": "842d4cd3993e",
+   "t": "<FACE:00>Tengo que ver qué<NL>están haciendo"
+  },
+  {
+   "key": "script:0079:06F2",
+   "src": "212d7a358b9b",
+   "t": "<FACE:00>No es momento para<NL>eso ahora<WAIT>Tengo que ver qué<NL>están haciendo"
+  }
+ ]
+}

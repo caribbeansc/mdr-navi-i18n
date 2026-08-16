@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0009",
+ "entries": [
+  {
+   "key": "script:0009:027C",
+   "src": "d4d231baa792",
+   "t": "<FACE:7D>¡Mira-robo!<NL>¡¡Mira esto-robo!!"
+  },
+  {
+   "key": "script:0009:028D",
+   "src": "337cdc2ff2e1",
+   "t": "<FACE:7D>¿Qué pasa-robo?<NL><WAIT>¡Una carta del Jefe de<NL>Mar, Sekiran-robo!"
+  },
+  {
+   "key": "script:0009:02AE",
+   "src": "97db473a9d2e",
+   "t": "<FACE:80>¡Sekiran manda en el<NL>bloque vecino-robo!<WAIT>¡Hasta a unos inútiles<NL>como nosotros-robo…<WAIT>¡Nos van a ascender a<NL>jefes por fin-robo!"
+  },
+  {
+   "key": "script:0009:02FC",
+   "src": "4a95c5438158",
+   "t": "<FACE:7D>¡Léela ya-robo!"
+  },
+  {
+   "key": "script:0009:0308",
+   "src": "08cc1c28ecec",
+   "t": "<FACE:7D>Eeeh, ¿qué dice?<NL><WAIT>«Estimados miembros<NL>del bloque vecino…»"
+  },
+  {
+   "key": "script:0009:0330",
+   "src": "f75adb0ce794",
+   "t": "<FACE:80>¡¿«Estimados»-robo?!<NL>¡Nos hablan de usted!<WAIT>¡Con respeto-robo!<NL>"
+  },
+  {
+   "key": "script:0009:0356",
+   "src": "1e59ed36fa27",
+   "t": "<FACE:7D>¡Es nuestra hora-robo!<NL>¡Nuestra horaaa-robo!<WAIT>¡Sigue leyendo-robo!<NL>"
+  },
+  {
+   "key": "script:0009:037A",
+   "src": "ac4828a407e0",
+   "t": "<FACE:57>«¡Qué escándalo hacen<NL>ustedes, oigan!<WAIT>¡Robo-robo hasta la<NL>madrugada, cada noche!<WAIT>¡Se oye en mi bloque!<NL>¡Duermo por belleza!<WAIT>¡Ni una palabra!<NL>¡Ni respiren, oyeron!»"
+  },
+  {
+   "key": "script:0009:03F2",
+   "src": "4987d2d3d14c",
+   "t": "<FACE:7D>Qué… qué cruel-robo…"
+  },
+  {
+   "key": "script:0009:0402",
+   "src": "ae3e8d6d7135",
+   "t": "<FACE:00>¿Eh?<NL>Hoy están más tristes…"
+  },
+  {
+   "key": "script:0009:041C",
+   "src": "231da859f25a",
+   "t": "<FACE:7E>¡Nuestra pena la van<NL>a pagar ustedes-robo!"
+  },
+  {
+   "key": "script:0009:0435",
+   "src": "446a837afe9d",
+   "t": "<FACE:7D>Je je je… Qué alivio<NL>perder… ¡Adiós-robo!"
+  },
+  {
+   "key": "script:0009:045F",
+   "src": "ec4da681035f",
+   "t": "<FACE:00>Cada quien su drama…"
+  }
+ ]
+}

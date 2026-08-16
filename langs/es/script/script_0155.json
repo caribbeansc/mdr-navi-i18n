@@ -1,0 +1,195 @@
+{
+ "part": "script/script_0155",
+ "entries": [
+  {
+   "key": "script:0155:0440",
+   "src": "0efcd2b6912d",
+   "t": "<FACE:00>¡Ah! ¡Por fin te veo!<NL>¡Te buscaba, Ikki!<WAIT>Quería hablarte…"
+  },
+  {
+   "key": "script:0155:0468",
+   "src": "f4031dec06dc",
+   "t": "<FACE:91>¡Ah! ¿Eres <PLAYER>?<NL>Perdón por lo de antes<WAIT>Hacía mucho que nadie<NL>me ganaba así de bien<WAIT>Me alteré un poco…<WAIT><FACE:00>Ya veo… A mí perder<NL>también me deja mal…<WAIT>…Oye, ¿y cómo sabes<NL>mi nombre?"
+  },
+  {
+   "key": "script:0155:04F3",
+   "src": "c9daffe95236",
+   "t": "<FACE:91>El Dr. Medabot me<NL>contó lo que pasó aquí<WAIT>¡Eres todo un héroe!"
+  },
+  {
+   "key": "script:0155:052F",
+   "src": "2ba894af4fe0",
+   "t": "<FACE:02>Qué va, no fue para<NL>tanto…<WAIT>Con Shiden, Navico…<WAIT><FACE:00>Fue cosa de todos…<NL>¡Ah, cierto!<NL>"
+  },
+  {
+   "key": "script:0155:0563",
+   "src": "321a7e68a9c8",
+   "t": "<FACE:00>Los que están aquí,<NL>¿son tus compañeros?<WAIT><FACE:91>¡Ah, es verdad!<NL>"
+  },
+  {
+   "key": "script:0155:058A",
+   "src": "52ca9999ba4b",
+   "t": "<FACE:91>Te presento a mis<NL>amigos medaguerreros…<WAIT>Koji"
+  },
+  {
+   "key": "script:0155:05AA",
+   "src": "993559708db0",
+   "t": "<FACE:94>¿Y este tipo es un<NL>medaguerrero fuerte?<WAIT>Pues no lo parece…"
+  },
+  {
+   "key": "script:0155:05D4",
+   "src": "0816761e8ae1",
+   "t": "<FACE:93>¡Ay, vaya! Las<NL>apariencias engañan"
+  },
+  {
+   "key": "script:0155:05ED",
+   "src": "b936cbaec1ac",
+   "t": "<FACE:92>Ikki últimamente<NL>andaba muy creído,<WAIT>así que perder le<NL>sirvió de lección"
+  },
+  {
+   "key": "script:0155:061D",
+   "src": "a5ead295b1e0",
+   "t": "<FACE:91>La formal es Karin…<NL>Ya conociste a Erika"
+  },
+  {
+   "key": "script:0155:0646",
+   "src": "5f609fba3678",
+   "t": "<FACE:92>¿Qué? ¿Insinúas que<NL>yo no soy delicada?"
+  },
+  {
+   "key": "script:0155:0668",
+   "src": "f612d5aea71c",
+   "t": "<FACE:91>Y este señor es… eh…"
+  },
+  {
+   "key": "script:0155:067A",
+   "src": "99de3e3cb973",
+   "t": "<FACE:9D>¡Ju ja ja ja! ¡Aquí<NL>el Ladrón Fantasma!!"
+  },
+  {
+   "key": "script:0155:0699",
+   "src": "adbd23f780ff",
+   "t": "<FACE:03>I-Ikki… ¿¡y esto!?"
+  },
+  {
+   "key": "script:0155:06AD",
+   "src": "a457cee56f98",
+   "t": "<FACE:91>Les conté a todos<NL>de la robobatalla<WAIT>y a todos les picó la<NL>curiosidad…"
+  },
+  {
+   "key": "script:0155:06DF",
+   "src": "8a54e96038d1",
+   "t": "<FACE:91><PLAYER>, si quieres…<NL><WAIT>¿robobatallarías otra<NL>vez conmigo?<WAIT>¡Creo que ahora te doy<NL>más pelea que antes!"
+  },
+  {
+   "key": "script:0155:0721",
+   "src": "4619e52bc5e5",
+   "t": "<FACE:00>¿Más pelea? ¡Qué va!<NL><WAIT>¡Si ustedes son<NL>medaguerreros famosos!<WAIT>¡El gusto es mío!<NL>¡Hagámoslo!"
+  },
+  {
+   "key": "script:0155:075D",
+   "src": "307e5ccc570e",
+   "t": "<FACE:04>…¿Ikki?"
+  },
+  {
+   "key": "script:0155:0768",
+   "src": "edb7502b982a",
+   "t": "<FACE:91>¡Aaah, qué desahogo!"
+  },
+  {
+   "key": "script:0155:0779",
+   "src": "615ad4ae77f2",
+   "t": "<FACE:91>¡Aún quedan por ahí<NL>medaguerreros fuertes!"
+  },
+  {
+   "key": "script:0155:079E",
+   "src": "339cfa65aa64",
+   "t": "<FACE:91>¡Qué profundo es esto!"
+  },
+  {
+   "key": "script:0155:07B6",
+   "src": "e12dc25b370c",
+   "t": "<FACE:91>Cuando quieras otra<NL>robobatalla, ¡llámame!<WAIT>¡Y ahora, como amigos!<WAIT><FACE:04>Ah… sí…"
+  },
+  {
+   "key": "script:0155:07EC",
+   "src": "45d90a1be219",
+   "t": "<FACE:91>¡Nos vemos!"
+  },
+  {
+   "key": "script:0155:07F4",
+   "src": "dfb8215bf304",
+   "t": "<FACE:03>¡Ah!!<NL>¡E-espera, Ikki!"
+  },
+  {
+   "key": "script:0155:080B",
+   "src": "30629f8c1509",
+   "t": "<FACE:00>Oye, tú… mejor dicho,<NL>quiero hablarles"
+  },
+  {
+   "key": "script:0155:082C",
+   "src": "7a281d3715ea",
+   "t": "<FACE:91>¡Ah, es cierto!<NL>Querías hablar conmigo<WAIT>…¿De qué se trata?"
+  },
+  {
+   "key": "script:0155:084F",
+   "src": "e45510c3aecc",
+   "t": "<FACE:00>¿Habrá entre ustedes<NL>alguien que conozca<WAIT>a un tal Shiden?"
+  },
+  {
+   "key": "script:0155:087A",
+   "src": "90a9a6b59427",
+   "t": "<FACE:91>¿Shiden? ¿El famoso<NL>medaguerrero?<WAIT>He oído de él…<NL>"
+  },
+  {
+   "key": "script:0155:08A4",
+   "src": "e2cd8c9f770c",
+   "t": "<FACE:91>Es de otra área, y ni<NL>en torneos lo vi…"
+  },
+  {
+   "key": "script:0155:08C7",
+   "src": "cc8e129ae373",
+   "t": "<FACE:94>Íbamos a vernos en la<NL>fiesta de Cluster…<WAIT>pero antes de abrir<NL>pasó todo ese lío<WAIT>y aún no lo conozco"
+  },
+  {
+   "key": "script:0155:0914",
+   "src": "b3abbbe81b04",
+   "t": "<FACE:92>Por las revistas,<NL>se ve bastante guapo"
+  },
+  {
+   "key": "script:0155:0932",
+   "src": "0f4fae97c17b",
+   "t": "<FACE:93>No todo es apariencia"
+  },
+  {
+   "key": "script:0155:094A",
+   "src": "ac9ece2a1e1c",
+   "t": "<FACE:04>¿Eh? ¿Y el Ladrón<NL>Fantasma? No lo veo"
+  },
+  {
+   "key": "script:0155:0965",
+   "src": "3d3b2ce57e54",
+   "t": "<FACE:91>¡Es cierto! Si hasta<NL>hace nada estaba aquí…<WAIT><FACE:00>¿No será que él sí<NL>lo conoce?"
+  },
+  {
+   "key": "script:0155:099C",
+   "src": "06ffba694319",
+   "t": "<FACE:91>Eso sí no lo sé…"
+  },
+  {
+   "key": "script:0155:09AC",
+   "src": "3f6f9e5cd68e",
+   "t": "<FACE:91>¡Ya sé! Hikaru…<NL>Agata Hikaru…<WAIT>¡Seguro lo conoce!<WAIT><FACE:00>Hikaru…<NL>¿Estará aquí ahora?<WAIT><FACE:91>¡Sí, seguro que sí!<NL>Si lo veo, te aviso<WAIT><FACE:00>Buscaré a ese Hikaru…"
+  },
+  {
+   "key": "script:0155:0A2C",
+   "src": "81a94a9eeddc",
+   "t": "<FACE:02>Gracias, Ikki"
+  },
+  {
+   "key": "script:0155:0A3A",
+   "src": "1edd98fef12f",
+   "t": "<FACE:91>¡Ikki se unió!<NL><WAIT><FACE:94>¡Koji se unió!<NL><WAIT><FACE:92>¡Erika se unió!<NL><WAIT><FACE:93>¡Karin se unió!"
+  }
+ ]
+}

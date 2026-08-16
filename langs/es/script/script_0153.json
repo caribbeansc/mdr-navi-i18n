@@ -1,0 +1,95 @@
+{
+ "part": "script/script_0153",
+ "entries": [
+  {
+   "key": "script:0153:01EB",
+   "src": "f62e34b1ae38",
+   "t": "<FACE:03>¡Ah! Esos de allá<NL>son caras nuevas<WAIT><FACE:00>¿Serán los invitados<NL>que mencionó Shiden?"
+  },
+  {
+   "key": "script:0153:0224",
+   "src": "3dcac70713a0",
+   "t": "<FACE:00>¿Y si entre ellos está<NL>el dueño del paquete…?"
+  },
+  {
+   "key": "script:0153:0246",
+   "src": "4e471756e377",
+   "t": "<FACE:00>Oigan, ¿no conocerán<NL>a un tal Shiden?"
+  },
+  {
+   "key": "script:0153:026D",
+   "src": "8567b30af7a6",
+   "t": "<FACE:95>¿Shiden?<NL>Ni idea…"
+  },
+  {
+   "key": "script:0153:027E",
+   "src": "acc237a98a9b",
+   "t": "<FACE:95>Oigan, ¿ustedes lo<NL>conocen?"
+  },
+  {
+   "key": "script:0153:028F",
+   "src": "5da3c92a6f3a",
+   "t": "<FACE:96>¿Eh? Nunca lo hemos<NL>oído, jefa"
+  },
+  {
+   "key": "script:0153:02A2",
+   "src": "e978ccc7e78c",
+   "t": "<FACE:97>Yo tampoco lo conozco"
+  },
+  {
+   "key": "script:0153:02B0",
+   "src": "cf5e026c4d8f",
+   "t": "<FACE:95>Oye, mejor dime tú:<NL>¿no has visto a Ikki?"
+  },
+  {
+   "key": "script:0153:02D6",
+   "src": "755a2bd1f099",
+   "t": "<FACE:00>¿Ikki…?<NL>¿El medaguerrero Ikki?<WAIT>¿Ustedes son amigos<NL>de Ikki?<WAIT><FACE:95>¿Amigos?<NL>¡Pero qué dices!<WAIT>Para los Screws, Ikki<NL>es casi un subordinado"
+  },
+  {
+   "key": "script:0153:0345",
+   "src": "a32e72400131",
+   "t": "<FACE:04>Así que Ikki también<NL>está aquí… ¿será él…?"
+  },
+  {
+   "key": "script:0153:0367",
+   "src": "6cdc2fd08fed",
+   "t": "<FACE:95>¡Oye, tú!<NL>¿¡Me estás oyendo!?<WAIT>¡Los Screws valemos<NL>más que ese Ikki…!"
+  },
+  {
+   "key": "script:0153:039F",
+   "src": "6bfd18982a20",
+   "t": "<FACE:00>Eh… ¿cómo?<NL>¿Los Screws…?<WAIT><FACE:04>Nunca los había oído…"
+  },
+  {
+   "key": "script:0153:03C2",
+   "src": "72790b1a1fb5",
+   "t": "<FACE:95>¡Me estás hartando!<NL>¡Vamos a robobatallar!"
+  },
+  {
+   "key": "script:0153:03E5",
+   "src": "264264b553d2",
+   "t": "<FACE:00>Oye… volviendo al<NL>tema, Ikki…"
+  },
+  {
+   "key": "script:0153:0405",
+   "src": "1dc35f120148",
+   "t": "<FACE:95>¡Cááállateee!<NL><WAIT>¡Te haré ver que Ikki<NL>es nuestro subalterno<WAIT>y que las fuertes<NL>somos nosotras!<NL>"
+  },
+  {
+   "key": "script:0153:044F",
+   "src": "add1ef436a55",
+   "t": "<FACE:95>¡La próxima vez me la<NL>pagas!"
+  },
+  {
+   "key": "script:0153:0467",
+   "src": "96afc0f795b7",
+   "t": "<FACE:96>¡Ah! Espere…<NL>¡¿Jefaaa?!"
+  },
+  {
+   "key": "script:0153:047D",
+   "src": "8ab58382b1b3",
+   "t": "<FACE:00>El famoso medaguerrero<NL>Ikki también vino…<WAIT>Quizá él sea el dueño<NL>de este paquete…"
+  }
+ ]
+}

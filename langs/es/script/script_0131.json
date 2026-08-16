@@ -1,0 +1,45 @@
+{
+ "part": "script/script_0131",
+ "entries": [
+  {
+   "key": "script:0131:01A2",
+   "src": "23acb9f19270",
+   "t": "<FACE:2C>Ah, <PLAYER>…<WAIT><FACE:2B>Qué computadoras tan<NL>impresionantes<WAIT>Aquí se sabe todo<NL>sobre los Medabots<WAIT><FACE:00>Vaya, qué interesante"
+  },
+  {
+   "key": "script:0131:01E8",
+   "src": "38fa2063945f",
+   "t": "<FACE:2B>Disculpa lo repentino,<NL>pero ¿tendrías un<WAIT>duelo conmigo…?<NL>Esta vez no perderé"
+  },
+  {
+   "key": "script:0131:0217",
+   "src": "88d601851f57",
+   "t": "<FACE:2D>Mmm, ya veo…<NL>Así que era eso, ¿eh?"
+  },
+  {
+   "key": "script:0131:0238",
+   "src": "7a8298d8cd6d",
+   "t": "<FACE:2B>Gracias, me sirvió de<NL>mucho…<WAIT>La próxima no perderé…"
+  },
+  {
+   "key": "script:0131:025D",
+   "src": "33e9c81cd60c",
+   "t": "<FACE:2B>Parece que aún queda<NL>mucho por investigar"
+  },
+  {
+   "key": "script:0131:0279",
+   "src": "8ce7fbca85d4",
+   "t": "<FACE:00>Datos del ranking de<NL>medaguerreros…"
+  },
+  {
+   "key": "script:0131:028F",
+   "src": "07edd44a4e86",
+   "t": "<FACE:00>Tienen puro equipo de<NL>última generación"
+  },
+  {
+   "key": "script:0131:02A7",
+   "src": "c02e355165c5",
+   "t": "<FACE:04>Si lo toco sin saber,<NL>podría romperse…"
+  }
+ ]
+}

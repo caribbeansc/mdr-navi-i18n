@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0091",
+ "entries": [
+  {
+   "key": "script:0091:032D",
+   "src": "1117b44c19ce",
+   "t": "<FACE:05>De seguro es esta<NL>entrada, ¿no?"
+  },
+  {
+   "key": "script:0091:033E",
+   "src": "cd8d1a26e066",
+   "t": "<FACE:05><PLAYER>, ábrela<NL>como la otra vez"
+  },
+  {
+   "key": "script:0091:0351",
+   "src": "7d2d502e6069",
+   "t": "<FACE:00>Pero eso lo hizo<NL>Hiyori…<NL>"
+  },
+  {
+   "key": "script:0091:0362",
+   "src": "67f1a9e9658d",
+   "t": "<FACE:00>Hiyori…<NL>"
+  },
+  {
+   "key": "script:0091:036C",
+   "src": "93e8e6e5d463",
+   "t": "<FACE:00>Hiyo…"
+  },
+  {
+   "key": "script:0091:0373",
+   "src": "704ef453e3b1",
+   "t": "<FACE:04>…Está bien"
+  },
+  {
+   "key": "script:0091:037D",
+   "src": "8e973f18348d",
+   "t": "<FACE:01>…¡Toma!"
+  },
+  {
+   "key": "script:0091:0386",
+   "src": "6481a35901d9",
+   "t": "<FACE:03>¡Aaaay, ay, ay, ay!"
+  },
+  {
+   "key": "script:0091:0393",
+   "src": "1239ff14a239",
+   "t": "<FACE:06>¡¿Qué pasa?!<NL>"
+  },
+  {
+   "key": "script:0091:039B",
+   "src": "da172776d5fe",
+   "t": "<FACE:06>Ya te descubrimos<NL>¡de nada sirve que<WAIT>te escondas!<WAIT><FACE:74>Jujuju…<NL>"
+  },
+  {
+   "key": "script:0091:03C3",
+   "src": "afdfacbb1be5",
+   "t": "<FACE:74>Me gusta… estar…<NL>sola… en un cuarto<WAIT>escondido…"
+  },
+  {
+   "key": "script:0091:03E9",
+   "src": "4bd01b4a41be",
+   "t": "<FACE:73>…qué lástima…<NL>…volveremos a vernos…<NL>"
+  },
+  {
+   "key": "script:0091:0401",
+   "src": "0c6f1f5fa53a",
+   "t": "<FACE:73>Hiyori… tú tam…"
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0137",
+ "entries": [
+  {
+   "key": "script:0137:0216",
+   "src": "237f1431098e",
+   "t": "<FACE:3F>¡Hola, <PLAYER>!"
+  },
+  {
+   "key": "script:0137:021D",
+   "src": "74aa50765dcd",
+   "t": "<FACE:41>¡Gran hazaña-miau!"
+  },
+  {
+   "key": "script:0137:022D",
+   "src": "dae54edc2a30",
+   "t": "<FACE:43>Obra digna de un líder<NL>¡Admirable, señor!<WAIT><FACE:00>No… no fue solo cosa<NL>mía…"
+  },
+  {
+   "key": "script:0137:0267",
+   "src": "ae2cbcca55bb",
+   "t": "<FACE:3F>Aun así, en Medabots<NL>¡no podemos perder!"
+  },
+  {
+   "key": "script:0137:028C",
+   "src": "55ad5d7014e5",
+   "t": "<FACE:41>¡No perderemos-miau!"
+  },
+  {
+   "key": "script:0137:029A",
+   "src": "a1ddff0e15cf",
+   "t": "<FACE:43>¡No perderemos, señor!"
+  },
+  {
+   "key": "script:0137:02AA",
+   "src": "b399f30b1ee4",
+   "t": "<FACE:3F>Eres fuerte de verdad…"
+  },
+  {
+   "key": "script:0137:02B8",
+   "src": "adbd1f8ea2a3",
+   "t": "<FACE:41>¡Es tremendo-miau!"
+  },
+  {
+   "key": "script:0137:02C3",
+   "src": "cbb7f0e3cbb1",
+   "t": "<FACE:43>¡Impresionante, señor!"
+  },
+  {
+   "key": "script:0137:02CF",
+   "src": "3e29711a430f",
+   "t": "<FACE:40>¡La próxima no pierdo!"
+  },
+  {
+   "key": "script:0137:02E1",
+   "src": "864f9fb6e6ff",
+   "t": "<FACE:41>¡No perderé-miau!"
+  },
+  {
+   "key": "script:0137:02ED",
+   "src": "7051031dd6e2",
+   "t": "<FACE:44>¡No perderé, señor!"
+  },
+  {
+   "key": "script:0137:0316",
+   "src": "46bc368d04db",
+   "t": "<FACE:03>¡Ah! ¡Algo brilló ahí!<WAIT><FACE:00>¿Qué será…?"
+  },
+  {
+   "key": "script:0137:0330",
+   "src": "99d6aa4ae670",
+   "t": "<FACE:57>Cuarta contraseña: «u»"
+  },
+  {
+   "key": "script:0137:0341",
+   "src": "fd3f7231322d",
+   "t": "<FACE:04>¿…?<NL>¿Qué es esto?"
+  },
+  {
+   "key": "script:0137:034F",
+   "src": "5c8ea78c84f6",
+   "t": "<FACE:00>Una estatua siniestra…<NL><WAIT>Da miedo, como si me<NL>estuviera mirando"
+  }
+ ]
+}

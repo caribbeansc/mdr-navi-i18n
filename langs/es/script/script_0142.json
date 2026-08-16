@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0142",
+ "entries": [
+  {
+   "key": "script:0142:0226",
+   "src": "b7eb8d1d5ede",
+   "t": "<FACE:0A>…Ah, eres tú, <PLAYER>"
+  },
+  {
+   "key": "script:0142:0230",
+   "src": "38a4d7ebb1e3",
+   "t": "<FACE:0A>Fue aquí, ¿verdad?…<NL><WAIT>Donde empezamos<NL>a avanzar juntos…"
+  },
+  {
+   "key": "script:0142:0259",
+   "src": "aa8fb19c1a8e",
+   "t": "<FACE:00>Sí…<DELAY:003C><NL>Tienes razón…"
+  },
+  {
+   "key": "script:0142:026C",
+   "src": "8442bb24b2f4",
+   "t": "<FACE:0C>¡Peleemos como en los<NL>viejos tiempos!"
+  },
+  {
+   "key": "script:0142:027E",
+   "src": "f14c750f6e85",
+   "t": "<FACE:0A>Te hiciste tan fuerte<NL>que ya no te alcanzo…<WAIT><FACE:02>Eso no es cierto<NL><WAIT>Tú también, Fubuki…"
+  },
+  {
+   "key": "script:0142:02B5",
+   "src": "3f03e52b1e02",
+   "t": "<FACE:0A>Oye <PLAYER>, si<NL>salimos de aquí…"
+  },
+  {
+   "key": "script:0142:02C9",
+   "src": "a25cf839063e",
+   "t": "<FACE:00>¿Qué pasa?"
+  },
+  {
+   "key": "script:0142:02D2",
+   "src": "c20fa0e02aef",
+   "t": "<FACE:0A>…Nada"
+  },
+  {
+   "key": "script:0142:02D9",
+   "src": "cfff43fdb3a4",
+   "t": "<FACE:0C>Al salir de aquí<NL>¡seguiremos amigos!<WAIT><FACE:02>¡Sí!"
+  },
+  {
+   "key": "script:0142:02F9",
+   "src": "b3c035d6ecb3",
+   "t": "<FACE:0C>Al salir de aquí<NL>¡seguiremos amigos!"
+  },
+  {
+   "key": "script:0142:0327",
+   "src": "6e154a385798",
+   "t": "<FACE:00>Mmm… no parece que<NL>vaya a abrirse…"
+  },
+  {
+   "key": "script:0142:033A",
+   "src": "ac145c0e8b37",
+   "t": "<FACE:00>Mejor no hurgo en<NL>la basura"
+  },
+  {
+   "key": "script:0142:0365",
+   "src": "bf01d617da06",
+   "t": "<FACE:00>Entrar sin permiso<NL>no estaría bien…"
+  }
+ ]
+}

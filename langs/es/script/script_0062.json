@@ -1,0 +1,35 @@
+{
+ "part": "script/script_0062",
+ "entries": [
+  {
+   "key": "script:0062:024B",
+   "src": "202c1e78a7ff",
+   "t": "<FACE:75>Sin duda este bloque<NL>rodeado de bosque…<WAIT>Cof… es justo lo que<NL>yo necesito… cof…"
+  },
+  {
+   "key": "script:0062:0285",
+   "src": "60dc23742ff8",
+   "t": "<FACE:75>Y de paso cuidaré los<NL>árboles… cof…<WAIT>…y a ustedes también…!"
+  },
+  {
+   "key": "script:0062:02A8",
+   "src": "f0ed523dc8be",
+   "t": "<FACE:04>En vez de atacar<NL>mejor que descanse…"
+  },
+  {
+   "key": "script:0062:02C1",
+   "src": "0c46ff50dda5",
+   "t": "<FACE:77>Cof… no creas que<NL>esto acaba aquí…"
+  },
+  {
+   "key": "script:0062:02DB",
+   "src": "a199b60894c2",
+   "t": "<FACE:04>Sí que da lástima<NL>verlo…"
+  },
+  {
+   "key": "script:0062:02EC",
+   "src": "10dce1203dfc",
+   "t": "<FACE:07>¡A comeeeer!<NL>¡Como y como sin fin!"
+  }
+ ]
+}

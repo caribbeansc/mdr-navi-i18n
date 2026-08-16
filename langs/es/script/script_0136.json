@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0136",
+ "entries": [
+  {
+   "key": "script:0136:034B",
+   "src": "6bd22a125495",
+   "t": "<FACE:7D><PLAYER>-robo…<NL><WAIT>Sí-robo…"
+  },
+  {
+   "key": "script:0136:035B",
+   "src": "a6be47feb975",
+   "t": "<FACE:03>¡¿Eh?!"
+  },
+  {
+   "key": "script:0136:0362",
+   "src": "b511f64fef71",
+   "t": "<FACE:00>¿Qué hacen aquí?"
+  },
+  {
+   "key": "script:0136:0374",
+   "src": "0050a9de0178",
+   "t": "<FACE:7D>Los jefes son muy<NL>crueles-robo…<WAIT>Sí-robo… ¿Por qué nos<NL>dejaron atrás-robo…?"
+  },
+  {
+   "key": "script:0136:03A8",
+   "src": "e88c4de80bbb",
+   "t": "<FACE:7D>Ni quiero pensar-robo…"
+  },
+  {
+   "key": "script:0136:03B6",
+   "src": "48590dfd29c2",
+   "t": "<FACE:7E>¡No es así-robo!<WAIT><FACE:7E>¡Este es nuestro<NL>nuevo comienzo-robo!<WAIT>¡Vencer a <PLAYER> y<NL>volver triunfal-robo!"
+  },
+  {
+   "key": "script:0136:03F2",
+   "src": "9c81a37f2cd3",
+   "t": "<FACE:7D>…Sí-robo…<WAIT><FACE:80>¡¡Sí-robo!!"
+  },
+  {
+   "key": "script:0136:0406",
+   "src": "37cf5b67e1fe",
+   "t": "<FACE:7D>Perdimos-robo…"
+  },
+  {
+   "key": "script:0136:0411",
+   "src": "3c398e2f2da2",
+   "t": "<FACE:7E>¡Aún no-robo!<NL><WAIT>¡Esto nos pasa por<NL>huir del enemigo-robo!<WAIT>¡Nunca des la espalda<NL>al enemigo-robo!"
+  },
+  {
+   "key": "script:0136:0451",
+   "src": "422e43f8ac1d",
+   "t": "<FACE:80>¡Sí-robo! ¡Entendido!<NL>¡Huir de frente-robo!"
+  },
+  {
+   "key": "script:0136:0473",
+   "src": "1d250e0f71f5",
+   "t": "<FACE:00>Supongo que es falso…<NL><WAIT>pero se ve caliente…"
+  }
+ ]
+}

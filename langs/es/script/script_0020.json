@@ -1,0 +1,100 @@
+{
+ "part": "script/script_0020",
+ "entries": [
+  {
+   "key": "script:0020:02B2",
+   "src": "dca45d2bedb1",
+   "t": "<FACE:7D>¡Los de secundaria de<NL>hoy no sirven-robo!"
+  },
+  {
+   "key": "script:0020:02D0",
+   "src": "444b5550d7d4",
+   "t": "<FACE:7D>Al menos que recojan<NL>su propia basura-robo"
+  },
+  {
+   "key": "script:0020:02EB",
+   "src": "3a10c8337c33",
+   "t": "<FACE:7D>Aunque recuperemos un<NL>bloque…<WAIT>hay que empezar por<NL>limpiar… Qué lata-robo"
+  },
+  {
+   "key": "script:0020:031D",
+   "src": "5d11d9f69ca7",
+   "t": "<FACE:7D>Ir a tirar la basura<NL>también cansa-robo"
+  },
+  {
+   "key": "script:0020:0334",
+   "src": "52d2b745c902",
+   "t": "<FACE:7D>Estar solo aquí me<NL>pone nervioso-robo…<WAIT>Ojalá vuelvan ya-robo"
+  },
+  {
+   "key": "script:0020:035F",
+   "src": "f44a8521a0c6",
+   "t": "<FACE:7D>Bienvenidos-robo…"
+  },
+  {
+   "key": "script:0020:036A",
+   "src": "bebeccad2a8a",
+   "t": "<FACE:80>¡Agh! ¡Eres <PLAYER>!"
+  },
+  {
+   "key": "script:0020:0378",
+   "src": "2cfc24583d86",
+   "t": "<FACE:81>(Hay que ganar tiempo<NL>como sea-robo…)<WAIT>(Cuando vuelvan todos<NL> los rodearemos-robo)"
+  },
+  {
+   "key": "script:0020:03AF",
+   "src": "d3349e6d4437",
+   "t": "<FACE:05>¿Se puede saber qué<NL>haces aquí tú solo?"
+  },
+  {
+   "key": "script:0020:03CC",
+   "src": "5ce71a0ecb58",
+   "t": "<FACE:7D>N-nada, nada-robo<WAIT><FACE:01>Aquí hay algo raro…"
+  },
+  {
+   "key": "script:0020:03E8",
+   "src": "ab87ab050f15",
+   "t": "<FACE:7D>No planeo nada-robo<NL>Ni gano tiempo-robo…"
+  },
+  {
+   "key": "script:0020:040C",
+   "src": "2ed0950cb994",
+   "t": "<FACE:05>Ajá, así que estabas<NL>ganando tiempo…<WAIT><FACE:19>Acabemos con esto<NL>antes de que lleguen<WAIT><FACE:0A>Hagámoslo…"
+  },
+  {
+   "key": "script:0020:044C",
+   "src": "0ffec4f743a6",
+   "t": "<FACE:80>¡E-esperen-robooo!"
+  },
+  {
+   "key": "script:0020:0459",
+   "src": "13e26c8f9d95",
+   "t": "<FACE:14>¡Aquí no se discute!"
+  },
+  {
+   "key": "script:0020:0465",
+   "src": "6824d52dca2c",
+   "t": "<FACE:7D>¿Qué hacen aquí sin<NL>nosotros-robo?<WAIT>¿Tanto miedo nos<NL>tienen-robo?"
+  },
+  {
+   "key": "script:0020:0496",
+   "src": "c230b0e62607",
+   "t": "<FACE:05>Estás muy equivocado"
+  },
+  {
+   "key": "script:0020:04A6",
+   "src": "d400b5668746",
+   "t": "<FACE:05>¡Vengan todos juntos!"
+  },
+  {
+   "key": "script:0020:04B9",
+   "src": "e71911a411e1",
+   "t": "<FACE:81>Nos ganaron-robo…<NL><WAIT>Fuimos a tirar la<NL>basura para nada-robo…"
+  },
+  {
+   "key": "script:0020:04E5",
+   "src": "ff145acca4f0",
+   "t": "<FACE:05>Ahora que lo dices,<NL>esto quedó limpio<WAIT><FACE:00>Son más trabajadores<NL>de lo que pensaba"
+  }
+ ]
+}

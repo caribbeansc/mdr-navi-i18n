@@ -1,0 +1,90 @@
+{
+ "part": "script/script_0058",
+ "entries": [
+  {
+   "key": "script:0058:03BA",
+   "src": "937013313037",
+   "t": "<FACE:59>¡Waaaaaaah!"
+  },
+  {
+   "key": "script:0058:03C5",
+   "src": "b5abff4accae",
+   "t": "<FACE:00>Pero el grupo otaku<NL>ya se había reformado…<WAIT><FACE:00>¿Entonces quién fue?"
+  },
+  {
+   "key": "script:0058:03E7",
+   "src": "6b04d60eae61",
+   "t": "<FACE:7F>¡Se-ño-ri-ta<NL>Ki-ri-kaaa-robo!<WAIT>¡Nos derretimos-robo!"
+  },
+  {
+   "key": "script:0058:0406",
+   "src": "344b54aad53c",
+   "t": "<FACE:74>…Jejeje…"
+  },
+  {
+   "key": "script:0058:0410",
+   "src": "4ae0b4042390",
+   "t": "<FACE:7D>¡Oye!<NL>¿Qué te pasa-robo?"
+  },
+  {
+   "key": "script:0058:0423",
+   "src": "cf1c49f0061c",
+   "t": "<FACE:7D>¡N-no entré a la<NL>Banda Sperobo<WAIT>para hacer estas<NL>cosas-robo!"
+  },
+  {
+   "key": "script:0058:044B",
+   "src": "ac9679d11489",
+   "t": "<FACE:7D>¡Esto no tiene nada<NL>que ver con conquistar<WAIT>el universo-robo!"
+  },
+  {
+   "key": "script:0058:046E",
+   "src": "11bb4c2b7a7e",
+   "t": "<FACE:7D>No hay remedio-robo…<NL><WAIT>Desde lo del grupo<NL>otaku me volví adicto<WAIT>a las ovaciones-robo"
+  },
+  {
+   "key": "script:0058:04A9",
+   "src": "ced9515fef19",
+   "t": "<FACE:05>¿Y por eso quieres<NL>repetir aquel sueño?<WAIT>¿Por eso volviste a<NL>tomar este bloque?"
+  },
+  {
+   "key": "script:0058:04DE",
+   "src": "14d6d5c92d8f",
+   "t": "<FACE:80>¡Aaaah! ¡Señorita<NL>Kirika, intrusos-robo!"
+  },
+  {
+   "key": "script:0058:04F7",
+   "src": "d6e2c59e3bbd",
+   "t": "<FACE:73>…Es verdad… nuestra<NL>reunión arruinada…<WAIT>…No lo perdonaré…"
+  },
+  {
+   "key": "script:0058:0514",
+   "src": "d3e8e018fc7d",
+   "t": "<FACE:73>…Qué lástima…<NL>Volveré… a tomar…<WAIT>…este bloque…"
+  },
+  {
+   "key": "script:0058:0535",
+   "src": "78f0fa278af0",
+   "t": "<FACE:00>Si no fue el grupo<NL>otaku…<WAIT>¿quién habrá sido?"
+  },
+  {
+   "key": "script:0058:0555",
+   "src": "e3e0ab7fd220",
+   "t": "<FACE:05>Este lugar siempre<NL>me da escalofríos"
+  },
+  {
+   "key": "script:0058:0567",
+   "src": "c8cbc8dc0603",
+   "t": "<FACE:0A>Ve a revisar también<NL>el cuarto del fondo"
+  },
+  {
+   "key": "script:0058:0577",
+   "src": "052e26444215",
+   "t": "<FACE:19>Tengo un mal<NL>presentimiento"
+  },
+  {
+   "key": "script:0058:0589",
+   "src": "8a5e8197a6d7",
+   "t": "<FACE:14>Si mal no recuerdo,<NL>el grupo otaku estaba<WAIT>en este bloque"
+  }
+ ]
+}

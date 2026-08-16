@@ -1,0 +1,50 @@
+{
+ "part": "script/script_0133",
+ "entries": [
+  {
+   "key": "script:0133:0174",
+   "src": "a1a750388968",
+   "t": "<FACE:39>¡<PLAYER>!<NL>¿Tú también vienes a<WAIT>entrenar aquí?"
+  },
+  {
+   "key": "script:0133:0191",
+   "src": "46b896fa3455",
+   "t": "<FACE:3A>Entrenar aquí<NL>también está muy bien"
+  },
+  {
+   "key": "script:0133:01A6",
+   "src": "4b0b39a9f618",
+   "t": "<FACE:37>Vaya, <PLAYER><NL>¿qué haces por aquí?<WAIT><FACE:00>Nada, solo pasaba…"
+  },
+  {
+   "key": "script:0133:01CF",
+   "src": "1d23b7ba48cf",
+   "t": "<FACE:37>Ya veo, ¿vienes a ser<NL>nuestro rival<WAIT>de entrenamiento?<NL><WAIT>Gracias, no sabía<NL>que pensabas tanto<WAIT>en nosotras…"
+  },
+  {
+   "key": "script:0133:021E",
+   "src": "af9458d178fb",
+   "t": "<FACE:37>¡Entonces, allá voy!"
+  },
+  {
+   "key": "script:0133:022B",
+   "src": "4d74307f5edf",
+   "t": "<FACE:37>Se nota que eres el<NL>líder de la clase"
+  },
+  {
+   "key": "script:0133:023E",
+   "src": "5d8c972288cd",
+   "t": "<FACE:37>¡Nosotras volvemos<NL>al entrenamiento!"
+  },
+  {
+   "key": "script:0133:0254",
+   "src": "084f401dcedc",
+   "t": "<FACE:37>Vuelve a ser nuestro<NL>rival otra vez, ¿sí?"
+  },
+  {
+   "key": "script:0133:0268",
+   "src": "ab9bf49d1f31",
+   "t": "<FACE:00>Mmm… qué rico se<NL>siente…"
+  }
+ ]
+}

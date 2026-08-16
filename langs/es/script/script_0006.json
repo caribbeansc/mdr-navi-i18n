@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0006",
+ "entries": [
+  {
+   "key": "script:0006:0286",
+   "src": "34e81627b3ee",
+   "t": "<FACE:7D>¿Por qué nos llaman<NL>a nosotros-robo?<WAIT>Ni modo-robo Todos<NL>andan ocupados-robo"
+  },
+  {
+   "key": "script:0006:02B6",
+   "src": "fa1bebcd0104",
+   "t": "<FACE:7D>¿Y por eso nos toca<NL>a nosotros-robo?"
+  },
+  {
+   "key": "script:0006:02CE",
+   "src": "674a931847ba",
+   "t": "<FACE:7E>No-robo Estamos aquí<NL>para que los demás<WAIT>puedan hacer su<NL>trabajo-robo"
+  },
+  {
+   "key": "script:0006:02F7",
+   "src": "8858f0736114",
+   "t": "<FACE:7D>¿Entonces somos<NL>clave-robo?"
+  },
+  {
+   "key": "script:0006:030C",
+   "src": "cccdfdeb9ed7",
+   "t": "<FACE:7D>¡Eso es-robo!"
+  },
+  {
+   "key": "script:0006:0314",
+   "src": "aed66c857be7",
+   "t": "<FACE:80>¿Ascenderemos-robo?"
+  },
+  {
+   "key": "script:0006:0321",
+   "src": "00f3fab0d9fb",
+   "t": "<FACE:7F>¡Claro que sí-robo!"
+  },
+  {
+   "key": "script:0006:032A",
+   "src": "bca1827b5c00",
+   "t": "<FACE:00>¿Eh? ¿Otra vez?"
+  },
+  {
+   "key": "script:0006:0334",
+   "src": "099d62b11bf8",
+   "t": "<FACE:7D>¡Mira-robo!<NL>¡Este viene solo-robo!<WAIT><FACE:7E>¡Nuestro billete<NL>al ascenso-robo!"
+  },
+  {
+   "key": "script:0006:035B",
+   "src": "c6608ae0b3ea",
+   "t": "<FACE:7D>¡Eso es trampa-robo!<NL><WAIT>No sabíamos que<NL>eran cinco-robo"
+  },
+  {
+   "key": "script:0006:037A",
+   "src": "a13114c0f615",
+   "t": "<FACE:7D>Esta vez sí nos<NL>mandan a un Bloque<WAIT>importante-robo"
+  },
+  {
+   "key": "script:0006:0398",
+   "src": "bc484726b4bc",
+   "t": "<FACE:7D>Lo dudo-robo…"
+  }
+ ]
+}

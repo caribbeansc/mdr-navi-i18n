@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0010",
+ "entries": [
+  {
+   "key": "script:0010:02AE",
+   "src": "d4d231baa792",
+   "t": "<FACE:7D>¡Mira-robo!<NL>¡Mira esto-robo!"
+  },
+  {
+   "key": "script:0010:02BF",
+   "src": "37e14220bf06",
+   "t": "<FACE:7D>¿Qué es-robo?<NL><WAIT>¡Carta de Sekiran,<NL>la Jefa de Mar-robo!"
+  },
+  {
+   "key": "script:0010:02E0",
+   "src": "0a909176ca10",
+   "t": "<FACE:7D>Seguro es otra<NL>molestia más-robo…"
+  },
+  {
+   "key": "script:0010:02F3",
+   "src": "d28d16f27125",
+   "t": "<FACE:7D>¡No es eso-robo!<NL>¡Léela-robo!"
+  },
+  {
+   "key": "script:0010:0303",
+   "src": "3b67bd9a0b77",
+   "t": "<FACE:7D>A ver…<NL>«Estimados<WAIT> miembros del bloque<NL> vecino…»<WAIT>¡Otra vez habla tan<NL>elegante-robo!<WAIT>Igual que la vez<NL>pasada-robo…<WAIT><FACE:57>«Perdón si el otro día<NL> me expresé algo mal»"
+  },
+  {
+   "key": "script:0010:0378",
+   "src": "f75c3a43a111",
+   "t": "<FACE:80>¡N-no es igual-robo!<NL>¡Es muy distinta-robo!<WAIT>¡Eso-robo!<WAIT><FACE:7D>¡¿Qué-robo?!<NL>¡¿Qué más dice-robo?!<WAIT>Espera-robo<NL>Ni yo lo he leído-robo"
+  },
+  {
+   "key": "script:0010:03CE",
+   "src": "a0da7820b114",
+   "t": "<FACE:57>«Me equivoqué al<NL> pedirles a ustedes<WAIT> algo serio»<WAIT>«¡La próxima vez que<NL> hagan ruido de noche!<WAIT> ¡Yo iré en persona a<NL> darles su merecido!»<WAIT>«¡¿Quedó claro?!»<NL>…robo"
+  },
+  {
+   "key": "script:0010:0448",
+   "src": "672f3b26ada4",
+   "t": "<FACE:7D>¡E-es peor que<NL>antes-robo!"
+  },
+  {
+   "key": "script:0010:0458",
+   "src": "04ade64590a9",
+   "t": "<FACE:00>¿Eh?<NL>Qué deprimente…<WAIT><FACE:00>¿No se habían<NL>animado el otro día…?"
+  },
+  {
+   "key": "script:0010:0480",
+   "src": "9598443b5a1b",
+   "t": "<FACE:7E>¡Toda esta tristeza<NL>la pagan ustedes-robo!"
+  },
+  {
+   "key": "script:0010:0499",
+   "src": "599bd2cf1c02",
+   "t": "<FACE:7D>Fiuu…<NL><WAIT>Nos dieron una paliza<NL>y quedé fresco-robo<WAIT>¡Volveremos-robo!"
+  },
+  {
+   "key": "script:0010:04BF",
+   "src": "9d1de33f09c4",
+   "t": "<FACE:0A>¿Vienen solo para<NL>que los venzan?"
+  },
+  {
+   "key": "script:0010:04CD",
+   "src": "b93f03551f1d",
+   "t": "<FACE:00>Quién sabe…"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "part": "script/script_0140",
+ "entries": [
+  {
+   "key": "script:0140:0285",
+   "src": "0b71ec56b58e",
+   "t": "<FACE:29>T… ¿tú eres…?<WAIT><FACE:04>¿A… Amamiya…?"
+  },
+  {
+   "key": "script:0140:02A1",
+   "src": "3e6f736569a8",
+   "t": "<FACE:03>¿Eh? ¿En serio?<NL>¿Amamiya…?"
+  },
+  {
+   "key": "script:0140:02B7",
+   "src": "26906890f8fb",
+   "t": "<FACE:2A>Ugh…<WAIT><FACE:2A>¡¿Qué?! ¡Esa mirada!"
+  },
+  {
+   "key": "script:0140:02E1",
+   "src": "ebab8a0fe3d8",
+   "t": "<FACE:2A>¡Lo nuestro se decide<NL>aquí y ahora!"
+  },
+  {
+   "key": "script:0140:02FC",
+   "src": "8c3100c8a5b4",
+   "t": "<FACE:29>¿Q… qué…?<WAIT><FACE:2A>¡¿Un matón no puede<NL>comer dulces o qué?!"
+  },
+  {
+   "key": "script:0140:0322",
+   "src": "f3ccd96b375c",
+   "t": "<FACE:03>¡Guau! ¡Esto también<NL>es un dulce!"
+  },
+  {
+   "key": "script:0140:0333",
+   "src": "b228e7de5bc4",
+   "t": "<FACE:00>Con fuego se va a<NL>derretir el chocolate…"
+  },
+  {
+   "key": "script:0140:036A",
+   "src": "36d025d35412",
+   "t": "<FACE:00>¡Hay algo en el fondo<NL>del manantial!"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "part": "script/script_0019",
+ "entries": [
+  {
+   "key": "script:0019:02B1",
+   "src": "57bf7ca1635f",
+   "t": "<FACE:7D>Uf, qué lentos-robo<NL><WAIT>Si <PLAYER> llega<NL>ahora, ¿qué hago-robo?"
+  },
+  {
+   "key": "script:0019:02D8",
+   "src": "0ae4109ebca0",
+   "t": "<FACE:00>¿Eh? ¿Solo hay uno?<NL>"
+  },
+  {
+   "key": "script:0019:02EA",
+   "src": "95ee5f7104e0",
+   "t": "<FACE:80>¡Y-ya llegó-robo!"
+  },
+  {
+   "key": "script:0019:02F4",
+   "src": "e2a6aa88988f",
+   "t": "<FACE:81>(¿Q-qué hago-robo…)<NL><WAIT>(Solo no puedo cuidar<NL>este bloque-robo)<WAIT>(¡¿Por qué se fueron a<NL>lavar la ropa-robo?!)"
+  },
+  {
+   "key": "script:0019:033D",
+   "src": "df2231dca4b7",
+   "t": "<FACE:05>¡¿Qué haces ahí?!<NL><WAIT>¡Robobatalla! ¡Si<NL>pierdes, te largas!"
+  },
+  {
+   "key": "script:0019:0366",
+   "src": "b940e02e8ca9",
+   "t": "<FACE:80>¡U-un momento-robo!"
+  },
+  {
+   "key": "script:0019:0376",
+   "src": "c31161439126",
+   "t": "<FACE:81>(¿Qué hago-robo…<NL>Hay que pensar-robo)"
+  },
+  {
+   "key": "script:0019:038B",
+   "src": "c3be3c72df3b",
+   "t": "<FACE:00>Está bien, ¿no?<NL><WAIT>Si nos devuelven el<NL>bloque, no hay bronca…"
+  },
+  {
+   "key": "script:0019:03B1",
+   "src": "3ac0577bd62e",
+   "t": "<FACE:06>¡¿Qué estás diciendo?!<NL><WAIT>¡A estos hay que<NL>hacerlos polvo y ya!"
+  },
+  {
+   "key": "script:0019:03DA",
+   "src": "cc9d82e84e62",
+   "t": "<FACE:80>E-esperen-robo"
+  },
+  {
+   "key": "script:0019:03E4",
+   "src": "374e851b56bd",
+   "t": "<FACE:7D>Lo hablo con los otros<NL>y luego decido-robo<WAIT>Vuelven en un rato,<NL>espérenlos-robo"
+  },
+  {
+   "key": "script:0019:041B",
+   "src": "a49cb9edc8b1",
+   "t": "<FACE:0A>Pues esperemos, ¿no?"
+  },
+  {
+   "key": "script:0019:042F",
+   "src": "5952e8524d80",
+   "t": "<FACE:09>Ay, hasta tú, Fubuki…<WAIT><FACE:7D>Ya volvimos-robo…"
+  },
+  {
+   "key": "script:0019:0447",
+   "src": "b88d0b78d934",
+   "t": "<FACE:7D>Qué cansancio-robo…"
+  },
+  {
+   "key": "script:0019:0457",
+   "src": "e7a0b4deb2b5",
+   "t": "<FACE:7D>O-oigan, ustedes,<NL>¿qué hacen aquí-robo?"
+  },
+  {
+   "key": "script:0019:0471",
+   "src": "fca025039ae7",
+   "t": "<FACE:7E>¡Se tardaron-robo!<NL><WAIT>¡Por poco nos quitan<NL>el bloque-robo!"
+  },
+  {
+   "key": "script:0019:0497",
+   "src": "8fa18153a58d",
+   "t": "<FACE:0A>Bueno, ya empecemos"
+  },
+  {
+   "key": "script:0019:04A8",
+   "src": "407c0a97b5b3",
+   "t": "<FACE:81>Al final perdimos-robo<NL><WAIT>Si nos iban a barrer<NL>a todos juntos…<WAIT>Nos hubiéramos tardado<NL>más en volver-robo…"
+  },
+  {
+   "key": "script:0019:04E5",
+   "src": "170e0e12b3d5",
+   "t": "<FACE:7E>¡¿Qué pasa-robo?!"
+  },
+  {
+   "key": "script:0019:04ED",
+   "src": "edb51335e965",
+   "t": "<FACE:7E>¡Espera-robo!"
+  },
+  {
+   "key": "script:0019:04F6",
+   "src": "9ae31c5ceb13",
+   "t": "<FACE:04>Los Sperobo sí sufren"
+  }
+ ]
+}

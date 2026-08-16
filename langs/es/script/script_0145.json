@@ -1,0 +1,75 @@
+{
+ "part": "script/script_0145",
+ "entries": [
+  {
+   "key": "script:0145:0245",
+   "src": "3ef3e6aa646f",
+   "t": "<FACE:77>Cof, cof…"
+  },
+  {
+   "key": "script:0145:024E",
+   "src": "04b48f008e29",
+   "t": "<FACE:76>¡Guf!"
+  },
+  {
+   "key": "script:0145:0255",
+   "src": "b1355e41ae10",
+   "t": "<FACE:75>…Hmp Con eso ya bajas<NL>la guardia…<WAIT>Aún te falta mucho<WAIT>Agradece… guf… la<NL>grandeza de alma<WAIT>del gran Smog…<NL>cof, cof…"
+  },
+  {
+   "key": "script:0145:02A1",
+   "src": "c6a11982445e",
+   "t": "<FACE:75>…cof Por el bien de la<NL>conquista espacial…<WAIT>ahora mismo… guf…<NL>debo reponer fuerzas…<WAIT>cof"
+  },
+  {
+   "key": "script:0145:02E2",
+   "src": "763d62b91255",
+   "t": "<FACE:77>Cof, cof, cof…<NL>…ejem… guf…<WAIT><FACE:75>Ah, <PLAYER>…<NL>"
+  },
+  {
+   "key": "script:0145:0303",
+   "src": "4c5d574cec63",
+   "t": "<FACE:75>Aunque alguna vez<NL>unimos fuerzas…<WAIT>en el fondo somos<NL>enemigos… cof, cof…<WAIT>No me lo tomes… a<NL>mal…"
+  },
+  {
+   "key": "script:0145:035C",
+   "src": "1dfaa9aa2f75",
+   "t": "<FACE:00>¿Qué haces en un sitio<NL>así, Smog…?<WAIT><FACE:75>Mm… nada, nada…<NL>Unos brotes, nada más…"
+  },
+  {
+   "key": "script:0145:0390",
+   "src": "324da26b8cff",
+   "t": "<FACE:04>¿Brotes?"
+  },
+  {
+   "key": "script:0145:0396",
+   "src": "949788176113",
+   "t": "<FACE:75>Así es…<NL><WAIT>Las plantas que<NL>crecen aquí<WAIT>no las hay en la<NL>guarida<WAIT>Y pensaba llevarme<NL>unas cuantas…<WAIT><FACE:00>Ajá…"
+  },
+  {
+   "key": "script:0145:03DD",
+   "src": "1130193823a3",
+   "t": "<FACE:04>(¿Volvió solo por eso?<NL> Cuidar la salud<WAIT> también es duro…)"
+  },
+  {
+   "key": "script:0145:0403",
+   "src": "aeb5aebd3a4e",
+   "t": "<FACE:77>¡Cof! ¡Cof!<NL><WAIT>¿Qué… guf… hago yo<NL>charlando… cof… tan<WAIT>tranquilamente…?<WAIT>Cof, cof…"
+  },
+  {
+   "key": "script:0145:043D",
+   "src": "4e22d36311da",
+   "t": "<FACE:03>¿Qué… qué te pasa?"
+  },
+  {
+   "key": "script:0145:0448",
+   "src": "abc11a1dd6d9",
+   "t": "<FACE:77>Cof, cof…<NL><WAIT>M… maldición…<NL>si… si es así… guf<WAIT>Por la conquista del<NL>espacio… cof<WAIT>ampliar el huerto de<NL>la guarida… guf<WAIT>y… y hacerlo crecer…<NL>¡cof!<WAIT>reponer fuerzas… guf<NL><WAIT>no puedo perder<NL>tanto tiempo…<WAIT>Aquí y ahora… cof…<NL>me las llevo… ya…"
+  },
+  {
+   "key": "script:0145:04F5",
+   "src": "32020b572072",
+   "t": "<FACE:75>Fiu…<NL><WAIT>Ya volveré a darme<NL>otro banquete…"
+  }
+ ]
+}

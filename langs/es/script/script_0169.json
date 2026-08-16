@@ -1,0 +1,40 @@
+{
+ "part": "script/script_0169",
+ "entries": [
+  {
+   "key": "script:0169:0164",
+   "src": "87a4fa0c01a3",
+   "t": "<FACE:00>Ya no queda nada…"
+  },
+  {
+   "key": "script:0169:0173",
+   "src": "cd1591a29b64",
+   "t": "<FACE:04>¿Y ahora qué hago?"
+  },
+  {
+   "key": "script:0169:0185",
+   "src": "909eed1fafae",
+   "t": "<FACE:00>…Mejor no"
+  },
+  {
+   "key": "script:0169:018F",
+   "src": "10e473421b27",
+   "t": "<FACE:00>Creo que por aquí<NL>estaba ese famoso<WAIT>producto de televenta…<WAIT>la «Power Stone GX»<NL>tirada en el suelo…"
+  },
+  {
+   "key": "script:0169:01C8",
+   "src": "a7ae48bf3b19",
+   "t": "<FACE:08>¡¿Dónde, dónde?!<NL>¡¿Dónde está?!!"
+  },
+  {
+   "key": "script:0169:01DF",
+   "src": "2e91e280eeb5",
+   "t": "<FACE:07>N… no me asustes así<NL>¡Ay, <PLAYER>![<3]"
+  },
+  {
+   "key": "script:0169:01F8",
+   "src": "eb274f422c75",
+   "t": "<FACE:00>Los otakus dan miedo…"
+  }
+ ]
+}

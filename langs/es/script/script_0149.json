@@ -1,0 +1,50 @@
+{
+ "part": "script/script_0149",
+ "entries": [
+  {
+   "key": "script:0149:019F",
+   "src": "305616c165c7",
+   "t": "<FACE:31>¡Ah, <PLAYER>!"
+  },
+  {
+   "key": "script:0149:01A9",
+   "src": "87fd6f0dd957",
+   "t": "<FACE:31>Qué amplio es esto…<NL>Ideal para pasear<WAIT><FACE:00>¿No te aburres<NL>paseando sola?<WAIT><FACE:31>Puede ser…<NL>Por eso juega conmigo"
+  },
+  {
+   "key": "script:0149:01F9",
+   "src": "7a89ecb51cd4",
+   "t": "<FACE:31>Guaaau…<NL>Qué fuerte eres…<WAIT>Hiyori no te merece…"
+  },
+  {
+   "key": "script:0149:021C",
+   "src": "e7309b9490a2",
+   "t": "<FACE:31>Ay, no… cosas mías…"
+  },
+  {
+   "key": "script:0149:0230",
+   "src": "f27542a9bcc3",
+   "t": "<FACE:31>Yo también quiero un<NL>novio como <PLAYER>…"
+  },
+  {
+   "key": "script:0149:0267",
+   "src": "938b3618055b",
+   "t": "<FACE:00>¿Eh?<NL><WAIT>Allá algo brilló<NL>con luz blanca…"
+  },
+  {
+   "key": "script:0149:0286",
+   "src": "4f132321bca3",
+   "t": "<FACE:00>¿Qué es esto?"
+  },
+  {
+   "key": "script:0149:0290",
+   "src": "8b470848657e",
+   "t": "<FACE:57>Tercera contraseña:<NL>«ro»"
+  },
+  {
+   "key": "script:0149:02A1",
+   "src": "3f3f5cf83784",
+   "t": "<FACE:04>…<NL>¿Contraseña?"
+  }
+ ]
+}

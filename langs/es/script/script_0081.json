@@ -1,0 +1,35 @@
+{
+ "part": "script/script_0081",
+ "entries": [
+  {
+   "key": "script:0081:0251",
+   "src": "a84957079b08",
+   "t": "<FACE:7F>¡Logramos recuperar<NL>este bloque-robo!"
+  },
+  {
+   "key": "script:0081:0273",
+   "src": "84bfdede7bf4",
+   "t": "<FACE:7F>¡Qué bueno-robo!"
+  },
+  {
+   "key": "script:0081:027D",
+   "src": "4bec5a1615cc",
+   "t": "<FACE:7F>¡Aquí se está bien!<NL>¡Lo defenderemos-robo!"
+  },
+  {
+   "key": "script:0081:02C8",
+   "src": "4b03eeeb5786",
+   "t": "<FACE:7E>¡Este bloque no se lo<NL>entregamos-robooo!"
+  },
+  {
+   "key": "script:0081:02E3",
+   "src": "bc0b88d06ce3",
+   "t": "<FACE:7E>¡Ya lo recuperaremos!<NL>¡No lo olviden-robo!"
+  },
+  {
+   "key": "script:0081:0301",
+   "src": "3c1fd15f34a1",
+   "t": "<FACE:04>Esos de la banda…<NL>¿por qué tanto ánimo…?"
+  }
+ ]
+}

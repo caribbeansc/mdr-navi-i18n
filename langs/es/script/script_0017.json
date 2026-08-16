@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0017",
+ "entries": [
+  {
+   "key": "script:0017:0335",
+   "src": "4d80a7fffe92",
+   "t": "<FACE:7D>¿Ya estás listo-robo?<NL><WAIT><FACE:7D>¡Todavía no-robo!<NL>"
+  },
+  {
+   "key": "script:0017:034C",
+   "src": "4d80a7fffe92",
+   "t": "<FACE:7D>¿Ya estás listo-robo?<NL><WAIT><FACE:7D>¡Todavía no-robo!<NL>"
+  },
+  {
+   "key": "script:0017:0363",
+   "src": "eddd53ba48dc",
+   "t": "<FACE:00>¿Qué hacen?<NL>"
+  },
+  {
+   "key": "script:0017:0376",
+   "src": "d201b8823674",
+   "t": "<FACE:7D>¡Emergencia-robo!<NL>¡Es <PLAYER>-robo!"
+  },
+  {
+   "key": "script:0017:0384",
+   "src": "2d79cc63f29b",
+   "t": "<FACE:7D>¿Qué pasa-robo?<NL>¡Salgan todos-robo!<WAIT><FACE:7D>¡Ni hablar-robo!<NL><WAIT><FACE:7D>¡No caigo en ese<NL>truco-robo!<WAIT><FACE:7D>¡No vienen tanto a<NL>nuestro bloque-robo!<WAIT><FACE:7D>¡Te equivocas-robo!<NL>¡No es mentira-robo!"
+  },
+  {
+   "key": "script:0017:03E7",
+   "src": "91d11c2f657d",
+   "t": "<FACE:80>¡E… es verdad-robo!<NL><WAIT><FACE:80>¡Es <PLAYER>-robo!<NL>"
+  },
+  {
+   "key": "script:0017:03FC",
+   "src": "33d378560e0d",
+   "t": "<FACE:05>¿Qué tanto juegan?<NL>"
+  },
+  {
+   "key": "script:0017:040A",
+   "src": "ab6b16210f3c",
+   "t": "<FACE:0A>Qué relajados están…<NL><WAIT><FACE:0A>Por eso los mandan<NL>a cualquier rincón"
+  },
+  {
+   "key": "script:0017:043B",
+   "src": "6705b03f536e",
+   "t": "<FACE:7E>¡N… no es eso-robo!<NL><WAIT><FACE:7E>No jugamos escondidas<NL>por aburrimiento-robo"
+  },
+  {
+   "key": "script:0017:0461",
+   "src": "5ae3efba9cb7",
+   "t": "<FACE:7D>Es entrenamiento de<NL>guerrilla-robo"
+  },
+  {
+   "key": "script:0017:0472",
+   "src": "a46a2fa9032d",
+   "t": "<FACE:7D>¡Eso es-robo!<NL><WAIT><FACE:00>¿Será cierto…?<NL>"
+  },
+  {
+   "key": "script:0017:0487",
+   "src": "bf6c4545f793",
+   "t": "<FACE:7D>¡Verás el fruto del<NL>entrenamiento-robo!"
+  },
+  {
+   "key": "script:0017:049E",
+   "src": "2e41419f94fa",
+   "t": "<FACE:80>R… rayos-robo…<NL>"
+  },
+  {
+   "key": "script:0017:04AC",
+   "src": "f0ee5aec4d9b",
+   "t": "<FACE:7D>¿Qué pasa-robo?<NL>"
+  },
+  {
+   "key": "script:0017:04B7",
+   "src": "1425e8707f67",
+   "t": "<FACE:7D>¡Atacando de frente<NL>no es guerrilla-robo!"
+  },
+  {
+   "key": "script:0017:04D7",
+   "src": "b21cd0375333",
+   "t": "<FACE:00>Eran escondidas…<NL>después de todo…"
+  }
+ ]
+}

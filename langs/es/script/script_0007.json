@@ -1,0 +1,45 @@
+{
+ "part": "script/script_0007",
+ "entries": [
+  {
+   "key": "script:0007:0236",
+   "src": "439fa8f6ec58",
+   "t": "<FACE:7D>Lo sabía…<NL>Lo sabía-robo…<WAIT>A inútiles como<NL>nosotros solo nos dan<WAIT>sitios así-robo…"
+  },
+  {
+   "key": "script:0007:0276",
+   "src": "8afd7a365809",
+   "t": "<FACE:7D>Años ya en la<NL>Banda Sperobo…<WAIT>y ni he rozado a un<NL>jefe siquiera-robo…"
+  },
+  {
+   "key": "script:0007:02AA",
+   "src": "8cae9f70db3c",
+   "t": "<FACE:7D>Yo tampoco-robo…<NL>Así vamos a quedar<WAIT>sepultados-robo…"
+  },
+  {
+   "key": "script:0007:02C7",
+   "src": "af53e83b99b1",
+   "t": "<FACE:14>Vaya bloque más<NL>deprimente…<WAIT><FACE:19>¡Tomar un sitio así<NL>no sirve de nada!"
+  },
+  {
+   "key": "script:0007:02FD",
+   "src": "a2fef68daede",
+   "t": "<FACE:05>¡Pero qué dices!<NL>¡Hay que asegurarlo!"
+  },
+  {
+   "key": "script:0007:031E",
+   "src": "dc5a19f58edf",
+   "t": "<FACE:81>Uy… al final perdimos<NL>en un suspiro-robo…<WAIT>¡Pediré otra vez el<NL>traslado a un bloque<WAIT>importante-robo!"
+  },
+  {
+   "key": "script:0007:035C",
+   "src": "899d3463447e",
+   "t": "<FACE:7D>Seguro que no te<NL>lo dan-robo…"
+  },
+  {
+   "key": "script:0007:036A",
+   "src": "6286a3522d73",
+   "t": "<FACE:04>No sé… ganar esto<NL>no da alegría…"
+  }
+ ]
+}

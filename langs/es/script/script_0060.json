@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0060",
+ "entries": [
+  {
+   "key": "script:0060:03C4",
+   "src": "bb7abce24e98",
+   "t": "<FACE:66>¡Manos arribaaa!<NL>¡Robobatalla conmigo!"
+  },
+  {
+   "key": "script:0060:03DC",
+   "src": "b6205e6b41c4",
+   "t": "<FACE:03>¡Ah! ¿Eres tú?<WAIT><FACE:03>¿Otra vez te ganaron?<NL>"
+  },
+  {
+   "key": "script:0060:03F7",
+   "src": "eef3a38aa15f",
+   "t": "<FACE:66>¡Oh, si es <PLAYER>!<WAIT>Vaya, me viste en un<NL>momento vergonzoso"
+  },
+  {
+   "key": "script:0060:041B",
+   "src": "80b124d64505",
+   "t": "<FACE:05>Otra vez le quitaron<NL>el brazo derecho, ¿no?<WAIT><FACE:05><PLAYER>, ¡de paso<NL>recuperemos su brazo!"
+  },
+  {
+   "key": "script:0060:0454",
+   "src": "db05b7216b6d",
+   "t": "<FACE:01>¡Ustedes! ¿Otra vez<NL>en la oficina?<WAIT>¡No aprenden nada!"
+  },
+  {
+   "key": "script:0060:0475",
+   "src": "2d4b750dc534",
+   "t": "<FACE:7A>¡Necios!<WAIT><FACE:7B>El amo de este Bloque<NL>del Oeste<WAIT>debe ser alguien como<NL>yo, ¡y nadie más!"
+  },
+  {
+   "key": "script:0060:04AB",
+   "src": "13d271c2f957",
+   "t": "<FACE:7A>¡Tsk! Y yo que la<NL>pasaba de pistolero…"
+  },
+  {
+   "key": "script:0060:04C8",
+   "src": "27e1fbcfa12b",
+   "t": "<FACE:7A>¡Volveré a quitárselo!<NL>"
+  },
+  {
+   "key": "script:0060:04D8",
+   "src": "9e1b669956a1",
+   "t": "<FACE:00>Recuperémoslo rápido"
+  },
+  {
+   "key": "script:0060:04E6",
+   "src": "d6acf399ffde",
+   "t": "<FACE:05>Vámonos ya, rápido"
+  },
+  {
+   "key": "script:0060:04F5",
+   "src": "fb8f7164e1ad",
+   "t": "<FACE:0A>Aquí no hay nada…<NL>Qué aburrido"
+  },
+  {
+   "key": "script:0060:0508",
+   "src": "7dea32a1992b",
+   "t": "<FACE:19>¿Otra vez nos lo<NL>volvieron a quitar?<WAIT><FACE:14>La Banda Sperobo no<NL>se rinde, ¿eh?"
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "part": "script/script_0076",
+ "entries": [
+  {
+   "key": "script:0076:05E5",
+   "src": "4af18ce3e755",
+   "t": "<FACE:0F>Navi, muéstrame los<NL>datos de la base<WAIT>del asteroide<WAIT><FACE:53>Entendido"
+  },
+  {
+   "key": "script:0076:060C",
+   "src": "0c5d77144388",
+   "t": "<FACE:0F>Esta parece la sala<NL>de control…<WAIT>Sin tomarla, no<NL>podremos separarnos"
+  },
+  {
+   "key": "script:0076:063C",
+   "src": "faa886603f90",
+   "t": "<FACE:0A>Hasta allá hay un<NL>solo camino…"
+  },
+  {
+   "key": "script:0076:064E",
+   "src": "5dd6f925ada1",
+   "t": "<FACE:14>Pos no nos queda más<NL>que pelear contra<WAIT>la Banda Sperobo"
+  },
+  {
+   "key": "script:0076:0670",
+   "src": "b3163654a52e",
+   "t": "<FACE:19>Pero ellos también<NL>quieren este Cluster<WAIT>Entonces, si nos<NL>quedamos quietos aquí<WAIT>no lo van a destruir"
+  },
+  {
+   "key": "script:0076:06B4",
+   "src": "f69b48e55ce3",
+   "t": "<FACE:05>Si les damos tiempo<NL>nos van a fijar bien<WAIT>y ya no podremos<NL>separarnos<WAIT>¡Caeríamos en su<NL>trampa!<WAIT>¡Hay que golpear<NL>primero!"
+  },
+  {
+   "key": "script:0076:0702",
+   "src": "8567742d0903",
+   "t": "<FACE:00>Sí, yo pienso igual<NL><WAIT>Si sellamos todo para<NL>que no entren<WAIT>los Sperobo, estamos<NL>bien<WAIT>¡Entremos en montón y<NL>acabemos de una vez!"
+  },
+  {
+   "key": "script:0076:0752",
+   "src": "7e660404cc2f",
+   "t": "<FACE:0F>Decidido entonces<NL>¡Comencemos el asalto!<NL>"
+  },
+  {
+   "key": "script:0076:0769",
+   "src": "8f98f4ceae68",
+   "t": "<FACE:0F>Navi, ¿en este Bloque<NL>también hay tubo<WAIT>de conexión?"
+  },
+  {
+   "key": "script:0076:0789",
+   "src": "6571ae5bde1f",
+   "t": "<FACE:53>Sí lo hay…<NL><WAIT>No conozco la<NL>situación del destino<WAIT>y no puedo garantizar<NL>la seguridad"
+  },
+  {
+   "key": "script:0076:07BA",
+   "src": "2a98ab501caa",
+   "t": "<FACE:00>Pues ese asteroide es<NL>la guarid…"
+  },
+  {
+   "key": "script:0076:07D5",
+   "src": "046abc774c8c",
+   "t": "<FACE:03>¡Guh!"
+  },
+  {
+   "key": "script:0076:07DC",
+   "src": "ab0c51a0d577",
+   "t": "<FACE:06>(¡¿En qué piensas?!)<NL><WAIT>(Si a una computadora<NL> que cuida la<WAIT> seguridad le dices<NL> que es guarida<WAIT> enemiga, ¡no nos va a<NL> dejar salir!)"
+  },
+  {
+   "key": "script:0076:082F",
+   "src": "ae34a47f3e1b",
+   "t": "<FACE:14>¿Eh? ¿Hiyori no le<NL>hizo algo a<WAIT><PLAYER> recién?<WAIT><FACE:1D>No lo vi muy bien<NL>pero parece que<WAIT>le dio un golpe…"
+  },
+  {
+   "key": "script:0076:0875",
+   "src": "e1044487e097",
+   "t": "<FACE:0D>¿En serio? ¿No será<NL>un ataque de anemia?<WAIT>Él se dobla seguido…"
+  },
+  {
+   "key": "script:0076:089C",
+   "src": "422538ecef39",
+   "t": "<FACE:12>A, a, ese asteroide<NL>es…<WAIT>n, nuestra mina<NL>secreta<WAIT>Es un secreto que<NL>solo yo, el<WAIT>presidente, conozco…"
+  },
+  {
+   "key": "script:0076:08E5",
+   "src": "80c8feda3f36",
+   "t": "<FACE:53>Ya veo, entendido<NL>Preparo la conexión"
+  },
+  {
+   "key": "script:0076:0904",
+   "src": "0976f64b35af",
+   "t": "<FACE:06>¡Ay, en serio!<NL>Ser tan honesto<WAIT>también es un problema"
+  },
+  {
+   "key": "script:0076:0920",
+   "src": "59df51510bc7",
+   "t": "<FACE:04>Pero…<NL>"
+  },
+  {
+   "key": "script:0076:0928",
+   "src": "8b2bd9de9ea6",
+   "t": "<FACE:04>(Para mí Navi<NL> también es una<WAIT> compañera valiosa…)"
+  },
+  {
+   "key": "script:0076:094A",
+   "src": "8af08b888983",
+   "t": "<FACE:8E>Oh, <PLAYER>…<NL><WAIT>Revisé el registro de<NL>tu charla con Navi<WAIT>¡Y parece que van al<NL>«cuartel general»!"
+  },
+  {
+   "key": "script:0076:0984",
+   "src": "ec5032502ffc",
+   "t": "<FACE:03>¡Ah, Doctor!<WAIT><FACE:04>Eso no lo diga<NL>delante de Navi…"
+  },
+  {
+   "key": "script:0076:09A1",
+   "src": "26de12a0e210",
+   "t": "<FACE:8E>Ya lo sé<NL>Tengo mucho que decir<WAIT>al respecto, pero…<NL>no hay otra opción<WAIT>…Por cierto<NL><WAIT>Para que no se corte<NL>la comunicación<WAIT>actualizaré el<NL>programa de tu<WAIT>Medarreloj para que<NL>hables con el Cluster<WAIT><FACE:00>¡Muchas gracias,<NL>Doctor!"
+  },
+  {
+   "key": "script:0076:0A3B",
+   "src": "89a96a767fe5",
+   "t": "<FACE:22>…¿Quién?<NL><WAIT>…¿Navi?<NL><WAIT>¿Que yo… no cambio…?"
+  },
+  {
+   "key": "script:0076:0A5C",
+   "src": "5247cd3b4e02",
+   "t": "<FACE:53><SFX:6A>Señor Niwaka…<NL><DELAY:003C><DELAY:0010><CLEAR>"
+  },
+  {
+   "key": "script:0076:0A8D",
+   "src": "fe0ab7190654",
+   "t": "<FACE:53>Yo…<NL><WAIT>Creía que los humanos<NL>a diferencia de<WAIT>nosotras las máquinas<NL>cambian día a día<WAIT>y progresan…<NL><WAIT>Pero usted no ha<NL>cambiado en nada<WAIT>Más que a un humano…<NL><WAIT>se parece a nosotras<NL>las máquinas…"
+  },
+  {
+   "key": "script:0076:0B0D",
+   "src": "60cccfa5ad6e",
+   "t": "<FACE:22>Navi… ¡tú…!"
+  },
+  {
+   "key": "script:0076:0B1C",
+   "src": "348d30b2202c",
+   "t": "<FACE:04>(Niwaka…<NL> está muy deprimido…)"
+  },
+  {
+   "key": "script:0076:0B3B",
+   "src": "15cb82a3a893",
+   "t": "<FACE:00>Niwaka…<NL>Es cierto que lo de<WAIT>hace rato fue un<NL>fracaso enorme<WAIT>pero no te deprimas<NL>tanto<WAIT>Nosotros lo vamos a<NL>resolver<WAIT>No perderemos contra<NL>unos raros como<WAIT>la Banda Sperobo<NL><WAIT>Tú también cuida<NL>el Cluster<WAIT><FACE:22>…<WAIT><FACE:04>…¿Sí?<WAIT><FACE:22>…<WAIT><FACE:00>Bien, cuento contigo"
+  }
+ ]
+}

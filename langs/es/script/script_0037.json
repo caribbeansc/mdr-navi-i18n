@@ -1,0 +1,195 @@
+{
+ "part": "script/script_0037",
+ "entries": [
+  {
+   "key": "script:0037:05A7",
+   "src": "94c8f00a6a29",
+   "t": "<FACE:80>¡Atrapamos el Cluster!<NL>¡Alisten la mininave<WAIT>para despegar-robo!"
+  },
+  {
+   "key": "script:0037:05CE",
+   "src": "1ace94ad1c78",
+   "t": "<FACE:81>Es que… están en<NL>mantenimiento…<WAIT>Solo una puede<NL>despegar-robo…"
+  },
+  {
+   "key": "script:0037:05FA",
+   "src": "c4fa8909c66b",
+   "t": "<FACE:7D>¿Por qué-robo?<NL>¿Justo ahora hacen<WAIT>algo así-robo?"
+  },
+  {
+   "key": "script:0037:061B",
+   "src": "d7c097fcd335",
+   "t": "<FACE:7D>Creí que solo era<NL>atraparlo-robo<WAIT>¿Van a atacar con<NL>la mininave-robo?"
+  },
+  {
+   "key": "script:0037:0641",
+   "src": "c959a6db76b6",
+   "t": "<FACE:7D>Eso no lo haremos-robo<NL><WAIT>¡No tendría sentido<NL>haberlo traído acá!"
+  },
+  {
+   "key": "script:0037:0669",
+   "src": "f0dbc1d624e3",
+   "t": "<FACE:7D>¿A qué despegar-robo?<NL>"
+  },
+  {
+   "key": "script:0037:067E",
+   "src": "3de23911fd35",
+   "t": "<FACE:7D>Vamos por comida-robo…"
+  },
+  {
+   "key": "script:0037:0696",
+   "src": "23562b1b512a",
+   "t": "<FACE:81>¿Qué-robo?"
+  },
+  {
+   "key": "script:0037:069E",
+   "src": "3d28e369e6e6",
+   "t": "<FACE:7D>Dentro del Cluster<NL>hay más de 30 niños…"
+  },
+  {
+   "key": "script:0037:06C2",
+   "src": "6ccf2f36067f",
+   "t": "<FACE:7D>Los van a criar como<NL>Sperobo-robo<WAIT>Pero con sus raciones<NL>incluidas…<WAIT>pasamos lo que la base<NL>puede producir-robo…"
+  },
+  {
+   "key": "script:0037:0715",
+   "src": "14bedeeb00de",
+   "t": "<FACE:7E>¡Qué desastre-robo!<NL>¡No planearon nada!"
+  },
+  {
+   "key": "script:0037:0734",
+   "src": "8a8ba7233728",
+   "t": "<FACE:81>¡No hubo remedio-robo!<NL><WAIT>No pensamos que<NL>hubiera tantos niños<WAIT>a bordo-robo…<NL>En fin, con la única<WAIT>que queda, aunque sea…"
+  },
+  {
+   "key": "script:0037:0779",
+   "src": "97c01531302f",
+   "t": "<FACE:80>¡Ah!<NL>¡Algo está clavado<WAIT>en la escotilla-robo!"
+  },
+  {
+   "key": "script:0037:0791",
+   "src": "1545f9794a13",
+   "t": "<FACE:80>¡Tubo de atraque-robo!<NL>¡El del Cluster-robo!<WAIT><FACE:7E>¡Así no podemos ir<NL>por comida-robo!"
+  },
+  {
+   "key": "script:0037:07C8",
+   "src": "c138dba5fe64",
+   "t": "<FACE:03>Oigan… espérenme…"
+  },
+  {
+   "key": "script:0037:07DB",
+   "src": "53f6664b9108",
+   "t": "<FACE:07>Ay, pues entonces<NL>pasa tú primero"
+  },
+  {
+   "key": "script:0037:07EE",
+   "src": "a6db4a3c7bc8",
+   "t": "<FACE:7E>¡Mm! ¡Un intruso-robo!<NL><WAIT>¡Venir solo! ¡Qué tipo<NL>tan atrevido-robo!"
+  },
+  {
+   "key": "script:0037:0817",
+   "src": "df93c3e5a417",
+   "t": "<FACE:03>Ah… no, esto…<NL>No era mi intención…"
+  },
+  {
+   "key": "script:0037:082F",
+   "src": "3dc2f5f02427",
+   "t": "<FACE:05>Parece que no hay<NL>trampas…"
+  },
+  {
+   "key": "script:0037:0843",
+   "src": "c2cb75f54e36",
+   "t": "<FACE:05>¡Vamos, todos!"
+  },
+  {
+   "key": "script:0037:0850",
+   "src": "16996955a2b8",
+   "t": "<FACE:17>Lo que hace Hiyori<NL>ya es una trampa…"
+  },
+  {
+   "key": "script:0037:086E",
+   "src": "7f179d4ba871",
+   "t": "<FACE:7E>Entre los cinco<NL>te cocinaremos<WAIT>bien despacio-robo…"
+  },
+  {
+   "key": "script:0037:088D",
+   "src": "3458e7ba21fc",
+   "t": "<FACE:05>¡Hasta ahí!"
+  },
+  {
+   "key": "script:0037:0897",
+   "src": "1ba694087e8c",
+   "t": "<FACE:03>¡Ah, Hiyori!"
+  },
+  {
+   "key": "script:0037:08A1",
+   "src": "e54b798ce945",
+   "t": "<FACE:05><PLAYER>… venimos a<NL>ayudarte, ¡tranquilo!"
+  },
+  {
+   "key": "script:0037:08C3",
+   "src": "e81d13433b7c",
+   "t": "<FACE:04>No… si todo esto pasó<NL>fue por culpa de…"
+  },
+  {
+   "key": "script:0037:08DD",
+   "src": "021db5ba6135",
+   "t": "<FACE:06>¡Ustedes!<NL><WAIT>¡Suelten ya el brazo<NL>que sujeta al Cluster!"
+  },
+  {
+   "key": "script:0037:0908",
+   "src": "ce503dc52fe5",
+   "t": "<FACE:7D>¡Eso no se puede-robo!<NL><WAIT>¡Mejor retiren ese<NL>tubo-robo!<WAIT>Si no, la comida…<WAIT><FACE:03>¿Eh? ¡¿La comida?!"
+  },
+  {
+   "key": "script:0037:094B",
+   "src": "dc557db66ea5",
+   "t": "<FACE:06>¡¿Qué?!<NL>¿Van a amenazar a<WAIT>unos de secundaria?<WAIT>Si se ponen así,<NL>¡lo arreglamos ahora!"
+  },
+  {
+   "key": "script:0037:0982",
+   "src": "01a540a7f60f",
+   "t": "<FACE:12>Espera… Hiyori<NL>Ellos dicen algo<WAIT>importante…"
+  },
+  {
+   "key": "script:0037:09A4",
+   "src": "829f328e31e5",
+   "t": "<FACE:06>¡Lo decidimos en<NL>robobatalla!"
+  },
+  {
+   "key": "script:0037:09B3",
+   "src": "907e488bbf15",
+   "t": "<FACE:7E>¡No hay remedio-robo!<NL>¡Si falta comida será<WAIT>culpa de ustedes-robo!<WAIT><FACE:80>¿Vamos ya por comida<NL>mientras tanto-robo?"
+  },
+  {
+   "key": "script:0037:09F4",
+   "src": "84579c62676d",
+   "t": "<FACE:05>¿Cómo que comida?"
+  },
+  {
+   "key": "script:0037:0A02",
+   "src": "fd36e43ab019",
+   "t": "<FACE:0D>¿No será que falta<NL>comida para nosotros?"
+  },
+  {
+   "key": "script:0037:0A24",
+   "src": "e03dd2bd05d7",
+   "t": "<FACE:19>¡Eso es! Seguro que<NL>iban por comida<WAIT>en la mininave<WAIT>Y por eso… el tubo<NL>les estorbaba…"
+  },
+  {
+   "key": "script:0037:0A68",
+   "src": "3bb2a089577a",
+   "t": "<FACE:12>¡Tonterías! Son una<NL>organización malvada<WAIT>No pueden ser tan<NL>buenas personas…"
+  },
+  {
+   "key": "script:0037:0A92",
+   "src": "20b6de4074f7",
+   "t": "<FACE:10>Pero les falta comida<NL>"
+  },
+  {
+   "key": "script:0037:0AAE",
+   "src": "73a42c3b87e4",
+   "t": "<FACE:0F>¡Sigamos adelante!"
+  }
+ ]
+}

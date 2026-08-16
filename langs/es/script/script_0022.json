@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0022",
+ "entries": [
+  {
+   "key": "script:0022:0360",
+   "src": "67471cab480d",
+   "t": "<FACE:04>…Está clarísimo<NL>que es una trampa…<WAIT><FACE:09>Para recuperar esto<NL>hay que saltar, ¿no?"
+  },
+  {
+   "key": "script:0022:0397",
+   "src": "fc79286d16e6",
+   "t": "<FACE:01>¡Aaaallá voy!"
+  },
+  {
+   "key": "script:0022:03A0",
+   "src": "4b1066bc69e5",
+   "t": "<FACE:7B>¡Fuaaa ja ja ja ja!<NL>¡Otro futuro recluta!<WAIT>¡Este bloque sí que<NL>resulta útil!<NL>"
+  },
+  {
+   "key": "script:0022:03DD",
+   "src": "57e90aa3be5b",
+   "t": "<FACE:79>¡Fuaaa…! ¿Eeeh?<WAIT><FACE:00>¡Soy yo!<NL><WAIT>¿Quién iba a caer dos<NL>veces en esta trampa?<WAIT><FACE:79>Bueno…<NL>alguno no la conoce"
+  },
+  {
+   "key": "script:0022:043B",
+   "src": "d9d1c9276488",
+   "t": "<FACE:79>Y hasta los que saben<NL>a veces se distraen…"
+  },
+  {
+   "key": "script:0022:045B",
+   "src": "16fa17aa6cff",
+   "t": "<FACE:00>Sí, sí… En fin,<NL>¡otra robobatalla!"
+  },
+  {
+   "key": "script:0022:047C",
+   "src": "e1edee80a5ee",
+   "t": "<FACE:7A>¡No queda remedio!"
+  },
+  {
+   "key": "script:0022:0485",
+   "src": "3a6412304e3c",
+   "t": "<FACE:7B>…¡F-fuaaa ja ja ja!<NL>¡Bravo, muchacho!"
+  },
+  {
+   "key": "script:0022:04A3",
+   "src": "6aabf21dcc19",
+   "t": "<FACE:79>¡Parece que esta vez<NL>también me contuve!"
+  },
+  {
+   "key": "script:0022:04C5",
+   "src": "7f7e008c4cbe",
+   "t": "<FACE:79><PLAYER>!<NL>¡Recordaré ese nombre!<WAIT><FACE:7B>¡Siéntete orgulloso!<NL>¡Fuaaa ja ja ja!"
+  },
+  {
+   "key": "script:0022:04F5",
+   "src": "b33a55004564",
+   "t": "<FACE:79>¡Otra vez lo olvidaba!<NL><WAIT>¡Pulsa el interruptor<NL>de la escalera!"
+  }
+ ]
+}

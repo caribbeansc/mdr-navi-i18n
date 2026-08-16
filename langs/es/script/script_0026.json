@@ -1,0 +1,105 @@
+{
+ "part": "script/script_0026",
+ "entries": [
+  {
+   "key": "script:0026:0593",
+   "src": "53d5bb046dd5",
+   "t": "<FACE:7D>La otra vez fue un<NL>desastre-robo…<WAIT>Sí-robo… si no fuera<NL>por ellos, yo habría<WAIT>ganado todo-robo…<WAIT>¡No-robo! ¡Yo sí que<NL>habría ganado-robo!<WAIT>¡Si yo estaba aquí,<NL>ganábamos-robo!"
+  },
+  {
+   "key": "script:0026:0603",
+   "src": "41279f2274b0",
+   "t": "<FACE:73>…vamos… rápido…<NL>empecemos…"
+  },
+  {
+   "key": "script:0026:061C",
+   "src": "fe42d2dac352",
+   "t": "<FACE:81>¡Ah, j… jefa Kirika!<NL><WAIT>Ya… ya nos habíamos<NL>dado cuenta-robo"
+  },
+  {
+   "key": "script:0026:063C",
+   "src": "e6171220957a",
+   "t": "<FACE:81>A… a prepararse-robo…<NL>"
+  },
+  {
+   "key": "script:0026:0651",
+   "src": "c868395a7335",
+   "t": "<FACE:81>Yo… yo también-robo…"
+  },
+  {
+   "key": "script:0026:0662",
+   "src": "d403269683d9",
+   "t": "<FACE:73>…¿se dieron cuenta?…<NL><WAIT>…eso…<NL><WAIT>mentira…"
+  },
+  {
+   "key": "script:0026:0680",
+   "src": "9a88d0b114ab",
+   "t": "<FACE:7F>¡Atención a todos!<NL>¡Llega por fin la<WAIT>«Copa Sperobo R»-robo!<NL>"
+  },
+  {
+   "key": "script:0026:06A7",
+   "src": "975645de86b6",
+   "t": "<FACE:7F>¡Hoy sabremos quién es<NL>más útil a Kirika!"
+  },
+  {
+   "key": "script:0026:06E0",
+   "src": "3cad703d0db1",
+   "t": "<FACE:80>¡Ah! ¡Son ellos-robo!<NL><WAIT>¡Volvieron-robo!<NL>"
+  },
+  {
+   "key": "script:0026:06F8",
+   "src": "7d285acffa65",
+   "t": "<FACE:7D>Así se decide-robo<NL>quién sirve a Kirika"
+  },
+  {
+   "key": "script:0026:071E",
+   "src": "3be42fe6153b",
+   "t": "<FACE:73>…<PLAYER>…<NL>…mi destino…<WAIT>…nos vimos otra vez…"
+  },
+  {
+   "key": "script:0026:073C",
+   "src": "d496679dcae2",
+   "t": "<FACE:03>(Sí que da miedo…)"
+  },
+  {
+   "key": "script:0026:074B",
+   "src": "a55dafdc1d2e",
+   "t": "<FACE:06>¡Ay, ya!<NL><WAIT>¡Otra vez con eso!<WAIT>¡Este bloque nos lo<NL>devuelven ya!"
+  },
+  {
+   "key": "script:0026:0773",
+   "src": "773ea3feabc6",
+   "t": "<FACE:73>…seguro… nos vemos…<NL>otra vez…"
+  },
+  {
+   "key": "script:0026:0789",
+   "src": "0483ff2403d5",
+   "t": "<FACE:0D>Vaya… y yo que quería<NL>medir fuerzas…"
+  },
+  {
+   "key": "script:0026:07A5",
+   "src": "38a159bdc047",
+   "t": "<FACE:19>Así es<WAIT><FACE:14>No pudimos lucirnos<NL>ante el líder"
+  },
+  {
+   "key": "script:0026:07C4",
+   "src": "b7097dc67e87",
+   "t": "<FACE:0A>Por cierto, Hiyori…<NL><WAIT>Con esa jefa Kirika<NL>te pones rara, ¿no?"
+  },
+  {
+   "key": "script:0026:07EB",
+   "src": "3d6b9a2bbc19",
+   "t": "<FACE:08>¡Eh! ¿T… tú crees…?"
+  },
+  {
+   "key": "script:0026:07FB",
+   "src": "c48872518ae7",
+   "t": "<FACE:81>…imposible-robo<NL>no podemos ganar-robo<WAIT>¡a correr-robo!"
+  },
+  {
+   "key": "script:0026:0819",
+   "src": "1782b146d1dd",
+   "t": "<FACE:80>A… ¡adiós-robooo!"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "part": "script/script_0164",
+ "entries": [
+  {
+   "key": "script:0164:02E4",
+   "src": "23222644ecf6",
+   "t": "<FACE:33>Vaya, si es <PLAYER><NL><WAIT>¿Y qué se le ofrece al<NL>héroe de la clase?<WAIT>Lamento decirle que<NL>ya íbamos de salida<WAIT>¿Nos cede el paso, por<NL>favor?"
+  },
+  {
+   "key": "script:0164:033E",
+   "src": "1b304c4b2642",
+   "t": "<FACE:33>Hoy no es un buen día"
+  },
+  {
+   "key": "script:0164:0357",
+   "src": "7671c2f0abc7",
+   "t": "<FACE:35>Será en otra ocasión…"
+  },
+  {
+   "key": "script:0164:036C",
+   "src": "dc22bf84c1b2",
+   "t": "<FACE:36>Así lo haremos, sí"
+  },
+  {
+   "key": "script:0164:03F0",
+   "src": "f460c14fd8d9",
+   "t": "<FACE:33>No hay remedio…<NL>Sea, solo un poquito<WAIT>puedo mostrarles esta<NL>mansión tan gloriosa"
+  },
+  {
+   "key": "script:0164:042E",
+   "src": "0e5a1c63bfe2",
+   "t": "<FACE:03>¡I-increíble!"
+  },
+  {
+   "key": "script:0164:0453",
+   "src": "316999d4a433",
+   "t": "<FACE:00>Está con llave…"
+  }
+ ]
+}

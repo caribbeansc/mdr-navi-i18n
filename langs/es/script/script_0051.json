@@ -1,0 +1,75 @@
+{
+ "part": "script/script_0051",
+ "entries": [
+  {
+   "key": "script:0051:0817",
+   "src": "e43d226f6ff9",
+   "t": "<FACE:73>…no funciona…"
+  },
+  {
+   "key": "script:0051:0822",
+   "src": "f07fb4ff9128",
+   "t": "<FACE:01>¡Kirika! Es muy fuerte<NL>Ven con nosotros…"
+  },
+  {
+   "key": "script:0051:0846",
+   "src": "8127147229ef",
+   "t": "<FACE:74>…je je… según mi<NL>augurio… sola… bien…"
+  },
+  {
+   "key": "script:0051:086A",
+   "src": "49dff76a533b",
+   "t": "<FACE:73>¿Mi bola de cristal<NL>negra?? ¿Sin destino?"
+  },
+  {
+   "key": "script:0051:0889",
+   "src": "6005de21c60c",
+   "t": "<FACE:73>…¿esto es el destino?"
+  },
+  {
+   "key": "script:0051:0899",
+   "src": "8a6a314dce78",
+   "t": "<FACE:01>¡No te rindas!"
+  },
+  {
+   "key": "script:0051:08A7",
+   "src": "52312bf6e1c7",
+   "t": "<FACE:73>…<PLAYER>…<NL><WAIT>…al final eres tú…<NL>el del destino…"
+  },
+  {
+   "key": "script:0051:08C2",
+   "src": "2a08185880dd",
+   "t": "<FACE:05>¡Ay, sí, sí!<NL>¡Menos charla y vamos!"
+  },
+  {
+   "key": "script:0051:08E5",
+   "src": "81f5ed7d8e7d",
+   "t": "<FACE:00>¿Y más adelante?"
+  },
+  {
+   "key": "script:0051:08EE",
+   "src": "3e1e6dba8734",
+   "t": "<FACE:73>…Raiun…<NL>…lo detesto…<WAIT><FACE:70>Sí, sí… hasta entre<NL>los jefes lo detestan"
+  },
+  {
+   "key": "script:0051:091E",
+   "src": "78dd3a96d9f7",
+   "t": "<FACE:00>Hay que avanzar ya"
+  },
+  {
+   "key": "script:0051:092F",
+   "src": "ea4f373b54fc",
+   "t": "<FACE:73>¡Kirika se unió!"
+  },
+  {
+   "key": "script:0051:0940",
+   "src": "eca028b1d35b",
+   "t": "<FACE:04>¿Cómo serán los<NL>aliens de esta nave?<WAIT>Yo… querría conocer ya<NL>a otra civilización…"
+  },
+  {
+   "key": "script:0051:0995",
+   "src": "03f2865ff168",
+   "t": "<FACE:01>¿Será que…?"
+  }
+ ]
+}

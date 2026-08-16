@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0074",
+ "entries": [
+  {
+   "key": "script:0074:05FD",
+   "src": "8a5ce21183a7",
+   "t": "<FACE:01>¡Smog, no! ¡Si estás<NL>delicado de salud!"
+  },
+  {
+   "key": "script:0074:0618",
+   "src": "81e5366e9d99",
+   "t": "<FACE:75>¿Ju ju ju? Cof, cof…<NL>¿<PLAYER>?"
+  },
+  {
+   "key": "script:0074:0629",
+   "src": "4d9f8a7ce4bb",
+   "t": "<FACE:75>¡Mira!<WAIT>¡Qué bloque tan bello!<WAIT>Descansando aquí me<NL>curaré el cuerpo"
+  },
+  {
+   "key": "script:0074:0654",
+   "src": "69cc0eca71ad",
+   "t": "<FACE:76>Cof… ¡Este sitio<NL>lo tomaré yo!"
+  },
+  {
+   "key": "script:0074:0670",
+   "src": "cec2ebf4cfbc",
+   "t": "<FACE:76>¡Hmpf!"
+  },
+  {
+   "key": "script:0074:0676",
+   "src": "32913a036f7e",
+   "t": "<FACE:78>De veras… no había<NL>necesidad de eso…"
+  },
+  {
+   "key": "script:0074:0689",
+   "src": "5309178e7001",
+   "t": "<FACE:6E>Dices eso, pero traes<NL>la cara roja, ¿eh?"
+  },
+  {
+   "key": "script:0074:06A5",
+   "src": "344fcb509e6e",
+   "t": "<FACE:76>¡Necio! Esto es de<NL>absorber nutrientes…"
+  },
+  {
+   "key": "script:0074:06BC",
+   "src": "cb759d96667c",
+   "t": "<FACE:72>¡Ay, te sonrojaste!<NL>¡Pillín!"
+  },
+  {
+   "key": "script:0074:06CC",
+   "src": "a9847dd61fa1",
+   "t": "<FACE:00>No tengo nada que<NL>hacer por allá"
+  },
+  {
+   "key": "script:0074:06DB",
+   "src": "376850bf4730",
+   "t": "<FACE:75>¡Smog se unió<NL>al equipo!"
+  },
+  {
+   "key": "script:0074:06ED",
+   "src": "367ee99abdea",
+   "t": "<FACE:00>Ya veo… aquí no hay<NL>nadie más que Medabots"
+  },
+  {
+   "key": "script:0074:070A",
+   "src": "fc376d2c7a47",
+   "t": "<FACE:04>Pero ¿por qué…"
+  }
+ ]
+}

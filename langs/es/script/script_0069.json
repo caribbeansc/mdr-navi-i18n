@@ -1,0 +1,115 @@
+{
+ "part": "script/script_0069",
+ "entries": [
+  {
+   "key": "script:0069:05F9",
+   "src": "7fd6ea2bfd4a",
+   "t": "<FACE:05>¿Por qué hay que venir<NL>aquí una y otra vez?<WAIT>Además es puro peñasco<NL>y cuesta subir"
+  },
+  {
+   "key": "script:0069:0636",
+   "src": "4ec7c2b12739",
+   "t": "<FACE:1A>Y que lo diga…<NL>Solo cansa y ya"
+  },
+  {
+   "key": "script:0069:064C",
+   "src": "8f71b936b8bb",
+   "t": "<FACE:0A>¿Qué hacemos ahora,<NL><PLAYER>? ¿Lo dejamos?"
+  },
+  {
+   "key": "script:0069:065C",
+   "src": "ac08c8d3d3e5",
+   "t": "<FACE:04>No podemos dejarlo…<NL><WAIT>Si vuelven a dañar el<NL>Cluster, será peor<WAIT><FACE:18>Tienes razón… ni modo"
+  },
+  {
+   "key": "script:0069:06A3",
+   "src": "f9240f463e63",
+   "t": "<FACE:09>Ni modo…"
+  },
+  {
+   "key": "script:0069:06B0",
+   "src": "dcc42a611a9a",
+   "t": "<FACE:6E>Jajaja, al fin<NL>llegaron<WAIT><FACE:6C>Esta vez no cederé el<NL>bloque tan fácilmente"
+  },
+  {
+   "key": "script:0069:06E7",
+   "src": "7b3720cb09d1",
+   "t": "<FACE:0D>Vaya, qué cosas tan<NL>graciosas dices"
+  },
+  {
+   "key": "script:0069:0700",
+   "src": "e331eb1093a7",
+   "t": "<FACE:6C>¡Conocerán el poder<NL>de la Banda Sperobo!"
+  },
+  {
+   "key": "script:0069:0719",
+   "src": "45116dca029f",
+   "t": "<FACE:0A>Hmpf, al final no<NL>eras la gran cosa<WAIT><FACE:6D>Grgrgrgr…"
+  },
+  {
+   "key": "script:0069:0737",
+   "src": "021be5ee6ad4",
+   "t": "<FACE:6F>¡Retirada!"
+  },
+  {
+   "key": "script:0069:0743",
+   "src": "a17956d4a555",
+   "t": "<FACE:08>¡Ah!"
+  },
+  {
+   "key": "script:0069:0748",
+   "src": "f567d2b61265",
+   "t": "<FACE:03>¿Qué pasa, Hiyori?"
+  },
+  {
+   "key": "script:0069:0755",
+   "src": "23d6054bed94",
+   "t": "<FACE:08>Se me cayó «MiraMira»<NL>Ay… y era mi favorito"
+  },
+  {
+   "key": "script:0069:077B",
+   "src": "9223ee49c6ec",
+   "t": "<FACE:06>¡Ay, esto es lo peor!"
+  },
+  {
+   "key": "script:0069:0787",
+   "src": "24c6eead3b9b",
+   "t": "<FACE:01>…Está bien<NL>Iré a buscarlo…"
+  },
+  {
+   "key": "script:0069:079D",
+   "src": "e0e29f457899",
+   "t": "<FACE:07>Jiji…"
+  },
+  {
+   "key": "script:0069:07A5",
+   "src": "0b3409935adf",
+   "t": "<FACE:02>¡Aquí está!"
+  },
+  {
+   "key": "script:0069:07B0",
+   "src": "09513ae1c0a7",
+   "t": "<FACE:00>Fiu… ya está"
+  },
+  {
+   "key": "script:0069:07BA",
+   "src": "0a0fadc3505f",
+   "t": "<FACE:07>Jiji, gracias"
+  },
+  {
+   "key": "script:0069:07C4",
+   "src": "769c3f2e0fb0",
+   "t": "<FACE:00>Tengo que buscar<NL>el «MiraMira»"
+  },
+  {
+   "key": "script:0069:07D7",
+   "src": "0d1cd8bae38f",
+   "t": "<FACE:00>No es momento de<NL>regresar"
+  },
+  {
+   "key": "script:0069:07EC",
+   "src": "dc69d51d4392",
+   "t": "<FACE:05>Bueno…<NL>me adelanto, ¿sí?"
+  }
+ ]
+}

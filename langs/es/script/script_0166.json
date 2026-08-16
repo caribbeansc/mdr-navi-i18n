@@ -1,0 +1,55 @@
+{
+ "part": "script/script_0166",
+ "entries": [
+  {
+   "key": "script:0166:017A",
+   "src": "6ac58f430097",
+   "t": "<FACE:3E>¡Bueno, mira esto!!"
+  },
+  {
+   "key": "script:0166:0189",
+   "src": "47fa23015c10",
+   "t": "<FACE:3E>Fuuuuu…"
+  },
+  {
+   "key": "script:0166:0193",
+   "src": "bf8b2d81110f",
+   "t": "<FACE:3E>Esto necesita agallas."
+  },
+  {
+   "key": "script:0166:01A3",
+   "src": "0f40f1ba5916",
+   "t": "<FACE:3B>¡Ahí vaaaa!"
+  },
+  {
+   "key": "script:0166:01AD",
+   "src": "5e79ba996202",
+   "t": "<FACE:3B>Fuuuuu…"
+  },
+  {
+   "key": "script:0166:01B7",
+   "src": "6f8d2cf46040",
+   "t": "<FACE:3D>¡Oh! ¡Si es <PLAYER>!<NL><WAIT>¡Nos hicimos un poco<NL>más fuertes! ¡Vamos!"
+  },
+  {
+   "key": "script:0166:01E7",
+   "src": "01c8d8759d21",
+   "t": "<FACE:3D>¡Rayos!<NL>Aún nos falta mucho…"
+  },
+  {
+   "key": "script:0166:01FE",
+   "src": "ed47b03aaa22",
+   "t": "<FACE:3D>¡Vamos a hacernos<NL>mucho más fuertes!"
+  },
+  {
+   "key": "script:0166:021A",
+   "src": "ef852290600d",
+   "t": "<FACE:02>¡Todo a estribor!<NL><WAIT>¿Pero qué…?"
+  },
+  {
+   "key": "script:0166:0230",
+   "src": "9127d86046d4",
+   "t": "<FACE:03>¡Uuaah!"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "part": "script/script_0059",
+ "entries": [
+  {
+   "key": "script:0059:04A8",
+   "src": "12067c823453",
+   "t": "<FACE:66>¡Manos arribaaa!<NL>"
+  },
+  {
+   "key": "script:0059:04B5",
+   "src": "6ba944b40be3",
+   "t": "<FACE:66>¡Robobatalla conmigo!"
+  },
+  {
+   "key": "script:0059:04C3",
+   "src": "76961f3b6973",
+   "t": "<FACE:00>Te faltan Medapartes,<NL>no puedes robobatallar"
+  },
+  {
+   "key": "script:0059:04E5",
+   "src": "257af1074935",
+   "t": "<FACE:66>¡Muuuuuh!<WAIT>¡Da igual, robobatalla<NL>conmigo yaaaaa!"
+  },
+  {
+   "key": "script:0059:0507",
+   "src": "ea36c18d5bde",
+   "t": "<FACE:00>Si al rival le faltan<NL>Medapartes,<WAIT>el Medarreloj no anda<NL>y no hay robobatalla"
+  },
+  {
+   "key": "script:0059:053A",
+   "src": "adaa04bdaaba",
+   "t": "<FACE:05>¡Así es!<NL>"
+  },
+  {
+   "key": "script:0059:0542",
+   "src": "12175d6ce206",
+   "t": "<FACE:05>¿No sabes ni eso?<NL>¡Y eres un Medabot!"
+  },
+  {
+   "key": "script:0059:0562",
+   "src": "ef496ff8b347",
+   "t": "<FACE:66>¡Eso ya lo sé bien!<NL>"
+  },
+  {
+   "key": "script:0059:0576",
+   "src": "af055b0027be",
+   "t": "<FACE:66>Es que me quitaron el<NL>brazo derecho…<WAIT>Tengo que quitárselo<NL>a alguien como sea…"
+  },
+  {
+   "key": "script:0059:05AA",
+   "src": "fab03dec48c7",
+   "t": "<FACE:00>¿Quiénes son ellos?"
+  },
+  {
+   "key": "script:0059:05B4",
+   "src": "43fcfae2c785",
+   "t": "<FACE:05>¿No serán…<NL>los que hablan-robo?"
+  },
+  {
+   "key": "script:0059:05D2",
+   "src": "78828518ce19",
+   "t": "<FACE:66>¡Sí, esos mismos!<WAIT>Sabes mucho… ¿Acaso<NL>eres de los suyos?"
+  },
+  {
+   "key": "script:0059:05F5",
+   "src": "96aea8f4be07",
+   "t": "<FACE:06>¡Claro que no!<NL>¡Todo lo contrario!"
+  },
+  {
+   "key": "script:0059:0606",
+   "src": "f6296dd47773",
+   "t": "<FACE:05><PLAYER>, ¡de paso<NL>recuperemos su brazo!"
+  },
+  {
+   "key": "script:0059:0628",
+   "src": "da79620e37da",
+   "t": "<FACE:03>¡Ah! ¡Ustedes!<WAIT><FACE:01>¡Unos villanos en la<NL>oficina del sheriff!"
+  },
+  {
+   "key": "script:0059:0655",
+   "src": "72dd1dc067ec",
+   "t": "<FACE:79>¡Necios!<WAIT>El amo de este Bloque<NL>del Oeste<WAIT>debe ser alguien como<NL>yo, ¡y nadie más!"
+  },
+  {
+   "key": "script:0059:0689",
+   "src": "13d271c2f957",
+   "t": "<FACE:7A>¡Tsk! Y yo que la<NL>pasaba de pistolero…"
+  },
+  {
+   "key": "script:0059:06A6",
+   "src": "3230bb61f390",
+   "t": "<FACE:7A>¡Lo voy a recuperar!"
+  },
+  {
+   "key": "script:0059:06B6",
+   "src": "ec65ec8e573a",
+   "t": "<FACE:66>Te debo una…<WAIT>¡Usa mis Medapartes<NL>como quieras!<NL>"
+  },
+  {
+   "key": "script:0059:06D9",
+   "src": "e934899d6049",
+   "t": "<FACE:03>¿Eh? Pero entonces tú…<WAIT><FACE:66>Bah, no te preocupes<WAIT>tengo repuestos en la<NL>oficina, la verdad"
+  },
+  {
+   "key": "script:0059:0711",
+   "src": "cd6ceae1d972",
+   "t": "<FACE:00>Aún no hicimos nada"
+  },
+  {
+   "key": "script:0059:0720",
+   "src": "f05b7e3d9ea0",
+   "t": "<FACE:05>Qué lugar tan viejo…<NL>Parece un set de cine"
+  },
+  {
+   "key": "script:0059:073D",
+   "src": "838d7a9a2bf8",
+   "t": "<FACE:0A>¡Apúrense, vamos ya!"
+  },
+  {
+   "key": "script:0059:0749",
+   "src": "a88e11b8e11e",
+   "t": "<FACE:19>Esto se siente muy del<NL>Oeste, ¿verdad?"
+  },
+  {
+   "key": "script:0059:075A",
+   "src": "a1ae0626c05f",
+   "t": "<FACE:14>¿Habrá vaqueros aquí?"
+  }
+ ]
+}

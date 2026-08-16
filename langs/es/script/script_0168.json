@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0168",
+ "entries": [
+  {
+   "key": "script:0168:027E",
+   "src": "c655c12779f5",
+   "t": "<FACE:0F>El Cluster volvió a su<NL>órbita sin problemas<WAIT>Con retraso, pero ya<NL>podemos inaugurarlo<WAIT>Los medaguerreros que<NL>invitamos ya llegaron<WAIT>Son fuertes de verdad,<NL>ve a robobatallar<WAIT><FACE:11>Y los Medabots que<NL>desarrollaste aquí<WAIT>quédatelos, ¿sí?"
+  },
+  {
+   "key": "script:0168:038E",
+   "src": "550bec64c5d5",
+   "t": "<FACE:0F>Y otra cosa, <PLAYER><NL>también te doy las<WAIT>medapartes de repuesto<NL>de mi «Goldran»"
+  },
+  {
+   "key": "script:0168:03F0",
+   "src": "685d552f55f1",
+   "t": "<FACE:0F>Yo ayudé a desarrollar<NL>tu «Luminous Stag»<WAIT>y conozco a fondo<NL>lo que puede hacer"
+  },
+  {
+   "key": "script:0168:041F",
+   "src": "0f5c55e99a6f",
+   "t": "<FACE:0F>No sería justo que mi<NL>rival no conociera<WAIT>lo que puede mi<NL>Medabot, ¿verdad?<WAIT><FACE:03>¿Rival…<NL>yo, de Shiden?"
+  },
+  {
+   "key": "script:0168:0464",
+   "src": "db232a74c6ce",
+   "t": "<FACE:0F>¡Pues claro que sí!<WAIT><FACE:11>Para mí eres un rival<NL>duro y admirable"
+  },
+  {
+   "key": "script:0168:0493",
+   "src": "b080c850dc13",
+   "t": "<FACE:02>Je je…<NL>Qué pena me da"
+  },
+  {
+   "key": "script:0168:04A2",
+   "src": "cdfb01100dd9",
+   "t": "<FACE:0F>Ah, por cierto…<NL>¿Podrías entregarle<WAIT>este paquete a cierta<NL>persona?"
+  },
+  {
+   "key": "script:0168:04CC",
+   "src": "17261cb13666",
+   "t": "<FACE:04>¿A cierta persona?"
+  },
+  {
+   "key": "script:0168:04D6",
+   "src": "9bcb7014ddaf",
+   "t": "<FACE:60>Señor Shiden"
+  },
+  {
+   "key": "script:0168:04DE",
+   "src": "6850d526a366",
+   "t": "<FACE:60>Un invitado lo espera<NL>por allá"
+  },
+  {
+   "key": "script:0168:04F4",
+   "src": "dbc85926f625",
+   "t": "<FACE:12>¡Ah! ¡Es cierto!"
+  },
+  {
+   "key": "script:0168:04FF",
+   "src": "eaf46846462e",
+   "t": "<FACE:0F>¡Lo siento!<NL><WAIT>Me surgió un asunto<NL>urgente. ¡Me retiro!"
+  },
+  {
+   "key": "script:0168:0521",
+   "src": "5fc9936cab0f",
+   "t": "<FACE:0F>Entro a una reunión y<NL>no podré hablar<WAIT>pero a una robobatalla<NL>me uno por control<WAIT>remoto, ¿eh?"
+  },
+  {
+   "key": "script:0168:055A",
+   "src": "49e83adef7ef",
+   "t": "<FACE:0C>En eso no ha cambiado<NL>nada…"
+  },
+  {
+   "key": "script:0168:0571",
+   "src": "3022b1c27fe0",
+   "t": "<FACE:04>Así no sé a quién<NL>tengo que dárselo…"
+  },
+  {
+   "key": "script:0168:0588",
+   "src": "8984f2202d49",
+   "t": "<FACE:07>¡No importa!<NL><WAIT><FACE:07>Recorramos el bloque<NL>preguntando por ahí"
+  }
+ ]
+}

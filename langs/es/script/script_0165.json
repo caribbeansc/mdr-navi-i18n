@@ -1,0 +1,45 @@
+{
+ "part": "script/script_0165",
+ "entries": [
+  {
+   "key": "script:0165:0228",
+   "src": "803a394040c3",
+   "t": "<FACE:80>¡Hiii!<NL>¡<PLAYER>-robo!<WAIT>¡P… por fin nos toca<NL>a nosotros-robo!"
+  },
+  {
+   "key": "script:0165:0247",
+   "src": "d872c5951a98",
+   "t": "<FACE:7D>S… sí-robo…<NL>Si los frenamos aquí<WAIT>el jefe nos<NL>felicitará-robo"
+  },
+  {
+   "key": "script:0165:0271",
+   "src": "b5899c50cb3e",
+   "t": "<FACE:7E>¡As… ascenso-roboo!"
+  },
+  {
+   "key": "script:0165:0281",
+   "src": "b88c7b3f2bec",
+   "t": "<FACE:80>M… mentira-robo<NL>No nos engañan-robo"
+  },
+  {
+   "key": "script:0165:0295",
+   "src": "d8536f6e17a7",
+   "t": "<FACE:80>¡Eso es puro<NL>cuento-roboo!"
+  },
+  {
+   "key": "script:0165:02A4",
+   "src": "ccce6d267c8e",
+   "t": "<FACE:7E>¡No te creemos-robo!<NL>¡Volveremos-robo!"
+  },
+  {
+   "key": "script:0165:02B9",
+   "src": "255ec19e2f2f",
+   "t": "<FACE:04>Creo que vi algo<NL>raro por ahí…"
+  },
+  {
+   "key": "script:0165:02EB",
+   "src": "cc4dbc5efa20",
+   "t": "<FACE:00>¿Aquí todavía<NL>quedaban Sperobo…?<WAIT>Pensé que ya se<NL>habían ido todos…"
+  }
+ ]
+}

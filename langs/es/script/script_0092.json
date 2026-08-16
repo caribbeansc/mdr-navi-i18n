@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0092",
+ "entries": [
+  {
+   "key": "script:0092:065B",
+   "src": "d8a454505605",
+   "t": "<FACE:03>¡Guau, increíble!<NL>¡Nunca vi algo así!"
+  },
+  {
+   "key": "script:0092:06A0",
+   "src": "f67e651ff877",
+   "t": "<FACE:0D>Qué material tan<NL>extraño…<WAIT>¿De qué estará hecho?"
+  },
+  {
+   "key": "script:0092:06C0",
+   "src": "08295f1c7f21",
+   "t": "<FACE:55>¡Ah!<NL><WAIT>¡¡No, no!!<NL>Tocarlo así es<WAIT>peligroso…"
+  },
+  {
+   "key": "script:0092:06E5",
+   "src": "77eed2967b02",
+   "t": "<FACE:54>¡Ah!"
+  },
+  {
+   "key": "script:0092:06EC",
+   "src": "889ab2bd36ff",
+   "t": "<FACE:56>Ay…<NL><DELAY:003C><DELAY:0031><CLEAR>"
+  },
+  {
+   "key": "script:0092:072B",
+   "src": "ae0abe252091",
+   "t": "<FACE:07>¡Aaay! ¡Qué fastidio!<NL>"
+  },
+  {
+   "key": "script:0092:0739",
+   "src": "8c1d7c4ac40b",
+   "t": "<FACE:07>¡Queeé lindooo!<NL>¡Lo quiero!"
+  },
+  {
+   "key": "script:0092:0751",
+   "src": "2059c4973803",
+   "t": "<FACE:19>Por el material,<NL>no es de la Tierra<WAIT><FACE:14>¿Qué clase de lugar<NL>será este?<WAIT><FACE:0F>Tal vez sea un dique<NL>para naves espaciales<WAIT>¿O un acceso de carga?<NL>"
+  },
+  {
+   "key": "script:0092:07BF",
+   "src": "0bb62c92677f",
+   "t": "<FACE:0F>Como es de otro mundo,<NL>quizá me equivoque<WAIT>por completo…"
+  },
+  {
+   "key": "script:0092:07EE",
+   "src": "6a72c3684520",
+   "t": "<FACE:03>Esto es…<NL><WAIT>¿No es la guarida de<NL>la Banda Sperobo?"
+  },
+  {
+   "key": "script:0092:0809",
+   "src": "ecc1e275a761",
+   "t": "<FACE:14>¿Por qué estará aquí?"
+  },
+  {
+   "key": "script:0092:081D",
+   "src": "5f89a7d622cf",
+   "t": "<FACE:0A>¿Mm? ¿Y este tubo?"
+  },
+  {
+   "key": "script:0092:082E",
+   "src": "d666444e07cc",
+   "t": "<FACE:03>¡Aaaah!<NL><WAIT>¡Es el tubo de<NL>atraque del Cluster!"
+  },
+  {
+   "key": "script:0092:084F",
+   "src": "2492b17ffb18",
+   "t": "<FACE:00>¡Ya veo!<NL><WAIT>¡Olvidamos sacarlo<NL>hace un rato!<WAIT>¡Por eso el Cluster<NL>nos trajo a rastras!"
+  },
+  {
+   "key": "script:0092:0884",
+   "src": "4bee3bf8ac27",
+   "t": "<FACE:08>¡No puede seeer!"
+  },
+  {
+   "key": "script:0092:088F",
+   "src": "3459f7a9f0ca",
+   "t": "<FACE:04>¿Estarán adentro?"
+  },
+  {
+   "key": "script:0092:08A1",
+   "src": "e2a79ffb1669",
+   "t": "<FACE:54>No hay señales de vida<NL>Parece estar desierto"
+  },
+  {
+   "key": "script:0092:08C1",
+   "src": "70ea44e08e1d",
+   "t": "<FACE:1C>¡Ah!<NL><WAIT>Hay un cartel pegado<NL>por aquí"
+  },
+  {
+   "key": "script:0092:08D8",
+   "src": "76d03df58110",
+   "t": "<FACE:57>«¡Ustedes! ¡Saquen<NL> bien los tubos que<WAIT> clavan!»<WAIT>«¡Pero gracias a eso<NL> encontré por fin<WAIT> a quién conquistar!»<NL><WAIT>«Empiezo ya la<NL> invasión,<WAIT> ¡así que no se<NL> atrevan a estorbarme!<WAIT>    profesor Kazanbai»"
+  },
+  {
+   "key": "script:0092:0965",
+   "src": "d3f8f8c4e2ae",
+   "t": "<FACE:08>¿O sea que ya se<NL>fueron todos?<WAIT><FACE:00>Qué rápidos son"
+  },
+  {
+   "key": "script:0092:098C",
+   "src": "a9d783bfbccd",
+   "t": "<FACE:0F>¡Démonos prisa!<NL><WAIT>Si la Banda Sperobo<NL>ya se nos adelantó…<WAIT>esto podría acabar<NL>en guerra interestelar"
+  },
+  {
+   "key": "script:0092:09DA",
+   "src": "b26dbc3fb014",
+   "t": "<FACE:00>Parece que aún hay<NL>algo más…"
+  },
+  {
+   "key": "script:0092:09EC",
+   "src": "b087dc92e3ce",
+   "t": "<FACE:00>¡Vamos a verlo ya!"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "part": "script/script_0144",
+ "entries": [
+  {
+   "key": "script:0144:00A1",
+   "src": "d3c6a8b0f54b",
+   "t": "<FACE:2F>¡Ah! <PLAYER>…<NL>Qué alivio…<WAIT>Creí que todos ya se<NL>habían ido a casa…"
+  },
+  {
+   "key": "script:0144:00CD",
+   "src": "476da9ec8c9b",
+   "t": "<FACE:2F>¿Ahora estás solo?<NL>Entonces, por favor<WAIT>robobatalla conmigo…"
+  },
+  {
+   "key": "script:0144:00F5",
+   "src": "e8454187a27a",
+   "t": "<FACE:2F>Mmm… así que esto es<NL>competir…<WAIT>Mmmm…"
+  }
+ ]
+}

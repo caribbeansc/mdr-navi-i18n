@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0047",
+ "entries": [
+  {
+   "key": "script:0047:0276",
+   "src": "fd58197e3f82",
+   "t": "<FACE:54>¡Esperen, por favor!<WAIT><FACE:54>¡Saldré yo primero a<NL>revisar si es seguro!"
+  },
+  {
+   "key": "script:0047:02A7",
+   "src": "97926eb79518",
+   "t": "<FACE:00>¡Eeeeh! Pero yo<NL>quería ir primero…"
+  },
+  {
+   "key": "script:0047:02C3",
+   "src": "81d95cbf6da0",
+   "t": "<FACE:03>¡Ugh!"
+  },
+  {
+   "key": "script:0047:02CA",
+   "src": "b571e349cccd",
+   "t": "<FACE:06>(Nos costó el permiso,<NL> ¿y lo arruinas así?)"
+  },
+  {
+   "key": "script:0047:02F7",
+   "src": "516365d0357e",
+   "t": "<FACE:14>¡Uy! <PLAYER> otra vez<NL>está agachado ahí…"
+  },
+  {
+   "key": "script:0047:030D",
+   "src": "49dda9fb4a44",
+   "t": "<FACE:19>Qué debilucho, ¿eh?<WAIT><FACE:0A>Te falta disciplina.<NL>Un espía así, fuera."
+  },
+  {
+   "key": "script:0047:0333",
+   "src": "dc19a1905d7c",
+   "t": "<FACE:54>Entonces, allá voy…"
+  },
+  {
+   "key": "script:0047:0340",
+   "src": "0e37a70ae5ca",
+   "t": "<FACE:54>El aire de la nave<NL>es casi el del Cluster<WAIT>…No hay problema para<NL>respirar.<WAIT>No se detectan<NL>microbios ni bacterias<WAIT>Gravedad: 1.0013 G…<WAIT>Pueden moverse sin<NL>problema… pero…"
+  },
+  {
+   "key": "script:0047:03BD",
+   "src": "a8b624965982",
+   "t": "<FACE:04>¿Pero?"
+  },
+  {
+   "key": "script:0047:03C4",
+   "src": "de8337a745e0",
+   "t": "<FACE:56>Caminar sola…<DELAY:0078><NL>¡es de verdad<DELAY:003C><DELAY:0014> genial!<DELAY:003C><DELAY:0028><END>"
+  },
+  {
+   "key": "script:0047:03F4",
+   "src": "3800999e0b1b",
+   "t": "<FACE:00>Qué bajón…"
+  },
+  {
+   "key": "script:0047:03FB",
+   "src": "f96713c786e8",
+   "t": "<FACE:07>¡Aaay[<3]<NL><WAIT>¡Ay!<NL>¡Navico es adorable[<3]"
+  }
+ ]
+}

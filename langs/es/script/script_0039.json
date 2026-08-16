@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0039",
+ "entries": [
+  {
+   "key": "script:0039:035E",
+   "src": "b999ef3b08a1",
+   "t": "<FACE:6C>¡Deprisa!<WAIT>¡Si no se apuran<NL>esos van a llegar!"
+  },
+  {
+   "key": "script:0039:0381",
+   "src": "ef202ff0d1f7",
+   "t": "<FACE:7D>Dice eso, pero esta<NL>roca no se mueve-robo"
+  },
+  {
+   "key": "script:0039:039C",
+   "src": "68758350d912",
+   "t": "<FACE:6C>¡Son unos inútiles!<NL>"
+  },
+  {
+   "key": "script:0039:03A9",
+   "src": "2fb84aa7236a",
+   "t": "<FACE:6C>¡Así no sirven para<NL>la Banda Sperobo!"
+  },
+  {
+   "key": "script:0039:03C6",
+   "src": "c4e5d3dac7be",
+   "t": "<FACE:6C>¡Bloqueen la entrada<NL>con esa roca como sea!"
+  },
+  {
+   "key": "script:0039:03E3",
+   "src": "03874b89f279",
+   "t": "<FACE:00>Se ven en aprietos…"
+  },
+  {
+   "key": "script:0039:03F2",
+   "src": "314ae53d4e7c",
+   "t": "<FACE:81>¡Ah! ¡<PLAYER>-robo!"
+  },
+  {
+   "key": "script:0039:03FC",
+   "src": "ae7e8e03760b",
+   "t": "<FACE:6D>¡¿Ya llegaron?!"
+  },
+  {
+   "key": "script:0039:040B",
+   "src": "5d36b76be0ad",
+   "t": "<FACE:7F>¿Entonces ya no hay<NL>que moverla-robo?"
+  },
+  {
+   "key": "script:0039:0421",
+   "src": "67aa6442585c",
+   "t": "<FACE:6C>…Ni modo…<WAIT><FACE:6F>¡A la robobatalla!"
+  },
+  {
+   "key": "script:0039:043C",
+   "src": "842035737920",
+   "t": "<FACE:6D>¡Les falta fuerza a<NL>ustedes!<WAIT><FACE:81>Lo sentimos-robo…"
+  },
+  {
+   "key": "script:0039:045D",
+   "src": "a7977f03eed7",
+   "t": "<FACE:04>¿Qué estarían<NL>tratando de hacer?"
+  },
+  {
+   "key": "script:0039:046F",
+   "src": "348ba7426b97",
+   "t": "<FACE:05>Eso da igual<WAIT>¡Sigamos rápido!"
+  }
+ ]
+}

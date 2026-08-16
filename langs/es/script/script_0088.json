@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0088",
+ "entries": [
+  {
+   "key": "script:0088:0563",
+   "src": "2dd34638cc07",
+   "t": "<FACE:70>Bueno, como siempre,<NL>dejo mi puesto un rato"
+  },
+  {
+   "key": "script:0088:0582",
+   "src": "0a531ead544b",
+   "t": "<FACE:7D>…Ni modo-robo…<NL>"
+  },
+  {
+   "key": "script:0088:0592",
+   "src": "a716ffe714db",
+   "t": "<FACE:7D>…Al menos ajustaré la<NL>temperatura para que<WAIT>el hielo se rompa<NL>más fácil-robo"
+  },
+  {
+   "key": "script:0088:05B9",
+   "src": "389af946b222",
+   "t": "<FACE:7D>Ojalá con esto se<NL>caiga alguno-robo…"
+  },
+  {
+   "key": "script:0088:05D2",
+   "src": "8a037f086f09",
+   "t": "<FACE:00>Otra vez este bloque…<NL>"
+  },
+  {
+   "key": "script:0088:05E2",
+   "src": "bb17455274b6",
+   "t": "<FACE:04>Oye, Hiyori, ¿otra vez<NL>voy yo solo…?"
+  },
+  {
+   "key": "script:0088:05F5",
+   "src": "f086436a0709",
+   "t": "<FACE:05>¡Eso mismo! ¡Ve, ve!"
+  },
+  {
+   "key": "script:0088:068B",
+   "src": "13e35e188044",
+   "t": "<FACE:00>Hay que recuperar<NL>este bloque también"
+  },
+  {
+   "key": "script:0088:069B",
+   "src": "275c7621c062",
+   "t": "<FACE:05>Nosotros te esperamos<NL>aquí. ¡Ve rápido!"
+  },
+  {
+   "key": "script:0088:06BA",
+   "src": "b71daddd87a2",
+   "t": "<FACE:0A><PLAYER>, lo demás<NL>queda en tus manos"
+  },
+  {
+   "key": "script:0088:06C7",
+   "src": "c4f15f6a4e16",
+   "t": "<FACE:19>El frío no me va nada,<NL>se lo digo yo"
+  },
+  {
+   "key": "script:0088:06DA",
+   "src": "ba8948b2b0af",
+   "t": "<FACE:14>¡Ve de una vez!<NL>¡Me estoy congelando!"
+  }
+ ]
+}

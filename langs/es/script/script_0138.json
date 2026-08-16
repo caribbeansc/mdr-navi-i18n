@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0138",
+ "entries": [
+  {
+   "key": "script:0138:01E7",
+   "src": "f0b2501e89d3",
+   "t": "<FACE:72>Vaya, ya me está<NL>saliendo bastante bien<WAIT>¡Qué divertido!<NL>La la la…"
+  },
+  {
+   "key": "script:0138:020E",
+   "src": "c13e265280b3",
+   "t": "<FACE:72>La la la…<WAIT>Soy el ángel<NL>sobre el hielo<WAIT>La la la…"
+  },
+  {
+   "key": "script:0138:022E",
+   "src": "db223763f553",
+   "t": "<FACE:70>Ay, ay, ay, ay…<NL>"
+  },
+  {
+   "key": "script:0138:0239",
+   "src": "3d47b49dad8f",
+   "t": "<FACE:70>Vaya, si es <PLAYER><NL>en persona…<WAIT><FACE:04>Otra vez jugando en<NL>un sitio como este…"
+  },
+  {
+   "key": "script:0138:025E",
+   "src": "64b981f56934",
+   "t": "<FACE:70>Hmm…<NL>La niña insolente esa<WAIT>no vino, ¿verdad?<WAIT><FACE:72>Pues entonces patina<NL>conmigo un rato"
+  },
+  {
+   "key": "script:0138:0294",
+   "src": "29d1a1222544",
+   "t": "<FACE:70>¡Vamos, pórtate bien!"
+  },
+  {
+   "key": "script:0138:02A3",
+   "src": "a5ae0930c93f",
+   "t": "<FACE:71>¡Aaay!<WAIT>No hace falta que lo<NL>rechaces de forma tan<WAIT>descarada, ¿sabes?<WAIT>¡Es una falta de<NL>respeto para una dama!"
+  },
+  {
+   "key": "script:0138:02F7",
+   "src": "8c2e0f9f8905",
+   "t": "<FACE:03>¡Sekiran!"
+  },
+  {
+   "key": "script:0138:02FF",
+   "src": "33b3d38c0cc8",
+   "t": "<FACE:72>Vaya, chiquito<WAIT><FACE:00>¿Qué haces aquí?<NL>¿No habías vuelto<WAIT>a la guarida?"
+  },
+  {
+   "key": "script:0138:032F",
+   "src": "ef9990a56753",
+   "t": "<FACE:70>Es que encerrarse en<NL>esa guarida es malo<WAIT>para la belleza"
+  },
+  {
+   "key": "script:0138:0351",
+   "src": "0007520f5181",
+   "t": "<FACE:04>¿Y ahora qué hacemos<NL>con esto…?"
+  }
+ ]
+}

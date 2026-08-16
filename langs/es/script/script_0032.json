@@ -1,0 +1,215 @@
+{
+ "part": "script/script_0032",
+ "entries": [
+  {
+   "key": "script:0032:0551",
+   "src": "dc9bcda5a6f9",
+   "t": "<FACE:05>…¡y así están<NL>las cosas!"
+  },
+  {
+   "key": "script:0032:055F",
+   "src": "ce62ac4e9d7c",
+   "t": "<FACE:22>Atención, todos…<NL><WAIT>Calma, calma…<NL>Serenidad ante todo…"
+  },
+  {
+   "key": "script:0032:0592",
+   "src": "8f92cda93cdd",
+   "t": "<FACE:3D>¡¿Estás bromeando?!<NL><WAIT>¡Dicen que en el<NL>Cluster no hay adultos<WAIT>y que solo quedamos<NL>nosotros!"
+  },
+  {
+   "key": "script:0032:05C8",
+   "src": "9cde9e62888e",
+   "t": "<FACE:35>¿Y encima dicen que la<NL>computadora se cayó?"
+  },
+  {
+   "key": "script:0032:05E3",
+   "src": "2a1b00e99c46",
+   "t": "<FACE:3D>¡Mientras hablamos<NL>la Tierra se aleja!<WAIT>¡Y hay rumores de que<NL>fueron terroristas!"
+  },
+  {
+   "key": "script:0032:0621",
+   "src": "dd12579c55ac",
+   "t": "<FACE:22>De ahora en adelante<NL>sigan mis indicaciones<WAIT>Yo, el presidente de<NL>la clase, los dirigiré<WAIT>Eh… primero…"
+  },
+  {
+   "key": "script:0032:066B",
+   "src": "61371b637ce9",
+   "t": "<FACE:22>¡Tú, el de allá!"
+  },
+  {
+   "key": "script:0032:0676",
+   "src": "d66382e041ea",
+   "t": "<FACE:2A>¿Aaah?"
+  },
+  {
+   "key": "script:0032:067D",
+   "src": "04b8c6a7cf52",
+   "t": "<FACE:22>¡Desde hoy tú eres el<NL>encargado de comida!<WAIT>¡Junta la comida del<NL>parque y repártela!"
+  },
+  {
+   "key": "script:0032:06BF",
+   "src": "180d823a9d0c",
+   "t": "<FACE:25>E-era broma, ¿eh?<NL>Ja ja ja…"
+  },
+  {
+   "key": "script:0032:06D4",
+   "src": "6dc9b2b6e1f8",
+   "t": "<FACE:22>(Uf, casi, casi…<NL> ¡Y yo, justo yo!)<WAIT>(¡Justo a Amamiya, el<NL> matón de la escuela!)"
+  },
+  {
+   "key": "script:0032:0717",
+   "src": "b0f87bd11bb4",
+   "t": "<FACE:22>¡Entonces, ustedes!"
+  },
+  {
+   "key": "script:0032:0726",
+   "src": "cdd12156f0aa",
+   "t": "<FACE:25>Ustedes serán los de<NL>la comida… …ehh…"
+  },
+  {
+   "key": "script:0032:0744",
+   "src": "0c249978ace3",
+   "t": "<FACE:45>¡¿Y tú qué te crees?!<NL><WAIT>¿Con qué derecho nos<NL>vienes a dar órdenes?"
+  },
+  {
+   "key": "script:0032:076F",
+   "src": "c56c19bb1259",
+   "t": "<FACE:48>¡Eso mismooo!"
+  },
+  {
+   "key": "script:0032:0778",
+   "src": "cb9c41578bbc",
+   "t": "<FACE:45>¿Y para empezar, qué<NL>es esa ropa tan fea?<WAIT>Si nos quieres hablar,<NL><WAIT>¡mejora primero tu<NL>sentido de la moda!<WAIT><FACE:47>¡Eso! ¡Se ve todo<NL>flojo y sin estilo!"
+  },
+  {
+   "key": "script:0032:07D9",
+   "src": "159b7066e400",
+   "t": "<FACE:45>¡Te faltan diez años!<NL>¡Me das risa!"
+  },
+  {
+   "key": "script:0032:07F2",
+   "src": "ff519b72603d",
+   "t": "<FACE:45>¡Ver a un tipo como tú<NL>me da náuseas!<WAIT>Nosotras haremos lo<NL>que se nos dé la gana<WAIT>¡Adiós!"
+  },
+  {
+   "key": "script:0032:082F",
+   "src": "54c189eec490",
+   "t": "<FACE:25>¡Ah! ¡Ustedes! Justo<NL>ahora hay que unirse…"
+  },
+  {
+   "key": "script:0032:0853",
+   "src": "48f343502721",
+   "t": "<FACE:05>¿Hasta cuándo seguirá<NL>con eso?<WAIT>Si nadie le hace caso<NL>al presidente…"
+  },
+  {
+   "key": "script:0032:0884",
+   "src": "cb82fdaef527",
+   "t": "<FACE:04>No seas así, Hiyori<NL><WAIT>El presidente también<NL>se está esforzando"
+  },
+  {
+   "key": "script:0032:08A7",
+   "src": "d63b7f01a2c2",
+   "t": "<FACE:06>De verdad que eres<NL>un ingenuo<WAIT>¡Si te hizo la vida<NL>imposible!<WAIT><FACE:02>Bueno, eso ya pasó…"
+  },
+  {
+   "key": "script:0032:08E4",
+   "src": "d11eb4da54e2",
+   "t": "<FACE:07>(Aunque eso también<NL> es lo bueno de él)"
+  },
+  {
+   "key": "script:0032:0900",
+   "src": "c2f7712f04ca",
+   "t": "<FACE:3D>Quedarnos aquí no<NL>sirve de nada. Vámonos"
+  },
+  {
+   "key": "script:0032:0922",
+   "src": "fe9f8efbc80a",
+   "t": "<FACE:35>Cada quien tendrá que<NL>cuidarse solo"
+  },
+  {
+   "key": "script:0032:093C",
+   "src": "1615706822ba",
+   "t": "<FACE:3D>¡Vámonos, vámonos!"
+  },
+  {
+   "key": "script:0032:0948",
+   "src": "ffd2662f4967",
+   "t": "<FACE:25>E-esperen… ¡oigan,<NL>ustedes…!<WAIT>Yo soy el líder de<NL>ustedes, así que…"
+  },
+  {
+   "key": "script:0032:0978",
+   "src": "b213906d6f9c",
+   "t": "<FACE:25>¡Hii!"
+  },
+  {
+   "key": "script:0032:097D",
+   "src": "776546a3d28c",
+   "t": "<FACE:29>¡Ya deja de fastidiar<NL>y lárgate de una vez!"
+  },
+  {
+   "key": "script:0032:09A5",
+   "src": "47b390b555b8",
+   "t": "<FACE:25>U… uuuh…"
+  },
+  {
+   "key": "script:0032:09B2",
+   "src": "5a295bf6abeb",
+   "t": "<FACE:2E>O-oye… ¿Niwaka?"
+  },
+  {
+   "key": "script:0032:09C4",
+   "src": "5cfbb3d5be91",
+   "t": "<FACE:23>¡Y-ya no aguanto<NL>máaaas!"
+  },
+  {
+   "key": "script:0032:09D7",
+   "src": "4f979307c07a",
+   "t": "<FACE:03>¡Uy!<WAIT><FACE:01>¡Oye, eso es<NL>peligroso!"
+  },
+  {
+   "key": "script:0032:09ED",
+   "src": "2b2590e8d779",
+   "t": "<FACE:22>……Lo aceptaste,<NL>¿verdad?"
+  },
+  {
+   "key": "script:0032:09FD",
+   "src": "5a1831b3884d",
+   "t": "<FACE:03>……¡¿Eh?!<WAIT><FACE:22>Lo aceptaste,<NL>¿verdad?<WAIT><FACE:04>……ehh…"
+  },
+  {
+   "key": "script:0032:0A1E",
+   "src": "7d4a33548672",
+   "t": "<FACE:22>¡<PLAYER>!<NL><WAIT>Aceptaste el brazalete<NL>de presidente…<WAIT>¡Ahora tú eres el<NL>presidente de clase!<WAIT>¡Debes hacerte cargo<NL>y guiar a todos!<WAIT><FACE:03>¡¿Queeé?!"
+  },
+  {
+   "key": "script:0032:0A82",
+   "src": "d92074e4180b",
+   "t": "<FACE:24>¿Quedó claro?<NL>¡El líder eres tú!<WAIT><FACE:03>¡¿P-pero qué dices<NL>así de repente?!"
+  },
+  {
+   "key": "script:0032:0AB4",
+   "src": "8576203ef6db",
+   "t": "<FACE:04>Eeeh…"
+  },
+  {
+   "key": "script:0032:0ABE",
+   "src": "dea133095a3f",
+   "t": "<FACE:14>Que te quede claro…<NL><WAIT>Yo no pienso hacerte<NL>ni el menor caso<WAIT><FACE:1A>¡Lo mismo digo yo!"
+  },
+  {
+   "key": "script:0032:0AF9",
+   "src": "684dcc4edb7b",
+   "t": "<FACE:05>Pedirles «cooperación»<NL>a estos es imposible<WAIT><FACE:07>Bueno, no te desanimes<NL>y haz lo que puedas"
+  },
+  {
+   "key": "script:0032:0B38",
+   "src": "710bcab5e861",
+   "t": "<FACE:04>¿Y a dónde vamos<NL>ahora?<WAIT><FACE:09>Mmm… déjame ver…"
+  },
+  {
+   "key": "script:0032:0B59",
+   "src": "f9c6f6d5dae2",
+   "t": "<FACE:05>Adelante hay un bloque<NL>de computadoras<WAIT>que controla todo<NL>el Cluster, parece<WAIT>Vamos para allá<NL>Quizá averigüemos algo<WAIT><FACE:00>Tienes razón, vamos"
+  }
+ ]
+}

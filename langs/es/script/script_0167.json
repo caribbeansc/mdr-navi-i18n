@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0167",
+ "entries": [
+  {
+   "key": "script:0167:02DF",
+   "src": "0cc20119787f",
+   "t": "<FACE:05>Oye, <PLAYER>…<WAIT><FACE:00>¿Mm? ¿Qué pasa?"
+  },
+  {
+   "key": "script:0167:02F1",
+   "src": "6214cd34f862",
+   "t": "<FACE:07>Lindas estrellas…"
+  },
+  {
+   "key": "script:0167:02FE",
+   "src": "6ffd1dd08443",
+   "t": "<FACE:07>Estando así…"
+  },
+  {
+   "key": "script:0167:0309",
+   "src": "56a4629fafec",
+   "t": "<FACE:04>¿Qué pasa, Hiyori?"
+  },
+  {
+   "key": "script:0167:0316",
+   "src": "dff4bbe9ad4b",
+   "t": "<FACE:06>¡¿Qué?!<NL><WAIT>¿Tan raro es que yo<NL>hable como una chica?<WAIT>¡Está bien!<NL><WAIT>¡<PLAYER>, tú…!"
+  },
+  {
+   "key": "script:0167:034D",
+   "src": "7ff2c8366da0",
+   "t": "<FACE:05>Vaya, en este tiempo<NL>te volviste fuerte…"
+  },
+  {
+   "key": "script:0167:0372",
+   "src": "045b28ef5f14",
+   "t": "<FACE:06>…Oye, ¡que estoy<NL>enojada contigo!"
+  },
+  {
+   "key": "script:0167:0389",
+   "src": "338ad2c47531",
+   "t": "<FACE:06>¡Hmpf!"
+  },
+  {
+   "key": "script:0167:0390",
+   "src": "e415090ad0d3",
+   "t": "<FACE:06>¡Me adelanto!<WAIT><FACE:03>¡E-espera… Hiyori!<END>"
+  },
+  {
+   "key": "script:0167:03AF",
+   "src": "4d68774a5669",
+   "t": "<FACE:04>Si muevo esto un poco,<NL>al fin del universo…"
+  },
+  {
+   "key": "script:0167:03CF",
+   "src": "2c8da2032690",
+   "t": "<FACE:02>Mejor no"
+  },
+  {
+   "key": "script:0167:03F2",
+   "src": "ec04d2aac62a",
+   "t": "<FACE:04>¿Adónde piensa ir?"
+  }
+ ]
+}

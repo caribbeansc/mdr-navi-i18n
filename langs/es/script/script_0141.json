@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0141",
+ "entries": [
+  {
+   "key": "script:0141:00BE",
+   "src": "0846bd4ff5b4",
+   "t": "<FACE:1E>Vaya, si es <PLAYER>…<NL>¿Me escucha un poco?<WAIT><FACE:21>¡Mi hermano es de lo<NL>más cruel!<WAIT><FACE:00>¿Mm? ¿Qué pasó?<WAIT><FACE:1E>Quise ayudarlo con su<NL>trabajo, ¿y sabe qué?<WAIT>«Eres una niña…»,<NL>¡y no me hizo caso!"
+  },
+  {
+   "key": "script:0141:014F",
+   "src": "8479b5210330",
+   "t": "<FACE:20>¿No le parece cruel?"
+  },
+  {
+   "key": "script:0141:0164",
+   "src": "f7381395aa1b",
+   "t": "<FACE:1F>Así que, por lo mismo,<NL>acompáñeme un ratito"
+  },
+  {
+   "key": "script:0141:0187",
+   "src": "86ff6fb37f69",
+   "t": "<FACE:1E>Es usted admirable<WAIT><FACE:1E>Con razón mi hermano<NL>se fija tanto en usted"
+  },
+  {
+   "key": "script:0141:01B1",
+   "src": "fbce2fb01502",
+   "t": "<FACE:21>Por esto mi hermano<NL>me trata como niña…"
+  }
+ ]
+}

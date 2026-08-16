@@ -1,0 +1,185 @@
+{
+ "part": "script/script_0139",
+ "entries": [
+  {
+   "key": "script:0139:0302",
+   "src": "889ea10e35c2",
+   "t": "<FACE:7A>¡Nuooo, <PLAYER>!"
+  },
+  {
+   "key": "script:0139:030B",
+   "src": "0f6154c3dd78",
+   "t": "<FACE:7B>¡Tomarme por la<NL>espalda! ¡Nada mal!<WAIT>Y bien, ¿qué haces en<NL>un lugar como este?"
+  },
+  {
+   "key": "script:0139:0338",
+   "src": "8890ac24dea2",
+   "t": "<FACE:01>¡Eso lo digo yo!<NL>¿Y tú por qué<WAIT>estás en un sitio así?"
+  },
+  {
+   "key": "script:0139:0361",
+   "src": "c43b89da707e",
+   "t": "<FACE:79>Cierto… en fin…<WAIT>Alguien como tú jamás<NL>entendería mis planes"
+  },
+  {
+   "key": "script:0139:038C",
+   "src": "4dc8651adab3",
+   "t": "<FACE:00>¿Y?"
+  },
+  {
+   "key": "script:0139:0391",
+   "src": "fd6014068113",
+   "t": "<FACE:7B>Busco «aquello»"
+  },
+  {
+   "key": "script:0139:03A0",
+   "src": "e70242e323fa",
+   "t": "<FACE:04>¿Aquello?"
+  },
+  {
+   "key": "script:0139:03A6",
+   "src": "55956348f636",
+   "t": "<FACE:7C>¡Sí!<WAIT><FACE:7B>¡Aquello!"
+  },
+  {
+   "key": "script:0139:03B3",
+   "src": "486f81e71a6d",
+   "t": "<FACE:04>¿Aquello… qué…?"
+  },
+  {
+   "key": "script:0139:03C0",
+   "src": "a080c352c5e1",
+   "t": "<FACE:7A>¡Bah!<NL>No te hagas el tonto…<WAIT><FACE:79>En fin, ni modo<WAIT>Cuando yo tenga<NL>«aquello» en mis manos<WAIT>¡tendré un poder que<NL>tú jamás alcanzarás!<WAIT><FACE:7B>Entiendo que quieras<NL>ocultarlo<WAIT>¡Fuaaa ja ja ja!"
+  },
+  {
+   "key": "script:0139:0430",
+   "src": "4b5dbc77604a",
+   "t": "<FACE:02>Vaya… así que no era<NL>puro invento…"
+  },
+  {
+   "key": "script:0139:0447",
+   "src": "b28f93e102d7",
+   "t": "<FACE:7A>¡Qué! ¿¡Cómo!?<WAIT>Por como lo dices…<WAIT>¡creías que el gran<NL>Raiun se lamentaba<WAIT>y ponía excusas!<WAIT><FACE:79>¡Muy bien!<WAIT>Yo también pensaba<NL>zanjar esto contigo<WAIT>No me conviene que<NL>corran rumores falsos<WAIT>como «Raiun perdió y<NL>salió huyendo»"
+  },
+  {
+   "key": "script:0139:04E9",
+   "src": "8daf341302f0",
+   "t": "<FACE:7A>Grrr…<WAIT>Sin «aquello» no hay<NL>nada que hacer…<WAIT>¿Dónde lo habré<NL>olvidado…?"
+  },
+  {
+   "key": "script:0139:0513",
+   "src": "25494ac43be3",
+   "t": "<FACE:7C>¡Ya sé!<WAIT>¡Seguro que está<NL>en aquel sitio!"
+  },
+  {
+   "key": "script:0139:052B",
+   "src": "dc3d1537de62",
+   "t": "<FACE:7A>¡<PLAYER>!<WAIT>¡El gran Raiun no<NL>está huyendo!"
+  },
+  {
+   "key": "script:0139:0542",
+   "src": "e680a14fe431",
+   "t": "<FACE:7A>¡Que quede claro!<WAIT>¡No estoy huyendo!"
+  },
+  {
+   "key": "script:0139:055A",
+   "src": "7b8bc20db5ac",
+   "t": "<FACE:79>Volver a toparnos<NL>en un sitio así…"
+  },
+  {
+   "key": "script:0139:0575",
+   "src": "52ccf3600d00",
+   "t": "<FACE:04>Ay…<WAIT><FACE:00>Por cierto, ¿hallaste<NL>«aquello»?"
+  },
+  {
+   "key": "script:0139:0591",
+   "src": "ca0f78f9572e",
+   "t": "<FACE:7C>Ah, cierto…<WAIT><FACE:79>Pensándolo bien,<NL>creo que era aquí…"
+  },
+  {
+   "key": "script:0139:05BC",
+   "src": "0d73a251f954",
+   "t": "<FACE:00>Ya veo…<WAIT><FACE:02>Ojalá lo encuentres<NL>pronto"
+  },
+  {
+   "key": "script:0139:05D4",
+   "src": "693f1c70d314",
+   "t": "<FACE:7A>¡Có…!"
+  },
+  {
+   "key": "script:0139:05DB",
+   "src": "13913bdaacfe",
+   "t": "<FACE:04>¿Có…?"
+  },
+  {
+   "key": "script:0139:05E2",
+   "src": "46a9c7855148",
+   "t": "<FACE:7A>¡Có…!!"
+  },
+  {
+   "key": "script:0139:05EA",
+   "src": "13913bdaacfe",
+   "t": "<FACE:04>¿Có…?"
+  },
+  {
+   "key": "script:0139:05F1",
+   "src": "52f997127a87",
+   "t": "<FACE:7A>¿¡Cómoooo!?"
+  },
+  {
+   "key": "script:0139:05FE",
+   "src": "5ab4e14710cf",
+   "t": "<FACE:04>¿Eh?"
+  },
+  {
+   "key": "script:0139:0603",
+   "src": "8937b46cec3d",
+   "t": "<FACE:7A>¿Esa es tu calma?<WAIT>¡La calma del<NL>vencedooooor!"
+  },
+  {
+   "key": "script:0139:0621",
+   "src": "b3a1af9ee258",
+   "t": "<FACE:03>¿¡Eeeeh!?"
+  },
+  {
+   "key": "script:0139:062C",
+   "src": "3797d752a16d",
+   "t": "<FACE:7A>Maldito <PLAYER>…<WAIT>Ahora que no tengo<NL>«aquello»…<WAIT>¿tanto te gusta<NL>burlarte de mí?"
+  },
+  {
+   "key": "script:0139:065D",
+   "src": "8dd3b57c8f01",
+   "t": "<FACE:7A>¡Ya verás! ¡Esta vez<NL>sí traeré «aquello»!"
+  },
+  {
+   "key": "script:0139:067D",
+   "src": "4da8af24126c",
+   "t": "<FACE:7A>¡Te lo repito bien!<WAIT>¡No estoy huyendo<NL>por haber perdido!<WAIT>¿Quedó claro?"
+  },
+  {
+   "key": "script:0139:06A8",
+   "src": "199cb1f7a65d",
+   "t": "<FACE:04>Sí, sí…"
+  },
+  {
+   "key": "script:0139:06B1",
+   "src": "1b114c6e3d43",
+   "t": "<FACE:04>¿Mm?<WAIT><FACE:04>Creí ver algo que<NL>brillaba por allá…"
+  },
+  {
+   "key": "script:0139:06D3",
+   "src": "122b5e12ce5d",
+   "t": "<FACE:00>¡Hay un papelito<NL>sobre el barril!"
+  },
+  {
+   "key": "script:0139:06EA",
+   "src": "30d98b617ad9",
+   "t": "<FACE:57>Segunda contraseña:<NL>«TSU»"
+  },
+  {
+   "key": "script:0139:06FB",
+   "src": "a15bdf95ab0a",
+   "t": "<FACE:04>¿…?<NL>¿Qué es esto?"
+  }
+ ]
+}

@@ -1,0 +1,440 @@
+{
+ "part": "script/script_0082",
+ "entries": [
+  {
+   "key": "script:0082:0BD3",
+   "src": "43730e253298",
+   "t": "<FACE:05>Así que excavan aquí<NL>para sacar material<WAIT>para los Medabots<WAIT><FACE:00>Más adelante el camino<NL>se bifurca…<WAIT>Hay que ir con cuidado<NL>para no perderse…"
+  },
+  {
+   "key": "script:0082:0C1F",
+   "src": "2a7a5cffbfb8",
+   "t": "<FACE:08>¡Ah, mira, <PLAYER>!<NL>Otra vez los Sperobo"
+  },
+  {
+   "key": "script:0082:0C3A",
+   "src": "58be04fd89b0",
+   "t": "<FACE:00>Creo que se llamaba<NL>Raiun… Observemos"
+  },
+  {
+   "key": "script:0082:0C5F",
+   "src": "ca0a6642beb5",
+   "t": "<FACE:7D>Jefe Raiun, el túnel 3<NL>va atrasado-robo"
+  },
+  {
+   "key": "script:0082:0C82",
+   "src": "3d35de29ed52",
+   "t": "<FACE:7C>¿Quéee?<WAIT><FACE:7A>¡En nombre del gran<NL>Raiun, eso no se<WAIT>permite!<WAIT>Si la obra se atrasa,<NL>¡mi honor se hunde!"
+  },
+  {
+   "key": "script:0082:0CCD",
+   "src": "22a509913bed",
+   "t": "<FACE:7D>(Otra vez pensando en<NL>su honor-robo…)<WAIT>(Sin eso sería buen<NL>tipo-robo…)"
+  },
+  {
+   "key": "script:0082:0D01",
+   "src": "7bef645939aa",
+   "t": "<FACE:79>¡Eh! ¡Tú!<NL>¿Dijiste algo?"
+  },
+  {
+   "key": "script:0082:0D15",
+   "src": "0060a6c1ca78",
+   "t": "<FACE:80>¡N… nada-robo!<NL>¡Jamás, jefe-robo!"
+  },
+  {
+   "key": "script:0082:0D2D",
+   "src": "5ad757544fe2",
+   "t": "<FACE:79>¡Bah! Está bien<NL><WAIT>Si me fijo en detalles<NL>tan pequeños<WAIT>pensarán que soy un<NL>hombre mezquino"
+  },
+  {
+   "key": "script:0082:0D65",
+   "src": "02d3f5fb8c84",
+   "t": "<FACE:79>¡Manden más Medabots<NL>obreros al túnel 3<WAIT>y vuelvan al plan<NL>previsto!"
+  },
+  {
+   "key": "script:0082:0D96",
+   "src": "ebee1295bcb1",
+   "t": "<FACE:81>¿¡Eeeeeeeh!?<NL><WAIT>¡Si hacemos eso, los<NL>otros túneles se<WAIT>atrasarán-robo!<WAIT>¡Ya vamos con el agua<NL>al cuello-robo!"
+  },
+  {
+   "key": "script:0082:0DE4",
+   "src": "497ebfc576f7",
+   "t": "<FACE:7A>¡Baaasta! ¡Silencio!<WAIT><FACE:79>Ya conocen el plan,<NL>¿no?<WAIT>Fabricar Medabots en<NL>masa con este equipo<WAIT>y atacar de golpe a<NL>esos colegiales<WAIT><FACE:7A>A los otros jefes les<NL>dije bien alto:<WAIT>«¡Déjenme a mí el<NL>suministro!»<WAIT>Después de eso, ¡no<NL>puedo atrasarme!"
+  },
+  {
+   "key": "script:0082:0E8E",
+   "src": "d797505be3c3",
+   "t": "<FACE:79>Si me atraso, luego se<NL>burlarán de mí…"
+  },
+  {
+   "key": "script:0082:0EAF",
+   "src": "97c424dc1b06",
+   "t": "<FACE:7A>¡Prohibido atrasarse!<NL><WAIT>El atraso de cualquier<NL>bloque es culpa de<WAIT>todos ustedes<WAIT>Si un solo bloque se<NL>atrasa, ¡los castigo<WAIT>a todos!"
+  },
+  {
+   "key": "script:0082:0F05",
+   "src": "32590c982e80",
+   "t": "<FACE:81>¡Hiiiiiiiii-robo!"
+  },
+  {
+   "key": "script:0082:0F15",
+   "src": "14f9934a84cd",
+   "t": "<FACE:7A>¡A trabajar ahora!"
+  },
+  {
+   "key": "script:0082:0F28",
+   "src": "8c019b9e431d",
+   "t": "<FACE:80>¡Aaaah! ¡Otra vez ese<NL>colegial-robo!<WAIT><FACE:7E>¡Con que ustedes eran<NL>el estorbo-robo!"
+  },
+  {
+   "key": "script:0082:0F61",
+   "src": "0365a8c72cfc",
+   "t": "<FACE:7A>¿¡Quéee!?<NL><WAIT>Si es así, ¡no tendré<NL>piedad ni con niños!"
+  },
+  {
+   "key": "script:0082:0F85",
+   "src": "3b2a46bec2dd",
+   "t": "<FACE:79>…Es decir…<NL><WAIT>Hasta ahora me contuve<NL>por ser niños…"
+  },
+  {
+   "key": "script:0082:0FBA",
+   "src": "87fe39449ecc",
+   "t": "<FACE:7D>¡Jefe Raiun!<NL><WAIT>¡Basta de excusas-robo<NL>y acabe con ese<WAIT>colegial ya-robo!"
+  },
+  {
+   "key": "script:0082:0FED",
+   "src": "835f448cb8f6",
+   "t": "<FACE:7C>¿¡E… excusas!? ¡Cómo<NL>te atreves!<WAIT>¡El gran Raiun…!"
+  },
+  {
+   "key": "script:0082:100F",
+   "src": "cb368530033a",
+   "t": "<FACE:05>Sí, sí…<NL>Dejen la pelea interna<WAIT>¿Toca robobatalla?"
+  },
+  {
+   "key": "script:0082:102B",
+   "src": "274f13555446",
+   "t": "<FACE:05>Empecemos de una vez"
+  },
+  {
+   "key": "script:0082:1038",
+   "src": "a7c181e75342",
+   "t": "<FACE:7A>¡Grrr!"
+  },
+  {
+   "key": "script:0082:103D",
+   "src": "d55f86bab447",
+   "t": "<FACE:81>El jefe Raiun<NL>perdió-robo…<WAIT><FACE:06>¿Cómo? ¿No que hasta<NL>ahora te contenías?<WAIT><FACE:79>…E… el gran Raiun aún<NL>es blando…<WAIT>Si hubiera usado<NL>aquello…<WAIT><FACE:09>¿Aquello?"
+  },
+  {
+   "key": "script:0082:10A0",
+   "src": "e889770d5e2b",
+   "t": "<FACE:79>Con aquello habría<NL>ganado seguro…<WAIT>pero acabaría en algo<NL>terrible…"
+  },
+  {
+   "key": "script:0082:10D3",
+   "src": "d22bb254ab08",
+   "t": "<FACE:79>Por hoy lo dejaré<NL>en una derrota<WAIT>¡La próxima no será<NL>así!<WAIT>La próxima usaré<NL>aquello…<WAIT><FACE:05>¿Aquello qué?"
+  },
+  {
+   "key": "script:0082:1123",
+   "src": "ffef3362ba0a",
+   "t": "<FACE:7B>Ju ju ju… parece que<NL>ni el gran Raiun puede<WAIT>ser cruel con niños…<WAIT>¡Mira que no usar<NL>aquello!<WAIT>¡Fuaaa ja ja ja!"
+  },
+  {
+   "key": "script:0082:116B",
+   "src": "0b6ae9199fd2",
+   "t": "<FACE:0A>Oye… ¿y eso de<NL>«aquello»…?"
+  },
+  {
+   "key": "script:0082:1177",
+   "src": "78a6e0c2be07",
+   "t": "<FACE:7D>Con ese carácter-robo…<NL>seguro es puro cuen…<WAIT><FACE:7A>¡¡¡Oye!!!"
+  },
+  {
+   "key": "script:0082:1199",
+   "src": "8df8e25a3e63",
+   "t": "<FACE:80>¡Sí-robo! ¡Voy-robo!"
+  },
+  {
+   "key": "script:0082:11AD",
+   "src": "70db85bf5c7e",
+   "t": "<FACE:04>¿Puro cuen… to?"
+  },
+  {
+   "key": "script:0082:11B7",
+   "src": "b0cbdab6b6df",
+   "t": "<FACE:67>Apártate-topo<NL>Estorbas aquí-topo"
+  },
+  {
+   "key": "script:0082:11CA",
+   "src": "58e97d546131",
+   "t": "<FACE:67>El que no trabaja<NL>que se vaya-topo"
+  },
+  {
+   "key": "script:0082:11E5",
+   "src": "96aad714ed7f",
+   "t": "<FACE:67>…No hay tiempo para<NL>estas cosas-topo"
+  },
+  {
+   "key": "script:0082:1256",
+   "src": "710bb5f21f4b",
+   "t": "<FACE:05>En fin, con esto el<NL>desarrollo de Medabots<WAIT>ya está a salvo<WAIT>Volvamos el control a<NL>la normalidad<WAIT>y sigamos adelante"
+  },
+  {
+   "key": "script:0082:1298",
+   "src": "2321f29a8e98",
+   "t": "<FACE:03>¡Ah, Amamiya!"
+  },
+  {
+   "key": "script:0082:12A5",
+   "src": "2fcd12814be5",
+   "t": "<FACE:2C>¡Vamos, Amamiya!<NL>Hay que huir ya…"
+  },
+  {
+   "key": "script:0082:12BE",
+   "src": "d7a1c7d6b07a",
+   "t": "<FACE:29>…<NL>"
+  },
+  {
+   "key": "script:0082:12C5",
+   "src": "976ffec97fcc",
+   "t": "<FACE:2A>¡Se cancela!"
+  },
+  {
+   "key": "script:0082:12D3",
+   "src": "bb11dd282df1",
+   "t": "<FACE:2C>¡Ah, Amamiya!<WAIT><FACE:2F>Amamiya…"
+  },
+  {
+   "key": "script:0082:12EB",
+   "src": "ea50090bd910",
+   "t": "<FACE:2B>……o sea…<NL>……por eso…"
+  },
+  {
+   "key": "script:0082:1300",
+   "src": "6c33f692c6c4",
+   "t": "<FACE:2A>¡Para el temporizador<NL>de los explosivos!<WAIT><FACE:2B>¡Todo está bien!<NL>Ellos no se quedarán<WAIT>aquí mucho tiempo<WAIT><FACE:2A>¡Es muy peligroso!<WAIT><FACE:2B>Pero… pero para<NL>salvarnos con nuestras<WAIT>propias fuerzas<NL>¡no hay otra manera!<WAIT>¡Usted mismo lo dijo,<NL>Amamiya!<WAIT>Que los descartados<NL>saldríamos de esta<WAIT>por nuestra cuenta"
+  },
+  {
+   "key": "script:0082:13A4",
+   "src": "5e093618caf1",
+   "t": "<FACE:04>¿Qué significa eso?<NL>Tensai y los demás…<WAIT>con esos explosivos…"
+  },
+  {
+   "key": "script:0082:13C4",
+   "src": "e256f5fdac50",
+   "t": "<FACE:03>¡No puede ser!<WAIT><FACE:2B>Así es…<NL>¡Vamos a destruir este<WAIT>bloque!<WAIT><FACE:04>Pero ¿para qué harían<NL>algo así…?"
+  },
+  {
+   "key": "script:0082:13FC",
+   "src": "5ac856bf0f4b",
+   "t": "<FACE:12>¡Ya entiendo!"
+  },
+  {
+   "key": "script:0082:1403",
+   "src": "5eb305802d99",
+   "t": "<FACE:0F>Este bloque está en el<NL>centro del Cluster<WAIT>Si lo destruyen…<WAIT>¡el Cluster se partirá<NL>en dos!<WAIT><FACE:00>Shiden… ¿y entonces<NL>qué pasaría?<WAIT><FACE:0F>La parte de aquí en<NL>adelante seguirá<WAIT>acelerando con los<NL>propulsores…<WAIT>Los bloques del lado<NL>del Lobby perderán<WAIT>el empuje y luego…"
+  },
+  {
+   "key": "script:0082:1498",
+   "src": "52206e5fc90a",
+   "t": "<FACE:2B>¡El Sol los atraerá de<NL>vuelta y podrán volver<WAIT>cerca de la Tierra!"
+  },
+  {
+   "key": "script:0082:14BF",
+   "src": "9e91655dbbc6",
+   "t": "<FACE:12>¡Es una locura! ¡No se<NL>sabe ni en qué<WAIT>dirección irían!<WAIT><FACE:01>¡Y seguro que hay<NL>alguien en los bloques<WAIT>de más adelante!"
+  },
+  {
+   "key": "script:0082:1502",
+   "src": "437b158b9bfb",
+   "t": "<FACE:06>¡Y para empezar, casi<NL>nos vuela la bomba!"
+  },
+  {
+   "key": "script:0082:1526",
+   "src": "07fe90fa94bf",
+   "t": "<FACE:2D>Pero… pero…"
+  },
+  {
+   "key": "script:0082:1532",
+   "src": "03df2a433793",
+   "t": "<FACE:2B>¡Si lo hacemos, tiene<NL>que ser ahora!<NL><WAIT>Si nos alejamos más de<NL>la Tierra, ya no<WAIT>servirá este método<WAIT><FACE:10>Pero al menos piensen<NL>en la seguridad de<WAIT>todos…"
+  },
+  {
+   "key": "script:0082:1581",
+   "src": "3bf952e34876",
+   "t": "<FACE:2B>¡Se me ocurrió a mí!<NL>"
+  },
+  {
+   "key": "script:0082:1590",
+   "src": "c6cc6a218264",
+   "t": "<FACE:2B>y los dos me apoyaron…<NL><WAIT>¡Lo haremos solos, con<NL>nuestras fuerzas!<NL><WAIT><FACE:2D>Hasta nosotros…<NL>podemos salvarlos…"
+  },
+  {
+   "key": "script:0082:15D9",
+   "src": "fd8ea91c545d",
+   "t": "<FACE:10>Ni modo… <PLAYER><NL>Habrá que usar la<WAIT>fuerza…"
+  },
+  {
+   "key": "script:0082:15F5",
+   "src": "03ff32b53a0b",
+   "t": "<FACE:2B>¿Así que una<NL>robobatalla?<WAIT>¡Está bien! Los<NL>enfrentaremos<WAIT>Y aquí tenemos los<NL>Medabots del taller"
+  },
+  {
+   "key": "script:0082:1635",
+   "src": "d7a1c7d6b07a",
+   "t": "<FACE:29>…<NL>"
+  },
+  {
+   "key": "script:0082:163C",
+   "src": "475f8fa5c2d9",
+   "t": "<FACE:29>Está bien, Tensai…<NL>Te echaré una mano<WAIT><FACE:04>…Amamiya…"
+  },
+  {
+   "key": "script:0082:1660",
+   "src": "7a84bf49ca26",
+   "t": "<FACE:29>Así te quedas<NL>tranquilo…<WAIT><FACE:2D>Si todos… escucharan<NL>lo que digo…"
+  },
+  {
+   "key": "script:0082:168A",
+   "src": "a63d4d684a0a",
+   "t": "<FACE:2A>¡Rápido, el botón de<NL>los explosivos!"
+  },
+  {
+   "key": "script:0082:169D",
+   "src": "b35ff1138cb5",
+   "t": "<FACE:08>…fiuuu…<NL>"
+  },
+  {
+   "key": "script:0082:16A8",
+   "src": "50e181071086",
+   "t": "<FACE:05>Así que con esto nos<NL>salvamos…"
+  },
+  {
+   "key": "script:0082:16BC",
+   "src": "cd1904b67268",
+   "t": "<FACE:04>Tensai… yo…"
+  },
+  {
+   "key": "script:0082:16CC",
+   "src": "4f9bfe0691b7",
+   "t": "<FACE:2B>Ya lo sé… <PLAYER>…<NL>Sé que era un método<WAIT>peligroso…"
+  },
+  {
+   "key": "script:0082:16F0",
+   "src": "f0196b800f0d",
+   "t": "<FACE:2D>Pero a mí no se me<NL>ocurrió nada más…"
+  },
+  {
+   "key": "script:0082:1715",
+   "src": "45610029f217",
+   "t": "<FACE:29><PLAYER>…<NL><WAIT>Ya recuperaste hasta<NL>aquí…<WAIT>Parece que lo estás<NL>haciendo muy bien<WAIT>Pero todos luchan<NL>por salvarse<WAIT>Alguno probará<NL>métodos peligrosos"
+  },
+  {
+   "key": "script:0082:1770",
+   "src": "eeb95293f012",
+   "t": "<FACE:29>No te pido que lo<NL>apruebes… solo…<WAIT>no olvides que existe<NL>gente así<WAIT><FACE:04>…Entendido<NL>Lo tendré presente…"
+  },
+  {
+   "key": "script:0082:17B7",
+   "src": "5ef9463ea052",
+   "t": "<FACE:05><PLAYER>, apúrate<NL>Es un bloque clave"
+  },
+  {
+   "key": "script:0082:17D1",
+   "src": "a183fd77f07e",
+   "t": "<FACE:05>Esos eran nuestros<NL>compañeros de clase<WAIT>¿Qué era lo que<NL>cancelaban?"
+  },
+  {
+   "key": "script:0082:17F4",
+   "src": "b793297335b0",
+   "t": "<FACE:19>Vaya que cavaron<NL>aquí adentro"
+  },
+  {
+   "key": "script:0082:1807",
+   "src": "92a93312c20a",
+   "t": "<FACE:14>¿Mm? ¿Qué pasa?<NL><WAIT>Todavía no lo has<NL>recuperado, ¿no?"
+  },
+  {
+   "key": "script:0082:1826",
+   "src": "93f4e45e572c",
+   "t": "<FACE:0F>Si recuperamos esto<NL>podremos desarrollar<WAIT>nuevos Medabots"
+  },
+  {
+   "key": "script:0082:184A",
+   "src": "b5ae6bcbd958",
+   "t": "<FACE:0F>¿Son compañeros<NL>tuyos de clase?"
+  },
+  {
+   "key": "script:0082:185E",
+   "src": "631007ea830d",
+   "t": "<FACE:67>¡Estorbas la<NL>obra-topo!"
+  },
+  {
+   "key": "script:0082:186D",
+   "src": "1023ff99d6ff",
+   "t": "<FACE:67>Voy a otra<NL>tarea-topo…"
+  },
+  {
+   "key": "script:0082:1880",
+   "src": "003516b9052b",
+   "t": "<FACE:67>No hay tiempo para<NL>charlar-topo…"
+  },
+  {
+   "key": "script:0082:1896",
+   "src": "92255987efdf",
+   "t": "<FACE:29>¡Amamiya se unió al<NL>equipo!<NL><WAIT><FACE:2B>¡Tensai se unió al<NL>equipo!<NL><WAIT><FACE:2F>¡Nadare se unió al<NL>equipo!"
+  },
+  {
+   "key": "script:0082:18E2",
+   "src": "0de93b8e4412",
+   "t": "<FACE:04>¿¡Mm!?"
+  },
+  {
+   "key": "script:0082:18E8",
+   "src": "8e532937a805",
+   "t": "<FACE:03>¿¡Esto no es un<NL>Tinpet!?<WAIT>¡Ah, y también hay una<NL>Medalla tirada!<WAIT><FACE:04>¿Por qué están aquí…?<WAIT>¿De quién serán?"
+  },
+  {
+   "key": "script:0082:192A",
+   "src": "cdfc0eec5f7b",
+   "t": "<FACE:05>¿Qué pasa?"
+  },
+  {
+   "key": "script:0082:1933",
+   "src": "c3aff6019240",
+   "t": "<FACE:00>Ah, Hiyori<NL><WAIT>Es que hay un Tinpet<NL>tirado aquí<WAIT>y me preguntaba<NL>por qué…"
+  },
+  {
+   "key": "script:0082:1964",
+   "src": "735f1b01726e",
+   "t": "<FACE:0F>Déjame verlo un poco"
+  },
+  {
+   "key": "script:0082:1972",
+   "src": "187f16790835",
+   "t": "<FACE:0F>Mmm…<NL><WAIT>No tiene número de<NL>control de la RR<WAIT>Esto no es nuestro…"
+  },
+  {
+   "key": "script:0082:19A3",
+   "src": "33af9ade9313",
+   "t": "<FACE:04>Entonces… ¿se le cayó<NL>a alguien?"
+  },
+  {
+   "key": "script:0082:19B9",
+   "src": "7c1039f8d6cf",
+   "t": "<FACE:05>¡Entonces puede que<NL>haya alguien más<WAIT>adelante!<WAIT><FACE:07>¡Bueno, quédatelo!"
+  },
+  {
+   "key": "script:0082:19E9",
+   "src": "24e4ade8356e",
+   "t": "<FACE:67>Perdí el tiempo-topo"
+  },
+  {
+   "key": "script:0082:19FC",
+   "src": "9e897878927d",
+   "t": "<FACE:00>El bloque ya está<NL>bajo control"
+  }
+ ]
+}

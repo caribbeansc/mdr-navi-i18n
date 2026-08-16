@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0157",
+ "entries": [
+  {
+   "key": "script:0157:01C8",
+   "src": "e851f39d5b98",
+   "t": "<FACE:99>¡Oye! ¡Tú, el de ahí!<NL>¿Conoces a Rintarou?"
+  },
+  {
+   "key": "script:0157:01EC",
+   "src": "9f6ae729f3ac",
+   "t": "<FACE:04>¿Rintarou? Ahora que<NL>lo pienso…<WAIT>creo que había un<NL>medaguerrero así…"
+  },
+  {
+   "key": "script:0157:0210",
+   "src": "1ec7c576ca7a",
+   "t": "<FACE:00>Ya veo, así que él<NL>también está aquí…<WAIT>A lo mejor…"
+  },
+  {
+   "key": "script:0157:0230",
+   "src": "29b6be99f260",
+   "t": "<FACE:99>¡Te pregunto si lo has<NL>visto o no!"
+  },
+  {
+   "key": "script:0157:0245",
+   "src": "a8fec9eddf8e",
+   "t": "<FACE:00>No… no lo conozco<WAIT><FACE:00>¿Ustedes conocen a ese<NL>tal Rintarou?"
+  },
+  {
+   "key": "script:0157:0271",
+   "src": "53a4768c9311",
+   "t": "<FACE:99>¡Bah!"
+  },
+  {
+   "key": "script:0157:0277",
+   "src": "d1f24037d019",
+   "t": "<FACE:99>¡Por eso los novatos<NL>son un fastidio!<WAIT>¡Yo soy el veterano<NL>de ese Rintarou!"
+  },
+  {
+   "key": "script:0157:02A7",
+   "src": "70cac7145ca7",
+   "t": "<FACE:9A>¡Le enseñamos el abecé<NL>de la robobatalla!"
+  },
+  {
+   "key": "script:0157:02C0",
+   "src": "3c1da3b85f2b",
+   "t": "<FACE:9B>Pero Rintarou se hizo<NL>más famoso-oso…"
+  },
+  {
+   "key": "script:0157:02DD",
+   "src": "fb7395688f3e",
+   "t": "<FACE:99>¡Idiotas!<NL><WAIT>¡Aquí se compite con<NL>puro talentooo!"
+  },
+  {
+   "key": "script:0157:0300",
+   "src": "7444d33294e5",
+   "t": "<FACE:00>Ah… ya veo"
+  },
+  {
+   "key": "script:0157:030C",
+   "src": "0abe35f7212f",
+   "t": "<FACE:99>¡Oye! ¡No me crees,<NL>¿verdad?!<WAIT>¡¡Pues lo arreglamos<NL>con una robobatalla!!"
+  },
+  {
+   "key": "script:0157:0331",
+   "src": "9a9fbcfbed63",
+   "t": "<FACE:00>Sí, nada mal<NL><WAIT>Fue un buen combate<NL><WAIT>…Por cierto, yo soy<NL><PLAYER><WAIT>¿Conocen a un tal<NL>Hikaru o a un Shiden?"
+  },
+  {
+   "key": "script:0157:037E",
+   "src": "41f46005975c",
+   "t": "<FACE:99>Bah…<NL>¡Ni idea!<WAIT><FACE:00>Si llegan a verlos…"
+  },
+  {
+   "key": "script:0157:039B",
+   "src": "c37dcba56b2b",
+   "t": "<FACE:99>¡No creas que ganarás<NL>la próxima!"
+  },
+  {
+   "key": "script:0157:03AE",
+   "src": "9ec1b945d857",
+   "t": "<FACE:9A>¡Ah! ¡Jefeeeee!<WAIT><FACE:9B>¡Espéranos-osooo!"
+  }
+ ]
+}

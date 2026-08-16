@@ -1,0 +1,115 @@
+{
+ "part": "script/script_0045",
+ "entries": [
+  {
+   "key": "script:0045:03B8",
+   "src": "9855a21f7cc0",
+   "t": "<FACE:14>Pero esa Sekiran<NL>era bien guapa, ¿eh?"
+  },
+  {
+   "key": "script:0045:03D7",
+   "src": "078eef830310",
+   "t": "<FACE:0A>¿Tú crees?<WAIT>A mí me parece que<NL>solo es puro brillo<WAIT><FACE:19>Eso mismo<NL>Y encima parece tonta<WAIT>A mí me gustan más<NL>las chicas tranquilas"
+  },
+  {
+   "key": "script:0045:042E",
+   "src": "465509978957",
+   "t": "<FACE:0A>Nadie te preguntó<NL>por tus gustos<NL>"
+  },
+  {
+   "key": "script:0045:0445",
+   "src": "08619c53bb8d",
+   "t": "<FACE:0A>Por cierto, <PLAYER><NL>¿y tú qué? Que se te<WAIT>estaba insinuando…"
+  },
+  {
+   "key": "script:0045:0462",
+   "src": "b971fb689a7f",
+   "t": "<FACE:03>¡¿Eh?!<WAIT><FACE:06>¡Eso! ¿No se te caía<NL>la baba, acaso?"
+  },
+  {
+   "key": "script:0045:0480",
+   "src": "97b225f5471c",
+   "t": "<FACE:03>C-claro que no…"
+  },
+  {
+   "key": "script:0045:048D",
+   "src": "37ae7d5c9def",
+   "t": "<FACE:70>Nos costó recuperar<NL>este bloque, así que<WAIT>acaben rápido con<NL>ellos"
+  },
+  {
+   "key": "script:0045:04AF",
+   "src": "029e8302e47b",
+   "t": "<FACE:81>P-pero señora<NL>Sekiran…<WAIT>¿y nosotros cómo<NL>escapamos-robo…?"
+  },
+  {
+   "key": "script:0045:04D5",
+   "src": "ca962ab1ffce",
+   "t": "<FACE:70>Tranquilos<WAIT>Si la cosa se pone<NL>fea, los salvo con<WAIT>mi Medabot"
+  },
+  {
+   "key": "script:0045:04FE",
+   "src": "88d80b1246a4",
+   "t": "<FACE:06>Ya están otra vez…<WAIT>¡Ya basta de<NL>tonterías!"
+  },
+  {
+   "key": "script:0045:0517",
+   "src": "4cc2a513b454",
+   "t": "<FACE:7D>¡Y-ya vienen-robo!<WAIT>Otra vez esos<NL>tipos-robo"
+  },
+  {
+   "key": "script:0045:052C",
+   "src": "06490445c7f8",
+   "t": "<FACE:71>¡Esto pasa porque<NL>ustedes son lentos!"
+  },
+  {
+   "key": "script:0045:054E",
+   "src": "84257cf3546c",
+   "t": "<FACE:0A>¿Ves? Te lo dije:<NL>pura pinta e histeria"
+  },
+  {
+   "key": "script:0045:0567",
+   "src": "73570af99da3",
+   "t": "<FACE:18>P-pues igual tienes<NL>razón…"
+  },
+  {
+   "key": "script:0045:0575",
+   "src": "8509109f8e75",
+   "t": "<FACE:19>Eso mismo<NL>Está clarísimo"
+  },
+  {
+   "key": "script:0045:0589",
+   "src": "7dd6916fec7d",
+   "t": "<FACE:05>Y encima repiten<NL>lo mismo…<WAIT><FACE:09>No aprenden, ¿eh?"
+  },
+  {
+   "key": "script:0045:05A5",
+   "src": "728c73b7f48e",
+   "t": "<FACE:71>¡Cállate!<WAIT>Hablan de mí a su<NL>antojo… ¡Van a ver<WAIT>lo que es bueno!"
+  },
+  {
+   "key": "script:0045:05D1",
+   "src": "00614284d43d",
+   "t": "<FACE:05>¿Qué tal? ¿Ya<NL>aprendieron?"
+  },
+  {
+   "key": "script:0045:05E0",
+   "src": "3c6cac053c98",
+   "t": "<FACE:70>Hmpf… ¡La próxima<NL>no será tan fácil!"
+  },
+  {
+   "key": "script:0045:05F5",
+   "src": "324036d8a1db",
+   "t": "<FACE:72>¡Nos vemos otra vez,<NL>mi lindo <DELAY:001E>ni·<DELAY:000F>ñi·<DELAY:000F>to!"
+  },
+  {
+   "key": "script:0045:0618",
+   "src": "016010b9a76b",
+   "t": "<FACE:06>¡¿Por qué te pones<NL>rojo?!"
+  },
+  {
+   "key": "script:0045:0628",
+   "src": "1ac31d73e476",
+   "t": "<FACE:03>Guh…"
+  }
+ ]
+}

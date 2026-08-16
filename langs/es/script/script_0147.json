@@ -1,0 +1,155 @@
+{
+ "part": "script/script_0147",
+ "entries": [
+  {
+   "key": "script:0147:0402",
+   "src": "c46b9591525b",
+   "t": "<FACE:60>Date una vuelta por el<NL>Cluster con calma"
+  },
+  {
+   "key": "script:0147:041A",
+   "src": "55f11bbb6da3",
+   "t": "<FACE:60>¡Chicos, supe de su<NL>hazaña! ¡Increíble!"
+  },
+  {
+   "key": "script:0147:0438",
+   "src": "55b566cddcf5",
+   "t": "<FACE:60>La instalación de Navi<NL>aún tardará un rato…"
+  },
+  {
+   "key": "script:0147:0461",
+   "src": "2ef5545bf1d2",
+   "t": "<FACE:60>¡Ahora nos toca a<NL>nosotros trabajar!"
+  },
+  {
+   "key": "script:0147:047F",
+   "src": "2203e47dedb5",
+   "t": "<FACE:00>El Cluster se está<NL>separando…"
+  },
+  {
+   "key": "script:0147:0496",
+   "src": "bd37f072d065",
+   "t": "<FACE:0F>Vaya problema…<NL>¿Nos desencontramos?"
+  },
+  {
+   "key": "script:0147:04B5",
+   "src": "92dc178486d2",
+   "t": "<FACE:98>¡Aún no lo recibí!"
+  },
+  {
+   "key": "script:0147:04C6",
+   "src": "78e67ea7cc97",
+   "t": "<FACE:03>¡Ah, Shiden!<WAIT><FACE:00>¿Ya terminaste todo?"
+  },
+  {
+   "key": "script:0147:0512",
+   "src": "96c42b18a18b",
+   "t": "<FACE:0F>Sí, hace un rato<NL><WAIT>Por cierto, el paquete<NL><WAIT>que te dejé era para<NL>este chico, Rintaro"
+  },
+  {
+   "key": "script:0147:054D",
+   "src": "c72649dd14b9",
+   "t": "<FACE:00>Así que era eso<NL><WAIT>¿Así que tú eres el<NL>famoso Rintaro?<WAIT><FACE:02>Toma, este paquete es<NL>para ti"
+  },
+  {
+   "key": "script:0147:057E",
+   "src": "7c8aff536bc0",
+   "t": "<FACE:00>Oye, Shiden, ¿qué es<NL>esto exactamente?"
+  },
+  {
+   "key": "script:0147:0594",
+   "src": "49fb52e15e8e",
+   "t": "<FACE:0F>Es el nuevo Medabot<NL>de Rintaro, pero…<WAIT>Parece sacar más poder<NL>del que un Medabot da<WAIT>Lo analicé con nuestro<NL>equipo, y bueno…"
+  },
+  {
+   "key": "script:0147:05F3",
+   "src": "90dcb2eefee1",
+   "t": "<FACE:98>¿Y qué salió?"
+  },
+  {
+   "key": "script:0147:05FE",
+   "src": "eed81cba94d6",
+   "t": "<FACE:13>Pues… no lo entiendo…<NL><WAIT><FACE:0F>Ni en medapartes ni en<NL>la Medalla: nada raro…"
+  },
+  {
+   "key": "script:0147:0638",
+   "src": "b31f099a5e40",
+   "t": "<FACE:00>Así está bien, Shiden"
+  },
+  {
+   "key": "script:0147:064B",
+   "src": "0ed15393dfb9",
+   "t": "<FACE:00>Como decía Mistral,<NL><WAIT>los Medabots tienen<NL>un alma dentro"
+  },
+  {
+   "key": "script:0147:067A",
+   "src": "d4b3ea8a1c02",
+   "t": "<FACE:00>Seguro responde a la<NL>pasión de Rintaro<WAIT><FACE:02>¿Verdad, Rintaro?"
+  },
+  {
+   "key": "script:0147:06AE",
+   "src": "fa29eb27ae00",
+   "t": "<FACE:98>¡Sí! Robobatallaré con<NL>un montón de gente<WAIT>¡y me volveré un<NL>medaguerrero genial!"
+  },
+  {
+   "key": "script:0147:06DD",
+   "src": "79fcccdc2377",
+   "t": "<FACE:0F>Ya veo… Rintaro eleva<NL>el poder del Medabot…<WAIT>Y el Medabot eleva las<NL><WAIT>dotes de Rintaro como<NL>medaguerrero…"
+  },
+  {
+   "key": "script:0147:0739",
+   "src": "1f608fc8a247",
+   "t": "<FACE:98>¡Seguro que sí!<NL>¡Él y yo somos amigos!"
+  },
+  {
+   "key": "script:0147:0758",
+   "src": "b818a8edb012",
+   "t": "<FACE:00>Entonces, el Medabot<NL>de la robobatalla<WAIT>de recién con tus<NL>amigos no era el tuyo<WAIT>de siempre, ¿verdad?<NL><WAIT>¿Me concedes otra<NL>batalla, en serio?"
+  },
+  {
+   "key": "script:0147:07BB",
+   "src": "238bd6f06293",
+   "t": "<FACE:98>¡Cuando quieras!<NL>¡Contacto a mi equipo!"
+  },
+  {
+   "key": "script:0147:07DC",
+   "src": "cd1bb0a40895",
+   "t": "<FACE:98>¡Sí que eres fuerte!"
+  },
+  {
+   "key": "script:0147:07EA",
+   "src": "8977a65be214",
+   "t": "<FACE:98>¡Él y yo tenemos que<NL>esforzarnos más!"
+  },
+  {
+   "key": "script:0147:0806",
+   "src": "b397db1f7f7b",
+   "t": "<FACE:00>Pero tú también eres<NL>fuerte; casi me ganas"
+  },
+  {
+   "key": "script:0147:0828",
+   "src": "f25d1e24fe03",
+   "t": "<FACE:98>¡Peleemos otra vez!<NL><WAIT>¡Y para entonces seré<NL>mucho más fuerte!"
+  },
+  {
+   "key": "script:0147:0856",
+   "src": "c69221970c92",
+   "t": "<FACE:00>¡Cuando quieras!"
+  },
+  {
+   "key": "script:0147:0861",
+   "src": "c07bfc5ce35e",
+   "t": "<FACE:98>¡Rintaro se unió al<NL>equipo!<WAIT><FACE:99>¡Hasuke se unió al<NL>equipo!<WAIT><FACE:9A>¡Mutsuki se unió al<NL>equipo!<WAIT><FACE:9B>¡Bafusaku se unió al<NL>equipo!<WAIT><FACE:9C>¡Tamao se unió al<NL>equipo!"
+  },
+  {
+   "key": "script:0147:08BD",
+   "src": "d584c1c2fcf5",
+   "t": "<FACE:04>¿Y esto cómo se<NL>maneja…?"
+  },
+  {
+   "key": "script:0147:08D4",
+   "src": "68a320e00ff1",
+   "t": "<FACE:00>Mistral…<NL><WAIT>¿Habrá vuelto bien con<NL>su maestro…?"
+  }
+ ]
+}

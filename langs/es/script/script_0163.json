@@ -1,0 +1,20 @@
+{
+ "part": "script/script_0163",
+ "entries": [
+  {
+   "key": "script:0163:00F5",
+   "src": "ae15464b4832",
+   "t": "<FACE:50>¡Sí que eres fuerte!<WAIT><FACE:52>¡<PLAYER> es fuerte!"
+  },
+  {
+   "key": "script:0163:0128",
+   "src": "68c15cda46db",
+   "t": "<FACE:4F>Desde aquí hay una<NL>vista preciosa, ¿eh?<WAIT><FACE:51>¡Ideal para hacer<NL>senderismo!<WAIT>Con este aire puro<NL>¡quiero robobatallar!<WAIT><FACE:04>¿E… en serio?"
+  },
+  {
+   "key": "script:0163:0177",
+   "src": "d7dc741d9e29",
+   "t": "<FACE:52>¡Oh, wonderful!<NL><WAIT>¡La robobatalla tiene<NL>mucha profundidad!<WAIT><FACE:00>Ustedes también son<NL>bastante fuertes<WAIT><FACE:4F>Fue un buen duelo<NL>¡Enfréntame otra vez!"
+  }
+ ]
+}

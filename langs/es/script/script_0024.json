@@ -1,0 +1,80 @@
+{
+ "part": "script/script_0024",
+ "entries": [
+  {
+   "key": "script:0024:02C5",
+   "src": "061eb4d3d307",
+   "t": "<FACE:7D>Mensaje del jefe<NL>Nyuudou-robo<WAIT>Mmm… ¿qué será-robo…"
+  },
+  {
+   "key": "script:0024:02E6",
+   "src": "c0e10b30a941",
+   "t": "<FACE:7D>Tengo un mal<NL>presentimiento-robo<WAIT><FACE:57>«Por fin recuperamos<NL>este bloque<WAIT><FACE:57>Reanudamos ya el<NL>entrenamiento especial<WAIT>pero yo tengo junta<NL>de jefes»<WAIT><FACE:57>«Mientras yo no esté,<NL>ustedes van a subir<WAIT>y bajar esta cuesta<NL>diez veces»"
+  },
+  {
+   "key": "script:0024:0375",
+   "src": "33eeb4d4b349",
+   "t": "<FACE:81>¡Hiiiiiiii-robo!<WAIT><FACE:81>El jefe Nyuudou no ha<NL>olvidado el<WAIT>entrenamiento-robo…<WAIT><FACE:81>¡Mientras tengamos<NL>este bloque no piensa<WAIT>parar el entreno-robo!"
+  },
+  {
+   "key": "script:0024:03CC",
+   "src": "c31be27848f0",
+   "t": "<FACE:7D>…je je je… entonces…<NL>atraemos otra vez a<WAIT>ese colegial…<WAIT><FACE:7D>y que nos quite este<NL>bloque…"
+  },
+  {
+   "key": "script:0024:040A",
+   "src": "5a1346f24c25",
+   "t": "<FACE:6D>¡Yaaa haaa riiii!<NL>¿¡Con que era asííí!?"
+  },
+  {
+   "key": "script:0024:0429",
+   "src": "adc25ce5b79c",
+   "t": "<FACE:6D>¿Atraer a <PLAYER><NL>solo por saltarse el<WAIT>entrenamiento…?<WAIT>¿Tanto odian ustedes<NL>el entrenamiento?<WAIT>¿Tanto les disgusta<NL>este Nyuudou?"
+  },
+  {
+   "key": "script:0024:0488",
+   "src": "c2b372351bec",
+   "t": "<FACE:81>N-nadie dijo tanto<NL>como eso-robo<WAIT>Jefe Nyuudou, cálmese<NL>por favor-robo"
+  },
+  {
+   "key": "script:0024:04B4",
+   "src": "263c33ddf819",
+   "t": "<FACE:6D>¡Silencio!<WAIT>¡Pues les enderezaré<NL>el carácter a golpes!"
+  },
+  {
+   "key": "script:0024:04E0",
+   "src": "5a7172c6cee1",
+   "t": "<FACE:03>¿Eh? ¿Qué hacen?<NL>¿Pelea entre ustedes?"
+  },
+  {
+   "key": "script:0024:04F7",
+   "src": "554ad6eb6cb7",
+   "t": "<FACE:6F>¡Nuoah! ¡Eres tú,<NL><PLAYER>!<NL>"
+  },
+  {
+   "key": "script:0024:0508",
+   "src": "197eed9b3f8c",
+   "t": "<FACE:6D>¡Maldiciooón!<WAIT><FACE:6D>¿Ya lo habían<NL>atraído hasta aquí?"
+  },
+  {
+   "key": "script:0024:052F",
+   "src": "315e7a154a51",
+   "t": "<FACE:81>¡N-no es eso-robo!<NL>¡Subió él solo-robo!<WAIT><FACE:81>¡Ya no traicionaremos<NL>al jefe Nyuudou-robo!"
+  },
+  {
+   "key": "script:0024:0567",
+   "src": "75cf3ec2d08f",
+   "t": "<FACE:6C>¡Pues demuéstrenlo<NL>en una robobatalla!"
+  },
+  {
+   "key": "script:0024:0583",
+   "src": "0d0a65e8134a",
+   "t": "<FACE:6D>¡Qué patéticos!<NL>¡Al final tocará el<WAIT>gran entrenamiento<NL>infernaaal!"
+  },
+  {
+   "key": "script:0024:05AA",
+   "src": "b799c82de1da",
+   "t": "<FACE:80>¡Es más duro que<NL>antes-roboooo!"
+  }
+ ]
+}

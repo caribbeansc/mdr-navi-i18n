@@ -1,0 +1,24 @@
+Unofficial fan project. Not affiliated with, endorsed by, or connected to
+Natsume, Imagineer, or Nintendo. Medarot / Medabots and all related names and
+characters are trademarks of their respective owners.
+
+This repository contains no game data: no ROM, no graphics, no Japanese script.
+Language packs store a translation next to a one-way fingerprint of the line it
+replaces. The tools read the files from your own legally obtained cartridge
+dump and cannot obtain the game for you.
+
+Prior art this project builds on, with thanks:
+
+- Normmatt & contributors, "Medarot-Navi-GBA-Translation"
+  (https://github.com/Normmatt/Medarot-Navi-GBA-Translation): the character
+  table this project's charset files were derived from, the script-bytecode
+  opcode sizes reimplemented in navi/script.py, the "Malias" graphics codec
+  ported to navi/gfx.py from Malias2.cs, and the Kabuto-release addresses in
+  navi/rom.py taken from that repository's .definelabel tables. That
+  repository targets the Kabuto release; this one re-derives all offsets from
+  the dump it is given.
+- The mGBA project (https://mgba.io): tools/gbashot links against libmgba for
+  headless verification.
+
+Please do not open issues or pull requests containing game files or the
+original Japanese text.

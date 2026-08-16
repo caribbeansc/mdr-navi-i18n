@@ -1,0 +1,170 @@
+{
+ "part": "script/script_0048",
+ "entries": [
+  {
+   "key": "script:0048:04A6",
+   "src": "48bbc0e4d18a",
+   "t": "<FACE:0F>Aquí está bien…"
+  },
+  {
+   "key": "script:0048:04B1",
+   "src": "2dd616c88bdd",
+   "t": "<FACE:1E>Hermano, ¿adónde va?"
+  },
+  {
+   "key": "script:0048:04BF",
+   "src": "d4541575338b",
+   "t": "<FACE:0F>Voy a echar un vistazo<NL>a este instituto<WAIT>Quiero ver cómo es el<NL>día a día de los<WAIT>medaguerreros de<NL>mi edad<WAIT><FACE:1E>Permítame acompañarlo<WAIT><FACE:0F>¡No! Será un momento<NL>Espera aquí, Rainy<WAIT><FACE:21>Pero…"
+  },
+  {
+   "key": "script:0048:0538",
+   "src": "ac42af4f83bb",
+   "t": "<FACE:0F>Es un instituto normal<NL>y no parece muy bien<WAIT>cuidado… Es peligroso<NL>para ti, Rainy"
+  },
+  {
+   "key": "script:0048:056D",
+   "src": "83fa1f13206b",
+   "t": "<FACE:21>…"
+  },
+  {
+   "key": "script:0048:0573",
+   "src": "618c73f89d99",
+   "t": "<FACE:05>Jujú[<3]<NL><WAIT>¡Mira, mira, <PLAYER>!"
+  },
+  {
+   "key": "script:0048:0586",
+   "src": "9546cf106e7f",
+   "t": "<FACE:05>¿A que es genial?"
+  },
+  {
+   "key": "script:0048:0592",
+   "src": "7a410371d38a",
+   "t": "<FACE:00>¿Y eso qué es?<WAIT><FACE:05>¡Los prismáticos<NL>electrónicos<WAIT>superpotentes<NL>«MiraMira»!<WAIT>¡Cambiando el modo de<NL>visión, hasta en la<WAIT>oscuridad ves ropa<NL>tendida a 300 metros!"
+  },
+  {
+   "key": "script:0048:05F0",
+   "src": "7ac5112897b0",
+   "t": "<FACE:00>Otra vez comprando<NL>rarezas por catálogo…<WAIT><FACE:06>¿¡Cómo que rarezas!?<NL>¡Qué grosero!"
+  },
+  {
+   "key": "script:0048:0624",
+   "src": "5e52082bd92e",
+   "t": "<FACE:03>¡Ay, ay, ay!"
+  },
+  {
+   "key": "script:0048:0631",
+   "src": "248e1447976b",
+   "t": "<FACE:06>¡Está bien!<NL>¡A ti no te lo presto!"
+  },
+  {
+   "key": "script:0048:064C",
+   "src": "171ed2e5be41",
+   "t": "<FACE:08>¿Eh?"
+  },
+  {
+   "key": "script:0048:0652",
+   "src": "8d5266aae756",
+   "t": "<FACE:08>¿Qué es eso? ¿Alguien<NL>bajó de la limusina…?"
+  },
+  {
+   "key": "script:0048:0671",
+   "src": "d5f42637bb6a",
+   "t": "<FACE:36>¿¡Eh!? Hiyori<NL><WAIT>¿Todavía estabas aquí?"
+  },
+  {
+   "key": "script:0048:068D",
+   "src": "00fce56310cf",
+   "t": "<FACE:07>Vaya, Sachi,<NL>¿qué ocurre?<WAIT>¿Pasó algo?"
+  },
+  {
+   "key": "script:0048:06AC",
+   "src": "b77323501a40",
+   "t": "<FACE:36>¡Él está aquí!"
+  },
+  {
+   "key": "script:0048:06B9",
+   "src": "eb0ca13fbe97",
+   "t": "<FACE:07>¿Él? ¿De quién hablas?"
+  },
+  {
+   "key": "script:0048:06CD",
+   "src": "fdd3a81a60da",
+   "t": "<FACE:36>¡Del medaguerrero<NL>galán más famoso:<WAIT>Murasame Shiden!"
+  },
+  {
+   "key": "script:0048:06F0",
+   "src": "6f3d720cac6a",
+   "t": "<FACE:07>Sé que hoy graban un<NL>programa de TV en la<WAIT>ciudad… y que las<NL>chicas andaban<WAIT>alborotadas, ¿no?"
+  },
+  {
+   "key": "script:0048:0733",
+   "src": "7424b879840b",
+   "t": "<FACE:36>¡No es eso!<NL><WAIT>¡Shiden ha venido<NL>a esta escuela!"
+  },
+  {
+   "key": "script:0048:0756",
+   "src": "6e29ff30a40c",
+   "t": "<FACE:08>Vaya… Entonces<NL>esa limusina es…"
+  },
+  {
+   "key": "script:0048:076E",
+   "src": "8d7af36aa43e",
+   "t": "<FACE:36>¡Aaah! ¡Es Shiden<NL>de verdad!<WAIT>¡Qué guapo es![<3]"
+  },
+  {
+   "key": "script:0048:078F",
+   "src": "03c1377e0c52",
+   "t": "<FACE:36>¡Vamos rápido,<NL>Hiyori!"
+  },
+  {
+   "key": "script:0048:07A5",
+   "src": "76f8803368a4",
+   "t": "<FACE:07>Sí, ya voy"
+  },
+  {
+   "key": "script:0048:07B3",
+   "src": "b4d75093b112",
+   "t": "<FACE:06>¿Y tú qué haces<NL>ahí parado?<WAIT>Si te demoras,<NL>te dejamos"
+  },
+  {
+   "key": "script:0048:07D8",
+   "src": "5b21284c3d65",
+   "t": "<FACE:03>¡Es… espera,<NL>Hiyori!"
+  },
+  {
+   "key": "script:0048:07F0",
+   "src": "8945ce3de169",
+   "t": "<FACE:36>¿¡Eh!? ¡Déjame ver!<NL>"
+  },
+  {
+   "key": "script:0048:07FE",
+   "src": "50a239875f77",
+   "t": "<FACE:00>Cuánta gente se ha<NL>juntado…"
+  },
+  {
+   "key": "script:0048:080F",
+   "src": "49593684c543",
+   "t": "<FACE:00>Primero,<NL>el Medarreloj…<WAIT>Con esto se controla<NL>y se le dan órdenes<WAIT>al Medabot… ¡Debo<NL>registrar mi nombre!"
+  },
+  {
+   "key": "script:0048:0859",
+   "src": "1551c6c22b9e",
+   "t": "<FACE:02>¡Listo!"
+  },
+  {
+   "key": "script:0048:085F",
+   "src": "03c04512ae44",
+   "t": "<FACE:02>La Medalla se coloca<NL>en el Tinpet, que es<WAIT>el esqueleto…<NL>La Medalla es el<WAIT>cerebro del Medabot:<NL>hay que criarla bien…<WAIT>¡Le pondré un<NL>nombre genial!"
+  },
+  {
+   "key": "script:0048:08C7",
+   "src": "c3a9e3a8993d",
+   "t": "<FACE:02>¡Así está bien!<NL><WAIT>¡Solo falta ponerle<NL>las partes!<WAIT><FACE:00>Las patas definen el<NL>rendimiento general<WAIT>y cabeza, brazo<NL>derecho e izquierdo<WAIT>traen habilidades…<NL>Hay que pensar bien<WAIT>el conjunto de 4<NL>partes y Medalla…"
+  },
+  {
+   "key": "script:0048:0947",
+   "src": "748071e1c7e4",
+   "t": "<FACE:02>¡Por fin lo tengo!<NL><WAIT>No puedo esperar a<NL>llegar a casa<WAIT>¡Lo armaré aquí mismo!"
+  }
+ ]
+}

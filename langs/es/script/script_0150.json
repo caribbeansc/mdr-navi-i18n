@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0150",
+ "entries": [
+  {
+   "key": "script:0150:023E",
+   "src": "1ad7d26dab88",
+   "t": "<FACE:22><PLAYER>…<NL><WAIT>Lo vivido en este<NL>Cluster me cambió…<WAIT>Me hizo pensar en<NL>muchas cosas…<WAIT><FACE:00>Sí… pasaron muchas<NL>cosas<WAIT><FACE:02>Tú también creciste<NL>bastante, Niwaka"
+  },
+  {
+   "key": "script:0150:02A7",
+   "src": "a9fe62319ca4",
+   "t": "<FACE:22>Sí… ¡este es mi nuevo<NL>punto de partida!"
+  },
+  {
+   "key": "script:0150:02CA",
+   "src": "0aecd00570d5",
+   "t": "<FACE:22>¡Le mostraré al nuevo<NL>Niwaka, renacido!<WAIT>¡Te reto a una<NL>robobatalla!"
+  },
+  {
+   "key": "script:0150:02FC",
+   "src": "998ce35e627a",
+   "t": "<FACE:22>Kukukú…<NL>¿Así que perdí…?"
+  },
+  {
+   "key": "script:0150:030F",
+   "src": "8a09b904acef",
+   "t": "<FACE:23>¡Pero no me rendiré!<NL><WAIT>Hoy el líder eres tú,<NL><WAIT>¡pero quien merece ser<NL>el líder soy yo!"
+  },
+  {
+   "key": "script:0150:0353",
+   "src": "debc994661f4",
+   "t": "<FACE:00>A ver… la energía…"
+  },
+  {
+   "key": "script:0150:0363",
+   "src": "c3874b905b40",
+   "t": "<FACE:00>Parece que está bien"
+  },
+  {
+   "key": "script:0150:0370",
+   "src": "81a7ae20821b",
+   "t": "<FACE:00>La luz verde…"
+  },
+  {
+   "key": "script:0150:037E",
+   "src": "a2845356e07a",
+   "t": "<FACE:00>Sin novedad…"
+  },
+  {
+   "key": "script:0150:038C",
+   "src": "f5552ea9d133",
+   "t": "<FACE:00>Si muevo esto un poco<NL>iré al fin del cosmos…"
+  },
+  {
+   "key": "script:0150:03AC",
+   "src": "2c8da2032690",
+   "t": "<FACE:02>Mejor no"
+  },
+  {
+   "key": "script:0150:03B4",
+   "src": "13efc26ca38c",
+   "t": "<FACE:04>Creo que en el fondo<NL>no cambió tanto…"
+  }
+ ]
+}

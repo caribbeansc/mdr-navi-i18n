@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0078",
+ "entries": [
+  {
+   "key": "script:0078:0C61",
+   "src": "b77f8a1cbbed",
+   "t": "<FACE:00>Vaya, también hay<NL>lugares así…<WAIT>…¿Se podrá esquiar?<WAIT><FACE:05>¡No digas tonterías!<NL>¡Qué frío hace!<WAIT>¡Tomemos este bloque<NL>de una vez!"
+  },
+  {
+   "key": "script:0078:0CC2",
+   "src": "3aa9d09399a9",
+   "t": "<FACE:80>¡Yaaaaah…!<NL>"
+  },
+  {
+   "key": "script:0078:0CCE",
+   "src": "3bbbae0bce03",
+   "t": "<FACE:80>¡Hoooooooo!!!"
+  },
+  {
+   "key": "script:0078:0CDE",
+   "src": "b5668a5a96c2",
+   "t": "<FACE:08>¿¡Qué!?<NL>¡Qué gritote fue ese!<WAIT><FACE:03>Parece que viene de<NL>los altavoces…"
+  },
+  {
+   "key": "script:0078:0D0A",
+   "src": "f12d27770a43",
+   "t": "<FACE:00>¿No será por allá?"
+  },
+  {
+   "key": "script:0078:0D18",
+   "src": "ef2e98df7ee7",
+   "t": "<FACE:7D>¿Tembló bastante-robo?<NL>¡Pero cerquita-robo!<WAIT>¡Faltó poquito-robo!<NL>"
+  },
+  {
+   "key": "script:0078:0D42",
+   "src": "c511064fbd78",
+   "t": "<FACE:7F>¡Ya se anima el gran<NL>grito Sperobo-robo!<WAIT>¡Falta poco para la<NL>avalancha-robo!<NL><WAIT>Si con la avalancha<NL>cerramos este bloque,<WAIT>¡<PLAYER> y su grupo<NL>no pasan de acá-robo!<WAIT>¡Y el amo Nyuudou nos<NL>dará un premio-robo!"
+  },
+  {
+   "key": "script:0078:0DD9",
+   "src": "0a8dc6cb232e",
+   "t": "<FACE:08>¡¿Una avalancha?!"
+  },
+  {
+   "key": "script:0078:0DE9",
+   "src": "7e9c10ce3551",
+   "t": "<FACE:04>Cierto, si la nieve<NL>nos tapa, no pasamos"
+  },
+  {
+   "key": "script:0078:0E12",
+   "src": "4f93cab8edcc",
+   "t": "<FACE:04>Hay que hacer algo…"
+  },
+  {
+   "key": "script:0078:0E1F",
+   "src": "9991dc74b57b",
+   "t": "<FACE:08>¡Son los altavoces!<NL>Si los desconectamos…<WAIT><FACE:09>¿Alguna buena idea…?"
+  },
+  {
+   "key": "script:0078:0E59",
+   "src": "649cfabb75b4",
+   "t": "<FACE:06>¡Búscale una solución<NL>de una vez!"
+  },
+  {
+   "key": "script:0078:0E76",
+   "src": "71de3013eb75",
+   "t": "<FACE:0A>Es mi primera vez en<NL>una montaña nevada…"
+  },
+  {
+   "key": "script:0078:0E8A",
+   "src": "921171a708fc",
+   "t": "<FACE:19>¡Yo soy bueno para el<NL>esquí! ¿Les enseño?"
+  },
+  {
+   "key": "script:0078:0EAF",
+   "src": "5fc736bab647",
+   "t": "<FACE:15>¡Qué dices!<NL>¡Yo soy mejor que tú!<WAIT><FACE:14>¡Yo le enseño, líder!"
+  },
+  {
+   "key": "script:0078:1269",
+   "src": "5ec8e6fce898",
+   "t": "<FACE:01>¡Hay que apagar esos<NL>altavoces ya!"
+  }
+ ]
+}

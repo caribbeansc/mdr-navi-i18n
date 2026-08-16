@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0148",
+ "entries": [
+  {
+   "key": "script:0148:0114",
+   "src": "4ba9a8fef7f3",
+   "t": "<FACE:14>¡Vaya, si es <PLAYER>!<NL>Por más que rondes<WAIT>por aquí no hay nada"
+  },
+  {
+   "key": "script:0148:0135",
+   "src": "2c801ccc26c5",
+   "t": "<FACE:19>Así es. Nosotros<NL>estamos aquí porque<WAIT>tenemos un asuntito<NL>que atender"
+  },
+  {
+   "key": "script:0148:0162",
+   "src": "c76253f5f776",
+   "t": "<FACE:14><PLAYER>…<NL>Te has vuelto fuerte…<WAIT>Nosotros aguantamos<NL>aquí, en este lugar<WAIT>tan varonil, para no<NL>quedarnos atrás…"
+  },
+  {
+   "key": "script:0148:01A1",
+   "src": "074f2bdd8941",
+   "t": "<FACE:1D>Así es…<NL>Ya no dejaremos que<WAIT><PLAYER> se lleve<NL>toda la gloria"
+  },
+  {
+   "key": "script:0148:01C6",
+   "src": "67be27adadd5",
+   "t": "<FACE:18>Ayayay…<NL>Perdimos otra vez…"
+  },
+  {
+   "key": "script:0148:01DD",
+   "src": "38b6d45eec3e",
+   "t": "<FACE:1D>Sin duda, <PLAYER><NL>es muy fuerte"
+  },
+  {
+   "key": "script:0148:01EF",
+   "src": "ae5ca75bfa93",
+   "t": "<FACE:19>Vaya, si es <PLAYER>…"
+  },
+  {
+   "key": "script:0148:01FA",
+   "src": "37652f208af3",
+   "t": "<FACE:14>Justo estábamos<NL>hablando de ti<WAIT><FACE:19>Decíamos que te has<NL>esforzado bastante<WAIT>Te estábamos elogiando"
+  },
+  {
+   "key": "script:0148:022F",
+   "src": "f04247c7ca10",
+   "t": "<FACE:02>Ay, me sonrojo…"
+  },
+  {
+   "key": "script:0148:0238",
+   "src": "a4abf1c189cc",
+   "t": "<FACE:14>Pero decidimos<NL>esforzarnos para no<WAIT>quedarnos atrás de ti"
+  },
+  {
+   "key": "script:0148:0261",
+   "src": "6fa3063c8a64",
+   "t": "<FACE:19>Así que, después de<NL>tanto tiempo…<WAIT>¡una robobatalla!"
+  },
+  {
+   "key": "script:0148:027D",
+   "src": "43a6c177df51",
+   "t": "<FACE:1B>Aún nos falta mucho…"
+  },
+  {
+   "key": "script:0148:028E",
+   "src": "f70b17e3182f",
+   "t": "<FACE:16>Qué bueno eres, ¿eh?"
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "part": "script/script_0065",
+ "entries": [
+  {
+   "key": "script:0065:06B2",
+   "src": "6fe6bbb622d1",
+   "t": "<FACE:7D>¡Esta huerta no lleva<NL>pesticidas-robo!<NL>"
+  },
+  {
+   "key": "script:0065:06C8",
+   "src": "889c9881585f",
+   "t": "<FACE:7D>¡Nada de fertilizantes<NL>químicos-robo!<NL>"
+  },
+  {
+   "key": "script:0065:06DE",
+   "src": "5dffff175146",
+   "t": "<FACE:80>Es bueno para la salud<NL>pero cuesta mucho-robo"
+  },
+  {
+   "key": "script:0065:06FA",
+   "src": "654ce6883d68",
+   "t": "<FACE:75>Jujuju… cof, cof…<NL>Contemplen este sol…<WAIT>Este verdor… todo lo<NL>hice para sanarme<WAIT><FACE:76>¡Este Bloque jamás…<NL>cof… será suyo! cof"
+  },
+  {
+   "key": "script:0065:076B",
+   "src": "70479e88208d",
+   "t": "<FACE:00>Disculpe…"
+  },
+  {
+   "key": "script:0065:0773",
+   "src": "f5f20071990c",
+   "t": "<FACE:75>¿Mm? ¿Vienen a rogar<NL>por su vida?<WAIT><FACE:00>No, no es eso… Si le<NL>importa su salud,<WAIT>olvide el espacio y<NL>mejor viva en el campo"
+  },
+  {
+   "key": "script:0065:07C8",
+   "src": "f668703b6917",
+   "t": "<FACE:75>…No. La conquista del<NL>espacio tiene encanto<WAIT>¡Ser débil no me hará<NL>dejar el espacio! cof<WAIT><FACE:04>…Bueno… en eso<NL>tiene razón…"
+  },
+  {
+   "key": "script:0065:0831",
+   "src": "d3a2c1b37b38",
+   "t": "<FACE:0A>No se esfuerce tanto…<WAIT>Será nuestro enemigo,<NL>pero nos preocupa"
+  },
+  {
+   "key": "script:0065:0863",
+   "src": "3f056d674414",
+   "t": "<FACE:76>M…maldición… ¡Unos<NL>niños me compadecen!<WAIT>¡Mi dignidad cayó<NL>por los suelos!<WAIT>¡Entonces lo veremos<NL>en una robobatalla!<WAIT>¡Les mostraré lo<NL>fuerte que soy! ¡cof!"
+  },
+  {
+   "key": "script:0065:08DE",
+   "src": "1a5aedd5fd24",
+   "t": "<FACE:77>Ugh… Entonces me<NL>retiro… cof<WAIT><FACE:75>¡A rearmar… cof… mis<NL>fuerzas!<NL>"
+  },
+  {
+   "key": "script:0065:090E",
+   "src": "8005e9e99688",
+   "t": "<FACE:75>…Pero no crean que<NL>les cedo esto gratis…"
+  },
+  {
+   "key": "script:0065:092E",
+   "src": "20463d7a97b1",
+   "t": "<FACE:76>…¡Hmp!"
+  },
+  {
+   "key": "script:0065:0936",
+   "src": "0000acec1b92",
+   "t": "<FACE:75>…Fiu, ya recobré algo<NL>de vigor. ¡Adiós!"
+  },
+  {
+   "key": "script:0065:0958",
+   "src": "5fccd4c2b25c",
+   "t": "<FACE:05>Cada vez parece más<NL>un monstruo…<NL>"
+  },
+  {
+   "key": "script:0065:096F",
+   "src": "46c98a51d07f",
+   "t": "<FACE:00>Sigamos adelante ya"
+  },
+  {
+   "key": "script:0065:097F",
+   "src": "df834d7ce0df",
+   "t": "<FACE:04>Todos se van por su<NL>cuenta…"
+  },
+  {
+   "key": "script:0065:099A",
+   "src": "3c74bcc1107e",
+   "t": "<FACE:00>Ni modo"
+  }
+ ]
+}

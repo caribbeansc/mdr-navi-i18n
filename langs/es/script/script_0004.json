@@ -1,0 +1,75 @@
+{
+ "part": "script/script_0004",
+ "entries": [
+  {
+   "key": "script:0004:02BA",
+   "src": "ae81dcb2e29a",
+   "t": "<FACE:7D>Por fin lo<NL>recuperamos-robo<WAIT>Ahora los jefes nos<NL>verán distinto-robo<WAIT>Eso es-robo"
+  },
+  {
+   "key": "script:0004:02ED",
+   "src": "62d6d2b64bcf",
+   "t": "<FACE:7D>Pero ¿por qué perdimos<NL>la otra vez-robo?"
+  },
+  {
+   "key": "script:0004:0305",
+   "src": "7744eaba4cb1",
+   "t": "<FACE:7D>No lo entiendo-robo…<NL><WAIT>Contra un colegial<NL>tan flojo…"
+  },
+  {
+   "key": "script:0004:032A",
+   "src": "99c1936a6a33",
+   "t": "<FACE:7D>¿Y si lo vimos<NL>mal-robo?"
+  },
+  {
+   "key": "script:0004:033D",
+   "src": "0b1ca455ff23",
+   "t": "<FACE:7D>Seguro que fue<NL>eso-robo<WAIT>En verdad era como<NL>un oso-robo"
+  },
+  {
+   "key": "script:0004:0363",
+   "src": "d13af19e6b0b",
+   "t": "<FACE:00>¿Qué es lo que<NL>vieron mal?"
+  },
+  {
+   "key": "script:0004:0373",
+   "src": "91a1b26e105b",
+   "t": "<FACE:81>(Al girarme seguro<NL>tendrá cara de ogro)<WAIT>(No, de demonio-robo)"
+  },
+  {
+   "key": "script:0004:03B2",
+   "src": "72675a00f7cb",
+   "t": "<FACE:7D>Qué raro-robo…<WAIT>Sí que es un colegial<NL>normal-robo<WAIT>¡La derrota también<NL>fue un error-robo!"
+  },
+  {
+   "key": "script:0004:03EA",
+   "src": "99e66495dcf0",
+   "t": "<FACE:7E>¡A robobatallar-robo!"
+  },
+  {
+   "key": "script:0004:03F5",
+   "src": "3e7abe90ab23",
+   "t": "<FACE:81>Volví a perder-robo…<NL><WAIT>Y sigue sin imponer<NL>nada-robo…"
+  },
+  {
+   "key": "script:0004:0417",
+   "src": "842c982d20a8",
+   "t": "<FACE:00>Que el aspecto no…"
+  },
+  {
+   "key": "script:0004:0426",
+   "src": "e108b3f095f4",
+   "t": "<FACE:7D>Qué raro-robo· · ·"
+  },
+  {
+   "key": "script:0004:0432",
+   "src": "f93a0a344fd4",
+   "t": "<FACE:80>¡Ah!<NL><WAIT>¡Huyamos antes de<NL>que nos pegue!"
+  },
+  {
+   "key": "script:0004:044D",
+   "src": "850168402b8b",
+   "t": "<FACE:80>¡A correr-robo!"
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "part": "script/script_0057",
+ "entries": [
+  {
+   "key": "script:0057:0478",
+   "src": "ab4240764c8b",
+   "t": "<FACE:05>Qué lugar tan<NL>escalofriante…<WAIT><FACE:09>Me recuerda a esa<NL>jefa tan sombría…"
+  },
+  {
+   "key": "script:0057:04AE",
+   "src": "718a5ce9563d",
+   "t": "<FACE:03>¡Ah!"
+  },
+  {
+   "key": "script:0057:04B4",
+   "src": "a2298d59a31d",
+   "t": "<FACE:08>No me digas… ¿esos<NL>no son los otakus<WAIT>de nuestra clase?"
+  },
+  {
+   "key": "script:0057:04D1",
+   "src": "9e5f2e8e45cc",
+   "t": "<FACE:3F>¡Kiiirikaaaa!<NL>¡Qué moe, qué moe!"
+  },
+  {
+   "key": "script:0057:04E9",
+   "src": "52ebdc564219",
+   "t": "<FACE:41>¡Qué moe, nya!"
+  },
+  {
+   "key": "script:0057:04F6",
+   "src": "3c4c2e6594d8",
+   "t": "<FACE:43>Qué moe, en verdad"
+  },
+  {
+   "key": "script:0057:0502",
+   "src": "1396ea182300",
+   "t": "<FACE:74>…Bueno… chicos…<NL><WAIT>¿se unen conmigo…<NL>a la Banda Sperobo…?"
+  },
+  {
+   "key": "script:0057:052C",
+   "src": "319ea5223101",
+   "t": "<FACE:3F>¡Claro que sí!"
+  },
+  {
+   "key": "script:0057:0537",
+   "src": "2cb3c848c244",
+   "t": "<FACE:41>¡Lo hacemos, nya!"
+  },
+  {
+   "key": "script:0057:0541",
+   "src": "d48bd5d8bcf1",
+   "t": "<FACE:43>Este servidor se une"
+  },
+  {
+   "key": "script:0057:0555",
+   "src": "63863dcee28e",
+   "t": "<FACE:03>¿Qué? ¡¿Qué pasa?!"
+  },
+  {
+   "key": "script:0057:0561",
+   "src": "f9fc6e9b923b",
+   "t": "<FACE:40>¡Mm!<NL><WAIT>¡Nuestro odiado<NL>enemigo, <PLAYER>!<WAIT><FACE:42>¡<PLAYER>, nya!<WAIT><FACE:44>¡<PLAYER>, en verdad!"
+  },
+  {
+   "key": "script:0057:0590",
+   "src": "8ffe20aa10a0",
+   "t": "<FACE:73>…chicos… acaben<NL>con él…"
+  },
+  {
+   "key": "script:0057:05A6",
+   "src": "328c6452065d",
+   "t": "<FACE:3F>¡Muy bieeen!<NL>¡Lo pide Kirika!<WAIT>¡A acabar con<NL><PLAYER>!"
+  },
+  {
+   "key": "script:0057:05CC",
+   "src": "77aa5cf0880b",
+   "t": "<FACE:41>¡A acabarlo, nya!"
+  },
+  {
+   "key": "script:0057:05D9",
+   "src": "4b2b874c6d79",
+   "t": "<FACE:43>¡A por él, en verdad!"
+  },
+  {
+   "key": "script:0057:05E7",
+   "src": "7e2b861a1d9c",
+   "t": "<FACE:06>Oye… ¡oye, tú!<NL><WAIT>El otro día dijiste<NL>que <PLAYER> era<WAIT>tu persona del<NL>destino…<WAIT>¡¿Qué es esto ahora?!"
+  },
+  {
+   "key": "script:0057:0620",
+   "src": "b6753a5f5e4d",
+   "t": "<FACE:3F>¡¿Qué dices?!<WAIT><FACE:40>¿Es cierto, <PLAYER>?<NL>¡Responde!<WAIT><FACE:42>¡Responde, nya!<WAIT><FACE:44>¡Responde, en verdad!<WAIT><FACE:00>Sí, es cierto<WAIT><FACE:3F>¡A mí también me dijo<NL>que era su destino!<WAIT><FACE:41>¡A mí también, nya!<WAIT><FACE:43>¡Y a este servidor!"
+  },
+  {
+   "key": "script:0057:06A1",
+   "src": "10892087a8d6",
+   "t": "<FACE:3F>¡Quéeee! ¿A ustedes<NL>también?<WAIT><FACE:41>¿A ustedes también,<NL>nya?<WAIT><FACE:43>¿A ustedes también,<NL>en verdad?"
+  },
+  {
+   "key": "script:0057:06D0",
+   "src": "35b97fb3b466",
+   "t": "<FACE:40>¡Qué cruel, Kirika!<NL><WAIT>¡Te seguí porque creí<NL>que el hilo del<WAIT>destino nos unía!<WAIT>¡Esto es traición!"
+  },
+  {
+   "key": "script:0057:070D",
+   "src": "08a15dd07427",
+   "t": "<FACE:42>¡Traición, nya!"
+  },
+  {
+   "key": "script:0057:071A",
+   "src": "52dbb479e1d3",
+   "t": "<FACE:44>¡Un motín, en verdad!<NL>(←no es lo mismo)"
+  },
+  {
+   "key": "script:0057:0730",
+   "src": "54b7deadeb5d",
+   "t": "<FACE:40>Mmmmm… pero…<WAIT><FACE:3F>¡No puedo odiar a<NL>Kirikaaaa!<WAIT><FACE:41>¡No la odio, nya!<WAIT><FACE:43>En verdad, el odio se<NL>vuelve ternura x100"
+  },
+  {
+   "key": "script:0057:0782",
+   "src": "699a428fa115",
+   "t": "<FACE:40>¡Toda esta rabia<NL>te la voy a soltar!<WAIT>¡Lo decide una<NL>robobatalla!"
+  },
+  {
+   "key": "script:0057:07A7",
+   "src": "2b0f12356f76",
+   "t": "<FACE:42>¡A pelear, nya!"
+  },
+  {
+   "key": "script:0057:07B4",
+   "src": "a1aec3cedc54",
+   "t": "<FACE:44>¡A pelear, en verdad!"
+  },
+  {
+   "key": "script:0057:07C1",
+   "src": "49db0459db3b",
+   "t": "<FACE:73>…qué flojos… al final<NL>eres tú, <PLAYER>…<WAIT>…mi persona del<NL>destino…"
+  },
+  {
+   "key": "script:0057:07EA",
+   "src": "0f066266bc6b",
+   "t": "<FACE:40>¡Uoooooooh!<WAIT><FACE:42>¡Uooooh, nya!<WAIT><FACE:44>¡Uooooh, en verdad!"
+  },
+  {
+   "key": "script:0057:0818",
+   "src": "0ef5bb02dd09",
+   "t": "<FACE:04>Oigan… chicos…"
+  },
+  {
+   "key": "script:0057:0826",
+   "src": "78fff26833b8",
+   "t": "<FACE:40>¡Cállate, <PLAYER>!<NL><WAIT>Amigo de infancia de<NL>Hiyori, y encima…<WAIT>¡¿por qué solo tú les<NL>gustas a todas?!<WAIT>De Medabots sabemos<NL>mucho más nosotros<WAIT>¡y tú descubres un<NL>Medabot espacial<WAIT>y te haces famoso!<WAIT>¿Por qué tú?<WAIT><FACE:42>¿Por qué tú, nya?<WAIT><FACE:44>¿Por qué vuesa merced?"
+  },
+  {
+   "key": "script:0057:08C2",
+   "src": "ccf564ecd3c0",
+   "t": "<FACE:04>El Medabot espacial…<NL>Mistral…<WAIT>Por qué… ¿por qué yo?"
+  },
+  {
+   "key": "script:0057:08E8",
+   "src": "06f04c926372",
+   "t": "<FACE:40>¡Es pura casualidad!<NL><WAIT>¡<PLAYER> solo tiene<NL>buena suerte!<WAIT><FACE:42>¡Solo es suerte, nya!<WAIT><FACE:44>¡Es suerte, en verdad!"
+  },
+  {
+   "key": "script:0057:0929",
+   "src": "0df90157f96c",
+   "t": "<FACE:04>…Suerte…"
+  },
+  {
+   "key": "script:0057:0932",
+   "src": "dc9a1e01ea69",
+   "t": "<FACE:73>…robobatalla…<NL>…vamos…"
+  },
+  {
+   "key": "script:0057:0944",
+   "src": "98a13d3a25d2",
+   "t": "<FACE:73>…<PLAYER>…<NL>volveremos… a vernos…"
+  },
+  {
+   "key": "script:0057:0958",
+   "src": "e8dfb4a34872",
+   "t": "<FACE:04>Suerte… Puede que<NL>sí, yo…"
+  },
+  {
+   "key": "script:0057:096B",
+   "src": "55b0e1a9c3e4",
+   "t": "<FACE:05>Oigan, ustedes<NL>¿vieron esa batalla?<WAIT>¿Entendieron que<NL><PLAYER> no es solo<WAIT>suerte?<WAIT>Todos andan sueltos<NL>por su cuenta, y él<WAIT>se esfuerza al máximo<NL>por unirlos, ¿no?<WAIT>Actuar por su cuenta<NL>y solo quejarse…<WAIT>¡eso sí que es feo!"
+  },
+  {
+   "key": "script:0057:09FA",
+   "src": "37ffa96eb520",
+   "t": "<FACE:3F>Bueno… sí lo pienso…<WAIT><FACE:41>Lo pienso, nya<WAIT><FACE:43>Lo pienso, en ver…"
+  },
+  {
+   "key": "script:0057:0A1F",
+   "src": "d450f7d3976a",
+   "t": "<FACE:06>¡Ahí está!<NL><WAIT>No sigan a los demás:<NL>digan lo que piensan<WAIT>¡Así son aburridos!"
+  },
+  {
+   "key": "script:0057:0A59",
+   "src": "4c31cc191d58",
+   "t": "<FACE:41>Entendido, nya…<WAIT><FACE:41>Es cierto…<NL><PLAYER> sí que se<WAIT>esfuerza, nya<WAIT><FACE:43>Lo acepto como líder<NL>y le daré mi ayuda…"
+  },
+  {
+   "key": "script:0057:0A97",
+   "src": "98243cad84c6",
+   "t": "<FACE:04>Mistral… ¿por qué yo…?<NL>"
+  },
+  {
+   "key": "script:0057:0AAA",
+   "src": "08546639d055",
+   "t": "<FACE:09>Me da un escalofrío…"
+  },
+  {
+   "key": "script:0057:0ABA",
+   "src": "7374b9f82bde",
+   "t": "<FACE:0A>Parece que van a<NL>salir fantasmas"
+  },
+  {
+   "key": "script:0057:0ACF",
+   "src": "2887b2734c39",
+   "t": "<FACE:19>Perfecto para un<NL>escondite"
+  },
+  {
+   "key": "script:0057:0AE1",
+   "src": "47c5f36623b6",
+   "t": "<FACE:14>¿Qué? ¿Quieres<NL>volverte?<WAIT><PLAYER> sí que es<NL>miedoso"
+  },
+  {
+   "key": "script:0057:0AFE",
+   "src": "865588cdc9b9",
+   "t": "<FACE:3F>¡Shinsui se unió al<NL>equipo!<WAIT><FACE:41>¡Amaashi se unió al<NL>equipo!<WAIT><FACE:43>¡Nigemizu se unió al<NL>equipo!"
+  }
+ ]
+}

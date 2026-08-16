@@ -1,0 +1,100 @@
+{
+ "part": "script/script_0089",
+ "entries": [
+  {
+   "key": "script:0089:0299",
+   "src": "df4bdca85730",
+   "t": "<FACE:5F>El Cluster reúne<NL>muchos bloques.<WAIT>El controlador de cada<NL>bloque lo gestiona.<WAIT>Todas usan el sistema<NL>más nuevo, creado por<WAIT>la compañía RR con su<NL>estudio de Medallas.<WAIT>Todas se enlazan al<NL>Bloque Computadora,<WAIT>en el centro, que rige<NL>todo el conjunto.<WAIT>Ese sistema central<NL>se llama «Navi».<WAIT>La RR lo creó con todo<NL>su empeño: el sistema<WAIT>de gestión en paralelo<NL>más grande que existe.<WAIT>Si una parte cae, las<NL>demás cubren su labor.<WAIT>Así el Cluster siempre<NL>está bien controlado.<WAIT>Un descontrol de la<NL>computadora, como en<WAIT>la ciencia ficción,<NL>es del todo imposible.<WAIT>Adelantarse a la era<NL>espacial del hombre y<WAIT>lograr el control<NL>total del espacio<WAIT>vital: ese es uno de<NL>los temas del Cluster."
+  },
+  {
+   "key": "script:0089:04B9",
+   "src": "980b0ab1b468",
+   "t": "<FACE:60>Más adelante está el<NL>Bloque Lobby"
+  },
+  {
+   "key": "script:0089:04CF",
+   "src": "203eba660bee",
+   "t": "<FACE:60>Esta es la entrada<NL>al Cluster"
+  },
+  {
+   "key": "script:0089:04E4",
+   "src": "fc430cb183d1",
+   "t": "<FACE:60>Aquí la compañía RR<NL>prueba sus Medabots"
+  },
+  {
+   "key": "script:0089:050A",
+   "src": "77701a097b9c",
+   "t": "<FACE:5F>Siguiendo los bloques<NL>hacia arriba<WAIT>llega a la sala de<NL>control de propulsión"
+  },
+  {
+   "key": "script:0089:0542",
+   "src": "bb6aee1b0ac5",
+   "t": "<FACE:47>¡Hay bloques de todo<NL>tipo! ¡Qué emocióóón!"
+  },
+  {
+   "key": "script:0089:0566",
+   "src": "cab7dc8aceee",
+   "t": "<FACE:60>El Medabot espacial<NL>que encontraron<WAIT>está expuesto en el<NL>Bloque Lobby"
+  },
+  {
+   "key": "script:0089:058E",
+   "src": "dae7535c07c9",
+   "t": "<FACE:5D>¿A dónde voy ahora?[<3]"
+  },
+  {
+   "key": "script:0089:059F",
+   "src": "5ae47f501ca8",
+   "t": "<FACE:2E>Niwaka dijo que hay<NL>que esperar a que<WAIT>acabe el registro…<NL>¿Y todavía nada?"
+  },
+  {
+   "key": "script:0089:05C7",
+   "src": "2266b8ee5c35",
+   "t": "<FACE:5F>Cada bloque tiene su<NL>propio controlador,<WAIT>y por eso mantiene un<NL>ambiente independiente"
+  },
+  {
+   "key": "script:0089:05F9",
+   "src": "3f68e9ca816a",
+   "t": "<FACE:04>Parece que aún falta<NL>un buen rato…"
+  },
+  {
+   "key": "script:0089:060E",
+   "src": "a4a8b0482d81",
+   "t": "<FACE:00>El Cluster no queda<NL>por aquí…"
+  },
+  {
+   "key": "script:0089:0622",
+   "src": "94aa24329bbe",
+   "t": "<FACE:5F>…Por eso los invitados<NL>pueden pasar sin más…"
+  },
+  {
+   "key": "script:0089:0646",
+   "src": "fd39830eda2f",
+   "t": "<FACE:22>No, no es eso…<NL><WAIT>Como yo soy el jefe<NL>de grupo…<WAIT>debo entrar al frente,<NL>como es debido…"
+  },
+  {
+   "key": "script:0089:0687",
+   "src": "ee2ab6d81fd2",
+   "t": "<FACE:5F>Ah… ¿Así funciona<NL>la cosa…?"
+  },
+  {
+   "key": "script:0089:069A",
+   "src": "884bed722293",
+   "t": "<FACE:00>Ya quiero entrar…"
+  },
+  {
+   "key": "script:0089:06AA",
+   "src": "03ee8aefeb3e",
+   "t": "<FACE:04>¿Se podrá entrar…?"
+  },
+  {
+   "key": "script:0089:06BA",
+   "src": "65179f6261b7",
+   "t": "<FACE:04>…"
+  },
+  {
+   "key": "script:0089:06C1",
+   "src": "545a41757bf8",
+   "t": "<FACE:02>¡Ay, qué más da!<NL>¡Adentro!"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0132",
+ "entries": [
+  {
+   "key": "script:0132:01DE",
+   "src": "715710d335b1",
+   "t": "<FACE:6F>¡Ja! ¡Ja!<NL><WAIT>Este servidor aún no<NL>basta. ¡Más entreno!<WAIT>¡Ja! ¡Ja!"
+  },
+  {
+   "key": "script:0132:0212",
+   "src": "342bcc109610",
+   "t": "<FACE:6C>¡Pero si es <PLAYER>!"
+  },
+  {
+   "key": "script:0132:021D",
+   "src": "8ca1e750b04f",
+   "t": "<FACE:6C>¡Justo a tiempo!<NL>Este servidor entrenó<WAIT>¡Ahora verá el fruto!"
+  },
+  {
+   "key": "script:0132:024A",
+   "src": "3a612737add4",
+   "t": "<FACE:6D>¡Guaaah!<NL>¡Perdí otra vez!<WAIT>Aún falta mucho<NL>¡A entrenar de nuevo!"
+  },
+  {
+   "key": "script:0132:0297",
+   "src": "e3c6c14ef9ff",
+   "t": "<FACE:03>¡Ah!"
+  },
+  {
+   "key": "script:0132:029C",
+   "src": "7f07ac493bf8",
+   "t": "<FACE:02>¡Pero si es Nyuudou!"
+  },
+  {
+   "key": "script:0132:02A9",
+   "src": "9cea2a89bde7",
+   "t": "<FACE:6C>¡<PLAYER>! ¿Es usted?"
+  },
+  {
+   "key": "script:0132:02B3",
+   "src": "21d786c05251",
+   "t": "<FACE:00>¿Y tú qué haces aquí?<NL>¿No ibas a Júpiter?"
+  },
+  {
+   "key": "script:0132:02DC",
+   "src": "324147385cc7",
+   "t": "<FACE:6C>¡Iré, claro!<NL><WAIT>¡Pero este servidor<NL>aún entrena poco!"
+  },
+  {
+   "key": "script:0132:030A",
+   "src": "563ffc562a27",
+   "t": "<FACE:04>No hace falta que sea<NL>justo aquí…"
+  },
+  {
+   "key": "script:0132:0321",
+   "src": "4fea18b3fb8a",
+   "t": "<FACE:6D>La guarida tiene poca<NL>gravedad. ¡No sirve!<WAIT><FACE:00>Ah, ya veo…"
+  },
+  {
+   "key": "script:0132:0352",
+   "src": "c08e228a5085",
+   "t": "<FACE:6C>¡<PLAYER>!<NL>¡Entrene conmigo!"
+  }
+ ]
+}

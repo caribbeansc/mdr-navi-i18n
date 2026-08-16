@@ -1,0 +1,125 @@
+{
+ "part": "script/script_0038",
+ "entries": [
+  {
+   "key": "script:0038:04D6",
+   "src": "144879132f1b",
+   "t": "<FACE:05>Este lugar da mala<NL>espina…"
+  },
+  {
+   "key": "script:0038:04E8",
+   "src": "f29438ec8852",
+   "t": "<FACE:08>¡Puaj! ¿¡Qué es…<NL>este olor?!"
+  },
+  {
+   "key": "script:0038:04FB",
+   "src": "ee9e1e454df8",
+   "t": "<FACE:04>Huele a azufre<NL><WAIT>…¡Ya sé!<NL>¡El bloque del volcán!"
+  },
+  {
+   "key": "script:0038:0522",
+   "src": "16522e4da596",
+   "t": "<FACE:09>¿Qué es eso…?"
+  },
+  {
+   "key": "script:0038:052B",
+   "src": "0c278a48f9ba",
+   "t": "<FACE:00>Ese es el jefe Sperobo<NL>con el que peleamos…"
+  },
+  {
+   "key": "script:0038:0549",
+   "src": "751b611d4e10",
+   "t": "<FACE:00>Creo que… ¡se llamaba<NL>Nyuudou!"
+  },
+  {
+   "key": "script:0038:055F",
+   "src": "49652300d19c",
+   "t": "<FACE:0B>Parece que trama<NL>algo otra vez"
+  },
+  {
+   "key": "script:0038:0574",
+   "src": "dd0ffacbd5e6",
+   "t": "<FACE:01>¡Oigan, ustedes!<NL>¿¡Qué hacen ahí!?"
+  },
+  {
+   "key": "script:0038:0595",
+   "src": "9965dadf966f",
+   "t": "<FACE:6E>¡Fuajajaja!<NL>¡Llegan tarde!<WAIT><FACE:6C>¡Cuando este Medabot<NL>ponga la bomba,<WAIT>este volcán hará<NL>erupción!<WAIT>¡Y el bloque entero<NL>volará en pedazos!"
+  },
+  {
+   "key": "script:0038:05E8",
+   "src": "29617f3f14d2",
+   "t": "<FACE:7D>Es que… amo Nyuudou…<NL>"
+  },
+  {
+   "key": "script:0038:05FB",
+   "src": "77bc4d24eb81",
+   "t": "<FACE:7D>Aún es pronto-robo…<WAIT><FACE:6F>¿¡Cómo dices!?"
+  },
+  {
+   "key": "script:0038:0614",
+   "src": "e7146002bd5e",
+   "t": "<FACE:7D>¡Cargar tantas bombas<NL>toma tiempo aún-robo!"
+  },
+  {
+   "key": "script:0038:0640",
+   "src": "70e29eb0a2bd",
+   "t": "<FACE:6D>¡¿Por qué no lo dices<NL>antes?!"
+  },
+  {
+   "key": "script:0038:0659",
+   "src": "dd82ec773a0b",
+   "t": "<FACE:7D>¡No hubo tiempo-robo!<WAIT><FACE:7D>Antes de decirlo, el<NL>amo soltó el plan…"
+  },
+  {
+   "key": "script:0038:068A",
+   "src": "2566f76e9c9d",
+   "t": "<FACE:05>¡Entonces acabemos la<NL>robobatalla rápido!"
+  },
+  {
+   "key": "script:0038:06A9",
+   "src": "b9c9bdd00330",
+   "t": "<FACE:6E>¡Fuajajaja!<NL>La otra vez me confié,<WAIT><FACE:6C>¡pero jugando en serio<NL>no puedo perder!"
+  },
+  {
+   "key": "script:0038:06E7",
+   "src": "02b55e0e2658",
+   "t": "<FACE:06>¡Justo lo que quería!<NL><WAIT>¡Vamos, adelante!<NL><PLAYER>!!"
+  },
+  {
+   "key": "script:0038:0708",
+   "src": "030a81dc5a0d",
+   "t": "<FACE:00>¿Cómo que lo que<NL>querías…?"
+  },
+  {
+   "key": "script:0038:0715",
+   "src": "4497cee184c7",
+   "t": "<FACE:05>Por cierto, ¿de verdad<NL>va a hacer erupción?<WAIT><FACE:09>No creo que hagan algo<NL>tan peligroso adrede…<WAIT><FACE:00>Sí, normalmente sería<NL>solo un diorama, ¿no?"
+  },
+  {
+   "key": "script:0038:076E",
+   "src": "c5758a824db7",
+   "t": "<FACE:05>¿Habrá alguien hasta<NL>en un sitio así?"
+  },
+  {
+   "key": "script:0038:0784",
+   "src": "cca05409bbd8",
+   "t": "<FACE:0A>¿Qué haces ahí?<NL>Vámonos ya"
+  },
+  {
+   "key": "script:0038:079C",
+   "src": "8508bcff431a",
+   "t": "<FACE:18>¡Uf! ¡No aguanto<NL>este olor!"
+  },
+  {
+   "key": "script:0038:07AF",
+   "src": "49a08a302819",
+   "t": "<FACE:6D>Grr…"
+  },
+  {
+   "key": "script:0038:07B6",
+   "src": "dea1873a58bf",
+   "t": "<FACE:6D>¡Me las pagarán!"
+  }
+ ]
+}

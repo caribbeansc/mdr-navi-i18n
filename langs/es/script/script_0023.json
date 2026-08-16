@@ -1,0 +1,195 @@
+{
+ "part": "script/script_0023",
+ "entries": [
+  {
+   "key": "script:0023:06FC",
+   "src": "f1cee358c3f1",
+   "t": "<FACE:6C>Atiendan todos…<NL>Es lamentable…<WAIT>¡Unos mocosos de<NL>secundaria nos ganan!"
+  },
+  {
+   "key": "script:0023:0738",
+   "src": "c2b51ee6dcab",
+   "t": "<FACE:6C>¿Y cuál es la causa?<NL>¿Alguien lo sabe?"
+  },
+  {
+   "key": "script:0023:0753",
+   "src": "668220d36a8a",
+   "t": "<FACE:7D>Ha de ser…<NL>"
+  },
+  {
+   "key": "script:0023:075D",
+   "src": "f7350e5f0b55",
+   "t": "<FACE:7D>¿Será el poder de la<NL>Medalla de ese chico<WAIT>llamado <PLAYER>-robo?"
+  },
+  {
+   "key": "script:0023:077A",
+   "src": "f9f32b49cf15",
+   "t": "<FACE:7D>No, analizándolo con<NL>calma…<WAIT>¡Son las Medapartes de<NL><PLAYER>, seguro-robo!"
+  },
+  {
+   "key": "script:0023:07A5",
+   "src": "478868b91dd8",
+   "t": "<FACE:7D>¡No es eso-robo!<NL>¡Nos vence la táctica<WAIT>de <PLAYER>-robo!"
+  },
+  {
+   "key": "script:0023:07C4",
+   "src": "0bf7675b8868",
+   "t": "<FACE:80>¡Son sus amigos-robo!<NL>¡Trabajan en equipo!"
+  },
+  {
+   "key": "script:0023:07DE",
+   "src": "08fffb748b5e",
+   "t": "<FACE:6D>¡¡Noooooo es eso!!<NL>¿¡No lo entienden!?"
+  },
+  {
+   "key": "script:0023:07F5",
+   "src": "005b8a6d16a8",
+   "t": "<FACE:6D>¡No es que ellos sean<NL>fuertes!<WAIT>¡Es que nos faltan<NL>agallas!<WAIT>¡Lo que necesitamos es<NL>un entrenamiento duro!"
+  },
+  {
+   "key": "script:0023:0840",
+   "src": "4d0186de8839",
+   "t": "<FACE:81>¿E… entrenar-robo?<NL><WAIT>Todo menos eso, por<NL>favor-ro…"
+  },
+  {
+   "key": "script:0023:0862",
+   "src": "10b36874c9e7",
+   "t": "<FACE:6D>¡Insensatooooos!<NL><WAIT>¡Por eso mismo es que<NL>pierden!<WAIT>¡Suban ya este monte<NL>a saltos de conejo!"
+  },
+  {
+   "key": "script:0023:08A0",
+   "src": "4984a5598275",
+   "t": "<FACE:81>¿¡Este monte-robo!?<NL>¡E… es terrible-robo!<WAIT><FACE:6C>¡Esa es la prueba de<NL>que no tienen agallas!<WAIT>¡Entrenarán como sea!"
+  },
+  {
+   "key": "script:0023:08EF",
+   "src": "fe7de15c8215",
+   "t": "<FACE:7D>Mal asunto-robo…<NL>A este paso el<WAIT>entrenamiento nos hará<NL>pedazos-robo…<WAIT>Hay que buscar cómo<NL>escapar de él-robo…"
+  },
+  {
+   "key": "script:0023:0936",
+   "src": "01bdf28c9576",
+   "t": "<FACE:80>¡Ah! ¡¡Aquello-robo!!"
+  },
+  {
+   "key": "script:0023:0943",
+   "src": "a9b4062fe23a",
+   "t": "<FACE:7F>¡Ya entendí-robo!<NL><WAIT>¡Si hay robobatalla,<NL>adiós entrenamiento!!<WAIT>¡A provocarlos-robo!<NL>¡¡A provocarlos-robo!!"
+  },
+  {
+   "key": "script:0023:0980",
+   "src": "0a773724daa3",
+   "t": "<FACE:00>Parece que en este<NL>bloque el aparato<WAIT>de control está en la<NL>cima del monte<WAIT><FACE:0A>Pero… es puro barranco<NL>y se ve difícil subir…"
+  },
+  {
+   "key": "script:0023:09C6",
+   "src": "27f44dea815d",
+   "t": "<FACE:05>¿Eh? ¿Qué es eso…?"
+  },
+  {
+   "key": "script:0023:09D2",
+   "src": "a9d70256a1a4",
+   "t": "<FACE:80>¡Ooooye, aquí-robo!<NL>¡Ven para acá-robo!"
+  },
+  {
+   "key": "script:0023:09EC",
+   "src": "fdede0b1df9e",
+   "t": "<FACE:00>¿Qué será…?<NL>¿Vamos a ver?"
+  },
+  {
+   "key": "script:0023:0A00",
+   "src": "20a7a0099310",
+   "t": "<FACE:06>¿Pero qué dices?<NL>¡Es una trampa segura!"
+  },
+  {
+   "key": "script:0023:0A1C",
+   "src": "484c38d709d1",
+   "t": "<FACE:14>¡Eso, eso!<NL>¡No hay por qué caer<WAIT>en la trampa sin más!<WAIT><FACE:19>¡No hay que creerles!<WAIT><FACE:04>¿Tú crees…?"
+  },
+  {
+   "key": "script:0023:0A73",
+   "src": "e40eb6892e58",
+   "t": "<FACE:80>¡Ooooooye!<NL>¡Acá-robo! ¡Acá-roboo!"
+  },
+  {
+   "key": "script:0023:0A8B",
+   "src": "c9bb5079e4fd",
+   "t": "<FACE:04>¿Será verdad…?<NL>"
+  },
+  {
+   "key": "script:0023:0A97",
+   "src": "4e2a5473853e",
+   "t": "<FACE:04>Pero este camino<NL>parece no tener salida"
+  },
+  {
+   "key": "script:0023:0AB5",
+   "src": "3d5326c44504",
+   "t": "<FACE:7D>¡Jefe Nyuudou!"
+  },
+  {
+   "key": "script:0023:0AC0",
+   "src": "af0a33fe8cfd",
+   "t": "<FACE:6C>¿¡Qué!? ¡Nadie debe<NL>venir corriendo!<WAIT>¡Como dije, suban a<NL>saltos de conejo!!"
+  },
+  {
+   "key": "script:0023:0AF9",
+   "src": "42beae20058f",
+   "t": "<FACE:7D>¡No es momento-robo!<NL><WAIT>¡Llegó <PLAYER>-robo!!"
+  },
+  {
+   "key": "script:0023:0B20",
+   "src": "43e4ca2c8e08",
+   "t": "<FACE:03>¡Ah! ¡Llegamos!<NL>"
+  },
+  {
+   "key": "script:0023:0B30",
+   "src": "ef9683fd26ed",
+   "t": "<FACE:00>¡Ooooye, todos!<NL>¡Ya llegamos acá!"
+  },
+  {
+   "key": "script:0023:0B48",
+   "src": "f8211ffb1364",
+   "t": "<FACE:6C>¡Esto se pone bueno!<NL><WAIT>¡Tropa! ¡Enséñenme ya<NL>lo que han entrenado!"
+  },
+  {
+   "key": "script:0023:0B7F",
+   "src": "196bec1e2710",
+   "t": "<FACE:6C>¡¡Qué vergüenza!!"
+  },
+  {
+   "key": "script:0023:0B8D",
+   "src": "cb16676893a8",
+   "t": "<FACE:6D>¡Pues entrenarán aún<NL>más duroooooo!!"
+  },
+  {
+   "key": "script:0023:0BAF",
+   "src": "41431b32636c",
+   "t": "<FACE:80>¡¡Fue en vano-robooo!!<NL>"
+  },
+  {
+   "key": "script:0023:0BC1",
+   "src": "6d5426a5960c",
+   "t": "<FACE:05>¡Seguro es una trampa!"
+  },
+  {
+   "key": "script:0023:0BD3",
+   "src": "8ea48aaeb558",
+   "t": "<FACE:0A>Por lo pronto, vamos<NL>a echar un vistazo"
+  },
+  {
+   "key": "script:0023:0BE4",
+   "src": "c57bed371032",
+   "t": "<FACE:19>Seguro es una trampa<NL>de esos tipos"
+  },
+  {
+   "key": "script:0023:0BFA",
+   "src": "181bcd020db1",
+   "t": "<FACE:14>Nosotros esperamos<NL>aquí"
+  },
+  {
+   "key": "script:0023:0C0A",
+   "src": "539cfe093d23",
+   "t": "<FACE:00>Me intriga esa Banda<NL>Sperobo…"
+  }
+ ]
+}

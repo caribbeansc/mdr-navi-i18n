@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0130",
+ "entries": [
+  {
+   "key": "script:0130:026B",
+   "src": "b6fd3eb215cd",
+   "t": "<FACE:00>¿Eh? ¿Qué hacen<NL>por acá?"
+  },
+  {
+   "key": "script:0130:0282",
+   "src": "3147272d9bb9",
+   "t": "<FACE:4D>¡Ah! ¡<PLAYER>!<NL>¡Vaya, qué agallas!"
+  },
+  {
+   "key": "script:0130:029A",
+   "src": "7e56f4fe08b4",
+   "t": "<FACE:4C>¡Por unas victorias<NL>no te agrandes, eh!"
+  },
+  {
+   "key": "script:0130:02BD",
+   "src": "7b1739b0b8cf",
+   "t": "<FACE:4E>¡Vamos a ver quiénes<NL>somos mejores, eh!"
+  },
+  {
+   "key": "script:0130:02E1",
+   "src": "8dcb1a4e8194",
+   "t": "<FACE:4D>¡<PLAYER>!<NL>¡Vaya, qué agallas!"
+  },
+  {
+   "key": "script:0130:02F5",
+   "src": "12b11db9dc69",
+   "t": "<FACE:4C>¡Esta vez perdimos!"
+  },
+  {
+   "key": "script:0130:0309",
+   "src": "e7f101c27cbf",
+   "t": "<FACE:4E>¡Enfréntanos otra vez!<WAIT><FACE:02>Cuando quieras"
+  },
+  {
+   "key": "script:0130:0324",
+   "src": "59dc71daedfe",
+   "t": "<FACE:03>Guau… qué enorme…"
+  },
+  {
+   "key": "script:0130:0350",
+   "src": "b7a51b3331b5",
+   "t": "<FACE:00>¿Eh?<NL><WAIT>¡Algo brilló en la<NL>oscuridad!"
+  },
+  {
+   "key": "script:0130:036B",
+   "src": "a8a1cb26e5b9",
+   "t": "<FACE:00>¡Un papelito tirado!"
+  },
+  {
+   "key": "script:0130:037B",
+   "src": "cb433825303f",
+   "t": "<FACE:57>Contraseña uno: «A»"
+  },
+  {
+   "key": "script:0130:038C",
+   "src": "a15bdf95ab0a",
+   "t": "<FACE:04>…?<NL>¿Qué es esto?"
+  }
+ ]
+}

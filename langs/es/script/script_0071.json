@@ -1,0 +1,320 @@
+{
+ "part": "script/script_0071",
+ "entries": [
+  {
+   "key": "script:0071:0CDF",
+   "src": "a2cb270a6e54",
+   "t": "<FACE:09>Este lugar da un poco<NL>de escalofríos…"
+  },
+  {
+   "key": "script:0071:0CF5",
+   "src": "381dbe3a196e",
+   "t": "<FACE:0F>Excavaron el interior<NL>del asteroide…<WAIT>Sacaron de aquí el<NL>material de la base…"
+  },
+  {
+   "key": "script:0071:0D2F",
+   "src": "36d772500929",
+   "t": "<FACE:00>¿Entonces esta base<NL>la construyeron aquí?<WAIT><FACE:03>Increíble…<WAIT><FACE:0F>Sí… Yo los creía unos<NL>payasos improvisados…"
+  },
+  {
+   "key": "script:0071:0D80",
+   "src": "6509a6f092f9",
+   "t": "<FACE:0F>Pues resulta que<NL>sí tienen tecnología…"
+  },
+  {
+   "key": "script:0071:0D9F",
+   "src": "0dcf75d2e074",
+   "t": "<FACE:0F>Un cruce… Separémonos<NL>Yo iré por aquel lado"
+  },
+  {
+   "key": "script:0071:0DC9",
+   "src": "7b9513d7b4d5",
+   "t": "<FACE:0A>Yo me voy por acá"
+  },
+  {
+   "key": "script:0071:0DD7",
+   "src": "23bbb9f8ccf3",
+   "t": "<FACE:19>Yo iré hacia el otro<NL>lado"
+  },
+  {
+   "key": "script:0071:0DEC",
+   "src": "86249e8aecb1",
+   "t": "<FACE:05>¡Nosotros por aquí!<NL>¡Vamos, <PLAYER>!<WAIT><FACE:03>Espera, Hiyori…<NL>¿cómo que nosotros…?"
+  },
+  {
+   "key": "script:0071:0E1C",
+   "src": "abe168b6c5bb",
+   "t": "<FACE:04>¡Hiyori siempre hace<NL>lo que quiere!"
+  },
+  {
+   "key": "script:0071:0E2E",
+   "src": "dc28af512999",
+   "t": "<FACE:05>Con esto que compré<NL>por catálogo…<NL>"
+  },
+  {
+   "key": "script:0071:0E3F",
+   "src": "574eb62fced8",
+   "t": "<FACE:05>«Buscador Automático<NL>Dowsinger Z» ¡y listo!"
+  },
+  {
+   "key": "script:0071:0E68",
+   "src": "5af7f2f0db3e",
+   "t": "<FACE:05>¡Mira! ¡Vamos hacia<NL>donde reacciona!"
+  },
+  {
+   "key": "script:0071:0E83",
+   "src": "94f33edbd9c8",
+   "t": "<FACE:00>Oye, Hiyori…<NL><WAIT>¿La radiestesia no<NL>busca vetas de metal?<WAIT>Entonces donde hay<NL>reacción está tapado…"
+  },
+  {
+   "key": "script:0071:0ECF",
+   "src": "426c23f1bcc6",
+   "t": "<FACE:06>¡Ash! ¡Esto es un<NL>callejón sin salida!<NL>"
+  },
+  {
+   "key": "script:0071:0EE5",
+   "src": "a6048bf88135",
+   "t": "<FACE:06>¡Ya me lo imaginaba!<NL>¡Regresamos, <PLAYER>!"
+  },
+  {
+   "key": "script:0071:0F04",
+   "src": "54a5d0d71e7c",
+   "t": "<FACE:05>¿Qué harán los otros?<NL>¡Ve a ver!"
+  },
+  {
+   "key": "script:0071:0F27",
+   "src": "acc6a7fb5c38",
+   "t": "<FACE:00>¡Shiden! ¿Qué haces?<WAIT><FACE:0F>Mmm…<NL><WAIT>Un cristal de metal<NL>especial purísimo…<WAIT>Los recursos de este<NL>asteroide son enormes…<WAIT><FACE:00>¡Ay! Si ya sabes que<NL>no hay paso, ¡regresa!"
+  },
+  {
+   "key": "script:0071:0F99",
+   "src": "b2c284f62ecd",
+   "t": "<FACE:00>¡Fubuki! ¿Qué haces?"
+  },
+  {
+   "key": "script:0071:0FA9",
+   "src": "f70004203aba",
+   "t": "<FACE:0A>Ah… Como espía…<NL><WAIT>debo ver si dejaron<NL>algún código secreto<WAIT><FACE:00>¡Esto no es una novela<NL>de misterio barata!<WAIT>¡Si ya sabes que no<NL>hay paso, regresa ya!"
+  },
+  {
+   "key": "script:0071:1013",
+   "src": "bc816d96c315",
+   "t": "<FACE:0A>¿Mm? ¿Y esto qué es?"
+  },
+  {
+   "key": "script:0071:1021",
+   "src": "2119793742d3",
+   "t": "<FACE:03>¡Ah! Fubuki, eso…<NL><WAIT>es una revista sucia…"
+  },
+  {
+   "key": "script:0071:103F",
+   "src": "0056be1e9b5e",
+   "t": "<FACE:0D>¡Kyaa!"
+  },
+  {
+   "key": "script:0071:1046",
+   "src": "d9dfaf131d9c",
+   "t": "<FACE:80>¡Eso es mío-roboo!<NL>¡Los de secundaria<WAIT>no deben ver eso-robo!"
+  },
+  {
+   "key": "script:0071:1070",
+   "src": "86916056ceba",
+   "t": "<FACE:03>¡Fubuki! ¿Quién era?<WAIT><FACE:0B>¡Vamos tras él!"
+  },
+  {
+   "key": "script:0071:1087",
+   "src": "1aebb284a90c",
+   "t": "<FACE:03>¿Eh? ¿Hiyori?<NL>¿Qué haces aquí?"
+  },
+  {
+   "key": "script:0071:109B",
+   "src": "4d7823467d48",
+   "t": "<FACE:05>¿Que qué hago…?<NL><WAIT>Oí un grito raro de<NL>Fubuki, vine a ver…<WAIT>y había un Sperobo…<WAIT><FACE:00>¿Y adónde se fue?<WAIT><FACE:09>Pues…<NL>"
+  },
+  {
+   "key": "script:0071:10E9",
+   "src": "56f5e1389c78",
+   "t": "<FACE:09>Es que me preocupé<NL>por ustedes…<WAIT><FACE:05>¿Y por allá todo<NL>bien?<WAIT><FACE:00>Sí, Fubuki solo halló<NL>una revista rara…<WAIT>Pero ya veo… Ojalá<NL>supiéramos adónde fue"
+  },
+  {
+   "key": "script:0071:114D",
+   "src": "c0a8f2d9dd27",
+   "t": "<FACE:0A>Ni modo<NL><WAIT>De todos modos, esto<NL>lleva a alguna parte…<WAIT>Por ahora, reunámonos"
+  },
+  {
+   "key": "script:0071:117F",
+   "src": "151a7dd35686",
+   "t": "<FACE:00>¡Mizore! ¿Qué haces?"
+  },
+  {
+   "key": "script:0071:118F",
+   "src": "a154395a6aa1",
+   "t": "<FACE:1C>!<NL><WAIT>¡No es lo que parece…!<NL><WAIT>¡No estaba flojeando<NL>ni descansando!<WAIT><FACE:01>…Si ya sabes que no<NL>hay paso, ¡regresa ya!"
+  },
+  {
+   "key": "script:0071:11D9",
+   "src": "598ab9bf3f34",
+   "t": "<FACE:00>¡Gousetsu! ¿Qué haces?"
+  },
+  {
+   "key": "script:0071:11EA",
+   "src": "b186dba5e9af",
+   "t": "<FACE:17>!<NL><WAIT>¡No es lo que crees…!<NL><WAIT>¡No estaba flojeando!<NL>¡Créeme, en serio!<WAIT><FACE:01>…Si ya sabes que no<NL>hay paso, ¡regresa ya!"
+  },
+  {
+   "key": "script:0071:1238",
+   "src": "e5b1cd7635ce",
+   "t": "<FACE:13>Pero qué raro…<NL>No hay paso al fondo…"
+  },
+  {
+   "key": "script:0071:125D",
+   "src": "442fd3936ef6",
+   "t": "<FACE:0D>¿Mm? ¡Este muro se ve<NL>algo raro!"
+  },
+  {
+   "key": "script:0071:1275",
+   "src": "20d0c37e860e",
+   "t": "<FACE:0A>Está algo flojo<NL>¿Pusieron rocas luego?"
+  },
+  {
+   "key": "script:0071:129A",
+   "src": "2de1b8dbd021",
+   "t": "<FACE:0F>Así que del otro lado<NL>hay un pasadizo…"
+  },
+  {
+   "key": "script:0071:12B6",
+   "src": "26eadde2baa7",
+   "t": "<FACE:05>¡Rompamos esto con<NL>una Medafuerza!"
+  },
+  {
+   "key": "script:0071:12D2",
+   "src": "a06fd2afc72c",
+   "t": "<FACE:05>¡<PLAYER>!<NL>¡Hazlo de una vez!"
+  },
+  {
+   "key": "script:0071:12E2",
+   "src": "2aa54bf71323",
+   "t": "<FACE:12>No, eso sería malo…"
+  },
+  {
+   "key": "script:0071:12F1",
+   "src": "9b02e3df1d70",
+   "t": "<FACE:0F>Aquí excavaron mucho<NL>para sacar recursos"
+  },
+  {
+   "key": "script:0071:1314",
+   "src": "3c7b1453abcf",
+   "t": "<FACE:0F>La estructura está<NL>débil: podría caerse<WAIT>¡la base entera!"
+  },
+  {
+   "key": "script:0071:1341",
+   "src": "d6d600178618",
+   "t": "<FACE:04>Sí… Ojalá hubiera un<NL>modo de que lo abran<WAIT>desde el otro lado…"
+  },
+  {
+   "key": "script:0071:1371",
+   "src": "e5b9a843ca28",
+   "t": "<FACE:16>¡Para eso, déjenmelo<NL>a mí!"
+  },
+  {
+   "key": "script:0071:1386",
+   "src": "16b2ae78d689",
+   "t": "<FACE:17>¡Aaaaaaaah!"
+  },
+  {
+   "key": "script:0071:1393",
+   "src": "65e1d122537b",
+   "t": "<FACE:17>¡Raspé un poco el muro<NL>y salió puro oro!"
+  },
+  {
+   "key": "script:0071:13B6",
+   "src": "5d0336457a9d",
+   "t": "<FACE:17>¡Es una veta de oro!<NL>¡Miren! ¡Un lingote!"
+  },
+  {
+   "key": "script:0071:13DD",
+   "src": "90b7af2e3d6c",
+   "t": "<FACE:0B>¡De una veta no salen<NL>lingotes, tonto!"
+  },
+  {
+   "key": "script:0071:13FA",
+   "src": "dc58fd2f309e",
+   "t": "<FACE:0F>Además, el metal<NL>especial de esta veta<WAIT>¡vale muchísimo más<NL>que el oro!"
+  },
+  {
+   "key": "script:0071:1430",
+   "src": "f1195247c61f",
+   "t": "<FACE:05>¡Yo pensaba lo mismo!<NL>¡Qué ignorancia!<WAIT><FACE:1D>¡Me decepcionó!"
+  },
+  {
+   "key": "script:0071:1461",
+   "src": "c1527845eae4",
+   "t": "<FACE:18>Chicos… no es para<NL>tan…"
+  },
+  {
+   "key": "script:0071:1473",
+   "src": "e08ae96232d8",
+   "t": "<FACE:15>¡No hacía falta que<NL>me dijeran taaaaanto!"
+  },
+  {
+   "key": "script:0071:1491",
+   "src": "dd010138dd19",
+   "t": "<FACE:18>Snif… buaa… buaa…<NL>Entonces…<WAIT>¡Entonces ustedes sí<NL>tendrán buenas ideas!"
+  },
+  {
+   "key": "script:0071:14D1",
+   "src": "9259848d89b8",
+   "t": "<FACE:0E>…<NL><WAIT>(Si meto la pata…)"
+  },
+  {
+   "key": "script:0071:14E5",
+   "src": "6756ac896a3c",
+   "t": "<FACE:1D>(Acabaré igual que<NL> Gousetsu hace rato…)"
+  },
+  {
+   "key": "script:0071:1500",
+   "src": "3852428f65d1",
+   "t": "<FACE:10>(Si hago el ridículo,<NL> adiós a mi imagen…)"
+  },
+  {
+   "key": "script:0071:1522",
+   "src": "a1bb4f9168d6",
+   "t": "<FACE:03>¿Qué les pasa a todos?<NL>De pronto se callaron…"
+  },
+  {
+   "key": "script:0071:1540",
+   "src": "8020c5147a8a",
+   "t": "<FACE:00>Hiyori, ¿cómo hacemos<NL>para sacarlos de ahí?"
+  },
+  {
+   "key": "script:0071:1563",
+   "src": "e4d112e840e0",
+   "t": "<FACE:06>Qué molesto… ¡Pídeselo<NL>a otro!<WAIT><FACE:00>No digas eso, Hiyori<NL>Tú sí puedes sacarlos<WAIT><FACE:06>¡No digas cosas sin<NL>fundamento!<NL>"
+  },
+  {
+   "key": "script:0071:15B1",
+   "src": "ba1a189a3a8a",
+   "t": "<FACE:06>Además, ¡son unos<NL>cobardes que tapan<WAIT>el paso con una roca!"
+  },
+  {
+   "key": "script:0071:15CF",
+   "src": "54f34a41441f",
+   "t": "<FACE:06>¡A estas horas ya<NL>huyeron bien lejos!"
+  },
+  {
+   "key": "script:0071:15EE",
+   "src": "da1e62703c22",
+   "t": "<FACE:04>¿Cobardes?"
+  },
+  {
+   "key": "script:0071:15F6",
+   "src": "5d3692762530",
+   "t": "<FACE:06>¿Qué? ¡Pues claro<NL>que sí!<WAIT>Si valieran algo, nos<NL>retarían a robobatalla<WAIT>En el Cluster siempre<NL>perdían con nosotros<WAIT>Creen que no pueden<NL>ganar, ¡por eso esto!"
+  },
+  {
+   "key": "script:0071:16D9",
+   "src": "69ebca237ca5",
+   "t": "<FACE:00>No hace falta ir por<NL>aquí…"
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "part": "script/script_0041",
+ "entries": [
+  {
+   "key": "script:0041:061B",
+   "src": "4ffcdbb0fcf7",
+   "t": "<FACE:01>¡Sekiran!<NL>¡Ese rival es fuerte!<WAIT>¡Unámonos y peleemos<NL>juntos!"
+  },
+  {
+   "key": "script:0041:0647",
+   "src": "91778f85a3f1",
+   "t": "<FACE:70>¡¿Qué?! ¿Ustedes?<NL><WAIT>¡Los niños no se meten<NL>en cosas de grandes!"
+  },
+  {
+   "key": "script:0041:066F",
+   "src": "c6b46380463e",
+   "t": "<FACE:70>¡Esto déjenselo a<NL>su hermana mayor!"
+  },
+  {
+   "key": "script:0041:0684",
+   "src": "b877236d110b",
+   "t": "<FACE:6F>¡Imposible, Sekiran!<NL>¡Su fuerza es brutal!"
+  },
+  {
+   "key": "script:0041:06AB",
+   "src": "32258d211c42",
+   "t": "<FACE:71>¡¿Qué dices, Nyuudou?!<NL><WAIT>¡¿Hasta tú haciéndoles<NL>caso a unos niños?!"
+  },
+  {
+   "key": "script:0041:06D8",
+   "src": "73eebb5506cb",
+   "t": "<FACE:70>¡Tengo que mostrarles<NL>cómo pega una adulta!"
+  },
+  {
+   "key": "script:0041:0701",
+   "src": "a84a1a30ecb8",
+   "t": "<FACE:01>¡Sekiran!"
+  },
+  {
+   "key": "script:0041:0709",
+   "src": "4177406e93b7",
+   "t": "<FACE:71>¡¿Qué hacen ahí?!<NL><WAIT>Aún no…<DELAY:0014> ¡Su blanco…<DELAY:0014><NL>soy yo!<DELAY:0014><WAIT>¡Ustedes<DELAY:0014> sigan…<DELAY:0014><NL>adelante, rápido!<WAIT>¿No tenían prisa?"
+  },
+  {
+   "key": "script:0041:075B",
+   "src": "70e4c252d6ef",
+   "t": "<FACE:04>Pero entonces…"
+  },
+  {
+   "key": "script:0041:0768",
+   "src": "f2f83e0fca3a",
+   "t": "<FACE:70>Los niños…<NL>los niños hacen caso<WAIT>a lo que dicen los<NL>grandes…<WAIT>…sobre todo ahora<DELAY:001E>…"
+  },
+  {
+   "key": "script:0041:079F",
+   "src": "d3fff28d4051",
+   "t": "<FACE:6D>Sekiran…<NL><WAIT>Eso no es así…<WAIT><FACE:70>¿Nyuudou?<WAIT><FACE:6C>En una situación así<NL>no hay niño ni adulto<WAIT>Si no unimos fuerzas<NL>caeremos todos juntos<WAIT>Este servidor también<NL>fue salvado por niños…"
+  },
+  {
+   "key": "script:0041:0817",
+   "src": "9f1a0a1c929e",
+   "t": "<FACE:6C>¡Ahora este servidor<NL>los salvará a ustedes!"
+  },
+  {
+   "key": "script:0041:082F",
+   "src": "bc0848d308a0",
+   "t": "<FACE:6C>¡Este servidor se une<NL>al equipo!<WAIT><FACE:70>Nyuudou…"
+  },
+  {
+   "key": "script:0041:084F",
+   "src": "a126c4d4624b",
+   "t": "<FACE:02>Si Nyuudou se nos une,<NL>¡seremos invencibles!"
+  },
+  {
+   "key": "script:0041:0869",
+   "src": "782e1e944f8d",
+   "t": "<FACE:68>¡Intrusos detectados!"
+  },
+  {
+   "key": "script:0041:0878",
+   "src": "d45ef7f2b9d0",
+   "t": "<FACE:70>Qué vergüenza…<NL>que me salven niños…"
+  },
+  {
+   "key": "script:0041:0894",
+   "src": "e29d24659851",
+   "t": "<FACE:05>Vaya, ¿y a <PLAYER><NL>no lo andabas cazando<WAIT>a puro «nene, nene»?"
+  },
+  {
+   "key": "script:0041:08B6",
+   "src": "db0fc572b8e2",
+   "t": "<FACE:71>¡Cállate ya!<NL><WAIT>¡Los niños lindos son<NL>los que obedecen!<WAIT>¡Las metiches como tú<NL>no son nada lindas!!"
+  },
+  {
+   "key": "script:0041:090A",
+   "src": "03cb6c2e8b05",
+   "t": "<FACE:6C>Sekiran… este<NL>servidor…<WAIT>antes de ser jefe de<NL>la Banda Sperobo…"
+  },
+  {
+   "key": "script:0041:0930",
+   "src": "805ce928d85d",
+   "t": "<FACE:70>Bueno, Nyuudou…<NL>Sigues sin estilo,<WAIT>pero hace un rato…<NL>te veías genial…<WAIT>Y además te debo una…<NL>"
+  },
+  {
+   "key": "script:0041:0978",
+   "src": "e3792e96034f",
+   "t": "<FACE:72>¡Pues su hermana mayor<NL>les dará una mano!"
+  },
+  {
+   "key": "script:0041:0993",
+   "src": "ea050de275cf",
+   "t": "<FACE:05>Y bien, Sekiran, ¿cuál<NL>es el próximo bloque?<WAIT><FACE:70>Debe de ser el de Smog"
+  },
+  {
+   "key": "script:0041:09B2",
+   "src": "61ad0cfb8dd1",
+   "t": "<FACE:04>Entonces habrá que ir<NL>por lo discreto…"
+  },
+  {
+   "key": "script:0041:09CE",
+   "src": "6f2f68bb9c4f",
+   "t": "<FACE:00>Ahora no hay tiempo<NL>para desvíos"
+  },
+  {
+   "key": "script:0041:09E7",
+   "src": "d61f3fce3cad",
+   "t": "<FACE:6C>¡Nyuudou se unió<NL>al equipo!<WAIT><FACE:70>¡Sekiran se unió<NL>al equipo!"
+  },
+  {
+   "key": "script:0041:0A0D",
+   "src": "a676ce567813",
+   "t": "<FACE:00>Ahora que lo pienso,<NL>en esta nave…<WAIT>solo se ven Medabots…<NL>¿Qué significa esto?"
+  }
+ ]
+}

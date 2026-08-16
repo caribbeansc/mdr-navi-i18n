@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0014",
+ "entries": [
+  {
+   "key": "script:0014:0297",
+   "src": "3975a291a174",
+   "t": "<FACE:7D>Por fin lo<NL>recuperamos-robo"
+  },
+  {
+   "key": "script:0014:02A6",
+   "src": "613380385639",
+   "t": "<FACE:7D>¡No hay que<NL>confiarse-robo!<WAIT>¡Perdimos el bloque<NL>y nos atrasamos-robo!<WAIT>¡La Banda Sperobo<NL>está en apuros-robo!"
+  },
+  {
+   "key": "script:0014:02EA",
+   "src": "d706444e1e1e",
+   "t": "<FACE:7D>Eso es-robo<WAIT>Si no lo hacemos<NL>nosotros, ¿quién-robo?"
+  },
+  {
+   "key": "script:0014:0308",
+   "src": "e204176f29e0",
+   "t": "<FACE:7D>¿Pero no faltaba<NL>nada-robo?<WAIT>Los colegiales no<NL>supieron su valor-robo"
+  },
+  {
+   "key": "script:0014:033F",
+   "src": "5bd27b209eb2",
+   "t": "<FACE:7D>Nos salvamos-robo"
+  },
+  {
+   "key": "script:0014:0349",
+   "src": "b88a91b7b9a1",
+   "t": "<FACE:00>¿Estarán otra vez ahí?"
+  },
+  {
+   "key": "script:0014:0357",
+   "src": "e197b2b693b7",
+   "t": "<FACE:7D>¡Volvió-robo!"
+  },
+  {
+   "key": "script:0014:0362",
+   "src": "af7c692286c4",
+   "t": "<FACE:7D>¡Este punto clave<NL>ya no se entrega-robo!<WAIT>¡Esta vez sí lo<NL>defendemos-robo!"
+  },
+  {
+   "key": "script:0014:038C",
+   "src": "344ab90ca1ee",
+   "t": "<FACE:81>Nos… nos ganaron-robo"
+  },
+  {
+   "key": "script:0014:039A",
+   "src": "cdba36d019d3",
+   "t": "<FACE:81>Si no lo recuperamos,<NL>los Sperobo caen-robo"
+  },
+  {
+   "key": "script:0014:03B3",
+   "src": "2d877b37482e",
+   "t": "<FACE:05>Parece que otra vez<NL>andaban en las suyas"
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "part": "script/script_0031",
+ "entries": [
+  {
+   "key": "script:0031:0818",
+   "src": "807b25c12577",
+   "t": "<FACE:02>¡¡Soy el primerooo!!<DELAY:000A><END>"
+  },
+  {
+   "key": "script:0031:0828",
+   "src": "c4bec6437384",
+   "t": "<FACE:03>¡Uuuh, qué genialll!"
+  },
+  {
+   "key": "script:0031:0838",
+   "src": "dd125ba36bf7",
+   "t": "<FACE:04>Pero…"
+  },
+  {
+   "key": "script:0031:083F",
+   "src": "fce15fc6ead3",
+   "t": "<FACE:04>No hay ni un empleado…"
+  },
+  {
+   "key": "script:0031:0851",
+   "src": "7fa94e0bc552",
+   "t": "<FACE:53><SFX:64>Bienvenidos al Cluster<NL><DELAY:003C><DELAY:0034><CLEAR>"
+  },
+  {
+   "key": "script:0031:0894",
+   "src": "cd92c4566056",
+   "t": "<FACE:02>¡Ah…! ¡Hola, qué tal!"
+  },
+  {
+   "key": "script:0031:08A6",
+   "src": "d0d179423157",
+   "t": "<FACE:03>Vaaaya… ¿de verdad<NL>todo lo maneja una<WAIT>computadora…?"
+  },
+  {
+   "key": "script:0031:08C8",
+   "src": "9651dd4350c2",
+   "t": "<FACE:00>Así que tú eres Navi…<WAIT><FACE:02>¡Yo soy <PLAYER>!<NL>¡Mucho gusto!"
+  },
+  {
+   "key": "script:0031:08E2",
+   "src": "3754594ef106",
+   "t": "<FACE:53>Pero qué extraño…<NL><WAIT>Para la apertura se<NL>esperaba mucha gente…"
+  },
+  {
+   "key": "script:0031:0919",
+   "src": "32c1f9a48c22",
+   "t": "<FACE:00>Sí, quería ser el<NL>primero en entrar<WAIT>por eso me adelanté<NL>a todos los demás<WAIT><FACE:53>¿«El primero»?<WAIT><FACE:02>¿No se siente genial<NL>ser el primerito en<WAIT>pisar un lugar donde<NL>no ha entrado nadie?<WAIT><FACE:00>…¿Tú entiendes eso?"
+  },
+  {
+   "key": "script:0031:0989",
+   "src": "b10d7778f6d0",
+   "t": "<FACE:03>¡Guah!"
+  },
+  {
+   "key": "script:0031:0990",
+   "src": "d4b7f5a956f9",
+   "t": "<FACE:06>¡Cálmate un poco, ya!<NL><WAIT>De verdad que eres<NL>un niño chiquito"
+  },
+  {
+   "key": "script:0031:09B6",
+   "src": "fe7164b378b6",
+   "t": "<FACE:04>Ay… me duele…"
+  },
+  {
+   "key": "script:0031:09C1",
+   "src": "cb9f9893cf81",
+   "t": "<FACE:36>Oye, en el folleto<NL>decía que este lugar…"
+  },
+  {
+   "key": "script:0031:09FD",
+   "src": "4a67dcd17223",
+   "t": "<FACE:36>¿Qué le pasará a<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0031:0A1B",
+   "src": "36e3305d824a",
+   "t": "<FACE:07>Dice que le duele<NL>la pancita<WAIT>¿No habrá comido<NL>algo raro?"
+  },
+  {
+   "key": "script:0031:0A40",
+   "src": "b27a56fab406",
+   "t": "<FACE:36>Mmm… ¿en serio?<NL><WAIT><PLAYER> es más<NL>glotón de lo que creía"
+  },
+  {
+   "key": "script:0031:0A68",
+   "src": "870138b150c9",
+   "t": "<FACE:04>(Hiyori… tú…)"
+  },
+  {
+   "key": "script:0031:0A7A",
+   "src": "1731fd026544",
+   "t": "<FACE:06>Por cierto… ¿dónde<NL>se metió el presidente<WAIT>de clase?<NL><WAIT>Y yo con las ganas de<NL>darle su merecido"
+  },
+  {
+   "key": "script:0031:0AB4",
+   "src": "4386d736bee2",
+   "t": "<FACE:00>¿Por qué te obsesiona<NL>tanto el presidente?<WAIT>…¿Acaso todo lo que<NL>pasó lo hizo él?"
+  },
+  {
+   "key": "script:0031:0AF1",
+   "src": "90ca1074c02d",
+   "t": "<FACE:06>¡¿Hasta ahora te das<NL>cuenta?!<WAIT><FACE:04>…"
+  },
+  {
+   "key": "script:0031:0B0A",
+   "src": "0a31c8e14eac",
+   "t": "<FACE:06>No soporto a los<NL>hombres babosos así<WAIT>Y además…"
+  },
+  {
+   "key": "script:0031:0B34",
+   "src": "365c0226d25a",
+   "t": "<FACE:06>«Si te la hacen, la<NL>cobras doble», ¿no?"
+  },
+  {
+   "key": "script:0031:0B4E",
+   "src": "8e0705fc9959",
+   "t": "<FACE:59>(<PLAYER>…)"
+  },
+  {
+   "key": "script:0031:0B57",
+   "src": "8e3cddb9df91",
+   "t": "<FACE:03>(¡Ah…!)"
+  },
+  {
+   "key": "script:0031:0B61",
+   "src": "2d2c056eba54",
+   "t": "<FACE:02>(¡Mistral!)"
+  },
+  {
+   "key": "script:0031:0B6C",
+   "src": "45939a20f3ef",
+   "t": "<FACE:05>¿Este Medabot es el<NL>que tú encontraste?"
+  },
+  {
+   "key": "script:0031:0B88",
+   "src": "329d9fb1fde0",
+   "t": "<FACE:02>¡Así es!<NL>¡Se llama «Mistral»!"
+  },
+  {
+   "key": "script:0031:0BA4",
+   "src": "b54aea2a3c26",
+   "t": "<FACE:05>No lo puedo creer…<NL>¿hasta le pusiste<WAIT>nombre por tu cuenta?"
+  },
+  {
+   "key": "script:0031:0BC5",
+   "src": "cd06ee5fc849",
+   "t": "<FACE:06>¡Vamos al siguiente,<NL><PLAYER>!"
+  },
+  {
+   "key": "script:0031:0BD7",
+   "src": "7ca72e12a3fe",
+   "t": "<FACE:0F>Vaya, vaya…<NL><WAIT><PLAYER>, ¿verdad?<NL>No nos vemos desde<WAIT>aquella cueva"
+  },
+  {
+   "key": "script:0031:0BFD",
+   "src": "94a32af577c2",
+   "t": "<FACE:02>Ah… h-hola,<NL>Murasame…"
+  },
+  {
+   "key": "script:0031:0C12",
+   "src": "679cc6e4f6f1",
+   "t": "<FACE:04>(Por cierto, esta<NL> Medalla…<WAIT> ¿No debería darla a<NL> la compañía RR?<WAIT> Aunque quizá tenga<NL> que ver con Mistral)"
+  },
+  {
+   "key": "script:0031:0C52",
+   "src": "4219c41c4dd7",
+   "t": "<FACE:0F>Jeje, dime Shiden<NL><WAIT>Yo también te llamo<NL>por tu nombre<WAIT>Y además…"
+  },
+  {
+   "key": "script:0031:0C81",
+   "src": "52e000fd2244",
+   "t": "<FACE:0F>Bella señorita…<NL><WAIT>¿Me permite preguntar<NL>su nombre?"
+  },
+  {
+   "key": "script:0031:0CA9",
+   "src": "be4e13c64856",
+   "t": "<FACE:07>Me llamo Koharubi<NL>Hiyori<WAIT><FACE:0F>Hiyori…<WAIT><FACE:11>Un nombre tan bello<NL>como usted…<WAIT><FACE:07>No diga esas cosas…"
+  },
+  {
+   "key": "script:0031:0CEB",
+   "src": "9c849787a664",
+   "t": "<FACE:0F>…Bueno, <PLAYER><NL><WAIT>Tú fuiste el primero<NL>en hallar aquel<WAIT>«Medabot espacial»<NL><WAIT>Déjame ser yo tu guía<NL><WAIT>¿Te parece bien?"
+  },
+  {
+   "key": "script:0031:0D39",
+   "src": "b24f01f8649a",
+   "t": "<FACE:02>¡C, claro que sí!<NL><WAIT>Shiden…<DELAY:001E> señor"
+  },
+  {
+   "key": "script:0031:0D56",
+   "src": "adae97247979",
+   "t": "<FACE:0F>Jajaja…<NL>Te dije que solo<WAIT>«Shiden», ¿no?<WAIT><FACE:0F>Bueno, vamos<NL><PLAYER>"
+  },
+  {
+   "key": "script:0031:0D7F",
+   "src": "9a9c20f67e4f",
+   "t": "<FACE:06>(Este tipo…<NL> no es un frívolo<WAIT> cualquiera…)"
+  },
+  {
+   "key": "script:0031:0D9F",
+   "src": "a33ce79a93e0",
+   "t": "<FACE:0F>Por aquí<NL><WAIT>Sobre el «Medabot<NL>espacial» que hallaste<WAIT>Pensé que tal vez<NL>cayó algo más ese día<WAIT>y mandé un equipo<NL>de investigación<WAIT>pero al final no<NL>hallaron nada más"
+  },
+  {
+   "key": "script:0031:0E12",
+   "src": "20a84f6e2c39",
+   "t": "<FACE:04>(¿Será que ya lo<NL> sabe…?<WAIT> Que yo encontré<NL> la Medalla)"
+  },
+  {
+   "key": "script:0031:0E39",
+   "src": "749ea53fc157",
+   "t": "<FACE:0F>Bien, es aquí…"
+  },
+  {
+   "key": "script:0031:0E45",
+   "src": "d7bca8037135",
+   "t": "<FACE:1E>Disculpen…<NL>"
+  },
+  {
+   "key": "script:0031:0E4E",
+   "src": "e82807275e33",
+   "t": "<FACE:1E>¿Disculpen…?"
+  },
+  {
+   "key": "script:0031:0E57",
+   "src": "a4f085a55a85",
+   "t": "<FACE:08>¡Ah! Perdón…<WAIT><FACE:07>¿Qué desea?"
+  },
+  {
+   "key": "script:0031:0E6E",
+   "src": "8c78da450e85",
+   "t": "<FACE:1E>Mi Lala se fue<NL>a alguna parte…<WAIT>¿No la habrán visto?"
+  },
+  {
+   "key": "script:0031:0E97",
+   "src": "dd7d9eb0955d",
+   "t": "<FACE:05>¿Lala?"
+  },
+  {
+   "key": "script:0031:0E9D",
+   "src": "71236a7e6c50",
+   "t": "<FACE:20>…Ah, ahí está<WAIT><FACE:1E>Detrás de ustedes…"
+  },
+  {
+   "key": "script:0031:0EB3",
+   "src": "732ef605f5ba",
+   "t": "<FACE:08>¿Eh…?"
+  },
+  {
+   "key": "script:0031:0EBB",
+   "src": "b3bd020547ed",
+   "t": "<FACE:5C>¡Ay! ¡Señor Shideeen[<3]"
+  },
+  {
+   "key": "script:0031:0ECB",
+   "src": "bc530908a98b",
+   "t": "<FACE:5D>¿A dónde va,<NL>señooor[<3]"
+  },
+  {
+   "key": "script:0031:0EDF",
+   "src": "6b61d60e3ab5",
+   "t": "<FACE:5E>¡Lo acompañamooos[<3]"
+  },
+  {
+   "key": "script:0031:0EED",
+   "src": "c1434925cedc",
+   "t": "<FACE:5C>¿Qué le pasa,<NL>señor Shideeen[<3]"
+  },
+  {
+   "key": "script:0031:0F05",
+   "src": "beaf7707e71e",
+   "t": "<FACE:5D>¿A dónde nos va a<NL>llevar, señooor[<3]"
+  },
+  {
+   "key": "script:0031:0F1C",
+   "src": "71dd2364350f",
+   "t": "<FACE:0F>Chicos…<NL><WAIT>Recordé que tengo<NL>algo que hacer<WAIT>Perdón, ¿podrían<NL>adelantarse ustedes?"
+  },
+  {
+   "key": "script:0031:0F51",
+   "src": "47cc477f65ab",
+   "t": "<FACE:0F>Cuando termine, yo<NL>los alcanzo después…"
+  },
+  {
+   "key": "script:0031:0F6E",
+   "src": "4839a694d746",
+   "t": "<FACE:5E>¡Siií[<3]"
+  },
+  {
+   "key": "script:0031:0F76",
+   "src": "c850d1edd470",
+   "t": "<FACE:5D>¡Venga prontito[<3]"
+  },
+  {
+   "key": "script:0031:0F86",
+   "src": "27a868cc47ec",
+   "t": "<FACE:11>Ah, sí…"
+  },
+  {
+   "key": "script:0031:0F8D",
+   "src": "b0e26b527b3c",
+   "t": "<FACE:22>¡Entonces mi entrada<NL>como el primero<WAIT>queda asegurada!"
+  },
+  {
+   "key": "script:0031:0FB5",
+   "src": "123e2c262ed4",
+   "t": "<FACE:5F>Esto… es que mientras<NL>usted hablaba<WAIT>el joven <PLAYER> y<NL>los demás ya entraron…<WAIT>De la clase, el único<NL>que queda es usted…"
+  },
+  {
+   "key": "script:0031:100F",
+   "src": "906494cb4c33",
+   "t": "<FACE:23>¡M… maldito <PLAYER>!"
+  }
+ ]
+}

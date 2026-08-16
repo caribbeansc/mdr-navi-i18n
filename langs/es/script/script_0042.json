@@ -1,0 +1,360 @@
+{
+ "part": "script/script_0042",
+ "entries": [
+  {
+   "key": "script:0042:091E",
+   "src": "d3d8cb6fe9b4",
+   "t": "<FACE:70>Mmm… no sé…<NL>Esto no emociona…<WAIT>Andar de pirata está<NL>bien, pero algo falta…"
+  },
+  {
+   "key": "script:0042:095A",
+   "src": "65e0bc723c5d",
+   "t": "<FACE:80>¡Jefa Sekiraaan!<NL>"
+  },
+  {
+   "key": "script:0042:0966",
+   "src": "80107e543540",
+   "t": "<FACE:7D>¡Jefa Sekiraan!"
+  },
+  {
+   "key": "script:0042:0970",
+   "src": "bd16ee51cc11",
+   "t": "<FACE:70>¿Qué…?"
+  },
+  {
+   "key": "script:0042:0977",
+   "src": "02a2ccd3f04b",
+   "t": "<FACE:71>(Rodeada de puros<NL> tipos así…)<WAIT><FACE:70>(¿No habrá por ahí<NL> algún chico lindo…?)<WAIT><FACE:7D>¿Qué dice-robo?"
+  },
+  {
+   "key": "script:0042:09C5",
+   "src": "defa1f29c728",
+   "t": "<FACE:70>Nada, nada<NL><WAIT>¿Y bien? ¿Qué pasa?<WAIT><FACE:7D>Atrapamos a tres<NL>colegiales-robo"
+  },
+  {
+   "key": "script:0042:09F9",
+   "src": "0a5a3194baab",
+   "t": "<FACE:72>¡¿Eh?! ¿Dónde?<NL><WAIT>¿Dónde están?"
+  },
+  {
+   "key": "script:0042:0A0C",
+   "src": "de56440190d4",
+   "t": "<FACE:81>E-en la cubierta-robo…"
+  },
+  {
+   "key": "script:0042:0A1D",
+   "src": "a1ea78499377",
+   "t": "<FACE:3D>¡Malditos! ¡Suéltenme!<NL><WAIT>¡No tenemos tiempo<NL>para estas tonterías!<WAIT><FACE:3E>¡No estorben nuestro<NL>duelo!"
+  },
+  {
+   "key": "script:0042:0A63",
+   "src": "2b58bd413aff",
+   "t": "<FACE:7E>¡Cállate-robo!<NL>"
+  },
+  {
+   "key": "script:0042:0A6E",
+   "src": "7980a0150d42",
+   "t": "<FACE:7E>¿Qué hacían metidos<NL>en nuestro barco-robo?"
+  },
+  {
+   "key": "script:0042:0A8A",
+   "src": "ff56919b397e",
+   "t": "<FACE:3B>Vemos quién de<NL>nosotros es el mejor<WAIT><FACE:3D>¡Eso! ¡Competimos por<NL>ver quién llega antes<WAIT>a la punta del mástil!"
+  },
+  {
+   "key": "script:0042:0AD1",
+   "src": "9e7db8d49ed6",
+   "t": "<FACE:70>Mmm…"
+  },
+  {
+   "key": "script:0042:0AD9",
+   "src": "82836d2ccf15",
+   "t": "<FACE:72>(¡Nada mal, nada mal!<NL> Chicos apasionados…)"
+  },
+  {
+   "key": "script:0042:0AFE",
+   "src": "26436efbfdfd",
+   "t": "<FACE:72>Oigan, ¿no se unen a<NL>la Banda Sperobo?"
+  },
+  {
+   "key": "script:0042:0B18",
+   "src": "e6e3f0c73296",
+   "t": "<FACE:81>¿Q-qué dice así de<NL>repente-robo?"
+  },
+  {
+   "key": "script:0042:0B2D",
+   "src": "6ecb795fdcf5",
+   "t": "<FACE:71>¡Cállate! Tienen más<NL>agallas que ustedes…<WAIT>Y además son un poco…<WAIT><FACE:7D>¿Un poco…? ¿Qué-robo?"
+  },
+  {
+   "key": "script:0042:0B60",
+   "src": "a425fe43a3f3",
+   "t": "<FACE:72>Están guapos, ¿no?"
+  },
+  {
+   "key": "script:0042:0B6C",
+   "src": "334738636399",
+   "t": "<FACE:7D>…Otra vez-robo…"
+  },
+  {
+   "key": "script:0042:0B77",
+   "src": "15dbfb90628b",
+   "t": "<FACE:03>¡Ah, Sekiran, la jefa<NL>presumida!<WAIT><FACE:00>¿Eh? Los de allá<NL>son…<WAIT><FACE:08>¡Si son los del club<NL>de deportes!"
+  },
+  {
+   "key": "script:0042:0BB3",
+   "src": "17ac790cb8cd",
+   "t": "<FACE:3D>¡Ah, señorita Hiyori<NL>y <PLAYER>!<WAIT><FACE:01>¿Por qué a Hiyori la<NL>tratas de «señorita»?<WAIT><FACE:3D>Es que…"
+  },
+  {
+   "key": "script:0042:0BE4",
+   "src": "4833ef6ec0b5",
+   "t": "<FACE:71>¡Se suben al barco<NL>ajeno y arman fiesta<WAIT>como si nada!<WAIT><FACE:70>¡Basta de rodeos!<NL><WAIT>Si quieren que les<NL>devuelva a sus amigos,<WAIT>¡obedezcan sin chistar<NL>lo que les digamos!"
+  },
+  {
+   "key": "script:0042:0C56",
+   "src": "1fe45df855ef",
+   "t": "<FACE:06>¡Lo sabía, eres mala!<NL>¡Qué jugada tan sucia!"
+  },
+  {
+   "key": "script:0042:0C6F",
+   "src": "c1889f6f14d2",
+   "t": "<FACE:72>¡Ojojojojó! ¡Digan lo<NL>que quieran!<WAIT>¡Ser mala se siente<NL>delicioso!<WAIT>¡Esta situación me<NL>enciende!<WAIT>Como Reina Pirata<NL>Malvada que soy…<WAIT>¡estoy que ardo!"
+  },
+  {
+   "key": "script:0042:0CD1",
+   "src": "47615816d545",
+   "t": "<FACE:04>…¿Y eso qué es?"
+  },
+  {
+   "key": "script:0042:0CDC",
+   "src": "3775bfafb9f7",
+   "t": "<FACE:70>Bien, jovencito…<NL>Eres <PLAYER>, ¿no?<WAIT>Quítate la Medalla y<NL>ven para acá…"
+  },
+  {
+   "key": "script:0042:0D0C",
+   "src": "83b90522b0f6",
+   "t": "<FACE:05>¡<PLAYER>!<WAIT><FACE:70>Si no me obedeces,<NL>quién sabe qué será<WAIT>de estos chicos…"
+  },
+  {
+   "key": "script:0042:0D31",
+   "src": "615ab2c5efdc",
+   "t": "<FACE:04>No hay remedio…<NL>Haré lo que digas…"
+  },
+  {
+   "key": "script:0042:0D49",
+   "src": "9243269c84e5",
+   "t": "<FACE:72>¡Eso! Buen chico…<NL>¡Anda, ven ya, rápido!<WAIT><FACE:0A><PLAYER>…"
+  },
+  {
+   "key": "script:0042:0D6E",
+   "src": "b6d7c2e69bf9",
+   "t": "<FACE:71>¡Oye! ¡Espera, tú!"
+  },
+  {
+   "key": "script:0042:0D7A",
+   "src": "7e7163c0621d",
+   "t": "<FACE:0B>¡Ahí vaaaaa!"
+  },
+  {
+   "key": "script:0042:0D86",
+   "src": "0d782d3cf0e9",
+   "t": "<FACE:70>¡Kyaaaaaaa!"
+  },
+  {
+   "key": "script:0042:0D93",
+   "src": "692c4744614e",
+   "t": "<FACE:0D>¡Toma esto!"
+  },
+  {
+   "key": "script:0042:0D9B",
+   "src": "76d26ce4e395",
+   "t": "<FACE:02>¡Gracias, Fubuki!<NL>"
+  },
+  {
+   "key": "script:0042:0DA9",
+   "src": "c86d42a22b9a",
+   "t": "<FACE:01>¡Transferencia,<NL><MEDABOT>!<WAIT>¡Corta las cuerdas!"
+  },
+  {
+   "key": "script:0042:0DBD",
+   "src": "fa0e7189e138",
+   "t": "<FACE:00>¿Están bien?"
+  },
+  {
+   "key": "script:0042:0DC9",
+   "src": "a6574033fffb",
+   "t": "<FACE:3D>Bah, quién te pidió<NL>que te metieras…<WAIT>Eso lo resolvíamos<NL>solos, sin problema"
+  },
+  {
+   "key": "script:0042:0DF6",
+   "src": "9c0d8bf02d7d",
+   "t": "<FACE:0B>¡Vaya modo de hablar<NL>tras ser rescatado!"
+  },
+  {
+   "key": "script:0042:0E0D",
+   "src": "32ad63b9a491",
+   "t": "<FACE:3D>Nadie les pidió que<NL>nos salvaran, ¿o sí?"
+  },
+  {
+   "key": "script:0042:0E26",
+   "src": "38310dce2e4b",
+   "t": "<FACE:0B>¡¿Qué dijiste?!"
+  },
+  {
+   "key": "script:0042:0E2D",
+   "src": "b6f2856051c6",
+   "t": "<FACE:00>No importa<NL><WAIT>Con que unamos fuerzas<NL>desde ahora, basta…"
+  },
+  {
+   "key": "script:0042:0E59",
+   "src": "402231544d94",
+   "t": "<FACE:3D>No nos hace falta tu<NL>ayuda: lo nuestro lo<WAIT>hacemos por nuestra<NL>cuenta<WAIT><PLAYER> no es nadie<NL>para darnos órdenes"
+  },
+  {
+   "key": "script:0042:0E94",
+   "src": "36ceb8b5beb5",
+   "t": "<FACE:19>¿Pero qué dices?<NL><WAIT><PLAYER> es el<NL>presidente de la clase"
+  },
+  {
+   "key": "script:0042:0EB5",
+   "src": "ccd018966313",
+   "t": "<FACE:14>Al líder de la clase<NL>hay que hacerle caso"
+  },
+  {
+   "key": "script:0042:0ED3",
+   "src": "656bce0bfbe4",
+   "t": "<FACE:3D>Yo nunca acepté a<NL><PLAYER> como líder<WAIT>Esas tonterías a mí<NL>no me importan"
+  },
+  {
+   "key": "script:0042:0F04",
+   "src": "78948a9c707e",
+   "t": "<FACE:0B>¡¿Cómo te atreves?!"
+  },
+  {
+   "key": "script:0042:0F0D",
+   "src": "3f21863188a5",
+   "t": "<FACE:00>¿Qué hay que hacer<NL>para que me escuchen?"
+  },
+  {
+   "key": "script:0042:0F22",
+   "src": "4c21f83375aa",
+   "t": "<FACE:3D>Bah, ni modo<NL>Pelea contra nosotros<WAIT>en una robobatalla<NL>Si ganas, te acepto<WAIT>Vamos a probar cuánto<NL>vales de verdad"
+  },
+  {
+   "key": "script:0042:0F66",
+   "src": "c80bc66ecdcc",
+   "t": "<FACE:0D>¡Te echo una mano!"
+  },
+  {
+   "key": "script:0042:0F71",
+   "src": "50c46762d7da",
+   "t": "<FACE:70>Ay, ¿qué hago…?<NL><WAIT>Unos chicos lindos<NL>pelean por mí…<WAIT>Mi belleza es un<NL>pecado, ya lo sabía…"
+  },
+  {
+   "key": "script:0042:0FB6",
+   "src": "755934f844a3",
+   "t": "<FACE:7D>Seguro que no-robo…"
+  },
+  {
+   "key": "script:0042:0FC4",
+   "src": "a13ff4c92887",
+   "t": "<FACE:3D>Rayos… perdimos…<WAIT><FACE:00>Uf… Ahora sí me van a<NL>hacer caso…"
+  },
+  {
+   "key": "script:0042:0FEC",
+   "src": "b67409e1ca29",
+   "t": "<FACE:70>No peleen, chicos…<NL><WAIT>Con mi corazón ancho<NL>como el mar<WAIT>los abrazaré a todos<WAIT><FACE:72>Vengan al pecho de<NL>esta hermosa dama…"
+  },
+  {
+   "key": "script:0042:1030",
+   "src": "8a5afc2ca3f8",
+   "t": "<FACE:7D>¿Qué dice-robo?<NL><WAIT>Esto es un bloque…<NL>El mar de aquí<WAIT>es bien chiquito-robo"
+  },
+  {
+   "key": "script:0042:1055",
+   "src": "d851d137f00b",
+   "t": "<FACE:7F>¡Cierto-robo!<NL>¡Tiene razón-robo!<WAIT>¡Chiquito como el<NL>corazón de Sekiran!"
+  },
+  {
+   "key": "script:0042:107B",
+   "src": "fa2bb334bc65",
+   "t": "<FACE:71>…"
+  },
+  {
+   "key": "script:0042:1081",
+   "src": "ecae008d6779",
+   "t": "<FACE:81>¡¿N-nos oyó-robo?!"
+  },
+  {
+   "key": "script:0042:1091",
+   "src": "ddd6cefcb4c9",
+   "t": "<FACE:71>¡Ya lo creo! Cada<NL>palabrita…"
+  },
+  {
+   "key": "script:0042:10A3",
+   "src": "8a57dc0cdd08",
+   "t": "<FACE:81>¡L-lo sentimoooos!"
+  },
+  {
+   "key": "script:0042:10B0",
+   "src": "bb213ef27c5d",
+   "t": "<FACE:05>Bueno, tienen razón"
+  },
+  {
+   "key": "script:0042:10C3",
+   "src": "ee3a2f71b6ea",
+   "t": "<FACE:71>¡Grrrrrr! ¡Qué rabia!"
+  },
+  {
+   "key": "script:0042:10D4",
+   "src": "039ef57020ec",
+   "t": "<FACE:71>¡Muy bien! Como<NL>siempre, entonces:<WAIT>¡lo resolvemos con una<NL>robobatalla!"
+  },
+  {
+   "key": "script:0042:10F8",
+   "src": "ce71904d4f67",
+   "t": "<FACE:71>¡Uuuuuugh!<NL>¡Perdí otra vez!"
+  },
+  {
+   "key": "script:0042:1110",
+   "src": "b558e0243531",
+   "t": "<FACE:70>Pero de vez en cuando<NL>jugar a los piratas<WAIT>también es divertido…"
+  },
+  {
+   "key": "script:0042:112C",
+   "src": "1f601ed6d983",
+   "t": "<FACE:71>¡Muchachos, nos<NL>retiramos!"
+  },
+  {
+   "key": "script:0042:114A",
+   "src": "3e720a81802c",
+   "t": "<FACE:3D>Gracias, señorita<NL>Hiyori"
+  },
+  {
+   "key": "script:0042:1159",
+   "src": "e3b96cedbf4b",
+   "t": "<FACE:07>¡Ay! Piensa un poco<NL>en la situación<WAIT>Solo tienes duelos<NL>en la cabeza…"
+  },
+  {
+   "key": "script:0042:118A",
+   "src": "4d653643e421",
+   "t": "<FACE:3D>Jajaja, qué dura es<NL>la señorita Hiyori"
+  },
+  {
+   "key": "script:0042:119E",
+   "src": "c267586435e9",
+   "t": "<FACE:00>Pero en realidad ella<NL>no es tan…<NL>"
+  },
+  {
+   "key": "script:0042:11B4",
+   "src": "02b848e43af5",
+   "t": "<FACE:03>¡Ugh…!"
+  },
+  {
+   "key": "script:0042:11BC",
+   "src": "1d9599cf88c2",
+   "t": "<FACE:3D>¡Fuusetsu se unió<NL>al equipo!<WAIT><FACE:3B>¡Kouzui se unió<NL>al equipo!<WAIT><FACE:3E>¡Gou se unió<NL>al equipo!"
+  }
+ ]
+}

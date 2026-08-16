@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0008",
+ "entries": [
+  {
+   "key": "script:0008:01FD",
+   "src": "5c9d84078cd6",
+   "t": "<FACE:7D>¡Recuperamos este<NL>bloque-robo!"
+  },
+  {
+   "key": "script:0008:0211",
+   "src": "b828e1f56b92",
+   "t": "<FACE:7D>¡Esforzándonos hasta<NL>nosotros podemos-robo!<WAIT>Pero si vuelven<NL>esos tipos…"
+  },
+  {
+   "key": "script:0008:0236",
+   "src": "dc7b2850148d",
+   "t": "<FACE:7D>Tranquilo-robo<NL>Ya cambiamos-robo<WAIT>¡Esta vez sí rozamos<NL>a un jefe-robo!"
+  },
+  {
+   "key": "script:0008:0265",
+   "src": "cbe324dd0054",
+   "t": "<FACE:05>Y ni es un lugar tan<NL>importante…"
+  },
+  {
+   "key": "script:0008:0278",
+   "src": "644ab610a041",
+   "t": "<FACE:0A>Ni modo<NL>Hay que pasar por aquí"
+  },
+  {
+   "key": "script:0008:0292",
+   "src": "5f52b2adaf05",
+   "t": "<FACE:81>Y… ya llegaron-robo…<WAIT><FACE:7D>¿De verdad podemos<NL>ganar-robo?"
+  },
+  {
+   "key": "script:0008:02AB",
+   "src": "ca2fb4eb72aa",
+   "t": "<FACE:14>Vaya, qué cobardes<NL>se ven estos<WAIT><FACE:7D>Ni modo-robo…<WAIT>Robobatalla-robo…"
+  },
+  {
+   "key": "script:0008:02D1",
+   "src": "6bb967403d39",
+   "t": "<FACE:7D>Sí que perdimos-robo…"
+  },
+  {
+   "key": "script:0008:02E1",
+   "src": "7441c9cbb122",
+   "t": "<FACE:7D>Pediré otra vez el<NL>traslado a un bloque<WAIT>importante-robo…"
+  },
+  {
+   "key": "script:0008:0304",
+   "src": "08632ab507d4",
+   "t": "<FACE:7D>Igual siempre es<NL>lo mismo-robo…"
+  },
+  {
+   "key": "script:0008:0312",
+   "src": "36c359c95d4f",
+   "t": "<FACE:04>No nos podemos dar<NL>el lujo de perder…"
+  }
+ ]
+}

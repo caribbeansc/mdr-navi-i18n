@@ -1,0 +1,245 @@
+{
+ "part": "script/script_0036",
+ "entries": [
+  {
+   "key": "script:0036:0881",
+   "src": "3eceefa0e7aa",
+   "t": "<FACE:5A>¡A un lado, a un lado!<NL>¡Tapan la cámara!"
+  },
+  {
+   "key": "script:0036:089D",
+   "src": "a5cbd9b5341e",
+   "t": "<FACE:5C>¡Aaaaaaah!!<NL>¡Shideeeeen!!"
+  },
+  {
+   "key": "script:0036:08B8",
+   "src": "53b4121cc3f7",
+   "t": "<FACE:06>¿Qué le ven a ese tipo<NL>tan hueco? ¡Qué bobas!"
+  },
+  {
+   "key": "script:0036:08D8",
+   "src": "bf9d2b7b5ce7",
+   "t": "<FACE:03>¡O-oye, Hiyori!"
+  },
+  {
+   "key": "script:0036:08E4",
+   "src": "4edb1140e0bd",
+   "t": "<FACE:22>¡Vamos, vamos, todos!<NL>¡Es hora de abordar!"
+  },
+  {
+   "key": "script:0036:0904",
+   "src": "134046749c1b",
+   "t": "<FACE:23>(¡Tsk!)"
+  },
+  {
+   "key": "script:0036:090C",
+   "src": "cbccb5cc3e2a",
+   "t": "<FACE:22>¡Rápido, rápido!"
+  },
+  {
+   "key": "script:0036:091C",
+   "src": "71eddde468a9",
+   "t": "<FACE:23>(Ojalá lo perdieran…)"
+  },
+  {
+   "key": "script:0036:0931",
+   "src": "5c63e4117963",
+   "t": "<FACE:06>¡Ay! No te vayas por<NL>ahí tú solo, ¿oíste?"
+  },
+  {
+   "key": "script:0036:094A",
+   "src": "1db3b8f07b33",
+   "t": "<FACE:5D>Vine a ver a Shiden"
+  },
+  {
+   "key": "script:0036:095D",
+   "src": "51233595cf05",
+   "t": "<FACE:5C>¡Shiden es tan genial!"
+  },
+  {
+   "key": "script:0036:0970",
+   "src": "4bc8d3292c3e",
+   "t": "<FACE:5E>El mejor medaguerrero<NL>es Shiden, sin duda"
+  },
+  {
+   "key": "script:0036:098B",
+   "src": "4bb000fe1539",
+   "t": "<FACE:5C>Vine a ver a Shiden,<NL>pero hay mucha gente…"
+  },
+  {
+   "key": "script:0036:09AE",
+   "src": "88c1c856b78e",
+   "t": "<FACE:5C>¿Tú vienes por Shiden?"
+  },
+  {
+   "key": "script:0036:09C6",
+   "src": "78444c6e7ca2",
+   "t": "<FACE:5E>…Shiden[<3]"
+  },
+  {
+   "key": "script:0036:09D1",
+   "src": "a5d3e3abf742",
+   "t": "<FACE:5A>La cámara no se mueve"
+  },
+  {
+   "key": "script:0036:09E0",
+   "src": "c74c935b8cac",
+   "t": "<FACE:5D>Ay, no llego a Shiden"
+  },
+  {
+   "key": "script:0036:09F6",
+   "src": "62a20735b191",
+   "t": "<FACE:5A>¡Estorban a la cámara!<NL>¡A un lado!"
+  },
+  {
+   "key": "script:0036:0A0D",
+   "src": "f28ea6a735ff",
+   "t": "<FACE:5A>¡Estoy ocupado, no me<NL>hables! ¡Va lo bueno!"
+  },
+  {
+   "key": "script:0036:0A56",
+   "src": "0ad328264abd",
+   "t": "<FACE:5A>Así no hay entrevista"
+  },
+  {
+   "key": "script:0036:0A6B",
+   "src": "22a7d6a2a093",
+   "t": "<FACE:5A>¡No empujen! ¡Quietos!"
+  },
+  {
+   "key": "script:0036:0A7B",
+   "src": "ea79f2b23d5f",
+   "t": "<FACE:00>Si me devuelvo ahora,<NL>todos se irán sin mí…"
+  },
+  {
+   "key": "script:0036:0A98",
+   "src": "041d9904d23c",
+   "t": "<FACE:5F>Le abro la puerta"
+  },
+  {
+   "key": "script:0036:0AA7",
+   "src": "e8a840924e4b",
+   "t": "<FACE:5F>Bienvenido a Cluster"
+  },
+  {
+   "key": "script:0036:0AB5",
+   "src": "db7ca4f8cb36",
+   "t": "<FACE:60>Estoy en mi descanso"
+  },
+  {
+   "key": "script:0036:0AC5",
+   "src": "744fb1117ffe",
+   "t": "<FACE:60>La verdad, es mi<NL>primera vez aquí"
+  },
+  {
+   "key": "script:0036:0AE7",
+   "src": "7d058b7d3386",
+   "t": "<FACE:00>Parece muy ocupado…"
+  },
+  {
+   "key": "script:0036:0AF4",
+   "src": "92b2c77f28e3",
+   "t": "<FACE:60>Ahora no me hables,<NL>se me va el pulso"
+  },
+  {
+   "key": "script:0036:0B18",
+   "src": "f326a64ac1ed",
+   "t": "<FACE:03>¡L-lo siento!"
+  },
+  {
+   "key": "script:0036:0B26",
+   "src": "052b1ab3e629",
+   "t": "<FACE:00>No debo entrar así…"
+  },
+  {
+   "key": "script:0036:0B3C",
+   "src": "85b23b1e4edd",
+   "t": "<FACE:00>¿Qué hace Hiyori que<NL>no llega? En fin…"
+  },
+  {
+   "key": "script:0036:0B5B",
+   "src": "5f5d08fd81d3",
+   "t": "<FACE:47>¡Llegamos! ¡Llegamos!"
+  },
+  {
+   "key": "script:0036:0B69",
+   "src": "a405075dd706",
+   "t": "<FACE:25>¡Ustedes!<NL>¡Espérenme!<WAIT>¡Dejar atrás a la<NL>presidenta de clase…!"
+  },
+  {
+   "key": "script:0036:0B98",
+   "src": "dd700d536fb3",
+   "t": "8…<DELAY:0028> 7…<WAIT><FACE:05>¿Oíste, <PLAYER>?<NL><WAIT>Cuando despeguemos,<NL>ni se te ocurra hablar<WAIT>¡Te vas a morder<NL>la lengua!"
+  },
+  {
+   "key": "script:0036:0BD8",
+   "src": "c5f002225e28",
+   "t": "4…<DELAY:0028> 3…<DELAY:0028> 2…<WAIT><FACE:06>¡Oye! ¿Me entendiste?"
+  },
+  {
+   "key": "script:0036:0BF9",
+   "src": "65760e07de84",
+   "t": "1…<WAIT><FACE:02>Sí, enten…"
+  },
+  {
+   "key": "script:0036:0C05",
+   "src": "f2a0fd795859",
+   "t": "0!"
+  },
+  {
+   "key": "script:0036:0C08",
+   "src": "de2483e4216f",
+   "t": "<FACE:03>¡Aggh!"
+  },
+  {
+   "key": "script:0036:0C0F",
+   "src": "7cc4aef6f37e",
+   "t": "<FACE:04>Mff… ethtoy bien…"
+  },
+  {
+   "key": "script:0036:0C1D",
+   "src": "fe9a8ed14376",
+   "t": "<FACE:04>Mfa… haga…<WAIT><FACE:05>¿Sigues con la lengua<NL>hinchada?"
+  },
+  {
+   "key": "script:0036:0C38",
+   "src": "8e5aff69243f",
+   "t": "<FACE:06>¡Ay, en serio!<NL>¡Te lo dije tanto!"
+  },
+  {
+   "key": "script:0036:0C4B",
+   "src": "ddca8894cba1",
+   "t": "<FACE:00>Huuum… Es más chico<NL>de lo que pensaba…"
+  },
+  {
+   "key": "script:0036:0C6A",
+   "src": "d6583a25fade",
+   "t": "<FACE:08>¡Te equivocas!<NL><WAIT>Como no hay aire, se<NL>veía nítido de lejos"
+  },
+  {
+   "key": "script:0036:0C97",
+   "src": "5b58d13ff95b",
+   "t": "<FACE:03>¡Cierto! ¡Se acerca!<NL>¡Es gigantesco!"
+  },
+  {
+   "key": "script:0036:0CBB",
+   "src": "1a66ec122721",
+   "t": "<FACE:08>Guau…<NL>Qué maravilla[<3]<WAIT>Con un jet no hay<NL>ni comparación"
+  },
+  {
+   "key": "script:0036:0CE2",
+   "src": "cfba267cf87e",
+   "t": "<FACE:08>¡Ah!<NL><WAIT>¡Mira, <PLAYER>!<NL>¡Ya se ve Cluster!<END>"
+  },
+  {
+   "key": "script:0036:0D00",
+   "src": "afb8d676639c",
+   "t": "<FACE:00>«Transbordador a<NL>Cluster: Lanzadera 1»…<WAIT><FACE:02>Qué emoción"
+  },
+  {
+   "key": "script:0036:0D2E",
+   "src": "2e65d7407f5e",
+   "t": "<FACE:00>«Pasado mañana inician<NL>los viajes a Cluster»…<WAIT><FACE:02>Je je…<NL><WAIT>¡Seremos los primeros<NL>en subir!"
+  }
+ ]
+}

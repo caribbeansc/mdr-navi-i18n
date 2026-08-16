@@ -1,0 +1,360 @@
+{
+ "part": "script/script_0075",
+ "entries": [
+  {
+   "key": "script:0075:090A",
+   "src": "62c89777bdba",
+   "t": "<FACE:28>¡Fuajajaja!<NL>¡Hasta aquí llegaron!"
+  },
+  {
+   "key": "script:0075:0928",
+   "src": "ffd1fe838c22",
+   "t": "<FACE:27>¡Jamás podrán tomar<NL>este bloque! ¡Nunca!"
+  },
+  {
+   "key": "script:0075:094F",
+   "src": "37d878dceb10",
+   "t": "<FACE:01>¡¿Qué?! ¿Cómo que no?"
+  },
+  {
+   "key": "script:0075:0961",
+   "src": "44d1c6f83e91",
+   "t": "<FACE:27>Es que mi identidad…"
+  },
+  {
+   "key": "script:0075:0975",
+   "src": "e79a0a17ce76",
+   "t": "<FACE:05>Deja el misterio<NL>y da la cara ya.<WAIT><FACE:07>¡Ni<DELAY:000F>·<DELAY:000F>wa<DELAY:000F>·<DELAY:000F>ka<DELAY:000F>!<DELAY:000A>"
+  },
+  {
+   "key": "script:0075:09AF",
+   "src": "f2e6782b5491",
+   "t": "<FACE:27>¡Eeeeeh!"
+  },
+  {
+   "key": "script:0075:09BA",
+   "src": "b1f2adb018dc",
+   "t": "<FACE:25>¡¿C-cómo lo sabes?!<WAIT><FACE:05>¿Creías que no te iba<NL>a reconocer?<WAIT>Ese carácter odioso…<NL>y además…"
+  },
+  {
+   "key": "script:0075:09F1",
+   "src": "42b7044bfcf3",
+   "t": "<FACE:06>¡Y esos planes ruines<NL>de quien nos conoce!"
+  },
+  {
+   "key": "script:0075:0A14",
+   "src": "6a4dab3d0b70",
+   "t": "<FACE:22>¡Sí! Me descubrieron."
+  },
+  {
+   "key": "script:0075:0A2C",
+   "src": "717b52b72c83",
+   "t": "<FACE:22>En efecto, yo soy…<NL>el que ustedes votaron<WAIT>¡el gran Niwaka,<NL>presidente de clase!"
+  },
+  {
+   "key": "script:0075:0A61",
+   "src": "01114965de44",
+   "t": "<FACE:22>Verán… desde que los<NL>dejé a ustedes…<WAIT>me gané el favor de<NL>la Banda Sperobo,<WAIT><FACE:22>y con mi desbordante<NL>talento político<WAIT>logré escalar hasta<NL>ser un jefe."
+  },
+  {
+   "key": "script:0075:0AC8",
+   "src": "d043ff72b208",
+   "t": "<FACE:22>Supongan que resisten<NL>y toman este bloque.<WAIT>¿Y después qué harán?"
+  },
+  {
+   "key": "script:0075:0AFB",
+   "src": "2c71acc04a5b",
+   "t": "<FACE:22>¿No irán a creer que<NL>ustedes solos pueden<WAIT>manejar el Cluster<NL>y volver a la Tierra?"
+  },
+  {
+   "key": "script:0075:0B3A",
+   "src": "a3ab2608947a",
+   "t": "<FACE:24>¡Fuajajaja!<NL>¡Eso es imposible!<WAIT><FACE:22>La energía para virar<NL>rumbo a la Tierra<WAIT>¡ya casi se agotó!<NL>"
+  },
+  {
+   "key": "script:0075:0B88",
+   "src": "9b94e60595dc",
+   "t": "<FACE:22>Usar la tecnología de<NL>los Sperobo es lógico."
+  },
+  {
+   "key": "script:0075:0BB0",
+   "src": "ac0ef50b6920",
+   "t": "<FACE:22>¡Vamos, todos!<NL>¡Vengan conmigo!"
+  },
+  {
+   "key": "script:0075:0BCA",
+   "src": "85b4d480ec3b",
+   "t": "<FACE:22>¡En especial!<NL><WAIT>los que me votaron en<NL>la elección pasada…"
+  },
+  {
+   "key": "script:0075:0BF1",
+   "src": "50a9cc13280c",
+   "t": "<FACE:22>Ya moví mis hilos y<NL>tengo la lista, ¿eh?"
+  },
+  {
+   "key": "script:0075:0C11",
+   "src": "ff9914ad345e",
+   "t": "<FACE:22>A ustedes les daré<NL>un puesto especial:<WAIT>¡aspirantes a jefe!"
+  },
+  {
+   "key": "script:0075:0C3E",
+   "src": "2708f2b3f581",
+   "t": "<FACE:15>(¿De veras cree que<NL> aún es popular…?)"
+  },
+  {
+   "key": "script:0075:0C60",
+   "src": "7ccfcb841179",
+   "t": "<FACE:1D>(La elección pasada<NL> fue puro fraude…)"
+  },
+  {
+   "key": "script:0075:0C84",
+   "src": "8098f9672602",
+   "t": "<FACE:06>¿Estás loco o qué?<NL><WAIT>¿Crees que aún queda<NL>quien te haga caso?<WAIT>Y de presidente ya<NL>quedó, por tu culpa,<WAIT>¡<PLAYER>, y punto!"
+  },
+  {
+   "key": "script:0075:0CDC",
+   "src": "41612196c6f8",
+   "t": "<FACE:25>¡Absurdo!<NL><WAIT>¡Esa elección no fue<NL>legítima! ¡Es nula!"
+  },
+  {
+   "key": "script:0075:0D08",
+   "src": "1ece7ecde15e",
+   "t": "<FACE:06>¿Nula ni qué? Todos<NL>reconocen el esfuerzo<WAIT>que <PLAYER> ha hecho<NL>hasta hoy, ¿oíste?<WAIT>¡De un presidente tan<NL>ruin ya nos hartamos!"
+  },
+  {
+   "key": "script:0075:0D63",
+   "src": "7612eddb838b",
+   "t": "<FACE:06>¡Ojalá te vuelvas<NL>polvo espacial!<WAIT>¡Te agarraré y te<NL>tiraré por la esclusa!"
+  },
+  {
+   "key": "script:0075:0DA4",
+   "src": "04180dc33d69",
+   "t": "<FACE:06>¿Verdad, chicos? …¿Eh?"
+  },
+  {
+   "key": "script:0075:0DB5",
+   "src": "65bb9c113a43",
+   "t": "<FACE:09>¿Qué pasa?"
+  },
+  {
+   "key": "script:0075:0DBE",
+   "src": "87a8f3dce3f5",
+   "t": "<FACE:29>No, nada… es que tú<NL>eres bien intensa…"
+  },
+  {
+   "key": "script:0075:0DE2",
+   "src": "3a3e4693ab5d",
+   "t": "<FACE:08>¡A-ay, no! ¡Qué digo!"
+  },
+  {
+   "key": "script:0075:0DF2",
+   "src": "b2ce52a32425",
+   "t": "<FACE:14>Bueno, es cierto…<NL><WAIT>Si hoy hay presidente,<NL>es <PLAYER>…"
+  },
+  {
+   "key": "script:0075:0E1B",
+   "src": "6a118beeb92f",
+   "t": "<FACE:19>Sí, sí, al final<NL>siempre es de fiar."
+  },
+  {
+   "key": "script:0075:0E3A",
+   "src": "72753ef86ee4",
+   "t": "<FACE:11>Je… No es cómo te<NL>eligen, sino qué haces<WAIT>Yo también me dejé<NL>llevar por ser el N.1."
+  },
+  {
+   "key": "script:0075:0E86",
+   "src": "4f52ea1208e7",
+   "t": "<FACE:0F>Me abriste los ojos."
+  },
+  {
+   "key": "script:0075:0E9A",
+   "src": "3934a3fd2eea",
+   "t": "<FACE:04>Niwaka, los Sperobo<NL>son gente mala.<WAIT>No está bien que les<NL>hagas caso.<WAIT>Vuelve al salón<NL>con nosotros."
+  },
+  {
+   "key": "script:0075:0EE6",
+   "src": "01740dfec5cb",
+   "t": "<FACE:6C>Parece que nombrarte<NL>jefe para calmar a<WAIT>estos chicos fue un<NL>error de cálculo."
+  },
+  {
+   "key": "script:0075:0F29",
+   "src": "cb2212d25903",
+   "t": "<FACE:25>¿Qué…? ¿Entonces me<NL>hicieron jefe por un<WAIT>plan, y no por mi<NL>propio talento…?<WAIT><FACE:72>Bueno, nos hiciste<NL>ganar tiempo.<WAIT><FACE:7B>¡Gracias a eso nos<NL>metimos a la base!<WAIT><FACE:73>…Tú… ya no sirves…<WAIT><FACE:75>Cof… sin más… cof…<WAIT>No es tan fácil llegar<NL>a jefe… ¡cof!"
+  },
+  {
+   "key": "script:0075:0FDD",
+   "src": "94848ffd8fd4",
+   "t": "<FACE:05>Te lo buscaste solito.<NL>Bien merecido."
+  },
+  {
+   "key": "script:0075:0FFB",
+   "src": "39fbbb1a53fc",
+   "t": "<FACE:04>Niwaka…<NL>Si te engañaron, ya…"
+  },
+  {
+   "key": "script:0075:1015",
+   "src": "be481c0a5e4f",
+   "t": "<FACE:23>¡Cállenseeee!<NL>"
+  },
+  {
+   "key": "script:0075:1022",
+   "src": "0848cc7d6e73",
+   "t": "<FACE:23>¡Pues entonces les<NL>mostraré mi poder!"
+  },
+  {
+   "key": "script:0075:1044",
+   "src": "c5e05e4caf9f",
+   "t": "<FACE:7D>Da algo de pena-robo…<NL>"
+  },
+  {
+   "key": "script:0075:105B",
+   "src": "7e0073e1278a",
+   "t": "<FACE:7D>Y si nos quitan esto<NL>ahora, es un lío-robo…<WAIT>Hay que ganar tiempo.<NL>"
+  },
+  {
+   "key": "script:0075:1094",
+   "src": "68d3ec319947",
+   "t": "<FACE:7D>Al fin y al cabo es<NL>jefe; si le hacemos<WAIT>un favor, algo bueno<NL>saldrá-robo.<WAIT>¡Ni modo, hay que<NL>apoyarlo-robo!"
+  },
+  {
+   "key": "script:0075:10CE",
+   "src": "85285c8062f1",
+   "t": "<FACE:23>¡¿Qué están haciendo?!<NL><WAIT>¡Es obvio que la tropa<NL>debe ayudar al jefe!<WAIT>¡Pase lo que pase, la<NL>orden del jefe es ley!<WAIT>¡Es lo básico de toda<NL>organización!"
+  },
+  {
+   "key": "script:0075:1132",
+   "src": "36ad0d479b0c",
+   "t": "<FACE:81>¡Hiiii-robo!<NL>¡No cambió nada-roboo!"
+  },
+  {
+   "key": "script:0075:1151",
+   "src": "c9092cd73aca",
+   "t": "<FACE:04>Niwaka… ¿ya quedaste<NL>a gusto? Vuelve ya."
+  },
+  {
+   "key": "script:0075:117A",
+   "src": "379f4daec50a",
+   "t": "<FACE:06>¡Oye, <PLAYER>!<NL>¡Eres demasiado bueno!<WAIT>¡Traicionó a todos y<NL>se hizo jefe enemigo!"
+  },
+  {
+   "key": "script:0075:11BB",
+   "src": "c47313d628f2",
+   "t": "<FACE:04>No, si llegó a ser<NL>jefe de los Sperobo,<WAIT>¿no sabrá qué buscan?<NL>"
+  },
+  {
+   "key": "script:0075:11F2",
+   "src": "2e427ca0d11a",
+   "t": "<FACE:00>¿Verdad, Niwaka?<NL><WAIT>Si sabes algo,<NL>¿nos ayudarías?<WAIT><FACE:05>No necesitas hacerle<NL>esos mimos tan obvios."
+  },
+  {
+   "key": "script:0075:1238",
+   "src": "a64d6a3c5edf",
+   "t": "<FACE:05>Con el equipo de aquí<NL>iremos a la Tierra…"
+  },
+  {
+   "key": "script:0075:1261",
+   "src": "ee5285de1351",
+   "t": "<FACE:22>¿Ayudar?… ¡Su plan…!<NL>"
+  },
+  {
+   "key": "script:0075:1274",
+   "src": "50a455eb56a4",
+   "t": "<FACE:22>¡Sí! En efecto, yo<NL>tengo datos valiosos.<WAIT>¿Su objetivo?<NL>¡Lo sé perfectamente!"
+  },
+  {
+   "key": "script:0075:12B5",
+   "src": "900a6378b636",
+   "t": "<FACE:22>¡Ya veo!<NL><WAIT>¡El destino de la<NL>clase está en mí!<WAIT>Al final siempre<NL>termino liderando…<WAIT><FACE:24>¿Habré nacido bajo<NL>esa estrella? ¿Yo?"
+  },
+  {
+   "key": "script:0075:1327",
+   "src": "42f9660d0557",
+   "t": "<FACE:03>Eh… bueno… más bien…<NL><WAIT>Hay que recuperar el<NL>control del Cluster…"
+  },
+  {
+   "key": "script:0075:1353",
+   "src": "d4320ef3ce3c",
+   "t": "<FACE:22>Ellos quieren llevar<NL>el Cluster a su base<WAIT>y usarlo como<NL>instalación propia.<WAIT>Su base está en este<NL>cinturón de asteroides<WAIT>Vaciaron un asteroide<NL>y viven en el hueco.<WAIT>Ahí van a amarrar el<NL>Cluster y usarlo así.<WAIT><FACE:00>¿Y cuándo llegamos a<NL>esa base?<WAIT><FACE:22>¿Eh? El informe decía<NL>que en 10 minutos…"
+  },
+  {
+   "key": "script:0075:1432",
+   "src": "e8c7b46cdaa3",
+   "t": "<FACE:05>¿10 minutos desde<NL>cuándo?<WAIT><FACE:22>Pues… más o menos…<NL>"
+  },
+  {
+   "key": "script:0075:144A",
+   "src": "aa94b177913e",
+   "t": "<FACE:22>…hace unos 10 minutos<NL>"
+  },
+  {
+   "key": "script:0075:1461",
+   "src": "c187bb0baa5a",
+   "t": "<FACE:22>Ah, sí…<NL><WAIT>Y así, chocamos<NL>contra la base…"
+  },
+  {
+   "key": "script:0075:1481",
+   "src": "ecd2d1d9eebb",
+   "t": "<FACE:22>Con los brazos de la<NL>base fijan el Cluster…"
+  },
+  {
+   "key": "script:0075:14A5",
+   "src": "c238b617dc49",
+   "t": "<FACE:12>¡Es grave!<NL><WAIT>¡Bloquearon el<NL>propulsor! ¡No avanza!"
+  },
+  {
+   "key": "script:0075:14C7",
+   "src": "4a2cc2c41ecc",
+   "t": "<FACE:22>Ah… también dijeron<NL>que era punto clave…"
+  },
+  {
+   "key": "script:0075:14F0",
+   "src": "41294c7e20ba",
+   "t": "<FACE:03>O sea… que otra vez…<NL>perdimos el control…"
+  },
+  {
+   "key": "script:0075:1513",
+   "src": "e4f317481b75",
+   "t": "<FACE:06>¡O más bien,<NL>es peor que antes!"
+  },
+  {
+   "key": "script:0075:1530",
+   "src": "701e747451b7",
+   "t": "<FACE:A0>¡Niiiwaaakaaa!"
+  },
+  {
+   "key": "script:0075:154B",
+   "src": "fcb4444d170b",
+   "t": "<FACE:81>¡E-esto es grave-robo!<NL><WAIT>¡Llegó <PLAYER>-robo!<NL><WAIT>¿Q-qué hacemos-robo?"
+  },
+  {
+   "key": "script:0075:1575",
+   "src": "d812ee48fd40",
+   "t": "<FACE:27>Déjenlos.<NL><WAIT>Están a punto de ver<NL>con sus propios ojos<WAIT>una verdad<NL>impactante…"
+  },
+  {
+   "key": "script:0075:15B2",
+   "src": "18e6ce79e35a",
+   "t": "<FACE:28>Ju, ju, ju…"
+  },
+  {
+   "key": "script:0075:15BB",
+   "src": "2508c2c2e847",
+   "t": "<FACE:01>¡Es el último bloque!<NL><WAIT>¡Todos!<NL><WAIT>¡Vamos!"
+  },
+  {
+   "key": "script:0075:15D9",
+   "src": "0052c4a8e0b0",
+   "t": "<FACE:0A>Sin darnos cuenta,<NL>se volvió confiable."
+  },
+  {
+   "key": "script:0075:15F8",
+   "src": "dc9446da00b8",
+   "t": "<FACE:07>Jiji…<NL><WAIT>Quizá quien más creció<NL>aquí fue <PLAYER>."
+  },
+  {
+   "key": "script:0075:1621",
+   "src": "0e83a5060a6b",
+   "t": "<FACE:23>¡Bien, allá voy!"
+  }
+ ]
+}

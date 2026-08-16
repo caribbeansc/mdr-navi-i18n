@@ -1,0 +1,265 @@
+{
+ "part": "script/script_0067",
+ "entries": [
+  {
+   "key": "script:0067:075F",
+   "src": "ae02dfd140c2",
+   "t": "<FACE:03>¡Guau! Qué mansión<NL>tan grande…<WAIT>¡También hay bloques<NL>así!"
+  },
+  {
+   "key": "script:0067:0785",
+   "src": "bb1b7abaa93c",
+   "t": "<FACE:05>¡¿Ah?!<NL><WAIT>¡Qué mansión más<NL>impresionante!<WAIT>¿Vivirá alguien ahí?"
+  },
+  {
+   "key": "script:0067:07A8",
+   "src": "e348dd3334d2",
+   "t": "<FACE:00>Creo que no hay na…"
+  },
+  {
+   "key": "script:0067:07B4",
+   "src": "941b3e03fb1c",
+   "t": "<FACE:07>¡Aunque no haya nadie,<NL>podemos descansar!"
+  },
+  {
+   "key": "script:0067:07CC",
+   "src": "98e6dddd4eb3",
+   "t": "<FACE:00>Hay que apurar…"
+  },
+  {
+   "key": "script:0067:07D7",
+   "src": "3c5209bfff8e",
+   "t": "<FACE:07>¡Claro!<NL><WAIT>¡Descansemos un rato<NL>aquí!"
+  },
+  {
+   "key": "script:0067:07F1",
+   "src": "19912e7dc640",
+   "t": "<FACE:00>Pero si aún…"
+  },
+  {
+   "key": "script:0067:07F8",
+   "src": "b64c7e9d70db",
+   "t": "<FACE:07><PLAYER><NL>¡Yo te espero aquí!<WAIT>¡Ve rápido a ver cómo<NL>está la mansión!"
+  },
+  {
+   "key": "script:0067:0822",
+   "src": "b56aac8b0ed1",
+   "t": "<FACE:0A><PLAYER>…<NL><WAIT>¿No tienes nada que<NL>decir?"
+  },
+  {
+   "key": "script:0067:083C",
+   "src": "a5a1f3de8c6b",
+   "t": "<FACE:33>Vaya, si es el joven<NL><PLAYER> y…"
+  },
+  {
+   "key": "script:0067:0853",
+   "src": "b8ff5cd60128",
+   "t": "<FACE:33>la señorita Koharubi…<NL>A los demás no los<WAIT>conozco… ¿Y qué buscan<NL>en nuestra mansión?"
+  },
+  {
+   "key": "script:0067:0887",
+   "src": "9e8b696b7ecc",
+   "t": "<FACE:00>¿Eeeh? ¿Esta mansión<NL>es de ustedes?"
+  },
+  {
+   "key": "script:0067:089F",
+   "src": "aed05fb55fbe",
+   "t": "<FACE:00>Ah, él es Fubuki<NL><WAIT>Es alumno de otra<NL>escuela…<WAIT>Quedó atrapado aquí<NL>igual que nosotros"
+  },
+  {
+   "key": "script:0067:08D7",
+   "src": "c49dfb2f7150",
+   "t": "<FACE:0A>Oye, oye, al menos<NL>déjame present…<WAIT><FACE:33>¿Y bien…? ¿Qué asunto<NL>los trae por aquí?"
+  },
+  {
+   "key": "script:0067:090F",
+   "src": "571875e43bc0",
+   "t": "<FACE:00>Queremos ver si esto<NL>es seguro, así que…"
+  },
+  {
+   "key": "script:0067:0927",
+   "src": "121e2c4a62d2",
+   "t": "<FACE:06>(¡Oye! ¡Esa mansión<NL> no es de ellas!)<WAIT>(¡Yo también quiero<NL> descansar ahí!)<WAIT>(¡Sácalas de ahí!)<WAIT><FACE:04>(Pero no son de las<NL> que hacen caso…)<WAIT><FACE:06>(¡Ahora eres jefe de<NL> grupo!)<WAIT>(¡Pues da órdenes!)"
+  },
+  {
+   "key": "script:0067:09B0",
+   "src": "ff32a3764ac7",
+   "t": "<FACE:00>Yo… acabé siendo el<NL>jefe de grupo interino<WAIT>Este bloque también<NL>podría ser peligroso…<WAIT>Déjennos esto a<NL>nosotros por ahora<WAIT>¿Nos dejan entrar?"
+  },
+  {
+   "key": "script:0067:0A13",
+   "src": "aead14b07626",
+   "t": "<FACE:33>¡Ooooh jo jo jo jo jo!<WAIT><FACE:35>¡Oh jo jo jo jo!<WAIT><FACE:36>Ji ji ji"
+  },
+  {
+   "key": "script:0067:0A34",
+   "src": "278ea5912550",
+   "t": "<FACE:33>No me extraña que unos<NL>plebeyos como ustedes<WAIT>sueñen con una mansión<NL>tan glamurosa…<WAIT>¡Pero a ustedes no les<NL>queda nada bien!<WAIT>Esta mansión es para<NL>gente como nosotras…<NL>"
+  },
+  {
+   "key": "script:0067:0A9B",
+   "src": "8211585feb4d",
+   "t": "<FACE:33>¡Solo la gente<NL>glamurosa la merece!<WAIT>¡Busquen en otra<NL>parte!"
+  },
+  {
+   "key": "script:0067:0AC7",
+   "src": "d4feb2036c16",
+   "t": "<FACE:33>¡Oooh jo jo jo jo jo!"
+  },
+  {
+   "key": "script:0067:0AD6",
+   "src": "89fca06fabca",
+   "t": "<FACE:06>(¿Glamurosa? ¡Ja!<NL> ¡Y ese oh jo jo jo!)<WAIT>(¡Me hierve la sangre!<NL> ¡Descansaré en esta<WAIT> mansión sí o sí!)"
+  },
+  {
+   "key": "script:0067:0B1F",
+   "src": "734bdfab3d71",
+   "t": "<FACE:09>Yo… estoy taaaan<NL>cansada…"
+  },
+  {
+   "key": "script:0067:0B36",
+   "src": "c88418cbf86e",
+   "t": "<FACE:09>¿No podría descansar<NL>en esta mansión…?"
+  },
+  {
+   "key": "script:0067:0B51",
+   "src": "9e2fe312357c",
+   "t": "<FACE:34>¡Ay, qué lástima!<WAIT><FACE:33>Pero nosotras también<NL>estamos cansadas…<WAIT>Como llevamos una vida<NL>tan elegante,<WAIT>nos cansamos más que<NL>ustedes<WAIT>¡Y por desgracia no<NL>hay cuartos libres!<WAIT><FACE:09>Ay… qué complicado…<NL>Pero somos amigas,<WAIT>¿ni un cuartito?<WAIT><FACE:34>¿Amigas, dice?<WAIT><FACE:33>Vaya… ¡Qué fácil hacen<NL>amistades los<WAIT>plebeyos!<NL>¡Cómo las envidio!"
+  },
+  {
+   "key": "script:0067:0C2C",
+   "src": "a916421fc703",
+   "t": "<FACE:06>¡Craaac!"
+  },
+  {
+   "key": "script:0067:0C36",
+   "src": "d07b64627877",
+   "t": "<FACE:06>¡Estoy que exploto!<NL><WAIT>¡No son más que unas<NL>niñas ricas!<WAIT>¡El gran <PLAYER><NL>se enfrentará a<WAIT>ustedes!<NL>¡Robobatalla y punto!"
+  },
+  {
+   "key": "script:0067:0C7C",
+   "src": "a15e4519a15c",
+   "t": "<FACE:03>¡Ah! ¡E-espera,<NL>Hiyo…!"
+  },
+  {
+   "key": "script:0067:0C91",
+   "src": "1fa0f2b3c337",
+   "t": "<FACE:34>Vaya, vaya… ¿señor<NL><PLAYER>?<WAIT><FACE:33>¡Menuda forma de<NL>hablarnos!<WAIT>Muy bien<NL><WAIT>¡Saboreen el poder de<NL>nuestros glamurosos<WAIT>Medabots!"
+  },
+  {
+   "key": "script:0067:0CEF",
+   "src": "f2fe3167b5b1",
+   "t": "<FACE:06>¡Y ahora entréguennos<NL>el bloque sin pelear!"
+  },
+  {
+   "key": "script:0067:0D12",
+   "src": "52b554636e9d",
+   "t": "<FACE:03>(Hiyori, eso es<NL> una amenaza…)"
+  },
+  {
+   "key": "script:0067:0D2A",
+   "src": "edd0ad91f2ba",
+   "t": "<FACE:33>Vaya… Aceptamos el<NL>duelo,<WAIT>pero ¿cuándo dijimos<NL>que apostábamos la<WAIT>mansión?<NL><WAIT>¡Qué acusación tan<NL>descarada!<WAIT><FACE:34>¡Ay, qué miedo!"
+  },
+  {
+   "key": "script:0067:0D74",
+   "src": "63024dc60fec",
+   "t": "<FACE:35>¡Uy, qué miedo!"
+  },
+  {
+   "key": "script:0067:0D7E",
+   "src": "4ab5df2668aa",
+   "t": "<FACE:36>Qué miedo…"
+  },
+  {
+   "key": "script:0067:0D89",
+   "src": "8303164c709c",
+   "t": "<FACE:04>¿Mm?"
+  },
+  {
+   "key": "script:0067:0D8E",
+   "src": "c2ff21e8a66a",
+   "t": "<FACE:06>¡¿Cómo que miedo?!<WAIT><FACE:33>¿Señor <PLAYER>?<NL><WAIT>¿Hacia dónde está<NL>hablando usted?"
+  },
+  {
+   "key": "script:0067:0DBF",
+   "src": "00e84b49e752",
+   "t": "<FACE:04>Oye…"
+  },
+  {
+   "key": "script:0067:0DC8",
+   "src": "730471b55b6d",
+   "t": "<FACE:06>(¡Oye, <PLAYER>!<NL> ¡No te distraigas!)<WAIT>(¡Estoy ocupada con<NL> esta terca…!)<WAIT><FACE:04>Hace rato oigo un<NL>sonido conocido…"
+  },
+  {
+   "key": "script:0067:0E10",
+   "src": "ebc546f6713a",
+   "t": "<FACE:64>INTRUSO DETECTADO<NL>ELIMINANDO INTRUSO<WAIT>INTRUSO DETECTADO<NL>ELIMINANDO INTRUSO<WAIT>ELIMINANDO INTRUSO<WAIT><FACE:64>ELIMINANDO"
+  },
+  {
+   "key": "script:0067:0E69",
+   "src": "ad4f2846deab",
+   "t": "<FACE:34>E-esperen…<NL>¿Qué es esto…?"
+  },
+  {
+   "key": "script:0067:0E83",
+   "src": "f4d7b415b745",
+   "t": "<FACE:01>Lo sabía…<WAIT><FACE:05>Los Medabots de aquí<NL>también atacan a los<WAIT>humanos…<NL><WAIT>Ese tal Shiden<NL><WAIT>parece controlar a<NL>todos los Medabots<WAIT>del Cluster…"
+  },
+  {
+   "key": "script:0067:0EDF",
+   "src": "a414a2543561",
+   "t": "<FACE:01>Pero eso de eliminar…<NL>¿cómo?<WAIT><FACE:64>LOS APLASTAREMOS EN<NL>UNA ROBOBATALLA"
+  },
+  {
+   "key": "script:0067:0F0A",
+   "src": "a26e551cb50e",
+   "t": "<FACE:34>Vaya, eliminarnos…<WAIT><FACE:33>¡Este lugar es<NL>nuestro, de nadie más!<WAIT>¡Señor <PLAYER>!<NL><WAIT>¡Si es jefe de grupo,<NL>pelee por nosotras!<WAIT>¡Así les dejaremos<NL>usar este bloque!"
+  },
+  {
+   "key": "script:0067:0F82",
+   "src": "e2ce8f86df99",
+   "t": "<FACE:0A>Ni modo, <PLAYER>…<WAIT><FACE:0B>Igual hay que tomar<NL>este sitio"
+  },
+  {
+   "key": "script:0067:0FA7",
+   "src": "d14e4a55de75",
+   "t": "<FACE:07>¡Kyaa! ¡Qué genial!<NL><WAIT>¡Todo un jefe de<NL>grupo, <PLAYER>!"
+  },
+  {
+   "key": "script:0067:0FC7",
+   "src": "ab808a971f0d",
+   "t": "<FACE:05>¡Bien! Lo prometido:<NL>descansaré aquí"
+  },
+  {
+   "key": "script:0067:0FE9",
+   "src": "da4b767c32cd",
+   "t": "<FACE:05><PLAYER>, tú también<NL>descansa…"
+  },
+  {
+   "key": "script:0067:0FFA",
+   "src": "9630eebac13e",
+   "t": "<FACE:01>¡No, Hiyori!<NL><WAIT>Si Shiden controla<NL>los Medabots de todo<WAIT>el Cluster, ¡hay que<NL>hallar a la clase ya!"
+  },
+  {
+   "key": "script:0067:103F",
+   "src": "2fe4095e9cb6",
+   "t": "<FACE:08>O-oye, <PLAYER>…<NL>¡Espérame!"
+  },
+  {
+   "key": "script:0067:1057",
+   "src": "2f3ba95aa9b1",
+   "t": "<FACE:05><PLAYER>, ve rápido a<NL>echar un vistazo"
+  },
+  {
+   "key": "script:0067:1066",
+   "src": "0e68569e2d4c",
+   "t": "<FACE:0C>Qué lujosa se ve<NL>esa mansión"
+  },
+  {
+   "key": "script:0067:107B",
+   "src": "e19fb317ae6d",
+   "t": "<FACE:33>¡Megumi se unió al<NL>grupo!<WAIT><FACE:35>¡Shizuku se unió al<NL>grupo!<WAIT><FACE:36>¡Sachi se unió al<NL>grupo!"
+  }
+ ]
+}

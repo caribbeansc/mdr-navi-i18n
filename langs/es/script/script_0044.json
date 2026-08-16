@@ -1,0 +1,265 @@
+{
+ "part": "script/script_0044",
+ "entries": [
+  {
+   "key": "script:0044:0952",
+   "src": "40cb3ef8beec",
+   "t": "<FACE:05>Qué escándalo…<NL>¿Hay alguien al fondo?<WAIT><FACE:04>Tengo un mal<NL>presentimiento…"
+  },
+  {
+   "key": "script:0044:0984",
+   "src": "60f397fd1ea0",
+   "t": "<FACE:71>No se rompe…<NL>¿Le ponen ganas o qué?"
+  },
+  {
+   "key": "script:0044:09A2",
+   "src": "7060e4fe045e",
+   "t": "<FACE:81>¡Q… qué cruel-robo!<WAIT>¡Damos todo lo que<NL>tenemos-robo!"
+  },
+  {
+   "key": "script:0044:09BF",
+   "src": "967b2fd25557",
+   "t": "<FACE:49>¿Está en apuros,<NL>bella señorita?<WAIT>¿La ayudamos<NL>nosotros?"
+  },
+  {
+   "key": "script:0044:09E9",
+   "src": "d9fc231f3a5a",
+   "t": "<FACE:70>¿Aaay, sí?"
+  },
+  {
+   "key": "script:0044:09F2",
+   "src": "297ff30db705",
+   "t": "<FACE:72>(¡Uy! ¡Guapísimos!<NL>¡Y tres! ¡Qué suerte!)"
+  },
+  {
+   "key": "script:0044:0A1E",
+   "src": "3a585a4ffc1a",
+   "t": "<FACE:4A>Nuestros Medabots<NL>pegan bastante fuerte<WAIT><FACE:4B>Si sale bien, ¿qué tal<NL>un almuerzo?"
+  },
+  {
+   "key": "script:0044:0A54",
+   "src": "cff54540c3ed",
+   "t": "<FACE:70>¡Nada de esperar!<WAIT><FACE:70>Que esto lo hagan<NL>ellos, ¡vamos a comer!<WAIT>Por cierto, ¿no entran<NL>a la Banda Sperobo?<WAIT><FACE:72>Con mis contactos los<NL>hago casi oficiales"
+  },
+  {
+   "key": "script:0044:0AC0",
+   "src": "c40d622a27f2",
+   "t": "<FACE:81>¡Q… qué cruel-robo!<NL>¡Qué favoritismo-robo!"
+  },
+  {
+   "key": "script:0044:0ADB",
+   "src": "c0405db76e88",
+   "t": "<FACE:7D>Así es ella-robo…<NL>Ni modo-robo…"
+  },
+  {
+   "key": "script:0044:0AF2",
+   "src": "d1c0c1bd1757",
+   "t": "<FACE:72>¡Listo, decidido!"
+  },
+  {
+   "key": "script:0044:0AFD",
+   "src": "4aa64824fcf8",
+   "t": "<FACE:71>Yo me voy yendo, ¿sí?<NL>¡Ustedes háganlo bien!"
+  },
+  {
+   "key": "script:0044:0B28",
+   "src": "4da057cf49b8",
+   "t": "<FACE:03>Oye, mira eso…<WAIT><FACE:08>¡Rayos! ¡Escóndanse!"
+  },
+  {
+   "key": "script:0044:0B3F",
+   "src": "612af1d99ba3",
+   "t": "<FACE:00>Eso es sin duda…<WAIT><FACE:05>¿¡Otra vez la Banda<NL>Space Roborobo!?<WAIT><FACE:05>Y con ellos están<NL>los chicos de mi clase<WAIT><FACE:01>¿Qué estarán tramando?<NL>Mejor observemos…"
+  },
+  {
+   "key": "script:0044:0BA4",
+   "src": "be34c5533278",
+   "t": "<FACE:05>¿Y esa qué? ¿Será<NL>una oficial…?<WAIT>Con esa ropa tan<NL>chillona y ridícula…"
+  },
+  {
+   "key": "script:0044:0BD2",
+   "src": "ec77fc1cc5cf",
+   "t": "<FACE:71>¿¡Ri… ridícula!!!?<WAIT>¡Te oí!<NL>¿¡Quién es ridícula!?"
+  },
+  {
+   "key": "script:0044:0C00",
+   "src": "cc393fd87380",
+   "t": "<FACE:08>¡Qué oído tiene!"
+  },
+  {
+   "key": "script:0044:0C09",
+   "src": "aefe0a17df66",
+   "t": "<FACE:70>A ver, ustedes…<WAIT>¿Son los colegiales<NL>que nos estorban…?"
+  },
+  {
+   "key": "script:0044:0C31",
+   "src": "272b0baa1ff5",
+   "t": "<FACE:49>¡¿Cómo?! ¡Estorbar a<NL>tan bella señorita!"
+  },
+  {
+   "key": "script:0044:0C55",
+   "src": "1c266c669ee6",
+   "t": "<FACE:03>¿¡Eh!? No, esperen,<NL>ellos son…<WAIT><FACE:49>¡Y encima les dice<NL>«ellos»!<WAIT>¡Qué tipo eres,<NL><PLAYER>!"
+  },
+  {
+   "key": "script:0044:0C87",
+   "src": "2161a96be86a",
+   "t": "<FACE:04>No… es que…"
+  },
+  {
+   "key": "script:0044:0C94",
+   "src": "642c07a492f5",
+   "t": "<FACE:49>¡Mire bien, señorita!<WAIT>¡Nosotros la vamos a<NL>proteger!"
+  },
+  {
+   "key": "script:0044:0CBA",
+   "src": "92ebfa2df7de",
+   "t": "<FACE:72>¡Qué lindos!"
+  },
+  {
+   "key": "script:0044:0CC2",
+   "src": "4d4026a1a7e7",
+   "t": "<FACE:7D>¿A cuántos habrá hecho<NL>llorar así-robo…?"
+  },
+  {
+   "key": "script:0044:0CDC",
+   "src": "5a84c56265d8",
+   "t": "<FACE:49>Rayos, <PLAYER>…<NL>¿Desde cuándo tienes<WAIT>un Medabot tan fuerte?<WAIT><FACE:71>¡Bah! Ustedes solo<NL>eran facha y nada más"
+  },
+  {
+   "key": "script:0044:0D1D",
+   "src": "4c71ec9395a0",
+   "t": "<FACE:49>Se… señorita…"
+  },
+  {
+   "key": "script:0044:0D2B",
+   "src": "8bf34ed976ca",
+   "t": "<FACE:72>A·<DELAY:000A>ho·<DELAY:000A>ra·<DELAY:000A>bi·<DELAY:000A>en<DELAY:000A><WAIT>¡Oye, tú, muchachito!<NL>¡Qué guapito eres, eh!"
+  },
+  {
+   "key": "script:0044:0D68",
+   "src": "1dee8d30a0f3",
+   "t": "<FACE:05>Así es esa mujer<WAIT>A ustedes les vendría<NL>bien un escarmiento"
+  },
+  {
+   "key": "script:0044:0D91",
+   "src": "5dcffa793d6e",
+   "t": "<FACE:72>¿Te unes conmigo a la<NL>Banda Sperobo, guapo?<WAIT>¿Ah? ¿Que quién soy?"
+  },
+  {
+   "key": "script:0044:0DC3",
+   "src": "3c2df3f20e77",
+   "t": "<FACE:06>¡Nadie preguntó!"
+  },
+  {
+   "key": "script:0044:0DCD",
+   "src": "e91336578d84",
+   "t": "<FACE:71>¡Cállate!"
+  },
+  {
+   "key": "script:0044:0DD6",
+   "src": "e10af660d43d",
+   "t": "<FACE:72>¡Oh, jo jo jo jo!<NL>Mi nombre…<WAIT>Oficial de la Banda<NL>Space Roborobo:<WAIT>«The Ultimate<NL>Beautiful Madonna»<WAIT>¡La diosa suprema<NL>de la belleza!<WAIT>¡Sekiran del Mar!"
+  },
+  {
+   "key": "script:0044:0E2B",
+   "src": "1590b18aefbb",
+   "t": "<FACE:05>Eso de «The Ultimate»…<WAIT>Antes de vocal, «the»<NL>se dice «di»…"
+  },
+  {
+   "key": "script:0044:0E56",
+   "src": "fc7e8b382f3f",
+   "t": "<FACE:19>Y «Madonna» no es<NL>diosa, es «Virgen»"
+  },
+  {
+   "key": "script:0044:0E7E",
+   "src": "51d38a7ea978",
+   "t": "<FACE:71>¡Cállense ya!<NL>¡Da igual el detalle!<WAIT><FACE:72>¡Oye, tú, muchachito<NL>guapo!"
+  },
+  {
+   "key": "script:0044:0EB0",
+   "src": "1e3426d59cea",
+   "t": "<FACE:06>¡Oye!<WAIT>¡<PLAYER> jamás se<NL>iría contigo! ¿Verdad?"
+  },
+  {
+   "key": "script:0044:0ED5",
+   "src": "e690732d140f",
+   "t": "<FACE:03>S… sí…<WAIT><FACE:72>Mmm-jum…<WAIT>Pues el niño no se ve<NL>tan disgustado…<WAIT>En fin…<WAIT>Me gustas más que<NL>aquel colegial sombrío"
+  },
+  {
+   "key": "script:0044:0F24",
+   "src": "6b702b9075b4",
+   "t": "<FACE:04>¿Colegial sombrío?<WAIT><FACE:70>¡Eso, eso!<WAIT>El otro día atrapamos<NL>a un colegial sombrío<WAIT>más o menos de la edad<NL>de ustedes<WAIT>Mi compañero Smog dijo<NL>que prometía<WAIT>y se lo llevó…<WAIT>Entre sombríos quizá<NL>hasta se lleven bien"
+  },
+  {
+   "key": "script:0044:0FB3",
+   "src": "110dedad5a3d",
+   "t": "<FACE:05>¿Un tipo sombrío…?<WAIT><FACE:00>¿Será… Amamiya?"
+  },
+  {
+   "key": "script:0044:0FCF",
+   "src": "b0c1cf799f34",
+   "t": "<FACE:70>Uy, el nombre no me<NL>lo sé<WAIT><FACE:72>¡Como no era lindo, no<NL>me interesó!<WAIT><FACE:71>¡Igual que tú!"
+  },
+  {
+   "key": "script:0044:100D",
+   "src": "1541cf961a50",
+   "t": "<FACE:01>¡Y ustedes qué están<NL>haciendo aquí!<WAIT><FACE:72>¿Que qué? ¡Pues está<NL>clarísimo!<WAIT>¡Vamos a inundar esto<NL>y cortar el paso!<WAIT>¡Así ustedes no podrán<NL>seguir adelante!<WAIT><FACE:00>Por eso atacaban el<NL>tanque de agua…<WAIT>Pero si lo rompen…<WAIT>¿les dará tiempo de<NL>escapar a ustedes?"
+  },
+  {
+   "key": "script:0044:109F",
+   "src": "2039534bf24a",
+   "t": "<FACE:80>¡C… cierto-robo!<WAIT>Señora Sekiran, ¿qué<NL>pensaba hacer-robo?<WAIT><FACE:70>…Pues…"
+  },
+  {
+   "key": "script:0044:10D0",
+   "src": "d6b6a410bfad",
+   "t": "<FACE:71>¡Bah! ¡Ya qué!<NL>¡A robobatallar!"
+  },
+  {
+   "key": "script:0044:10E9",
+   "src": "4d6b7f79d982",
+   "t": "<FACE:81>¡No lo pensó-robooooo!"
+  },
+  {
+   "key": "script:0044:10FE",
+   "src": "7b078dc2b554",
+   "t": "<FACE:70>…Ni modo…<WAIT>¡Cancelo el plan de<NL>inundarlo todo!<WAIT>¡Tienen suerte, niños!"
+  },
+  {
+   "key": "script:0044:1139",
+   "src": "da872619f0eb",
+   "t": "<FACE:03>No, este… de todos<NL>modos no se podía…"
+  },
+  {
+   "key": "script:0044:1157",
+   "src": "8b8208385751",
+   "t": "<FACE:00>Hay que seguir"
+  },
+  {
+   "key": "script:0044:1164",
+   "src": "9c1734e83dbb",
+   "t": "<FACE:05><PLAYER>, ve a ver"
+  },
+  {
+   "key": "script:0044:1171",
+   "src": "ad7005fcbf34",
+   "t": "<FACE:0A>Vamos ya, apúrate"
+  },
+  {
+   "key": "script:0044:117E",
+   "src": "1c257a55f7bd",
+   "t": "<FACE:19>Me intriga el fondo"
+  },
+  {
+   "key": "script:0044:118E",
+   "src": "4b3e828476f5",
+   "t": "<FACE:14>¿Qué habrá allá<NL>al fondo?"
+  },
+  {
+   "key": "script:0044:119F",
+   "src": "4883a74d24e3",
+   "t": "<FACE:49>¡Raiu se unió<NL>al equipo!<WAIT><FACE:4A>¡Harou se unió<NL>al equipo!<WAIT><FACE:4B>¡Kikou se unió<NL>al equipo!"
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "part": "script/script_0040",
+ "entries": [
+  {
+   "key": "script:0040:0877",
+   "src": "311ed45755e3",
+   "t": "<FACE:05>¡Guaaau!<NL>¡Mira, mira, <PLAYER>!<WAIT><FACE:07>¡Qué mar tan bonito!<NL>Parece de verdad…"
+  },
+  {
+   "key": "script:0040:08A3",
+   "src": "da16aa22b8d9",
+   "t": "<FACE:05>Debí traer el traje<NL>de baño…<WAIT><FACE:00>¿Cómo puedes estar tan<NL>tranquila?"
+  },
+  {
+   "key": "script:0040:08DC",
+   "src": "47ca1e6939e2",
+   "t": "<FACE:03>¡Puguiaa!!"
+  },
+  {
+   "key": "script:0040:08E5",
+   "src": "3bd8476a3d2b",
+   "t": "<FACE:38>¡Ustedes!<NL>¡Un paso más y verán!<WAIT>¡Estamos en pleno<NL>entrenamiento serio!"
+  },
+  {
+   "key": "script:0040:0928",
+   "src": "8115a8733b58",
+   "t": "<FACE:03>¡Ah! La promesa del<NL>polo acuático: Tsumuji"
+  },
+  {
+   "key": "script:0040:0948",
+   "src": "6c56a6e098ba",
+   "t": "<FACE:00>¡Los Medabots de todo<NL>el Cluster atacan!<WAIT>¿Paran el entreno y<NL>revisamos el bloque?"
+  },
+  {
+   "key": "script:0040:0999",
+   "src": "5fa84e1b9d5f",
+   "t": "<FACE:38>Lo siento… no puedo<NL>permitirlo, <PLAYER>…<WAIT><FACE:04>¿Por qué? ¡Cada<NL>segundo cuenta!"
+  },
+  {
+   "key": "script:0040:09CB",
+   "src": "2bee4ec5714d",
+   "t": "<FACE:37>Eso… ¡no lo diré!"
+  },
+  {
+   "key": "script:0040:09DB",
+   "src": "9a83b4d9bf73",
+   "t": "<FACE:01>¿Que no lo dirás…?<NL>¡Eso es absurdo!"
+  },
+  {
+   "key": "script:0040:09F4",
+   "src": "1d750044b97d",
+   "t": "<FACE:3A>Je je… Tsumuji<NL><WAIT>¡Jamás entenderían la<NL>garra que le ponemos!"
+  },
+  {
+   "key": "script:0040:0A32",
+   "src": "eacd27d8f32e",
+   "t": "<FACE:01>¡Q-qué dices!<NL>Yo también tengo garra"
+  },
+  {
+   "key": "script:0040:0A4D",
+   "src": "d2a56f18a157",
+   "t": "<FACE:39>¿Será cierto?<WAIT><FACE:37>Pues esa garra… veamos"
+  },
+  {
+   "key": "script:0040:0A6C",
+   "src": "be86215da7d7",
+   "t": "<FACE:37>Tus amados Medabots…<NL>¡A robobatallar, pues!"
+  },
+  {
+   "key": "script:0040:0A96",
+   "src": "d1dc92df9f68",
+   "t": "<FACE:37>El fan número uno de<NL>Medabots tiene garra<WAIT><FACE:00>¿Y ahora nos dices por<NL>qué no pueden parar?"
+  },
+  {
+   "key": "script:0040:0AE8",
+   "src": "1064f044a379",
+   "t": "<FACE:37>Aquí el trío deportivo<NL>entrena en secreto<WAIT>Estamos obligadas a<NL>ganar siempre<WAIT>¡El torneo ya viene y<NL>urge un supergolpe!"
+  },
+  {
+   "key": "script:0040:0B61",
+   "src": "6c163071ebef",
+   "t": "<FACE:37>¡Mi Tiro Relámpago!<NL>"
+  },
+  {
+   "key": "script:0040:0B73",
+   "src": "d7bd958eb100",
+   "t": "<FACE:39>Yo tengo…<NL>Superclavado Taladro"
+  },
+  {
+   "key": "script:0040:0B88",
+   "src": "b829c14a0208",
+   "t": "<FACE:3A>¡Mi técnica es el<NL>Giro Mach!<WAIT><FACE:37>Una técnica en<NL>desarrollo es secreta<WAIT>¡Ni a un compañero de<NL>clase se la mostramos!"
+  },
+  {
+   "key": "script:0040:0BD4",
+   "src": "304d30c2ea39",
+   "t": "<FACE:04>Qué egoístas…<NL>¿Justo ahora entrenan?"
+  },
+  {
+   "key": "script:0040:0BF9",
+   "src": "99957d7c6b43",
+   "t": "<FACE:38>¡Qué cosas dices!<NL><WAIT>Las eliminatorias del<NL>torneo ya casi llegan<WAIT><FACE:39>Sí… ya no hay tiempo<WAIT><FACE:3A>De hecho, ni tiempo de<NL>venir al Cluster había<WAIT>Vinimos porque era<NL>actividad obligatoria…<WAIT><FACE:38>Y como no sabemos<NL>cuándo volveremos…<WAIT>¡solo nos queda tomar<NL>este lugar y entrenar!"
+  },
+  {
+   "key": "script:0040:0CCC",
+   "src": "1c45d47ac1a7",
+   "t": "<FACE:37>¡Alláaa vaaa!<NL>"
+  },
+  {
+   "key": "script:0040:0CD6",
+   "src": "1c45d47ac1a7",
+   "t": "<FACE:37>¡Alláaa vaaa!<NL>"
+  },
+  {
+   "key": "script:0040:0CE0",
+   "src": "6a1d331ad59f",
+   "t": "<FACE:38>¡Háganse a un lado!<NL><WAIT>¡No nos estorben,<NL>por favor!<WAIT><FACE:04>Pero por aquí también<NL>atacan los Medabots<WAIT>y la cosa se pone fea…"
+  },
+  {
+   "key": "script:0040:0D32",
+   "src": "b1ca09a448ce",
+   "t": "<FACE:37>¿Ah, sí?<NL><WAIT>Unos Medabots no son<NL>ningún problema"
+  },
+  {
+   "key": "script:0040:0D52",
+   "src": "07fefa029184",
+   "t": "<FACE:00>¡Escucha, ya vienen!"
+  },
+  {
+   "key": "script:0040:0D61",
+   "src": "58bbe9683051",
+   "t": "<FACE:38>¡Kiaaaaaaaaa!"
+  },
+  {
+   "key": "script:0040:0D6E",
+   "src": "b5885c40530e",
+   "t": "<FACE:38>¡Tiirooooo…"
+  },
+  {
+   "key": "script:0040:0D7C",
+   "src": "dad3ff2e2e9e",
+   "t": "<FACE:38>¡Relaaampagooo!"
+  },
+  {
+   "key": "script:0040:0D88",
+   "src": "33ea054deb46",
+   "t": "<FACE:0B>¡Increíble!<NL><WAIT><FACE:0A>¡Así los derriba a<NL>todos en un segundo!"
+  },
+  {
+   "key": "script:0040:0DAC",
+   "src": "2b1ca7cc50eb",
+   "t": "<FACE:38>T-tú no serás…<NL>¡¿de otra escuela?!"
+  },
+  {
+   "key": "script:0040:0DD0",
+   "src": "04d9fb6e4446",
+   "t": "<FACE:0C>Sí, me llamo Fubuki<NL><WAIT>Qué tremendo tu Tiii…"
+  },
+  {
+   "key": "script:0040:0DF4",
+   "src": "dfe10c5d14c5",
+   "t": "<FACE:38>¡Uooooooooh!<NL>¡Qué desgracia!<WAIT>¡Ante un espía de otra<NL>escuela, mi técnica…<WAIT>¡Ya no puedo usar el<NL>Tiro Relámpago!<WAIT>¡Hay que crear ya el<NL>Tiro Relámpago 2!"
+  },
+  {
+   "key": "script:0040:0E60",
+   "src": "fdbac01b7300",
+   "t": "<FACE:03>¡Volvieron otra veeez!<NL><WAIT><FACE:04>Y encima son más…"
+  },
+  {
+   "key": "script:0040:0E80",
+   "src": "b391ebd90953",
+   "t": "<FACE:37>Vimos cómo pelearon<NL><WAIT>A diferencia nuestra,<NL>no tienen talento…<WAIT>pero salen adelante<NL>con puras agallas…<WAIT>Creo que estábamos<NL>equivocadas…<WAIT>A nosotras nos sobra<NL>talento, ¡y basta!<WAIT>En vez de pulir<NL>nuestro talento,<WAIT>¡les ayudaremos a<NL>ustedes!"
+  },
+  {
+   "key": "script:0040:0F38",
+   "src": "7f07a98a04cf",
+   "t": "<FACE:04>Pues…<WAIT><FACE:09>No sé si alegrarme…"
+  },
+  {
+   "key": "script:0040:0F53",
+   "src": "fc6bf243c2cd",
+   "t": "<FACE:05>Aaah, qué ganas de<NL>nadar, ¿no, <PLAYER>?"
+  },
+  {
+   "key": "script:0040:0F65",
+   "src": "74dc4129dd36",
+   "t": "<FACE:0A>¿Qué habrá más allá?"
+  },
+  {
+   "key": "script:0040:0F7B",
+   "src": "7fe479e4fc18",
+   "t": "<FACE:00>Hay que avanzar"
+  },
+  {
+   "key": "script:0040:0F87",
+   "src": "dd66c67d50a9",
+   "t": "<FACE:37>¡Tsumuji se unió<NL>al equipo!<WAIT><FACE:39>¡Soyoka se unió<NL>al equipo!<WAIT><FACE:3A>¡Kosame se unió<NL>al equipo!"
+  },
+  {
+   "key": "script:0040:0FBC",
+   "src": "4ca06d75dd4c",
+   "t": "<FACE:02>Mmm… qué rico…<WAIT><FACE:00>…No es momento para<NL>decir eso, ¿verdad?"
+  },
+  {
+   "key": "script:0040:0FE7",
+   "src": "2ad2bf962ca5",
+   "t": "<FACE:04>Pero eso no fue ganar<NL>en robobatalla…"
+  }
+ ]
+}

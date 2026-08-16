@@ -1,0 +1,100 @@
+{
+ "part": "script/script_0084",
+ "entries": [
+  {
+   "key": "script:0084:0504",
+   "src": "8b11f980e2ed",
+   "t": "<FACE:08>¡Guaaaaaau!<NL>¡Qué flor tan enorme!"
+  },
+  {
+   "key": "script:0084:051A",
+   "src": "239d653dbd3c",
+   "t": "<FACE:05>¡Es como si fuéramos<NL>insectos, <PLAYER>!"
+  },
+  {
+   "key": "script:0084:052F",
+   "src": "25ea972dade7",
+   "t": "<FACE:00>¡Sí! ¡Increíble!<NL><WAIT>Esto es… ¿un campo<NL>de pruebas para los<WAIT>Medabots con forma<NL>de insecto?"
+  },
+  {
+   "key": "script:0084:0563",
+   "src": "25acea14fa36",
+   "t": "<FACE:0A>¡Así es!<NL>Al simular el mundo<WAIT>de los insectos<NL>buscan crear Medabots<WAIT>insecto más realistas"
+  },
+  {
+   "key": "script:0084:059F",
+   "src": "b83bd1b475d7",
+   "t": "<FACE:03>De este tamaño se<NL>siente una fuerza<WAIT>vital impresionante…"
+  },
+  {
+   "key": "script:0084:05C0",
+   "src": "f39c6cbfe8ea",
+   "t": "<FACE:09>¿Y ese ambiente tan<NL>desagradable de ahora?<NL>"
+  },
+  {
+   "key": "script:0084:05D8",
+   "src": "85f220943a3b",
+   "t": "<FACE:05>Como que…<NL>el paisaje se ve<WAIT>descolorido…"
+  },
+  {
+   "key": "script:0084:05F4",
+   "src": "1013a6dc28d7",
+   "t": "<FACE:03>¡Ah!<NL>¡Smog, el Jefe<WAIT>enfermizo de la<NL>Banda Sperobo!<WAIT><FACE:75>Fu… perdón por ser<NL>tan enfermizo…<WAIT>Cof, cof… ugh<NL><WAIT><FACE:04>Te ves peor que de<NL>costumbre, ¿qué pasó?<WAIT><FACE:75>Mm… parece que me<NL>resfrié…<NL>"
+  },
+  {
+   "key": "script:0084:066D",
+   "src": "35df93c559a4",
+   "t": "<FACE:75>Este Bloque está<NL>lleno de fuerza vital<NL>"
+  },
+  {
+   "key": "script:0084:0688",
+   "src": "4b3eff6255b2",
+   "t": "<FACE:75>Pensé absorberla<NL>para curarme, pero…"
+  },
+  {
+   "key": "script:0084:06A7",
+   "src": "78a414ac4bff",
+   "t": "<FACE:05>Con razón las flores<NL>perdieron su vida…<WAIT>Eres como Drácula…<WAIT><FACE:00>¿Y aunque absorbas<NL>todo no te curas?<WAIT><FACE:75>Así es… cof, cof<NL><WAIT>Pero hallé una fuente<NL>mucho mejor…<WAIT>Cof… cof… ya la<NL>encontré…"
+  },
+  {
+   "key": "script:0084:0720",
+   "src": "fd016dcae987",
+   "t": "<FACE:03>¿Eh? ¿Dónde?<WAIT><FACE:75>Jujuju… son ustedes<NL>Cof, cof…"
+  },
+  {
+   "key": "script:0084:0746",
+   "src": "c40ec33561fc",
+   "t": "<FACE:75>Los haré mis secuaces<NL>y esa fuerza vital…<WAIT>cof… ¡la absorberé<NL>toda!<WAIT><FACE:77>Cof, cof…"
+  },
+  {
+   "key": "script:0084:0784",
+   "src": "071576594a19",
+   "t": "<FACE:75>Fu… con esa acalorada<NL>robobatalla<WAIT>el cuerpo se me puso<NL>caliente…<WAIT>Por ahora, cof… me<NL>voy a retirar"
+  },
+  {
+   "key": "script:0084:07C0",
+   "src": "139712b7d43f",
+   "t": "<FACE:04>Si sigo con esto,<NL>Hiyori me va a…"
+  },
+  {
+   "key": "script:0084:07D4",
+   "src": "a9e41f5b0c0c",
+   "t": "<FACE:05>Este Bloque se ve<NL>interesante"
+  },
+  {
+   "key": "script:0084:07E5",
+   "src": "a02981f93052",
+   "t": "<FACE:0A>Aun así, no se ven<NL>Medabots insecto<WAIT>por ningún lado"
+  },
+  {
+   "key": "script:0084:0801",
+   "src": "db05295f8273",
+   "t": "<FACE:19>Hay Bloques de todo<NL>tipo, ¿verdad?"
+  },
+  {
+   "key": "script:0084:0817",
+   "src": "f9464b74131b",
+   "t": "<FACE:14>¿Así ven el mundo los<NL>bichos, pues?"
+  }
+ ]
+}

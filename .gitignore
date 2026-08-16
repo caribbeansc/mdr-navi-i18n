@@ -1,0 +1,28 @@
+# The game itself, in any form. This repository must never contain it.
+*.gba
+*.sav
+*.sgm
+*.ips
+*.bps
+
+# Everything derived from your own dump.
+build/
+dist/
+work/
+
+# Where your copy of the game is; personal, not shared.
+navi.config.json
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# Editors and OS noise
+.DS_Store
+.vscode/
+.idea/
+
+# Local tool builds
+tools/gbashot

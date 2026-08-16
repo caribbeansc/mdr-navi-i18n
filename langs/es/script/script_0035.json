@@ -1,0 +1,220 @@
+{
+ "part": "script/script_0035",
+ "entries": [
+  {
+   "key": "script:0035:0DC5",
+   "src": "b1617013316c",
+   "t": "<FACE:3A>En la estación Cluster<NL>a la que vamos<WAIT>exhiben el Medabot<NL>que <PLAYER> encontró<WAIT>en la cueva, ¿verdad?"
+  },
+  {
+   "key": "script:0035:0E05",
+   "src": "b378db381081",
+   "t": "<FACE:00>Sí, Murasame Shiden,<NL>que lo halló conmigo,<WAIT>es el medaguerrero más<NL>popular del ranking<WAIT>de RR, la empresa que<NL>construyó el Cluster<WAIT>Por eso me sugirió que<NL>lo estudiaran a fondo"
+  },
+  {
+   "key": "script:0035:0E78",
+   "src": "3b1afdd6aa0e",
+   "t": "<FACE:2E>Gracias a eso nos<NL>invitaron a todos<WAIT>a la inauguración del<NL>parque «Cluster»"
+  },
+  {
+   "key": "script:0035:0EB7",
+   "src": "626d2d784af9",
+   "t": "<FACE:00>La compañía RR no solo<NL>lleva el ranking<WAIT>También mide el poder<NL>de cada medaparte<WAIT>y guarda datos de cada<NL>medaguerrero…<WAIT>Estudian todo dato<NL>sobre los Medabots<WAIT>Dijeron que podría ser<NL>un gran hallazgo:<WAIT>quizá revele secretos<NL>de los Medabots<WAIT><FACE:02>Me lo agradecieron<NL>muchísimo"
+  },
+  {
+   "key": "script:0035:0F4E",
+   "src": "9d8dbbbb603e",
+   "t": "<FACE:36>¡<PLAYER>, qué genial!<NL><WAIT>¡Saliste en el diario<NL>y ya eres famoso!"
+  },
+  {
+   "key": "script:0035:0F7C",
+   "src": "610ebe4dd8a6",
+   "t": "<FACE:07>Jiji, es verdad"
+  },
+  {
+   "key": "script:0035:0F86",
+   "src": "a4b7d79e2f31",
+   "t": "<FACE:23>(¡Hmpf!)<NL><WAIT>(¡Solo tuvo suerte<NL> y ya se cree héroe!)<WAIT>(¡Opacarme a mí, el<NL> presidente, jamás!)"
+  },
+  {
+   "key": "script:0035:0FDB",
+   "src": "fb9093c66bbc",
+   "t": "<FACE:22>(Pero eso le durará<NL> muy poco…)<WAIT>(¡Ya verás, <PLAYER>!)"
+  },
+  {
+   "key": "script:0035:100D",
+   "src": "6e82df01c756",
+   "t": "<FACE:01>¿Pero qué rayos<NL>fue eso?"
+  },
+  {
+   "key": "script:0035:101C",
+   "src": "3fe741d17f6a",
+   "t": "<FACE:05>(…Esto es obra del<NL> presidente)"
+  },
+  {
+   "key": "script:0035:1034",
+   "src": "d0f0987ccaa5",
+   "t": "<FACE:05>(<PLAYER> de verdad<NL> que es despistado…)"
+  },
+  {
+   "key": "script:0035:104E",
+   "src": "6bb913c053ab",
+   "t": "<FACE:06>(…Pero al presidente<NL> habrá que apretarlo)"
+  },
+  {
+   "key": "script:0035:1076",
+   "src": "a479cb75e5fe",
+   "t": "<FACE:22>¡Nada de desviarse<NL>del camino, todos!<WAIT>¡Esto es un viaje<NL>de estudios!<WAIT>¡No vamos de paseo!"
+  },
+  {
+   "key": "script:0035:10BB",
+   "src": "dcadc7d44824",
+   "t": "<FACE:06>Cómo me choca ese…<NL><WAIT>Da órdenes como si<NL>fuera el dueño de todo"
+  },
+  {
+   "key": "script:0035:10E7",
+   "src": "3c79cb1a562a",
+   "t": "<FACE:23>¡Ustedes! ¡Guarden<NL>silencio!"
+  },
+  {
+   "key": "script:0035:10F7",
+   "src": "27a859e10711",
+   "t": "<FACE:03>P-perdón…"
+  },
+  {
+   "key": "script:0035:1104",
+   "src": "6a72d3943b39",
+   "t": "<FACE:06>Hmpf"
+  },
+  {
+   "key": "script:0035:110B",
+   "src": "e5d3cb05fee4",
+   "t": "<FACE:03>(¿Y por qué tengo<NL> que disculparme yo?)"
+  },
+  {
+   "key": "script:0035:1120",
+   "src": "529d975ca589",
+   "t": "<FACE:22><PLAYER>, ¿tienes un<NL>momento?"
+  },
+  {
+   "key": "script:0035:1131",
+   "src": "8793503f6a7d",
+   "t": "<FACE:00>¿Q-qué pasa?"
+  },
+  {
+   "key": "script:0035:113C",
+   "src": "137c3fba1c84",
+   "t": "<FACE:07>¿A dónde se fue<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0035:114C",
+   "src": "694b8208b607",
+   "t": "<FACE:36>¿Eh?<NL><WAIT>Hace rato hablaba con<NL>el presidente, creo"
+  },
+  {
+   "key": "script:0035:1173",
+   "src": "9bdadfbdf8f3",
+   "t": "<FACE:05>Mmm…"
+  },
+  {
+   "key": "script:0035:117C",
+   "src": "ac1f3b5d70b1",
+   "t": "<FACE:04>¿Y este lugar…?<NL><WAIT>¿Estará bien entrar<NL>así nomás?"
+  },
+  {
+   "key": "script:0035:119B",
+   "src": "1257c37941b2",
+   "t": "<FACE:01>¡Y la hora de salida<NL>ya casi llega!"
+  },
+  {
+   "key": "script:0035:11B2",
+   "src": "5d613966c9e3",
+   "t": "<FACE:04>Qué problema…"
+  },
+  {
+   "key": "script:0035:11F8",
+   "src": "c584cc6d8db5",
+   "t": "<FACE:06>Caer en una trampa tan<NL>obvia… Qué torpe eres"
+  },
+  {
+   "key": "script:0035:121C",
+   "src": "8c01b526a8e2",
+   "t": "<FACE:04>(Me salvaron, pero<NL> no logro alegrarme…)"
+  },
+  {
+   "key": "script:0035:123C",
+   "src": "00b84d0c62e4",
+   "t": "<FACE:22>Ya están todos aquí<NL><WAIT>¡Solo faltabas tú!"
+  },
+  {
+   "key": "script:0035:1258",
+   "src": "ec7fdc317862",
+   "t": "<FACE:04>Mmmh…"
+  },
+  {
+   "key": "script:0035:1260",
+   "src": "d0bd2081df69",
+   "t": "<FACE:04>¿Por qué el presidente<NL>estaría aquí…?"
+  },
+  {
+   "key": "script:0035:1284",
+   "src": "12295369a3b8",
+   "t": "<FACE:06>¡Ya, qué tanto haces!<NL><WAIT>¡Me adelanto!"
+  },
+  {
+   "key": "script:0035:12A2",
+   "src": "065a0d0801b1",
+   "t": "<FACE:03>E-espera… ¡Esperaaa!"
+  },
+  {
+   "key": "script:0035:12B4",
+   "src": "c41bc7ca90aa",
+   "t": "<FACE:03>¡La cortina está<NL>cerrada!"
+  },
+  {
+   "key": "script:0035:12C4",
+   "src": "7bfc6718f5c2",
+   "t": "<FACE:03>¡Oiga, presidente!<NL><WAIT>¡¿Dónde estáaas?!"
+  },
+  {
+   "key": "script:0035:12E8",
+   "src": "be6136262a50",
+   "t": "<FACE:03>¡Uaah!"
+  },
+  {
+   "key": "script:0035:12EF",
+   "src": "fffa8ebf7e66",
+   "t": "<FACE:3E>Bueno, hasta mañana<WAIT><FACE:00>Sí, hasta mañana"
+  },
+  {
+   "key": "script:0035:1309",
+   "src": "95a9825ff1ea",
+   "t": "<FACE:03>¡Me amarraron los<NL>cordones entre sí!<WAIT><FACE:01>¡¿Quién hizo algo<NL>tan cruel?!"
+  },
+  {
+   "key": "script:0035:1330",
+   "src": "367da79af25a",
+   "t": "<FACE:04>Mira que citarme<NL>en un lugar así…"
+  },
+  {
+   "key": "script:0035:1345",
+   "src": "23dc2af726cf",
+   "t": "<FACE:04>¿De quién será<NL>esta carta?<WAIT><FACE:02>…¿Y si al final es<NL>de una chica?"
+  },
+  {
+   "key": "script:0035:136F",
+   "src": "fcd1c7e56fb9",
+   "t": "<FACE:00>¿Mm?"
+  },
+  {
+   "key": "script:0035:1374",
+   "src": "5158ccef5090",
+   "t": "<FACE:03>¡Aaaaah!<NL>¡Una orugaaaa!"
+  },
+  {
+   "key": "script:0035:1387",
+   "src": "4e18e7100450",
+   "t": "<FACE:00>A ver…<NL>¿Olvido algo…?"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "part": "script/script_0063",
+ "entries": [
+  {
+   "key": "script:0063:04CA",
+   "src": "e18c379d25f9",
+   "t": "<FACE:08>¡Qué caloooor!<NL>¡Qué es este calor!<WAIT><FACE:06>Aunque sea para probar<NL>Medabots…<WAIT>¡mira que copiar el<NL>calor del desierto!"
+  },
+  {
+   "key": "script:0063:0513",
+   "src": "e8922a609053",
+   "t": "<FACE:05><PLAYER>!<NL><WAIT>Aquí no va a haber<NL>nadie<WAIT>¡Revisemos rápido y<NL>sigamos adelante!"
+  },
+  {
+   "key": "script:0063:0544",
+   "src": "84397b738140",
+   "t": "<FACE:01>…Si ella ayudara<NL>terminaríamos antes…<WAIT><FACE:06>¿Dijiste algo?"
+  },
+  {
+   "key": "script:0063:056B",
+   "src": "b24d3270ac18",
+   "t": "<FACE:03>N-no, ¡nada, nada!"
+  },
+  {
+   "key": "script:0063:0579",
+   "src": "2a4297566988",
+   "t": "<FACE:14>¡Aaaalto ahí!<NL><WAIT>Je je je… <PLAYER><NL>¡de aquí no pasas!<WAIT><FACE:19>¡Este sitio nos lo<NL>quedamos nosotros!"
+  },
+  {
+   "key": "script:0063:05B5",
+   "src": "da5ab353674c",
+   "t": "<FACE:05>Ustedes dos…<NL>¿por qué están en un<WAIT>lugar tan caluroso?"
+  },
+  {
+   "key": "script:0063:05D3",
+   "src": "8347e68bd7fb",
+   "t": "<FACE:1A>¡C-cállese usted!<NL>¡Este calor nos gusta!"
+  },
+  {
+   "key": "script:0063:05F7",
+   "src": "20f7bdbe6cad",
+   "t": "<FACE:14>¡Eso, eso!<NL><WAIT>¡Un hombre aguanta la<NL>naturaleza más dura!"
+  },
+  {
+   "key": "script:0063:0633",
+   "src": "9415410a6fde",
+   "t": "<FACE:07>¡Ay, perdón!<NL>Pensé que los demás<WAIT>los habían echado<NL>del grupo<WAIT>¡y que solo podían<NL>estar aquí!"
+  },
+  {
+   "key": "script:0063:066F",
+   "src": "a61a8c6c8a87",
+   "t": "<FACE:15>¡C-cállate ya!<NL><WAIT>¡Esa gente sin agallas<NL>no nos hace falta!<WAIT>¿Qué tiene de bueno<NL>andar en manada?"
+  },
+  {
+   "key": "script:0063:06B4",
+   "src": "8400db472355",
+   "t": "<FACE:0A>Mmm… Con gente así<NL>cuesta poner orden…"
+  },
+  {
+   "key": "script:0063:06D7",
+   "src": "94d0b07021f1",
+   "t": "<FACE:14>¿Eh? ¿Y esa cara<NL>que no conozco?<WAIT><FACE:19>¿Y este quién es?"
+  },
+  {
+   "key": "script:0063:06F7",
+   "src": "bbb5dfff36cd",
+   "t": "<FACE:00>Ah… Él es Fubu…"
+  },
+  {
+   "key": "script:0063:0706",
+   "src": "c9378199488b",
+   "t": "<FACE:0D>Vine de visita igual<NL>que ustedes y quedé<WAIT>atrapado en todo esto<WAIT><FACE:0A>Ahora ando con este<NL><PLAYER>…<WAIT>Ustedes también<NL>deberían ayudarlo"
+  },
+  {
+   "key": "script:0063:0769",
+   "src": "af23e48053d3",
+   "t": "<FACE:15>¿Un forastero, eh?<NL><WAIT>¡Si quieres nuestra<NL>ayuda, gánanos antes!"
+  },
+  {
+   "key": "script:0063:0795",
+   "src": "d435e6ab9b07",
+   "t": "<FACE:1B>¡Puro palabrerío!<NL>¡Un cobarde que ni<WAIT>sabe robobatallar!"
+  },
+  {
+   "key": "script:0063:07BA",
+   "src": "e25152ad1ae9",
+   "t": "<FACE:0B>Je… Dicho eso, no me<NL>queda más que pelear…"
+  },
+  {
+   "key": "script:0063:07E2",
+   "src": "2ac15032beea",
+   "t": "<FACE:0A>Muy bien, <PLAYER><NL>Me ayudarás, ¿verdad?"
+  },
+  {
+   "key": "script:0063:07F9",
+   "src": "f035dcbedc54",
+   "t": "<FACE:0A>Los dos tienen buenos<NL>Medabots, pero no hay<WAIT>nada de trabajo en<NL>equipo<WAIT>Uno debe ser el líder<NL>y guiar al equipo…<WAIT>En robobatalla por<NL>equipos no se pelea<WAIT>cada uno por su lado"
+  },
+  {
+   "key": "script:0063:0859",
+   "src": "680dab239a98",
+   "t": "<FACE:14>…<WAIT><FACE:1D>…<WAIT><FACE:0B>¿Mm? ¿Qué pasa?<NL>¿Otra pelea?"
+  },
+  {
+   "key": "script:0063:087C",
+   "src": "350226ead923",
+   "t": "<FACE:19>¡Lo subestimamos!<NL><WAIT>¡Nosotros también<NL>sentíamos que nos<WAIT>faltaba un líder!"
+  },
+  {
+   "key": "script:0063:08AF",
+   "src": "e325ff6a39d9",
+   "t": "<FACE:18>Nosotros…<NL><WAIT>¡Nos quedamos en este<NL>sitio tan varonil<WAIT>para buscar a alguien<NL>digno de ser líder!"
+  },
+  {
+   "key": "script:0063:08ED",
+   "src": "f1e739b592a4",
+   "t": "<FACE:14>¡Tú eres nuestro<NL>líder!<WAIT>¿Quieres… quieres ser<NL>nuestro líder?"
+  },
+  {
+   "key": "script:0063:0921",
+   "src": "6f2b3f607511",
+   "t": "<FACE:0D>¡O-oigan! ¡Basta ya!"
+  },
+  {
+   "key": "script:0063:0932",
+   "src": "7c3b70fc2e9a",
+   "t": "<FACE:14>¡No te suelto!<NL>¡No te suelto, líder!<WAIT><FACE:19>¡Y-yo también lo sigo<NL>hasta el fin!"
+  },
+  {
+   "key": "script:0063:0964",
+   "src": "a385e2f3a100",
+   "t": "<FACE:0D>¡Aah…! ¡Oigan!<NL><WAIT><FACE:0B>¡Basta ya!<NL>¡Qué asco!<WAIT><FACE:14>¿Pero qué dices?<NL>¡Es la bella amistad<WAIT>entre hombres!"
+  },
+  {
+   "key": "script:0063:09A1",
+   "src": "3e719abed577",
+   "t": "<FACE:04>Hiyori… ese sonido,<NL>no me digas que…<WAIT><FACE:05>Ya sabía que no sería<NL>gratis…<WAIT>Así, Fubuki no va a<NL>poder participar"
+  },
+  {
+   "key": "script:0063:09E6",
+   "src": "9b3b5828459c",
+   "t": "<FACE:0D>¡Miren! ¡Por ustedes<NL>me perdí la<WAIT>robobatalla!<WAIT><FACE:07>No pasa nada, Fubuki<NL>Hacen linda pareja"
+  },
+  {
+   "key": "script:0063:0A2C",
+   "src": "236532534ebe",
+   "t": "<FACE:16>¡Hiyori dice cosas<NL>muy sabias!"
+  },
+  {
+   "key": "script:0063:0A40",
+   "src": "aa0fd659ad70",
+   "t": "<FACE:0D>¡Ay, ya basta!<NL>¡Hagan lo que quieran!"
+  },
+  {
+   "key": "script:0063:0A55",
+   "src": "45fc7bf3760b",
+   "t": "<FACE:05>Qué calor…<NL>¿No se puede arreglar?"
+  },
+  {
+   "key": "script:0063:0A6C",
+   "src": "93aac8bc5dda",
+   "t": "<FACE:0A>Ni modo… También hará<NL>falta un bloque así"
+  },
+  {
+   "key": "script:0063:0A88",
+   "src": "f0388939ef03",
+   "t": "<FACE:0A>¿No les afectará este<NL>calor a los Medabots?"
+  },
+  {
+   "key": "script:0063:0AA4",
+   "src": "918cab25ff1e",
+   "t": "<FACE:00>Hay que revisar qué<NL>hay por aquí"
+  },
+  {
+   "key": "script:0063:0AB5",
+   "src": "d7d7bbbb8888",
+   "t": "<FACE:19>¡Mizore se unió al<NL>grupo!<WAIT><FACE:14>¡Gousetsu se unió al<NL>grupo!"
+  }
+ ]
+}

@@ -1,0 +1,385 @@
+{
+ "part": "script/script_0068",
+ "entries": [
+  {
+   "key": "script:0068:09F4",
+   "src": "e693e513e50f",
+   "t": "<FACE:00>Con tantos rincones<NL>cualquiera se esconde"
+  },
+  {
+   "key": "script:0068:0A20",
+   "src": "69f3e0e5fe22",
+   "t": "<FACE:0C>Vaya, qué interesante"
+  },
+  {
+   "key": "script:0068:0A2F",
+   "src": "a2b980308ae5",
+   "t": "<FACE:0C>Entonces nosotros<NL>vamos por nuestro lado"
+  },
+  {
+   "key": "script:0068:0A4B",
+   "src": "f968331777e2",
+   "t": "<FACE:03>¿Eh?<NL>"
+  },
+  {
+   "key": "script:0068:0A52",
+   "src": "155c4d4c3f9b",
+   "t": "<FACE:03>¡Ah, esperen…!<NL>"
+  },
+  {
+   "key": "script:0068:0A5F",
+   "src": "f130e9b65cc1",
+   "t": "<FACE:01>Si nos separamos aquí<NL>nos perdemos seguro…"
+  },
+  {
+   "key": "script:0068:0A88",
+   "src": "521b627d8f3e",
+   "t": "<FACE:05>¡Tranquilo!<NL><WAIT><FACE:07>Tengo mis «MiraMira»<NL>que pedí por catálogo"
+  },
+  {
+   "key": "script:0068:0AB5",
+   "src": "046ed180ea96",
+   "t": "<FACE:01>No te fíes de esas<NL>cosas, por favor…"
+  },
+  {
+   "key": "script:0068:0ACC",
+   "src": "9bbb3bab701d",
+   "t": "<FACE:00>¿Qué pasa, Hiyori?"
+  },
+  {
+   "key": "script:0068:0AD9",
+   "src": "9b555b071583",
+   "t": "<FACE:05>¡Silencio!<NL><WAIT>¿No escuchan algo?"
+  },
+  {
+   "key": "script:0068:0AF3",
+   "src": "8ffdea0a7cf2",
+   "t": "<FACE:59>¡Aaayudaaa-robo!"
+  },
+  {
+   "key": "script:0068:0AFF",
+   "src": "85df66fa06f1",
+   "t": "<FACE:03>¿Alguien pide ayuda?<WAIT><FACE:05>Suena algo raro, ¿no?<WAIT><FACE:00>¡Vamos a ver!"
+  },
+  {
+   "key": "script:0068:0B38",
+   "src": "8915490dc4a9",
+   "t": "<FACE:05>¿Qué es eso?<WAIT><FACE:04>…Ni idea…"
+  },
+  {
+   "key": "script:0068:0B4A",
+   "src": "252a1b94ff34",
+   "t": "<FACE:81>¡Me da miedo bajar<NL>más de aquí-robo!<WAIT>¡Ayúdenme-robo!"
+  },
+  {
+   "key": "script:0068:0B6E",
+   "src": "277a36fc085a",
+   "t": "<FACE:05>¿Robo? ¿Qué es eso?<WAIT><FACE:00>¿Estará de moda?"
+  },
+  {
+   "key": "script:0068:0B8B",
+   "src": "9cd9daf5d164",
+   "t": "<FACE:7E>¡Pedí ayuda y nadie<NL>me ayuda-robo!<WAIT>¡Ya no importa-robo!<NL><WAIT>¡Que a esa gente mala<NL>le vaya muy mal-robo!"
+  },
+  {
+   "key": "script:0068:0BD3",
+   "src": "14c9fff3bac7",
+   "t": "<FACE:7D>Robo robo, robo robo"
+  },
+  {
+   "key": "script:0068:0BDF",
+   "src": "aa5ed8363375",
+   "t": "<FACE:08>¿¡Qué!?"
+  },
+  {
+   "key": "script:0068:0BE7",
+   "src": "45b1efb20ab3",
+   "t": "<FACE:01>¿Quiénes son ustedes?"
+  },
+  {
+   "key": "script:0068:0BF4",
+   "src": "b0764a25f11b",
+   "t": "<FACE:01>¿Qué está pasando…?"
+  },
+  {
+   "key": "script:0068:0C05",
+   "src": "b918d75beed4",
+   "t": "<FACE:6C>¡Yo soy oficial de la<NL>Banda Space Robo Robo,<WAIT>el Nyuudou del monte!<WAIT><FACE:04>¿¡Banda Space Robo<NL>Robo!?<WAIT><FACE:6C>Para abreviar, la<NL>Banda Sperobo<WAIT>¡El grupo malvado que<NL>domina el universo!"
+  },
+  {
+   "key": "script:0068:0C68",
+   "src": "d27737bb005b",
+   "t": "<FACE:01>Nunca escuché de eso"
+  },
+  {
+   "key": "script:0068:0C7B",
+   "src": "c31e39f5356c",
+   "t": "<FACE:6C>¡Es natural!<NL><WAIT>Nosotros actuamos<NL>allá en el espacio<WAIT>Los humanos de la<NL>Tierra no nos conocen"
+  },
+  {
+   "key": "script:0068:0CC5",
+   "src": "95b64544b0a1",
+   "t": "<FACE:03>¿¡Y de eso presumes!?"
+  },
+  {
+   "key": "script:0068:0CD7",
+   "src": "7bd0ca1bc40b",
+   "t": "<FACE:6D>¡Silencio!<WAIT><FACE:01>¿Qué quiere esa Banda<NL>Sperobo de nosotros?<WAIT>¡Suelta a Hiyori!"
+  },
+  {
+   "key": "script:0068:0D0D",
+   "src": "2196e7934226",
+   "t": "<FACE:6C>Nuestro objetivo es<NL>dominar el universo"
+  },
+  {
+   "key": "script:0068:0D2C",
+   "src": "8d7034a1468b",
+   "t": "<FACE:6C>Primero tomaremos<NL>este Cluster entero"
+  },
+  {
+   "key": "script:0068:0D4A",
+   "src": "01878f9b9e26",
+   "t": "<FACE:6C>Parece que aquí solo<NL>quedaron niños<WAIT>Los niños sirven de<NL>mano de obra<WAIT>Nos los llevaremos<NL>para que nos sirvan"
+  },
+  {
+   "key": "script:0068:0D9E",
+   "src": "ca9cb22c6e71",
+   "t": "<FACE:01>¿¡Ustedes mandaron el<NL>Cluster a la deriva!?"
+  },
+  {
+   "key": "script:0068:0DBF",
+   "src": "1d855e12831a",
+   "t": "<FACE:08>¡Qué barbaridad!<WAIT><FACE:06>¡¿Quién obedecería a<NL>unos malvados así?!<WAIT><FACE:6C>¡Hacerse el valiente<NL>no sirve!<WAIT>¡Con la niña de rehén<NL>no puedes hacer nada!"
+  },
+  {
+   "key": "script:0068:0E29",
+   "src": "31429cd4d10c",
+   "t": "<FACE:01>Grr…"
+  },
+  {
+   "key": "script:0068:0E2E",
+   "src": "973567d83bc3",
+   "t": "<FACE:6C>¡Vamos!<NL>¡Ríndete tú también!<WAIT>¡Ustedes, andando!<WAIT><FACE:7D>Robo robo, robo robo"
+  },
+  {
+   "key": "script:0068:0E64",
+   "src": "4055291edb1e",
+   "t": "<FACE:01>(¿Nada que hacer…?)"
+  },
+  {
+   "key": "script:0068:0E74",
+   "src": "1520ae6b8a8e",
+   "t": "<FACE:14>¡Oye, viejo!<NL>¡Te olvidaste de uno!"
+  },
+  {
+   "key": "script:0068:0E90",
+   "src": "3cdb541097d6",
+   "t": "<FACE:80>¡Ayyy… robooo…!"
+  },
+  {
+   "key": "script:0068:0E9C",
+   "src": "e7f1925e6b65",
+   "t": "<FACE:14>Por acá ya terminamos"
+  },
+  {
+   "key": "script:0068:0EAA",
+   "src": "07bf2d5b686d",
+   "t": "<FACE:80>¡Aaah-robo!"
+  },
+  {
+   "key": "script:0068:0EB3",
+   "src": "3dbb9b0eba23",
+   "t": "<FACE:19>¡Acá también terminé!"
+  },
+  {
+   "key": "script:0068:0EC5",
+   "src": "b71488d3b3a8",
+   "t": "<FACE:0A>Ya estamos parejos"
+  },
+  {
+   "key": "script:0068:0ED0",
+   "src": "8a14f11ba166",
+   "t": "<FACE:02>¡Chicos!"
+  },
+  {
+   "key": "script:0068:0ED7",
+   "src": "900b2f18ee68",
+   "t": "<FACE:6D>¡Ugh! ¡Unos niños tan<NL>insolentes!<WAIT>¡Conocerán el poder<NL>de Nyuudou!"
+  },
+  {
+   "key": "script:0068:0F0F",
+   "src": "9734504176b0",
+   "t": "<FACE:01>¡Toma eso!"
+  },
+  {
+   "key": "script:0068:0F16",
+   "src": "b163d4537184",
+   "t": "<FACE:05>Nos subestimaste por<NL>ser niños"
+  },
+  {
+   "key": "script:0068:0F2E",
+   "src": "8892c7c115fa",
+   "t": "<FACE:0B>¿Y cómo piensas pagar<NL>por todo esto?"
+  },
+  {
+   "key": "script:0068:0F49",
+   "src": "1b721f952b8d",
+   "t": "<FACE:6D>¡Uuuuuuuuuuuuugh!<NL><WAIT>¡Retirada!<WAIT><FACE:7D>Robo robo, robo robo"
+  },
+  {
+   "key": "script:0068:0F75",
+   "src": "9a4aeb327ba2",
+   "t": "<FACE:00>Vaya, vaya…<WAIT><FACE:05>¡¿Pero qué fue eso?!<NL><WAIT>¡¿Qué hacen tipos así<NL>dentro del Cluster?!"
+  },
+  {
+   "key": "script:0068:0FA5",
+   "src": "892b9c4e6939",
+   "t": "<FACE:0A>Da igual<NL><WAIT>Al que estorbe,<NL>lo hacemos pedazos"
+  },
+  {
+   "key": "script:0068:0FC8",
+   "src": "6155c87fc49a",
+   "t": "<FACE:19>¡Así se habla, líder!<WAIT><FACE:15>¡Lo seguimos hasta<NL>donde sea!"
+  },
+  {
+   "key": "script:0068:0FE9",
+   "src": "cdecb2ceee16",
+   "t": "<FACE:04>Pero unos torpes así…<NL><WAIT>¿En serio mandaron el<NL>Cluster a la deriva?"
+  },
+  {
+   "key": "script:0068:1029",
+   "src": "56a473c792e0",
+   "t": "<FACE:05>Bueno, por acá ya<NL>estamos tranquilos<WAIT><FACE:04>Sí…"
+  },
+  {
+   "key": "script:0068:1045",
+   "src": "0eec4e49cd24",
+   "t": "<FACE:59>Help…"
+  },
+  {
+   "key": "script:0068:104E",
+   "src": "f3d4f72cbad0",
+   "t": "<FACE:4F>Help… help me…<WAIT><FACE:00>Espera, ya te<NL>desato"
+  },
+  {
+   "key": "script:0068:1072",
+   "src": "9fab872fbccf",
+   "t": "<FACE:50>¡Sorry! ¡Creí morir!"
+  },
+  {
+   "key": "script:0068:1085",
+   "src": "85420ac538c9",
+   "t": "<FACE:52>¡Oh, thank you!<NL>¡Nos salvaste!<WAIT><FACE:50>No creer que en Japón<NL>pasarnos esto…<WAIT><FACE:51>¡Thank you, salvador<NL>de mi vida!"
+  },
+  {
+   "key": "script:0068:10C9",
+   "src": "e1181f14199d",
+   "t": "<FACE:03>Ggg… me ahogooo…"
+  },
+  {
+   "key": "script:0068:10D7",
+   "src": "43bd9ff3c56f",
+   "t": "<FACE:05>Si no quieren que su<NL>salvador se desmaye…<WAIT>¿podrían soltarlo ya?"
+  },
+  {
+   "key": "script:0068:1107",
+   "src": "7b489852f917",
+   "t": "<FACE:51>¡Sorry! Yo apretar<NL>de más…"
+  },
+  {
+   "key": "script:0068:111B",
+   "src": "683a7cb6ae80",
+   "t": "<FACE:03>Cof cof, cof cof…"
+  },
+  {
+   "key": "script:0068:1127",
+   "src": "15850ec18718",
+   "t": "<FACE:4F>Je, mi sister tener<NL>fuerza bruta, cuidado"
+  },
+  {
+   "key": "script:0068:1145",
+   "src": "e6c93060e9e2",
+   "t": "<FACE:03>Si ya lo sabías…<NL><WAIT>deténla, por favor…<WAIT><FACE:50>¡Hasta pagar la deuda<NL>yo ir contigo!"
+  },
+  {
+   "key": "script:0068:11A5",
+   "src": "93cc59166219",
+   "t": "<FACE:00>Este bloque…<NL>algo me inquieta…"
+  },
+  {
+   "key": "script:0068:11BB",
+   "src": "338ad2c47531",
+   "t": "<FACE:06>¡Hmpf!"
+  },
+  {
+   "key": "script:0068:11C2",
+   "src": "fdeecc5ebbdb",
+   "t": "<FACE:06>¡Me adelanto!!"
+  },
+  {
+   "key": "script:0068:11D0",
+   "src": "967d973c2d82",
+   "t": "<FACE:05>Ya solo falta llegar<NL>al panel de control"
+  },
+  {
+   "key": "script:0068:11EC",
+   "src": "0ee5ef975840",
+   "t": "<FACE:0A>¿Banda Sperobo?<NL><WAIT><FACE:0E>Ni idea…"
+  },
+  {
+   "key": "script:0068:1203",
+   "src": "068cb757a996",
+   "t": "<FACE:19>Vámonos ya, rápido"
+  },
+  {
+   "key": "script:0068:1212",
+   "src": "3f954158f5c5",
+   "t": "<FACE:14>¿Quiénes serían esos<NL>tipos de hace rato?"
+  },
+  {
+   "key": "script:0068:1228",
+   "src": "6ea152f0e340",
+   "t": "<FACE:4F>¡Hector se unió!<NL><WAIT><FACE:51>¡Pascal se unió!"
+  },
+  {
+   "key": "script:0068:124C",
+   "src": "0f16a06d0840",
+   "t": "<FACE:03>¡Ah! Hector y Pascal,<NL>¡los de intercambio!"
+  },
+  {
+   "key": "script:0068:126E",
+   "src": "b0b92a75245c",
+   "t": "<FACE:81>A… ay, duele-robo…"
+  },
+  {
+   "key": "script:0068:127A",
+   "src": "edcc07b072d8",
+   "t": "<FACE:00>Aun así, esos de la…<NL>¿Banda Sperobo era?<WAIT>Si andan sueltos por<NL>ahí, en cada bloque<WAIT>hay que poner turnos<NL>o nos los quitarán"
+  },
+  {
+   "key": "script:0068:12D4",
+   "src": "b469b7fcf664",
+   "t": "<FACE:05>Cierto, pidámoselo a<NL>todo el salón<WAIT>Los bloques vecinos a<NL>los que no hemos ido<WAIT>son muy peligrosos,<NL>hay que ir en equipo<WAIT>Claro, yo tengo que<NL>cuidar de <PLAYER><WAIT>así que no puedo<NL>tomar turno…<WAIT><FACE:04>…"
+  },
+  {
+   "key": "script:0068:1369",
+   "src": "3490ab06e2e7",
+   "t": "<FACE:0D>¡Y<DELAY:000F>… yo también voy<NL>con <PLAYER>!"
+  },
+  {
+   "key": "script:0068:1386",
+   "src": "bad655f1ef3d",
+   "t": "<FACE:05>¡Pff!<WAIT><FACE:07>¿Por qué se apura<NL>tanto Fubuki?<NL><WAIT>¿Será por <PLAYER>…?"
+  },
+  {
+   "key": "script:0068:13B2",
+   "src": "7c3e06ca8132",
+   "t": "<FACE:0D>¡N… no digas eso!<NL><WAIT>¡Es solo que odio que<NL>me anden mandando!<WAIT><FACE:07>Je je…<NL>digamos que sí…<WAIT>Somos equipo, así que<NL>vamos todos juntos"
+  },
+  {
+   "key": "script:0068:141C",
+   "src": "8576969bb1aa",
+   "t": "<FACE:05>(Ahora que lo pienso,<NL> Fubuki es muy fino…)<WAIT>(Parece una niña…<NL><WAIT> ¿Y si acerté…?)"
+  }
+ ]
+}

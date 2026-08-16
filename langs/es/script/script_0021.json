@@ -1,0 +1,225 @@
+{
+ "part": "script/script_0021",
+ "entries": [
+  {
+   "key": "script:0021:07BA",
+   "src": "76e16c40e03f",
+   "t": "<FACE:03>¡Uaah!<NL>¿Qué… es este lugar?"
+  },
+  {
+   "key": "script:0021:07CC",
+   "src": "50f46e5c3d92",
+   "t": "<FACE:05>Es como el foso de<NL>una hormiga león…<WAIT>Si caemos, ¿será que<NL>ya no podremos volver?<WAIT><FACE:04>Mmm…"
+  },
+  {
+   "key": "script:0021:0803",
+   "src": "4ce18927a760",
+   "t": "<FACE:04>¿No podemos rodearlo<NL>y seguir adelante…?"
+  },
+  {
+   "key": "script:0021:0816",
+   "src": "bae8b99b2074",
+   "t": "<FACE:59>…oigaaan…<NL><WAIT>…oigaaan…"
+  },
+  {
+   "key": "script:0021:0825",
+   "src": "5894c27009c9",
+   "t": "<FACE:05>Oigan… ¿no escuchan<NL>algo?"
+  },
+  {
+   "key": "script:0021:0836",
+   "src": "f62d3bbb90d0",
+   "t": "<FACE:03>¡Viene del fondo<NL>del foso!<WAIT>¡Alguien de la clase<NL>se cayó!<WAIT><FACE:08>¡Qué horror!<NL>¡Hay que hacer algo!"
+  },
+  {
+   "key": "script:0021:086C",
+   "src": "821784e069d8",
+   "t": "<FACE:09>¿Qué hacemos,<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0021:0879",
+   "src": "2803f3d4f9d3",
+   "t": "<FACE:04>Sí… pero alguien<NL>tendrá que bajar…<WAIT><FACE:09>¿Qué vas a hacer,<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0021:08A4",
+   "src": "bb62ce6676e1",
+   "t": "<FACE:04>Es peligroso… Quizá<NL>no podamos volver…<WAIT><FACE:09>¿Y ahora qué,<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0021:08C7",
+   "src": "62204d5b0217",
+   "t": "<FACE:04>…¡De verdad<NL>es peligroso!<WAIT><FACE:09>¿Qué hacemos,<NL><PLAYER>?<WAIT><FACE:01>¡¿Entiendes, Hiyori?!<NL>¡El peligro es real!<WAIT><FACE:09>¿Y qué va a pasar,<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0021:0910",
+   "src": "026577f33c76",
+   "t": "<FACE:01>¡Está bien, entendí!<NL>¡Voy a bajar y punto!"
+  },
+  {
+   "key": "script:0021:092B",
+   "src": "5264f7514144",
+   "t": "<FACE:07>¡Buen viaaaaaje!"
+  },
+  {
+   "key": "script:0021:093D",
+   "src": "8fb2e7332d99",
+   "t": "<FACE:0E>¿Entendiste esa<NL>conversación?<WAIT><FACE:1D>No… la verdad,<NL>no entendí ni papa…"
+  },
+  {
+   "key": "script:0021:0969",
+   "src": "a2f6f0d098cf",
+   "t": "<FACE:04>Uhh… Ay, ay, ay…"
+  },
+  {
+   "key": "script:0021:0978",
+   "src": "af0586c2b092",
+   "t": "<FACE:03>Así que esto es lo que<NL>había dentro del foso…"
+  },
+  {
+   "key": "script:0021:0998",
+   "src": "ea572877c9ce",
+   "t": "<FACE:7B>¡Fuaaa ja ja ja!<WAIT>¡Cayó otro futuro<NL>recluta!<WAIT>¡Este Bloque sí<NL>que es útil!<WAIT>¡Fuaaa ja ja ja!"
+  },
+  {
+   "key": "script:0021:09E2",
+   "src": "1068d2d31ecc",
+   "t": "<FACE:01>¡Mmh! Tú eres…"
+  },
+  {
+   "key": "script:0021:09EE",
+   "src": "c7cff3b1ff80",
+   "t": "<FACE:7B>¡Fuaaa ja ja ja!<WAIT>Soy Raiun,<NL>Jefe del Cielo<WAIT>Con que tú eres<NL><PLAYER>…<WAIT>He oído hablar de ti<WAIT>Pero hasta aquí<NL>llegaron tus hazañas<WAIT>¡Lamentarás conocer<NL>al gran Raiun!"
+  },
+  {
+   "key": "script:0021:0A5E",
+   "src": "6a3ea204a57d",
+   "t": "<FACE:79>¿Mm? ¿Qué pasa?<NL><WAIT>¿Ignoras al gran<NL>Raiun? ¿Qué buscas?"
+  },
+  {
+   "key": "script:0021:0A82",
+   "src": "c28d005aa2c6",
+   "t": "<FACE:04>No, es que… escuchamos<NL>una voz por aquí…"
+  },
+  {
+   "key": "script:0021:0AA0",
+   "src": "281d25d99e66",
+   "t": "<FACE:03>¡Ah! ¡Hiderin!"
+  },
+  {
+   "key": "script:0021:0AAC",
+   "src": "0ccade51f393",
+   "t": "<FACE:45>¡<PLAYER>!<NL>¡Hasta que llegas!<WAIT>¡Se supone que eres<NL>el jefe de grupo!<WAIT><FACE:48>¡Sálvanos de una<NL>buena vez!"
+  },
+  {
+   "key": "script:0021:0ADB",
+   "src": "683a79dff555",
+   "t": "<FACE:47>¡¿Y por qué nos<NL>tiene que pasar esto?!"
+  },
+  {
+   "key": "script:0021:0B03",
+   "src": "0b82330d8df7",
+   "t": "<FACE:04>Ay, por favor…"
+  },
+  {
+   "key": "script:0021:0B0E",
+   "src": "b1bf209ac5e0",
+   "t": "<FACE:7C>¡Alto ahí!<NL><WAIT><FACE:79><PLAYER>, quedarás<NL>atrapado como ellas"
+  },
+  {
+   "key": "script:0021:0B39",
+   "src": "4997fb6a3dac",
+   "t": "<FACE:79>El gran Raiun los<NL>hará dignos Sperobo"
+  },
+  {
+   "key": "script:0021:0B61",
+   "src": "08b5bab8dd52",
+   "t": "<FACE:7B>¡Fuaaa ja ja ja!"
+  },
+  {
+   "key": "script:0021:0B70",
+   "src": "03716aad93b8",
+   "t": "<FACE:01>(Este tipo…)<NL><WAIT>(No es como los otros<NL>jefes… ¿será fuerte?)"
+  },
+  {
+   "key": "script:0021:0B9F",
+   "src": "9455bdde6724",
+   "t": "<FACE:7B>¡Fuaaa ja ja ja!<WAIT>Te enfrentaré<NL>mano a mano<WAIT>¡Atácame!"
+  },
+  {
+   "key": "script:0021:0BC7",
+   "src": "102d61aec4ea",
+   "t": "<FACE:01>¡Grr!"
+  },
+  {
+   "key": "script:0021:0BD1",
+   "src": "33d12f28e221",
+   "t": "<FACE:7C>…¡Fu, fuaaa ja ja ja!<NL>¡Bien hecho, muchacho!<WAIT><FACE:79>Aunque me contuve<NL>bastante…<WAIT>¡Venciste al<NL>gran Raiun!"
+  },
+  {
+   "key": "script:0021:0C16",
+   "src": "1d0e57e43b9d",
+   "t": "<FACE:79><PLAYER>, ¿verdad?…<NL>¡Recordaré ese nombre!<WAIT><FACE:7B>¡Siéntete orgulloso!<NL>¡Fuaaa ja ja ja!"
+  },
+  {
+   "key": "script:0021:0C4E",
+   "src": "4468a85a6e12",
+   "t": "<FACE:03>¡Ah! ¡Espera!<NL>¿Cómo salimos de aquí?"
+  },
+  {
+   "key": "script:0021:0C69",
+   "src": "118daae46638",
+   "t": "<FACE:7C>¡Ah, cierto,<NL>joven <PLAYER>!<WAIT><FACE:79>En ese panel, ¡pulsa<NL>el botón de escalera!<WAIT><FACE:03>¿Eh?<NL>"
+  },
+  {
+   "key": "script:0021:0CA5",
+   "src": "1d1fd79a56d8",
+   "t": "<FACE:00>¿Este?<NL>"
+  },
+  {
+   "key": "script:0021:0CAC",
+   "src": "b4c0eb09dd7b",
+   "t": "<FACE:00>Ah, ya veo…<NL>Así funcionaba esto"
+  },
+  {
+   "key": "script:0021:0CC3",
+   "src": "dd3574f35a57",
+   "t": "<FACE:08>¡Ah, <PLAYER>!<NL>¿Estás bien?"
+  },
+  {
+   "key": "script:0021:0CD6",
+   "src": "b3cb37f4cb35",
+   "t": "<FACE:05>…¿Eh?<NL><WAIT>¿Y qué pasó con la voz<NL>que pedía ayuda?"
+  },
+  {
+   "key": "script:0021:0CF9",
+   "src": "ca6dc4e0a169",
+   "t": "<FACE:03>¡Ah! ¡Rayos!<NL><WAIT>¡Nos olvidamos de<NL>Hiderin y las demás!"
+  },
+  {
+   "key": "script:0021:0D15",
+   "src": "2c2530a753d0",
+   "t": "<FACE:45>¡¿Cómo se atreven<NL>a dejarnos olvidadas?!<WAIT><FACE:09>Ah, con que eran<NL>estas niñas"
+  },
+  {
+   "key": "script:0021:0D43",
+   "src": "b05471edbb1b",
+   "t": "<FACE:45>¡¿Qué dijiste?!<NL>¡Ahora sí me enojé!"
+  },
+  {
+   "key": "script:0021:0D52",
+   "src": "b1f7f92c6203",
+   "t": "<FACE:03>¡Uaah!"
+  },
+  {
+   "key": "script:0021:0D58",
+   "src": "103e7cd400d7",
+   "t": "<FACE:45>¡Hmph!"
+  },
+  {
+   "key": "script:0021:0D5F",
+   "src": "00741d570ff3",
+   "t": "<FACE:45>¡Hiderin se unió<NL>al equipo!<WAIT><FACE:47>¡Tsunami se unió<NL>al equipo!<WAIT><FACE:48>¡Komechu se unió<NL>al equipo!"
+  }
+ ]
+}

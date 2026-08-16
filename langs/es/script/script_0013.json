@@ -1,0 +1,95 @@
+{
+ "part": "script/script_0013",
+ "entries": [
+  {
+   "key": "script:0013:03C1",
+   "src": "3e0aa535237f",
+   "t": "<FACE:7D>Otra vez nos mandaron<NL>a este rincón-robo…"
+  },
+  {
+   "key": "script:0013:03D8",
+   "src": "9b13d0d2efbf",
+   "t": "<FACE:7D>¡No es así-robo!<NL>¡Al fin nos toca-robo!"
+  },
+  {
+   "key": "script:0013:03F4",
+   "src": "3902f96fe854",
+   "t": "<FACE:7D>¿En serio-robo?<NL><WAIT>Sí-robo, robobatallar<NL>no conquista el cosmos<WAIT>¡Que robobatallen los<NL>fuertes-robo!"
+  },
+  {
+   "key": "script:0013:043F",
+   "src": "5adf3450ccab",
+   "t": "<FACE:7D>Nosotros trabajamos<NL>con la cabeza-robo<WAIT>¡Héroes anónimos-robo!<NL>"
+  },
+  {
+   "key": "script:0013:046C",
+   "src": "5d91c539f6a2",
+   "t": "<FACE:00>Otro bloque pequeño…<NL>"
+  },
+  {
+   "key": "script:0013:047F",
+   "src": "fdf483f5daaf",
+   "t": "<FACE:0A>En un lugar tan chico<NL>no habrá nada, ¿no?<WAIT><FACE:00>Cierto, hay prisa…"
+  },
+  {
+   "key": "script:0013:04AD",
+   "src": "2f0a9bb425e9",
+   "t": "<FACE:80>¡Es terrible-robo!<NL>¡Ya llegaron-robo!<WAIT>¡Si nos quitan esto,<NL>los Sperobo peligran!"
+  },
+  {
+   "key": "script:0013:04E1",
+   "src": "3ddf5cdea52b",
+   "t": "<FACE:7D>¡Y lo peor-robo:<NL>nos quedamos sin casa!"
+  },
+  {
+   "key": "script:0013:04FD",
+   "src": "a531f6200cdb",
+   "t": "<FACE:7D>¡Eso jamás-robo!<NL>¡Lo defenderemos-robo!"
+  },
+  {
+   "key": "script:0013:051B",
+   "src": "8c6ff858cc5b",
+   "t": "<FACE:7D>¡Aquí no pasan-robo!<WAIT><FACE:00>Sperobo hasta aquí…<NL>Qué desocupados, ¿no?<WAIT><FACE:7D>¡Qué dices-robo!<NL>Aquí es…"
+  },
+  {
+   "key": "script:0013:0567",
+   "src": "f80a3d51f187",
+   "t": "<FACE:7E>¡Tonto-robo!<NL><WAIT>Que este es un punto<NL>clave de los Sperobo,<WAIT>¡¿cómo se te ocurre<NL>decirlo-robo?!"
+  },
+  {
+   "key": "script:0013:059A",
+   "src": "d4aa7fb343d9",
+   "t": "<FACE:7D>¡P-perdón-robo!"
+  },
+  {
+   "key": "script:0013:05A6",
+   "src": "958ee4011d73",
+   "t": "<FACE:7D>En fin, aquí no hay<NL>nada-robo.<WAIT>¡Váyanse a otro lado<NL>antes de lastimarse!"
+  },
+  {
+   "key": "script:0013:05D8",
+   "src": "5e9db96b424a",
+   "t": "<FACE:14>Vaya, buen hallazgo…"
+  },
+  {
+   "key": "script:0013:05EB",
+   "src": "fb05b7949a3e",
+   "t": "<FACE:19>¡Vamos a acabarlos!"
+  },
+  {
+   "key": "script:0013:05F8",
+   "src": "df7a87a94346",
+   "t": "<FACE:7D>N-nos derrotaron-robo…<NL><WAIT>Nos regañará el jefe<NL>otra vez-robo…<WAIT>Nos quedamos sin<NL>nuestro sitio-robo…"
+  },
+  {
+   "key": "script:0013:0639",
+   "src": "f0cb824cb426",
+   "t": "<FACE:05>Bien, ¿qué habrá aquí?<WAIT><FACE:00>Dijeron que era algo<NL>importante…"
+  },
+  {
+   "key": "script:0013:0661",
+   "src": "e97f946d73ef",
+   "t": "<FACE:05>¿Son rosas de papel?<WAIT><FACE:00>…Eso parece.<WAIT><FACE:05>¿Un trabajito extra…?<WAIT><FACE:00>¿Y esto es tan<NL>importante…?"
+  }
+ ]
+}

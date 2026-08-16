@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0158",
+ "entries": [
+  {
+   "key": "script:0158:021F",
+   "src": "50b6ffcd5fba",
+   "t": "<FACE:9C>¿En serio esa persona<NL>dijo <PLAYER>?<WAIT><FACE:99>¡¿Qué?! ¿Tan famoso<NL>es ese tipo?"
+  },
+  {
+   "key": "script:0158:0252",
+   "src": "a1f28d85d96a",
+   "t": "<FACE:9C>Dicen que resolvió el<NL>gran lío de este lugar<WAIT>Si eso se sabe, seguro<NL>se vuelve famoso"
+  },
+  {
+   "key": "script:0158:0290",
+   "src": "569002a90638",
+   "t": "<FACE:99>Vaya, si es tan bueno<NL>¡quiero revancha ya!"
+  },
+  {
+   "key": "script:0158:02BA",
+   "src": "aff273b78a91",
+   "t": "<FACE:02>¡Nos volvemos a ver,<NL>chicos!"
+  },
+  {
+   "key": "script:0158:02CA",
+   "src": "b2e0a858644e",
+   "t": "<FACE:99>¡Oh! Te llamas<NL><PLAYER>, ¿verdad?<WAIT>Dicen que eres un<NL>medaguerrero famoso<WAIT>¡Robobatallemos otra<NL>vez!<WAIT><FACE:00>Sí… pero oye, lo que<NL>decían hace rato…"
+  },
+  {
+   "key": "script:0158:0321",
+   "src": "9c3a02005155",
+   "t": "<FACE:9C>Oigan, en esa batalla<NL>¡metan a la profe!"
+  },
+  {
+   "key": "script:0158:033C",
+   "src": "b1544423b091",
+   "t": "<FACE:99>¡Queeé!<NL><WAIT>¡Con la profe ahí<NL>solo nos estorbaría!"
+  },
+  {
+   "key": "script:0158:0362",
+   "src": "77b6b9330417",
+   "t": "<FACE:9C>¡Es que no entro sola<NL>al equipo!"
+  },
+  {
+   "key": "script:0158:0382",
+   "src": "50aac0ed20f6",
+   "t": "<FACE:99>¡¿Eh?! ¿Acaso viene<NL>Rintaro?"
+  },
+  {
+   "key": "script:0158:0397",
+   "src": "072cf6c74afb",
+   "t": "<FACE:00>¿Qué?<NL>¿Rintaro también va?"
+  },
+  {
+   "key": "script:0158:03AE",
+   "src": "978c45b1e77d",
+   "t": "<FACE:9C>Aunque no lo parezca,<NL>¡soy asesora del club!<WAIT>¡Siempre enlazada con<NL>los Medarrelojes!<WAIT><FACE:00>¿Puede contactarlo?"
+  },
+  {
+   "key": "script:0158:03F3",
+   "src": "4beb4422f144",
+   "t": "<FACE:99>¡Si es así, peleemos<NL>ahora mismo!"
+  },
+  {
+   "key": "script:0158:040D",
+   "src": "572da4059a49",
+   "t": "<FACE:9C>¡Buaaah… perdí…!"
+  },
+  {
+   "key": "script:0158:041F",
+   "src": "10dc8f6b2397",
+   "t": "<FACE:99>Por eso, con la profe<NL>de líder…"
+  },
+  {
+   "key": "script:0158:0436",
+   "src": "912474e6e2c0",
+   "t": "<FACE:9C>¡Es que…!<NL><WAIT>¡De asesora quería<NL>que me respetaran!"
+  },
+  {
+   "key": "script:0158:0464",
+   "src": "2c96be8be66e",
+   "t": "<FACE:00>Sobre Rintaro… tengo<NL>algo que preguntarle"
+  },
+  {
+   "key": "script:0158:0488",
+   "src": "c1fe59cad76f",
+   "t": "<FACE:9C>…Snif… ¿Eh? Rintaro…<NL>…espera un momento…"
+  },
+  {
+   "key": "script:0158:04AF",
+   "src": "4a5cf2274f1c",
+   "t": "<FACE:9C>¿Alóoo…? ¿Ah?<NL>Se cortó el enlace…<WAIT>Anda ocupado, dice…"
+  },
+  {
+   "key": "script:0158:04E0",
+   "src": "5077e99dc73d",
+   "t": "<FACE:99>Bah, conociéndolo,<NL>seguro anda por ahí<WAIT>¡robobatallando sin<NL>parar!<WAIT><FACE:04>…Ya veo…"
+  },
+  {
+   "key": "script:0158:0510",
+   "src": "f0d8d2f6daf1",
+   "t": "<FACE:00>Si lo ves, dile que<NL>lo estoy buscando"
+  },
+  {
+   "key": "script:0158:052A",
+   "src": "ccb2f17ff8e6",
+   "t": "<FACE:99>Tsk, ni modo…<NL>¡Pero luego peleamos!<WAIT><FACE:00>Sí<NL>Y otra cosa…<WAIT>Profesora Tamao, ¿no?<NL><WAIT>¿Conoce a una persona<NL>llamada Hikaru?"
+  },
+  {
+   "key": "script:0158:0583",
+   "src": "21e71528e76b",
+   "t": "<FACE:9C>¿El Hikaru que Rintaro<NL>admira tanto?<WAIT>Lo vi en un cuarto<NL>parecido a este<WAIT>aunque no recuerdo<NL>bien dónde…"
+  },
+  {
+   "key": "script:0158:05DD",
+   "src": "0f1704124845",
+   "t": "<FACE:02>¡¿En serio?! ¡Iré a<NL>los otros cuartos ya!<WAIT>¡Gracias!"
+  }
+ ]
+}

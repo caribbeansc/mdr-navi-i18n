@@ -1,0 +1,50 @@
+{
+ "part": "script/script_0012",
+ "entries": [
+  {
+   "key": "script:0012:027D",
+   "src": "9b0ece6e5798",
+   "t": "<FACE:7D>¡Recuperamos este<NL>Bloque-robo!<WAIT><FACE:7D>¡Ya no lo soltamos!<NL>Es nuestro Bloque-robo<WAIT><FACE:7D>¡Daremos la vida por<NL>defender esto-robo!"
+  },
+  {
+   "key": "script:0012:02C7",
+   "src": "7f1d3d0c11fe",
+   "t": "<FACE:05>¡¿Por qué están aquí<NL>otra vez?!<NL>"
+  },
+  {
+   "key": "script:0012:02DA",
+   "src": "481ccafb0e1c",
+   "t": "<FACE:00>Ya, ya…<NL>"
+  },
+  {
+   "key": "script:0012:02E2",
+   "src": "768152f170ef",
+   "t": "<FACE:0A>¡A darles una paliza!"
+  },
+  {
+   "key": "script:0012:02EF",
+   "src": "684d3a034fd4",
+   "t": "<FACE:7D>Ya volvieron-robo…<NL>"
+  },
+  {
+   "key": "script:0012:02FE",
+   "src": "fd52cbbe87c5",
+   "t": "<FACE:7D>Perdí-robo…<WAIT><FACE:7D>Perdí otra vez-robo…<NL>"
+  },
+  {
+   "key": "script:0012:0319",
+   "src": "b80132ad3ba3",
+   "t": "<FACE:7D>¿Habrá un Bloque más<NL>chico que este-robo?<NL>"
+  },
+  {
+   "key": "script:0012:0332",
+   "src": "5f8a9c9b5d10",
+   "t": "<FACE:7D>Da igual-robo<NL>"
+  },
+  {
+   "key": "script:0012:033F",
+   "src": "8b3cafe545a1",
+   "t": "<FACE:05>¡Ya no vuelvan!"
+  }
+ ]
+}

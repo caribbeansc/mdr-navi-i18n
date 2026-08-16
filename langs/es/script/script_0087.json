@@ -1,0 +1,110 @@
+{
+ "part": "script/script_0087",
+ "entries": [
+  {
+   "key": "script:0087:06FE",
+   "src": "1c9fc3664e36",
+   "t": "<FACE:71>¡Uuuh, qué frííío!<WAIT>¡¿Por qué a mí, la<NL>Reina Tropical del<WAIT>Verano, me pasa esto?!"
+  },
+  {
+   "key": "script:0087:0736",
+   "src": "c126662c73fa",
+   "t": "<FACE:7D>Ni modo-robo<NL>Aunque esté congelado<WAIT><FACE:7D>Esto es un río, y por<NL>regla le toca a la<WAIT>jefa Sekiran-robo…"
+  },
+  {
+   "key": "script:0087:0771",
+   "src": "c9cf57035ffe",
+   "t": "<FACE:71>¡Ya basta! ¡Me voy!"
+  },
+  {
+   "key": "script:0087:0782",
+   "src": "9e555e7b1a1e",
+   "t": "<FACE:81>¡Ah! ¡Jefa Sekiraaan!<NL>¡Vuelva-robooooo!"
+  },
+  {
+   "key": "script:0087:07A5",
+   "src": "25bab414b4cd",
+   "t": "<FACE:80>¡¡No-robo!!<WAIT>¡La jefa corrió tan<NL>brusco que el hielo<WAIT>ya se agrieta-robo!"
+  },
+  {
+   "key": "script:0087:07D6",
+   "src": "4f21a1591dda",
+   "t": "<FACE:71>¡Estorbas! ¡Quítate!<WAIT><FACE:03>¡Ah!"
+  },
+  {
+   "key": "script:0087:07E9",
+   "src": "7049be71cce3",
+   "t": "<FACE:05>¿Y eso qué fue?"
+  },
+  {
+   "key": "script:0087:07F4",
+   "src": "a5a2a0564423",
+   "t": "<FACE:03>¡Mejor mira eso!<WAIT><FACE:00>¡Al otro lado del río<NL>congelado hay un<WAIT>panel de control!"
+  },
+  {
+   "key": "script:0087:0823",
+   "src": "c2f4f80c46df",
+   "t": "<FACE:80>¡No-robo!<WAIT>¡Si vienen para acá<NL>el hielo se romperá<WAIT>y no volverán-roboo!"
+  },
+  {
+   "key": "script:0087:084C",
+   "src": "7a406a4d3d36",
+   "t": "<FACE:04>¿Qué hacemos…?<NL>"
+  },
+  {
+   "key": "script:0087:0857",
+   "src": "286f4a94225e",
+   "t": "<FACE:04>Sin cruzar a la otra<NL>orilla no recuperamos<WAIT>este bloque, pero…"
+  },
+  {
+   "key": "script:0087:087E",
+   "src": "662e75454dbf",
+   "t": "<FACE:09>Cierto, si vamos<NL>muchos el hielo<WAIT>se va a romper…<WAIT><FACE:07>¿Pero uno solo sí<NL>estaría bien, no?<WAIT>¡Oye! ¡<PLAYER>!"
+  },
+  {
+   "key": "script:0087:08C0",
+   "src": "90d1ed5b49a9",
+   "t": "<FACE:04>¡Otra vez con eso!<WAIT>¡¿Y si le llega a<NL>pasar algo, qué?!"
+  },
+  {
+   "key": "script:0087:08E1",
+   "src": "fb5ce0f2a272",
+   "t": "<FACE:07>¡Tranquilo!<WAIT><FACE:05>Se ve todo desde aquí<NL>y si hay robobatalla<WAIT>allá, ¡participo<NL>desde este lado!"
+  },
+  {
+   "key": "script:0087:0916",
+   "src": "4e575f592b86",
+   "t": "<FACE:04>No es ese el problema…"
+  },
+  {
+   "key": "script:0087:0929",
+   "src": "bfbcaa668a79",
+   "t": "<FACE:07>¡Ya, ya! ¡Anda!"
+  },
+  {
+   "key": "script:0087:0A31",
+   "src": "177fb5c68bd7",
+   "t": "<FACE:06>¡No es por ahí!<NL>¡Apúrate y ve de una!"
+  },
+  {
+   "key": "script:0087:0A50",
+   "src": "c05f6310f495",
+   "t": "<FACE:05>¡Ánimo, <PLAYER>!"
+  },
+  {
+   "key": "script:0087:0A5A",
+   "src": "2202a5ff8907",
+   "t": "<FACE:0A>¿No será peligroso<NL>moverse tanto por ahí?"
+  },
+  {
+   "key": "script:0087:0A75",
+   "src": "fb9e36ed8dd8",
+   "t": "<FACE:19>Eso de recién era<NL>Sekiran, ¿verdad?"
+  },
+  {
+   "key": "script:0087:0A88",
+   "src": "0a9ee730a77d",
+   "t": "<FACE:14>Si te caes ahí,<NL>ya no vuelves…"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0085",
+ "entries": [
+  {
+   "key": "script:0085:0349",
+   "src": "2f469b4e05e7",
+   "t": "<FACE:01>¡Smog, el jefe débil!<NL>Y sigue sin aprender…<WAIT><FACE:04>…¿Mm? ¿Otra vez<NL>resfriado?"
+  },
+  {
+   "key": "script:0085:0378",
+   "src": "d4f1c0356446",
+   "t": "<FACE:75>Mm… ya casi sanaba<NL>y volví a recaer…<WAIT>Pensé sanar otra vez<NL>en este bloque…<WAIT><FACE:00>¿Ni absorbiéndolo todo<NL>te curas?"
+  },
+  {
+   "key": "script:0085:03D1",
+   "src": "1cb5d4c2af2d",
+   "t": "<FACE:75>Así es… cof… llegan<NL>justo a tiempo…<WAIT><FACE:04>¿Eh? ¿Por qué?<WAIT><FACE:75>…je je je… ¿No lo<NL>entienden? ¡Cof, cof!<WAIT>Esta vez los haré mis<NL>sirvientes…<WAIT>y absorberé… guf…<NL>toda su energía…"
+  },
+  {
+   "key": "script:0085:044E",
+   "src": "8620d09ef986",
+   "t": "<FACE:75>Fu… esta robobatalla<NL>me acaloró de nuevo…<WAIT>Por ahora… guf…<NL>me retiraré…"
+  },
+  {
+   "key": "script:0085:048B",
+   "src": "576220ed6712",
+   "t": "<FACE:04>Aunque se retire, no<NL>cambia nada…"
+  }
+ ]
+}

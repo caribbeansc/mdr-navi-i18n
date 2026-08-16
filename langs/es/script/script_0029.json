@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0029",
+ "entries": [
+  {
+   "key": "script:0029:2AFE",
+   "src": "d6880a48c88e",
+   "t": "<FACE:03>¿D-dónde estamos?"
+  },
+  {
+   "key": "script:0029:2B09",
+   "src": "47b05016d5cd",
+   "t": "<FACE:12>¿Dónde estamos…?<WAIT><FACE:09>N-no sé… esto se ve<NL>distinto a antes…"
+  },
+  {
+   "key": "script:0029:2B33",
+   "src": "fd53031e4764",
+   "t": "<FACE:04>Esto ya lo vi antes…"
+  },
+  {
+   "key": "script:0029:2B49",
+   "src": "ebf7aab2876f",
+   "t": "<FACE:08>¿No es el gimnasio<NL>viejo de la escuela?"
+  },
+  {
+   "key": "script:0029:2B6F",
+   "src": "2394a93ba7a5",
+   "t": "<FACE:1C>¿Habremos vuelto ya?"
+  },
+  {
+   "key": "script:0029:2B7E",
+   "src": "4ce8c6a25716",
+   "t": "<FACE:14>Eso no puede ser…"
+  },
+  {
+   "key": "script:0029:2B8F",
+   "src": "df8a781de86e",
+   "t": "<FACE:0F>Esto es… ya recuerdo<NL><WAIT>Aquí <PLAYER> y yo<NL>hallamos a Mistral…"
+  },
+  {
+   "key": "script:0029:2BB2",
+   "src": "5a52d06aa7e6",
+   "t": "<FACE:03>Sí… caí en ese hoyo…"
+  },
+  {
+   "key": "script:0029:2BCC",
+   "src": "d23832785bf1",
+   "t": "<FACE:6E>Qué nostalgia me da<NL>esta vieja escuela…"
+  },
+  {
+   "key": "script:0029:2BF3",
+   "src": "57e29c370817",
+   "t": "<FACE:70>Mi escuela no era tan<NL>retro, ¿eh?"
+  },
+  {
+   "key": "script:0029:2C0D",
+   "src": "a679aa873349",
+   "t": "<FACE:72>…Pero no sé,<NL>algo me conmueve…"
+  },
+  {
+   "key": "script:0029:2C26",
+   "src": "56c4c87ae049",
+   "t": "<FACE:6A>¡No vengas… no te<NL>acerques!<WAIT><FACE:00>¿Eh? Profesor,<NL>¿qué le pasa?"
+  },
+  {
+   "key": "script:0029:2C4A",
+   "src": "cfa4823e69a3",
+   "t": "<FACE:08>¡Aaaaaaaaaah!<WAIT><FACE:03>¿Qué pasaaa?"
+  }
+ ]
+}

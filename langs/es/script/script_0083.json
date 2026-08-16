@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0083",
+ "entries": [
+  {
+   "key": "script:0083:030B",
+   "src": "b565b64f00d1",
+   "t": "<FACE:7B>¿Vieron eso, tropa?<NL>¡Qué victoria la mía!<WAIT>Si me pongo serio,<NL>¡así de fácil es!<WAIT><FACE:7D>Pero…<NL>"
+  },
+  {
+   "key": "script:0083:034F",
+   "src": "8443cf927877",
+   "t": "<FACE:7D>Es que <PLAYER> no<NL>estaba ahí-robo…<WAIT><FACE:7A>¿Qué dijiste?<WAIT><FACE:7D>Así es-robo…<NL><WAIT>Al que venció era un<NL>suplente-robo…"
+  },
+  {
+   "key": "script:0083:039A",
+   "src": "2b7ff3e5e8e7",
+   "t": "<FACE:7A>¡Grr! ¡Qué dices!<NL>¡<PLAYER> no es rival…"
+  },
+  {
+   "key": "script:0083:03BB",
+   "src": "fb913f12f67a",
+   "t": "<FACE:00>¿Me llamaban?"
+  },
+  {
+   "key": "script:0083:03C2",
+   "src": "25f09e3b3ad8",
+   "t": "<FACE:7C>¡Gulp!"
+  },
+  {
+   "key": "script:0083:03C9",
+   "src": "22e0fb6ea696",
+   "t": "<FACE:79>…¡Llegas en buen<NL>momento!<NL><WAIT>¡Ahora verás mi<NL>verdadera fuerza!<WAIT><FACE:05>Hmmm… ¿No estarás<NL>inventando otra vez?"
+  },
+  {
+   "key": "script:0083:041C",
+   "src": "29d0266453ea",
+   "t": "<FACE:7A>¡¿Quéééééé?!<NL>¡¿Cómo que invento?!<WAIT>¡¿Quién?!<NL>¡¿Quién dijo eso?!"
+  },
+  {
+   "key": "script:0083:0449",
+   "src": "96d894942d73",
+   "t": "<FACE:79>…<WAIT><FACE:05>Entonces sí era<NL>puro invento"
+  },
+  {
+   "key": "script:0083:0461",
+   "src": "d022509a4550",
+   "t": "<FACE:7C>¡E-eso es!<NL><WAIT><FACE:7A>¿¡Quién anda diciendo<NL>que invento cosas!?<WAIT>¡Por su culpa perdí<NL>la concentración!<WAIT><FACE:09>¿¡Eh!?"
+  },
+  {
+   "key": "script:0083:04A5",
+   "src": "846f64487561",
+   "t": "<FACE:79>En serio…<NL>¡Con la buena ocasión<WAIT>que tenía de mostrar<NL>mi verdadero poder!<NL><WAIT>¡Y encima le quedo mal<NL>a mi rival!"
+  },
+  {
+   "key": "script:0083:04F5",
+   "src": "c3644f4b2600",
+   "t": "<FACE:79>¡Retirada! Buscaremos<NL>al culpable, ¡andando!"
+  },
+  {
+   "key": "script:0083:0518",
+   "src": "aad53c4f10e0",
+   "t": "<FACE:00>Si nos lo quitan, hay<NL>que recuperarlo"
+  }
+ ]
+}

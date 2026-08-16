@@ -1,0 +1,130 @@
+{
+ "part": "script/script_0001",
+ "entries": [
+  {
+   "key": "script:0001:02DD",
+   "src": "c337e208a6a2",
+   "t": "<FACE:7D>Dicen que un colegial<NL>quedó atrapado aquí<WAIT>y anda rondando<NL>por esta zona-robo…"
+  },
+  {
+   "key": "script:0001:0312",
+   "src": "6e4b5910970d",
+   "t": "<FACE:7D>…Y que es bastante<NL>fuerte-robo"
+  },
+  {
+   "key": "script:0001:0329",
+   "src": "79d985bd8fd0",
+   "t": "<FACE:7D>¡Yo también oí-robo!<WAIT>¡Hasta los jefes<NL>andan en apuros-robo!"
+  },
+  {
+   "key": "script:0001:0350",
+   "src": "336786abdfad",
+   "t": "<FACE:7D>¡Seguro es un tipo<NL>enorme como un oso,<WAIT>más grande que el<NL>jefe Nyuudou-robo!<WAIT>¡Los fracasados como<NL>nosotros no duramos<WAIT>ni un asalto-robo!"
+  },
+  {
+   "key": "script:0001:039C",
+   "src": "be2e090305ff",
+   "t": "<FACE:7D>¡Fuera esa cobardía!<NL>¡Es una chance-robo!"
+  },
+  {
+   "key": "script:0001:03BA",
+   "src": "080641c7bd83",
+   "t": "<FACE:7D>¡Si vencemos al que<NL>frenó a los jefes,<WAIT>se nos abre el camino<NL>a jefe también-robo!<WAIT>Pues a ti también<NL>te tiemblan las patas"
+  },
+  {
+   "key": "script:0001:0406",
+   "src": "dcbb8da3790c",
+   "t": "<FACE:7D>Cla… claro que a mí<NL>también me da miedo<WAIT>que me coman-robo"
+  },
+  {
+   "key": "script:0001:0424",
+   "src": "81c0031ca625",
+   "t": "<FACE:81>¿¡Que nos coman-robo!?<WAIT>¿¡Al perder una<NL>robobatalla-robo!?"
+  },
+  {
+   "key": "script:0001:0446",
+   "src": "f070cd74c731",
+   "t": "<FACE:7D>Es tremendo-robo<NL>Quizá ni sea humano<WAIT>¡No tiene sangre<NL>ni lágrimas-robo!<WAIT>¿Cómo se llama-robo?<WAIT>Creo que <PLAYER>…"
+  },
+  {
+   "key": "script:0001:0495",
+   "src": "24a8b55f9624",
+   "t": "<FACE:05>¡Eeeh, <PLAYER>!<NL>¡Espérame!"
+  },
+  {
+   "key": "script:0001:04AA",
+   "src": "83dac5d938af",
+   "t": "<FACE:80>¿¡<PLAYER>!?"
+  },
+  {
+   "key": "script:0001:04B0",
+   "src": "1cd724fb91b0",
+   "t": "<FACE:00>¡El primero en llegar!"
+  },
+  {
+   "key": "script:0001:04BC",
+   "src": "6841cf64f84b",
+   "t": "<FACE:05>Serás niño… ¿Eh?"
+  },
+  {
+   "key": "script:0001:04D3",
+   "src": "ed27db3b2652",
+   "t": "<FACE:81>¿Tú… tú eres<NL><PLAYER>-robo?<WAIT><FACE:00>Sí, soy yo…"
+  },
+  {
+   "key": "script:0001:04EC",
+   "src": "1434df6a34ce",
+   "t": "<FACE:7D>(¡Es chiquito-robo!)<NL><WAIT>(¡A ese le<NL>ganamos-robo!)<WAIT><FACE:7F>(¡¡Es nuestra<NL>chance-robo!!)"
+  },
+  {
+   "key": "script:0001:0521",
+   "src": "35138d361bfe",
+   "t": "<FACE:7E>¡Vamos allá!<NL>¡¡Robobatalla-robo!!"
+  },
+  {
+   "key": "script:0001:0535",
+   "src": "049697499c96",
+   "t": "<FACE:81>He… he perdido-robo…<NL>No lo entiendo-robo…<WAIT>¡Perder contra un<NL>colegial tan enano<WAIT>y tan poca cosa-robo!"
+  },
+  {
+   "key": "script:0001:0572",
+   "src": "4421f68a8ffa",
+   "t": "<FACE:00>El aspecto no tiene<NL>nada que ver con<WAIT>la robobatalla, ¿no?"
+  },
+  {
+   "key": "script:0001:0591",
+   "src": "3572b76d8f9a",
+   "t": "<FACE:7D>¡Claro que sí-robo!<NL><WAIT>Cuando el jefe<NL>Nyuudou va perdiendo<WAIT>pone una cara terrible<NL>¡y te mira fijo-robo!<WAIT>Con eso a uno se le va<NL>la mano-robo"
+  },
+  {
+   "key": "script:0001:05E6",
+   "src": "df1579c92fe2",
+   "t": "<FACE:00>…Eso sigue sin<NL>tener que ver…"
+  },
+  {
+   "key": "script:0001:05FC",
+   "src": "ee62b4352602",
+   "t": "<FACE:7D>(Huyamos mientras<NL>podamos-robo)<WAIT>(Si pese a su pinta<NL>es fuerte, pese a<WAIT>su pinta igual no<NL>es humano-robo)"
+  },
+  {
+   "key": "script:0001:063B",
+   "src": "91e5ea5b007e",
+   "t": "<FACE:80>¡Eso! ¡Eso es-robo!<NL><WAIT>¡¡A correr mientras<NL>podamos-robo!!"
+  },
+  {
+   "key": "script:0001:065B",
+   "src": "3a065c7c8178",
+   "t": "<FACE:04>¿Y eso qué fue?<NL>"
+  },
+  {
+   "key": "script:0001:0667",
+   "src": "91fa53d35ffc",
+   "t": "<FACE:05>Bueno, da igual<NL><WAIT>Sigamos adelante<NL>cuanto antes<WAIT><FACE:02>Está bien"
+  },
+  {
+   "key": "script:0001:0689",
+   "src": "f9e6f09ce21b",
+   "t": "<FACE:05>¡En marcha!"
+  }
+ ]
+}

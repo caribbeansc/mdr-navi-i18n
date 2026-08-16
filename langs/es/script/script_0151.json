@@ -1,0 +1,55 @@
+{
+ "part": "script/script_0151",
+ "entries": [
+  {
+   "key": "script:0151:027F",
+   "src": "abf9847f7827",
+   "t": "<FACE:7D>Fiu…<NL><WAIT>Por fin escapamos del<NL>trabajo duro-robo<WAIT>Si nos quedamos aquí,<NL>nadie nos ve-robo<WAIT><FACE:7F>Hay que aguantar hasta<NL>pisar la Tierra-robo"
+  },
+  {
+   "key": "script:0151:02DB",
+   "src": "e1da47f22cf3",
+   "t": "<FACE:81>¡<PLAYER>-robo!"
+  },
+  {
+   "key": "script:0151:02E2",
+   "src": "e9cf9e4b0b46",
+   "t": "<FACE:01>¿Y ustedes qué hacen<NL>metidos aquí?"
+  },
+  {
+   "key": "script:0151:02FC",
+   "src": "522f956defba",
+   "t": "<FACE:7E>¡C… cállate-robo!<NL><WAIT>¡No huimos del jefe ni<NL>flojeamos-robo!"
+  },
+  {
+   "key": "script:0151:0327",
+   "src": "05e21ab61b2f",
+   "t": "<FACE:81>Ahora que lo pienso,<NL>te vi muy amigable<WAIT>con el jefe-robo"
+  },
+  {
+   "key": "script:0151:034F",
+   "src": "bdbfdfae113e",
+   "t": "<FACE:81>¡Mal asunto-robo!<NL>Lo sabrá el jefe"
+  },
+  {
+   "key": "script:0151:0368",
+   "src": "a15b5ff449c2",
+   "t": "<FACE:7E>¡Antes de que nos den,<NL>les damos-robo!"
+  },
+  {
+   "key": "script:0151:0378",
+   "src": "1d5dbe100e39",
+   "t": "<FACE:81>…perdimos-robo<NL><WAIT>Se va a enterar el<NL>jefe-robo"
+  },
+  {
+   "key": "script:0151:0398",
+   "src": "28fbd87af058",
+   "t": "<FACE:80>¡Quedarse aquí es<NL>peligroso-robo!"
+  },
+  {
+   "key": "script:0151:03A9",
+   "src": "4ed31ad985f1",
+   "t": "<FACE:80>¡Eso es-robo!<NL>¡A correr-robo!"
+  }
+ ]
+}

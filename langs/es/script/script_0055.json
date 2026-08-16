@@ -1,0 +1,440 @@
+{
+ "part": "script/script_0055",
+ "entries": [
+  {
+   "key": "script:0055:09EB",
+   "src": "f7717f4065d0",
+   "t": "<FACE:03>Vaya…<NL>Este bloque parece una<WAIT>ciudad del futuro<WAIT><FACE:19>Las calles parecen<NL>casas de muestra<WAIT><FACE:14>Tan pulcro que hasta<NL>da frialdad…"
+  },
+  {
+   "key": "script:0055:0A3D",
+   "src": "510bcf4b91cb",
+   "t": "<FACE:08>¡Ay! ¡Aquí también<NL>se puede descansar!"
+  },
+  {
+   "key": "script:0055:0A54",
+   "src": "bb47047cb47f",
+   "t": "<FACE:05>¡Hay que conseguirlo<NL>como sea, <PLAYER>!"
+  },
+  {
+   "key": "script:0055:0A68",
+   "src": "06cbe1808a68",
+   "t": "<FACE:04>Hiyori siempre con<NL>lo mismo…"
+  },
+  {
+   "key": "script:0055:0A7A",
+   "src": "05d49bd9a465",
+   "t": "<FACE:04>¿Eh?<NL>"
+  },
+  {
+   "key": "script:0055:0A80",
+   "src": "583b37ae53df",
+   "t": "<FACE:04>¿Y esto qué es?<NL>¿Un separador con una<WAIT>flor prensada?<WAIT><FACE:05>¿A ver, a ver?<NL>"
+  },
+  {
+   "key": "script:0055:0AA2",
+   "src": "7085f9ed147d",
+   "t": "<FACE:08>¡Uy! ¿Y esto qué es?<NL>Se le cayeron los<WAIT>pétalos y solo<NL>queda uno<WAIT><FACE:06>¡Qué cosa más pobre!<NL>¡Esta flor salió mal!"
+  },
+  {
+   "key": "script:0055:0AE5",
+   "src": "3e00c9efcd14",
+   "t": "<FACE:0A>Flor prensada…<NL>¿¡Un solo pétalo!?"
+  },
+  {
+   "key": "script:0055:0AFB",
+   "src": "cbebd4921e00",
+   "t": "<FACE:0D>¡Dé… déjame verla!"
+  },
+  {
+   "key": "script:0055:0B0F",
+   "src": "3f9e62eb4455",
+   "t": "<FACE:0E>…Señorita Rainy…<NL>¿Por qué esto…?"
+  },
+  {
+   "key": "script:0055:0B25",
+   "src": "4960206cc1a1",
+   "t": "<FACE:05>¿Qué pasa, Fubuki?"
+  },
+  {
+   "key": "script:0055:0B32",
+   "src": "e98f4f542ead",
+   "t": "<FACE:0A>Eh… no, no es nada…"
+  },
+  {
+   "key": "script:0055:0B44",
+   "src": "b2fed7669ca8",
+   "t": "<FACE:0D>Este separador…<NL>¿Me lo dejas guardar?"
+  },
+  {
+   "key": "script:0055:0B5E",
+   "src": "f7bb1549f838",
+   "t": "<FACE:07>¡Ay, por favor!<WAIT>Ni que yo lo quisiera<NL>Si lo quieres, tómalo"
+  },
+  {
+   "key": "script:0055:0B83",
+   "src": "e980a517d9c9",
+   "t": "<FACE:05>¿Pero para qué<NL>quieres eso?<WAIT><FACE:0A>Aunque sea un pétalo,<NL>una flor es una flor…<WAIT><FACE:0B>Eres bien brusca, ¿eh?"
+  },
+  {
+   "key": "script:0055:0BC6",
+   "src": "70ea310287a8",
+   "t": "<FACE:06>¡¿Qu… qué dijiste?!"
+  },
+  {
+   "key": "script:0055:0BD4",
+   "src": "0aeb6a89ba5c",
+   "t": "<FACE:00>Calma, Hiyori<WAIT>Pero Fubuki, si<NL>quieres ese separador<WAIT>¿acaso será de algún<NL>conocido tuyo…?"
+  },
+  {
+   "key": "script:0055:0C0D",
+   "src": "2316e612b9c5",
+   "t": "<FACE:0E>Perdón, <PLAYER>…<NL>ahora no…<WAIT><FACE:0A>Pero esto sí lo digo<WAIT>Cerca de aquí hay un<NL>medaguerrero fortísimo<WAIT>Hay que tener cuidado…<WAIT><FACE:00>Entendido"
+  },
+  {
+   "key": "script:0055:0C5C",
+   "src": "770dce8470aa",
+   "t": "<FACE:00>Chicos, como dice<NL>Fubuki: ¡ojo con todo!<WAIT><FACE:05>Qué raaaro"
+  },
+  {
+   "key": "script:0055:0C86",
+   "src": "8493e2724638",
+   "t": "<FACE:1D>Líder…<NL>¿Nos oculta algo…?"
+  },
+  {
+   "key": "script:0055:0CA0",
+   "src": "30b1d99ccd7b",
+   "t": "<FACE:15>¡No digas tonteras!<NL>Siendo el líder,<WAIT>¡seguro es algo<NL>importante!"
+  },
+  {
+   "key": "script:0055:0CC6",
+   "src": "01c81fdf76d6",
+   "t": "<FACE:03>¿¡Eh!?<NL>Esos son los Sperobo…"
+  },
+  {
+   "key": "script:0055:0CDB",
+   "src": "f9674b67a019",
+   "t": "<FACE:05>¡Y no solo eso!<WAIT>Esa chica de allá…<NL>¡Ya la había visto!<WAIT>¡De repente me retó a<NL>una robobatalla!<WAIT>Sospeché de ella…<NL>¡y está con la Banda<WAIT>Sperobo!<NL>Miremos desde aquí<WAIT>y ¡le arrancamos<NL>la máscara!"
+  },
+  {
+   "key": "script:0055:0D61",
+   "src": "b53cef83b6e7",
+   "t": "<FACE:81>Uuuh… qué paliza-robo<WAIT>Nunca vi un<NL>medaguerrero tan<WAIT>fuerte-robo…"
+  },
+  {
+   "key": "script:0055:0D8E",
+   "src": "a1e9e84d5d80",
+   "t": "<FACE:1F>Vaya… y eso que me<NL>estaba conteniendo"
+  },
+  {
+   "key": "script:0055:0DA9",
+   "src": "e1a148f6075f",
+   "t": "<FACE:80>Increíble-robo…<NL>Si entra a la Banda<WAIT>Sperobo, ¡será jefa<NL>segurísimo-robo!"
+  },
+  {
+   "key": "script:0055:0DD0",
+   "src": "ca5b1dc153c0",
+   "t": "<FACE:08>¿¡Eh!?<WAIT><FACE:09>Parece que no son<NL>del mismo bando…"
+  },
+  {
+   "key": "script:0055:0DE8",
+   "src": "0883953066a6",
+   "t": "<FACE:1F>Vaya, el puesto de<NL>jefa no me interesa<WAIT><FACE:1E>Lo que me interesa<NL>es este Cluster…<WAIT>Ustedes también me<NL>prestarán su fuerza"
+  },
+  {
+   "key": "script:0055:0E3C",
+   "src": "2d65ff7c0457",
+   "t": "<FACE:7F>¡Ese es el objetivo<NL>de la Banda Sperobo<WAIT>también-robo!<NL>¡Cooperemos-robo!"
+  },
+  {
+   "key": "script:0055:0E64",
+   "src": "3cf510079f1c",
+   "t": "<FACE:1E>¡No!<WAIT>Yo no quiero quitarles<NL>este Cluster…<WAIT>¡Yo quiero destruirlo!<NL>"
+  },
+  {
+   "key": "script:0055:0E94",
+   "src": "595e1bc8d46f",
+   "t": "<FACE:1E>Nuestros objetivos<NL>no son los mismos"
+  },
+  {
+   "key": "script:0055:0EAC",
+   "src": "46cfa72c3f69",
+   "t": "<FACE:08>¿¡Destruirlo!?<NL>Oye, esa niña…"
+  },
+  {
+   "key": "script:0055:0EC0",
+   "src": "6d0344c0f252",
+   "t": "<FACE:0D>¡Señorita Rainy!"
+  },
+  {
+   "key": "script:0055:0ECA",
+   "src": "0f128b8c462c",
+   "t": "<FACE:03>¡Ah! ¡Fubuki!"
+  },
+  {
+   "key": "script:0055:0ED4",
+   "src": "9f6416d651a9",
+   "t": "<FACE:08>¿¡Señorita Rainy!?"
+  },
+  {
+   "key": "script:0055:0EDF",
+   "src": "f0b276704e7d",
+   "t": "<FACE:20>Vaya… Fubuki…<WAIT>…Tú otra vez…"
+  },
+  {
+   "key": "script:0055:0EF8",
+   "src": "a0b21f1a6325",
+   "t": "<FACE:0A>…Esto es suyo, ¿no?<NL>Estaba en el suelo…<WAIT>El último pétalo…<NL>Lo guardó todo este<WAIT>tiempo, ¿verdad?"
+  },
+  {
+   "key": "script:0055:0F34",
+   "src": "02943a770c7c",
+   "t": "<FACE:21>E… esa cosa ya no<NL>me hace falta"
+  },
+  {
+   "key": "script:0055:0F4C",
+   "src": "5de93ca84914",
+   "t": "<FACE:00>Fubuki… ¿la conoces<NL>a esa chica?"
+  },
+  {
+   "key": "script:0055:0F68",
+   "src": "7a855ea53427",
+   "t": "<FACE:06>¡Cómo eres de<NL>despreocupado!<WAIT>La tal Rainy tendrá<NL>cara bonita, pero<WAIT>¡me atacó de repente!<WAIT>Fubuki podría ser<NL>cómplice suyo…"
+  },
+  {
+   "key": "script:0055:0FC0",
+   "src": "30538c941051",
+   "t": "<FACE:06>¿No estarán tramando<NL>algo juntos?<WAIT>¡Por eso no dijo nada<NL>hace un rato!"
+  },
+  {
+   "key": "script:0055:0FEB",
+   "src": "a9e602142e26",
+   "t": "<FACE:04>¿Es cierto, Fubuki…?"
+  },
+  {
+   "key": "script:0055:0FFF",
+   "src": "2c34d24ac39b",
+   "t": "<FACE:06>¡Si no es así,<NL>puedes decirlo!"
+  },
+  {
+   "key": "script:0055:1017",
+   "src": "12c95fbde815",
+   "t": "<FACE:18>Líder…<WAIT><FACE:18>Líder, ¿no puede<NL>decir que no es así?"
+  },
+  {
+   "key": "script:0055:1039",
+   "src": "d5f13b522537",
+   "t": "<FACE:1E>Vaya… y siendo tú…<NL>Parece que cometiste<WAIT>un error tremendo"
+  },
+  {
+   "key": "script:0055:105E",
+   "src": "f9f4e4046b8d",
+   "t": "<FACE:1E>En fin, da igual…<NL>"
+  },
+  {
+   "key": "script:0055:1069",
+   "src": "0e0aa1f4dbf1",
+   "t": "<FACE:1E>¡Este bloque me lo<NL>quedo yo!<WAIT><FACE:1F>Y así, extendiendo mi<NL>poder, quizá le dé un<WAIT>buen susto a mi<NL>hermano mayor"
+  },
+  {
+   "key": "script:0055:10AB",
+   "src": "d5ccd765f695",
+   "t": "<FACE:0D>Señorita Rainy…"
+  },
+  {
+   "key": "script:0055:10B6",
+   "src": "282455f4dbda",
+   "t": "<FACE:1E>Si ustedes quieren<NL>este bloque también,<WAIT>¡intenten derrotarme!<WAIT><FACE:05>Tú… ¿qué relación<NL>tienes con Fubuki?<WAIT><FACE:20>¿No se los contó?<WAIT><FACE:1E>Con este Fubuki me<NL>llevo de maravilla<WAIT>desde hace mucho"
+  },
+  {
+   "key": "script:0055:1134",
+   "src": "65f43372725b",
+   "t": "<FACE:1D>Entonces… ¿el líder<NL>también está con ella?<WAIT><FACE:18>No puede ser…<NL>Qué cruel, líder…"
+  },
+  {
+   "key": "script:0055:1167",
+   "src": "e72c2f6ce992",
+   "t": "<FACE:0B>¡Chicos!<NL>Hay que detener a la<WAIT>señorita Rainy…<NL>Tengo que detenerla…<WAIT>¡Por favor!<NL>¡Ayúdenme!"
+  },
+  {
+   "key": "script:0055:119C",
+   "src": "b93165be1b41",
+   "t": "<FACE:06>Eso dices tú…<NL>¡Ya no me engañas!<WAIT><FACE:06>¡Eres amigo de una<NL>niña que quiere<WAIT>destruir el Cluster!<WAIT>¡Ya no confío en ti!"
+  },
+  {
+   "key": "script:0055:11EE",
+   "src": "8882658302f0",
+   "t": "<FACE:15>¡Eso! ¡Andar<NL>ocultando cosas…!<WAIT>¡Ya no eres nuestro<NL>líder!<WAIT><FACE:1A>¡Queda descalificado<NL>como líder!"
+  },
+  {
+   "key": "script:0055:1227",
+   "src": "9c3483f68864",
+   "t": "<FACE:0E>Chicos…"
+  },
+  {
+   "key": "script:0055:122F",
+   "src": "3cb8aadd3915",
+   "t": "<FACE:01>¡Pero qué dicen!"
+  },
+  {
+   "key": "script:0055:1237",
+   "src": "b4fadf968ca1",
+   "t": "<FACE:01>¡Hemos peleado juntos<NL>como compañeros!<WAIT><FACE:04>Sí, parece que oculta<NL>algo…<WAIT>pero el propio Fubuki<NL>no nos ha dicho nada<WAIT><FACE:01>…¡Seguro tiene sus<NL>razones!<WAIT>¡Todos tenemos algún<NL>secreto!"
+  },
+  {
+   "key": "script:0055:12B0",
+   "src": "04fded2b1b2c",
+   "t": "<FACE:06>Pero la tal Rainy<NL>dijo que va a<WAIT>¡destruir el Cluster!<WAIT><FACE:15>¡Eso, eso!<NL>¡Guardar secretos no<WAIT>es cosa de poco!"
+  },
+  {
+   "key": "script:0055:12F7",
+   "src": "49d4c2d7ded2",
+   "t": "<FACE:1A>¡Es un problemón!"
+  },
+  {
+   "key": "script:0055:1305",
+   "src": "b083f1139a39",
+   "t": "<FACE:04>Pero… yo también…<NL>Yo también les oculto<WAIT>algo a ustedes…<WAIT><FACE:0A>¡<PLAYER>!"
+  },
+  {
+   "key": "script:0055:1337",
+   "src": "255853549d6d",
+   "t": "<FACE:04>La Medalla que<NL>tengo yo…"
+  },
+  {
+   "key": "script:0055:1349",
+   "src": "39ceb8e76eea",
+   "t": "<FACE:04>Esta Medalla estaba<NL>en aquella cueva…<WAIT>La recogí a<NL>escondidas…<WAIT>y me la quedé<NL>para mí…"
+  },
+  {
+   "key": "script:0055:138D",
+   "src": "271a15298f5d",
+   "t": "<FACE:08>¿Entonces también es<NL>un hallazgo valioso?"
+  },
+  {
+   "key": "script:0055:13A9",
+   "src": "fe3af83b5d47",
+   "t": "<FACE:04>…Sí<NL>"
+  },
+  {
+   "key": "script:0055:13B1",
+   "src": "2cb935a885a4",
+   "t": "<FACE:04>Pero… no sé por qué<NL>sentí que era mejor<WAIT>que la tuviera yo…"
+  },
+  {
+   "key": "script:0055:13D9",
+   "src": "6f1526c39bd0",
+   "t": "<FACE:07>…Así que era eso"
+  },
+  {
+   "key": "script:0055:13EA",
+   "src": "4583d7b11c8e",
+   "t": "<FACE:03>¿Lo sabías?<WAIT><FACE:05>Sí, más o menos…<NL>Pero no pasa nada<WAIT><PLAYER> ya lo<NL>pensaste bastante<WAIT>Y además…<WAIT><FACE:07>Esa Medalla te queda<NL>bastante bien"
+  },
+  {
+   "key": "script:0055:1438",
+   "src": "454de8f35535",
+   "t": "<FACE:16>¡Eso, eso!<NL>¡Si la usas muy bien!<WAIT><FACE:19>¡La domina del todo!"
+  },
+  {
+   "key": "script:0055:1461",
+   "src": "19ce6aac53b9",
+   "t": "<FACE:01>Con Fubuki es igual,<NL>¿no?<WAIT>¡Miren! ¡Si está<NL>sufriendo un montón!"
+  },
+  {
+   "key": "script:0055:148A",
+   "src": "047b2d3b2941",
+   "t": "<FACE:0E><PLAYER>…"
+  },
+  {
+   "key": "script:0055:1490",
+   "src": "ee48b4c073bc",
+   "t": "<FACE:05>…Está bien, <PLAYER>…<WAIT><FACE:07>Por lo buenazo que<NL>eres, esta vez te<WAIT>voy a creer"
+  },
+  {
+   "key": "script:0055:14BE",
+   "src": "24adf074551d",
+   "t": "<FACE:16>Sí, aunque sea por su<NL>nivel de medaguerrero<WAIT>lo queremos de<NL>compañero"
+  },
+  {
+   "key": "script:0055:14E8",
+   "src": "4c0136a8e923",
+   "t": "<FACE:19>¡Entonces decidido:<NL>a la robobatalla!"
+  },
+  {
+   "key": "script:0055:14FE",
+   "src": "f042536b72aa",
+   "t": "<FACE:0C>Chicos…"
+  },
+  {
+   "key": "script:0055:1506",
+   "src": "d07f2fc30a20",
+   "t": "<FACE:1F>Vaya, vaya… qué<NL>tiernos…"
+  },
+  {
+   "key": "script:0055:1518",
+   "src": "376cd1bf4c40",
+   "t": "<FACE:1E>¡Vamos, señores de la<NL>Banda Sperobo!<WAIT>Si ganan esto, quizá<NL>considere entrar en<WAIT>su banda"
+  },
+  {
+   "key": "script:0055:154B",
+   "src": "6eea575f151b",
+   "t": "<FACE:80>¡La ayudaremos-robo!"
+  },
+  {
+   "key": "script:0055:155D",
+   "src": "d3802dd0d255",
+   "t": "<FACE:21>¡…No puede ser!<NL>¿Que yo he perdido…?"
+  },
+  {
+   "key": "script:0055:1578",
+   "src": "f777b3c22832",
+   "t": "<FACE:0E>Señorita Rainy… le<NL>devuelvo el separador<WAIT><FACE:0A>Por favor, retírese al<NL>bloque Lobby<WAIT>y vuelva a la Tierra…"
+  },
+  {
+   "key": "script:0055:15B7",
+   "src": "3ef94fc8841e",
+   "t": "<FACE:21>¡No quiero!<NL>¡Ya no quiero esperar!"
+  },
+  {
+   "key": "script:0055:15CD",
+   "src": "f5c0441b774b",
+   "t": "<FACE:21>¡Ya no quiero seguir<NL>deshojando flores!"
+  },
+  {
+   "key": "script:0055:15EA",
+   "src": "884ef5c7b39e",
+   "t": "<FACE:0D>¡Ah! ¡Señorita Rainy!"
+  },
+  {
+   "key": "script:0055:15F8",
+   "src": "f2e4c3246071",
+   "t": "<FACE:04>¿Deshojar flores…?<NL>Esa flor prensada…"
+  },
+  {
+   "key": "script:0055:160D",
+   "src": "d2d4ba6ee333",
+   "t": "<FACE:14>Fub… digo, líder…<WAIT>¡Al final tú eres<NL>nuestro líder!<WAIT><FACE:19>¡Eso es!<NL>¡Así sí encaja bien!<WAIT><FACE:0A>Chicos…"
+  },
+  {
+   "key": "script:0055:1656",
+   "src": "1d96b5bb791d",
+   "t": "<FACE:05>Cierto<WAIT>Además, igual que<NL>nosotros, ahora tú<WAIT>tienes a alguien a<NL>quien buscar…<WAIT><FACE:07>¡El objetivo es<NL>uno solo!<WAIT><FACE:0C>Así es…"
+  },
+  {
+   "key": "script:0055:16A8",
+   "src": "ff921547ec20",
+   "t": "<FACE:0A>Señorita Rainy…<NL>Hay que buscarla ya…"
+  },
+  {
+   "key": "script:0055:16C0",
+   "src": "22d92468af5f",
+   "t": "<FACE:0E>Se ha marchado…"
+  },
+  {
+   "key": "script:0055:16CE",
+   "src": "f00151a38b13",
+   "t": "<FACE:81>¡Q… qué fuertes-robo!<WAIT>¡A retirarse-roboo!"
+  }
+ ]
+}

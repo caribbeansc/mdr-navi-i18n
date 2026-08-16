@@ -1,0 +1,35 @@
+{
+ "part": "script/script_0011",
+ "entries": [
+  {
+   "key": "script:0011:01CD",
+   "src": "5e73c9a9181f",
+   "t": "<FACE:7D>Ya nos rendimos-robo…<NL>Moriremos aquí-robo…"
+  },
+  {
+   "key": "script:0011:01F5",
+   "src": "509c0ae6389a",
+   "t": "<FACE:7D>Imposible-robo…<NL>Ni eso nos dejan-robo…"
+  },
+  {
+   "key": "script:0011:0214",
+   "src": "376224783c6f",
+   "t": "<FACE:05>Déjense de detallitos,<NL>¡hay que avanzar!"
+  },
+  {
+   "key": "script:0011:0233",
+   "src": "5483e244453c",
+   "t": "<FACE:7D>Ya llegaron-robo…"
+  },
+  {
+   "key": "script:0011:023F",
+   "src": "a229a4be662d",
+   "t": "<FACE:81>Uuh… Como siempre,<NL>perdimos fácil-robo…<WAIT><FACE:81>¡Otra vez nos mandan a<NL>un bloque chico-robo!"
+  },
+  {
+   "key": "script:0011:0277",
+   "src": "4cbc1208a14b",
+   "t": "<FACE:00>Pues… sí la pasan mal…"
+  }
+ ]
+}

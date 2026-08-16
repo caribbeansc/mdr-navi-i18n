@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0135",
+ "entries": [
+  {
+   "key": "script:0135:00EA",
+   "src": "998ca873dc27",
+   "t": "<FACE:4A>Aaay… ojalá yo<NL>también tuviera novia…"
+  },
+  {
+   "key": "script:0135:0106",
+   "src": "a2b824b324fe",
+   "t": "<FACE:4B>Este es un lugar para<NL>venir con una chica…"
+  },
+  {
+   "key": "script:0135:0120",
+   "src": "0d20a6299769",
+   "t": "<FACE:04>¿Eh? ¿Qué les pasa?<NL>Los veo desanimados…<WAIT><FACE:49>Uf… Pensamos que no<NL>basta con cuidar solo<WAIT>la apariencia…<WAIT>Danos una robobatalla,<NL>¿sí?"
+  },
+  {
+   "key": "script:0135:017E",
+   "src": "b3b51f8d29ad",
+   "t": "<FACE:49>Eres bueno de verdad…"
+  },
+  {
+   "key": "script:0135:018D",
+   "src": "10127ffaa31c",
+   "t": "<FACE:49>En moda sí que soy<NL>bueno, pero…"
+  }
+ ]
+}
