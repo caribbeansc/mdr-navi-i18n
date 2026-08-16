@@ -236,8 +236,64 @@ def scan(rom: Rom, charset: Charset, exclude: tuple[int, int] | None = None,
                     text_bytes=text_bytes)
         for offset, (text, length, text_bytes) in sorted(accepted.items())
     ]
+    found = split_slot_tables(found, rom, charset)
     mark_fixed_tables(found)
     return found
+
+
+#: Name tables the game reaches by multiplying an index, as
+#: ``(first slot, stride, slots, bytes per name)``.
+#:
+#: A name that fills its slot leaves no terminator, so the scanner reads it and
+#: the slot next door as ONE run — and a translation of that run then writes
+#: over both, blanking the second. Eighteen part names came out empty in-game
+#: that way (マスクドカブト, キラーホエール, ジェミニ...), silently, because
+#: nothing about a blank name looks wrong in a diff. Declaring the geometry
+#: here splits every such run back into one entry per slot, so a translation
+#: can only ever reach the record it belongs to.
+SLOT_TABLES = (
+    # A medal record is 0x1C bytes and carries TWO names: the family it
+    # belongs to (クワガタ, カブト, ザウルス...) and the medal's own. The
+    # family name is what the game shows in "you got the X medal", so leaving
+    # that column Japanese printed four kana through the Latin font.
+    (0x092998, 0x1C, 16, 8),
+    (0x0929A0, 0x1C, 16, 8),
+    # Part names, the two Tinpets at the end included.
+    (0x092BD8, 0x08, 152, 8),
+    # Room names for the cluster's travel map — the "Bloq. Info" panel reads
+    # one per 0x20-byte record. Nothing points at them, so the pointer scan
+    # never saw the table at all and all 39 stayed Japanese.
+    (0x5D632C, 0x20, 41, 9),
+)
+
+
+def split_slot_tables(found: list[LooseString], rom: Rom,
+                      charset: Charset) -> list[LooseString]:
+    """Replace runs that cross a :data:`SLOT_TABLES` table with one entry per slot."""
+    data = bytes(rom.data)
+    spans: list[tuple[int, int]] = []
+    made: list[LooseString] = []
+    for start, stride, count, width in SLOT_TABLES:
+        for i in range(count):
+            at = start + i * stride
+            spans.append((at, at + width))
+            text, end = decode(data, at, charset, limit=width)
+            if not text.strip():
+                continue
+            made.append(LooseString(offset=at, text=text, length=width,
+                                    fixed=True,
+                                    text_bytes=min(end - at, width)))
+    slots = {entry.offset: entry for entry in made}
+    keep = []
+    for entry in found:
+        reach = entry.offset + max(entry.length, 1)
+        if any(low < reach and entry.offset < high for low, high in spans):
+            # The scan's own pointers are still worth carrying over.
+            if entry.offset in slots:
+                slots[entry.offset].pointers = entry.pointers
+            continue
+        keep.append(entry)
+    return sorted(keep + made, key=lambda entry: entry.offset)
 
 
 def mark_fixed_tables(found: list[LooseString], run: int = 3) -> None:

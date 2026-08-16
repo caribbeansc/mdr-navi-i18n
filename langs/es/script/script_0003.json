@@ -9,7 +9,7 @@
   {
    "key": "script:0003:026F",
    "src": "991d8958a776",
-   "t": "<FACE:7D>Qué feliz está-robo…<NL><WAIT>Sí-robo, últimamente<NL>nada bueno pasaba-robo<WAIT>Le emociona haber<NL>tomado el bloque-robo<WAIT>Robo, robo…"
+   "t": "<FACE:7D>Qué feliz está-robo…<WAIT>Sí-robo, últimamente<NL>nada bueno<WAIT>pasaba-robo<WAIT>Le emociona haber<NL>tomado el bloque-robo<WAIT>Robo, robo…"
   },
   {
    "key": "script:0003:02C0",

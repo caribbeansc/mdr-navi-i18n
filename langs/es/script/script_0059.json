@@ -14,7 +14,7 @@
   {
    "key": "script:0059:04C3",
    "src": "76961f3b6973",
-   "t": "<FACE:00>Te faltan Medapartes,<NL>no puedes robobatallar"
+   "t": "<FACE:00>Te faltan Medapartes,<NL>no puedes<WAIT>robobatallar"
   },
   {
    "key": "script:0059:04E5",

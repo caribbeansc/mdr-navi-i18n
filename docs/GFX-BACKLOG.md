@@ -46,7 +46,7 @@ the repository. The full table with transcriptions is regenerated locally into
 | 0x65FC78 | lz77 | 428 / 1024 | **[DONE]** Link-wait plate (Esperando…) |
 | 0x6EA69C + 0x6EA72C | lz77 | 144+266 / 512+512 | **[DONE]** 一閃 slash stamp → "¡UN TAJO!" (two 32x32 OBJs; inverted ink body 8 / outline 15) |
 | 0x6F1280 + 0x6F130C | lz77 | 137+306 / 512+512 | **[DONE]** 一定 fixed-damage stamp → "DAÑO FIJO" (trigger unreproduced in-game; reading is structural) |
-| 0x78BDA8 | malias | 18917 / 38400 | **[BLOCKED: 8bpp]** Opening newspaper page. Full format recovered (8bpp 1-D, 30x20 tiles, 64B/tile; uncompressed 128-entry palette at 0x78BCA8; vertical headline 謎の宇宙メダロット発掘 "Desentierran un misterioso Medabot espacial") — needs an 8bpp path in the sheets pipeline; notes in work/sheets/wf3/_probe-newspaper-8bpp.json |
+| 0x78BDA8 | malias | 18917 / 38400 | **[DONE]** The newspaper page — also the chapter-1 closing card, full screen. 8bpp 1-D, 30x20 tiles, 64B/tile, its own 256-colour palette at 0x78BCA8, so it needed its own canvas (`Canvas8`) and writer (`patch_newspaper`). Its Japanese is TATEGAKI, so the column texts are drawn ROTATED 90° clockwise and only the two photo captions stay horizontal. Ink is picked by LUMINANCE against each area's background — by palette index it came out invisible. Recompresses in place | |
 | 0x642414 | malias | 160 / 384 | BGM track labels (music notes + digits; mostly fine as is) |
 
 ## Pending — low

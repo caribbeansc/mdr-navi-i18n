@@ -34,7 +34,7 @@
   {
    "key": "script:0063:05D3",
    "src": "8347e68bd7fb",
-   "t": "<FACE:1A>¡C-cállese usted!<NL>¡Este calor nos gusta!"
+   "t": "<FACE:1A>¡C-cállese usted!<NL>¡Este calor nos<WAIT>gusta!"
   },
   {
    "key": "script:0063:05F7",
@@ -149,12 +149,12 @@
   {
    "key": "script:0063:0A40",
    "src": "aa0fd659ad70",
-   "t": "<FACE:0D>¡Ay, ya basta!<NL>¡Hagan lo que quieran!"
+   "t": "<FACE:0D>¡Ay, ya basta!<NL>¡Hagan lo que<WAIT>quieran!"
   },
   {
    "key": "script:0063:0A55",
    "src": "45fc7bf3760b",
-   "t": "<FACE:05>Qué calor…<NL>¿No se puede arreglar?"
+   "t": "<FACE:05>Qué calor…<NL>¿No se puede<WAIT>arreglar?"
   },
   {
    "key": "script:0063:0A6C",

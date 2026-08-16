@@ -81,6 +81,14 @@ DYLD_LIBRARY_PATH=$(brew --prefix mgba)/lib ./tools/gbashot build/…gba \
 
 ## The hard rules
 
+- **22 visible columns on a box's FIRST row, 21 on the second.** The last
+  cell of a second row is never drawn: a 22-character row there loses its
+  final letter and nobody notices while reading a diff (346 rows were doing
+  it). Proved with an A-Z ruler in-game; the cartridge agrees, 38 of its
+  22-column rows are first rows and only 2 are not. `validate` and
+  tests/test_second_row_width.py enforce both limits. And before calling
+  anything truncated, sample DENSELY: the box types character by character,
+  and the little continue arrow only appears once it has finished.
 - **22 visible columns per row, 2 rows per screenful.** (The tile buffer is 32 wide; columns 23-32 exist but are off-window, so overflow is silently invisible. Measured: no Japanese row exceeds 22.) `<WAIT>`/`<CLEAR>` reset the
   box, `<NL>` breaks the row. No scrolling: overflow is silently not drawn.
   `validate` measures every line; fix text, don't skip validation.
@@ -262,9 +270,97 @@ Hard-won facts:
   tests/test_battle_compose.py keeps the pack at zero refusals. Fingerprints
   are charset-sensitive: a `.tbl` respelling silently orphans pack keys, so
   the test also fails on keys with no Japanese behind them.
+- **Neighbouring text is NOT proof of one string.** A few strings really are
+  CHAINS the engine reads through `<CLEAR>` (the Navi terminal's three-box
+  greeting), but the opcode walker misses sites, so two lines of DIFFERENT
+  speakers sitting next to each other look identical to a chain. Reading
+  them as one showed an NPC's line twice — the second time with the other
+  character's portrait — and, when the merged translation fitted in place,
+  BLANKED a live line and left a save unplayable. `CHAIN_KEYS` in
+  navi/script.py lists the ones verified on screen; everything else is read
+  as a single box.
 - A string that does not end in `<WAIT>`/`<END>`/`<CLEAR>` **flows into the next
   string on the same row** (the engine keeps the box open across 0x01 text
   ops). The validator measures strings in isolation, so when the Japanese
   original ends without a boundary tag, keep the translation's final row short
   enough that the next string's first row still fits beside it (22 visible) — and check the
   seam in a gbashot screenshot.
+- **A site may have exactly ONE writer.** menus.json and gfx.json
+  `extra_strings` can both name the same offset; the loose writer runs first,
+  and extra_strings then fails its own fingerprint check (the bytes no longer
+  hold the Japanese) and is skipped in silence. That is how "Ataca al
+  Medabot`<NL>`más cercano" shipped and drew as `Ataca al Medabotás cerca` —
+  that box does not honour `<NL>` — while the version that renders correctly
+  on its three sibling sites never got to write this one.
+  tests/test_one_owner.py keeps the two lists disjoint.
+- **The Medarreloj's status screens are one sheet, and it had a twin.** The
+  seven kanji labels of the part page (行動 装甲 回数 成功 威力 対象 射程) are
+  pre-rendered 4bpp pixels in `medal-status-tileset` (block 0x6471E0, 8 tiles
+  wide, relocated by the build), NOT a glyph bank: E014/E018 are repainted in
+  both banks and the screen still showed Japanese. Its twin
+  `parts-status-tileset` (0x6FC0F0) already carried every one of them, so the
+  fix was to copy the twin's two-letter pairs onto this sheet's tile numbers.
+  When a screen keeps showing Japanese although its codes are handled, check
+  whether a SECOND sheet feeds it and whether the twin's spec is the complete
+  one.
+- **Find leftover Japanese without playing: `python3 tools/leftovers.py
+  build/…-es.gba`** (and `navi.py build` prints the count). It diffs the built
+  ROM against the dump and reports runs the build never touched that still
+  read as text, worst first — the ones on codes the font re-used for Latin
+  draw as GARBAGE, not as Japanese, so they come first. Two signals, because
+  neither is enough: the bigram model finds prose but NOT tables of katakana
+  proper nouns (they score worse than tile data — the model learned the
+  scripts' hiragana), and "how many bytes did the build rewrite within ±0x40"
+  finds a name we missed among names we translated. Event scripts and strings
+  the pack already relocated are skipped — a longer translation leaves its
+  Japanese sitting there, dead, and that is not a leftover. What is left over
+  is diffed against `langs/es/leftovers.json`, which holds OFFSETS ONLY (the
+  Japanese must never enter the repo) and silences the noisy
+  neighbourhood-only class, so a NEW leftover stands out.
+- **Index-reached NAME tables need one catalog entry per slot** —
+  `SLOT_TABLES` in navi/strings.py, `(first slot, stride, slots, width)`. A
+  name that fills its slot leaves no terminator, so the pointer scan reads it
+  and the slot next door as one run; translating that run wrote over BOTH and
+  zeroed the second. Eighteen part names drew as an empty gap that way, in
+  silence. The declaration also reaches tables nothing points at, which the
+  scan cannot see at all: the medal FAMILY column and the 39 cluster room
+  names were never catalogued and stayed Japanese for months.
+- **The cast-name table is 86 records, not the ten the pack had** — 0x7ECA90,
+  stride 0x10, an 8-character field padded with 0xDB. These are the names the
+  robattle screen shows, so kana left there is drawn through the patched font
+  and comes out as Latin soup (ヒヨリ rendered `Á")`). Nothing points at the
+  table, so the scan never saw it and the ten that were translated were the
+  ten someone had listed by hand. gfx.json `names` covers all 86 now and
+  tests/test_cast_names.py keeps it that way; the transliterations follow the
+  spellings the dialogue already ships (Shiden, Hiyori, Fubuki, Rainy…), and
+  the records that name a role rather than a person are translated
+  (ほうどうじん → Prensa, かかリいん → Personal, だんいん → Miembro).
+- **A medal record carries two names.** The record is 0x1C bytes: the medal's
+  own name at `0x0929A0 + id*0x1C` (read by 0x0804BCF8) and its FAMILY —
+  クワガタ, カブト, ザウルス… — at `0x092998 + id*0x1C`. "You got the X medal"
+  inserts the FAMILY, so leaving that column Japanese printed four kana
+  through the Latin font (`H¿ガP`).
+- **An insert is 20 bytes at `0x030014D0 + slot*20`**: cleared to spaces
+  (0x0807C1BC), the name copied over its first 8 bytes, then trailing spaces
+  trimmed BACKWARDS FROM BYTE 7 (0x0807C198). So a name field holds **7
+  characters**, never 8: an eight-character name gets no terminator and the
+  printer runs on into the rest of the slot. tests/test_slot_tables.py keeps
+  every slot translated and inside its field.
+- The result composer's pieces are cut at a 0x0F0 byte, and **kanji get in the
+  way**: 変 is 0xE0F0, so scanning for a bare 0xF0 stops on its second half
+  and keeps 化した! as the piece's "tail", which the game then draws.
+  `_piece_break` walks the encoding instead. A piece must also keep the row
+  breaks and number slots (0x01/0x02/0x03) **where the Japanese put them** —
+  the composer places the value itself, and a marker moved five cells right
+  printed the level jammed onto the end of the word. The build refuses a
+  piece whose skeleton drifted (`piece_skeleton`), and
+  tests/test_piece_skeleton.py keeps the pack at zero refusals.
+- **Every build invalidates the player's save; `tools/savefix.sh ROM SAV`
+  repairs it.** The scene pointer at .sav 0x3220 / RAM 0x0201B334 is absolute
+  and the build relocates scripts. The game does NOT recompute it on load, so
+  loading and saving again preserves the stale value — the repair has to poke
+  `master_table[ram[0x0201B3A8]*5 + ram[0x0201B3A9]]` in first, then save
+  in-game. Editing the .sav by hand is out: the word at offset 0x14 is a
+  HASH, not a checksum (byte/half/word sums and CRC32 over every plausible
+  range were tried against four real saves; none match), and the loader
+  rejects a save whose hash does not fit.

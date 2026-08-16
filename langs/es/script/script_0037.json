@@ -134,7 +134,7 @@
   {
    "key": "script:0037:08DD",
    "src": "021db5ba6135",
-   "t": "<FACE:06>¡Ustedes!<NL><WAIT>¡Suelten ya el brazo<NL>que sujeta al Cluster!"
+   "t": "<FACE:06>¡Ustedes!<WAIT>¡Suelten ya el brazo<NL>que sujeta al<WAIT>Cluster!"
   },
   {
    "key": "script:0037:0908",

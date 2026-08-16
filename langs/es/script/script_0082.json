@@ -109,7 +109,7 @@
   {
    "key": "script:0082:100F",
    "src": "cb368530033a",
-   "t": "<FACE:05>Sí, sí…<NL>Dejen la pelea interna<WAIT>¿Toca robobatalla?"
+   "t": "<FACE:05>Sí, sí…<NL>Dejen la pelea<WAIT>interna<WAIT>¿Toca robobatalla?"
   },
   {
    "key": "script:0082:102B",
@@ -139,7 +139,7 @@
   {
    "key": "script:0082:1123",
    "src": "ffef3362ba0a",
-   "t": "<FACE:7B>Ju ju ju… parece que<NL>ni el gran Raiun puede<WAIT>ser cruel con niños…<WAIT>¡Mira que no usar<NL>aquello!<WAIT>¡Fuaaa ja ja ja!"
+   "t": "<FACE:7B>Ju ju ju… parece que<NL>ni el gran Raiun<WAIT>puede<WAIT>ser cruel con niños…<WAIT>¡Mira que no usar<NL>aquello!<WAIT>¡Fuaaa ja ja ja!"
   },
   {
    "key": "script:0082:116B",
@@ -179,7 +179,7 @@
   {
    "key": "script:0082:1256",
    "src": "710bb5f21f4b",
-   "t": "<FACE:05>En fin, con esto el<NL>desarrollo de Medabots<WAIT>ya está a salvo<WAIT>Volvamos el control a<NL>la normalidad<WAIT>y sigamos adelante"
+   "t": "<FACE:05>En fin, con esto el<NL>desarrollo de<WAIT>Medabots<WAIT>ya está a salvo<WAIT>Volvamos el control a<NL>la normalidad<WAIT>y sigamos adelante"
   },
   {
    "key": "script:0082:1298",
@@ -214,7 +214,7 @@
   {
    "key": "script:0082:1300",
    "src": "6c33f692c6c4",
-   "t": "<FACE:2A>¡Para el temporizador<NL>de los explosivos!<WAIT><FACE:2B>¡Todo está bien!<NL>Ellos no se quedarán<WAIT>aquí mucho tiempo<WAIT><FACE:2A>¡Es muy peligroso!<WAIT><FACE:2B>Pero… pero para<NL>salvarnos con nuestras<WAIT>propias fuerzas<NL>¡no hay otra manera!<WAIT>¡Tú mismo lo dijiste,<NL>Amamiya!<WAIT>Que los descartados<NL>saldríamos de esta<WAIT>por nuestra cuenta"
+   "t": "<FACE:2A>¡Para el temporizador<NL>de los explosivos!<WAIT><FACE:2B>¡Todo está bien!<NL>Ellos no se quedarán<WAIT>aquí mucho tiempo<WAIT><FACE:2A>¡Es muy peligroso!<WAIT><FACE:2B>Pero… pero para<NL>salvarnos con<WAIT>nuestras<WAIT>propias fuerzas<NL>¡no hay otra manera!<WAIT>¡Tú mismo lo dijiste,<NL>Amamiya!<WAIT>Que los descartados<NL>saldríamos de esta<WAIT>por nuestra cuenta"
   },
   {
    "key": "script:0082:13A4",
@@ -224,7 +224,7 @@
   {
    "key": "script:0082:13C4",
    "src": "e256f5fdac50",
-   "t": "<FACE:03>¡No puede ser!<WAIT><FACE:2B>Así es…<NL>¡Vamos a destruir este<WAIT>bloque!<WAIT><FACE:04>Pero ¿para qué harían<NL>algo así…?"
+   "t": "<FACE:03>¡No puede ser!<WAIT><FACE:2B>Así es…<NL>¡Vamos a destruir<WAIT>este<WAIT>bloque!<WAIT><FACE:04>Pero ¿para qué harían<NL>algo así…?"
   },
   {
    "key": "script:0082:13FC",
@@ -239,12 +239,12 @@
   {
    "key": "script:0082:1498",
    "src": "52206e5fc90a",
-   "t": "<FACE:2B>¡El Sol los atraerá de<NL>vuelta y podrán volver<WAIT>cerca de la Tierra!"
+   "t": "<FACE:2B>¡El Sol los atraerá de<NL>vuelta y podrán<WAIT>volver<WAIT>cerca de la Tierra!"
   },
   {
    "key": "script:0082:14BF",
    "src": "9e91655dbbc6",
-   "t": "<FACE:12>¡Es una locura! ¡No se<NL>sabe ni en qué<WAIT>dirección irían!<WAIT><FACE:01>¡Y seguro que hay<NL>alguien en los bloques<WAIT>de más adelante!"
+   "t": "<FACE:12>¡Es una locura! ¡No se<NL>sabe ni en qué<WAIT>dirección irían!<WAIT><FACE:01>¡Y seguro que hay<NL>alguien en los<WAIT>bloques<WAIT>de más adelante!"
   },
   {
    "key": "script:0082:1502",

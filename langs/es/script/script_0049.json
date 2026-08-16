@@ -14,7 +14,7 @@
   {
    "key": "script:0049:090A",
    "src": "e1c319c00700",
-   "t": "<FACE:14>Vaya, qué modales…<NL>¿Piensas ignorarnos?<WAIT><FACE:04>(Justo ahora…<NL> Tenían que ser esos.)"
+   "t": "<FACE:14>Vaya, qué modales…<NL>¿Piensas ignorarnos?<WAIT><FACE:04>(Justo ahora…<NL>Tenían que ser esos.)"
   },
   {
    "key": "script:0049:0947",
@@ -59,7 +59,7 @@
   {
    "key": "script:0049:0A1F",
    "src": "73a7a56d1132",
-   "t": "<FACE:15>¡Mi Bugstink tiene un<NL>rayo mucho más fuerte!<WAIT><FACE:1A>¡El rayo gasta tanta<NL>AP que casi no puedes<WAIT>disparar!"
+   "t": "<FACE:15>¡Mi Bugstink tiene un<NL>rayo mucho más<WAIT>fuerte!<WAIT><FACE:1A>¡El rayo gasta tanta<NL>AP que casi no puedes<WAIT>disparar!"
   },
   {
    "key": "script:0049:0A63",
@@ -69,7 +69,7 @@
   {
    "key": "script:0049:0A94",
    "src": "3172518c054a",
-   "t": "<FACE:1A>Pero ahí no te puedes<NL>mover: si el enemigo<WAIT>no está a tiro, ¡igual<NL>no puedes disparar!<WAIT><FACE:1A>Y el alcance del rayo<NL>tiene un hueco dentro:<WAIT>si se le acercan, no<NL>puede hacer nada…"
+   "t": "<FACE:1A>Pero ahí no te puedes<NL>mover: si el enemigo<WAIT>no está a tiro, ¡igual<NL>no puedes disparar!<WAIT><FACE:1A>Y el alcance del rayo<NL>tiene un hueco<WAIT>dentro:<WAIT>si se le acercan, no<NL>puede hacer nada…"
   },
   {
    "key": "script:0049:0B04",
@@ -84,7 +84,7 @@
   {
    "key": "script:0049:0B28",
    "src": "3c4e33f740ce",
-   "t": "<FACE:03>(…Gané…)<NL><WAIT>(¡Mi primera<NL> robobatalla, y gané!)"
+   "t": "<FACE:03>(…Gané…)<WAIT>(¡Mi primera<NL>robobatalla, y gané!)"
   },
   {
    "key": "script:0049:0B56",
@@ -189,7 +189,7 @@
   {
    "key": "script:0049:0E65",
    "src": "e1e5926c7e1f",
-   "t": "<FACE:1E>Mi querido hermano<NL>siempre me trata<WAIT>como a una niña…<WAIT>Con esa estación<NL>espacial no pude ni<WAIT>hablar con él…<WAIT>Hacía tanto que no<NL>salíamos juntos…<WAIT>Y yo que tenía tantas<NL>ganas de este día…<WAIT><FACE:21>Esto no es distinto de<NL>quedarme sola en casa…"
+   "t": "<FACE:1E>Mi querido hermano<NL>siempre me trata<WAIT>como a una niña…<WAIT>Con esa estación<NL>espacial no pude ni<WAIT>hablar con él…<WAIT>Hacía tanto que no<NL>salíamos juntos…<WAIT>Y yo que tenía tantas<NL>ganas de este día…<WAIT><FACE:21>Esto no es distinto de<NL>quedarme sola en<WAIT>casa…"
   },
   {
    "key": "script:0049:0F00",
@@ -284,7 +284,7 @@
   {
    "key": "script:0049:116F",
    "src": "f0f139a0b31c",
-   "t": "<FACE:01>¡Basta! ¡Los misterios<NL>siguen siéndolo porque<WAIT>nadie indaga!<NL>¡Voy con todo!"
+   "t": "<FACE:01>¡Basta! ¡Los misterios<NL>siguen siéndolo<WAIT>porque<WAIT>nadie indaga!<NL>¡Voy con todo!"
   },
   {
    "key": "script:0049:11A0",
@@ -309,7 +309,7 @@
   {
    "key": "script:0049:1208",
    "src": "a1a3052bf8d2",
-   "t": "<FACE:11>Perdonen, quisiera<NL>recorrer la escuela<WAIT>a solas. Así que por<NL>hoy, ¿puedo retirarme?"
+   "t": "<FACE:11>Perdonen, quisiera<NL>recorrer la escuela<WAIT>a solas. Así que por<NL>hoy, ¿puedo<WAIT>retirarme?"
   },
   {
    "key": "script:0049:124E",
@@ -394,7 +394,7 @@
   {
    "key": "script:0049:13B3",
    "src": "b42e03ff475a",
-   "t": "<FACE:00>«Sobre la mudanza al<NL>edificio nuevo»…<WAIT>…Aquí el tiempo se<NL>detuvo desde entonces…"
+   "t": "<FACE:00>«Sobre la mudanza al<NL>edificio nuevo»…<WAIT>…Aquí el tiempo se<NL>detuvo desde<WAIT>entonces…"
   },
   {
    "key": "script:0049:13ED",

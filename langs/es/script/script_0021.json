@@ -9,7 +9,7 @@
   {
    "key": "script:0021:07CC",
    "src": "50f46e5c3d92",
-   "t": "<FACE:05>Es como el foso de<NL>una hormiga león…<WAIT>Si caemos, ¿será que<NL>ya no podremos volver?<WAIT><FACE:04>Mmm…"
+   "t": "<FACE:05>Es como el foso de<NL>una hormiga león…<WAIT>Si caemos, ¿será que<NL>ya no podremos<WAIT>volver?<WAIT><FACE:04>Mmm…"
   },
   {
    "key": "script:0021:0803",
@@ -74,7 +74,7 @@
   {
    "key": "script:0021:0978",
    "src": "af0586c2b092",
-   "t": "<FACE:03>Así que esto es lo que<NL>había dentro del foso…"
+   "t": "<FACE:03>Así que esto es lo que<NL>había dentro del<WAIT>foso…"
   },
   {
    "key": "script:0021:0998",
@@ -114,7 +114,7 @@
   {
    "key": "script:0021:0ADB",
    "src": "683a79dff555",
-   "t": "<FACE:47>¡¿Y por qué nos<NL>tiene que pasar esto?!"
+   "t": "<FACE:47>¡¿Y por qué nos<NL>tiene que pasar<WAIT>esto?!"
   },
   {
    "key": "script:0021:0B03",
@@ -154,17 +154,17 @@
   {
    "key": "script:0021:0BD1",
    "src": "33d12f28e221",
-   "t": "<FACE:7C>…¡Fu, fuaaa ja ja ja!<NL>¡Bien hecho, muchacho!<WAIT><FACE:79>Aunque me contuve<NL>bastante…<WAIT>¡Venciste al<NL>gran Raiun!"
+   "t": "<FACE:7C>…¡Fu, fuaaa ja ja ja!<NL>¡Bien hecho,<WAIT>muchacho!<WAIT><FACE:79>Aunque me contuve<NL>bastante…<WAIT>¡Venciste al<NL>gran Raiun!"
   },
   {
    "key": "script:0021:0C16",
    "src": "1d0e57e43b9d",
-   "t": "<FACE:79><PLAYER>, ¿verdad?…<NL>¡Recordaré ese nombre!<WAIT><FACE:7B>¡Siéntete orgulloso!<NL>¡Fuaaa ja ja ja!"
+   "t": "<FACE:79><PLAYER>, ¿verdad?…<NL>¡Recordaré ese<WAIT>nombre!<WAIT><FACE:7B>¡Siéntete orgulloso!<NL>¡Fuaaa ja ja ja!"
   },
   {
    "key": "script:0021:0C4E",
    "src": "4468a85a6e12",
-   "t": "<FACE:03>¡Ah! ¡Espera!<NL>¿Cómo salimos de aquí?"
+   "t": "<FACE:03>¡Ah! ¡Espera!<NL>¿Cómo salimos de<WAIT>aquí?"
   },
   {
    "key": "script:0021:0C69",
@@ -199,7 +199,7 @@
   {
    "key": "script:0021:0D15",
    "src": "2c2530a753d0",
-   "t": "<FACE:45>¡¿Cómo se atreven<NL>a dejarnos olvidadas?!<WAIT><FACE:09>Ah, conque eran<NL>estas niñas"
+   "t": "<FACE:45>¡¿Cómo se atreven<NL>a dejarnos<WAIT>olvidadas?!<WAIT><FACE:09>Ah, conque eran<NL>estas niñas"
   },
   {
    "key": "script:0021:0D43",

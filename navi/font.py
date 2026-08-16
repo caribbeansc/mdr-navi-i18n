@@ -158,6 +158,17 @@ def build_font(rom: Rom, charset: Charset, glyphs: dict[str, Glyph] | None = Non
     for code in NATIVE_LATIN:
         font[code] = raise_glyph(font[code])
 
+    # A few codes inside the native block are not Latin at all: the cartridge
+    # keeps the kana voicing marks there (゛ at 0xDD, ゜ at 0xDE), and the
+    # name keyboard shows a key per code, so they turn up as Japanese among
+    # the letters. Drawing over them is the whole fix — the keyboard composes
+    # itself from the font — so a glyph named after what the Latin table says
+    # the code means wins over the cartridge's own.
+    for code in NATIVE_LATIN:
+        char = charset.decode.get(code)
+        if char and len(char) == 1 and char in glyphs:
+            font[code] = glyphs[char].to_bytes()
+
     # Where each character's native (raised) glyph lives, for the keyboard
     # alias codes that duplicate capitals and punctuation onto kana slots.
     native_of: dict[str, int] = {}

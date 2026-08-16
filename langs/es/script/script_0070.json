@@ -29,7 +29,7 @@
   {
    "key": "script:0070:0BE9",
    "src": "3afb19dac870",
-   "t": "<FACE:55>¡Ah! ¡Qué barbaridad!<NL><WAIT>¡Un primer contacto<NL>espacial tan bárbaro…!<WAIT>¡¿En qué estarán<NL>pensando esos dos?!<WAIT>¡Esto puede causar una<NL>guerra interestelar!"
+   "t": "<FACE:55>¡Ah! ¡Qué barbaridad!<WAIT>¡Un primer contacto<NL>espacial tan<WAIT>bárbaro…!<WAIT>¡¿En qué estarán<NL>pensando esos dos?!<WAIT>¡Esto puede causar una<NL>guerra interestelar!"
   },
   {
    "key": "script:0070:0C5D",
@@ -94,7 +94,7 @@
   {
    "key": "script:0070:0E13",
    "src": "bb22be4a5172",
-   "t": "<FACE:0F>Espera, <PLAYER>…<NL>queda poco tiempo<WAIT>¡Debemos apurarnos!<NL><WAIT>Viste su fuerza, ¿no?<NL>No es rival fácil<WAIT>Por suerte ese Medabot<NL>se distrae con Nyuudou<WAIT>Si pasamos ahora,<NL>tal vez avancemos"
+   "t": "<FACE:0F>Espera, <PLAYER>…<NL>queda poco tiempo<WAIT>¡Debemos apurarnos!<WAIT>Viste su fuerza, ¿no?<NL>No es rival fácil<WAIT>Por suerte ese Medabot<NL>se distrae con<WAIT>Nyuudou<WAIT>Si pasamos ahora,<NL>tal vez avancemos"
   },
   {
    "key": "script:0070:0EB4",
@@ -134,7 +134,7 @@
   {
    "key": "script:0070:101B",
    "src": "6803ad6ecdec",
-   "t": "<FACE:6C>…Vaya, vaya…<NL>Qué chicos tan tercos…<WAIT>Pero… les quedo<NL>en deuda…"
+   "t": "<FACE:6C>…Vaya, vaya…<NL>Qué chicos tan<WAIT>tercos…<WAIT>Pero… les quedo<NL>en deuda…"
   },
   {
    "key": "script:0070:104B",
@@ -168,8 +168,8 @@
   },
   {
    "key": "script:0070:1152",
-   "src": "9ced603f3c9b",
-   "t": "<FACE:54><SFX:73>¡¿Enojarme…?!<DELAY:00B4><DELAY:001C><CLEAR>"
+   "src": "dc03d45d0440",
+   "t": "<FACE:54><SFX:73>¡¿Enojarme…?!<DELAY:00B4><DELAY:001C><CLEAR><FACE:54>¡Así que esto es<NL>enojarse!<DELAY:00B4><DELAY:0015><CLEAR><FACE:56>¡Ahh! <DELAY:0030>¡Qué maravilla!<DELAY:003C><DELAY:001E><END>"
   },
   {
    "key": "script:0070:1198",
@@ -199,7 +199,7 @@
   {
    "key": "script:0070:12B3",
    "src": "e5effefbdb7c",
-   "t": "<FACE:54>¡Rápido!<NL><WAIT>¡Mistral ya tomó un 20<NL>por ciento de bloques!<WAIT>¡Así ya no podremos<NL>volver!<WAIT><FACE:08>¡Qué horror!<NL><WAIT>¡Hay que apurarse!"
+   "t": "<FACE:54>¡Rápido!<WAIT>¡Mistral ya tomó un 20<NL>por ciento de<WAIT>bloques!<WAIT>¡Así ya no podremos<NL>volver!<WAIT><FACE:08>¡Qué horror!<WAIT>¡Hay que apurarse!"
   },
   {
    "key": "script:0070:130C",
@@ -209,7 +209,7 @@
   {
    "key": "script:0070:1330",
    "src": "5c0c5c4aa2ec",
-   "t": "<FACE:00>¡Nyuudou!<NL><WAIT>Dijiste que los otros<NL>fueron a tomar bloques<WAIT>Si hay más Medabots<NL>como el de recién…<WAIT><FACE:6C>Si atacaron…<NL><WAIT>¡les habrá pasado lo<NL>mismo que a mí!<WAIT><FACE:01>¡Sigamos, rápido!"
+   "t": "<FACE:00>¡Nyuudou!<WAIT>Dijiste que los otros<NL>fueron a tomar<WAIT>bloques<WAIT>Si hay más Medabots<NL>como el de recién…<WAIT><FACE:6C>Si atacaron…<WAIT>¡les habrá pasado lo<NL>mismo que a mí!<WAIT><FACE:01>¡Sigamos, rápido!"
   },
   {
    "key": "script:0070:13B3",

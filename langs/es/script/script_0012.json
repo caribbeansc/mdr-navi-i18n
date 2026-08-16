@@ -4,7 +4,7 @@
   {
    "key": "script:0012:027D",
    "src": "9b0ece6e5798",
-   "t": "<FACE:7D>¡Recuperamos este<NL>Bloque-robo!<WAIT><FACE:7D>¡Ya no lo soltamos!<NL>Es nuestro Bloque-robo<WAIT><FACE:7D>¡Daremos la vida por<NL>defender esto-robo!"
+   "t": "<FACE:7D>¡Recuperamos este<NL>Bloque-robo!<WAIT><FACE:7D>¡Ya no lo soltamos!<NL>Es nuestro<WAIT>Bloque-robo<WAIT><FACE:7D>¡Daremos la vida por<NL>defender esto-robo!"
   },
   {
    "key": "script:0012:02C7",

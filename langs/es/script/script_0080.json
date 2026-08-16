@@ -9,7 +9,7 @@
   {
    "key": "script:0080:0BDD",
    "src": "36b5f3a2f1dd",
-   "t": "<FACE:7F>¡Todo bien-robo!<WAIT><FACE:31>Peroo… si viene un<NL>jefe, ¿no los regañan?<WAIT>No se preocupen por<NL>Urin, sigan trabajando"
+   "t": "<FACE:7F>¡Todo bien-robo!<WAIT><FACE:31>Peroo… si viene un<NL>jefe, ¿no los<WAIT>regañan?<WAIT>No se preocupen por<NL>Urin, sigan<WAIT>trabajando"
   },
   {
    "key": "script:0080:0C21",
@@ -19,7 +19,7 @@
   {
    "key": "script:0080:0C48",
    "src": "fe67ec804816",
-   "t": "<FACE:32>(Tsk…)<NL><WAIT>(No aguanto más a<NL> estos tipos)<WAIT>(Que se pongan a<NL> trabajar de una vez…)"
+   "t": "<FACE:32>(Tsk…)<WAIT>(No aguanto más a<NL>estos tipos)<WAIT>(Que se pongan a<NL>trabajar de una vez…)"
   },
   {
    "key": "script:0080:0C8B",
@@ -49,7 +49,7 @@
   {
    "key": "script:0080:0D04",
    "src": "dbfe1cadde77",
-   "t": "<FACE:32>Ay, ya no aguanto…<NL>Con un chico guapo, ya<WAIT>pero ¿por qué hacerme<NL>la linda con bichos…"
+   "t": "<FACE:32>Ay, ya no aguanto…<NL>Con un chico guapo,<WAIT>ya<WAIT>pero ¿por qué hacerme<NL>la linda con bichos…"
   },
   {
    "key": "script:0080:0D4C",
@@ -104,7 +104,7 @@
   {
    "key": "script:0080:0E25",
    "src": "a5390c1e3365",
-   "t": "<FACE:7F>Nuestro jefe Smog<NL>es de salud débil-robo"
+   "t": "<FACE:7F>Nuestro jefe Smog<NL>es de salud<WAIT>débil-robo"
   },
   {
    "key": "script:0080:0E45",
@@ -144,7 +144,7 @@
   {
    "key": "script:0080:0F28",
    "src": "fd9fb7e001b9",
-   "t": "<FACE:04>¿¡Q-qué es esto…!?<NL>Cuánto polvo… cof, cof"
+   "t": "<FACE:04>¿¡Q-qué es esto…!?<NL>Cuánto polvo… cof,<WAIT>cof"
   },
   {
    "key": "script:0080:0F46",
@@ -184,7 +184,7 @@
   {
    "key": "script:0080:100C",
    "src": "ad1a37f94085",
-   "t": "<FACE:32>(Ya me estaba<NL> aburriendo de aquí…)<NL><WAIT>(Pero si Hiyori me<NL> salva, sube su fama…)"
+   "t": "<FACE:32>(Ya me estaba<NL>aburriendo de aquí…)<WAIT><WAIT>(Pero si Hiyori me<NL>salva, sube su fama…)"
   },
   {
    "key": "script:0080:104D",
@@ -299,7 +299,7 @@
   {
    "key": "script:0080:12CA",
    "src": "2f0bde1222f5",
-   "t": "<FACE:31><PLAYER>, tú sí<NL>me entiendes, ¿verdad?"
+   "t": "<FACE:31><PLAYER>, tú sí<NL>me entiendes,<WAIT>¿verdad?"
   },
   {
    "key": "script:0080:12DE",
@@ -329,7 +329,7 @@
   {
    "key": "script:0080:1322",
    "src": "1785c02a17cc",
-   "t": "<FACE:08>¡¡Oye!! …Urin…<WAIT><FACE:06><PLAYER> se está<NL>ahogando, ¡¿no crees?!"
+   "t": "<FACE:08>¡¡Oye!! …Urin…<WAIT><FACE:06><PLAYER> se está<NL>ahogando, ¡¿no<WAIT>crees?!"
   },
   {
    "key": "script:0080:1351",

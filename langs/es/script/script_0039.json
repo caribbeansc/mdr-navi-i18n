@@ -24,7 +24,7 @@
   {
    "key": "script:0039:03C6",
    "src": "c4e5d3dac7be",
-   "t": "<FACE:6C>¡Bloqueen la entrada<NL>con esa roca como sea!"
+   "t": "<FACE:6C>¡Bloqueen la entrada<NL>con esa roca como<WAIT>sea!"
   },
   {
    "key": "script:0039:03E3",

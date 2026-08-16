@@ -14,7 +14,7 @@
   {
    "key": "script:0020:02EB",
    "src": "3a10c8337c33",
-   "t": "<FACE:7D>Aunque recuperemos un<NL>bloque…<WAIT>hay que empezar por<NL>limpiar… Qué lata-robo"
+   "t": "<FACE:7D>Aunque recuperemos un<NL>bloque…<WAIT>hay que empezar por<NL>limpiar… Qué<WAIT>lata-robo"
   },
   {
    "key": "script:0020:031D",
@@ -89,7 +89,7 @@
   {
    "key": "script:0020:04B9",
    "src": "e71911a411e1",
-   "t": "<FACE:81>Nos ganaron-robo…<NL><WAIT>Fuimos a tirar la<NL>basura para nada-robo…"
+   "t": "<FACE:81>Nos ganaron-robo…<WAIT>Fuimos a tirar la<NL>basura para<WAIT>nada-robo…"
   },
   {
    "key": "script:0020:04E5",

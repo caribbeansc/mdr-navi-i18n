@@ -231,3 +231,36 @@ def lines_of(text: str) -> list[str]:
 
     broken = TAG_RE.sub(lambda m: "\n" if _name(m) in ROW_BREAKS else "", _collapse(text))
     return [row for row in broken.split("\n")]
+
+
+@dataclass(frozen=True)
+class Row:
+    """One drawn row, and whether it is the first of its box."""
+
+    text: str
+    first_in_box: bool
+
+
+def rows_by_box(text: str) -> list[Row]:
+    """The rows this line draws, each marked as first-of-box or not.
+
+    The distinction matters because the box only draws 22 columns on its
+    FIRST row: on the second the last cell never appears, so a 22nd
+    character is silently dropped.
+    """
+    def _name(m: "re.Match[str]") -> str:
+        return f"{m.group(1)}:{m.group(2)}" if m.group(2) else m.group(1)
+
+    marked = TAG_RE.sub(
+        lambda m: "\x00" if _name(m) in ("WAIT", "CLEAR", "END")
+        else ("\n" if _name(m) in ROW_BREAKS else ""), _collapse(text))
+    out: list[Row] = []
+    for box in marked.split("\x00"):
+        rows = [row for row in box.split("\n")]
+        first = True
+        for row in rows:
+            if not row:
+                continue
+            out.append(Row(row, first))
+            first = False
+    return out

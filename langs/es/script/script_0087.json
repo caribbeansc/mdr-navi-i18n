@@ -94,7 +94,7 @@
   {
    "key": "script:0087:0A5A",
    "src": "2202a5ff8907",
-   "t": "<FACE:0A>¿No será peligroso<NL>moverse tanto por ahí?"
+   "t": "<FACE:0A>¿No será peligroso<NL>moverse tanto por<WAIT>ahí?"
   },
   {
    "key": "script:0087:0A75",

@@ -54,7 +54,7 @@
   {
    "key": "script:0048:0631",
    "src": "248e1447976b",
-   "t": "<FACE:06>¡Está bien!<NL>¡A ti no te lo presto!"
+   "t": "<FACE:06>¡Está bien!<NL>¡A ti no te lo<WAIT>presto!"
   },
   {
    "key": "script:0048:064C",

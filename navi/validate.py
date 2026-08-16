@@ -12,7 +12,7 @@ from dataclasses import dataclass
 
 from .catalog import Catalog
 from .lang import Pack, fingerprint
-from .table import Charset, TableError, TAG_RE, encode, lines_of
+from .table import Charset, TableError, TAG_RE, encode, lines_of, rows_by_box
 
 #: Columns the dialogue window actually SHOWS. The tile buffer behind it is 32
 #: wide and the engine happily types into the hidden tiles, so overflow is
@@ -91,12 +91,18 @@ def check(catalog: Catalog, pack: Pack, charset: Charset) -> list[Problem]:
                     f"{size} bytes into {line.length}, and nothing points at it "
                     f"so it cannot be moved"))
 
-        rows = lines_of(entry.t)
-        for number, row in enumerate(rows, 1):
-            if len(row) > LINE_WIDTH:
+        # The box is 22 columns wide, but only its FIRST row gets all of
+        # them: on the second the last cell is never drawn, so a 22nd
+        # character silently disappears (proved with an A-Z ruler in-game,
+        # and the Japanese agrees — 38 of its 22-column rows are first rows
+        # and only 2 are not).
+        for number, row in enumerate(rows_by_box(entry.t), 1):
+            limit = LINE_WIDTH if row.first_in_box else LINE_WIDTH - 1
+            if len(row.text) > limit:
                 problems.append(Problem(
                     key, "too wide",
-                    f"row {number} is {len(row)} characters, the box fits {LINE_WIDTH}"))
+                    f"row {number} is {len(row.text)} characters, "
+                    f"{'the box fits' if row.first_in_box else 'a second row fits'} {limit}"))
 
         # The box clears on <WAIT> and <CLEAR>, so count rows per screenful.
         shown = 0

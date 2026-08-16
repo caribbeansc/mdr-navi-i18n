@@ -14,7 +14,7 @@
   {
    "key": "script:0065:06DE",
    "src": "5dffff175146",
-   "t": "<FACE:80>Es bueno para la salud<NL>pero cuesta mucho-robo"
+   "t": "<FACE:80>Es bueno para la salud<NL>pero cuesta<WAIT>mucho-robo"
   },
   {
    "key": "script:0065:06FA",
@@ -29,7 +29,7 @@
   {
    "key": "script:0065:0773",
    "src": "f5f20071990c",
-   "t": "<FACE:75>¿Mm? ¿Vienen a rogar<NL>por su vida?<WAIT><FACE:00>No, no es eso… Si le<NL>importa su salud,<WAIT>olvide el espacio y<NL>mejor viva en el campo"
+   "t": "<FACE:75>¿Mm? ¿Vienen a rogar<NL>por su vida?<WAIT><FACE:00>No, no es eso… Si le<NL>importa su salud,<WAIT>olvide el espacio y<NL>mejor viva en el<WAIT>campo"
   },
   {
    "key": "script:0065:07C8",

@@ -122,6 +122,27 @@ def cmd_build(args, config: Config) -> int:
         patch_path.write_bytes(blob)
         print(f"Patch: {patch_path.relative_to(ROOT)} ({len(blob) // 1024} KB)")
 
+    # Japanese that survived the build, outside the event scripts: text no
+    # pointer reaches is invisible to the catalog, so nothing else in the
+    # tooling would ever mention it — it used to surface one screenshot at a
+    # time, from someone playing.
+    from . import leftovers as leftovers_mod
+
+    pristine = Rom.load(config.resolve_rom())
+    standing = leftovers_mod.find(
+        pristine, rom, load_japanese(), load_latin(),
+        skip=leftovers_mod.script_area(pristine)
+        + leftovers_mod.translated_area(pristine, catalog, pack)
+        + list(leftovers_mod.DATA_AREAS))
+    known = leftovers_mod.load_baseline(pack.path / "leftovers.json")
+    fresh = [item for item in standing if item.key not in known]
+    if fresh:
+        worst = sum(1 for item in fresh if item.garbage)
+        print(f"\n{len(fresh)} Japanese runs still standing outside the "
+              f"scripts ({worst} would draw as garbage).")
+        print("         python3 tools/leftovers.py "
+              f"{out.relative_to(ROOT)} lists them.")
+
     # A player's save stores the ABSOLUTE address of the scene's script, and
     # this build just moved the scripts, so a save made with the previous one
     # is now pointing at the wrong bytes: the game opens a corrupted name

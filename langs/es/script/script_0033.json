@@ -19,7 +19,7 @@
   {
    "key": "script:0033:0C96",
    "src": "98454654db0d",
-   "t": "<FACE:04>Shiden, ¿dijiste<NL>«nuestra empresa RR»…?"
+   "t": "<FACE:04>Shiden, ¿dijiste<NL>«nuestra empresa<WAIT>RR»…?"
   },
   {
    "key": "script:0033:0CAD",
@@ -44,7 +44,7 @@
   {
    "key": "script:0033:0DA8",
    "src": "22e446fc7db2",
-   "t": "<FACE:00>(Con este Medabot…)<NL><WAIT>(Tal vez yo también<NL>pueda subir de rango)<WAIT>(Y así quizá Hiyori<NL>no se burle más de mí)"
+   "t": "<FACE:00>(Con este Medabot…)<WAIT>(Tal vez yo también<NL>pueda subir de rango)<WAIT>(Y así quizá Hiyori<NL>no se burle más de<WAIT>mí)"
   },
   {
    "key": "script:0033:0DFE",
@@ -99,7 +99,7 @@
   {
    "key": "script:0033:1039",
    "src": "52d44ec729f3",
-   "t": "<FACE:04>(Mi Medalla…<NL>¡ellos aún la tienen!)<WAIT>(¿Qué hago…?)<WAIT><FACE:0F>Jajaja, date prisa<NL><WAIT>Esos Medabots son de<NL>diseño especial<WAIT>Manipulé las «3 leyes<NL>de los Medabots»<WAIT>para que vean a todo<NL>intruso como enemigo"
+   "t": "<FACE:04>(Mi Medalla…<NL>¡ellos aún la<WAIT>tienen!)<WAIT>(¿Qué hago…?)<WAIT><FACE:0F>Jajaja, date prisa<WAIT>Esos Medabots son de<NL>diseño especial<WAIT>Manipulé las «3 leyes<NL>de los Medabots»<WAIT>para que vean a todo<NL>intruso como enemigo"
   },
   {
    "key": "script:0033:10B9",
@@ -194,7 +194,7 @@
   {
    "key": "script:0033:12AC",
    "src": "98b7dc96cc48",
-   "t": "<FACE:0F>(Je, je, je…)<NL><WAIT>(Con esto no saldrá de<NL>aquí en un buen rato…)"
+   "t": "<FACE:0F>(Je, je, je…)<WAIT>(Con esto no saldrá de<NL>aquí en un buen<WAIT>rato…)"
   },
   {
    "key": "script:0033:12D2",

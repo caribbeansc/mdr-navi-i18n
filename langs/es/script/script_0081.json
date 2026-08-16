@@ -14,7 +14,7 @@
   {
    "key": "script:0081:027D",
    "src": "4bec5a1615cc",
-   "t": "<FACE:7F>¡Aquí se está bien!<NL>¡Lo defenderemos-robo!"
+   "t": "<FACE:7F>¡Aquí se está bien!<NL>¡Lo<WAIT>defenderemos-robo!"
   },
   {
    "key": "script:0081:02C8",
@@ -29,7 +29,7 @@
   {
    "key": "script:0081:0301",
    "src": "3c1fd15f34a1",
-   "t": "<FACE:04>Esos de la banda…<NL>¿por qué tanto ánimo…?"
+   "t": "<FACE:04>Esos de la banda…<NL>¿por qué tanto<WAIT>ánimo…?"
   }
  ]
 }

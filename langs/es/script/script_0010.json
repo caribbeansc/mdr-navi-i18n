@@ -29,12 +29,12 @@
   {
    "key": "script:0010:0378",
    "src": "f75c3a43a111",
-   "t": "<FACE:80>¡N-no es igual-robo!<NL>¡Es muy distinta-robo!<WAIT>¡Eso-robo!<WAIT><FACE:7D>¡¿Qué-robo?!<NL>¡¿Qué más dice-robo?!<WAIT>Espera-robo<NL>Ni yo lo he leído-robo"
+   "t": "<FACE:80>¡N-no es igual-robo!<NL>¡Es muy<WAIT>distinta-robo!<WAIT>¡Eso-robo!<WAIT><FACE:7D>¡¿Qué-robo?!<NL>¡¿Qué más dice-robo?!<WAIT>Espera-robo<NL>Ni yo lo he<WAIT>leído-robo"
   },
   {
    "key": "script:0010:03CE",
    "src": "a0da7820b114",
-   "t": "<FACE:57>«Me equivoqué al<NL> pedirles a ustedes<WAIT> algo serio»<WAIT>«¡La próxima vez que<NL> hagan ruido de noche!<WAIT> ¡Yo iré en persona a<NL> darles su merecido!»<WAIT>«¡¿Quedó claro?!»<NL>…robo"
+   "t": "<FACE:57>«Me equivoqué al<NL>pedirles a ustedes<WAIT>algo serio»<WAIT>«¡La próxima vez que<NL>hagan ruido de noche!<WAIT>¡Yo iré en persona a<NL>darles su merecido!»<WAIT>«¡¿Quedó claro?!»<NL>…robo"
   },
   {
    "key": "script:0010:0448",
@@ -49,7 +49,7 @@
   {
    "key": "script:0010:0480",
    "src": "9598443b5a1b",
-   "t": "<FACE:7E>¡Toda esta tristeza<NL>la pagan ustedes-robo!"
+   "t": "<FACE:7E>¡Toda esta tristeza<NL>la pagan<WAIT>ustedes-robo!"
   },
   {
    "key": "script:0010:0499",

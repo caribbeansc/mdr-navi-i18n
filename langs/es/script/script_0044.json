@@ -4,12 +4,12 @@
   {
    "key": "script:0044:0952",
    "src": "40cb3ef8beec",
-   "t": "<FACE:05>Qué escándalo…<NL>¿Hay alguien al fondo?<WAIT><FACE:04>Tengo un mal<NL>presentimiento…"
+   "t": "<FACE:05>Qué escándalo…<NL>¿Hay alguien al<WAIT>fondo?<WAIT><FACE:04>Tengo un mal<NL>presentimiento…"
   },
   {
    "key": "script:0044:0984",
    "src": "60f397fd1ea0",
-   "t": "<FACE:71>No se rompe…<NL>¿Le ponen ganas o qué?"
+   "t": "<FACE:71>No se rompe…<NL>¿Le ponen ganas o<WAIT>qué?"
   },
   {
    "key": "script:0044:09A2",
@@ -29,7 +29,7 @@
   {
    "key": "script:0044:09F2",
    "src": "297ff30db705",
-   "t": "<FACE:72>(¡Uy! ¡Guapísimos!<NL>¡Y tres! ¡Qué suerte!)"
+   "t": "<FACE:72>(¡Uy! ¡Guapísimos!<NL>¡Y tres! ¡Qué<WAIT>suerte!)"
   },
   {
    "key": "script:0044:0A1E",
@@ -39,12 +39,12 @@
   {
    "key": "script:0044:0A54",
    "src": "cff54540c3ed",
-   "t": "<FACE:70>¡Nada de esperar!<WAIT><FACE:70>Que esto lo hagan<NL>ellos, ¡vamos a comer!<WAIT>Por cierto, ¿no entran<NL>a la Banda Sperobo?<WAIT><FACE:72>Con mis contactos los<NL>hago casi oficiales"
+   "t": "<FACE:70>¡Nada de esperar!<WAIT><FACE:70>Que esto lo hagan<NL>ellos, ¡vamos a<WAIT>comer!<WAIT>Por cierto, ¿no entran<NL>a la Banda Sperobo?<WAIT><FACE:72>Con mis contactos los<NL>hago casi oficiales"
   },
   {
    "key": "script:0044:0AC0",
    "src": "c40d622a27f2",
-   "t": "<FACE:81>¡Q… qué cruel-robo!<NL>¡Qué favoritismo-robo!"
+   "t": "<FACE:81>¡Q… qué cruel-robo!<NL>¡Qué<WAIT>favoritismo-robo!"
   },
   {
    "key": "script:0044:0ADB",
@@ -59,7 +59,7 @@
   {
    "key": "script:0044:0AFD",
    "src": "4aa64824fcf8",
-   "t": "<FACE:71>Yo me voy yendo, ¿sí?<NL>¡Ustedes háganlo bien!"
+   "t": "<FACE:71>Yo me voy yendo, ¿sí?<NL>¡Ustedes háganlo<WAIT>bien!"
   },
   {
    "key": "script:0044:0B28",
@@ -69,7 +69,7 @@
   {
    "key": "script:0044:0B3F",
    "src": "612af1d99ba3",
-   "t": "<FACE:00>Eso es sin duda…<WAIT><FACE:05>¿¡Otra vez la Banda<NL>Space Robo Robo!?<WAIT><FACE:05>Y con ellos están<NL>los chicos de mi clase<WAIT><FACE:01>¿Qué estarán tramando?<NL>Mejor observemos…"
+   "t": "<FACE:00>Eso es sin duda…<WAIT><FACE:05>¿¡Otra vez la Banda<NL>Space Robo Robo!?<WAIT><FACE:05>Y con ellos están<NL>los chicos de mi<WAIT>clase<WAIT><FACE:01>¿Qué estarán tramando?<NL>Mejor observemos…"
   },
   {
    "key": "script:0044:0BA4",
@@ -134,7 +134,7 @@
   {
    "key": "script:0044:0D2B",
    "src": "8bf34ed976ca",
-   "t": "<FACE:72>A·<DELAY:000A>ho·<DELAY:000A>ra·<DELAY:000A>bi·<DELAY:000A>en<DELAY:000A><WAIT>¡Oye, tú, muchachito!<NL>¡Qué guapito eres, eh!"
+   "t": "<FACE:72>A·<DELAY:000A>ho·<DELAY:000A>ra·<DELAY:000A>bi·<DELAY:000A>en<DELAY:000A><WAIT>¡Oye, tú, muchachito!<NL>¡Qué guapito eres,<WAIT>eh!"
   },
   {
    "key": "script:0044:0D68",
@@ -179,12 +179,12 @@
   {
    "key": "script:0044:0EB0",
    "src": "1e3426d59cea",
-   "t": "<FACE:06>¡Oye!<WAIT>¡<PLAYER> jamás se<NL>iría contigo! ¿Verdad?"
+   "t": "<FACE:06>¡Oye!<WAIT>¡<PLAYER> jamás se<NL>iría contigo!<WAIT>¿Verdad?"
   },
   {
    "key": "script:0044:0ED5",
    "src": "e690732d140f",
-   "t": "<FACE:03>S… sí…<WAIT><FACE:72>Mmm-jum…<WAIT>Pues el niño no se ve<NL>tan disgustado…<WAIT>En fin…<WAIT>Me gustas más que<NL>aquel colegial sombrío"
+   "t": "<FACE:03>S… sí…<WAIT><FACE:72>Mmm-jum…<WAIT>Pues el niño no se ve<NL>tan disgustado…<WAIT>En fin…<WAIT>Me gustas más que<NL>aquel colegial<WAIT>sombrío"
   },
   {
    "key": "script:0044:0F24",

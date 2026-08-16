@@ -193,10 +193,17 @@ def read_scripts(rom: Rom) -> list[Script]:
     return scripts
 
 
-#: Keys whose several boxes really are ONE string the engine reads through.
-#: Verified on screen one by one; anything not here is read as a single box.
+#: The chains this dump has, as the terminator rule finds them. Not an
+#: allowlist — the rule decides — but a fixture the tests pin, so that a
+#: change to the rule shows up as a diff instead of as a silent merge.
 CHAIN_KEYS = frozenset({
     "script:0031:0851",   # the Navi terminal's three-box greeting
+    "script:0066:12F7",
+    "script:0070:1152",
+    "script:0076:0A5C",
+    "script:0077:144B",
+    "script:0077:14FE",
+    "script:0092:06EC",
 })
 
 
@@ -207,20 +214,23 @@ def read_strings(script: Script, charset: Charset) -> dict[int, tuple[str, int]]
     over the Japanese instead of forcing the whole script to move.
 
     Some strings are CHAINS: the engine reads straight through <CLEAR>, so
-    one 0x01 op can carry several boxes back to back — the Navi greeting is
-    three (welcome / "I am the management computer" / "my name is Navi").
-    But "text right after a segment" is NOT a reliable sign of one: the
-    opcode walker misses sites, and two neighbouring lines that belong to
-    DIFFERENT speakers then look like a chain. Merging them showed one NPC's
-    line twice, the second time with the other's portrait, and — when the
-    merged translation was written in place — blanked a live line. So a
-    chain is only read as one when its key is listed in CHAIN_KEYS, each
-    verified on screen.
+    one 0x01 op can carry several boxes back to back — the Navi terminal's
+    greeting is three (welcome / "I am the management computer" / "my name
+    is Navi").
+
+    What tells a chain from two neighbouring lines is the TERMINATOR, not
+    the text: the engine stops at 0x00 and at nothing else, so a box that
+    ends with one is the end of its string and whatever follows belongs to
+    somebody else. `decode` consumes that byte, so the test is on the byte
+    just before the end. Merging on "there is text right after" instead
+    showed one NPC's line twice — the second time with the other speaker's
+    portrait, because the neighbour was a different character's line — and,
+    where the merged translation fitted in place, BLANKED a live line and
+    left a save unfinishable. Seven strings in this dump are real chains;
+    102 neighbours are not.
     """
     out: dict[int, tuple[str, int]] = {}
     data = bytes(script.data)
-    allowed = {int(k.split(":")[2], 16) for k in CHAIN_KEYS
-               if int(k.split(":")[1]) == script.index}
     offsets = script.text_offsets()
     site_set = set(offsets)
     for i, text_at in enumerate(offsets):
@@ -231,7 +241,10 @@ def read_strings(script: Script, charset: Charset) -> dict[int, tuple[str, int]]
         if not text:
             continue
         first_end = end
-        while (text_at in allowed and end < limit and end < len(data) - 2
+        # end - 1 is the byte the previous box ended on: 0x00 means the
+        # string is over, anything else (a <CLEAR>) means it carries on.
+        while (end < limit and 2 <= end < len(data) - 2
+               and data[end - 1] != 0x00
                and end not in site_set and data[end] not in (0x00, 0xF3)):
             more, more_end = decode(data, end, charset)
             visible = more

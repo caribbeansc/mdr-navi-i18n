@@ -34,7 +34,7 @@
   {
    "key": "script:0145:035C",
    "src": "1dfaa9aa2f75",
-   "t": "<FACE:00>¿Qué haces en un sitio<NL>así, Smog…?<WAIT><FACE:75>Mm… nada, nada…<NL>Unos brotes, nada más…"
+   "t": "<FACE:00>¿Qué haces en un sitio<NL>así, Smog…?<WAIT><FACE:75>Mm… nada, nada…<NL>Unos brotes, nada<WAIT>más…"
   },
   {
    "key": "script:0145:0390",

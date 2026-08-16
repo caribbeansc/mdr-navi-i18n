@@ -9,12 +9,12 @@
   {
    "key": "script:0155:0468",
    "src": "f4031dec06dc",
-   "t": "<FACE:91>¡Ah! ¿Eres <PLAYER>?<NL>Perdón por lo de antes<WAIT>Hacía mucho que nadie<NL>me ganaba así de bien<WAIT>Me alteré un poco…<WAIT><FACE:00>Ya veo… A mí perder<NL>también me deja mal…<WAIT>…Oye, ¿y cómo sabes<NL>mi nombre?"
+   "t": "<FACE:91>¡Ah! ¿Eres <PLAYER>?<NL>Perdón por lo de<WAIT>antes<WAIT>Hacía mucho que nadie<NL>me ganaba así de bien<WAIT>Me alteré un poco…<WAIT><FACE:00>Ya veo… A mí perder<NL>también me deja mal…<WAIT>…Oye, ¿y cómo sabes<NL>mi nombre?"
   },
   {
    "key": "script:0155:04F3",
    "src": "c9daffe95236",
-   "t": "<FACE:91>El Dr. Medabot me<NL>contó lo que pasó aquí<WAIT>¡Eres todo un héroe!"
+   "t": "<FACE:91>El Dr. Medabot me<NL>contó lo que pasó<WAIT>aquí<WAIT>¡Eres todo un héroe!"
   },
   {
    "key": "script:0155:052F",
@@ -84,7 +84,7 @@
   {
    "key": "script:0155:0721",
    "src": "4619e52bc5e5",
-   "t": "<FACE:00>¿Más pelea? ¡Qué va!<NL><WAIT>¡Si ustedes son<NL>medaguerreros famosos!<WAIT>¡El gusto es mío!<NL>¡Hagámoslo!"
+   "t": "<FACE:00>¿Más pelea? ¡Qué va!<WAIT>¡Si ustedes son<NL>medaguerreros<WAIT>famosos!<WAIT>¡El gusto es mío!<NL>¡Hagámoslo!"
   },
   {
    "key": "script:0155:075D",
@@ -99,7 +99,7 @@
   {
    "key": "script:0155:0779",
    "src": "615ad4ae77f2",
-   "t": "<FACE:91>¡Aún quedan por ahí<NL>medaguerreros fuertes!"
+   "t": "<FACE:91>¡Aún quedan por ahí<NL>medaguerreros<WAIT>fuertes!"
   },
   {
    "key": "script:0155:079E",
@@ -109,7 +109,7 @@
   {
    "key": "script:0155:07B6",
    "src": "e12dc25b370c",
-   "t": "<FACE:91>Cuando quieras otra<NL>robobatalla, ¡llámame!<WAIT>¡Y ahora, como amigos!<WAIT><FACE:04>Ah… sí…"
+   "t": "<FACE:91>Cuando quieras otra<NL>robobatalla,<WAIT>¡llámame!<WAIT>¡Y ahora, como amigos!<WAIT><FACE:04>Ah… sí…"
   },
   {
    "key": "script:0155:07EC",
@@ -129,7 +129,7 @@
   {
    "key": "script:0155:082C",
    "src": "7a281d3715ea",
-   "t": "<FACE:91>¡Ah, es cierto!<NL>Querías hablar conmigo<WAIT>…¿De qué se trata?"
+   "t": "<FACE:91>¡Ah, es cierto!<NL>Querías hablar<WAIT>conmigo<WAIT>…¿De qué se trata?"
   },
   {
    "key": "script:0155:084F",
@@ -169,7 +169,7 @@
   {
    "key": "script:0155:0965",
    "src": "3d3b2ce57e54",
-   "t": "<FACE:91>¡Es cierto! Si hasta<NL>hace nada estaba aquí…<WAIT><FACE:00>¿No será que él sí<NL>lo conoce?"
+   "t": "<FACE:91>¡Es cierto! Si hasta<NL>hace nada estaba<WAIT>aquí…<WAIT><FACE:00>¿No será que él sí<NL>lo conoce?"
   },
   {
    "key": "script:0155:099C",

@@ -9,7 +9,7 @@
   {
    "key": "script:0058:03C5",
    "src": "b5abff4accae",
-   "t": "<FACE:00>Pero el grupo otaku<NL>ya se había reformado…<WAIT><FACE:00>¿Entonces quién fue?"
+   "t": "<FACE:00>Pero el grupo otaku<NL>ya se había<WAIT>reformado…<WAIT><FACE:00>¿Entonces quién fue?"
   },
   {
    "key": "script:0058:03E7",
@@ -34,7 +34,7 @@
   {
    "key": "script:0058:044B",
    "src": "ac9679d11489",
-   "t": "<FACE:7D>¡Esto no tiene nada<NL>que ver con conquistar<WAIT>el universo-robo!"
+   "t": "<FACE:7D>¡Esto no tiene nada<NL>que ver con<WAIT>conquistar<WAIT>el universo-robo!"
   },
   {
    "key": "script:0058:046E",
@@ -49,7 +49,7 @@
   {
    "key": "script:0058:04DE",
    "src": "14d6d5c92d8f",
-   "t": "<FACE:80>¡Aaaah! ¡Señorita<NL>Kirika, intrusos-robo!"
+   "t": "<FACE:80>¡Aaaah! ¡Señorita<NL>Kirika,<WAIT>intrusos-robo!"
   },
   {
    "key": "script:0058:04F7",

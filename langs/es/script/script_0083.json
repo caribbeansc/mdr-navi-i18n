@@ -14,7 +14,7 @@
   {
    "key": "script:0083:039A",
    "src": "2b7ff3e5e8e7",
-   "t": "<FACE:7A>¡Grr! ¡Qué dices!<NL>¡<PLAYER> no es rival…"
+   "t": "<FACE:7A>¡Grr! ¡Qué dices!<NL>¡<PLAYER> no es<WAIT>rival…"
   },
   {
    "key": "script:0083:03BB",
@@ -54,7 +54,7 @@
   {
    "key": "script:0083:04F5",
    "src": "c3644f4b2600",
-   "t": "<FACE:79>¡Retirada! Buscaremos<NL>al culpable, ¡andando!"
+   "t": "<FACE:79>¡Retirada! Buscaremos<NL>al culpable,<WAIT>¡andando!"
   },
   {
    "key": "script:0083:0518",

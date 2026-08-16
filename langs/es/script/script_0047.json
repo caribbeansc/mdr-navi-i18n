@@ -39,7 +39,7 @@
   {
    "key": "script:0047:0340",
    "src": "0e37a70ae5ca",
-   "t": "<FACE:54>El aire de la nave<NL>es casi el del Cluster<WAIT>…No hay problema para<NL>respirar.<WAIT>No se detectan<NL>microbios ni bacterias<WAIT>Gravedad: 1.0013 G…<WAIT>Pueden moverse sin<NL>problema… pero…"
+   "t": "<FACE:54>El aire de la nave<NL>es casi el del<WAIT>Cluster<WAIT>…No hay problema para<NL>respirar.<WAIT>No se detectan<NL>microbios ni<WAIT>bacterias<WAIT>Gravedad: 1.0013 G…<WAIT>Pueden moverse sin<NL>problema… pero…"
   },
   {
    "key": "script:0047:03BD",

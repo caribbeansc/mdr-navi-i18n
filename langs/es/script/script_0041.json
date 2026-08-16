@@ -54,12 +54,12 @@
   {
    "key": "script:0041:079F",
    "src": "d3fff28d4051",
-   "t": "<FACE:6D>Sekiran…<NL><WAIT>Eso no es así…<WAIT><FACE:70>¿Nyuudou?<WAIT><FACE:6C>En una situación así<NL>no hay niño ni adulto<WAIT>Si no unimos fuerzas<NL>caeremos todos juntos<WAIT>Este servidor también<NL>fue salvado por niños…"
+   "t": "<FACE:6D>Sekiran…<WAIT>Eso no es así…<WAIT><FACE:70>¿Nyuudou?<WAIT><FACE:6C>En una situación así<NL>no hay niño ni adulto<WAIT>Si no unimos fuerzas<NL>caeremos todos juntos<WAIT>Este servidor también<NL>fue salvado por<WAIT>niños…"
   },
   {
    "key": "script:0041:0817",
    "src": "9f1a0a1c929e",
-   "t": "<FACE:6C>¡Ahora este servidor<NL>los salvará a ustedes!"
+   "t": "<FACE:6C>¡Ahora este servidor<NL>los salvará a<WAIT>ustedes!"
   },
   {
    "key": "script:0041:082F",

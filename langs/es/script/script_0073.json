@@ -84,7 +84,7 @@
   {
    "key": "script:0073:0774",
    "src": "23874536a89f",
-   "t": "<FACE:65>Intruso detectado en<NL>el bloque… Eliminando…"
+   "t": "<FACE:65>Intruso detectado en<NL>el bloque…<WAIT>Eliminando…"
   },
   {
    "key": "script:0073:079A",
@@ -114,7 +114,7 @@
   {
    "key": "script:0073:07F6",
    "src": "eed428932d66",
-   "t": "<FACE:00>Parece que con esto<NL>se calman los Medabots"
+   "t": "<FACE:00>Parece que con esto<NL>se calman los<WAIT>Medabots"
   }
  ]
 }

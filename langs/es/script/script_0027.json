@@ -34,7 +34,7 @@
   {
    "key": "script:0027:1129",
    "src": "72c2c34f5c13",
-   "t": "<FACE:05>¿Ya lo viste?<NL><WAIT>En esta lista no sale<NL>ni una vez el nombre<WAIT>de ese presumido de<NL>Murasame Shiden…<WAIT>Pero en esa otra su<NL>nombre está en la cima<WAIT>¿Sabes qué significa?"
+   "t": "<FACE:05>¿Ya lo viste?<WAIT>En esta lista no sale<NL>ni una vez el nombre<WAIT>de ese presumido de<NL>Murasame Shiden…<WAIT>Pero en esa otra su<NL>nombre está en la<WAIT>cima<WAIT>¿Sabes qué significa?"
   },
   {
    "key": "script:0027:119F",
@@ -99,7 +99,7 @@
   {
    "key": "script:0027:1405",
    "src": "01dd4419c743",
-   "t": "<FACE:05>(A estas alturas ya<NL> somos parte de esto.)"
+   "t": "<FACE:05>(A estas alturas ya<NL>somos parte de esto.)"
   },
   {
    "key": "script:0027:1430",

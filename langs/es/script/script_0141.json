@@ -19,7 +19,7 @@
   {
    "key": "script:0141:0187",
    "src": "86ff6fb37f69",
-   "t": "<FACE:1E>Es usted admirable<WAIT><FACE:1E>Con razón mi hermano<NL>se fija tanto en usted"
+   "t": "<FACE:1E>Es usted admirable<WAIT><FACE:1E>Con razón mi hermano<NL>se fija tanto en<WAIT>usted"
   },
   {
    "key": "script:0141:01B1",

@@ -4,7 +4,7 @@
   {
    "key": "script:0040:0877",
    "src": "311ed45755e3",
-   "t": "<FACE:05>¡Guaaau!<NL>¡Mira, mira, <PLAYER>!<WAIT><FACE:07>¡Qué mar tan bonito!<NL>Parece de verdad…"
+   "t": "<FACE:05>¡Guaaau!<NL>¡Mira, mira, <PLAYER><WAIT>!<WAIT><FACE:07>¡Qué mar tan bonito!<NL>Parece de verdad…"
   },
   {
    "key": "script:0040:08A3",
@@ -24,7 +24,7 @@
   {
    "key": "script:0040:0928",
    "src": "8115a8733b58",
-   "t": "<FACE:03>¡Ah! La promesa del<NL>polo acuático: Tsumuji"
+   "t": "<FACE:03>¡Ah! La promesa del<NL>polo acuático:<WAIT>Tsumuji"
   },
   {
    "key": "script:0040:0948",
@@ -54,7 +54,7 @@
   {
    "key": "script:0040:0A32",
    "src": "eacd27d8f32e",
-   "t": "<FACE:01>¡Q-qué dices!<NL>Yo también tengo garra"
+   "t": "<FACE:01>¡Q-qué dices!<NL>Yo también tengo<WAIT>garra"
   },
   {
    "key": "script:0040:0A4D",
@@ -64,7 +64,7 @@
   {
    "key": "script:0040:0A6C",
    "src": "be86215da7d7",
-   "t": "<FACE:37>Tus amados Medabots…<NL>¡A robobatallar, pues!"
+   "t": "<FACE:37>Tus amados Medabots…<NL>¡A robobatallar,<WAIT>pues!"
   },
   {
    "key": "script:0040:0A96",
@@ -89,17 +89,17 @@
   {
    "key": "script:0040:0B88",
    "src": "b829c14a0208",
-   "t": "<FACE:3A>¡Mi técnica es el<NL>Giro Mach!<WAIT><FACE:37>Una técnica en<NL>desarrollo es secreta<WAIT>¡Ni a un compañero de<NL>clase se la mostramos!"
+   "t": "<FACE:3A>¡Mi técnica es el<NL>Giro Mach!<WAIT><FACE:37>Una técnica en<NL>desarrollo es secreta<WAIT>¡Ni a un compañero de<NL>clase se la<WAIT>mostramos!"
   },
   {
    "key": "script:0040:0BD4",
    "src": "304d30c2ea39",
-   "t": "<FACE:04>Qué egoístas…<NL>¿Justo ahora entrenan?"
+   "t": "<FACE:04>Qué egoístas…<NL>¿Justo ahora<WAIT>entrenan?"
   },
   {
    "key": "script:0040:0BF9",
    "src": "99957d7c6b43",
-   "t": "<FACE:38>¡Qué cosas dices!<NL><WAIT>Las eliminatorias del<NL>torneo ya casi llegan<WAIT><FACE:39>Sí… ya no hay tiempo<WAIT><FACE:3A>De hecho, ni tiempo de<NL>venir al Cluster había<WAIT>Vinimos porque era<NL>actividad obligatoria…<WAIT><FACE:38>Y como no sabemos<NL>cuándo volveremos…<WAIT>¡solo nos queda tomar<NL>este lugar y entrenar!"
+   "t": "<FACE:38>¡Qué cosas dices!<WAIT>Las eliminatorias del<NL>torneo ya casi llegan<WAIT><FACE:39>Sí… ya no hay tiempo<WAIT><FACE:3A>De hecho, ni tiempo de<NL>venir al Cluster<WAIT>había<WAIT>Vinimos porque era<NL>actividad<WAIT>obligatoria…<WAIT><FACE:38>Y como no sabemos<NL>cuándo volveremos…<WAIT>¡solo nos queda tomar<NL>este lugar y<WAIT>entrenar!"
   },
   {
    "key": "script:0040:0CCC",

@@ -14,7 +14,7 @@
   {
    "key": "script:0069:064C",
    "src": "8f71b936b8bb",
-   "t": "<FACE:0A>¿Qué hacemos ahora,<NL><PLAYER>? ¿Lo dejamos?"
+   "t": "<FACE:0A>¿Qué hacemos ahora,<NL><PLAYER>? ¿Lo<WAIT>dejamos?"
   },
   {
    "key": "script:0069:065C",

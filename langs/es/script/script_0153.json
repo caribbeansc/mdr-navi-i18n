@@ -9,7 +9,7 @@
   {
    "key": "script:0153:0224",
    "src": "3dcac70713a0",
-   "t": "<FACE:00>¿Y si entre ellos está<NL>el dueño del paquete…?"
+   "t": "<FACE:00>¿Y si entre ellos está<NL>el dueño del<WAIT>paquete…?"
   },
   {
    "key": "script:0153:0246",
@@ -44,7 +44,7 @@
   {
    "key": "script:0153:02D6",
    "src": "755a2bd1f099",
-   "t": "<FACE:00>¿Ikki…?<NL>¿El medaguerrero Ikki?<WAIT>¿Ustedes son amigos<NL>de Ikki?<WAIT><FACE:95>¿Amigos?<NL>¡Pero qué dices!<WAIT>Para los Screws, Ikki<NL>es casi un subordinado"
+   "t": "<FACE:00>¿Ikki…?<NL>¿El medaguerrero<WAIT>Ikki?<WAIT>¿Ustedes son amigos<NL>de Ikki?<WAIT><FACE:95>¿Amigos?<NL>¡Pero qué dices!<WAIT>Para los Screws, Ikki<NL>es casi un<WAIT>subordinado"
   },
   {
    "key": "script:0153:0345",
@@ -64,7 +64,7 @@
   {
    "key": "script:0153:03C2",
    "src": "72790b1a1fb5",
-   "t": "<FACE:95>¡Me estás hartando!<NL>¡Vamos a robobatallar!"
+   "t": "<FACE:95>¡Me estás hartando!<NL>¡Vamos a<WAIT>robobatallar!"
   },
   {
    "key": "script:0153:03E5",

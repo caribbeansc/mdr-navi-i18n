@@ -4,7 +4,7 @@
   {
    "key": "script:0019:02B1",
    "src": "57bf7ca1635f",
-   "t": "<FACE:7D>Uf, qué lentos-robo<NL><WAIT>Si <PLAYER> llega<NL>ahora, ¿qué hago-robo?"
+   "t": "<FACE:7D>Uf, qué lentos-robo<WAIT>Si <PLAYER> llega<NL>ahora, ¿qué<WAIT>hago-robo?"
   },
   {
    "key": "script:0019:02D8",
@@ -39,7 +39,7 @@
   {
    "key": "script:0019:038B",
    "src": "c3be3c72df3b",
-   "t": "<FACE:00>Está bien, ¿no?<NL><WAIT>Si nos devuelven el<NL>bloque, no hay bronca…"
+   "t": "<FACE:00>Está bien, ¿no?<WAIT>Si nos devuelven el<NL>bloque, no hay<WAIT>bronca…"
   },
   {
    "key": "script:0019:03B1",

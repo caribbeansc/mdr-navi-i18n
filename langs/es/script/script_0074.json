@@ -59,7 +59,7 @@
   {
    "key": "script:0074:06ED",
    "src": "367ee99abdea",
-   "t": "<FACE:00>Ya veo… aquí no hay<NL>nadie más que Medabots"
+   "t": "<FACE:00>Ya veo… aquí no hay<NL>nadie más que<WAIT>Medabots"
   },
   {
    "key": "script:0074:070A",

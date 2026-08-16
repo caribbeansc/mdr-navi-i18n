@@ -24,7 +24,7 @@
   {
    "key": "script:0023:077A",
    "src": "f9f32b49cf15",
-   "t": "<FACE:7D>No, analizándolo con<NL>calma…<WAIT>¡Son las Medapartes de<NL><PLAYER>, seguro-robo!"
+   "t": "<FACE:7D>No, analizándolo con<NL>calma…<WAIT>¡Son las Medapartes de<NL><PLAYER>,<WAIT>seguro-robo!"
   },
   {
    "key": "script:0023:07A5",
@@ -44,7 +44,7 @@
   {
    "key": "script:0023:07F5",
    "src": "005b8a6d16a8",
-   "t": "<FACE:6D>¡No es que ellos sean<NL>fuertes!<WAIT>¡Es que nos faltan<NL>agallas!<WAIT>¡Lo que necesitamos es<NL>un entrenamiento duro!"
+   "t": "<FACE:6D>¡No es que ellos sean<NL>fuertes!<WAIT>¡Es que nos faltan<NL>agallas!<WAIT>¡Lo que necesitamos es<NL>un entrenamiento<WAIT>duro!"
   },
   {
    "key": "script:0023:0840",
@@ -59,7 +59,7 @@
   {
    "key": "script:0023:08A0",
    "src": "4984a5598275",
-   "t": "<FACE:81>¿¡Este monte-robo!?<NL>¡E… es terrible-robo!<WAIT><FACE:6C>¡Esa es la prueba de<NL>que no tienen agallas!<WAIT>¡Entrenarán como sea!"
+   "t": "<FACE:81>¿¡Este monte-robo!?<NL>¡E… es terrible-robo!<WAIT><FACE:6C>¡Esa es la prueba de<NL>que no tienen<WAIT>agallas!<WAIT>¡Entrenarán como sea!"
   },
   {
    "key": "script:0023:08EF",
@@ -74,12 +74,12 @@
   {
    "key": "script:0023:0943",
    "src": "a9b4062fe23a",
-   "t": "<FACE:7F>¡Ya entendí-robo!<NL><WAIT>¡¡Si hay robobatalla,<NL>adiós entrenamiento!!<WAIT>¡A provocarlos-robo!<NL>¡¡A provocarlos-robo!!"
+   "t": "<FACE:7F>¡Ya entendí-robo!<WAIT>¡¡Si hay robobatalla,<NL>adiós entrenamiento!!<WAIT>¡A provocarlos-robo!<NL>¡¡A<WAIT>provocarlos-robo!!"
   },
   {
    "key": "script:0023:0980",
    "src": "0a773724daa3",
-   "t": "<FACE:00>Parece que en este<NL>bloque el aparato<WAIT>de control está en la<NL>cima del monte<WAIT><FACE:0A>Pero… es puro barranco<NL>y se ve difícil subir…"
+   "t": "<FACE:00>Parece que en este<NL>bloque el aparato<WAIT>de control está en la<NL>cima del monte<WAIT><FACE:0A>Pero… es puro barranco<NL>y se ve difícil<WAIT>subir…"
   },
   {
    "key": "script:0023:09C6",
@@ -99,7 +99,7 @@
   {
    "key": "script:0023:0A00",
    "src": "20a7a0099310",
-   "t": "<FACE:06>¿Pero qué dices?<NL>¡Es una trampa segura!"
+   "t": "<FACE:06>¿Pero qué dices?<NL>¡Es una trampa<WAIT>segura!"
   },
   {
    "key": "script:0023:0A1C",
@@ -109,7 +109,7 @@
   {
    "key": "script:0023:0A73",
    "src": "e40eb6892e58",
-   "t": "<FACE:80>¡Ooooooye!<NL>¡Acá-robo! ¡Acá-roboo!"
+   "t": "<FACE:80>¡Ooooooye!<NL>¡Acá-robo!<WAIT>¡Acá-roboo!"
   },
   {
    "key": "script:0023:0A8B",
@@ -119,7 +119,7 @@
   {
    "key": "script:0023:0A97",
    "src": "4e2a5473853e",
-   "t": "<FACE:04>Pero este camino<NL>parece no tener salida"
+   "t": "<FACE:04>Pero este camino<NL>parece no tener<WAIT>salida"
   },
   {
    "key": "script:0023:0AB5",

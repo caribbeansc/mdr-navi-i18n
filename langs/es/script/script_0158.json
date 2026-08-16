@@ -9,7 +9,7 @@
   {
    "key": "script:0158:0252",
    "src": "a1f28d85d96a",
-   "t": "<FACE:9C>Dicen que resolvió el<NL>gran lío de este lugar<WAIT>Si eso se sabe, seguro<NL>se vuelve famoso"
+   "t": "<FACE:9C>Dicen que resolvió el<NL>gran lío de este<WAIT>lugar<WAIT>Si eso se sabe, seguro<NL>se vuelve famoso"
   },
   {
    "key": "script:0158:0290",
@@ -54,7 +54,7 @@
   {
    "key": "script:0158:03AE",
    "src": "978c45b1e77d",
-   "t": "<FACE:9C>Aunque no lo parezca,<NL>¡soy asesora del club!<WAIT>¡Siempre enlazada con<NL>los Medarrelojes!<WAIT><FACE:00>¿Puede contactarlo?"
+   "t": "<FACE:9C>Aunque no lo parezca,<NL>¡soy asesora del<WAIT>club!<WAIT>¡Siempre enlazada con<NL>los Medarrelojes!<WAIT><FACE:00>¿Puede contactarlo?"
   },
   {
    "key": "script:0158:03F3",

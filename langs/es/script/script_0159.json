@@ -44,7 +44,7 @@
   {
    "key": "script:0159:0272",
    "src": "c2e7b6eb4524",
-   "t": "<FACE:8C>¡Ni modo! ¡Entonces te<NL>lo demuestro peleando!"
+   "t": "<FACE:8C>¡Ni modo! ¡Entonces te<NL>lo demuestro<WAIT>peleando!"
   },
   {
    "key": "script:0159:0291",

@@ -19,7 +19,7 @@
   {
    "key": "script:0060:041B",
    "src": "80b124d64505",
-   "t": "<FACE:05>Otra vez le quitaron<NL>el brazo derecho, ¿no?<WAIT><FACE:05><PLAYER>, ¡de paso<NL>recuperemos su brazo!"
+   "t": "<FACE:05>Otra vez le quitaron<NL>el brazo derecho,<WAIT>¿no?<WAIT><FACE:05><PLAYER>, ¡de paso<NL>recuperemos su brazo!"
   },
   {
    "key": "script:0060:0454",

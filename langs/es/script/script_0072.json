@@ -9,7 +9,7 @@
   {
    "key": "script:0072:071B",
    "src": "710b2ff768b5",
-   "t": "<FACE:7A>¡Les dije bien claro<NL>que cuidaran todo<WAIT>mientras yo no estaba!<NL>¡¿Y qué es este caos?!"
+   "t": "<FACE:7A>¡Les dije bien claro<NL>que cuidaran todo<WAIT>mientras yo no estaba!<NL>¡¿Y qué es este<WAIT>caos?!"
   },
   {
    "key": "script:0072:0753",
@@ -89,7 +89,7 @@
   {
    "key": "script:0072:0971",
    "src": "f42f392751b3",
-   "t": "<FACE:79>¡Ugh…!<WAIT>Je… je je je<NL>Creerán que ganaron<WAIT>pero nuestro plan ya<NL>llegó a su fase final…"
+   "t": "<FACE:79>¡Ugh…!<WAIT>Je… je je je<NL>Creerán que ganaron<WAIT>pero nuestro plan ya<NL>llegó a su fase<WAIT>final…"
   },
   {
    "key": "script:0072:09BB",

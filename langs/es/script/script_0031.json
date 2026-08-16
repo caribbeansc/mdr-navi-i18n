@@ -84,7 +84,7 @@
   {
    "key": "script:0031:0A40",
    "src": "b27a56fab406",
-   "t": "<FACE:36>Mmm… ¿en serio?<NL><WAIT><PLAYER> es más<NL>glotón de lo que creía"
+   "t": "<FACE:36>Mmm… ¿en serio?<WAIT><PLAYER> es más<NL>glotón de lo que<WAIT>creía"
   },
   {
    "key": "script:0031:0A68",
@@ -94,7 +94,7 @@
   {
    "key": "script:0031:0A7A",
    "src": "1731fd026544",
-   "t": "<FACE:06>Por cierto… ¿dónde<NL>se metió el presidente<WAIT>de clase?<NL><WAIT>Y yo con las ganas de<NL>darle su merecido"
+   "t": "<FACE:06>Por cierto… ¿dónde<NL>se metió el<WAIT>presidente<WAIT>de clase?<WAIT>Y yo con las ganas de<NL>darle su merecido"
   },
   {
    "key": "script:0031:0AB4",
@@ -204,7 +204,7 @@
   {
    "key": "script:0031:0D9F",
    "src": "a33ce79a93e0",
-   "t": "<FACE:0F>Por aquí<NL><WAIT>Sobre el «Medabot<NL>espacial» que hallaste<WAIT>Pensé que tal vez<NL>cayó algo más ese día<WAIT>y mandé un equipo<NL>de investigación<WAIT>pero al final no<NL>hallaron nada más"
+   "t": "<FACE:0F>Por aquí<WAIT>Sobre el «Medabot<NL>espacial» que<WAIT>hallaste<WAIT>Pensé que tal vez<NL>cayó algo más ese día<WAIT>y mandé un equipo<NL>de investigación<WAIT>pero al final no<NL>hallaron nada más"
   },
   {
    "key": "script:0031:0E12",
@@ -309,7 +309,7 @@
   {
    "key": "script:0031:0FB5",
    "src": "123e2c262ed4",
-   "t": "<FACE:5F>Esto… es que mientras<NL>usted hablaba<WAIT>el joven <PLAYER> y<NL>los demás ya entraron…<WAIT>De la clase, el único<NL>que queda es usted…"
+   "t": "<FACE:5F>Esto… es que mientras<NL>usted hablaba<WAIT>el joven <PLAYER> y<NL>los demás ya<WAIT>entraron…<WAIT>De la clase, el único<NL>que queda es usted…"
   },
   {
    "key": "script:0031:100F",

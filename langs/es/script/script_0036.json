@@ -14,7 +14,7 @@
   {
    "key": "script:0036:08B8",
    "src": "53b4121cc3f7",
-   "t": "<FACE:06>¿Qué le ven a ese tipo<NL>tan hueco? ¡Qué bobas!"
+   "t": "<FACE:06>¿Qué le ven a ese tipo<NL>tan hueco? ¡Qué<WAIT>bobas!"
   },
   {
    "key": "script:0036:08D8",
@@ -169,7 +169,7 @@
   {
    "key": "script:0036:0B98",
    "src": "dd700d536fb3",
-   "t": "8…<DELAY:0028> 7…<WAIT><FACE:05>¿Oíste, <PLAYER>?<NL><WAIT>Cuando despeguemos,<NL>ni se te ocurra hablar<WAIT>¡Te vas a morder<NL>la lengua!"
+   "t": "8…<DELAY:0028> 7…<WAIT><FACE:05>¿Oíste, <PLAYER>?<WAIT>Cuando despeguemos,<NL>ni se te ocurra<WAIT>hablar<WAIT>¡Te vas a morder<NL>la lengua!"
   },
   {
    "key": "script:0036:0BD8",
@@ -234,12 +234,12 @@
   {
    "key": "script:0036:0D00",
    "src": "afb8d676639c",
-   "t": "<FACE:00>«Transbordador a<NL>Cluster: Lanzadera 1»…<WAIT><FACE:02>Qué emoción"
+   "t": "<FACE:00>«Transbordador a<NL>Cluster: Lanzadera<WAIT>1»…<WAIT><FACE:02>Qué emoción"
   },
   {
    "key": "script:0036:0D2E",
    "src": "2e65d7407f5e",
-   "t": "<FACE:00>«Pasado mañana inician<NL>los viajes a Cluster»…<WAIT><FACE:02>Je je…<NL><WAIT>¡Seremos los primeros<NL>en subir!"
+   "t": "<FACE:00>«Pasado mañana inician<NL>los viajes a<WAIT>Cluster»…<WAIT><FACE:02>Je je…<WAIT>¡Seremos los primeros<NL>en subir!"
   }
  ]
 }

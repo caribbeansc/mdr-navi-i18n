@@ -4,7 +4,7 @@
   {
    "key": "script:0055:09EB",
    "src": "f7717f4065d0",
-   "t": "<FACE:03>Vaya…<NL>Este bloque parece una<WAIT>ciudad del futuro<WAIT><FACE:19>Las calles parecen<NL>casas de muestra<WAIT><FACE:14>Tan pulcro que hasta<NL>da frialdad…"
+   "t": "<FACE:03>Vaya…<NL>Este bloque parece<WAIT>una<WAIT>ciudad del futuro<WAIT><FACE:19>Las calles parecen<NL>casas de muestra<WAIT><FACE:14>Tan pulcro que hasta<NL>da frialdad…"
   },
   {
    "key": "script:0055:0A3D",
@@ -89,12 +89,12 @@
   {
    "key": "script:0055:0C0D",
    "src": "2316e612b9c5",
-   "t": "<FACE:0E>Perdón, <PLAYER>…<NL>ahora no…<WAIT><FACE:0A>Pero esto sí lo digo<WAIT>Cerca de aquí hay un<NL>medaguerrero fortísimo<WAIT>Hay que tener cuidado…<WAIT><FACE:00>Entendido"
+   "t": "<FACE:0E>Perdón, <PLAYER>…<NL>ahora no…<WAIT><FACE:0A>Pero esto sí lo digo<WAIT>Cerca de aquí hay un<NL>medaguerrero<WAIT>fortísimo<WAIT>Hay que tener cuidado…<WAIT><FACE:00>Entendido"
   },
   {
    "key": "script:0055:0C5C",
    "src": "770dce8470aa",
-   "t": "<FACE:00>Chicos, como dice<NL>Fubuki: ¡ojo con todo!<WAIT><FACE:05>Qué raaaro"
+   "t": "<FACE:00>Chicos, como dice<NL>Fubuki: ¡ojo con<WAIT>todo!<WAIT><FACE:05>Qué raaaro"
   },
   {
    "key": "script:0055:0C86",
@@ -249,7 +249,7 @@
   {
    "key": "script:0055:1134",
    "src": "65f43372725b",
-   "t": "<FACE:1D>Entonces… ¿el líder<NL>también está con ella?<WAIT><FACE:18>No puede ser…<NL>Qué cruel, líder…"
+   "t": "<FACE:1D>Entonces… ¿el líder<NL>también está con<WAIT>ella?<WAIT><FACE:18>No puede ser…<NL>Qué cruel, líder…"
   },
   {
    "key": "script:0055:1167",
@@ -394,7 +394,7 @@
   {
    "key": "script:0055:15B7",
    "src": "3ef94fc8841e",
-   "t": "<FACE:21>¡No quiero!<NL>¡Ya no quiero esperar!"
+   "t": "<FACE:21>¡No quiero!<NL>¡Ya no quiero<WAIT>esperar!"
   },
   {
    "key": "script:0055:15CD",

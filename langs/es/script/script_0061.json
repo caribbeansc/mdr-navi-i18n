@@ -39,7 +39,7 @@
   {
    "key": "script:0061:0955",
    "src": "13820887bd7e",
-   "t": "<FACE:05>No sé qué estén<NL>haciendo, pero por ahí<WAIT>anda una gente rara,<NL>la Banda Sperobo<WAIT>Así que tengan<NL>cuidado"
+   "t": "<FACE:05>No sé qué estén<NL>haciendo, pero por<WAIT>ahí<WAIT>anda una gente rara,<NL>la Banda Sperobo<WAIT>Así que tengan<NL>cuidado"
   },
   {
    "key": "script:0061:098F",
@@ -69,7 +69,7 @@
   {
    "key": "script:0061:0A33",
    "src": "567cc72a5402",
-   "t": "<FACE:08>¡Eso no es respuesta!<WAIT><FACE:2D>Qué impaciente eres…<WAIT><FACE:2B>¿Han pensado ustedes<NL>en asegurar la comida?<WAIT>Estamos aislados, y lo<NL>primero es conseguir<WAIT>alimentos"
+   "t": "<FACE:08>¡Eso no es respuesta!<WAIT><FACE:2D>Qué impaciente eres…<WAIT><FACE:2B>¿Han pensado ustedes<NL>en asegurar la<WAIT>comida?<WAIT>Estamos aislados, y lo<NL>primero es conseguir<WAIT>alimentos"
   },
   {
    "key": "script:0061:0A9D",
@@ -114,7 +114,7 @@
   {
    "key": "script:0061:0C3B",
    "src": "0b7e15eb43ea",
-   "t": "<FACE:2F>…¿Y ahora qué?<WAIT><FACE:00>Pelear entre nosotros<NL>no sirve de nada, ¿no?<WAIT>Mejor colaboremos"
+   "t": "<FACE:2F>…¿Y ahora qué?<WAIT><FACE:00>Pelear entre nosotros<NL>no sirve de nada,<WAIT>¿no?<WAIT>Mejor colaboremos"
   },
   {
    "key": "script:0061:0C71",
@@ -124,7 +124,7 @@
   {
    "key": "script:0061:0C8B",
    "src": "5e4be3108eca",
-   "t": "<FACE:2B>Esfuércense en no<NL>estorbarnos, por favor"
+   "t": "<FACE:2B>Esfuércense en no<NL>estorbarnos, por<WAIT>favor"
   },
   {
    "key": "script:0061:0CAA",
@@ -189,7 +189,7 @@
   {
    "key": "script:0061:0E6A",
    "src": "b57c0c2fbc9a",
-   "t": "<FACE:00>¿Eso no se llama<NL>ser enclenque…?<WAIT><FACE:75>Da igual… Ustedes se<NL>unirán a la Banda<WAIT>Sperobo…<WAIT>Y de por vida cuidarán<NL>los árboles del bosque<WAIT>para que yo pueda<NL>darme baños de bosque<WAIT>cof…"
+   "t": "<FACE:00>¿Eso no se llama<NL>ser enclenque…?<WAIT><FACE:75>Da igual… Ustedes se<NL>unirán a la Banda<WAIT>Sperobo…<WAIT>Y de por vida cuidarán<NL>los árboles del<WAIT>bosque<WAIT>para que yo pueda<NL>darme baños de bosque<WAIT>cof…"
   },
   {
    "key": "script:0061:0EDF",

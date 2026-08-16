@@ -44,7 +44,7 @@
   {
    "key": "script:0006:0334",
    "src": "099d62b11bf8",
-   "t": "<FACE:7D>¡Mira-robo!<NL>¡Este viene solo-robo!<WAIT><FACE:7E>¡Nuestro billete<NL>al ascenso-robo!"
+   "t": "<FACE:7D>¡Mira-robo!<NL>¡Este viene<WAIT>solo-robo!<WAIT><FACE:7E>¡Nuestro billete<NL>al ascenso-robo!"
   },
   {
    "key": "script:0006:035B",

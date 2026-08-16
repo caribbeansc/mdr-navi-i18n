@@ -29,7 +29,7 @@
   {
    "key": "script:0028:1D74",
    "src": "5bacf3052a2a",
-   "t": "<FACE:05>Es inútil, Fubuki<NL>Déjalo, sigamos solos…"
+   "t": "<FACE:05>Es inútil, Fubuki<NL>Déjalo, sigamos<WAIT>solos…"
   },
   {
    "key": "script:0028:1D95",
@@ -54,7 +54,7 @@
   {
    "key": "script:0028:1DFC",
    "src": "7222e9f2a6ed",
-   "t": "<FACE:10>Quita el seguro con<NL>ella y baja la palanca"
+   "t": "<FACE:10>Quita el seguro con<NL>ella y baja la<WAIT>palanca"
   },
   {
    "key": "script:0028:1E1D",
@@ -154,7 +154,7 @@
   {
    "key": "script:0028:2014",
    "src": "4570f2c5ad82",
-   "t": "<FACE:15>¡Ni de broma!<NL>¡Nadie andará contigo!<WAIT><FACE:1A>¡Eso es!<NL>¡No es ninguna broma!"
+   "t": "<FACE:15>¡Ni de broma!<NL>¡Nadie andará<WAIT>contigo!<WAIT><FACE:1A>¡Eso es!<NL>¡No es ninguna broma!"
   },
   {
    "key": "script:0028:204E",
@@ -279,7 +279,7 @@
   {
    "key": "script:0028:2380",
    "src": "cc627bf28cb5",
-   "t": "<FACE:01>No te hagas del rogar<NL>y dilo ya<WAIT><FACE:2B>En la ruta del Cluster<NL>hay un asteroide<WAIT>Ya lo saben por la<NL>alarma de hace un rato"
+   "t": "<FACE:01>No te hagas del rogar<NL>y dilo ya<WAIT><FACE:2B>En la ruta del Cluster<NL>hay un asteroide<WAIT>Ya lo saben por la<NL>alarma de hace un<WAIT>rato"
   },
   {
    "key": "script:0028:23CA",
@@ -299,7 +299,7 @@
   {
    "key": "script:0028:2422",
    "src": "0148a3632bba",
-   "t": "<FACE:2B>Según mis cálculos,<NL>al chocar el asteroide<WAIT>el único sitio seguro<NL>es este Bloque<WAIT>Y además, el impacto<NL>lo lanzará a la Tierra"
+   "t": "<FACE:2B>Según mis cálculos,<NL>al chocar el<WAIT>asteroide<WAIT>el único sitio seguro<NL>es este Bloque<WAIT>Y además, el impacto<NL>lo lanzará a la<WAIT>Tierra"
   },
   {
    "key": "script:0028:248B",
@@ -359,7 +359,7 @@
   {
    "key": "script:0028:256D",
    "src": "4aaafb32f309",
-   "t": "<FACE:2B>Es inútil: sin la<NL>tarjeta llave no pasan<WAIT>Nos apartemos o no,<NL>ustedes no avanzarán"
+   "t": "<FACE:2B>Es inútil: sin la<NL>tarjeta llave no<WAIT>pasan<WAIT>Nos apartemos o no,<NL>ustedes no avanzarán"
   },
   {
    "key": "script:0028:25B5",
@@ -419,7 +419,7 @@
   {
    "key": "script:0028:26D8",
    "src": "2b1734b20168",
-   "t": "<FACE:2E>Niwaka, el presidente,<NL>huyó, y para cuidarnos<WAIT>andábamos con ellos<NL><WAIT>Como ellos huyeron,<NL>ahora los seguimos"
+   "t": "<FACE:2E>Niwaka, el presidente,<NL>huyó, y para<WAIT>cuidarnos<WAIT>andábamos con ellos<WAIT>Como ellos huyeron,<NL>ahora los seguimos"
   },
   {
    "key": "script:0028:2735",
@@ -609,7 +609,7 @@
   {
    "key": "script:0028:2B75",
    "src": "92e0092473f0",
-   "t": "<FACE:03>¿E… eh?<WAIT><FACE:0F>¿Lo olvidaste?<NL>Lo de la sala especial"
+   "t": "<FACE:03>¿E… eh?<WAIT><FACE:0F>¿Lo olvidaste?<NL>Lo de la sala<WAIT>especial"
   },
   {
    "key": "script:0028:2B9C",
@@ -634,7 +634,7 @@
   {
    "key": "script:0028:2C97",
    "src": "a807c220ffa8",
-   "t": "<FACE:0F>¡Primero, tu relato!<WAIT><FACE:01>¡No entiendes nada!<NL><WAIT>No hay ningún secreto<NL>entre ese Medabot y yo<WAIT><FACE:04>Que creyera que se<NL>llamaba «Mistral»<WAIT>quizá fue solo mi<NL>imaginación…<WAIT><FACE:01>¿Por qué te obsesionas<NL>tanto con eso?<WAIT><FACE:0F>Me estás ocultando<NL>algo… Por ejemplo:"
+   "t": "<FACE:0F>¡Primero, tu relato!<WAIT><FACE:01>¡No entiendes nada!<WAIT>No hay ningún secreto<NL>entre ese Medabot y<WAIT>yo<WAIT><FACE:04>Que creyera que se<NL>llamaba «Mistral»<WAIT>quizá fue solo mi<NL>imaginación…<WAIT><FACE:01>¿Por qué te obsesionas<NL>tanto con eso?<WAIT><FACE:0F>Me estás ocultando<NL>algo… Por ejemplo:"
   },
   {
    "key": "script:0028:2D70",
@@ -644,7 +644,7 @@
   {
    "key": "script:0028:2E05",
    "src": "6f3007120628",
-   "t": "<FACE:0F>En la sala especial,<WAIT><FACE:0F>no solo venciste a<NL>los Medabots exhibidos<WAIT>Destruiste el cuarto<NL>entero y escapaste<WAIT>Por buenas que sean<NL>las partes del Stag,<WAIT>eso solo no basta<NL>para semejante hazaña"
+   "t": "<FACE:0F>En la sala especial,<WAIT><FACE:0F>no solo venciste a<NL>los Medabots<WAIT>exhibidos<WAIT>Destruiste el cuarto<NL>entero y escapaste<WAIT>Por buenas que sean<NL>las partes del Stag,<WAIT>eso solo no basta<NL>para semejante hazaña"
   },
   {
    "key": "script:0028:2E80",
@@ -669,7 +669,7 @@
   {
    "key": "script:0028:2EF7",
    "src": "58fc6fffd089",
-   "t": "<FACE:00>¿Un lobo…?<NL>Pero no es el de antes<WAIT><FACE:0F>Lo mejoré<NL>No será como antes"
+   "t": "<FACE:00>¿Un lobo…?<NL>Pero no es el de<WAIT>antes<WAIT><FACE:0F>Lo mejoré<NL>No será como antes"
   },
   {
    "key": "script:0028:2FA5",
@@ -844,7 +844,7 @@
   {
    "key": "script:0028:3492",
    "src": "9c9a1c31c536",
-   "t": "<FACE:53>Campo gravitatorio del<NL>asteroide en 5 minutos<WAIT><FACE:03>¡Esto es grave!"
+   "t": "<FACE:53>Campo gravitatorio del<NL>asteroide en 5<WAIT>minutos<WAIT><FACE:03>¡Esto es grave!"
   },
   {
    "key": "script:0028:34B9",
@@ -934,7 +934,7 @@
   {
    "key": "script:0028:36A8",
    "src": "e886430b0211",
-   "t": "<FACE:2E>y este se llama<NL>Shinkirou, ¿entendido?"
+   "t": "<FACE:2E>y este se llama<NL>Shinkirou,<WAIT>¿entendido?"
   },
   {
    "key": "script:0028:36C7",

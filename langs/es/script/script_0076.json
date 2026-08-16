@@ -39,7 +39,7 @@
   {
    "key": "script:0076:0752",
    "src": "7e660404cc2f",
-   "t": "<FACE:0F>Decidido entonces<NL>¡Comencemos el asalto!<NL>"
+   "t": "<FACE:0F>Decidido entonces<NL>¡Comencemos el<WAIT>asalto!"
   },
   {
    "key": "script:0076:0769",
@@ -123,8 +123,8 @@
   },
   {
    "key": "script:0076:0A5C",
-   "src": "5247cd3b4e02",
-   "t": "<FACE:53><SFX:6A>Señor Niwaka…<NL><DELAY:003C><DELAY:0010><CLEAR>"
+   "src": "93c2baa30802",
+   "t": "<FACE:53><SFX:6A>Señor Niwaka…<NL><DELAY:003C><DELAY:0010><CLEAR>¿Por qué usted no<NL>cambia nunca?<NL><DELAY:003C><DELAY:000A><END>"
   },
   {
    "key": "script:0076:0A8D",

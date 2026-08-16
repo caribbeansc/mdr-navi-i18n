@@ -28,7 +28,7 @@ from .catalog import Catalog, Line
 from .lang import Pack
 from .rom import BASE, Rom, find_free_space
 from .script import Script
-from .table import Charset, TableError, encode
+from .table import KANJI_LEAD, Charset, TableError, encode
 
 #: A 16-bit pointer counted from the start of the script caps how big one can get.
 MAX_SCRIPT_SIZE = 0x10000
@@ -443,6 +443,93 @@ def _write_battle_messages(rom: Rom, pack: Pack, charset: Charset,
             ("battle-messages", f"{len(missing)} messages have no entry yet"))
 
 
+def _piece_break(data: bytes) -> int:
+    """Where a result-composer piece's text ends, as an index of its 0xF0.
+
+    Kanji are two bytes led by 0xE0/0xE1, and 0xE0F0 is 変 — so a plain
+    search for 0xF0 stops on the SECOND HALF of a kanji and calls everything
+    after it the piece's tail. The destruction line kept 化した! that way and
+    the game drew half a Japanese word after the level number. Walking the
+    encoding instead of scanning for a byte is the whole fix.
+    """
+    i = 0
+    while i < len(data):
+        byte = data[i]
+        if byte in KANJI_LEAD and i + 1 < len(data):
+            i += 2
+            continue
+        if byte == 0xF0:
+            return i
+        i += 1
+    return -1
+
+
+#: Bytes the result composer replaces with a number as it draws a piece.
+PIECE_NUMBERS = (0x01, 0x02, 0x03)
+
+#: Cells a number slot takes once the composer has filled it in.
+PIECE_NUMBER_CELLS = 3
+
+
+def piece_cells(data: bytes) -> int:
+    """How many cells a composer piece draws once its numbers are filled in.
+
+    The pieces of one result line share a row, and the row is the box's 22
+    columns like every other: a piece that composes wider than the Japanese
+    it replaces pushes the pieces after it off the edge, where nothing is
+    drawn. Kanji count as one cell, a row break as none, and a number slot as
+    the three digits the composer can put there.
+    """
+    cells = index = 0
+    while index < len(data):
+        byte = data[index]
+        if byte in KANJI_LEAD and index + 1 < len(data):
+            index += 2
+            cells += 1
+        elif byte in (0xF0, 0x00):
+            break
+        elif byte == 0xF1:
+            index += 1
+        elif byte in PIECE_NUMBERS:
+            index += 1
+            cells += PIECE_NUMBER_CELLS
+        else:
+            index += 1
+            cells += 1
+    return cells
+
+
+def piece_skeleton(data: bytes) -> list[tuple[str, int]]:
+    """The row breaks and number slots of a composer piece, in cells.
+
+    The composer fills each piece's ``0x01``/``0x02`` with a value and lays
+    the rows out itself, so a translation has to keep those markers where the
+    Japanese put them. Moving one is not a wording choice: the medal
+    level-up line moved its number five cells right and the level printed
+    jammed onto the end of the word instead of starting its own row.
+    """
+    out: list[tuple[str, int]] = []
+    cell = index = 0
+    while index < len(data):
+        byte = data[index]
+        if byte in KANJI_LEAD and index + 1 < len(data):
+            index += 2
+            cell += 1
+        elif byte in (0xF0, 0x00):
+            break
+        elif byte == 0xF1:
+            out.append(("NL", cell))
+            index += 1
+        elif byte in PIECE_NUMBERS:
+            out.append((f"#{byte}", cell))
+            index += 1
+            cell += 1
+        else:
+            index += 1
+            cell += 1
+    return out
+
+
 def _write_extra_strings(rom: Rom, pack: Pack, charset: Charset, report: Report) -> None:
     """Index-reached system strings (action names, Medaforce lines...).
 
@@ -489,9 +576,24 @@ def _write_extra_strings(rom: Rom, pack: Pack, charset: Charset, report: Report)
         # next line.
         if entry.get("exact"):
             original_bytes = bytes(rom.data)[int(str(entry["sites"][0]), 16):][:room]
-            stop = original_bytes.find(0xF0)
+            stop = _piece_break(original_bytes)
             tail = original_bytes[stop + 1:] if stop >= 0 else b"\x00"
             body = payload[:-1] if text.endswith("<X:F0>") else payload
+            wanted = piece_skeleton(original_bytes)
+            if piece_skeleton(body) != wanted:
+                report.skipped.append(
+                    (f"extra:{src}",
+                     "the row breaks and number slots must sit where the "
+                     f"Japanese put them ({wanted})"))
+                continue
+            room_cells = piece_cells(original_bytes)
+            if piece_cells(body) > room_cells:
+                report.skipped.append(
+                    (f"extra:{src}",
+                     f"composes {piece_cells(body)} cells where the Japanese "
+                     f"drew {room_cells}; the pieces after it would fall off "
+                     "the row"))
+                continue
             room_for_body = room - 1 - len(tail)
             if len(body) > room_for_body:
                 report.skipped.append(
@@ -734,6 +836,19 @@ def build(rom: Rom, catalog: Catalog, pack: Pack, charset: Charset) -> Report:
             report.gfx_drawn += plate_report.drawn
             report.gfx_relocated += plate_report.relocated
             report.skipped.extend(plate_report.skipped)
+        paper = _json.loads(gfx_path.read_text(encoding="utf-8")).get(
+            "newspaper", {}) if gfx_path.is_file() else {}
+        if paper:
+            # The chapter's closing page: one 8bpp image, and the only asset
+            # whose Japanese is set vertically, so its columns are drawn
+            # rotated. See "the opening newspaper" in navi/gfx.py.
+            paper_report = gfx.GfxReport()
+            setter = gfx.Typesetter(rom, charset, font_data)
+            gfx.patch_newspaper(rom, setter, paper, allocator, sites, paper_report)
+            report.gfx_drawn += paper_report.drawn
+            report.gfx_relocated += paper_report.relocated
+            report.skipped.extend(paper_report.skipped)
+
         if banks:
             # Kanji the UI text renderer blits per two-byte code, not a sheet:
             # see "kanji glyph banks" in navi/gfx.py.

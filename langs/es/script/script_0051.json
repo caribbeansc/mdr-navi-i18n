@@ -39,7 +39,7 @@
   {
    "key": "script:0051:08C2",
    "src": "2a08185880dd",
-   "t": "<FACE:05>¡Ay, sí, sí!<NL>¡Menos charla y vamos!"
+   "t": "<FACE:05>¡Ay, sí, sí!<NL>¡Menos charla y<WAIT>vamos!"
   },
   {
    "key": "script:0051:08E5",

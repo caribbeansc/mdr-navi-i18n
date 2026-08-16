@@ -54,7 +54,7 @@
   {
    "key": "script:0071:0E3F",
    "src": "574eb62fced8",
-   "t": "<FACE:05>«Buscador Automático<NL>Dowsinger Z» ¡y listo!"
+   "t": "<FACE:05>«Buscador Automático<NL>Dowsinger Z» ¡y<WAIT>listo!"
   },
   {
    "key": "script:0071:0E68",
@@ -74,7 +74,7 @@
   {
    "key": "script:0071:0EE5",
    "src": "a6048bf88135",
-   "t": "<FACE:06>¡Ya me lo imaginaba!<NL>¡Regresamos, <PLAYER>!"
+   "t": "<FACE:06>¡Ya me lo imaginaba!<NL>¡Regresamos, <PLAYER><WAIT>!"
   },
   {
    "key": "script:0071:0F04",
@@ -84,7 +84,7 @@
   {
    "key": "script:0071:0F27",
    "src": "acc6a7fb5c38",
-   "t": "<FACE:00>¡Shiden! ¿Qué haces?<WAIT><FACE:0F>Mmm…<NL><WAIT>Un cristal de metal<NL>especial purísimo…<WAIT>Los recursos de este<NL>asteroide son enormes…<WAIT><FACE:00>¡Ay! Si ya sabes que<NL>no hay paso, ¡regresa!"
+   "t": "<FACE:00>¡Shiden! ¿Qué haces?<WAIT><FACE:0F>Mmm…<WAIT>Un cristal de metal<NL>especial purísimo…<WAIT>Los recursos de este<NL>asteroide son<WAIT>enormes…<WAIT><FACE:00>¡Ay! Si ya sabes que<NL>no hay paso,<WAIT>¡regresa!"
   },
   {
    "key": "script:0071:0F99",
@@ -149,7 +149,7 @@
   {
    "key": "script:0071:118F",
    "src": "a154395a6aa1",
-   "t": "<FACE:1C>!<NL><WAIT>¡No es lo que parece…!<NL><WAIT>¡No estaba flojeando<NL>ni descansando!<WAIT><FACE:01>…Si ya sabes que no<NL>hay paso, ¡regresa ya!"
+   "t": "<FACE:1C>!<WAIT>¡No es lo que parece…!<WAIT>¡No estaba flojeando<NL>ni descansando!<WAIT><FACE:01>…Si ya sabes que no<NL>hay paso, ¡regresa<WAIT>ya!"
   },
   {
    "key": "script:0071:11D9",
@@ -159,7 +159,7 @@
   {
    "key": "script:0071:11EA",
    "src": "b186dba5e9af",
-   "t": "<FACE:17>!<NL><WAIT>¡No es lo que crees…!<NL><WAIT>¡No estaba flojeando!<NL>¡Créeme, en serio!<WAIT><FACE:01>…Si ya sabes que no<NL>hay paso, ¡regresa ya!"
+   "t": "<FACE:17>!<WAIT>¡No es lo que crees…!<WAIT>¡No estaba flojeando!<NL>¡Créeme, en serio!<WAIT><FACE:01>…Si ya sabes que no<NL>hay paso, ¡regresa<WAIT>ya!"
   },
   {
    "key": "script:0071:1238",
@@ -174,7 +174,7 @@
   {
    "key": "script:0071:1275",
    "src": "20d0c37e860e",
-   "t": "<FACE:0A>Está algo flojo<NL>¿Pusieron rocas luego?"
+   "t": "<FACE:0A>Está algo flojo<NL>¿Pusieron rocas<WAIT>luego?"
   },
   {
    "key": "script:0071:129A",
@@ -279,7 +279,7 @@
   {
    "key": "script:0071:1522",
    "src": "a1bb4f9168d6",
-   "t": "<FACE:03>¿Qué les pasa a todos?<NL>De pronto se callaron…"
+   "t": "<FACE:03>¿Qué les pasa a todos?<NL>De pronto se<WAIT>callaron…"
   },
   {
    "key": "script:0071:1540",
@@ -309,7 +309,7 @@
   {
    "key": "script:0071:15F6",
    "src": "5d3692762530",
-   "t": "<FACE:06>¿Qué? ¡Pues claro<NL>que sí!<WAIT>Si valieran algo, nos<NL>retarían a robobatalla<WAIT>En el Cluster siempre<NL>perdían con nosotros<WAIT>Creen que no pueden<NL>ganar, ¡por eso esto!"
+   "t": "<FACE:06>¿Qué? ¡Pues claro<NL>que sí!<WAIT>Si valieran algo, nos<NL>retarían a<WAIT>robobatalla<WAIT>En el Cluster siempre<NL>perdían con nosotros<WAIT>Creen que no pueden<NL>ganar, ¡por eso esto!"
   },
   {
    "key": "script:0071:16D9",
