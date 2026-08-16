@@ -12776,18 +12776,24 @@
   "Marino"
  ],
  "newspaper": {
-  "head.a": "DESENTIERRAN UN",
-  "head.b": "MEDABOT ESPACIAL",
-  "sub": "JOYA DEL PARQUE",
-  "left.a": "LO HALLÓ UN",
-  "left.b": "COLEGIAL",
+  "head": [
+   "DESENTIERRAN UN",
+   "MEDABOT ESPACIAL"
+  ],
+  "sub": [
+   "JOYA DEL PARQUE"
+  ],
+  "left.a": [
+   "LO HALLÓ UN"
+  ],
+  "left.b": [
+   "COLEGIAL"
+  ],
   "photo": [
-   "POR SUS PARTES ES",
-   "UN MEDABOT SEGURO"
+   "Es un Medabot"
   ],
   "boy": [
-   "KASUMI, EL",
-   "QUE LO VIO"
+   "Kasumi"
   ]
  }
 }

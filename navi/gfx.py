@@ -1345,19 +1345,6 @@ class Canvas8:
         if 0 <= x < self.width and 0 <= y < self.height:
             self.tiles[self._at(x, y)] = value
 
-    def fill_rect(self, x: int, y: int, w: int, h: int, value: int) -> None:
-        for py in range(y, y + h):
-            for px in range(x, x + w):
-                self.set(px, py, value)
-
-    def sample_rect(self, x: int, y: int, w: int, h: int) -> int:
-        """The most common value in a rectangle — its background colour."""
-        from collections import Counter
-
-        counter = Counter(self.get(px, py)
-                          for py in range(y, y + h) for px in range(x, x + w))
-        return counter.most_common(1)[0][0]
-
 
 def _draw8(setter: "Typesetter", canvas: Canvas8, x: int, y: int, text: str,
            ink: int, spacing: int = 1) -> None:
@@ -1395,19 +1382,171 @@ def _draw8_rotated(setter: "Typesetter", canvas: Canvas8, x: int, y: int,
         pen += width + spacing
 
 
-#: The page's regions, in PIXELS, measured off the rendered block.
-#: ``rot`` columns are drawn top-down with the letters turned clockwise;
-#: the rest are ordinary horizontal captions.
+#: The page's regions, in PIXELS, measured off the rendered block: for each
+#: text, the rectangle its Japanese occupies, with a pixel or two of slack.
+#: ``rotated`` columns are drawn top-down with the letters turned clockwise;
+#: the rest are ordinary horizontal captions.  Every rectangle is fenced in
+#: by something that must survive: ``head`` is the INTERIOR of the dark box,
+#: whose frame runs x 208-233 / y 2-155; ``sub`` has an article column
+#: ending at x 186 on one side and that frame starting at x 205 on the
+#: other; the photo sits above ``photo`` and the article below it starts at
+#: y 113; the girl's neck reaches down to y 138 over ``boy``.
+#:
+#: They must not overlap EACH OTHER either, and the one pair that nearly
+#: does is worth spelling out: the girl's caption looks like it runs to
+#: x 63, but that tail is the ``left.b`` column crossing behind it — the
+#: caption's own ink stops at x 48.  A rectangle drawn to x 63 erased the
+#: last two letters of the column's Spanish, because the areas are erased
+#: in order and this one comes last.
 NEWSPAPER_AREAS = {
-    # key            x,   y,   w,   h,  rotated
-    "head.a":      (216,   6,   9, 148, True),
-    "head.b":      (226,   6,   9, 148, True),
-    "sub":         (190,  48,   9, 105, True),
-    "left.a":      ( 72,  72,   9,  86, True),
-    "left.b":      ( 58,  96,   9,  62, True),
-    "photo":       ( 82, 100, 118,  20, False),
-    "boy":         (  4, 138,  62,  20, False),
+    # key         x,   y,   w,    h,  rotated
+    "head":    (208,   2,  26, 154, True),
+    "sub":     (190,  51,  15, 104, True),
+    "left.a":  ( 67,  74,  13,  79, True),
+    "left.b":  ( 54,  97,  12,  61, True),
+    "photo":   ( 84, 100,  85,  12, False),
+    "boy":     (  6, 140,  48,  10, False),
 }
+
+#: How far a pixel may sit from the fitted paper, in units of the GBA's 0-31
+#: colour axes, and still count as paper.  The narrowest step on the page's
+#: ramp is 1.0 (white to rgb(31,31,30)) and most are 1.4, so anything under
+#: one whole step repaints a pixel that is on the WRONG BAND — which is what
+#: a stroke leaves behind once its own colours are gone: at 1.0 the headline
+#: box kept a faint tracery of single pixels one band light, and the cream
+#: areas kept a scatter of rgb(31,31,30) on white.  It is still generous:
+#: the fit lands within 0.7 of half the pixels of every area, so half the
+#: paper is not touched at all.
+NEWSPAPER_CUT = 0.8
+
+
+def _newspaper_palette(rom_data: bytes) -> list[tuple[int, int, int]]:
+    """The page's own 256 colours, as (r, g, b) on 0-31 axes."""
+    palette = []
+    for index in range(256):
+        colour = struct.unpack_from("<H", rom_data, NEWSPAPER_PALETTE + 2 * index)[0]
+        palette.append((colour & 31, (colour >> 5) & 31, (colour >> 10) & 31))
+    return palette
+
+
+def _solve_linear(matrix: list[list[float]], vector: list[float]) -> list[float] | None:
+    """Gaussian elimination with partial pivoting, for a square system."""
+    size = len(vector)
+    rows = [list(matrix[i]) + [vector[i]] for i in range(size)]
+    for col in range(size):
+        pivot = max(range(col, size), key=lambda r: abs(rows[r][col]))
+        if abs(rows[pivot][col]) < 1e-12:
+            return None
+        rows[col], rows[pivot] = rows[pivot], rows[col]
+        for row in range(size):
+            if row == col:
+                continue
+            factor = rows[row][col] / rows[col][col]
+            for c in range(col, size + 1):
+                rows[row][c] -= factor * rows[col][c]
+    return [rows[i][size] / rows[i][i] for i in range(size)]
+
+
+def _fit_paper(samples: list, cut: float):
+    """Fit the page's gradient over one area, ignoring the strokes.
+
+    ``samples`` is [(u, v, (r, g, b))] with u and v the position inside the
+    area on 0..1.  Returns f(u, v) -> (r, g, b), or None if the area is too
+    small to fit.  One quadratic surface per channel, refitted while
+    throwing out whatever sits furthest from the current guess: the paper is
+    smooth and the strokes are the outliers, so what the iteration converges
+    on is the paper alone.  Trimming to the closest HALF is what makes it
+    work on the cream areas, where the caption is dark enough to drag a
+    plain least-squares fit two bands down and never let go.
+    """
+    def basis(u: float, v: float) -> tuple:
+        return (1.0, u, v, u * u, u * v, v * v)
+
+    terms = 6
+    keep = [True] * len(samples)
+    fit = None
+    for step in range(14):
+        normal = [[0.0] * terms for _ in range(terms)]
+        right = [[0.0] * terms for _ in range(3)]
+        used = 0
+        for (u, v, colour), take in zip(samples, keep):
+            if not take:
+                continue
+            used += 1
+            base = basis(u, v)
+            for i in range(terms):
+                for j in range(terms):
+                    normal[i][j] += base[i] * base[j]
+                for channel in range(3):
+                    right[channel][i] += base[i] * colour[channel]
+        if used < terms * 4:
+            break
+        for i in range(terms):        # a ridge term: a caption ten pixels
+            normal[i][i] += 1e-6      # tall makes the quadratic singular
+        solved = [_solve_linear(normal, right[channel]) for channel in range(3)]
+        if any(s is None for s in solved):
+            break
+
+        def fit(u, v, solved=solved):
+            base = basis(u, v)
+            return tuple(sum(b * c for b, c in zip(base, solved[channel]))
+                         for channel in range(3))
+
+        residuals = [sum((a - b) ** 2 for a, b in zip(colour, fit(u, v))) ** 0.5
+                     for u, v, colour in samples]
+        ordered = sorted(residuals)
+        limit = max(ordered[len(ordered) // 2], cut) if step < 6 else cut
+        keep = [r <= limit for r in residuals]
+    return fit
+
+
+def _erase_newspaper(canvas: Canvas8, palette: list, x: int, y: int,
+                     w: int, h: int, cut: float = NEWSPAPER_CUT) -> None:
+    """Take the strokes out of one area and leave the paper behind.
+
+    The page is a gradient, so filling the rectangle with one shade reads as
+    a slab; filling each line with its own shade trades the slab for
+    stripes; replacing each stroke pixel with the nearest clean pixel ON ITS
+    LINE trades those for a grain of streaks, because where the next clean
+    pixel lies is decided by the kanji rather than by the page.
+
+    The page's palette says why nothing simpler can work: it is ONE ramp
+    from white to near-black, and the paper walks down it in bands four or
+    five pixels wide, so the strokes are drawn in the SAME shades the paper
+    is made of, only in the wrong place.  No threshold on colour alone tells
+    them apart, and the area's commonest shade is the paper of one band, not
+    of the area (in the headline box, paper 28 rgb(16,11,0) and its
+    neighbour 29 are 1.4 apart while the olive antialias at index 14 is 3.3
+    away — as dark as the box and different only in hue).
+
+    So fit the gradient instead and judge every pixel against the paper AT
+    ITS OWN POSITION.  Anything further than ``cut`` from the surface is a
+    stroke, and erasing it means painting the surface's own colour there,
+    quantised back to a shade the area already carries — the bands come out
+    where the page would have put them.
+    """
+    samples = [((px - x) / max(w - 1, 1), (py - y) / max(h - 1, 1),
+                palette[canvas.get(px, py)])
+               for py in range(y, y + h) for px in range(x, x + w)]
+    fit = _fit_paper(samples, cut)
+    if fit is None:
+        return
+    # Only shades the area already carries may be painted into it: the fit
+    # is a continuous colour and the page has 256 fixed entries.
+    present = sorted({canvas.get(px, py)
+                      for py in range(y, y + h) for px in range(x, x + w)})
+    for py in range(y, y + h):
+        v = (py - y) / max(h - 1, 1)
+        for px in range(x, x + w):
+            u = (px - x) / max(w - 1, 1)
+            want = fit(u, v)
+            here = palette[canvas.get(px, py)]
+            if sum((a - b) ** 2 for a, b in zip(here, want)) <= cut * cut:
+                continue
+            canvas.set(px, py, min(
+                present,
+                key=lambda i: sum((a - b) ** 2
+                                  for a, b in zip(palette[i], want))))
 
 
 def patch_newspaper(rom: Rom, setter: "Typesetter", texts: dict,
@@ -1421,63 +1560,69 @@ def patch_newspaper(rom: Rom, setter: "Typesetter", texts: dict,
     except GfxError as exc:
         report.skipped.append(("newspaper", str(exc)))
         return
+    palette = _newspaper_palette(original)
     page = bytearray(raw)
     canvas = Canvas8(page)
-    for key, lines in texts.items():
+
+    def luminance(index: int) -> int:
+        red, green, blue = palette[index]
+        return (red * 299 + green * 587 + blue * 114) // 1000
+
+    for key, value in texts.items():
         area = NEWSPAPER_AREAS.get(key)
+        lines = [value] if isinstance(value, str) else list(value or [])
         if area is None or not lines:
             report.skipped.append((f"newspaper:{key}", "no such area"))
             continue
         x, y, w, h, rotated = area
-        # Erase to the paper colour the area already sits on, then draw with
-        # the ink sampled from its darkest pixel — the dark headline box and
-        # the cream page need opposite inks and the sample gets both right.
-        background = canvas.sample_rect(x, y, w, h)
-        # Pick the ink by LUMINANCE, not by index: the palette is in no
-        # particular order, so the lowest index is not the darkest colour
-        # (drawing with it left the captions nearly invisible).
-        def _lum(index: int) -> int:
-            colour = struct.unpack_from("<H", original, NEWSPAPER_PALETTE + 2 * index)[0]
-            return ((colour & 31) * 299 + ((colour >> 5) & 31) * 587
-                    + ((colour >> 10) & 31) * 114) // 1000
-
-        present = {canvas.get(px, py)
-                   for py in range(y, y + h) for px in range(x, x + w)}
-        ink = max(present, key=lambda i: abs(_lum(i) - _lum(background)))
-        if ink == background:
-            ink = min(present, key=_lum)
-        canvas.fill_rect(x, y, w, h, background)
-        for index, line in enumerate(lines if isinstance(lines, list) else [lines]):
+        # Measure everything BEFORE erasing anything: an area that cannot
+        # hold its Spanish is left in Japanese, the way a script line is.
+        span_limit = h if rotated else w
+        across = w if rotated else h
+        stack = len(lines) * font_mod.GLYPH_HEIGHT + len(lines) - 1
+        spans = [setter.measure(line) for line in lines]
+        widest = max(spans)
+        if widest > span_limit:
+            report.skipped.append(
+                (f"newspaper:{key}",
+                 f"{lines[spans.index(widest)]!r} is {widest}px, "
+                 f"the space is {span_limit}px"))
+            continue
+        if stack > across:
+            report.skipped.append(
+                (f"newspaper:{key}", f"{len(lines)} lines need {stack}px, "
+                                     f"the space is {across}px"))
+            continue
+        # Sample the ink BEFORE erasing, or it is gone by the time it is
+        # needed, and pick it by LUMINANCE rather than by index: the palette
+        # is in no particular order, so the lowest index is not the darkest
+        # colour (drawing with it left the captions nearly invisible).  The
+        # furthest shade from the paper is white on the dark headline box
+        # and near-black on the cream page, which is what each one wants.
+        counts: dict[int, int] = {}
+        for py in range(y, y + h):
+            for px in range(x, x + w):
+                shade = canvas.get(px, py)
+                counts[shade] = counts.get(shade, 0) + 1
+        paper = max(counts, key=lambda i: counts[i])
+        ink = max(counts, key=lambda i: abs(luminance(i) - luminance(paper)))
+        _erase_newspaper(canvas, palette, x, y, w, h)
+        start = (across - stack) // 2
+        for index, (line, span) in enumerate(zip(lines, spans)):
+            # Rotated 90° clockwise, the page's top edge points RIGHT, so
+            # the first line is the RIGHTMOST column and each next one sits
+            # to its left.  Drawn the other way round the headline read
+            # "MEDABOT ESPACIAL / DESENTIERRAN UN".
+            order = (len(lines) - 1 - index) if rotated else index
+            step = start + order * (font_mod.GLYPH_HEIGHT + 1)
+            along = (span_limit - span) // 2
             if rotated:
-                span = setter.measure(line)
-                if span > h:
-                    report.skipped.append(
-                        (f"newspaper:{key}", f"{line!r} is {span}px, the column is {h}px"))
-                    continue
-                _draw8_rotated(setter, canvas, x, y, line, ink)
+                _draw8_rotated(setter, canvas, x + step, y + along, line, ink)
             else:
-                span = setter.measure(line)
-                if span > w:
-                    report.skipped.append(
-                        (f"newspaper:{key}", f"{line!r} is {span}px, the caption is {w}px"))
-                    continue
-                _draw8(setter, canvas, x, y + index * (font_mod.GLYPH_HEIGHT + 1),
-                       line, ink)
+                _draw8(setter, canvas, x + along, y + step, line, ink)
         report.drawn += 1
-    packed = compress(bytes(page))
-    if len(packed) <= comp_len:
-        rom.write(NEWSPAPER_BLOCK, packed)
-        report.in_place += 1
-        return
-    sites = pointer_sites.get(NEWSPAPER_BLOCK, [])
-    if not sites:
-        report.skipped.append(("newspaper", "grew, and nothing points at it"))
-        return
-    destination = allocator.take(len(packed))
-    rom.write(destination, packed)
-    for site in sites:
-        rom.write_ptr(site, destination)
-    report.relocated += 1
+    _put_back(rom, NEWSPAPER_BLOCK, compress(bytes(page)), comp_len,
+              allocator, pointer_sites, report, "newspaper")
 
 
 # -- the save panel's counters (labels drawn from a flat ROM tile list) ---
