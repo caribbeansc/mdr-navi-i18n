@@ -4,12 +4,12 @@
   {
    "key": "script:0157:01C8",
    "src": "e851f39d5b98",
-   "t": "<FACE:99>¡Oye! ¡Tú, el de ahí!<NL>¿Conoces a Rintarou?"
+   "t": "<FACE:99>¡Oye! ¡Tú, el de ahí!<NL>¿Conoces a Rintaro?"
   },
   {
    "key": "script:0157:01EC",
    "src": "9f6ae729f3ac",
-   "t": "<FACE:04>¿Rintarou? Ahora que<NL>lo pienso…<WAIT>creo que había un<NL>medaguerrero así…"
+   "t": "<FACE:04>¿Rintaro? Ahora que<NL>lo pienso…<WAIT>creo que había un<NL>medaguerrero así…"
   },
   {
    "key": "script:0157:0210",
@@ -24,7 +24,7 @@
   {
    "key": "script:0157:0245",
    "src": "a8fec9eddf8e",
-   "t": "<FACE:00>No… no lo conozco<WAIT><FACE:00>¿Ustedes conocen a ese<NL>tal Rintarou?"
+   "t": "<FACE:00>No… no lo conozco<WAIT><FACE:00>¿Ustedes conocen a ese<NL>tal Rintaro?"
   },
   {
    "key": "script:0157:0271",
@@ -34,7 +34,7 @@
   {
    "key": "script:0157:0277",
    "src": "d1f24037d019",
-   "t": "<FACE:99>¡Por eso los novatos<NL>son un fastidio!<WAIT>¡Yo soy el veterano<NL>de ese Rintarou!"
+   "t": "<FACE:99>¡Por eso los novatos<NL>son un fastidio!<WAIT>¡Yo soy el mentor<NL>de ese Rintaro!"
   },
   {
    "key": "script:0157:02A7",
@@ -44,7 +44,7 @@
   {
    "key": "script:0157:02C0",
    "src": "3c1da3b85f2b",
-   "t": "<FACE:9B>Pero Rintarou se hizo<NL>más famoso-oso…"
+   "t": "<FACE:9B>Pero Rintaro se hizo<NL>más famoso-oso…"
   },
   {
    "key": "script:0157:02DD",

@@ -49,12 +49,12 @@
   {
    "key": "script:0022:04C5",
    "src": "7f7e008c4cbe",
-   "t": "<FACE:79><PLAYER>!<NL>¡Recordaré ese nombre!<WAIT><FACE:7B>¡Siéntete orgulloso!<NL>¡Fuaaa ja ja ja!"
+   "t": "<FACE:79>¡<PLAYER>!<NL>¡Recordaré ese nombre!<WAIT><FACE:7B>¡Siéntete orgulloso!<NL>¡Fuaaa ja ja ja!"
   },
   {
    "key": "script:0022:04F5",
    "src": "b33a55004564",
-   "t": "<FACE:79>¡Otra vez lo olvidaba!<NL><WAIT>¡Pulsa el interruptor<NL>de la escalera!"
+   "t": "<FACE:79>¡Otra vez lo olvidaba!<NL><WAIT>¡Oprime el botón de<NL>la escalera!"
   }
  ]
 }

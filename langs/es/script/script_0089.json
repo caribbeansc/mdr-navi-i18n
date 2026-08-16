@@ -4,7 +4,7 @@
   {
    "key": "script:0089:0299",
    "src": "df4bdca85730",
-   "t": "<FACE:5F>El Cluster reúne<NL>muchos bloques.<WAIT>El controlador de cada<NL>bloque lo gestiona.<WAIT>Todas usan el sistema<NL>más nuevo, creado por<WAIT>la compañía RR con su<NL>estudio de Medallas.<WAIT>Todas se enlazan al<NL>Bloque Computadora,<WAIT>en el centro, que rige<NL>todo el conjunto.<WAIT>Ese sistema central<NL>se llama «Navi».<WAIT>La RR lo creó con todo<NL>su empeño: el sistema<WAIT>de gestión en paralelo<NL>más grande que existe.<WAIT>Si una parte cae, las<NL>demás cubren su labor.<WAIT>Así el Cluster siempre<NL>está bien controlado.<WAIT>Un descontrol de la<NL>computadora, como en<WAIT>la ciencia ficción,<NL>es del todo imposible.<WAIT>Adelantarse a la era<NL>espacial del hombre y<WAIT>lograr el control<NL>total del espacio<WAIT>vital: ese es uno de<NL>los temas del Cluster."
+   "t": "<FACE:5F>El Cluster reúne<NL>muchos bloques.<WAIT>Una computadora<NL>rige cada bloque.<WAIT>Todas usan el sistema<NL>más nuevo, creado por<WAIT>la compañía RR con su<NL>estudio de Medallas.<WAIT>Todas se enlazan al<NL>Bloque Computadora,<WAIT>en el centro, que rige<NL>todo el conjunto.<WAIT>Ese sistema central<NL>se llama «Navi».<WAIT>La RR lo creó con todo<NL>su empeño: el sistema<WAIT>de gestión en paralelo<NL>más grande que existe.<WAIT>Si una parte cae, las<NL>demás cubren su labor.<WAIT>Así el Cluster siempre<NL>está bien controlado.<WAIT>Un descontrol de la<NL>computadora, como en<WAIT>la ciencia ficción,<NL>es del todo imposible.<WAIT>Adelantarse a la era<NL>espacial del hombre y<WAIT>lograr el control<NL>total del espacio<WAIT>vital: ese es uno de<NL>los temas del Cluster."
   },
   {
    "key": "script:0089:04B9",
@@ -24,7 +24,7 @@
   {
    "key": "script:0089:050A",
    "src": "77701a097b9c",
-   "t": "<FACE:5F>Siguiendo los bloques<NL>hacia arriba<WAIT>llega a la sala de<NL>control de propulsión"
+   "t": "<FACE:5F>Siguiendo los bloques<NL>hacia arriba<WAIT>se llega a la sala de<NL>control de propulsión"
   },
   {
    "key": "script:0089:0542",
@@ -69,7 +69,7 @@
   {
    "key": "script:0089:0646",
    "src": "fd39830eda2f",
-   "t": "<FACE:22>No, no es eso…<NL><WAIT>Como yo soy el jefe<NL>de grupo…<WAIT>debo entrar al frente,<NL>como es debido…"
+   "t": "<FACE:22>No, no es eso…<NL><WAIT>Como yo soy el<NL>presidente de clase…<WAIT>debo entrar al frente,<NL>como es debido…"
   },
   {
    "key": "script:0089:0687",

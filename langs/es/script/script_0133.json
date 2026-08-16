@@ -4,7 +4,7 @@
   {
    "key": "script:0133:0174",
    "src": "a1a750388968",
-   "t": "<FACE:39>¡<PLAYER>!<NL>¿Tú también vienes a<WAIT>entrenar aquí?"
+   "t": "<FACE:39>¡<PLAYER>! ¿Tú también<NL>vienes a entrenar?"
   },
   {
    "key": "script:0133:0191",
@@ -19,7 +19,7 @@
   {
    "key": "script:0133:01CF",
    "src": "1d23b7ba48cf",
-   "t": "<FACE:37>Ya veo, ¿vienes a ser<NL>nuestro rival<WAIT>de entrenamiento?<NL><WAIT>Gracias, no sabía<NL>que pensabas tanto<WAIT>en nosotras…"
+   "t": "<FACE:37>Ya veo, ¿serás nuestro<NL>rival de práctica?<WAIT>Gracias, no sabía que<NL>pensabas tanto en<WAIT>nosotras…"
   },
   {
    "key": "script:0133:021E",

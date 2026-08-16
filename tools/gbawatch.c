@@ -24,6 +24,35 @@
 
 #define MAX_PRESSES 64
 
+// --catchjump: dump the CPU the instant mGBA logs "Jumped to invalid
+// address". The log fires from inside the CPU loop, so the registers and
+// the stack still show WHO jumped.
+#include <mgba/core/log.h>
+static struct mCore* g_core;
+static int g_catchjump;
+static int g_caught;
+static void catch_log(struct mLogger* log, int category, enum mLogLevel level,
+                      const char* format, va_list args) {
+	(void) log; (void) category; (void) level;
+	char msg[256];
+	vsnprintf(msg, sizeof(msg), format, args);
+	if (!g_catchjump) return;
+	if (!strstr(msg, "Jumped to invalid")) return;
+	if (g_caught++ >= 3) return;
+	struct ARMCore* cpu = g_core->cpu;
+	printf("CATCH: %s\n", msg);
+	printf("  pc=%08X lr=%08X sp=%08X cpsr=%08X\n",
+	       cpu->gprs[15], cpu->gprs[14], cpu->gprs[13], cpu->cpsr.packed);
+	for (int r = 0; r < 13; ++r) printf("  r%d=%08X", r, cpu->gprs[r]);
+	printf("\n  stack:");
+	for (int k = 0; k < 24; ++k)
+		printf(" %08X", g_core->busRead32(g_core, cpu->gprs[13] + 4*k));
+	printf("\n");
+	fflush(stdout);
+}
+static struct mLogger g_logger = { .log = catch_log };
+
+
 struct press {
 	unsigned frame;
 	unsigned keys;
@@ -127,6 +156,8 @@ int main(int argc, char** argv) {
 			presses[press_count].keys = bit;
 			presses[press_count].held = held ? held : 1;
 			++press_count;
+		} else if (!strcmp(argv[i], "--catchjump")) {
+			g_catchjump = 1;
 		} else if (!strcmp(argv[i], "--arm") && i + 1 < argc) {
 			char* spec = argv[++i];
 			char* colon = strchr(spec, ':');
@@ -142,6 +173,8 @@ int main(int argc, char** argv) {
 
 	struct mCore* core = mCoreFind(rom_path);
 	core->init(core);
+	g_core = core;
+	if (g_catchjump) mLogSetDefaultLogger(&g_logger);
 	mCoreInitConfig(core, NULL);
 	unsigned w, h;
 	core->desiredVideoDimensions(core, &w, &h);

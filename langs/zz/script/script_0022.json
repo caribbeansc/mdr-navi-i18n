@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0022",
+ "entries": [
+  {
+   "key": "script:0022:0360",
+   "src": "67471cab480d",
+   "t": ""
+  },
+  {
+   "key": "script:0022:0397",
+   "src": "fc79286d16e6",
+   "t": ""
+  },
+  {
+   "key": "script:0022:03A0",
+   "src": "4b1066bc69e5",
+   "t": ""
+  },
+  {
+   "key": "script:0022:03DD",
+   "src": "57e90aa3be5b",
+   "t": ""
+  },
+  {
+   "key": "script:0022:043B",
+   "src": "d9d1c9276488",
+   "t": ""
+  },
+  {
+   "key": "script:0022:045B",
+   "src": "16fa17aa6cff",
+   "t": ""
+  },
+  {
+   "key": "script:0022:047C",
+   "src": "e1edee80a5ee",
+   "t": ""
+  },
+  {
+   "key": "script:0022:0485",
+   "src": "3a6412304e3c",
+   "t": ""
+  },
+  {
+   "key": "script:0022:04A3",
+   "src": "6aabf21dcc19",
+   "t": ""
+  },
+  {
+   "key": "script:0022:04C5",
+   "src": "7f7e008c4cbe",
+   "t": ""
+  },
+  {
+   "key": "script:0022:04F5",
+   "src": "b33a55004564",
+   "t": ""
+  }
+ ]
+}

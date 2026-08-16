@@ -4,7 +4,7 @@
   {
    "key": "script:0066:0AEE",
    "src": "b505ad4cb279",
-   "t": "<FACE:69>Jujuju… Prometes<NL>más que mis jefes<WAIT>¿Qué dices…?<WAIT>¿Te unes a la Banda<NL>Sperobo Espacial?<WAIT>No te irá nada mal"
+   "t": "<FACE:69>Jujuju… Prometes<NL>más que mis jefes<WAIT>¿Qué dices…?<WAIT>¿Te unes a la Banda<NL>Space Robo Robo?<WAIT>No te irá nada mal"
   },
   {
    "key": "script:0066:0B45",
@@ -14,7 +14,7 @@
   {
    "key": "script:0066:0BD2",
    "src": "7ca1c596d1fb",
-   "t": "<FACE:69>¡Soy el profesor<NL>Kazanbai!<WAIT>Dirijo la Banda<NL>Sperobo Espacial<WAIT>Somos una sociedad<NL>secreta hermanada<WAIT>con los Sperobo de la<NL>Tierra<WAIT>Nos lanzamos al<NL>espacio para dominar<WAIT>este vasto universo"
+   "t": "<FACE:69>¡Soy el profesor<NL>Kazanbai!<WAIT>Dirijo la Banda<NL>Space Robo Robo<WAIT>Somos una sociedad<NL>secreta hermanada<WAIT>con la Banda Rubberobo<NL>de la Tierra<WAIT>Nos lanzamos al<NL>espacio para dominar<WAIT>este vasto universo"
   },
   {
    "key": "script:0066:0C66",
@@ -134,7 +134,7 @@
   {
    "key": "script:0066:10B0",
    "src": "4389fd8be091",
-   "t": "<FACE:01>¡Devuélvanos el<NL>control del Cluster!<WAIT>Queremos volver a casa<WAIT><FACE:6A>¡Eso no puede ser!<WAIT>¡Se quedarán aquí<NL>como futuros miembros<WAIT>de la Banda Sperobo<NL>Espacial!"
+   "t": "<FACE:01>¡Devuélvanos el<NL>control del Cluster!<WAIT>Queremos volver a casa<WAIT><FACE:6A>¡Eso no puede ser!<WAIT>¡Se quedarán aquí<NL>como futuros miembros<WAIT>de la Banda Space<NL>Robo Robo!"
   },
   {
    "key": "script:0066:1115",
@@ -229,7 +229,7 @@
   {
    "key": "script:0066:1472",
    "src": "48ee277de8bd",
-   "t": "<FACE:09>¿Qué pasa, <PLAYER>…"
+   "t": "<FACE:09>¿Qué pasa? <PLAYER>…"
   },
   {
    "key": "script:0066:147F",

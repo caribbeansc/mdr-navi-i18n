@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0141",
+ "entries": [
+  {
+   "key": "script:0141:00BE",
+   "src": "0846bd4ff5b4",
+   "t": ""
+  },
+  {
+   "key": "script:0141:014F",
+   "src": "8479b5210330",
+   "t": ""
+  },
+  {
+   "key": "script:0141:0164",
+   "src": "f7381395aa1b",
+   "t": ""
+  },
+  {
+   "key": "script:0141:0187",
+   "src": "86ff6fb37f69",
+   "t": ""
+  },
+  {
+   "key": "script:0141:01B1",
+   "src": "db9f4687b5de",
+   "t": ""
+  }
+ ]
+}

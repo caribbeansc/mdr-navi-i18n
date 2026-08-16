@@ -134,7 +134,7 @@
   {
    "key": "script:0061:0CC9",
    "src": "69279725f8a3",
-   "t": "<FACE:05>¡Mira!<NL><PLAYER>!<WAIT><FACE:07>¡Una casa de dulces!<NL>¡Qué lindaaaa!"
+   "t": "<FACE:05>¡Mira!<NL>¡<PLAYER>!<WAIT><FACE:07>¡Una casa de dulces!<NL>¡Qué lindaaaa!"
   },
   {
    "key": "script:0061:0CEB",
@@ -144,7 +144,7 @@
   {
    "key": "script:0061:0CFD",
    "src": "7e7957ddf3d4",
-   "t": "<FACE:06>¡Ay, tragones!<NL>¿Solo piensan comer?"
+   "t": "<FACE:06>¡Ay, tragones! ¿Solo<NL>piensan en comer?"
   },
   {
    "key": "script:0061:0D1F",

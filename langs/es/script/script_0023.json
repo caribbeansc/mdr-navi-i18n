@@ -74,7 +74,7 @@
   {
    "key": "script:0023:0943",
    "src": "a9b4062fe23a",
-   "t": "<FACE:7F>¡Ya entendí-robo!<NL><WAIT>¡Si hay robobatalla,<NL>adiós entrenamiento!!<WAIT>¡A provocarlos-robo!<NL>¡¡A provocarlos-robo!!"
+   "t": "<FACE:7F>¡Ya entendí-robo!<NL><WAIT>¡¡Si hay robobatalla,<NL>adiós entrenamiento!!<WAIT>¡A provocarlos-robo!<NL>¡¡A provocarlos-robo!!"
   },
   {
    "key": "script:0023:0980",
@@ -129,7 +129,7 @@
   {
    "key": "script:0023:0AC0",
    "src": "af0a33fe8cfd",
-   "t": "<FACE:6C>¿¡Qué!? ¡Nadie debe<NL>venir corriendo!<WAIT>¡Como dije, suban a<NL>saltos de conejo!!"
+   "t": "<FACE:6C>¿¡Qué!? ¡Nadie debe<NL>venir corriendo!<WAIT>¡¡Como dije, suban a<NL>saltos de conejo!!"
   },
   {
    "key": "script:0023:0AF9",
@@ -159,7 +159,7 @@
   {
    "key": "script:0023:0B8D",
    "src": "cb16676893a8",
-   "t": "<FACE:6D>¡Pues entrenarán aún<NL>más duroooooo!!"
+   "t": "<FACE:6D>¡¡Pues entrenarán aún<NL>más duroooooo!!"
   },
   {
    "key": "script:0023:0BAF",

@@ -19,7 +19,7 @@
   {
    "key": "script:0072:076B",
    "src": "26c0ef53bce4",
-   "t": "<FACE:81>Lo sentimos-robo,<NL>jefe Raiun…<WAIT>Nos mandaron construir<NL>a las volandas un<WAIT>brazo para atrapar<NL>al Cluster<WAIT>y no dimos abasto-robo"
+   "t": "<FACE:81>Lo sentimos-robo,<NL>jefe Raiun…<WAIT>Nos mandaron construir<NL>a las carreras un<WAIT>brazo para atrapar<NL>al Cluster<WAIT>y no dimos abasto-robo"
   },
   {
    "key": "script:0072:07B5",
@@ -109,7 +109,7 @@
   {
    "key": "script:0072:0A50",
    "src": "e9ba022ff60c",
-   "t": "<FACE:22>¡Un momento!<NL>¡Aunque poco pueda<WAIT>hacer, yo, Niwaka,<NL>ex jefe de grupo<WAIT>de la clase, protegeré<NL>el Cluster!"
+   "t": "<FACE:22>¡Un momento!<NL>¡Aunque poco pueda<WAIT>hacer, yo, Niwaka,<NL>ex presidente de<WAIT>la clase, protegeré<NL>el Cluster!"
   },
   {
    "key": "script:0072:0A95",

@@ -329,7 +329,7 @@
   {
    "key": "script:0080:1322",
    "src": "1785c02a17cc",
-   "t": "<FACE:08>¡¡Oye!! …Urin…<WAIT><FACE:06><PLAYER> se está<NL>¡¿ahogando, no crees?!"
+   "t": "<FACE:08>¡¡Oye!! …Urin…<WAIT><FACE:06><PLAYER> se está<NL>ahogando, ¡¿no crees?!"
   },
   {
    "key": "script:0080:1351",
@@ -349,7 +349,7 @@
   {
    "key": "script:0080:1378",
    "src": "f1523898e8aa",
-   "t": "<FACE:06>¡Vaya! ¡Parece que no<NL>te disgustó tanto!!"
+   "t": "<FACE:06>¡Vaya! ¡Parece que no<NL>te disgustó tanto!"
   }
  ]
 }

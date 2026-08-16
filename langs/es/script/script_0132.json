@@ -4,7 +4,7 @@
   {
    "key": "script:0132:01DE",
    "src": "715710d335b1",
-   "t": "<FACE:6F>¡Ja! ¡Ja!<NL><WAIT>Este servidor aún no<NL>basta. ¡Más entreno!<WAIT>¡Ja! ¡Ja!"
+   "t": "<FACE:6F>¡Ja! ¡Ja!<NL><WAIT>A este servidor le<NL>falta. ¡Más entreno!<WAIT>¡Ja! ¡Ja!"
   },
   {
    "key": "script:0132:0212",
@@ -14,7 +14,7 @@
   {
    "key": "script:0132:021D",
    "src": "8ca1e750b04f",
-   "t": "<FACE:6C>¡Justo a tiempo!<NL>Este servidor entrenó<WAIT>¡Ahora verá el fruto!"
+   "t": "<FACE:6C>¡Justo a tiempo!<NL>Este servidor entrenó<WAIT>¡Ahora verás el fruto!"
   },
   {
    "key": "script:0132:024A",
@@ -34,7 +34,7 @@
   {
    "key": "script:0132:02A9",
    "src": "9cea2a89bde7",
-   "t": "<FACE:6C>¡<PLAYER>! ¿Es usted?"
+   "t": "<FACE:6C>¡<PLAYER>! ¿Eres tú?"
   },
   {
    "key": "script:0132:02B3",
@@ -59,7 +59,7 @@
   {
    "key": "script:0132:0352",
    "src": "c08e228a5085",
-   "t": "<FACE:6C>¡<PLAYER>!<NL>¡Entrene conmigo!"
+   "t": "<FACE:6C>¡<PLAYER>!<NL>¡Entrena conmigo!"
   }
  ]
 }

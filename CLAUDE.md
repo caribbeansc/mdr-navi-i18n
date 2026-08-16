@@ -180,7 +180,43 @@ Hard-won facts:
   only. Kabuto will need its own packs or key remapping.
 - `Charset.multi` handles `[<3]` and `[note]` spellings; width checks count
   them as one cell.
+- **Fused fixed-table records** (several 8-byte name fields with no
+  terminator decode as ONE loose string: medal/model tables at 0x0929A9+/
+  0x092C40+): translate them as a single entry whose payload replicates the
+  exact byte structure — names ≤7 + `<B:00>` separators, and `<B:xx>` copies
+  of any stats tail the decode swallowed — because the loose writer zero-pads
+  the whole decoded length. A short-JP field that needs a longer Latin name
+  goes through gfx.json `extra_strings` (room 8) instead, which runs AFTER
+  the loose pass: the fused entry preserves that field's kana verbatim so the
+  fingerprint still matches when extra_strings overwrites it. `<B:00>` counts
+  as a row break in `lines_of` for the same reason.
 - mGBA's CLI binary is GUI-only; anything headless goes through gbashot.
+- **The in-game SAVE stores an absolute ROM pointer into script text** (one
+  32-bit word at .sav offset 0x3220, e.g. 0x0885E080 — the dialogue the
+  event engine was on). Relocated text moves with every build, so a save
+  made on build A dereferences a DIFFERENT line on build B: the engine runs
+  whatever bytes are there and lands in unrelated code (a corrupted name
+  entry screen opened when walking, with the save otherwise intact).
+  Diagnosed by: same .sav on the pristine Japanese ROM behaves fine; RAM at
+  the frame before the jump is byte-identical between two builds, and the
+  ONLY differing pointer is that one. The right value is COMPUTABLE, no
+  guessing: the loader builds it as
+  ``master_table[ram[0x0201B3A8] * 5 + ram[0x0201B3A9]]`` (map byte and
+  sub-index, both carried in the save; literals in the pool at 0x08084110).
+  Zeroing the word only stops the crash — it leaves every NPC mute, because
+  that pointer IS the scene's dialogue. Rescue: load the save, poke the
+  computed value into 0x0201B334 (``gbashot --poke FRAME:ADDR:VALUE``) and
+  save in-game so the game writes its own checksum; the .sav cannot be
+  edited by hand, its checksum at 0x14 is not a plain sum.
+  ``tools/savecheck.py ROM SAV`` says whether a save still matches a build
+  — run it before handing a new build to someone mid-game.
+- **A word in the BOOT code can equal a string address by coincidence** (two
+  THUMB instructions at 0x334 spelled a pointer to a 3-byte junk "string"
+  the scanner accepted). Relocating that "loose string" rewrote the boot
+  code and white-screened the ROM at power-on. The loose writer now refuses
+  to repoint any site below 0x8000, and `supplement()` filters them too;
+  after ANY change to relocation logic, boot the build from power-on with
+  gbashot before shipping it.
 - New glyphs in `data/glyphs-latin.txt` must keep ink inside columns 2-6
   (tests/test_glyph_margins.py enforces it): the battle unit panel and the
   name keyboard bake a 1px outline inside each 8px cell, and every NATIVE
@@ -210,6 +246,22 @@ Hard-won facts:
   the obvious run. Messages can be NESTED (one is the tail of another):
   in-place writes must never cross another live target (see
   `_write_battle_messages`).
+- **A battle message may never COMPOSE wider than its Japanese original.**
+  The destruction cinematic's renderer leaks 4 bytes of stack per composed
+  cell (epilogue 0x08042A00); one over-wide message walks the return address
+  onto a stale register and the game jumps to 0x040000D4 and resets. Proven
+  by single-message bisection; ROM byte count is irrelevant, only composed
+  cells count, and which messages the cinematic can show is not statically
+  knowable — so the rule is blanket over the whole table. `<NL>x` inserts
+  count at their expansion width (names 8, numbers 3, slot labels 4 — the
+  コ insert copies a FIXED BYTE COUNT, the one its Japanese label occupied,
+  never seeking a terminator: 頭 is 2 bytes so the head label must BE 2
+  chars ("CB"), while 右腕/左腕/脚部 are 4 and keep 4-char labels; verified
+  per slot in-game. Tables in navi/build.py). The build
+  refuses violators (the line shows Japanese instead) and
+  tests/test_battle_compose.py keeps the pack at zero refusals. Fingerprints
+  are charset-sensitive: a `.tbl` respelling silently orphans pack keys, so
+  the test also fails on keys with no Japanese behind them.
 - A string that does not end in `<WAIT>`/`<END>`/`<CLEAR>` **flows into the next
   string on the same row** (the engine keeps the box open across 0x01 text
   ops). The validator measures strings in isolation, so when the Japanese

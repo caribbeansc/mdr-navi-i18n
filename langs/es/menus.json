@@ -9,7 +9,7 @@
   {
    "key": "str:08D4A4",
    "src": "6379625d650b",
-   "t": "Pe perdí…<NL><END>"
+   "t": "Ay, perdí…<NL><END>"
   },
   {
    "key": "str:08D4B8",
@@ -219,7 +219,7 @@
   {
    "key": "str:08D85C",
    "src": "5d08901e2f83",
-   "t": "¡Con que son ustedes!<NL>Los que hacen locuras<END>"
+   "t": "¡Conque son ustedes!<NL>Los que hacen locuras<END>"
   },
   {
    "key": "str:08D87C",
@@ -299,7 +299,7 @@
   {
    "key": "str:08D9A8",
    "src": "b0ca42a65fad",
-   "t": "Ga… ¡gané-robo…<NL>¡Gané a <PLAYER>-robo!<END>"
+   "t": "Ga… gané-robo…<NL>¡Gané a <PLAYER>-robo!<END>"
   },
   {
    "key": "str:08D9C4",
@@ -719,7 +719,7 @@
   {
    "key": "str:08E210",
    "src": "32f1f4858640",
-   "t": "Objetivo fijado…<NL>Cuenta atrás… 3… 2…<END>"
+   "t": "Objetivo fijado…<NL>Cuenta regresiva… 3…2…<END>"
   },
   {
    "key": "str:08E234",
@@ -854,7 +854,7 @@
   {
    "key": "str:08E5B8",
    "src": "981a67c6b997",
-   "t": "…Según mi adivinación…<NL>tú eres… el destino…<END>"
+   "t": "…Según mi adivinación…<NL>tú eres… mi destino…<END>"
   },
   {
    "key": "str:08E5DC",
@@ -1174,7 +1174,7 @@
   {
    "key": "str:08ECA0",
    "src": "aa2a30304982",
-   "t": "El ánimo trae victoria<NL>Todo son las agallas<END>"
+   "t": "El ánimo trae victoria<NL>Las agallas son todo<END>"
   },
   {
    "key": "str:08ECC4",
@@ -1989,7 +1989,7 @@
   {
    "key": "str:08FE18",
    "src": "9df10284fb56",
-   "t": "¡Oh, jo jo jo jo!<NL>Típico de una plebeya…<END>"
+   "t": "¡Oh, jo jo jo jo!<NL>Típico de un plebeyo…<END>"
   },
   {
    "key": "str:08FE44",
@@ -2689,7 +2689,7 @@
   {
    "key": "str:09BF18",
    "src": "8a1bcc72190c",
-   "t": "Curar"
+   "t": "Cura"
   },
   {
    "key": "str:09BF20",
@@ -2779,7 +2779,7 @@
   {
    "key": "str:0E096C",
    "src": "61206fee803e",
-   "t": "¡Ganaste experiencia!"
+   "t": " pts de EXP ganados"
   },
   {
    "key": "str:4C6AE2",
@@ -2800,161 +2800,6 @@
    "key": "str:4C6B3C",
    "src": "f3b4fb892c85",
    "t": "Daño 120"
-  },
-  {
-   "key": "str:4C6B50",
-   "src": "37d8cba22de4",
-   "t": "Confusión"
-  },
-  {
-   "key": "str:4C6B64",
-   "src": "ad3603cbdcf0",
-   "t": "Cambia el terreno"
-  },
-  {
-   "key": "str:4C6B78",
-   "src": "d7df7ff38fcb",
-   "t": "Abre GP"
-  },
-  {
-   "key": "str:4C6B8C",
-   "src": "dab142c6555e",
-   "t": "Cierra GP"
-  },
-  {
-   "key": "str:4C6BA0",
-   "src": "eac9a13c75c9",
-   "t": "Autorreparo"
-  },
-  {
-   "key": "str:4C6BAC",
-   "src": "03117cc885a3",
-   "t": "Sube AP"
-  },
-  {
-   "key": "str:4C6BB8",
-   "src": "0228b9255ebb",
-   "t": "Drena AP"
-  },
-  {
-   "key": "str:4C6BC4",
-   "src": "011f8bbb7cb5",
-   "t": "Fin efec.+"
-  },
-  {
-   "key": "str:4C6BD0",
-   "src": "3df0a1efb925",
-   "t": "Variación"
-  },
-  {
-   "key": "str:4C6BDC",
-   "src": "5216f075e004",
-   "t": "Atadura"
-  },
-  {
-   "key": "str:4C6BE8",
-   "src": "63c862e41714",
-   "t": "Continuo"
-  },
-  {
-   "key": "str:4C6BF4",
-   "src": "e20bb240a335",
-   "t": "Detención"
-  },
-  {
-   "key": "str:4C6C00",
-   "src": "b7ee2aa84262",
-   "t": "Cuenta reg."
-  },
-  {
-   "key": "str:4C6C0C",
-   "src": "9d1830b28cda",
-   "t": "Nostalgia"
-  },
-  {
-   "key": "str:4C6C18",
-   "src": "b547931c7074",
-   "t": "Fin efec.-"
-  },
-  {
-   "key": "str:4C6C24",
-   "src": "47d7be175e6c",
-   "t": "No usable"
-  },
-  {
-   "key": "str:4C6C30",
-   "src": "37d8cba22de4",
-   "t": "Confusión"
-  },
-  {
-   "key": "str:4C6C3C",
-   "src": "e09755993128",
-   "t": "No evade"
-  },
-  {
-   "key": "str:4C6C48",
-   "src": "52bf997059aa",
-   "t": "No defiende"
-  },
-  {
-   "key": "str:4C6C54",
-   "src": "0228b9255ebb",
-   "t": "Drena AP"
-  },
-  {
-   "key": "str:4C6C60",
-   "src": "2dcf22e1342d",
-   "t": "Fija dentro"
-  },
-  {
-   "key": "str:4C6C6C",
-   "src": "5cde182ca375",
-   "t": "Fija fuera"
-  },
-  {
-   "key": "str:4C6C78",
-   "src": "04600ce3cfd4",
-   "t": "Trampa puño"
-  },
-  {
-   "key": "str:4C6C84",
-   "src": "9b0a8f008c73",
-   "t": "Trampa tiro"
-  },
-  {
-   "key": "str:4C6C90",
-   "src": "186a0f69d8ca",
-   "t": "Force Plant"
-  },
-  {
-   "key": "str:4C6C9C",
-   "src": "ecdaccd0d479",
-   "t": "Fin radar"
-  },
-  {
-   "key": "str:4C6CA8",
-   "src": "90c6d1ec71c9",
-   "t": "Fin sigilo"
-  },
-  {
-   "key": "str:4C6CB4",
-   "src": "1a919d8d2f40",
-   "t": "Fin único"
-  },
-  {
-   "key": "str:4C6CC0",
-   "src": "9f45240cbe6d",
-   "t": "Auxilio"
-  },
-  {
-   "key": "str:4C6CCC",
-   "src": "0850eefa4b8c",
-   "t": "Atq.cruzado"
-  },
-  {
-   "key": "str:4C6CD8",
-   "src": "891a460bcd0d",
-   "t": "Retirada"
   },
   {
    "key": "str:4C6CE4",
@@ -3049,12 +2894,12 @@
   {
    "key": "str:4CCCC4",
    "src": "df4b82dfc7e3",
-   "t": "SELECT: cambia parte"
+   "t": "SELECT: pieza"
   },
   {
    "key": "str:4CCCD5",
    "src": "f9a1ae25ad9f",
-   "t": "SELECT: cambia Medalla"
+   "t": "SELECT: Medalla"
   },
   {
    "key": "str:4CCCE6",
@@ -3244,7 +3089,7 @@
   {
    "key": "str:5D5EB8",
    "src": "cd649c26eaa9",
-   "t": "Fallo de conexión"
+   "t": "Error de conexión"
   },
   {
    "key": "str:5D5F60",
@@ -3344,7 +3189,7 @@
   {
    "key": "str:5D6AD0",
    "src": "686b64e76737",
-   "t": "<FACE:2F>¿Por qué estoy yo<NL>en un lugar así…"
+   "t": "<FACE:2F>¿Por qué estoy yo<NL>en un lugar así…?"
   },
   {
    "key": "str:5D6AE8",
@@ -3934,7 +3779,7 @@
   {
    "key": "str:7EC676",
    "src": "65176d8a5af2",
-   "t": "¡No has montado<NL>ningún Medabot!<END>"
+   "t": "¡No has armado<NL>ningún Medabot!<END>"
   },
   {
    "key": "str:7F3D68",
@@ -3999,112 +3844,847 @@
   {
    "key": "str:7F3DA4",
    "src": "82edb95b61e1",
-   "t": "Bosque-Loma"
+   "t": "BOSQ Y LOMA"
   },
   {
    "key": "str:7F3DB0",
    "src": "23b3b6e4907c",
-   "t": "Bosque-Prad"
+   "t": "BOSQ Y PRAD"
   },
   {
    "key": "str:7F3DBC",
    "src": "ba858786b7ee",
-   "t": "Bosque-Ruta"
+   "t": "BOSQ Y RUTA"
   },
   {
    "key": "str:7F3DC8",
    "src": "dc8a7ef38073",
-   "t": "Ciudad-Prad"
+   "t": "CIUD Y PRAD"
   },
   {
    "key": "str:7F3DD4",
    "src": "dd602ab19fea",
-   "t": "Ciudad-Ruta"
+   "t": "CIUD Y RUTA"
   },
   {
    "key": "str:7F3DE0",
    "src": "d42533f9cd08",
-   "t": "Ciudad-Oril"
+   "t": "CIUD Y ORIL"
   },
   {
    "key": "str:7F3DEC",
    "src": "f790ae217e49",
-   "t": "Mar-Ruta"
+   "t": "MAR  Y RUTA"
   },
   {
    "key": "str:7F3DF8",
    "src": "a031a5f9fac1",
-   "t": "Mar-Orilla"
+   "t": "MAR  Y ORIL"
   },
   {
    "key": "str:7F3E04",
    "src": "26578e4b2b55",
-   "t": "Mar-Arenal"
+   "t": "MAR  Y AREN"
   },
   {
    "key": "str:7F3E10",
    "src": "c2f61fd246b1",
-   "t": "Desier-Oril"
+   "t": "DESI Y ORIL"
   },
   {
    "key": "str:7F3E1C",
    "src": "138d30352bad",
-   "t": "Desier-Aren"
+   "t": "DESI Y AREN"
   },
   {
    "key": "str:7F3E28",
    "src": "1338beba9089",
-   "t": "Desier-Loma"
+   "t": "DESI Y LOMA"
   },
   {
    "key": "str:7F3E34",
    "src": "46af08a619a7",
-   "t": "Monte-Arena"
+   "t": "MONT Y AREN"
   },
   {
    "key": "str:7F3E40",
    "src": "1561d8af9e1b",
-   "t": "Monte-Loma"
+   "t": "MONT Y LOMA"
   },
   {
    "key": "str:7F3E4C",
    "src": "47afdaf907af",
-   "t": "Monte-Prado"
+   "t": "MONT Y PRAD"
   },
   {
    "key": "str:7F3E58",
    "src": "ee70d57c474d",
-   "t": "Aire-Espac"
+   "t": "AIRE Y ESPA"
   },
   {
    "key": "str:7F3E64",
    "src": "ee70d57c474d",
-   "t": "Aire-Espac"
+   "t": "AIRE Y ESPA"
   },
   {
    "key": "str:7F3E70",
    "src": "ee70d57c474d",
-   "t": "Aire-Espac"
+   "t": "AIRE Y ESPA"
   },
   {
    "key": "str:7F3E7C",
    "src": "858bc5c1683c",
-   "t": "Espac-Aire"
+   "t": "ESPA Y AIRE"
   },
   {
    "key": "str:7F3E88",
    "src": "858bc5c1683c",
-   "t": "Espac-Aire"
+   "t": "ESPA Y AIRE"
   },
   {
    "key": "str:7F3E94",
    "src": "858bc5c1683c",
-   "t": "Espac-Aire"
+   "t": "ESPA Y AIRE"
   },
   {
    "key": "str:7F7526",
    "src": "5063c81309da",
    "t": "<FACE:01>¡No es hora de rodeos!<NL>¡Hay que apurarse!"
+  },
+  {
+   "key": "str:4C6B50",
+   "src": "37d8cba22de4",
+   "t": "Confusión"
+  },
+  {
+   "key": "str:4C6B64",
+   "src": "ad3603cbdcf0",
+   "t": "Cambia el terreno"
+  },
+  {
+   "key": "str:4C6B78",
+   "src": "d7df7ff38fcb",
+   "t": "Abre GP"
+  },
+  {
+   "key": "str:4C6B8C",
+   "src": "dab142c6555e",
+   "t": "Cierra GP"
+  },
+  {
+   "key": "str:4C6BA0",
+   "src": "eac9a13c75c9",
+   "t": "Autorreparo"
+  },
+  {
+   "key": "str:4C6BAC",
+   "src": "03117cc885a3",
+   "t": "Sube AP"
+  },
+  {
+   "key": "str:4C6BB8",
+   "src": "0228b9255ebb",
+   "t": "Drena AP"
+  },
+  {
+   "key": "str:4C6BC4",
+   "src": "011f8bbb7cb5",
+   "t": "Fin efec.+"
+  },
+  {
+   "key": "str:4C6BD0",
+   "src": "3df0a1efb925",
+   "t": "Variación"
+  },
+  {
+   "key": "str:4C6BDC",
+   "src": "5216f075e004",
+   "t": "Atadura"
+  },
+  {
+   "key": "str:4C6BE8",
+   "src": "63c862e41714",
+   "t": "Continuo"
+  },
+  {
+   "key": "str:4C6BF4",
+   "src": "e20bb240a335",
+   "t": "Detención"
+  },
+  {
+   "key": "str:4C6C00",
+   "src": "b7ee2aa84262",
+   "t": "Cuenta reg."
+  },
+  {
+   "key": "str:4C6C0C",
+   "src": "9d1830b28cda",
+   "t": "Nostalgia"
+  },
+  {
+   "key": "str:4C6C18",
+   "src": "b547931c7074",
+   "t": "Fin efec.-"
+  },
+  {
+   "key": "str:4C6C24",
+   "src": "47d7be175e6c",
+   "t": "No usable"
+  },
+  {
+   "key": "str:4C6C30",
+   "src": "37d8cba22de4",
+   "t": "Confusión"
+  },
+  {
+   "key": "str:4C6C3C",
+   "src": "e09755993128",
+   "t": "No evade"
+  },
+  {
+   "key": "str:4C6C48",
+   "src": "52bf997059aa",
+   "t": "No defiende"
+  },
+  {
+   "key": "str:4C6C54",
+   "src": "0228b9255ebb",
+   "t": "Drena AP"
+  },
+  {
+   "key": "str:4C6C60",
+   "src": "2dcf22e1342d",
+   "t": "Fija dentro"
+  },
+  {
+   "key": "str:4C6C6C",
+   "src": "5cde182ca375",
+   "t": "Fija fuera"
+  },
+  {
+   "key": "str:4C6C78",
+   "src": "04600ce3cfd4",
+   "t": "Trampa puño"
+  },
+  {
+   "key": "str:4C6C84",
+   "src": "9b0a8f008c73",
+   "t": "Trampa tiro"
+  },
+  {
+   "key": "str:4C6C90",
+   "src": "186a0f69d8ca",
+   "t": "Force Plant"
+  },
+  {
+   "key": "str:4C6C9C",
+   "src": "ecdaccd0d479",
+   "t": "Fin radar"
+  },
+  {
+   "key": "str:4C6CA8",
+   "src": "90c6d1ec71c9",
+   "t": "Fin sigilo"
+  },
+  {
+   "key": "str:4C6CB4",
+   "src": "1a919d8d2f40",
+   "t": "Fin único"
+  },
+  {
+   "key": "str:4C6CC0",
+   "src": "9f45240cbe6d",
+   "t": "Auxilio"
+  },
+  {
+   "key": "str:4C6CCC",
+   "src": "0850eefa4b8c",
+   "t": "Atq.cruzado"
+  },
+  {
+   "key": "str:4C6CD8",
+   "src": "891a460bcd0d",
+   "t": "Retirada"
+  },
+  {
+   "key": "str:0929BC",
+   "src": "6f39d832a733",
+   "t": "GraBeet"
+  },
+  {
+   "key": "str:092A48",
+   "src": "eed38c89b9ba",
+   "t": "RisPlnt"
+  },
+  {
+   "key": "str:092A64",
+   "src": "a0d19adaa4a4",
+   "t": "DpMarin"
+  },
+  {
+   "key": "str:092A9C",
+   "src": "a32fbd1be911",
+   "t": "HrdWork"
+  },
+  {
+   "key": "str:092AB8",
+   "src": "d59e7b79d5bf",
+   "t": "FarEast"
+  },
+  {
+   "key": "str:092AF0",
+   "src": "a918cdaef411",
+   "t": "FarWest"
+  },
+  {
+   "key": "str:092B28",
+   "src": "26e516151a76",
+   "t": "LumStag"
+  },
+  {
+   "key": "str:092C40",
+   "src": "a963ffa215fd",
+   "t": "BlzMult"
+  },
+  {
+   "key": "str:092C48",
+   "src": "94f472354674",
+   "t": "MstTail"
+  },
+  {
+   "key": "str:092EA0",
+   "src": "8d3a865e42c4",
+   "t": "LndRacr"
+  },
+  {
+   "key": "str:092EA8",
+   "src": "f4baad8a0d91",
+   "t": "HomCary"
+  },
+  {
+   "key": "str:093040",
+   "src": "dbc1170f1698",
+   "t": "SlrMult"
+  },
+  {
+   "key": "str:093048",
+   "src": "a69414094e20",
+   "t": "BrvNurs"
+  },
+  {
+   "key": "str:0930A2",
+   "src": "7e6f41473cea",
+   "t": "Sínt"
+  },
+  {
+   "key": "str:09BF00",
+   "src": "7e6f41473cea",
+   "t": "Sínt"
+  },
+  {
+   "key": "str:0930CD",
+   "src": "b8f39c8447a4",
+   "t": "Pot"
+  },
+  {
+   "key": "str:0929F4",
+   "src": "14970d9f99c6",
+   "t": "FstVehi<B:00><B:01><B:03><B:07><B:01><B:21><B:1E><B:3C>"
+  },
+  {
+   "key": "str:092A2C",
+   "src": "6b28656cd757",
+   "t": "QkBeast<B:00><B:04><B:05><B:09><B:04><B:23><B:1E><B:3C>"
+  },
+  {
+   "key": "str:092A80",
+   "src": "c41863856e46",
+   "t": "LtMirag<B:00><B:03><B:08><B:09><B:07><B:25><B:1E><B:3C>"
+  },
+  {
+   "key": "str:092B44",
+   "src": "6582979b6e88",
+   "t": "KsrBeet<B:00><B:01><B:03><B:09>"
+  },
+  {
+   "key": "str:092C50",
+   "src": "548031724e81",
+   "t": "SldCotg<B:00>ElemMrk<B:00>PeaPlt"
+  },
+  {
+   "key": "str:092C68",
+   "src": "f8b3f44d3d82",
+   "t": "FlyngOb<B:00>Urbn"
+  },
+  {
+   "key": "str:092CE8",
+   "src": "43b2c64f9807",
+   "t": "ImagKsr<B:00>SickCut<B:00>Milpd"
+  },
+  {
+   "key": "str:092D50",
+   "src": "cf0cea690699",
+   "t": "YlwClik<B:00>DuckB"
+  },
+  {
+   "key": "str:092D60",
+   "src": "25e337ca3b84",
+   "t": "WndClap<B:00>ClyDol"
+  },
+  {
+   "key": "str:092DD8",
+   "src": "4b194e3af042",
+   "t": "SupExpe<B:00>Dryguia"
+  },
+  {
+   "key": "str:092DE8",
+   "src": "5efd0796ef06",
+   "t": "LumStag<B:00>Domestc"
+  },
+  {
+   "key": "str:092E00",
+   "src": "45aeb5ed14eb",
+   "t": "KsrBeet<B:00>DTyran"
+  },
+  {
+   "key": "str:092E18",
+   "src": "e87cbc32eb43",
+   "t": "BlkLest<B:00>LaBrage<B:00>LdyOutr"
+  },
+  {
+   "key": "str:092EB0",
+   "src": "63baff6ba677",
+   "t": "NutCrak<B:00>Dip"
+  },
+  {
+   "key": "str:093018",
+   "src": "74620ed7ceba",
+   "t": "BrwBisn<B:00>TirBeet<B:00>ArcBeeD<B:00>AnzBeet<B:00>CamStag"
+  },
+  {
+   "key": "str:093050",
+   "src": "6e61e0a69e80",
+   "t": "MgntCat<B:00>BunHrt"
+  },
+  {
+   "key": "str:092F70",
+   "src": "3c2a058e6e88",
+   "t": "BtmGris<B:00><B:82><B:0D><B:09><B:0D>"
+  },
+  {
+   "key": "str:092FB0",
+   "src": "f52a49fca7b4",
+   "t": "CosAlin<B:00><B:58><B:47><B:97><B:CD>"
+  },
+  {
+   "key": "str:093000",
+   "src": "68987ef60381",
+   "t": "StrWolf<B:00><B:0B><B:02><B:06><B:11><B:0D>"
+  },
+  {
+   "key": "str:093088",
+   "src": "e1d2b3eeedb8",
+   "t": "Tinpet MTinpet HVel"
+  },
+  {
+   "key": "str:4C6AFC",
+   "src": "4d06d6ca14c4",
+   "t": "Ac.<B:00>MF<B:00><B:00>Ctrl"
+  },
+  {
+   "key": "str:095B30",
+   "src": "9e6bbb129c46",
+   "t": "RDF-11NF<B:1C><B:28><B:6F><B:28><B:CD>"
+  },
+  {
+   "key": "str:096710",
+   "src": "30b26e181be1",
+   "t": "RDF-12NF<B:0D><B:14><B:2A><B:CD><B:15><B:CD>"
+  },
+  {
+   "key": "str:0972F0",
+   "src": "eac5f2a6b057",
+   "t": "RDF-13NF<B:0D><B:07><B:CD><B:1F><B:CD>"
+  },
+  {
+   "key": "str:097ED0",
+   "src": "b4da5be10d50",
+   "t": "RDF-14NF<B:13><B:CD><B:27><B:CD>"
+  },
+  {
+   "key": "str:5D72D4",
+   "src": "5b78eaebc158",
+   "t": "<FACE:53><SFX:32>¡Con <X:E8> se<NL>creó 1 <X:E9>!"
+  },
+  {
+   "key": "str:5D72EC",
+   "src": "b5ca84b8c542",
+   "t": "No hay miembros para<NL>desarrollar Medabots<END>"
+  },
+  {
+   "key": "str:5D7308",
+   "src": "be744548c5c5",
+   "t": "Este Bloque está<NL>desarrollando Medabots<END>"
+  },
+  {
+   "key": "str:5D7324",
+   "src": "d2e1f57ae3ed",
+   "t": "Este Bloque no puede<NL>desarrollar Medabots<END>"
+  },
+  {
+   "key": "str:5D7340",
+   "src": "df23aaf37fd2",
+   "t": "<FACE:00>Duerme a cada rato<NL>y es una despistada…<WAIT><FACE:05>Una hermana que<NL>despierta de malas…<WAIT><FACE:00>Y un hermano siempre<NL>hiperactivo…<WAIT><FACE:05>Son casi como<NL>los humanos…<WAIT><FACE:04>Arreglar eso con el<NL>mantenimiento sería<WAIT>un poco aburrido, ¿no?<WAIT><FACE:05>Sí, es cierto<WAIT><FACE:A4>No me hicieron nadaaa<WAIT><FACE:00>Q-qué alivio…<NL>Ya eres la de antes…<WAIT><FACE:A4>¿La de antes?<NL>¿De qué hablaaas?<WAIT><FACE:00>N-no, no es nada…<WAIT><FACE:A5>No nos hicieron nada<NL>Solo nos sentaron<WAIT>frente a un sensor,<NL>nada más<WAIT><FACE:A4>De verdaaad, ¿para qué<NL>nos llamaríaaan…?<WAIT><FACE:05>Bueno, ¿qué más da?<WAIT><FACE:02>Eso de ustedes dos<NL>me agrada bastante<WAIT><FACE:A4>¿En seriooo? Entonces…<NL> <WAIT>Buenas noochesss…<WAIT><FACE:A5>¡H-hermana!<WAIT><FACE:05>Oye, ¿ya se durmió<NL>otra vez?<WAIT><FACE:03>¡H-Hiyori!<NL>¡No la to…!<WAIT><FACE:05>C-cierto<NL> <WAIT>B-bueno, nosotros<NL>seguimos adelante<WAIT><FACE:00>Fue como estar de<NL>relajo con la clase<WAIT>¿Qué será esa simpatía<NL>que tienen…?<WAIT><FACE:05>Bueno, eso muestra lo<NL>humanos que parecen<WAIT>esos dos…"
+  },
+  {
+   "key": "str:5D7544",
+   "src": "08126e07114f",
+   "t": "<FACE:00>¡Ah!<NL>Al fin se encontraron<WAIT><FACE:05>Uf, una preocupación<NL>menos para nosotros…<WAIT><FACE:02>Sí, así es<WAIT><FACE:A5>¡Hermana! ¡Hermana!<NL>¡Despierta, hermana!<WAIT><FACE:A4>ZZZZZ…<WAIT><FACE:05>¿Otra vez dormida?<NL>Qué niña, en serio<WAIT>Oye…<NL> <WAIT>(<SFX:35>toc<DELAY:000F><SFX:35> toc)<DELAY:000F><WAIT><FACE:A5>¡Ay, no, tonta!<NL>Si la despiertas así…<WAIT><FACE:A4><SFX:4B>!!!!<DELAY:0028><WAIT><FACE:03>¡Hiyori, ven acá!<WAIT><FACE:08>Oye… ¿acaso metí<NL>la pata?<WAIT><FACE:00>Seguramente…<WAIT><FACE:A4>¡Oye! ¡¿Quién fue?!<NL>¡Dormía tan a gusto!<WAIT><FACE:A5>¡¿Ves lo que hiciste?!<NL>Si la despiertan a<WAIT>golpes, se pone de un<NL>humor de perros<WAIT><FACE:A4>¡Oye, tú!<NL> <WAIT>¡¿Así le hablas a<NL>tu hermana mayor?!<WAIT>¡Se dice<NL>querida hermana!<WAIT><FACE:A5>¡S-sí!<NL>¡Querida hermana!<WAIT><FACE:A4>Muy bieeen<NL> <WAIT>¡Vamos a darles una<NL>lección a esos dos!<WAIT><FACE:A5>¡S-sí!"
+  },
+  {
+   "key": "str:5D76F4",
+   "src": "047e59db51aa",
+   "t": "<FACE:00>…<WAIT><FACE:A4>…<WAIT><FACE:05>Uf… ojalá con esto<NL>se calme…<WAIT><FACE:A4>…<WAIT><FACE:00>Ya no se dormirá tan<NL>pronto, hablemos de<WAIT>su hermanito<WAIT><FACE:A4>…<WAIT><FACE:05>Cierto<WAIT><FACE:A4>¡Esta me la hicieron!<NL>¡Me las van a pagar!<WAIT><FACE:05>Se fue corriendo<WAIT><FACE:04>Al final no funcionó…"
+  },
+  {
+   "key": "str:5D7790",
+   "src": "27171411d041",
+   "t": "<FACE:08>¡Ah!<WAIT><FACE:00>La corriente se la<NL>lleva otra vez…<WAIT><FACE:06>¡Esta vez hazlo bien!<WAIT><FACE:04>Sí, sí…<WAIT><FACE:00>Con calma, con calma…<WAIT><FACE:05>¿Y si <MEDABOT><NL>te ayuda?<WAIT><FACE:00>Ah, tienes razón<NL>¡<MEDABOT>, transporte!<SFX:43><DELAY:003C><DELAY:0028><CLEAR>"
+  },
+  {
+   "key": "str:5D78FC",
+   "src": "b766ff941f50",
+   "t": "<FACE:05>Al menos pudo<NL>preguntar dónde era…"
+  },
+  {
+   "key": "str:5D791C",
+   "src": "16e91dcab8a7",
+   "t": "<FACE:A5>Oigan, ustedes…<WAIT><FACE:05>¿Qué te pasa?<NL>Te ves decaído<WAIT><FACE:A5>Perdón por lo de antes<WAIT><FACE:00>¿Q-qué tienes?<NL>Esto se siente raro…<WAIT><FACE:A5>Parece que el destino<NL>los une a mi hermana…<WAIT>¡Por favor!<NL>Aunque tengan que<WAIT>amarrarla por ahí,<NL>díganle que me espere<WAIT><FACE:05>¿Ves? Para quien está<NL>buscando a alguien<WAIT><FACE:05>lo peor es que ande<NL>de un lado a otro<WAIT><FACE:00>Eso parece…<WAIT><FACE:A5>¿Qué pasó?<WAIT><FACE:05>Pues verás…<WAIT><FACE:04>…<NL>(Ay, ya sé qué sigue…)<WAIT><FACE:A5>¡¿Qué cosa?!<NL> <WAIT>¡¿Que tiraron a mi<NL>hermana a la basura?!<WAIT><FACE:03>¡¿A la basura?!<NL>Hiyori, ¿qué dijiste?<WAIT><FACE:07>Ajajaja… perdón…<NL>Me emocioné contando…<WAIT><FACE:04>Por favooor…<WAIT><FACE:A5>¡¡No los perdonaré!!<NL> <WAIT>¡Fue un error pedirles<NL>ayuda a ustedes!<WAIT>¡Yo mismo encontraré<NL>a mi hermana!"
+  },
+  {
+   "key": "str:5D7AC4",
+   "src": "1d214b07f3ea",
+   "t": "<FACE:A4>B-buenos díasss…<WAIT><FACE:04>Ay… ¿qué soy, que me<NL>ataca una dormida…?<WAIT><FACE:05>Oye…<NL>Tu hermanito te<WAIT>estuvo buscando<NL>por todas partes<WAIT><FACE:A4>Ah… ¿síii…?<NL> <WAIT>Entonces esperaréee<NL>a que venga por míii…<WAIT>ZZZZZZ…<WAIT><FACE:05>¿Eso es modo ahorro?<NL>Es una siesta y ya<WAIT><FACE:A4>Mmm… mmm…<WAIT><FACE:03><SFX:37><DELAY:0028>¡¡Auch!!<WAIT><FACE:04>Hasta dormida pega…<WAIT><FACE:05>¡Tonto! ¡¿Por qué<NL>la soltaste?!<WAIT><FACE:03>Ah, se fue flotando…<WAIT><FACE:06>¡Torpe!<WAIT><FACE:03><SFX:37><DELAY:0028>¡¡Auch!!<WAIT><FACE:04>Ay de mí…"
+  },
+  {
+   "key": "str:5D7BCC",
+   "src": "2ffac6610d11",
+   "t": "<FACE:00>Bueno, es hora de ir<NL>al siguiente Bloque<WAIT><FACE:05>¡Espera un momento!<NL>¡Ahí hay algo!<WAIT><FACE:00><SFX:4B>!!<DELAY:0028><NL>¿Un Medabot flotante?<WAIT>Flota a la deriva…<WAIT><FACE:05>Viene hacia acá…<WAIT><FACE:A4>ZZZZZZ…<WAIT><FACE:05>Ahora llegó flotando<NL>y dormida…<WAIT><FACE:00>Es un caso perdido…<NL>Con razón su hermano<WAIT>se preocupa tanto<WAIT><FACE:05>Cierto…<WAIT><FACE:04>Y no podemos<NL>llevarla con nosotros…<WAIT><FACE:05>Si la amarramos por<NL>aquí, ¿no la hallará<WAIT>su hermanito?<WAIT><FACE:00>¿No es algo cruel?<WAIT><FACE:05>No queda de otra<NL> <WAIT>Así es más probable<NL>que la encuentre, ¿no?<WAIT><FACE:00>Puede que sí…<NL>Entonces…<WAIT>¡Upa!<WAIT><FACE:A4>ZZZZZZ…<WAIT><FACE:05>Qué vida se da…<NL>Su hermano ha de estar<WAIT>muerto de angustia<WAIT><FACE:A4><SFX:4B>!!<DELAY:0028><WAIT><FACE:03>¡Rayos!<NL>La despertamos<WAIT><FACE:05>¡<PLAYER>, tontooo!<WAIT><FACE:A4>¡R-robobatallaaa!"
+  },
+  {
+   "key": "str:5D7D88",
+   "src": "31f81b23aca8",
+   "t": "<FACE:A5>¡Maldición!<NL> <WAIT>A este paso jamás<NL>veré a mi hermana<WAIT><FACE:00>¿Por qué la buscas?<WAIT><FACE:A5>Quedamos en vernos<NL>tras el mantenimiento<WAIT>¡Pero nunca llegó!<NL> <WAIT>¡Seguro le pasó algo!<WAIT><FACE:05>Andaba perdida<WAIT><FACE:A5>¿Eh?<WAIT><FACE:00>Ella misma nos dijo<NL>que estaba perdida<WAIT><FACE:A5>Gr…<NL> <WAIT>Grr…<NL> <WAIT>¡El mantenimiento no<NL>la cambió en nadaaa!<WAIT><FACE:00>Qué chico tan agitado<NL>Se fue gritando<WAIT><FACE:05>Seguro lo mandaron al<NL>mantenimiento por ser<WAIT>tan hiperactivo<WAIT><FACE:00>…Seguramente"
+  },
+  {
+   "key": "str:5D7EA4",
+   "src": "400bd263fa45",
+   "t": "<FACE:05>Uf… ¿descansamos un<NL>poco? Estoy cansada<WAIT><FACE:00>Sí, buena idea<NL>Aquí no creo que<WAIT>vengan los Sperobo…<WAIT><FACE:A5>Perdón por cortar su<NL>descanso, pero van a<WAIT>contarme unas cosas<WAIT><FACE:05>Está bien<NL>Siéntate aquí al lado<WAIT><FACE:A5>¡Sí!<NL> <WAIT>¡Digo! ¡Claro que no!<NL> <WAIT>¡Debo asustarlos para<NL>que hablen o no<WAIT>tiene sentido!<WAIT><FACE:00>…¿Así funciona eso?<WAIT><FACE:05>Así es<NL>Ha de estar jugando<WAIT>al detective, ¿no?<WAIT><FACE:A5>¡No estoy jugandooo!"
+  },
+  {
+   "key": "str:5D7F90",
+   "src": "0343a33f592d",
+   "t": "<FACE:A4>Q-qué horroor…<NL>Volví a perdeeer…<WAIT>¿Q-qué hacemooos?<WAIT><FACE:00>¿Que qué hacemos?<NL>Pues… nada, supongo…<WAIT><FACE:A4>Graciasss…<NL> <WAIT>Quedé de verme con<NL>alguien, me voooy…<WAIT><FACE:00>Se fue…<WAIT><FACE:05>¿A dónde pensará ir<NL>esa niña…?"
+  },
+  {
+   "key": "str:5D801C",
+   "src": "7fa5d87efa05",
+   "t": "<FACE:00>¿E-eh?<NL>¿Otra vez un Medabot…?<WAIT><FACE:05>Mira, ¿no es la niña<NL>del otro día?<WAIT><FACE:00>Sí, es ella<NL>Hay que despertarla<WAIT>con cuidado para que<NL>no entre en pánico…<WAIT>Oye… disculpa…<WAIT><FACE:A4>ZZZZZ…<WAIT><FACE:00>Oye…<WAIT><FACE:A4>ZZZZZ…<WAIT><FACE:04>…<WAIT><FACE:05>¿Los Medabots toman<NL>siestas?<WAIT><FACE:00>¿Quién sabe…?<WAIT><FACE:A4>Fuaaah…<WAIT><FACE:03>¡Ah! ¡Despertó!<WAIT><FACE:00>No hay que alterarla…<WAIT><FACE:A4>Mmm…<WAIT><FACE:00>Buenos días<WAIT><FACE:A4><SFX:4C>?<DELAY:0028><NL>Buenos díiiasss…<WAIT><FACE:00>(Uf, qué alivio)<WAIT><FACE:A4><SFX:4C>??<DELAY:0028><WAIT><FACE:00>¿Qué hacías en un<NL>lugar como este?<WAIT><FACE:A4>Ah, pues veráaan…<NL>Estooo…<WAIT>Estoy perdidaaa<WAIT><FACE:08>¡¿Perdidaaa?!<WAIT><FACE:A4>Síii…<NL>Creo que iba a verme<WAIT>con alguieeen… pero<NL>olvidé dóndeee…<WAIT>Por eso me perdíii<WAIT><FACE:05>Olvidar con quién te<NL>ibas a ver también es<WAIT>un problema…<WAIT><FACE:A4>De tanto ir y veniiir<NL>entré en modo ahorro<WAIT>y a dormiiir…<WAIT><FACE:08>¡¿Modo ahorrooo?!<WAIT><FACE:05>¿Eso existe?<WAIT><FACE:04>Ni idea…<WAIT><FACE:A4>Aaah…<WAIT><FACE:00>(Oye, hasta suspira)<WAIT><FACE:A4>Por eso a mí y a mi<NL> <WAIT>hermanooo nos mandan<NL>al mantenimientooo…<WAIT><FACE:05>Con razón me parecía<NL>una niña rara<WAIT><FACE:A4>…?<WAIT><FACE:00>El otro día me<NL>sorprendiste, apenas<WAIT>despertaste y ya era<NL>robobatalla<WAIT>Y al terminar, puro<NL>adiooós… jajaja<WAIT><FACE:A4>…<NL> <WAIT><SFX:4B>!<DELAY:0028><NL> <WAIT>¡E-eso esss!<NL>¡R-robobatallaaa!<WAIT>Si gano, borrón y<NL>cuenta nueva, ¿síii?<WAIT><FACE:00>¿Cómo que SI ganas?<NL>Qué Medabot tan<WAIT>inseguro…"
+  },
+  {
+   "key": "str:5D8324",
+   "src": "4413c844fc39",
+   "t": "<FACE:A5>¡Rayos! ¡La próxima<NL>me las van a pagar!<WAIT><FACE:07>Sí, sí<NL>Te esperaré ansiosa[<3]<WAIT><FACE:00>Ya se fue<WAIT><FACE:04><SFX:4C>??<DELAY:0028><NL>¿Volvió?<WAIT><FACE:A5>¡Si ven a mi hermana,<NL>no le hagan nada!<WAIT><FACE:07>Qué buen niño, cómo<NL>quiere a su hermana<WAIT><FACE:00>Aunque es muy ruidoso"
+  },
+  {
+   "key": "str:5D83B4",
+   "src": "f26d94e447e3",
+   "t": "<FACE:A5>Vaya, otra vez tú<WAIT><FACE:00>Ah, eres tú<WAIT><FACE:07>Jiji, esos modales<NL>tan rudos lo hacen<WAIT>más lindo aún<WAIT><FACE:A5>¡Grr! Grr…<NL> <WAIT>No voy a caer en eso<NL>Ya no me hago enojar<WAIT><FACE:00>Bueno, dejando eso…<WAIT><FACE:A5>¡Escuchen bien!<NL>¡Admitan que no soy<WAIT>ningún niño!<WAIT><FACE:07>Jijiji[<3]<WAIT><FACE:A5>¡¿De qué se ríen?!<WAIT><FACE:00>Oye, ¿no buscabas a<NL>alguien?<WAIT><FACE:A5>Ah, sí, es cierto<NL> <WAIT>…Ejem<NL> <WAIT>¿Han visto a mi<NL>hermana? ¡Y no me<WAIT>oculten nada!<WAIT><FACE:00>…<WAIT><FACE:A5>¡¿La vieron o no la<NL>vieron?!<WAIT><FACE:05>¿No será esa niña que<NL>dormía en el pasillo…?<WAIT><FACE:00>Ahora que lo dices,<NL>se parecen<WAIT><FACE:A5><SFX:4B>!!<DELAY:0028><NL>¡¿Dónde?! ¿Dónde está?<WAIT><FACE:00>Despertó, nos retó a<NL>una robobatalla y<WAIT>luego se fue quién<NL>sabe a dónde<WAIT><FACE:A5>…<WAIT><FACE:05>Perdón por no ser de<NL>más ayuda…<WAIT><FACE:A5>¡¿Qué le hicieron<NL>a mi hermanaaa?!<WAIT><FACE:04>Oye, oye…"
+  },
+  {
+   "key": "str:5D8578",
+   "src": "33b537008509",
+   "t": "<FACE:A4>P-perdíii…<NL>¿Q-qué hagooo…?<WAIT><FACE:05>¿Cómo que qué hago?<NL>Ella misma nos retó a<WAIT>robobatallar y ahora<NL>anda nerviosa…<WAIT><FACE:04>¿Q-qué hacemos?<WAIT><FACE:06>¡¿Y tú por qué te<NL>pones nervioso?!<WAIT><FACE:00>E-es cierto…<WAIT><FACE:A4>…<WAIT><FACE:05>…<WAIT><FACE:A4>…<NL> <WAIT>¡P-perdóoon!<NL>¡Adióoos…!<WAIT><FACE:00>Se fue…<WAIT><FACE:05>Oye, ¿esa niña no se<NL>parece a alguien?"
+  },
+  {
+   "key": "str:5D8648",
+   "src": "5c3bc5f68430",
+   "t": "<FACE:00>¿Eh?<NL>Un Medabot exhibido…<WAIT>Y esto ni siquiera es<NL>zona de exhibición…<WAIT><FACE:05>Sí…<NL>Vamos a verlo de cerca<WAIT><FACE:A4>Fuaaah…<WAIT><FACE:03>¡A-ah!<NL>¡Qué susto me dio!<WAIT>Se reinició de golpe…<WAIT><FACE:05>Parecía estar<NL>tomando una siesta<WAIT><FACE:A4>…<WAIT><FACE:00>¿Qué hacías en un<NL>lugar como este?<WAIT><FACE:A4>¡Aaaay!<WAIT><FACE:03>¡¿Ehhh?!<WAIT><FACE:A4>¡¿Qué van a haceeer?!<NL>¡Alto, por favooor!<WAIT><FACE:03>N-no te haremos nada<WAIT><FACE:08>¿Q-qué le pasa a esta<NL>niña, así de golpe…?<WAIT><FACE:A4>E-en ese caso…<NL>Si gano la<WAIT>robobatalla,<NL>¡perdónenmeee!<WAIT><FACE:04>¿Perdonarte… qué?"
+  },
+  {
+   "key": "str:5D8760",
+   "src": "154f9df61dad",
+   "t": "<FACE:A5>¡M-maldición!<NL>¡Me las pagarán!<WAIT><FACE:00>Vaya…<NL>Tan pequeño y ya<WAIT>tiene secuaces<WAIT><FACE:00>Nada mal, ¿eh?<WAIT><FACE:07>Y además es lindo[<3]"
+  },
+  {
+   "key": "str:5D87A8",
+   "src": "3f395ed35fc2",
+   "t": "<FACE:A5>¡Alto ahí, ustedes!<WAIT><FACE:03>¡Uy!<NL>¡¿Y ahora qué?!<WAIT><FACE:07>¡Vaya, es pequeñito y<NL>adorable!<WAIT>No sabía que había<NL>Medabots así…<WAIT>¿Los venderán por<NL>catálogo…?<WAIT><FACE:A5>…<WAIT><FACE:00>¿Qué te pasa?<NL>Hace nada estabas bien<WAIT><FACE:A5>¡C-cállense!<NL>¡No me traten como<WAIT>niño por ser pequeño!<WAIT><FACE:03>¡Ay!<WAIT><FACE:A5>¡Respondan!<NL>¿Han visto por aquí<WAIT>un Medabot femenino<NL>parecido a mí?<WAIT><FACE:07>Jijiji<NL>Mírate, haciéndote el<WAIT>rudo… ¡Qué lindo![<3]<WAIT><FACE:A5>¡C-cállenseee!<NL>¡¡Verán mi poder!!"
+  },
+  {
+   "key": "str:4CC830",
+   "src": "4a99aaa1c2ff",
+   "t": "Tú"
+  },
+  {
+   "key": "str:4CC83A",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC84C",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC85F",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC879",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC895",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC8B1",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC8CD",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC8E4",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC8FD",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC916",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC92F",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC97F",
+   "src": "c3d7313a6ca2",
+   "t": "MF: <NL>"
+  },
+  {
+   "key": "str:4CCB10",
+   "src": "17b80bc751e1",
+   "t": "CCCCC"
+  },
+  {
+   "key": "str:4CCB38",
+   "src": "dfa23e192149",
+   "t": ""
+  },
+  {
+   "key": "str:4CCD4B",
+   "src": "6a0ca6cec8ee",
+   "t": "Tu Medalla:<X:F0>"
+  },
+  {
+   "key": "str:4CCD68",
+   "src": "8f1f88656d3f",
+   "t": "¡El rival la tiene!"
+  },
+  {
+   "key": "str:4CCD7D",
+   "src": "95ed0a13c35f",
+   "t": "¡El rival elige!<X:F0>"
+  },
+  {
+   "key": "str:4CCDF0",
+   "src": "6bf61970506d",
+   "t": ""
+  },
+  {
+   "key": "str:4CCDF4",
+   "src": "07886c97af5c",
+   "t": ""
+  },
+  {
+   "key": "str:4CCDF8",
+   "src": "00049100fe4e",
+   "t": ""
+  },
+  {
+   "key": "str:4CCDFC",
+   "src": "b77a6fcbc75b",
+   "t": ""
+  },
+  {
+   "key": "str:7F6ACE",
+   "src": "8f3962d34c2a",
+   "t": "<FACE:16>¡Vivaaaa!<NL>¡Nació nuestro líder!<WAIT><FACE:1D>Al fin sus servidores<NL>tienen un líder… buaa…<WAIT><FACE:0D>…Oigan, no exageren<WAIT><FACE:14>¡No exageramos nada,<NL>líder!<WAIT>¡Por mi líder doy<NL>la vida, pues!<WAIT><FACE:1D>Buaa… un servidor<NL>también…<WAIT><FACE:0E>…¡E-está bien!<NL><WAIT>¡Que ya entendí! ¡Ya<NL>dejen de llorar!<WAIT><FACE:05>Por cierto, ustedes…<NL><WAIT>¿A <PLAYER> no tienen<NL>algo que devolverle?<WAIT><FACE:17>…¡Ah, cierto! ¡Ya me<NL>olvidaba, pues!<WAIT><FACE:14>¡Oye, Mizore!<WAIT><FACE:19>¡Así es, <PLAYER>!<NL>¡Aquí está su Medalla!<WAIT><FACE:03><SFX:4B>¡Ah, cierto!<NL>¡Mi Medalla!<WAIT><FACE:18>Perdona, ¿eh?…<NL>La guardamos bastante<WAIT><FACE:1D>Era una broma nomás…<NL>Íbamos a devolverla<WAIT><FACE:02>Lo sé… La experiencia<NL>está igual que antes<WAIT>La guardaron sin<NL>usarla, ¿verdad?<WAIT><FACE:06>¡Pero bueno, <PLAYER>!<NL><WAIT>Aunque ya sean equipo,<NL>¡enójate un poco más!<WAIT><FACE:05>.<DELAY:001E>.<DELAY:001E>.<DELAY:001E>Bueno, ya qué…<WAIT><FACE:0A>Oye, <PLAYER>…<WAIT><FACE:0A>Todos en este equipo,<NL>Hiyori y yo incluidos,<WAIT>te seguiremos pase<NL>lo que pase<WAIT>Cuéntanos tus planes<NL>sin ocultarnos nada<WAIT>¿¡Verdad, chicos!?<WAIT><FACE:05>¡Claro!<NL>La clase será egoísta,<WAIT>¡nosotros al menos<NL>apoyemos a <PLAYER>!<WAIT><FACE:14>Si el líder lo dice,<NL>pos ni modo<WAIT><FACE:19>¡Un servidor obedece!<WAIT><FACE:00>Por cierto, adelante<NL>debería estar<WAIT>el Bloque Computadora…<WAIT><FACE:14>Ah, ese es el bloque<NL>de al lado, pues<WAIT>¡Estaba lleno de<NL>monitores raros!<WAIT><FACE:1D>Ahora que lo pienso…<NL><WAIT>¡El medaguerrero<NL>Shiden entró en ese<WAIT>bloque con cara de<NL>espanto!<WAIT><FACE:14>¡Eso, eso!<NL>¡Se veía bien apurado!<WAIT><FACE:03>¿Shiden?<WAIT><FACE:06>¡Lo sabía, algo está<NL>tramando!<WAIT><FACE:17>¿Tramando?<NL>¿Ese era un tipo malo?<WAIT><FACE:06>¡Claro que sí!<NL>¡Si <PLAYER> casi<WAIT>la pasa muy mal<NL>por su culpa!<WAIT><FACE:1A>¡Con razón se veía tan<NL>creído y odioso!<WAIT><FACE:15>¡De seguro el secreto<NL>está en ese bloque!<WAIT><FACE:1A>¡Hay que descubrirlo<NL>de inmediato!<WAIT><FACE:05>¡Sí! ¡Es un tipo bien<NL>rastrero!<WAIT>¡Vamos!"
+  },
+  {
+   "key": "str:7F653D",
+   "src": "be4eebaa976b",
+   "t": "<FACE:00>Navi, ¿alguna novedad<NL>de Mistral, el del<WAIT>Bloque Lobby?<WAIT><FACE:53><SFX:32>¿Mistral…? ¿Se refiere<NL>al Medabot espacial?<WAIT>Sensores de todo tipo<NL>vigilan la exhibición…<WAIT>Está del todo inactivo<NL>y no se ha movido<WAIT>desde que llegó aquí<WAIT><FACE:04>¿Inactivo? Pero yo<NL>oí una voz, seguro…<WAIT><FACE:53><SFX:32>¿Una voz?<NL><WAIT>Si hubiera emitido<NL>sonido, ¿no habrían<WAIT>reaccionado los<NL>sensores?<WAIT><FACE:00>No es esa clase de<NL>voz… La oigo… dentro<WAIT>de mi corazón<WAIT><FACE:53><SFX:32>¿El corazón…?<NL><WAIT>El corazón humano no<NL>tiene esa capacidad,<WAIT>¿o sí?<WAIT><FACE:04>Eh, no… no hablo de<NL>«capacidades» ni nada<WAIT>tan serio… Es algo<NL>que se transmite…<WAIT>El punto es que<NL>Mistral no puede<WAIT>estar del todo<NL>inactivo…<WAIT><FACE:05>¡Ya, ya, <PLAYER>!<NL>¡No lo pienses tanto!<WAIT>¡Vamos al siguiente<NL>bloque!<WAIT><FACE:53>…<DELAY:0028><NL><CLEAR>"
+  },
+  {
+   "key": "str:7F6855",
+   "src": "349bd41db4ff",
+   "t": "<FACE:53><SFX:32>Bienvenidos de vuelta<NL><WAIT>Logramos evadir la<NL>órbita de colisión<WAIT>…El señor Shiden, ¿no?<NL>¿Se les unió también?<WAIT><FACE:0F>Hola, Navi. Así es<NL>De ahora en adelante<WAIT>yo también los<NL>acompañaré<WAIT><FACE:53><SFX:32>Ya veo…<NL><WAIT>Perdimos contacto y<NL>estaba preocupada<WAIT><FACE:10>…¿Mmm?<NL><WAIT>¿Preocupada, dices?<NL><WAIT><FACE:0F>Tú no tienes esa<NL>función…<WAIT><FACE:00>¡Ah, cierto! Shiden,<NL>deja enlazada tu<WAIT>terminal, ¿sí?<WAIT>Como dice Navi, ¡es<NL>preocupante quedar<WAIT>sin contacto en una<NL>emergencia!<WAIT><FACE:0F>Ah… sí…"
+  },
+  {
+   "key": "str:7F6104",
+   "src": "6d8cae92cf6e",
+   "t": "<FACE:06>Por más que sean así,<NL>¡olvidar a amigas de<WAIT>la clase es el colmo!<WAIT><FACE:45>¡Momentito, Hiyori!<NL>Lo que dijiste recién<WAIT>de nosotras…<WAIT><FACE:08>En fin… aún queda<NL>mucho camino…<WAIT><FACE:05>¡A concentrarse![<3]<WAIT><FACE:45>¡Oye, no te hagas!<WAIT><FACE:04>…"
+  },
+  {
+   "key": "str:7F6755",
+   "src": "c5d9e52072da",
+   "t": "<FACE:09>…¿Habré comido de más?<NL>Me da miedo pesarme…<WAIT><FACE:03>¿Eh? Vi una báscula<NL>en el Bloque Lobby<WAIT><FACE:00>¿Te la traigo?<WAIT><FACE:06>¡Nadie pidió tu ayuda!<WAIT><FACE:03><SFX:37>¡Ugh!"
+  },
+  {
+   "key": "str:7F696F",
+   "src": "fac6477a6648",
+   "t": "<FACE:03>¿¡Pero qué pasa!?<NL><WAIT><FACE:53><SFX:66>¡Emergencia!<DELAY:003C><DELAY:0008><NL>¡Emergencia!<DELAY:003C><DELAY:0018><NL><CLEAR>"
+  },
+  {
+   "key": "str:7F67C6",
+   "src": "bb5330271e08",
+   "t": "<FACE:05>Hasta los jefes<NL>enemigos ya parecen<WAIT>monstruos…"
+  },
+  {
+   "key": "str:7F6AF3",
+   "src": "31e006f1733e",
+   "t": "Ahora también tenemos<NL>un líder... ¡Buaaa!<WAIT><FACE:0D>...Oigan, no exageren.<WAIT><FACE:14>¡No exageramos, líder!<NL><WAIT>¡Yo daría la vida<NL>por mi líder!<WAIT><FACE:1D>Buá... y-yo también...<WAIT><FACE:0E>...¡E-está bien!<NL><WAIT>Ya entendí, ¡ya no<NL>lloren más!<WAIT><FACE:05>Oigan, ustedes...<NL><WAIT>¿no tienen algo que<NL>devolverle a <PLAYER>?<WAIT><FACE:17>...¡Cierto!<NL>¡Se me olvidaba!<WAIT><FACE:14>¡Oye, Mizore!<WAIT><FACE:19>¡Así es, <PLAYER>!<NL>¡Aquí está tu Medalla!<WAIT><FACE:03><SFX:4B>¡Ah, cierto!<NL>¡Mi Medalla!<WAIT><FACE:18>Perdón... la tuvimos<NL>mucho tiempo, pero...<WAIT><FACE:1D>Era solo una broma...<NL>íbamos a devolverla.<WAIT><FACE:02>Lo sé... La EXP no ha<NL>cambiado nada.<WAIT>¡La guardaron sin<NL>usarla ni una vez!<WAIT><FACE:06>¡Oye, <PLAYER>!<NL><WAIT>Aunque sean un equipo,<NL>¡enójate un poco más!<WAIT><FACE:05>.<DELAY:001E>.<DELAY:001E>.<DELAY:001E>Bueno, está bien...<WAIT><FACE:0A>Oye, <PLAYER>...<WAIT><FACE:0A>Todos en este equipo,<NL>Hiyori y yo incluidos,<WAIT>te seguiremos pase<NL>lo que pase.<WAIT>Cuéntanos tus planes<NL>sin ocultarnos nada.<WAIT>¿Verdad, chicos?<WAIT><FACE:05>¡Claro!<NL>Si la clase no ayuda,<WAIT>¡al menos nosotros<NL>apoyaremos a <PLAYER>!<WAIT><FACE:14>Si el líder lo dice,<NL>ni modo.<WAIT><FACE:19>¡A sus órdenes!<WAIT><FACE:00>Por aquí debe estar el<NL>Bloque Computadora...<WAIT><FACE:14>Ah, ese es el bloque<NL>de al lado.<WAIT>¡Estaba lleno de<NL>monitores raros!<WAIT><FACE:1D>Ahora que lo pienso...<NL><WAIT>vimos al Medaguerrero<NL>Shiden muy alterado<WAIT>entrar en ese bloque.<WAIT><FACE:14>¡Sí, sí!<NL>¡Se veía muy apurado!<WAIT><FACE:03>¿Shiden?<WAIT><FACE:06>¡Lo sabía! ¡Está<NL>tramando algo!<WAIT><FACE:17>¿Tramando?<NL>¿Ese tipo era malo?<WAIT><FACE:06>¡Sí!<NL>¡<PLAYER> estuvo<WAIT>a punto de pasarla<NL>muy mal por su culpa!<WAIT><FACE:1A>¡Con razón me pareció<NL>un presumido odioso!<WAIT><FACE:15>¡El Bloque Computadora<NL>esconde un secreto!<WAIT><FACE:1A>¡Vamos a descubrirlo<NL>rápido!<WAIT><FACE:05>¡Sí! ¡Es un tramposo!<NL>¡Apurémonos!"
+  },
+  {
+   "key": "str:7F6193",
+   "src": "f334f20061bd",
+   "t": "<FACE:14>Qué suerte, <PLAYER><NL><WAIT>no solo una Medalla,<NL>¡también un Tinpet!<WAIT><FACE:19>¡Ventajas de ser el<NL>delegado de la clase!<WAIT><FACE:04>N-no... yo solo...<WAIT><FACE:05>¡Y eso no es todo!<NL><WAIT>¡Mira!<SFX:52><DELAY:0028><WAIT><FACE:17>¡Ah, una R.Ball!<WAIT><FACE:19>¡El tal Shiden la<NL>dejó olvidada!<WAIT><FACE:07>¡Exacto!<WAIT><FACE:05>Quédatela también,<NL><PLAYER>.<WAIT><FACE:03>¿Eh? Pero es de<NL>Hiyori...<WAIT><FACE:07>¡Solo tómala y ya!<WAIT><FACE:06>(No aguanto tantas<NL> robobatallas...)<WAIT>(Que use la R.Ball<NL> y no a mí...)<WAIT><FACE:04>¿Mmm? Hiyori, pusiste<NL>una cara rara...<WAIT><FACE:06>¡Oye!<NL>¡Qué grosero!"
+  },
+  {
+   "key": "str:7F7252",
+   "src": "71b7f24456be",
+   "t": "<FACE:00>Desde aquí se ve<NL>todo el Cluster.<WAIT>...Hay que avanzar<NL>bloque por bloque...<WAIT><FACE:05>Y la Tierra se aleja<NL>más y más...<WAIT>Tenemos que hacer<NL>algo nosotros mismos.<WAIT><FACE:04>Pero ¿por qué pasó<NL>todo esto...?<WAIT>¿Habrá sido aquella<NL>Medafuerza...?<WAIT><FACE:05>Claro que no.<NL><WAIT>Hasta el Medaguerrero<NL>Shiden dijo que eso<WAIT>es imposible...<WAIT>Aquí alguien más<NL>trama algo..."
+  },
+  {
+   "key": "str:7F71DA",
+   "src": "3d4a895d1bc5",
+   "t": "<FACE:03>¿Qué? ¿Qué pasa?<WAIT><FACE:53><SFX:66>¡Alerta! <DELAY:003C><DELAY:0008>¡Alerta!<DELAY:003C><DELAY:0018><MUSIC><NL>¡Activen de inmediato<WAIT>el motor de control<NL>del Bloque Pirámide!<WAIT><FACE:01>¡Hay que ir rápido!<NL><WAIT>¡Falta poco!<NL>¡Vamos!"
+  },
+  {
+   "key": "str:7F700C",
+   "src": "165f3fa867d8",
+   "t": "<FACE:00>Ahora que lo pienso,<NL>aquella vez Hiyori<WAIT>corrió hacia mí...<WAIT><FACE:02>Quizá Hiyori,<NL>en el fondo...<WAIT><FACE:06>¡<PLAYER>!<WAIT><FACE:05>¿Dijiste algo?<WAIT><FACE:04>N-no, nada..."
+  },
+  {
+   "key": "str:7F718D",
+   "src": "e99a88e6ecc7",
+   "t": "<FACE:00>Al fin, sigue el<NL>Bloque Propulsor...<WAIT>¡Si lo recuperamos,<NL>caso resuelto!<WAIT>¡Armemos el mejor<NL>equipo y entremos!"
+  },
+  {
+   "key": "str:7F7503",
+   "src": "cc115cb06a93",
+   "t": "¡Hay intrusos!<NL>¡Control anulado!"
+  },
+  {
+   "key": "str:7F62CE",
+   "src": "ac8ad7834522",
+   "t": "<FACE:05>En fin, ese jefe<NL>Nyuudou, dale con<WAIT>«¡agallas, agallas!»…<NL>Pura palabrería<WAIT>espiritual, ¡qué<NL>sinsentido!<WAIT>Sus pobres secuaces<NL>la han de pasar mal…<WAIT><FACE:00>Pero la verdad, a<NL>veces siento que los<WAIT>Medabots responden a<NL>nuestro esfuerzo…<WAIT>a eso de las agallas,<NL>¿sabes?<WAIT>Hasta mi Medabot a<NL>veces hace más de lo<WAIT>que le ordeno…<NL>Quizá las agallas sí<WAIT>hacen falta en una<NL>robobatalla, ¿no?<WAIT><FACE:09>¿Hablas en serioooo?<WAIT><FACE:53><SFX:32>…Señor <PLAYER>,<NL>¿qué son las agallas?<WAIT><FACE:03>¡Ah! Eres tú, Navi…<NL>¡No me asustes así!<WAIT><FACE:53><SFX:32>En mi memoria solo<NL>están definidas como<WAIT>«voluntad fuerte»…<NL>pero lo que usted<WAIT>dice, señor <PLAYER>,<NL>no parece explicarse<WAIT>con esa definición…<WAIT><FACE:04>Mmmmm… a ver…<WAIT><FACE:02>Las agallas son dar<NL>todo tu esfuerzo y<WAIT>superar tu propia<NL>capacidad… ¿será?<WAIT><FACE:53><SFX:32>¿Superar la propia<NL>capacidad…?<WAIT>¡¿Los humanos logran<NL>algo tan increíble?!<WAIT>¿Su capacidad no<NL>tiene límite, acaso?<WAIT><FACE:04>No creo que sea para<NL>tanto… pero…<WAIT><FACE:02>Cuando queremos<NL>esforzarnos, humanos<WAIT>y Medabots hacemos<NL>cosas increíbles,<WAIT>más que de costumbre"
+  },
+  {
+   "key": "str:7F7060",
+   "src": "fc2f70917990",
+   "t": "<FACE:00>Ahora que lo pienso,<NL>esa vez Hiyori vino<WAIT>corriendo hacia mí…<WAIT><FACE:02>Hiyori en el fondo…<WAIT><FACE:06>¡<PLAYER>!<WAIT><FACE:05>¿Dijiste algo?<WAIT><FACE:04>N-no, no es nada…<WAIT><FACE:53><SFX:32>Comunicación entrante<NL><WAIT>¿Desea que la conecte?<WAIT><FACE:03>A-ah… sí, por favor…<WAIT><FACE:8E><SFX:32>¡<PLAYER>!<NL>¡Tenemos un problema!<WAIT>¡No hay material para<NL>desarrollar Medabots!<WAIT>¡Parece que la Banda<NL>Sperobo se apoderó<WAIT>del Bloque Mina!<WAIT>¡Recupera ese bloque,<NL>rápido!<WAIT>¡Si no, no podremos<NL>crear nuevos Medabots!<WAIT><FACE:0A>Es justo el bloque<NL>vecino…<WAIT><FACE:0A>¡Vamos ya!"
+  },
+  {
+   "key": "str:7F6ED5",
+   "src": "eaea69e51bc8",
+   "t": "<FACE:8E><SFX:32>¡<PLAYER>!<NL>¡Tenemos un problema!<WAIT>¡No hay material para<NL>desarrollar Medabots!<WAIT>¡Parece que la Banda<NL>Sperobo se apoderó<WAIT>del Bloque Mina!<WAIT>¡Recupera ese bloque,<NL>rápido!<WAIT>¡Si no, no podremos<NL>crear nuevos Medabots!<WAIT><FACE:0A>Es justo el bloque<NL>vecino…<WAIT><FACE:0A>¡Vamos ya!<NL>"
+  },
+  {
+   "key": "str:7F6F85",
+   "src": "50a767e9bd63",
+   "t": "<FACE:33>Entonces, señorita<NL>Koharubi, ¡buen día!<WAIT><FACE:35>¡Nosotras nos haremos<NL>cargo de este lugar!<WAIT><FACE:33>Bueno, podríamos<NL>turnarnos con los<WAIT>demás de la clase…<WAIT><FACE:35>pero esto no es para<NL>plebeyos… ¡¿verdad?!<WAIT><FACE:06>…¡De veras que me<NL>hacen enojar!"
+  },
+  {
+   "key": "str:7F67E9",
+   "src": "c7d5c562a2a2",
+   "t": "<FACE:0A>Ese jefe dijo que su<NL>meta era retrasarnos…<WAIT><FACE:03>Es cierto…<NL>¿Buscan ganar tiempo?<WAIT><FACE:0B>Seguro traman algo<NL>a escondidas…<WAIT><FACE:01>¡Avancemos ya!"
+  },
+  {
+   "key": "str:7F74FC",
+   "src": "04555e5f8614",
+   "t": "<FACE:53><SFX:32>¡Intrusos dentro<NL>del bloque!<WAIT>¡Control anulado!"
+  },
+  {
+   "key": "str:5D5BD8",
+   "src": "f41cd88d8299",
+   "t": "Este Bloque desarrolla<NL><X:E8><END>"
+  },
+  {
+   "key": "str:5D5DA4",
+   "src": "9ed12b8f7307",
+   "t": "<FACE:00><SFX:79>Tinpet <X:E8><NL>¡tuyo!<WAIT><SFX:79>Cabeza <X:E9><NL>¡tuya!<WAIT><SFX:79>Br.der. <X:EA><NL>¡tuya!<WAIT><SFX:79>Br.izq. <X:EB><NL>¡tuya!<WAIT><SFX:79>Patas <X:EC><NL>¡tuyas!"
+  },
+  {
+   "key": "str:5D5E04",
+   "src": "c8b052a6e283",
+   "t": "<FACE:00><SFX:79>Tinpet <X:E8><NL>¡tuyo!"
+  },
+  {
+   "key": "str:5D5E18",
+   "src": "ea246fce54ec",
+   "t": "<FACE:00><SFX:79><X:E8> <X:E9><NL>¡Parte obtenida!"
+  },
+  {
+   "key": "str:5D5E2C",
+   "src": "6f30f4ebaf4a",
+   "t": "<FACE:00><SFX:79>Medalla <X:E8><NL>¡obtenida!"
+  },
+  {
+   "key": "str:5D5E40",
+   "src": "9a001a9916ee",
+   "t": "hembra"
+  },
+  {
+   "key": "str:5D5E48",
+   "src": "758467a39b50",
+   "t": "macho"
+  },
+  {
+   "key": "str:5D5E50",
+   "src": "a55782616f8b",
+   "t": "Patas"
+  },
+  {
+   "key": "str:5D5E58",
+   "src": "00da7cbe13ff",
+   "t": "Brazo i."
+  },
+  {
+   "key": "str:5D5E60",
+   "src": "8bde89d9cfa1",
+   "t": "Brazo d."
+  },
+  {
+   "key": "str:5D5E68",
+   "src": "917540c6475c",
+   "t": "Cabeza"
   }
  ]
 }

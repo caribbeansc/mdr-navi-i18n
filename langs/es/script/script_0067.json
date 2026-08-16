@@ -54,7 +54,7 @@
   {
    "key": "script:0067:0853",
    "src": "b8ff5cd60128",
-   "t": "<FACE:33>la señorita Koharubi…<NL>A los demás no los<WAIT>conozco… ¿Y qué buscan<NL>en nuestra mansión?"
+   "t": "<FACE:33>la señorita Hiyori…<NL>A los demás no los<WAIT>conozco… ¿Y qué buscan<NL>en nuestra mansión?"
   },
   {
    "key": "script:0067:0887",
@@ -79,12 +79,12 @@
   {
    "key": "script:0067:0927",
    "src": "121e2c4a62d2",
-   "t": "<FACE:06>(¡Oye! ¡Esa mansión<NL> no es de ellas!)<WAIT>(¡Yo también quiero<NL> descansar ahí!)<WAIT>(¡Sácalas de ahí!)<WAIT><FACE:04>(Pero no son de las<NL> que hacen caso…)<WAIT><FACE:06>(¡Ahora eres jefe de<NL> grupo!)<WAIT>(¡Pues da órdenes!)"
+   "t": "<FACE:06>(¡Oye! ¡Esa mansión<NL> no es de ellas!)<WAIT>(¡Yo también quiero<NL> descansar ahí!)<WAIT>(¡Sácalas de ahí!)<WAIT><FACE:04>(Pero no son de las<NL> que hacen caso…)<WAIT><FACE:06>(¡Ahora eres el<NL> presidente!)<WAIT>(¡Pues da órdenes!)"
   },
   {
    "key": "script:0067:09B0",
    "src": "ff32a3764ac7",
-   "t": "<FACE:00>Yo… acabé siendo el<NL>jefe de grupo interino<WAIT>Este bloque también<NL>podría ser peligroso…<WAIT>Déjennos esto a<NL>nosotros por ahora<WAIT>¿Nos dejan entrar?"
+   "t": "<FACE:00>Yo… quedé de<NL>presidente interino<WAIT>Este bloque también<NL>podría ser peligroso…<WAIT>Déjennos esto a<NL>nosotros por ahora<WAIT>¿Nos dejan entrar?"
   },
   {
    "key": "script:0067:0A13",
@@ -214,7 +214,7 @@
   {
    "key": "script:0067:0F0A",
    "src": "a26e551cb50e",
-   "t": "<FACE:34>Vaya, eliminarnos…<WAIT><FACE:33>¡Este lugar es<NL>nuestro, de nadie más!<WAIT>¡Señor <PLAYER>!<NL><WAIT>¡Si es jefe de grupo,<NL>pelee por nosotras!<WAIT>¡Así les dejaremos<NL>usar este bloque!"
+   "t": "<FACE:34>Vaya, eliminarnos…<WAIT><FACE:33>¡Este lugar es<NL>nuestro, de nadie más!<WAIT>¡Señor <PLAYER>!<NL><WAIT>¡Si es el presidente,<NL>pelee por nosotras!<WAIT>¡Así les dejaremos<NL>usar este bloque!"
   },
   {
    "key": "script:0067:0F82",
@@ -224,7 +224,7 @@
   {
    "key": "script:0067:0FA7",
    "src": "d14e4a55de75",
-   "t": "<FACE:07>¡Kyaa! ¡Qué genial!<NL><WAIT>¡Todo un jefe de<NL>grupo, <PLAYER>!"
+   "t": "<FACE:07>¡Kyaa! ¡Qué genial!<NL><WAIT>¡Todo un presidente,<NL><PLAYER>!"
   },
   {
    "key": "script:0067:0FC7",
@@ -259,7 +259,7 @@
   {
    "key": "script:0067:107B",
    "src": "e19fb317ae6d",
-   "t": "<FACE:33>¡Megumi se unió al<NL>grupo!<WAIT><FACE:35>¡Shizuku se unió al<NL>grupo!<WAIT><FACE:36>¡Sachi se unió al<NL>grupo!"
+   "t": "<FACE:33>¡Megumi se unió al<NL>equipo!<WAIT><FACE:35>¡Shizuku se unió al<NL>equipo!<WAIT><FACE:36>¡Sachi se unió al<NL>equipo!"
   }
  ]
 }

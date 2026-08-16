@@ -26,6 +26,8 @@ import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
+import struct
+
 from . import font as font_mod
 from .rom import Rom
 from .table import Charset
@@ -203,10 +205,10 @@ class Canvas:
         else:
             self.tiles[offset] = (byte & 0xF0) | value
 
-    def clear(self) -> None:
+    def clear(self, value: int = 0) -> None:
         for y in range(self.height):
             for x in range(self.width):
-                self.set(x, y, 0)
+                self.set(x, y, value)
 
     def ink_box(self) -> tuple[int, int, int, int] | None:
         """Bounding box of the non-zero pixels, or None if blank."""
@@ -622,6 +624,7 @@ def patch(rom: Rom, charset: Charset, texts: dict[str, str], allocator,
             report.relocated += 1
 
     _patch_option_headers(rom, setter, texts, allocator, pointer_sites, report, data)
+    patch_save_panel(rom, setter, allocator, pointer_sites, report)
     return report
 
 
@@ -1033,8 +1036,34 @@ def apply_sheet_labels(tiles: bytearray, sheet: dict, setter: Typesetter,
                  f"{text!r} is {width}px, the rect is {canvas.width}px"))
             continue
         box = canvas.ink_box()
-        if not label.get("keep_background"):
-            canvas.clear()
+        if label.get("erase_ink") is not None:
+            # Surgical erase for glyphs painted ON an art background (the
+            # target-scope hanko stamps): drop only the INTERIOR pixels of
+            # the ink index — those with no transparent neighbour — so the
+            # stamp's rim and silhouette survive. Pair with keep_background.
+            ink = int(label["erase_ink"])
+            to = int(label.get("erase_to", 0))
+            snap = [[canvas.get(x, y) for x in range(canvas.width)]
+                    for y in range(canvas.height)]
+
+            def _touches_outside(px: int, py: int) -> bool:
+                for dy in (-1, 0, 1):
+                    for dx in (-1, 0, 1):
+                        nx, ny = px + dx, py + dy
+                        if not (0 <= nx < canvas.width and 0 <= ny < canvas.height):
+                            return True
+                        if snap[ny][nx] == 0:
+                            return True
+                return False
+
+            for py in range(canvas.height):
+                for px in range(canvas.width):
+                    if snap[py][px] == ink and not _touches_outside(px, py):
+                        canvas.set(px, py, to)
+        elif not label.get("keep_background"):
+            # "background" clears to a solid palette index instead of
+            # transparent — for glyph plates on a solid colour.
+            canvas.clear(int(label.get("background", 0)))
         top = label.get("top")
         if top is None:
             top = box[1] if box else (canvas.height - font_mod.GLYPH_HEIGHT) // 2
@@ -1276,3 +1305,297 @@ def _put_back(rom: Rom, block: int, packed: bytes, room: int, allocator,
     for site in sites:
         rom.write_ptr(site, destination)
     report.relocated += 1
+
+
+# -- the opening newspaper (8bpp) -----------------------------------------
+#
+# The page the game shows after the space Medabot is dug up is ONE 8bpp
+# image, not a tile atlas: 600 tiles of 64 bytes in 1-D order, 30x20, with
+# its own uncompressed 256-colour palette right before the block.  Every
+# other asset in this game is 4bpp, so it needs its own canvas and its own
+# writer.  The Japanese text is TATEGAKI (vertical columns read right to
+# left); Spanish cannot be stacked that way, so the column texts are drawn
+# ROTATED 90° clockwise — the same thing a real newspaper does with Latin
+# text in a vertical column — while the two photo captions stay horizontal.
+NEWSPAPER_BLOCK = 0x78BDA8
+NEWSPAPER_PALETTE = 0x78BCA8
+NEWSPAPER_COLS = 30
+NEWSPAPER_ROWS = 20
+
+
+class Canvas8:
+    """The 8bpp page as one pixel grid (1-D tile order, 30 tiles wide)."""
+
+    def __init__(self, tiles: bytearray, cols: int = NEWSPAPER_COLS):
+        self.tiles = tiles
+        self.cols = cols
+        self.width = cols * TILE_SIDE
+        self.height = (len(tiles) // 64) // cols * TILE_SIDE
+
+    def _at(self, x: int, y: int) -> int:
+        tile = (y // TILE_SIDE) * self.cols + (x // TILE_SIDE)
+        return tile * 64 + (y % TILE_SIDE) * TILE_SIDE + (x % TILE_SIDE)
+
+    def get(self, x: int, y: int) -> int:
+        if not (0 <= x < self.width and 0 <= y < self.height):
+            return 0
+        return self.tiles[self._at(x, y)]
+
+    def set(self, x: int, y: int, value: int) -> None:
+        if 0 <= x < self.width and 0 <= y < self.height:
+            self.tiles[self._at(x, y)] = value
+
+    def fill_rect(self, x: int, y: int, w: int, h: int, value: int) -> None:
+        for py in range(y, y + h):
+            for px in range(x, x + w):
+                self.set(px, py, value)
+
+    def sample_rect(self, x: int, y: int, w: int, h: int) -> int:
+        """The most common value in a rectangle — its background colour."""
+        from collections import Counter
+
+        counter = Counter(self.get(px, py)
+                          for py in range(y, y + h) for px in range(x, x + w))
+        return counter.most_common(1)[0][0]
+
+
+def _draw8(setter: "Typesetter", canvas: Canvas8, x: int, y: int, text: str,
+           ink: int, spacing: int = 1) -> None:
+    """Horizontal text, one palette index, no outline."""
+    pen = x
+    for char in text:
+        grid, left, width = setter._glyph(char)
+        if width == 0:
+            pen += 3 + spacing
+            continue
+        for gy in range(font_mod.GLYPH_HEIGHT):
+            for gx in range(width):
+                if grid[gy][left + gx]:
+                    canvas.set(pen + gx, y + gy, ink)
+        pen += width + spacing
+
+
+def _draw8_rotated(setter: "Typesetter", canvas: Canvas8, x: int, y: int,
+                   text: str, ink: int, spacing: int = 1) -> None:
+    """Text rotated 90° clockwise, reading downward from (x, y).
+
+    ``x`` is the LEFT edge of the resulting column, which is
+    ``GLYPH_HEIGHT`` pixels wide; the glyph's own top ends up on the right.
+    """
+    pen = y
+    for char in text:
+        grid, left, width = setter._glyph(char)
+        if width == 0:
+            pen += 3 + spacing
+            continue
+        for gy in range(font_mod.GLYPH_HEIGHT):
+            for gx in range(width):
+                if grid[gy][left + gx]:
+                    canvas.set(x + (font_mod.GLYPH_HEIGHT - 1 - gy), pen + gx, ink)
+        pen += width + spacing
+
+
+#: The page's regions, in PIXELS, measured off the rendered block.
+#: ``rot`` columns are drawn top-down with the letters turned clockwise;
+#: the rest are ordinary horizontal captions.
+NEWSPAPER_AREAS = {
+    # key            x,   y,   w,   h,  rotated
+    "head.a":      (216,   6,   9, 148, True),
+    "head.b":      (226,   6,   9, 148, True),
+    "sub":         (190,  48,   9, 105, True),
+    "left.a":      ( 72,  72,   9,  86, True),
+    "left.b":      ( 58,  96,   9,  62, True),
+    "photo":       ( 82, 100, 118,  20, False),
+    "boy":         (  4, 138,  62,  20, False),
+}
+
+
+def patch_newspaper(rom: Rom, setter: "Typesetter", texts: dict,
+                    allocator, pointer_sites: dict, report: "GfxReport") -> None:
+    """Redraw the opening newspaper page (8bpp, vertical Japanese)."""
+    if not texts:
+        return
+    original = bytes(rom.data)
+    try:
+        raw, comp_len = decompress(original, NEWSPAPER_BLOCK)
+    except GfxError as exc:
+        report.skipped.append(("newspaper", str(exc)))
+        return
+    page = bytearray(raw)
+    canvas = Canvas8(page)
+    for key, lines in texts.items():
+        area = NEWSPAPER_AREAS.get(key)
+        if area is None or not lines:
+            report.skipped.append((f"newspaper:{key}", "no such area"))
+            continue
+        x, y, w, h, rotated = area
+        # Erase to the paper colour the area already sits on, then draw with
+        # the ink sampled from its darkest pixel — the dark headline box and
+        # the cream page need opposite inks and the sample gets both right.
+        background = canvas.sample_rect(x, y, w, h)
+        # Pick the ink by LUMINANCE, not by index: the palette is in no
+        # particular order, so the lowest index is not the darkest colour
+        # (drawing with it left the captions nearly invisible).
+        def _lum(index: int) -> int:
+            colour = struct.unpack_from("<H", original, NEWSPAPER_PALETTE + 2 * index)[0]
+            return ((colour & 31) * 299 + ((colour >> 5) & 31) * 587
+                    + ((colour >> 10) & 31) * 114) // 1000
+
+        present = {canvas.get(px, py)
+                   for py in range(y, y + h) for px in range(x, x + w)}
+        ink = max(present, key=lambda i: abs(_lum(i) - _lum(background)))
+        if ink == background:
+            ink = min(present, key=_lum)
+        canvas.fill_rect(x, y, w, h, background)
+        for index, line in enumerate(lines if isinstance(lines, list) else [lines]):
+            if rotated:
+                span = setter.measure(line)
+                if span > h:
+                    report.skipped.append(
+                        (f"newspaper:{key}", f"{line!r} is {span}px, the column is {h}px"))
+                    continue
+                _draw8_rotated(setter, canvas, x, y, line, ink)
+            else:
+                span = setter.measure(line)
+                if span > w:
+                    report.skipped.append(
+                        (f"newspaper:{key}", f"{line!r} is {span}px, the caption is {w}px"))
+                    continue
+                _draw8(setter, canvas, x, y + index * (font_mod.GLYPH_HEIGHT + 1),
+                       line, ink)
+        report.drawn += 1
+    packed = compress(bytes(page))
+    if len(packed) <= comp_len:
+        rom.write(NEWSPAPER_BLOCK, packed)
+        report.in_place += 1
+        return
+    sites = pointer_sites.get(NEWSPAPER_BLOCK, [])
+    if not sites:
+        report.skipped.append(("newspaper", "grew, and nothing points at it"))
+        return
+    destination = allocator.take(len(packed))
+    rom.write(destination, packed)
+    for site in sites:
+        rom.write_ptr(site, destination)
+    report.relocated += 1
+
+
+# -- the save panel's counters (labels drawn from a flat ROM tile list) ---
+#
+# The Medawatch save panel names its counters with 8x16 kanji cells whose
+# TILEMAP is a flat list of 16-bit tile indices in ROM at 0x7F34B0: sixteen
+# top-row cells followed by sixteen bottom-row cells, feeding four labels
+# (medals / parts / allies / wins-over-battles).  The renderer copies from
+# that list into an IWRAM map buffer, so nothing here is reachable by the
+# ordinary "sheets" machinery — found with a write watchpoint on the buffer
+# (pc 0x0807CCF2 carries the list pointer in r2).
+#
+# Two cells share a tile in the original (the third of "medals" is also the
+# seventh of "wins"), which is why an earlier attempt at repainting turned
+# the panel into black boxes.  The list is ours to rewrite, so the fix is to
+# hand every cell its OWN tile first and then paint: the sheet's 29 label
+# tiles are used by nothing else in the ROM.
+SAVE_PANEL_SHEET = 0x7F2190
+SAVE_PANEL_MAP = 0x7F34B0
+SAVE_PANEL_BLANK = 0x62
+
+#: (label, top tiles, bottom tiles, line 1, line 2) — the tile numbers are
+#: the sheet indices this build assigns to each cell, replacing the original
+#: sharing.  Each line is drawn across its row of 8px cells.
+SAVE_PANEL_LABELS = (
+    # Each cell keeps the tile it already owned on screen — reordering them
+    # made letters surface in other rows. The wins label's third cell is
+    # drawn twice by the game (the counter row reuses that map entry), so it
+    # stays blank and the word sits in the cells after it. Bottom halves are
+    # blanked: the Spanish is one 8px line, not a 16px kanji.
+    ("medals", (0xC3, 0xC4, 0xC5), (0xD1, 0xD2, 0xD3), "Med.", ""),
+    ("parts",  (0xC6, 0xC7, 0xC8), (0xD4, 0xD5, 0xD6), "Par.", ""),
+    ("allies", (0xC9, 0xD7),       (0xD8, 0xDA),       "Am.", ""),
+    ("wins.gap", (0xCA, 0xCB, 0xCC), (0xDD, 0xDE, 0xDF), "", ""),
+    ("wins",   (0xCE, 0xCF, 0xD0, 0xDB, 0xDC), (None,), "Victor.", ""),
+    # 時間 over the clock: two exclusive cells, so the word stacks in the
+    # 16px height the kanji used.
+    # 時間 here is PLAY TIME, not the clock: the counter advanced a minute
+    # after 90 seconds of emulated play, and it reads 01:11 rather than the
+    # wall clock. Two cells fit two characters a line, so it stacks as an
+    # abbreviation, uppercase like the part-type plates.
+    ("time",   (0xE0, 0xE1), (0xEF, 0xF0), "TI", "EM"),
+)
+
+
+#: The panel's plate colour is index 4 (its blank tile is solid 4) and the
+#: kanji ink is 1, with 3 as their shadow.
+SAVE_PANEL_PAPER = 4
+
+
+def patch_save_panel(rom: Rom, setter: "Typesetter", allocator,
+                     pointer_sites: dict, report: "GfxReport",
+                     fill: int = 1, outline: int = 1) -> None:
+    """Redraw the save panel's four counter labels, map and all."""
+    original = bytes(rom.data)
+    try:
+        raw, comp_len = decompress(original, SAVE_PANEL_SHEET)
+    except GfxError as exc:
+        report.skipped.append(("save-panel", str(exc)))
+        return
+    tiles = bytearray(raw)
+    cells: list[int] = []
+    for name, top, bottom, line1, line2 in SAVE_PANEL_LABELS:
+        for row, line in ((top, line1), (bottom, line2)):
+            used = [t for t in row if t is not None]
+            if not used:
+                continue
+            if not line:
+                for tile in used:
+                    blank = bytearray(TILE_BYTES)
+                    canvas = Canvas(blank, 1, 1)
+                    canvas.clear(SAVE_PANEL_PAPER)
+                    tiles[tile * TILE_BYTES:(tile + 1) * TILE_BYTES] = blank
+                continue
+            width = len(used) * TILE_SIDE
+            span = setter.measure(line)
+            if span > width:
+                report.skipped.append(
+                    (f"save-panel:{name}",
+                     f"{line!r} is {span}px, the row is {width}px"))
+                return
+            # One canvas per row: the cells are consecutive in the map, so
+            # lay the tiles out side by side in a scratch strip and copy back.
+            strip = bytearray(len(used) * TILE_BYTES)
+            canvas = Canvas(strip, len(used), 1)
+            canvas.clear(SAVE_PANEL_PAPER)
+            setter.draw(canvas, (width - span) // 2, 0, line, fill, outline)
+            for index, tile in enumerate(used):
+                tiles[tile * TILE_BYTES:(tile + 1) * TILE_BYTES] = \
+                    strip[index * TILE_BYTES:(index + 1) * TILE_BYTES]
+    # Rewrite the map so every cell owns its tile (no sharing left).
+    order: list[int] = []
+    for name, top, _, _, _ in SAVE_PANEL_LABELS:
+        if name == "time":
+            continue
+        order += [t if t is not None else SAVE_PANEL_BLANK for t in top]
+    order = (order + [SAVE_PANEL_BLANK] * 16)[:16]  # la fila del reloj vive
+    # más allá de la entrada 32 y conserva su asignación original
+    bottoms: list[int] = []
+    for name, _, bottom, _, _ in SAVE_PANEL_LABELS:
+        if name == "time":
+            continue
+        bottoms += [t if t is not None else SAVE_PANEL_BLANK for t in bottom]
+    bottoms = (bottoms + [SAVE_PANEL_BLANK] * 16)[:16]
+    for index, tile in enumerate(order + bottoms):
+        rom.write(SAVE_PANEL_MAP + 2 * index, bytes([tile & 0xFF, tile >> 8]))
+    packed = compress(bytes(tiles))
+    if len(packed) <= comp_len:
+        rom.write(SAVE_PANEL_SHEET, packed)
+        report.in_place += 1
+    else:
+        sites = pointer_sites.get(SAVE_PANEL_SHEET, [])
+        if not sites:
+            report.skipped.append(("save-panel", "grew, and nothing points at it"))
+            return
+        destination = allocator.take(len(packed))
+        rom.write(destination, packed)
+        for site in sites:
+            rom.write_ptr(site, destination)
+        report.relocated += 1
+    report.drawn += len(SAVE_PANEL_LABELS)

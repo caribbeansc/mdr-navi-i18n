@@ -121,6 +121,25 @@ def cmd_build(args, config: Config) -> int:
         patch_path = DIST_DIR / f"medarot-navi-{rom.release.name.lower()}-{pack.code}.{kind}"
         patch_path.write_bytes(blob)
         print(f"Patch: {patch_path.relative_to(ROOT)} ({len(blob) // 1024} KB)")
+
+    # A player's save stores the ABSOLUTE address of the scene's script, and
+    # this build just moved the scripts, so a save made with the previous one
+    # is now pointing at the wrong bytes: the game opens a corrupted name
+    # entry when you walk, or every NPC goes mute. Say so loudly here rather
+    # than let someone lose an afternoon of play (it happened once).
+    save = out.with_suffix(".sav")
+    if save.is_file():
+        import struct
+
+        stored = struct.unpack_from("<I", save.read_bytes(), 0x3220)[0]
+        data = bytes(rom.data)
+        table = {struct.unpack_from("<I", data, 0x6299A0 + 4 * i)[0]
+                 for i in range(370)}
+        if stored not in table:
+            print(f"\nWARNING: {save.name} was made with another build "
+                  f"({stored:#010x} is not a script here).")
+            print("         Regenerate it before handing this ROM to a player "
+                  "— see tools/savecheck.py.")
     return 0
 
 

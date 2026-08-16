@@ -97,7 +97,11 @@ def build(rom: Rom, charset: Charset | None = None, loose: bool = True) -> Catal
             )
 
     if loose:
-        for found in scan(rom, charset, exclude=script_area(rom)):
+        from .strings import supplement
+
+        found_all = scan(rom, charset, exclude=script_area(rom))
+        found_all += supplement(rom, charset)
+        for found in found_all:
             key = loose_key(found.offset)
             if key in catalog.lines:
                 continue

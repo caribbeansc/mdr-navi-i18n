@@ -29,7 +29,7 @@
   {
    "key": "script:0153:028F",
    "src": "5da3c92a6f3a",
-   "t": "<FACE:96>¿Eh? Nunca lo hemos<NL>oído, jefa"
+   "t": "<FACE:96>¿Eh? Nunca oímos ese<NL>nombre, jefa"
   },
   {
    "key": "script:0153:02A2",
@@ -59,7 +59,7 @@
   {
    "key": "script:0153:039F",
    "src": "6bfd18982a20",
-   "t": "<FACE:00>Eh… ¿cómo?<NL>¿Los Screws…?<WAIT><FACE:04>Nunca los había oído…"
+   "t": "<FACE:00>Eh… ¿cómo?<NL>¿Los Screws…?<WAIT><FACE:04>Nunca oí hablar de<NL>ellos…"
   },
   {
    "key": "script:0153:03C2",
@@ -74,7 +74,7 @@
   {
    "key": "script:0153:0405",
    "src": "1dc35f120148",
-   "t": "<FACE:95>¡Cááállateee!<NL><WAIT>¡Te haré ver que Ikki<NL>es nuestro subalterno<WAIT>y que las fuertes<NL>somos nosotras!<NL>"
+   "t": "<FACE:95>¡Cááállateee!<NL><WAIT>¡Te haré ver que Ikki<NL>es nuestro subalterno<WAIT>y que los fuertes<NL>somos nosotros!<NL>"
   },
   {
    "key": "script:0153:044F",

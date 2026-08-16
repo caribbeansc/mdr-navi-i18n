@@ -9,7 +9,7 @@
   {
    "key": "script:0038:04E8",
    "src": "f29438ec8852",
-   "t": "<FACE:08>¡Puaj! ¿¡Qué es…<NL>este olor?!"
+   "t": "<FACE:08>¡Puaj! ¿¡Qué es…<NL>este olor!?"
   },
   {
    "key": "script:0038:04FB",
@@ -84,7 +84,7 @@
   {
    "key": "script:0038:06E7",
    "src": "02b55e0e2658",
-   "t": "<FACE:06>¡Justo lo que quería!<NL><WAIT>¡Vamos, adelante!<NL><PLAYER>!!"
+   "t": "<FACE:06>¡Justo lo que quería!<NL><WAIT>¡Vamos, adelante!<NL>¡<PLAYER>!!"
   },
   {
    "key": "script:0038:0708",

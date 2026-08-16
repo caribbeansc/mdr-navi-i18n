@@ -104,7 +104,7 @@
   {
    "key": "script:0068:0C05",
    "src": "b918d75beed4",
-   "t": "<FACE:6C>¡Yo soy oficial de la<NL>Banda Space Robo Robo,<WAIT>el Nyuudou del monte!<WAIT><FACE:04>¿¡Banda Space Robo<NL>Robo!?<WAIT><FACE:6C>Para abreviar, la<NL>Banda Sperobo<WAIT>¡El grupo malvado que<NL>domina el universo!"
+   "t": "<FACE:6C>¡Yo soy Nyuudou, Jefe<NL>de Montaña de la<WAIT>Banda Space Robo Robo!<WAIT><FACE:04>¿¡Banda Space Robo<NL>Robo!?<WAIT><FACE:6C>Para abreviar, la<NL>Banda Sperobo<WAIT>¡El grupo malvado que<NL>domina el universo!"
   },
   {
    "key": "script:0068:0C68",
@@ -314,7 +314,7 @@
   {
    "key": "script:0068:11C2",
    "src": "fdeecc5ebbdb",
-   "t": "<FACE:06>¡Me adelanto!!"
+   "t": "<FACE:06>¡¡Me adelanto!!"
   },
   {
    "key": "script:0068:11D0",
@@ -369,7 +369,7 @@
   {
    "key": "script:0068:1386",
    "src": "bad655f1ef3d",
-   "t": "<FACE:05>¡Pff!<WAIT><FACE:07>¿Por qué se apura<NL>tanto Fubuki?<NL><WAIT>¿Será por <PLAYER>…?"
+   "t": "<FACE:05>¡Pff!<WAIT><FACE:07>¿Por qué se apura<NL>tanto Fubuki?<WAIT>¿Será por <PLAYER>…?"
   },
   {
    "key": "script:0068:13B2",

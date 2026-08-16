@@ -14,12 +14,12 @@
   {
    "key": "script:0048:04BF",
    "src": "d4541575338b",
-   "t": "<FACE:0F>Voy a echar un vistazo<NL>a este instituto<WAIT>Quiero ver cómo es el<NL>día a día de los<WAIT>medaguerreros de<NL>mi edad<WAIT><FACE:1E>Permítame acompañarlo<WAIT><FACE:0F>¡No! Será un momento<NL>Espera aquí, Rainy<WAIT><FACE:21>Pero…"
+   "t": "<FACE:0F>Voy a echar un vistazo<NL>a esta secundaria<WAIT>Quiero ver cómo es el<NL>día a día de los<WAIT>medaguerreros de<NL>mi edad<WAIT><FACE:1E>Permítame acompañarlo<WAIT><FACE:0F>¡No! Será un momento<NL>Espera aquí, Rainy<WAIT><FACE:21>Pero…"
   },
   {
    "key": "script:0048:0538",
    "src": "ac42af4f83bb",
-   "t": "<FACE:0F>Es un instituto normal<NL>y no parece muy bien<WAIT>cuidado… Es peligroso<NL>para ti, Rainy"
+   "t": "<FACE:0F>Es una secundaria<NL>normal, y no muy bien<WAIT>cuidada… Es peligroso<NL>para ti, Rainy"
   },
   {
    "key": "script:0048:056D",
@@ -39,7 +39,7 @@
   {
    "key": "script:0048:0592",
    "src": "7a410371d38a",
-   "t": "<FACE:00>¿Y eso qué es?<WAIT><FACE:05>¡Los prismáticos<NL>electrónicos<WAIT>superpotentes<NL>«MiraMira»!<WAIT>¡Cambiando el modo de<NL>visión, hasta en la<WAIT>oscuridad ves ropa<NL>tendida a 300 metros!"
+   "t": "<FACE:00>¿Y eso qué es?<WAIT><FACE:05>¡Los binoculares<NL>electrónicos<WAIT>superpotentes<NL>«MiraMira»!<WAIT>¡Cambiando el modo de<NL>visión, hasta en la<WAIT>oscuridad ves ropa<NL>tendida a 300 metros!"
   },
   {
    "key": "script:0048:05F0",

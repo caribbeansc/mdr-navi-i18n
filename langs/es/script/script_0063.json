@@ -9,7 +9,7 @@
   {
    "key": "script:0063:0513",
    "src": "e8922a609053",
-   "t": "<FACE:05><PLAYER>!<NL><WAIT>Aquí no va a haber<NL>nadie<WAIT>¡Revisemos rápido y<NL>sigamos adelante!"
+   "t": "<FACE:05>¡<PLAYER>!<NL><WAIT>Aquí no va a haber<NL>nadie<WAIT>¡Revisemos rápido y<NL>sigamos adelante!"
   },
   {
    "key": "script:0063:0544",
@@ -174,7 +174,7 @@
   {
    "key": "script:0063:0AB5",
    "src": "d7d7bbbb8888",
-   "t": "<FACE:19>¡Mizore se unió al<NL>grupo!<WAIT><FACE:14>¡Gousetsu se unió al<NL>grupo!"
+   "t": "<FACE:19>¡Mizore se unió al<NL>equipo!<WAIT><FACE:14>¡Gousetsu se unió al<NL>equipo!"
   }
  ]
 }

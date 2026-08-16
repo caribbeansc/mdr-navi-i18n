@@ -9,12 +9,12 @@
   {
    "key": "script:0009:028D",
    "src": "337cdc2ff2e1",
-   "t": "<FACE:7D>¿Qué pasa-robo?<NL><WAIT>¡Una carta del Jefe de<NL>Mar, Sekiran-robo!"
+   "t": "<FACE:7D>¿Qué pasa-robo?<NL><WAIT>¡Una carta de Sekiran,<NL>la Jefa de Mar-robo!"
   },
   {
    "key": "script:0009:02AE",
    "src": "97db473a9d2e",
-   "t": "<FACE:80>¡Sekiran manda en el<NL>bloque vecino-robo!<WAIT>¡Hasta a unos inútiles<NL>como nosotros-robo…<WAIT>¡Nos van a ascender a<NL>jefes por fin-robo!"
+   "t": "<FACE:80>¡Sekiran manda en el<NL>bloque vecino-robo!<WAIT>Hasta a unos inútiles<NL>como nosotros-robo…<WAIT>¡Nos van a ascender a<NL>jefes por fin-robo!"
   },
   {
    "key": "script:0009:02FC",

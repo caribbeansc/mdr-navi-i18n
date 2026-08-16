@@ -214,7 +214,9 @@ def visible_length(text: str) -> int:
 
 
 #: Tags that end the row being drawn.
-ROW_BREAKS = {"NL", "WAIT", "CLEAR", "END"}
+#: <B:00> is a raw string terminator: fused fixed-table records spell several
+#: strings in one entry, separated by it, and the game draws each separately.
+ROW_BREAKS = {"NL", "WAIT", "CLEAR", "END", "B:00"}
 
 
 def lines_of(text: str) -> list[str]:
@@ -224,5 +226,8 @@ def lines_of(text: str) -> list[str]:
     player and then start the box again, so what follows is a fresh row rather
     than more of the same one.
     """
-    broken = TAG_RE.sub(lambda m: "\n" if m.group(1) in ROW_BREAKS else "", _collapse(text))
+    def _name(m: "re.Match[str]") -> str:
+        return f"{m.group(1)}:{m.group(2)}" if m.group(2) else m.group(1)
+
+    broken = TAG_RE.sub(lambda m: "\n" if _name(m) in ROW_BREAKS else "", _collapse(text))
     return [row for row in broken.split("\n")]

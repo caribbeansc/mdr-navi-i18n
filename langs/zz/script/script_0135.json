@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0135",
+ "entries": [
+  {
+   "key": "script:0135:00EA",
+   "src": "998ca873dc27",
+   "t": ""
+  },
+  {
+   "key": "script:0135:0106",
+   "src": "a2b824b324fe",
+   "t": ""
+  },
+  {
+   "key": "script:0135:0120",
+   "src": "0d20a6299769",
+   "t": ""
+  },
+  {
+   "key": "script:0135:017E",
+   "src": "b3b51f8d29ad",
+   "t": ""
+  },
+  {
+   "key": "script:0135:018D",
+   "src": "b8a96b75fef7",
+   "t": ""
+  }
+ ]
+}

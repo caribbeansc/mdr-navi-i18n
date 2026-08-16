@@ -4,7 +4,7 @@
   {
    "key": "script:0006:0286",
    "src": "34e81627b3ee",
-   "t": "<FACE:7D>¿Por qué nos llaman<NL>a nosotros-robo?<WAIT>Ni modo-robo Todos<NL>andan ocupados-robo"
+   "t": "<FACE:7D>¿Por qué nos llaman<NL>a nosotros-robo?<WAIT>Ni modo-robo. Todos<NL>andan ocupados-robo"
   },
   {
    "key": "script:0006:02B6",
@@ -14,7 +14,7 @@
   {
    "key": "script:0006:02CE",
    "src": "674a931847ba",
-   "t": "<FACE:7E>No-robo Estamos aquí<NL>para que los demás<WAIT>puedan hacer su<NL>trabajo-robo"
+   "t": "<FACE:7E>No-robo. Estamos aquí<NL>para que los demás<WAIT>puedan hacer su<NL>trabajo-robo"
   },
   {
    "key": "script:0006:02F7",

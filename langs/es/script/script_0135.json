@@ -14,7 +14,7 @@
   {
    "key": "script:0135:0120",
    "src": "0d20a6299769",
-   "t": "<FACE:04>¿Eh? ¿Qué les pasa?<NL>Los veo desanimados…<WAIT><FACE:49>Uf… Pensamos que no<NL>basta con cuidar solo<WAIT>la apariencia…<WAIT>Danos una robobatalla,<NL>¿sí?"
+   "t": "<FACE:04>¿Eh? ¿Qué les pasa?<NL>Los veo desanimados…<WAIT><FACE:49>Uf… La apariencia no<NL>lo es todo, pensamos…<WAIT>Danos una robobatalla,<NL>¿sí?"
   },
   {
    "key": "script:0135:017E",

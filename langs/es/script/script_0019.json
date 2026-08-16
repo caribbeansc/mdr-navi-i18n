@@ -19,7 +19,7 @@
   {
    "key": "script:0019:02F4",
    "src": "e2a6aa88988f",
-   "t": "<FACE:81>(¿Q-qué hago-robo…)<NL><WAIT>(Solo no puedo cuidar<NL>este bloque-robo)<WAIT>(¡¿Por qué se fueron a<NL>lavar la ropa-robo?!)"
+   "t": "<FACE:81>(¿Q-qué hago-robo…?)<NL><WAIT>(Solo no puedo cuidar<NL>este bloque-robo)<WAIT>(¡¿Por qué se fueron a<NL>lavar la ropa-robo?!)"
   },
   {
    "key": "script:0019:033D",
@@ -34,7 +34,7 @@
   {
    "key": "script:0019:0376",
    "src": "c31161439126",
-   "t": "<FACE:81>(¿Qué hago-robo…<NL>Hay que pensar-robo)"
+   "t": "<FACE:81>(¿Qué hago-robo…?<NL>Hay que pensar-robo)"
   },
   {
    "key": "script:0019:038B",

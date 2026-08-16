@@ -4,11 +4,11 @@
     "title.new_game": "Empezar",
     "title.continue": "Continuar",
     "title.settings": "Opciones",
-    "option.long": "Larga",
-    "option.normal": "Media",
-    "option.short": "Corta",
+    "option.long": "Largo",
+    "option.normal": "Medio",
+    "option.short": "Corto",
     "option.time": "Tiempo",
-    "option.bgm": "Música"
+    "option.bgm": "BGM"
   },
   "names": {
     "comment": "Default names, written at fixed sites, encoded with the live charset and padded. pad=0xDB is the space the name UI uses; pad=0 is a plain terminator field.",
@@ -1590,7 +1590,7 @@
             3,
             2
           ],
-          "text": "Tipo",
+          "text": "Tip.",
           "fill": 15,
           "outline": 5,
           "top": 3
@@ -1603,7 +1603,7 @@
             3,
             2
           ],
-          "text": "Alma",
+          "text": "Alm.",
           "fill": 15,
           "outline": 5,
           "top": 3
@@ -3817,108 +3817,330 @@
         }
       ],
       "notes": "The Medawatch bar, re-cut. One entry per unlocked function, each drawn twice (small side plate, wide selected field) out of rectangles of the sheet's own tilemap at 0x7F32D0; navi/gfx.py documents the blitter (0x0807CC9C, taking cell, width and height), the composer (0x0807CD18), the entry list built at 0x0808009C and the two layout tables. 仲間配置 (Grupo) and ステータス (Ficha) keep their own cells and live in menu-status-labels. THE SHEET CANNOT GAIN A SINGLE TILE. It is decompressed straight into VRAM at 0x06004000 (0x0807CC42), so its 12160 bytes ARE the video memory and anything past them lands on the next graphic - a build that grew it to 421 tiles shipped once and turned the intro's station street into noise. So this sheet appends nothing: it only re-points cells (map_points) at tiles the sheet already has, and the tiles it frees pay for the ones it needs. THE CHROME IS THE GAME'S OWN, NOT A COPY. Every chrome row here is pointed at 0x5F (side plate) or 0x60 (wide field), the pure-chrome tiles the game already uses to pad the selected entry: rows 1,7,8,1,2 and 1,7,8,1,3 over the plate face, untouched. Painting a chrome tile instead was the first attempt and it shifted the frame's colours - the four-pass recipe can only reach 1,8,8,2,2, and in the bar's palette index 7 is RED and 8 is PINK, 1 near-black and 2 dark green, so the red hairline came out pink and the black line green. Nothing is drawn on 0x5F or 0x60; they are only aimed at - and 仲間配置 and ステータス, whose words belong to menu-status-labels, get their chrome rows aimed there too, so the whole bar's frame is the cartridge's own pixels. WHERE THE ROOM COMES FROM: a plate's chrome row is the same eight pixels in every column, so ONE chrome tile per state (0x5F dimmed, 0x60 lit) is pointed at by every chrome row here - メダロッチ's sixteen, メダロット生産's six and セーブ's six. That frees the sixteen tiles メダロッチ used to spend on chrome and text, which become its two eight-tile words, and it frees 0x03/0x07, the cells セーブ shared with メダロッチ (the two-pixel nick the old spec left in メダロッチ's ッ is gone with them). Nothing is drawn on a tile another screen can reach: every tile repainted here is named only by carousel cells. THE OTHER BUDGET is the bar itself: five entries at most, one separator cell each, 27 cells of bar after the navi badge, so the widths sum to 22. medawatch_layout 'es' spends them 8/4/3/4/3 - メダロッチ takes eight, on map rows 40-41 because the icon blits own columns 10-15 of its old row, and メダロット生産 drops to three to pay for it. Hence 'Medarreloj' (58px of 64) and 'Crea' (24px of 24; 'Crear' is 30px and there is no spare cell to buy it a fourth). 'Save' keeps セーブ at three cells - 'Salva' is 28px, and a fourth cell there would cost メダロッチ one of its eight."
+    },
+    {
+      "name": "medal-status-tileset",
+      "comment": "Pestaña MEDAL del estado: gemela de parts-status con 18 tiles extra al frente. El mapa BG1 se construye por código; tiles = índice de hoja (DMA 1:1). 性 (tiles 49/51) es COMPARTIDA entre 属性 y 相性 — esas dos etiquetas esperan el des-compartido (ver gbawatch 0x06008B58).",
+      "block": "0x6471E0",
+      "codec": "lz77",
+      "tiles_wide": 8,
+      "labels": [
+        {
+          "key": "med.rest.top",
+          "tile_rect": [
+            4,
+            4,
+            2,
+            1
+          ],
+          "text": " ",
+          "fill": 6,
+          "outline": 5
+        },
+        {
+          "key": "med.rest.bot",
+          "tile_rect": [
+            3,
+            5,
+            2,
+            1
+          ],
+          "text": " ",
+          "fill": 6,
+          "outline": 5
+        },
+        {
+          "key": "med.pers.top",
+          "tile_rect": [
+            4,
+            6,
+            2,
+            1
+          ],
+          "text": "AL",
+          "fill": 6,
+          "outline": 5,
+          "top": 0
+        },
+        {
+          "key": "med.pers.bot",
+          "tile_rect": [
+            6,
+            6,
+            2,
+            1
+          ],
+          "text": "MA",
+          "fill": 6,
+          "outline": 5,
+          "top": 0
+        },
+        {
+          "key": "medal.attr.top",
+          "tile_rect": [
+            0,
+            6,
+            1,
+            1
+          ],
+          "text": "T",
+          "fill": 6,
+          "outline": 5,
+          "top": 0
+        },
+        {
+          "key": "medal.attr.bot",
+          "tile_rect": [
+            2,
+            6,
+            1,
+            1
+          ],
+          "text": "P",
+          "fill": 6,
+          "outline": 5,
+          "top": 0
+        },
+        {
+          "key": "medal.attr.share.top",
+          "tile_rect": [
+            1,
+            6,
+            1,
+            1
+          ],
+          "text": " ",
+          "fill": 6,
+          "outline": 5,
+          "top": 0
+        },
+        {
+          "key": "medal.attr.share.bot",
+          "tile_rect": [
+            3,
+            6,
+            1,
+            1
+          ],
+          "text": " ",
+          "fill": 6,
+          "outline": 5,
+          "top": 0
+        },
+        {
+          "key": "medal.affin.top",
+          "tile_rect": [
+            0,
+            7,
+            1,
+            1
+          ],
+          "text": "A",
+          "fill": 6,
+          "outline": 5,
+          "top": 0
+        },
+        {
+          "key": "medal.affin.bot",
+          "tile_rect": [
+            1,
+            7,
+            1,
+            1
+          ],
+          "text": "F",
+          "fill": 6,
+          "outline": 5,
+          "top": 0
+        }
+      ],
+      "notes": "Gemela de parts-status con 18 tiles extra. 属性 y 相性 COMPARTEN los tiles 49 y 51 (la mitad derecha, el 性), así que esos van en blanco y cada palabra usa su columna privada: TP en 48/50 y AF en 56/57. El build reubica el bloque (0x6471E0 -> zona alta) y es esa copia la que alimenta la pantalla del Medarreloj."
+    },
+    {
+      "name": "target-stamps",
+      "comment": "Sellos hanko de alcance del panel de batalla (reporte del usuario): 単=blanco único → '1', 全=todos → 'T', 常=siempre → 'S'. Atlas 0x662BF0, cuartetos 2x2; los de base impar se expresan con rects col=1 (el _RectCanvas no acota columnas). background=8 conserva el rojo del globo. Tiles 5-8 (segundo sello cuadrado) quedan en japonés hasta identificar el kanji con un frame real.",
+      "block": "0x662BF0",
+      "codec": "lz77",
+      "tiles_wide": 2,
+      "labels": [
+        {
+          "key": "stamp.tsune.sq",
+          "tile_rect": [
+            1,
+            0,
+            2,
+            2
+          ],
+          "text": "S",
+          "fill": 1,
+          "outline": 7,
+          "erase_ink": 1,
+          "erase_to": 8,
+          "top": 4
+        },
+        {
+          "key": "stamp.single.L",
+          "tile_rect": [
+            0,
+            5,
+            2,
+            2
+          ],
+          "text": "1",
+          "fill": 1,
+          "outline": 7,
+          "erase_ink": 1,
+          "erase_to": 8,
+          "top": 4
+        },
+        {
+          "key": "stamp.all.L",
+          "tile_rect": [
+            0,
+            7,
+            2,
+            2
+          ],
+          "text": "T",
+          "fill": 1,
+          "outline": 7,
+          "erase_ink": 1,
+          "erase_to": 8,
+          "top": 4
+        },
+        {
+          "key": "stamp.single.R",
+          "tile_rect": [
+            0,
+            9,
+            2,
+            2
+          ],
+          "text": "1",
+          "fill": 1,
+          "outline": 7,
+          "erase_ink": 1,
+          "erase_to": 8,
+          "top": 4
+        },
+        {
+          "key": "stamp.all.R",
+          "tile_rect": [
+            0,
+            11,
+            2,
+            2
+          ],
+          "text": "T",
+          "fill": 1,
+          "outline": 7,
+          "erase_ink": 1,
+          "erase_to": 8,
+          "top": 4
+        }
+      ]
     }
   ],
   "battle_messages": {
-    "e453390e8a3d": "<NL>シ: 'Láser' y 'Rayo'<X:F0>",
-    "4e782384f745": "<NL>シ: 'Misil' y 'Napalm'<X:F0>",
-    "d19822aa3cb8": "<NL>シ: 'Golpe' y 'Prensa'<X:F0>",
-    "5bf365bfbff4": "¡<NL>ケ de daño a <NL>コ!<X:F0>",
-    "37f8bd2e196c": "¡La parte <NL>コ se rompió!<X:F0>",
-    "12d110fb10dc": "¡Perforó otra parte!<X:F0>",
-    "421ce1b09ad3": "¡<NL>ケ de daño a <NL>シ!<X:F0>",
-    "4b122544ed3c": "¡La cabeza se rompió!<X:F0>",
-    "0b1b635b6f66": "¡Efecto Destroy en <NL>コ!<X:F0>",
-    "dca0385acae3": "¡El cuerpo dejó de funcionar!<X:F0>",
-    "7b0c94512f5a": "¡El líder rival cesó!<X:F0>",
-    "b321012bd77f": "¡Tu líder cesó funciones!<X:F0>",
-    "b75dfc2b7fe0": "¡Se acabó! Gana <NL>カ<X:F0>",
-    "e854f963d7f8": "¡Varia! Fallarás más seguido<X:F0>",
+    "e453390e8a3d": "<NL>シ: Láser,Rayo<X:F0>",
+    "4e782384f745": "<NL>シ: Misil,Napalm<X:F0>",
+    "d19822aa3cb8": "<NL>シ: Golpe,Prensa<X:F0>",
+    "5bf365bfbff4": "¡<NL>コ: -<NL>ケ!<X:F0>",
+    "37f8bd2e196c": "¡<NL>コ rota!<X:F0>",
+    "12d110fb10dc": "¡Perfora otra!<X:F0>",
+    "421ce1b09ad3": "¡<NL>シ: -<NL>ケ!<X:F0>",
+    "4b122544ed3c": "¡Cabeza KO!<X:F0>",
+    "0b1b635b6f66": "¡Destroy a <NL>コ!<X:F0>",
+    "dca0385acae3": "¡Cuerpo K.O.!<X:F0>",
+    "7b0c94512f5a": "¡El líder rival cayó!<X:F0>",
+    "b321012bd77f": "¡Tu líder cayó!<X:F0>",
+    "b75dfc2b7fe0": "Fin: ¡gana <NL>カ!<X:F0>",
+    "e854f963d7f8": "¡Varia! Fallarás más<X:F0>",
     "e1aeb6469d48": "¡Atado! Moverse cuesta más<X:F0>",
     "35b3490706bf": "¡Sigue! Daño cada turno<X:F0>",
     "169dae2c88ef": "¡Alto! Sin AP no hay acción<X:F0>",
-    "44a9259b25a0": "¡Falló el empujón al rival!<X:F0>",
-    "fc8b301e528f": "¡Empujó al rival lejos!<X:F0>",
-    "e283122208b3": "¡Falló la atracción!<X:F0>",
-    "95c07aacaab9": "¡Atrajo al rival hacia sí!<X:F0>",
-    "780d5c353fed": "¡La parte usada se rompió!<X:F0>",
+    "44a9259b25a0": "¡Falló el empujón!<X:F0>",
+    "fc8b301e528f": "¡Empujó al rival!<X:F0>",
+    "e283122208b3": "¡Falló atracción!<X:F0>",
+    "95c07aacaab9": "¡Atrajo al rival!<X:F0>",
+    "780d5c353fed": "¡Parte rota!<X:F0>",
     "2df2aca3fe51": "¡Hace efecto por equiparla!<X:F0>",
-    "a6e1b7cd72a8": "¡<NL>オ falló su acción!<X:F0>",
-    "6da6af122b30": "¡Sin defensa no hay cober.!<X:F0>",
-    "0dcbd4d218ce": "¡Cubre a aliados del ataque!<X:F0>",
+    "a6e1b7cd72a8": "¡<NL>オ falló!<X:F0>",
+    "6da6af122b30": "¡Sin defensa no cubre!<X:F0>",
+    "0dcbd4d218ce": "¡Cubrirá a aliados!<X:F0>",
     "d7e78c787d95": "¡Radar+! Acertarás más<X:F0>",
     "b5fe4107d7fc": "¡Sigilo+! Esquivas mejor<X:F0>",
     "8ca99c31b2a9": "¡ZOC+! El rival no se acerca<X:F0>",
-    "eee0d9c7158e": "¡No había nadie más!<X:F0>",
-    "02d55ac87978": "¡Atrae a todo tu equipo!<X:F0>",
+    "eee0d9c7158e": "¡No había nadie!<X:F0>",
+    "02d55ac87978": "¡Atrae al equipo!<X:F0>",
     "d823361396ff": "¡Síntoma bloqueado!<X:F0>",
     "3c9fce4e266b": "¡T.combate daña Golpe/Furia!<X:F0>",
     "008bb4a93417": "¡T.de tiro daña Tiro/Mira!<X:F0>",
     "86f0a9984f62": "¡Planta MF: acciones dan MF!<X:F0>",
     "27eaeb448e50": "¡Anula un ataque una vez!<X:F0>",
     "80e9c7cb402b": "¡Auxilio revive 1 parte!<X:F0>",
-    "9374129d4758": "¡Ataque cruzado listo!<X:F0>",
-    "da37d50b313b": "¡No puede ser blanco de nada!<X:F0>",
-    "d36de315db99": "¡Daño al síntoma negativo!<X:F0>",
-    "2410bab8b717": "¡Sin síntomas -! Bloqueados<X:F0>",
-    "5b278209b290": "¡Sin síntomas -! Ya caben<X:F0>",
-    "1b237033e507": "¡No había síntoma - alguno!<X:F0>",
-    "362992559ede": "¡No había trampa que quitar!<X:F0>",
+    "9374129d4758": "¡Cruzado listo!<X:F0>",
+    "da37d50b313b": "¡No puede ser blanco!<X:F0>",
+    "d36de315db99": "¡Daño al mal!<X:F0>",
+    "2410bab8b717": "¡Males bloqueados!<X:F0>",
+    "5b278209b290": "¡Males borrados!<X:F0>",
+    "1b237033e507": "¡No hay males!<X:F0>",
+    "362992559ede": "¡No había trampa!<X:F0>",
     "77289ea126e5": "¡Trampa aliada intocable!<X:F0>",
-    "0bd3cf6fd831": "¡Daño a la trampa!<X:F0>",
-    "037b2f88c54e": "¡Trampa fuera! Ya caben más<X:F0>",
+    "0bd3cf6fd831": "¡Dañó la trampa!<X:F0>",
+    "037b2f88c54e": "¡Trampa fuera! Ya caben<X:F0>",
     "ac974091e03f": "¡Trampa fuera y bloqueadas!<X:F0>",
     "63359a6284be": "¡Campo libre: MF usable!<X:F0>",
-    "a2de65963bd3": "¡Falló el control del campo!<X:F0>",
-    "be769f44cdab": "¡Campo tomado: MF bloqueada!<X:F0>",
-    "7aa091bae9af": "¡Esa parte no está rota!<X:F0>",
-    "73d066ab79af": "¡La parte <NL>コ revivió!<X:F0>",
-    "fa82e7728762": "¡Ese Medabot sigue activo!<X:F0>",
-    "ee93d78ab13c": "¡<NL>シ resucitó!<X:F0>",
-    "1efd59ac7a84": "¡<NL>ク de arreglo a <NL>コ!<X:F0>",
-    "965b849a3b3c": "¡<NL>ク de arreglo a <NL>シ!<X:F0>",
-    "8f7717f33c9b": "¡No hay nivel que robar!<X:F0>",
+    "a2de65963bd3": "¡Falló el control!<X:F0>",
+    "be769f44cdab": "¡Campo tomado: MF fuera!<X:F0>",
+    "7aa091bae9af": "¡No está rota!<X:F0>",
+    "73d066ab79af": "¡<NL>コ revive!<X:F0>",
+    "fa82e7728762": "¡El blanco sigue activo!<X:F0>",
+    "ee93d78ab13c": "<NL>シ revive<X:F0>",
+    "1efd59ac7a84": "¡<NL>コ +<NL>ク!<X:F0>",
+    "965b849a3b3c": "¡<NL>シ +<NL>ク!<X:F0>",
+    "8f7717f33c9b": "¡Sin nivel!<X:F0>",
     "9bc905a82269": "¡Robó nivel! ¡Gener. +<NL>ア!<X:F0>",
-    "ad1e14fd483a": "¡Generadores de todos +<NL>ア!<X:F0>",
+    "ad1e14fd483a": "¡Todo generador +<NL>ア!<X:F0>",
     "c128bdd1b38c": "¡En guardia ante el rival!<X:F0>",
     "318df819db72": "¡Síntoma bloqueado!<X:F0>",
     "77137b87d418": "¡Cura al empezar el turno!<X:F0>",
-    "88d019e4ef4a": "¡Generadores de todos -<NL>ア!<X:F0>",
-    "df5a6d856558": "¡Síntoma AP+! El AP sube<X:F0>",
-    "ca7e912264f8": "¡Medafuerza +<NL>キ puntos!",
-    "4df4124e4a5e": "¡Cedió acciones a <NL>シ!<X:F0>",
-    "b999f9df517c": "¡Daño al síntoma positivo!<X:F0>",
-    "744e69f35af2": "¡Sin síntomas +! Bloqueados<X:F0>",
-    "eef4cd7403d0": "¡Sin síntomas +! Ya caben<X:F0>",
-    "a80729869185": "¡No había síntoma + alguno!<X:F0>",
+    "88d019e4ef4a": "¡Todo generador -<NL>ア!<X:F0>",
+    "df5a6d856558": "¡Síntoma+: sube el AP!",
+    "ca7e912264f8": "¡MF +<NL>キ puntos!",
+    "4df4124e4a5e": "¡Cedió acción a <NL>シ!<X:F0>",
+    "b999f9df517c": "¡Daño al bono!<X:F0>",
+    "744e69f35af2": "¡Bonos bloqueados!<X:F0>",
+    "eef4cd7403d0": "¡Bonos borrados!<X:F0>",
+    "a80729869185": "¡No hay bonos!<X:F0>",
     "91a73c89a5a5": "¡Anula! No usas <NL>コ<X:F0>",
     "d0458e4cca20": "¡Caos! No controlas nada<X:F0>",
-    "401590a0504c": "¡No quedan usos que robar!<X:F0>",
-    "b84c76ddf26c": "¡Robó usos de la cabeza!",
-    "85efcf1dceb8": "¡Anti-esquive! No esquivas<X:F0>",
+    "401590a0504c": "¡No hay usos!<X:F0>",
+    "b84c76ddf26c": "¡Robó usos de cabeza!",
+    "85efcf1dceb8": "¡Mal: sin esquive!",
     "a974e6ed8113": "¡Anti-defensa! No defiendes<X:F0>",
-    "ee8e92df480b": "¡No hay Medafuerza que robar!<X:F0>",
-    "b1a069cf9e55": "¡Absorbió <NL>サ puntos de MF!<X:F0>",
-    "5dd49eb0513e": "¡Máximo a <NL>ソ casillas!<X:F0>",
-    "b1dc438dbae1": "¡No se acerca a <NL>ソ casillas!<X:F0>",
-    "43e7c5846a2c": "¡¡Falló la Medafuerza!!<X:F0>",
-    "65ea5ba8a38a": "¡Medafuerza! ¡<NL>セ!!<X:F0>",
-    "660b2aa87903": "¡<NL>イ de daño a las partes!<X:F0>",
-    "495e1a65c91d": "¡<NL>イ de daño a todos!",
+    "ee8e92df480b": "¡Sin MF a robar!<X:F0>",
+    "b1a069cf9e55": "¡Absorbió <NL>サ pts de MF!<X:F0>",
+    "5dd49eb0513e": "¡Máx. <NL>ソ celdas!<X:F0>",
+    "b1dc438dbae1": "¡No entra a <NL>ソ celdas!<X:F0>",
+    "43e7c5846a2c": "¡¡Falló la MF!!<X:F0>",
+    "65ea5ba8a38a": "¡MF: <NL>セ!!<X:F0>",
+    "660b2aa87903": "¡-<NL>イ a partes!<X:F0>",
+    "495e1a65c91d": "¡-<NL>イ a todos!",
     "5f428cab7619": "¡Tiros combinados: <NL>イ daño!<X:F0>",
     "090d2506ee26": "¡Ataque+! Más daño<X:F0>",
     "78612bf09a5d": "¡Defensa+! Menos daño<X:F0>",
     "aa10ddac6ea7": "¡T.ataque: daña todo golpe!<X:F0>",
     "c96eceb70f9c": "¡Sigue! Daño cada turno<X:F0>",
-    "9331b1b503b3": "¡Absorbe blindaje rival!",
-    "98226522f2ff": "¡No había Medabot objetivo!<X:F0>",
-    "1e737b02e7c4": "¡Gran síntoma - al volador!<X:F0>",
-    "15d4ac160a37": "¡Gran síntoma - al marino!<X:F0>",
+    "9331b1b503b3": "¡Absorbe blindaje!",
+    "98226522f2ff": "¡No había objetivo!<X:F0>",
+    "1e737b02e7c4": "¡Gran mal al volador!<X:F0>",
+    "15d4ac160a37": "¡Gran mal al marino!<X:F0>",
     "6c720c9be68e": "¡Hackeo! Radar y sigilo +<X:F0>",
     "8dc2c228b6f9": "¡Usos de la cabeza +<NL>イ!<X:F0>",
-    "96a660d09a5b": "¡Falló el control del campo!<X:F0>",
-    "20e71b23f50e": "¡Cambió el terreno del campo!<X:F0>",
-    "0cb129e4a004": "¡Fijó el terreno del campo!<X:F0>",
+    "96a660d09a5b": "¡Falló el control!<X:F0>",
+    "20e71b23f50e": "¡Terreno cambiado!<X:F0>",
+    "0cb129e4a004": "¡Terreno fijado!<X:F0>",
     "349bd4656b32": "¡¡Un golpe y todo cesa!!<X:F0>",
     "c3a0ceef5165": "¡Propulsión +<NL>イ!<X:F0>",
     "795e48cf7232": "¡Movilidad +<NL>イ!<X:F0>",
@@ -3929,73 +4151,89 @@
     "4fa4391f883d": "¡Todo daño pasa a 60!<X:F0>",
     "82ed3721c546": "¡Todo daño pasa a 20!<X:F0>",
     "22b51a54422f": "¡Todo daño pasa a 120!<X:F0>",
-    "906e8ef8e980": "¡Juicio retrasado <NL>イ turnos!<X:F0>",
+    "906e8ef8e980": "¡Juicio: +<NL>イ turnos!<X:F0>",
     "62747e6655ad": "¡Caos! No controlas nada<X:F0>",
-    "f0f898b4c9cd": "¡Caos de campo! Sin control<X:F0>",
+    "f0f898b4c9cd": "¡Caos de campo!<X:F0>",
     "26fa9cc66d46": "¡Óptica sube el poder!<X:F0>",
     "6d4e3e3eb14b": "¡Óptica: poder x3!<X:F0>",
     "42489ab41d14": "¡Óptica: poder x4!<X:F0>",
-    "3b020484e04b": "¡Pólvora: pleno y perfora!<X:F0>",
-    "9ad36b206225": "¡Pólvora: pleno y perfora+20!<X:F0>",
-    "0ba647684f28": "¡Pólvora: pleno y perfora+30!<X:F0>",
+    "3b020484e04b": "¡Pólvora: pleno,perfora!<X:F0>",
+    "9ad36b206225": "¡Pólvora: pleno,perfora+20!<X:F0>",
+    "0ba647684f28": "¡Pólvora: pleno,perfora+30!<X:F0>",
     "4d8e8fbb00bf": "¡Gravedad sube el acierto!<X:F0>",
     "357fb50768a2": "¡Gravedad: acierto x3!<X:F0>",
     "a604fd7287fd": "¡Gravedad: acierto x4!<X:F0>",
-    "78dd39ac6fee": "¡Repara 1 parte!<X:F0>",
-    "10f6a782a123": "¡Repara 2 partes!<X:F0>",
-    "52661a4e0e79": "¡Repara 3 partes!<X:F0>",
-    "55313ff906cb": "¡Repara 4 partes!<X:F0>",
-    "c3130eaeae86": "¡Revive 1 parte!<X:F0>",
-    "b8d33b718c98": "¡Revive 2 partes!<X:F0>",
-    "389da20bbfaf": "¡Revive 3 partes!<X:F0>",
-    "5c25d4ecd32b": "¡Daño a Fuerza y ataca!<X:F0>",
-    "09cdeaa89977": "¡MF a 0: se destransformó!<X:F0>",
-    "24030830776f": "¡El síntoma + da otra acción!<X:F0>",
+    "78dd39ac6fee": "¡Repara 1!<X:F0>",
+    "10f6a782a123": "¡Repara 2!<X:F0>",
+    "52661a4e0e79": "¡Repara 3!<X:F0>",
+    "55313ff906cb": "¡Repara 4!<X:F0>",
+    "c3130eaeae86": "¡Revive 1!<X:F0>",
+    "b8d33b718c98": "¡Revive 2!<X:F0>",
+    "389da20bbfaf": "¡Revive 3!<X:F0>",
+    "5c25d4ecd32b": "¡Daño a MF y ataca!<X:F0>",
+    "09cdeaa89977": "¡MF a 0: destransforma!<X:F0>",
+    "24030830776f": "¡Bono: otra acción!<X:F0>",
     "1759be33eed6": "¡Tiempo! ¡Al juicio!<X:F0>",
-    "623e304b57cc": "¡El síntoma de campo terminó!",
-    "9ce13e3aa33e": "¡El síntoma colocado terminó!",
-    "da4b862966c9": "¡El síntoma positivo terminó!",
-    "6f3db62f9e52": "¡El síntoma negativo terminó!",
-    "3dc43b0a6daa": "¡Síntoma + de AP activado!",
-    "345d61bc3a38": "¡Síntoma + de regeneración!",
-    "5a8e234468c5": "¡Síntoma - de daño continuo!",
-    "07b579bdf577": "¡La cabeza cambió a <NL>ス!",
-    "80f9d6fb5586": "¡Brazo der. ahora: <NL>ス!",
-    "8ee5ab98bcdf": "¡Brazo izq. ahora: <NL>ス!",
-    "44921857ab0b": "¡Medafuerza al azar!",
+    "623e304b57cc": "¡Campo despejado!",
+    "9ce13e3aa33e": "¡Colocado fuera!",
+    "da4b862966c9": "¡Fin del bono!",
+    "6f3db62f9e52": "¡Fin del mal!",
+    "3dc43b0a6daa": "¡Bono: AP sube!",
+    "345d61bc3a38": "¡Bono: regenera!",
+    "5a8e234468c5": "¡Mal: daño continuo!",
+    "07b579bdf577": "Cabeza→<NL>ス<X:F0>",
+    "80f9d6fb5586": "Br.D→<NL>ス<X:F0>",
+    "8ee5ab98bcdf": "Br.I→<NL>ス<X:F0>",
+    "44921857ab0b": "¡MF al azar!",
     "38583fa3c900": "¡Auxilio revivió la parte!",
     "28625b0e1a86": "¡<NL>オ está confundido!",
-    "16bfb7f1f1a7": "¡Parte rota: inutilizable!",
-    "146724f9aeae": "¡Sin usos: no se puede usar!",
-    "f2c1e432d83c": "¡Sin AP para esa acción!",
-    "8097003757de": "¡Inutilizada: no se usa!",
+    "16bfb7f1f1a7": "¡Rota: inutilizable!",
+    "146724f9aeae": "¡Sin usos: no usable!",
+    "f2c1e432d83c": "¡Sin AP para eso!",
+    "8097003757de": "¡Parte inutilizada!",
     "46f81cafff78": "¡Campo tomado: sin MF!",
-    "284c8a72354c": "¡No sabe esa Medafuerza!",
+    "284c8a72354c": "¡No sabe esa MF!",
     "a628048094a6": "¡Destroy falla si vigila!",
-    "56bcdcfbec1b": "¡Destroy no daña si cambió!",
+    "56bcdcfbec1b": "¡Destroy falla si cambió!",
     "4959efe31123": "¡Sin ataque cruzado listo!",
     "3cbbc3b8ff29": "¡Sin trampas ante <NL>エ!",
-    "b93c61e70f58": "¡El ataque fue anulado!",
+    "b93c61e70f58": "¡Ataque anulado!",
     "4a4347be4bde": "¡<NL>オ desarmó la trampa!",
-    "090f03e1e17a": "¡<NL>オ cayó en la trampa!",
+    "090f03e1e17a": "¡<NL>オ pisó la trampa!",
     "ef6e4b2f9d3e": "¡<NL>オ perdió su parte!",
     "ce0456965773": "¡<NL>オ desarmó la trampa!",
-    "588b3704091c": "¡<NL>オ cayó en la trampa!",
-    "e07318f2b29a": "¡<NL>シ entró a cubrir!",
-    "a86181651208": "Golpe de <NL>オ: <NL>エ",
+    "588b3704091c": "¡<NL>オ pisó la trampa!",
+    "e07318f2b29a": "¡<NL>シ cubre!",
+    "a86181651208": "Golpe <NL>オ <NL>エ",
     "7dc959d36fa1": "<NL>オ:",
-    "ec2a808d666b": "¡Tiro de <NL>オ: <NL>エ!",
-    "e3ba7fee995f": "Furia de <NL>オ: <NL>エ",
-    "5c6176fa5145": "¡Mira de <NL>オ: <NL>エ!",
-    "6b98c2aa0f1e": "Def. de <NL>オ: <NL>エ",
-    "aeb25f000e96": "Extra de <NL>オ: <NL>エ",
-    "dddb24bbae23": "Apoyo de <NL>オ: <NL>エ",
-    "9f1df7d5c810": "Frena de <NL>オ: <NL>エ",
-    "63582f948fb4": "<NL>シ se cubrió: <NL>コ",
-    "ac89e6d7f79b": "¡Crítico!",
+    "ec2a808d666b": "Tiro <NL>オ <NL>エ",
+    "e3ba7fee995f": "Furia <NL>オ <NL>エ",
+    "5c6176fa5145": "Mira <NL>オ <NL>エ",
+    "6b98c2aa0f1e": "Def. <NL>オ <NL>エ",
+    "aeb25f000e96": "Extra <NL>オ <NL>エ",
+    "dddb24bbae23": "Apoyo <NL>オ <NL>エ",
+    "9f1df7d5c810": "Frena <NL>オ <NL>エ",
+    "63582f948fb4": "<NL>シ usó <NL>コ",
+    "ac89e6d7f79b": "¡Crít.!<X:F0>",
     "fa49b2bf5062": "<NL>シ:",
-    "3f69e0b061fd": "Trampa de <NL>オ: <NL>エ",
-    "82fecbb3193a": "Arregla <NL>オ: <NL>エ"
+    "3f69e0b061fd": "Tram. <NL>オ <NL>エ",
+    "82fecbb3193a": "Arr. <NL>オ <NL>エ",
+    "9e0cbdf08d98": "Golpe:<NL>エ<X:F0>",
+    "b077c0977391": "Tiro:<NL>エ<X:F0>",
+    "0b27c2a3cc53": "Furia:<NL>エ<X:F0>",
+    "a8c2f6bb329e": "Mira:<NL>エ<X:F0>",
+    "cd6d161fcde6": "Def.:<NL>エ<X:F0>",
+    "35fe2a8dfddd": "Tram.:<NL>エ<X:F0>",
+    "b29fba28be61": "Cura:<NL>エ<X:F0>",
+    "2946772543e5": "Extra:<NL>エ<X:F0>",
+    "6bd0e680b43d": "Apoyo:<NL>エ<X:F0>",
+    "4fc13f76cef9": "Frena:<NL>エ<X:F0>",
+    "f79dcbd6abb2": "¡Nada lo detiene!<X:F0>",
+    "ec5bbdcea608": "¡Golpe anulado!<X:F0>",
+    "ae5f24d2fa90": "¡Reflejó el ataque fuerte!<X:F0>",
+    "6be6d69ff46b": "¡Óptica lo ignora!<X:F0>",
+    "a000e059bc04": "¡Pólvora lo ignora!<X:F0>",
+    "83a43862957f": "¡Gravedad lo ignora!<X:F0>"
   },
   "extra_strings": {
     "b8f39c8447a4": {
@@ -4014,7 +4252,7 @@
       "room": 52
     },
     "f936e5e8e0d3": {
-      "t": "Ataca al Medabot<NL>más lejano",
+      "t": "Ataca al más lejano",
       "sites": [
         "0x090834",
         "0x090A38",
@@ -4037,11 +4275,12 @@
       "room": 52
     },
     "deb066ae58e9": {
-      "t": "Ataca al Medabot<NL>más cercano",
+      "t": "Ataca al más cercano",
       "sites": [
         "0x0908E0",
         "0x09098C",
-        "0x090B90"
+        "0x090B90",
+        "0x090788"
       ],
       "room": 52
     },
@@ -4592,14 +4831,15 @@
       "room": 9
     },
     "c9484111ab66": {
-      "t": "SanNinj",
+      "t": "SunNinj",
       "sites": [
         "0x092E10"
       ],
-      "room": 8
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (サンニンジャ)"
     },
     "2fa500a7dd5e": {
-      "t": "Ataque de combate<NL>básico",
+      "t": "Golpe: ataque básico",
       "sites": [
         "0x093170"
       ],
@@ -5410,7 +5650,8 @@
       "sites": [
         "0x096718"
       ],
-      "room": 8
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (ストレーナー)"
     },
     "a4ebd5fbea8b": {
       "t": "AmblHnd",
@@ -7485,11 +7726,12 @@
       "room": 9
     },
     "876e6fd8106c": {
-      "t": "Frigley",
+      "t": "Friglee",
       "sites": [
         "0x095B38"
       ],
-      "room": 10
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (フリグリー)"
     },
     "d81f23633217": {
       "t": "AmbleHd",
@@ -8528,11 +8770,12 @@
       "room": 10
     },
     "3ffae6a21f58": {
-      "t": "Schemer",
+      "t": "Skimmer",
       "sites": [
         "0x0972F8"
       ],
-      "room": 8
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (スキーマー)"
     },
     "69bf3d1ac7a3": {
       "t": "AmblArm",
@@ -9111,9 +9354,10 @@
     "a602c2d1cb4c": {
       "t": "Technic",
       "sites": [
-        "0x097974"
+        "0x097974",
+        "0x09089C"
       ],
-      "room": 8
+      "room": 16
     },
     "7101461ffe64": {
       "t": "Devious",
@@ -9575,10 +9819,11 @@
       "sites": [
         "0x097ED8"
       ],
-      "room": 9
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (テーラー)"
     },
     "9d9f691dc94a": {
-      "t": "¡Pulsa START: Robobatalla!",
+      "t": "¡Robobatalla con START!",
       "sites": [
         "0x4BF424"
       ],
@@ -9590,7 +9835,15 @@
         "0x0916D0",
         "0x091748",
         "0x0917C0",
-        "0x091838"
+        "0x091838",
+        "0x091310",
+        "0x091388",
+        "0x091400",
+        "0x091478",
+        "0x0914F0",
+        "0x091568",
+        "0x0915E0",
+        "0x091658"
       ],
       "room": 52
     },
@@ -9785,7 +10038,9 @@
     "19ab5e307dec": {
       "t": "Ataque de Medafuerza",
       "sites": [
-        "0x0927B0"
+        "0x0927B0",
+        "0x090C80",
+        "0x090CF8"
       ],
       "room": 52
     },
@@ -9801,7 +10056,8 @@
       "sites": [
         "0x092A10"
       ],
-      "room": 8
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (フライバード)"
     },
     "a07a9a5400eb": {
       "t": "Beast",
@@ -9991,7 +10247,8 @@
       "sites": [
         "0x092DF8"
       ],
-      "room": 8
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (ゴルドラン)"
     },
     "247a9956cced": {
       "t": "DiTyrno",
@@ -10054,7 +10311,8 @@
       "sites": [
         "0x092F68"
       ],
-      "room": 8
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (クレイドル)"
     },
     "b2e40e9ea056": {
       "t": "BtmGrst",
@@ -10064,7 +10322,7 @@
       "room": 8
     },
     "c16fe8700ec1": {
-      "t": "Pisces",
+      "t": "Piscis",
       "sites": [
         "0x092F78"
       ],
@@ -10082,7 +10340,8 @@
       "sites": [
         "0x092FB8"
       ],
-      "room": 8
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (めたびー)"
     },
     "77ed550c1ac0": {
       "t": "StryWlf",
@@ -10092,18 +10351,20 @@
       "room": 8
     },
     "a702e4c7e8fa": {
-      "t": "Saikchs",
+      "t": "Saikach",
       "sites": [
         "0x093008"
       ],
-      "room": 8
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (サイカチス)"
     },
     "f2c302be1b6b": {
       "t": "Unitris",
       "sites": [
         "0x093010"
       ],
-      "room": 8
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (ユニトリス)"
     },
     "f9568b578a16": {
       "t": "BrwnBsn",
@@ -10190,7 +10451,7 @@
       "room": 52
     },
     "7b1a75eee037": {
-      "t": "Ataque de tiro<NL>básico",
+      "t": "Tiro: ataque básico",
       "sites": [
         "0x0932F0",
         "0x093370"
@@ -10680,11 +10941,12 @@
       "room": 12
     },
     "f9b22bbf8fa1": {
-      "t": "Azar",
+      "t": "Al azar",
       "sites": [
-        "0x090B4C"
+        "0x4C6E70"
       ],
-      "room": 16
+      "room": 52,
+      "comment": "tabla ROTATION (ランダム)"
     },
     "b55d47d41952": {
       "t": "Apunta al azar",
@@ -11095,6 +11357,656 @@
         "0x090E60"
       ],
       "room": 52
+    },
+    "c15e66756f83": {
+      "t": "COL",
+      "sites": [
+        "0x4C6CF0"
+      ],
+      "room": 4
+    },
+    "c58e30f065ec": {
+      "t": "MegZaur",
+      "sites": [
+        "0x0929D8"
+      ],
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (メガザウルス)"
+    },
+    "c19b62a2a641": {
+      "t": "F.South",
+      "sites": [
+        "0x092AD4"
+      ],
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (ファーサウス)"
+    },
+    "acb68d0cddcf": {
+      "t": "F.North",
+      "sites": [
+        "0x092B0C"
+      ],
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (ファーノース)"
+    },
+    "50463980e1da": {
+      "t": "Lala",
+      "sites": [
+        "0x092CA8"
+      ],
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (ララ)"
+    },
+    "a381980ea5df": {
+      "t": "Leo",
+      "sites": [
+        "0x092D10"
+      ],
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (レオ)"
+    },
+    "e2dcff659e7a": {
+      "t": "Dorcus",
+      "sites": [
+        "0x092FF0"
+      ],
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (ドークス)"
+    },
+    "788b8c27cc1e": {
+      "t": "Exsize",
+      "sites": [
+        "0x092FF8"
+      ],
+      "room": 8,
+      "comment": "campo de 8 bytes en tabla fija (エクサイズ)"
+    },
+    "d6a7daf44241": {
+      "t": "<FACE:00>¡<X:E8> ganada!<NL><WAIT>Ya la tenías",
+      "sites": [
+        "0x0E07A8"
+      ],
+      "room": 28,
+      "comment": "medalla obtenida (link)"
+    },
+    "befd30d5fbc1": {
+      "t": "AUTO: cambia con L/R/A",
+      "sites": [
+        "0x4C6E08"
+      ],
+      "room": 104,
+      "comment": "barrido 2026-08 (L・R・Aボタンでオートせっていヘんこう)"
+    },
+    "1357bf387545": {
+      "t": "Actúa por cuenta propia",
+      "sites": [
+        "0x4C6EA4"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (メダロットが 自分で かんがえて 行動します)"
+    },
+    "243721c1c449": {
+      "t": "Cabeza           (Drive A)",
+      "sites": [
+        "0x4C6ED8"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (頭パーツ               (ドラ)"
+    },
+    "55386f153b27": {
+      "t": "Usa la cabeza (transf.: A)",
+      "sites": [
+        "0x4C6F0C"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (頭パーツを使います (変形している時は ドラ)"
+    },
+    "d7ff00311379": {
+      "t": "Brazo d.         (Drive B)",
+      "sites": [
+        "0x4C6F40"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (右腕パーツ              (ドラ)"
+    },
+    "e06bb52f0372": {
+      "t": "Usa brazo d. (transf.: B)",
+      "sites": [
+        "0x4C6F74"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (右腕パーツを使います(変形している時は ドラ)"
+    },
+    "4734031962f1": {
+      "t": "Brazo i.         (Drive C)",
+      "sites": [
+        "0x4C6FA8"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (左腕パーツ              (ドラ)"
+    },
+    "5bc251860c75": {
+      "t": "Usa brazo i. (transf.: C)",
+      "sites": [
+        "0x4C6FDC"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (左腕パーツを使います(変形している時は ドラ)"
+    },
+    "75628a33b23d": {
+      "t": "Carga MF",
+      "sites": [
+        "0x4C7010"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (メダフォースため)"
+    },
+    "86b43dcb5a0e": {
+      "t": "AP libre carga MF",
+      "sites": [
+        "0x4C7044"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (のこリAPぶんの メダフォースをためます)"
+    },
+    "fcd9ea0c879e": {
+      "t": "MF 1",
+      "sites": [
+        "0x4C7078"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (メダフォース1)"
+    },
+    "186160767488": {
+      "t": "Usa la MF 1",
+      "sites": [
+        "0x4C70AC"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (メダフォース1を使います)"
+    },
+    "bc29d0bb71f7": {
+      "t": "MF 2",
+      "sites": [
+        "0x4C70E0"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (メダフォース2)"
+    },
+    "058d1119607c": {
+      "t": "Usa la MF 2",
+      "sites": [
+        "0x4C7114"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (メダフォース2を使います)"
+    },
+    "286fcf889c5b": {
+      "t": "MF 3",
+      "sites": [
+        "0x4C7148"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (メダフォース3)"
+    },
+    "141403a74857": {
+      "t": "Usa la MF 3",
+      "sites": [
+        "0x4C717C"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (メダフォース3を使います)"
+    },
+    "57d599706d3c": {
+      "t": "Quieto",
+      "sites": [
+        "0x4C71B0"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (移動なし)"
+    },
+    "a58d135e99c3": {
+      "t": "Solo mueve si debe",
+      "sites": [
+        "0x4C71E4"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (行動に ひつようなときだけ 移動します)"
+    },
+    "5999e810b727": {
+      "t": "Acercarse",
+      "sites": [
+        "0x4C7218"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (せっきん)"
+    },
+    "0290785b848e": {
+      "t": "Al centro enemigo",
+      "sites": [
+        "0x4C724C"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (敵の ちゅうしんに むかって 移動します)"
+    },
+    "14dce3261237": {
+      "t": "Adaptable",
+      "sites": [
+        "0x4C7280"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (リんきおうヘん)"
+    },
+    "564e873e2ed3": {
+      "t": "Busca casilla buena",
+      "sites": [
+        "0x4C72B4"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (自分に ゆうリな グリッドに 移動します)"
+    },
+    "0ae54cb09194": {
+      "t": "Alejarse",
+      "sites": [
+        "0x4C72E8"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (リだつ)"
+    },
+    "27e1bc7c1b97": {
+      "t": "Lejos del centro rival",
+      "sites": [
+        "0x4C731C"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (敵の ちゅうしんから はなれるように 移動し)"
+    },
+    "ff05b8f0ebca": {
+      "t": "Toma gen.",
+      "sites": [
+        "0x4C7350"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (ジェネレータうばう)"
+    },
+    "d364ef4351ee": {
+      "t": "Al generador rival",
+      "sites": [
+        "0x4C7384"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (てきの ジェネレータの 上に 移動します)"
+    },
+    "18972c429952": {
+      "t": "Cubre gen",
+      "sites": [
+        "0x4C73B8"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (ジェネレータまもる)"
+    },
+    "77814b2e973a": {
+      "t": "Al generador aliado",
+      "sites": [
+        "0x4C73EC"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (みかたの ジェネレータの 上に 移動します)"
+    },
+    "eebcc5869056": {
+      "t": "Transf.",
+      "sites": [
+        "0x4C7420"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (変形)"
+    },
+    "e9a069db773c": {
+      "t": "Se transforma (o se queda)",
+      "sites": [
+        "0x4C7454"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (変形します      (変形している時は 移)"
+    },
+    "d5b8463c993c": {
+      "t": "Revertir",
+      "sites": [
+        "0x4C7488"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (変形かいじょ)"
+    },
+    "16a92eab97e5": {
+      "t": "Revierte (si no: quieto)",
+      "sites": [
+        "0x4C74BC"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (変形を かいじょします(変形してない時は 移)"
+    },
+    "5e2983eb0ba1": {
+      "t": "Rota y fija con L/R/A",
+      "sites": [
+        "0x4C74F0"
+      ],
+      "room": 104,
+      "comment": "barrido 2026-08 (L・R・Aボタンでローテーションいちけってい)"
+    },
+    "0f531b32e298": {
+      "t": "Ataque MF y cura daño",
+      "sites": [
+        "0x0910B8"
+      ],
+      "room": 52,
+      "comment": "barrido 2026-08 (メダフォースによる攻撃と ダメージの かいふ)"
+    },
+    "845c48f2e4ed": {
+      "t": "Forma",
+      "sites": [
+        "0x64625D"
+      ],
+      "room": 6,
+      "comment": "barrido 2026-08 (けいじょう)"
+    },
+    "25b85bab1624": {
+      "t": "<FACE:01>No hay nada…",
+      "sites": [
+        "0x62CEA4"
+      ],
+      "room": 16,
+      "comment": "barrido 2026-08 (<FACE:01>なにもはいってない・・・)"
+    },
+    "f79677e7fbc8": {
+      "t": "Inmoviliza",
+      "sites": [
+        "0x090F63"
+      ],
+      "room": 33,
+      "comment": "barrido 2026-08 (そくばくを つける)"
+    },
+    "2fbd8b53b80a": {
+      "t": "Continuo a todo rival",
+      "sites": [
+        "0x090FD3"
+      ],
+      "room": 41,
+      "comment": "barrido 2026-08 (敵全体に けいぞくを つける)"
+    },
+    "cf80eecbe949": {
+      "t": "Detiene a todo rival",
+      "sites": [
+        "0x09104B"
+      ],
+      "room": 41,
+      "comment": "barrido 2026-08 (敵全体に ていしを つける)"
+    },
+    "a19e48464f1b": {
+      "t": "Nombre",
+      "sites": [
+        "0x64623C",
+        "0x646150",
+        "0x646194",
+        "0x6461E8"
+      ],
+      "room": 10,
+      "comment": "título teclado (メダロットのなまえ)"
+    },
+    "a5ded910260b": {
+      "t": "MegPhnt",
+      "sites": [
+        "0x093080"
+      ],
+      "room": 8,
+      "comment": "modelo (メガファント)"
+    },
+    "93795c8e9f7c": {
+      "t": "Protege",
+      "sites": [
+        "0x090948"
+      ],
+      "room": 16,
+      "comment": "personalidad medalla (プロテクト)"
+    },
+    "f3fe9354ea24": {
+      "t": "Reduce",
+      "sites": [
+        "0x0909F4"
+      ],
+      "room": 16,
+      "comment": "personalidad medalla (リデュース)"
+    },
+    "ddc64267c0a1": {
+      "t": "Cambia",
+      "sites": [
+        "0x090AA0"
+      ],
+      "room": 16,
+      "comment": "personalidad medalla (チェンジ)"
+    },
+    "dac1dda097bd": {
+      "t": "Apunta a partes de ataque",
+      "sites": [
+        "0x090B18"
+      ],
+      "room": 52,
+      "comment": "personalidad medalla (『なぐる』などの 攻撃パ)"
+    },
+    "111174e727d7": {
+      "t": "Apunta a las patas",
+      "sites": [
+        "0x0907BC"
+      ],
+      "room": 52,
+      "comment": "personalidad medalla (patas)"
+    },
+    "3ef41a4be166": {
+      "t": ":<X:F0>",
+      "sites": [
+        "0x4CC83C",
+        "0x4CC84E"
+      ],
+      "room": 3,
+      "comment": "pieza VS/resultado (は<X:F0>)",
+      "exact": true
+    },
+    "a9f5d088ebd5": {
+      "t": " ¡Victoria!<X:F0>",
+      "sites": [
+        "0x4CC83F"
+      ],
+      "room": 13,
+      "comment": "pieza VS/resultado (ロボトルにしょうリした!)",
+      "exact": true
+    },
+    "1e03e480ae3b": {
+      "t": " ¡Derrota…!<X:F0>",
+      "sites": [
+        "0x4CC851"
+      ],
+      "room": 14,
+      "comment": "pieza VS/resultado (ロボトルにまけてしまった!)",
+      "exact": true
+    },
+    "0a7a7edb26be": {
+      "t": " cab.<X:F0>",
+      "sites": [
+        "0x4CC861",
+        "0x4CC8CF"
+      ],
+      "room": 9,
+      "comment": "pieza VS/resultado (は 頭パーツ<X:F0>)",
+      "exact": true
+    },
+    "8991dad9ccbf": {
+      "t": " br.d.<X:F0>",
+      "sites": [
+        "0x4CC87B",
+        "0x4CC8E6"
+      ],
+      "room": 11,
+      "comment": "pieza VS/resultado (は 右腕パーツ<X:F0>)",
+      "exact": true
+    },
+    "39e9b42348cd": {
+      "t": " br.i.<X:F0>",
+      "sites": [
+        "0x4CC897",
+        "0x4CC8FF"
+      ],
+      "room": 11,
+      "comment": "pieza VS/resultado (は 左腕パーツ<X:F0>)",
+      "exact": true
+    },
+    "671ed5fd4c45": {
+      "t": " patas<X:F0>",
+      "sites": [
+        "0x4CC8B3",
+        "0x4CC918"
+      ],
+      "room": 11,
+      "comment": "pieza VS/resultado (は 脚部パーツ<X:F0>)",
+      "exact": true
+    },
+    "3dc6079023a5": {
+      "t": "<NL><B:01> ¡tuya!<X:F0>",
+      "sites": [
+        "0x4CC86A",
+        "0x4CC886",
+        "0x4CC8A2",
+        "0x4CC8BE"
+      ],
+      "room": 15,
+      "comment": "pieza VS/resultado (<NL>アを 手に入れた!<X:)",
+      "exact": true
+    },
+    "144001a41277": {
+      "t": "<NL><B:01> robada<X:F0>",
+      "sites": [
+        "0x4CC8D8",
+        "0x4CC8F1",
+        "0x4CC90A",
+        "0x4CC923"
+      ],
+      "room": 12,
+      "comment": "pieza VS/resultado (<NL>アを とられた!<X:F)",
+      "exact": true
+    },
+    "cc2f9cb8b543": {
+      "t": ":<X:F0>",
+      "sites": [
+        "0x4CC931"
+      ],
+      "room": 8,
+      "comment": "pieza VS/resultado (の メダルは<X:F0>)",
+      "exact": true
+    },
+    "51fc3a144cae": {
+      "t": "+<NL><B:01> EXP ganados<X:F0>",
+      "sites": [
+        "0x4CC939"
+      ],
+      "room": 20,
+      "comment": "pieza VS/resultado (<NL>アのけいけんちを手に入れ)",
+      "exact": true
+    },
+    "64e6b861ad2f": {
+      "t": ":<X:F0>",
+      "sites": [
+        "0x4CC94F"
+      ],
+      "room": 6,
+      "comment": "pieza VS/resultado (メダルの<X:F0>)",
+      "exact": true
+    },
+    "c8cab43418c4": {
+      "t": " <NL><B:01> +<NL><B:02>!<X:F0>",
+      "sites": [
+        "0x4CC955"
+      ],
+      "room": 22,
+      "comment": "pieza VS/resultado (じゅくれんど『<NL>ア』が <)",
+      "exact": true
+    },
+    "6e09f8d7b947": {
+      "t": "Medalla a niv<NL><B:01><X:F0>",
+      "sites": [
+        "0x4CC96D"
+      ],
+      "room": 18,
+      "comment": "pieza VS/resultado (メダルが レベル<NL>アになっ)",
+      "exact": true
+    },
+    "13ea7af7bc20": {
+      "t": "nueva!<X:F0>",
+      "sites": [
+        "0x4CC988"
+      ],
+      "room": 9,
+      "comment": "pieza VS/resultado (』をおぼえた<X:F0>イ)",
+      "exact": true
+    },
+    "1a70bde56fd7": {
+      "t": " Medabot<X:F0>",
+      "sites": [
+        "0x4CC993"
+      ],
+      "room": 10,
+      "comment": "pieza VS/resultado (の メダロットが<X:F0>)",
+      "exact": true
+    },
+    "84bb32458380": {
+      "t": " niv. <NL><B:01><X:F0>",
+      "sites": [
+        "0x4CC99D"
+      ],
+      "room": 12,
+      "comment": "pieza VS/resultado (レベル<NL>アになった<X:F)",
+      "exact": true
+    },
+    "a15c2dc0b7a1": {
+      "t": "¡Oh…!<X:F0>",
+      "sites": [
+        "0x4CC9AE"
+      ],
+      "room": 7,
+      "comment": "pieza VS/resultado (メダルが…)",
+      "exact": true
+    },
+    "9ca52a82a7f7": {
+      "t": " cambió!<X:F0>",
+      "sites": [
+        "0x4CC9B5"
+      ],
+      "room": 19,
+      "comment": "pieza VS/resultado (あらたな すがたに変化した!<X)",
+      "exact": true
+    },
+    "d24f0dfbd612": {
+      "t": "Un momento…<X:F0>",
+      "sites": [
+        "0x4CCD92"
+      ],
+      "room": 13,
+      "comment": "pieza VS/resultado (しばらく おまちください)",
+      "exact": true
+    },
+    "b41027ca55fb": {
+      "t": "No se puede…<X:F0>",
+      "sites": [
+        "0x4CCD5A"
+      ],
+      "room": 14,
+      "comment": "pieza VS/resultado (あげることが できません!)",
+      "exact": true
+    },
+    "f9b22bbf8fa1@0x090B4C": {
+      "t": "Azar",
+      "sites": [
+        "0x090B4C"
+      ],
+      "room": 16,
+      "comment": "personalidad de medalla (ランダム; el otro sitio es la estrategia)"
     }
   },
   "sjis_strings": {
@@ -11172,19 +12084,19 @@
   "ptr_strings": {
     "0x655410": {
       "jp": "頭",
-      "t": "Cabeza"
+      "t": "CB"
     },
     "0x655414": {
       "jp": "右腕",
-      "t": "Brazo d."
+      "t": "Br.D"
     },
     "0x655418": {
       "jp": "左腕",
-      "t": "Brazo i."
+      "t": "Br.I"
     },
     "0x65541C": {
       "jp": "脚部",
-      "t": "Patas"
+      "t": "Pata"
     }
   },
   "glyph_banks": [
@@ -11294,5 +12206,20 @@
     "Vehículo",
     "Tanque",
     "Marino"
-  ]
+  ],
+  "newspaper": {
+    "head.a": "DESENTIERRAN UN",
+    "head.b": "MEDABOT ESPACIAL",
+    "sub": "JOYA DEL PARQUE",
+    "left.a": "LO HALLÓ UN",
+    "left.b": "COLEGIAL",
+    "photo": [
+      "POR SUS PARTES ES",
+      "UN MEDABOT SEGURO"
+    ],
+    "boy": [
+      "KASUMI, EL",
+      "QUE LO VIO"
+    ]
+  }
 }

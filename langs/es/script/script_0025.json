@@ -219,7 +219,7 @@
   {
    "key": "script:0025:13DA",
    "src": "31cf70845421",
-   "t": "<FACE:81>¡E… eso mismo-robo!<NL><WAIT><FACE:80>¡Adióóós-robo!!"
+   "t": "<FACE:81>¡E… eso mismo-robo!<NL><WAIT><FACE:80>¡¡Adióóós-robo!!"
   },
   {
    "key": "script:0025:13F3",
@@ -464,12 +464,12 @@
   {
    "key": "script:0025:19A7",
    "src": "91e227f9a756",
-   "t": "<FACE:4D>¡Kanbatsu se unió al<NL>grupo!<WAIT><FACE:4C>¡Arashi se unió al<NL>grupo!<WAIT><FACE:4E>¡Kyoufuu se unió al<NL>grupo!"
+   "t": "<FACE:4D>¡Kanbatsu se unió al<NL>equipo!<WAIT><FACE:4C>¡Arashi se unió al<NL>equipo!<WAIT><FACE:4E>¡Kyoufuu se unió al<NL>equipo!"
   },
   {
    "key": "script:0025:19DF",
    "src": "9a4bc2b2c3a5",
-   "t": "<FACE:08>¡Ayyy!!"
+   "t": "<FACE:08>¡¡Ayyy!!"
   },
   {
    "key": "script:0025:19E7",

@@ -214,7 +214,7 @@
   {
    "key": "script:0082:1300",
    "src": "6c33f692c6c4",
-   "t": "<FACE:2A>¡Para el temporizador<NL>de los explosivos!<WAIT><FACE:2B>¡Todo está bien!<NL>Ellos no se quedarán<WAIT>aquí mucho tiempo<WAIT><FACE:2A>¡Es muy peligroso!<WAIT><FACE:2B>Pero… pero para<NL>salvarnos con nuestras<WAIT>propias fuerzas<NL>¡no hay otra manera!<WAIT>¡Usted mismo lo dijo,<NL>Amamiya!<WAIT>Que los descartados<NL>saldríamos de esta<WAIT>por nuestra cuenta"
+   "t": "<FACE:2A>¡Para el temporizador<NL>de los explosivos!<WAIT><FACE:2B>¡Todo está bien!<NL>Ellos no se quedarán<WAIT>aquí mucho tiempo<WAIT><FACE:2A>¡Es muy peligroso!<WAIT><FACE:2B>Pero… pero para<NL>salvarnos con nuestras<WAIT>propias fuerzas<NL>¡no hay otra manera!<WAIT>¡Tú mismo lo dijiste,<NL>Amamiya!<WAIT>Que los descartados<NL>saldríamos de esta<WAIT>por nuestra cuenta"
   },
   {
    "key": "script:0082:13A4",
@@ -289,7 +289,7 @@
   {
    "key": "script:0082:163C",
    "src": "475f8fa5c2d9",
-   "t": "<FACE:29>Está bien, Tensai…<NL>Te echaré una mano<WAIT><FACE:04>…Amamiya…"
+   "t": "<FACE:29>Está bien, Tensai…<NL>Te daré una mano<WAIT><FACE:04>…Amamiya…"
   },
   {
    "key": "script:0082:1660",

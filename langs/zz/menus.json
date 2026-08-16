@@ -1,0 +1,4690 @@
+{
+ "part": "menus",
+ "entries": [
+  {
+   "key": "str:08D490",
+   "src": "c462ab0e15af",
+   "t": "¿Qué tal, eh?<NL>¡No me subestimes!<END>"
+  },
+  {
+   "key": "str:08D4A4",
+   "src": "6379625d650b",
+   "t": "Ay, perdí…<NL><END>"
+  },
+  {
+   "key": "str:08D4B8",
+   "src": "e90f77cb127f",
+   "t": "¡Yo seré tu rival!<NL>¡A robobatallar!<END>"
+  },
+  {
+   "key": "str:08D4D0",
+   "src": "7f3580301cfe",
+   "t": "¡Órale, órale!<NL>¡No te pases conmigo!<END>"
+  },
+  {
+   "key": "str:08D4EC",
+   "src": "25c7a94b49a5",
+   "t": "¡Órale! ¡Ven por mí!<NL><END>"
+  },
+  {
+   "key": "str:08D4FC",
+   "src": "bcdf1473ec62",
+   "t": "¡Órale! ¡Eso no basta!<NL>¡Quiero mucho más!<END>"
+  },
+  {
+   "key": "str:08D51C",
+   "src": "7f012c14d961",
+   "t": "Bah… nada mal, ¿eh?…<NL><END>"
+  },
+  {
+   "key": "str:08D530",
+   "src": "4b0d1dd94fd2",
+   "t": "¡Así se habla, oye!!<NL>¡Ven a pelear!<END>"
+  },
+  {
+   "key": "str:08D54C",
+   "src": "eb53c3f3491f",
+   "t": "¡Aléjate de mi hermana<NL>para siempre! ¿Oíste?<END>"
+  },
+  {
+   "key": "str:08D56C",
+   "src": "8e2849f19493",
+   "t": "¡Rayos!<NL>No estás nada mal…<END>"
+  },
+  {
+   "key": "str:08D57C",
+   "src": "543b61d331ff",
+   "t": "Tienes agallas, ¿eh?<NL>¡Prepárate!<END>"
+  },
+  {
+   "key": "str:08D594",
+   "src": "ed6c8f41d969",
+   "t": "Buenas noches…<NL>Mmm… mmm…<END>"
+  },
+  {
+   "key": "str:08D5A8",
+   "src": "94332990addb",
+   "t": "Fuaaa…<NL>Qué bien dormí…<END>"
+  },
+  {
+   "key": "str:08D5B8",
+   "src": "02772a9be706",
+   "t": "Sea suavecito conmigo…<NL><END>"
+  },
+  {
+   "key": "str:08D5CC",
+   "src": "e330fbf2f14f",
+   "t": "¡Je je!<NL>¡Ahora ya lo sabes!<END>"
+  },
+  {
+   "key": "str:08D5DC",
+   "src": "713ef5efcf7c",
+   "t": "¡Agh!<NL>¡Eso dolió muchoo!!<END>"
+  },
+  {
+   "key": "str:08D5EC",
+   "src": "5f8f6734a93c",
+   "t": "¡Cuando me enojo doy<NL>mucho miedo!<END>"
+  },
+  {
+   "key": "str:08D604",
+   "src": "743fec04298e",
+   "t": "Ah, ¿sí?…<NL>¿Al fin me perdonará?<END>"
+  },
+  {
+   "key": "str:08D61C",
+   "src": "693de29fdbad",
+   "t": "Pe pe perdí…<NL>¿Y ahora qué hago…?<END>"
+  },
+  {
+   "key": "str:08D638",
+   "src": "12e16843b722",
+   "t": "Me esforzaré para que<NL>me perdonen…<END>"
+  },
+  {
+   "key": "str:08D64C",
+   "src": "f7f5c6f0bff7",
+   "t": "¡No te metas nunca más<NL>con mi hermana!<END>"
+  },
+  {
+   "key": "str:08D668",
+   "src": "11f6f8a71791",
+   "t": "Grr…<NL>Nada mal…<END>"
+  },
+  {
+   "key": "str:08D674",
+   "src": "2844aeb12f10",
+   "t": "¡Quien toque a mi<NL>hermana no se salva!!<END>"
+  },
+  {
+   "key": "str:08D690",
+   "src": "d6a25fefdba6",
+   "t": "Ga gané…<NL>Lo siento muchoo…<END>"
+  },
+  {
+   "key": "str:08D6A8",
+   "src": "78179fe42364",
+   "t": "Qu qué fuerte es…<NL><END>"
+  },
+  {
+   "key": "str:08D6B4",
+   "src": "edebaa8a66a4",
+   "t": "A allá voy…<NL>¡Robobatalla!<END>"
+  },
+  {
+   "key": "str:08D6C8",
+   "src": "3e1317a04d19",
+   "t": "¡Qué tal!<NL>¡Te quedó claro!<END>"
+  },
+  {
+   "key": "str:08D6D8",
+   "src": "658fc319878c",
+   "t": "¡No creas que perdí<NL>por ser niño!<END>"
+  },
+  {
+   "key": "str:08D6F4",
+   "src": "bf27a1e3b392",
+   "t": "¡No juzgues por las<NL>apariencias!<END>"
+  },
+  {
+   "key": "str:08D70C",
+   "src": "4fc3233d3dbf",
+   "t": "Vaya, qué poca cosa…<NL>¿Ya se acabó?<END>"
+  },
+  {
+   "key": "str:08D72C",
+   "src": "677983a07646",
+   "t": "…Y pensar que a mí…<NL><END>"
+  },
+  {
+   "key": "str:08D740",
+   "src": "9b8b62a09300",
+   "t": "Ustedes jamás podrán<NL>vencerme a mí<END>"
+  },
+  {
+   "key": "str:08D760",
+   "src": "c3a94a29f590",
+   "t": "¡Te confiaste!<NL><END>"
+  },
+  {
+   "key": "str:08D774",
+   "src": "394f0990752a",
+   "t": "Te hiciste fuerte[<3]<END>"
+  },
+  {
+   "key": "str:08D788",
+   "src": "0a410ae942bb",
+   "t": "¡A robobatallar!<NL><END>"
+  },
+  {
+   "key": "str:08D79C",
+   "src": "7ad65ec4eaae",
+   "t": "¡Mi Medabot manda!<END>"
+  },
+  {
+   "key": "str:08D7B4",
+   "src": "c69df2cdbf54",
+   "t": "Aún me falta fuerza<NL>¡A robobatallar más!<END>"
+  },
+  {
+   "key": "str:08D7D8",
+   "src": "ace71e43d761",
+   "t": "¡Quiero robobatallar<NL>con los fuertes!<END>"
+  },
+  {
+   "key": "str:08D7F0",
+   "src": "8eb7336257e3",
+   "t": "Uf… estuvo cerca…<NL><END>"
+  },
+  {
+   "key": "str:08D804",
+   "src": "f8b6e4e97a20",
+   "t": "Nada mal, ¿eh?<NL><END>"
+  },
+  {
+   "key": "str:08D810",
+   "src": "d4f0f564d624",
+   "t": "Te mostraré que aún<NL>puedo dar más<END>"
+  },
+  {
+   "key": "str:08D82C",
+   "src": "f5df22879729",
+   "t": "¡Cálmate un poco!<NL><END>"
+  },
+  {
+   "key": "str:08D840",
+   "src": "ac2ae7cf1d3d",
+   "t": "¡Ay! ¡Piensa un poco<NL>en quien se preocupa!<END>"
+  },
+  {
+   "key": "str:08D85C",
+   "src": "5d08901e2f83",
+   "t": "¡Conque son ustedes!<NL>Los que hacen locuras<END>"
+  },
+  {
+   "key": "str:08D87C",
+   "src": "ca0e9ab93d32",
+   "t": "¿Ya viste lo que es<NL>tener talento?<END>"
+  },
+  {
+   "key": "str:08D894",
+   "src": "90bcafa757ab",
+   "t": "Tsk… no estás mal<NL><END>"
+  },
+  {
+   "key": "str:08D8A4",
+   "src": "a65fb49ee2d2",
+   "t": "Al medaguerrero no le<NL>basta con ser famoso<END>"
+  },
+  {
+   "key": "str:08D8C0",
+   "src": "01821b6a07a5",
+   "t": "Uf… parece que hay un<NL>error en mis datos<END>"
+  },
+  {
+   "key": "str:08D8DC",
+   "src": "a90c9797a6e4",
+   "t": "Mmm… tal como decían<NL>los datos…<END>"
+  },
+  {
+   "key": "str:08D8F0",
+   "src": "345463cd121c",
+   "t": "Voy a comprobar lo que<NL>dijo el profesor<END>"
+  },
+  {
+   "key": "str:08D910",
+   "src": "babec8430fe0",
+   "t": "Estuviste cerca…<NL><END>"
+  },
+  {
+   "key": "str:08D920",
+   "src": "356b46982ec5",
+   "t": "Sabía que no podía…<NL><END>"
+  },
+  {
+   "key": "str:08D930",
+   "src": "110de46acff8",
+   "t": "¡Ahora voy en serio!<NL><END>"
+  },
+  {
+   "key": "str:08D944",
+   "src": "7ae790dadea8",
+   "t": "No es gran cosa…<NL><END>"
+  },
+  {
+   "key": "str:08D954",
+   "src": "1adb4e1fd5d5",
+   "t": "No puede ser…<NL><END>"
+  },
+  {
+   "key": "str:08D95C",
+   "src": "68b6baa192c6",
+   "t": "¡Te mostraremos<NL>nuestra fuerza!<END>"
+  },
+  {
+   "key": "str:08D970",
+   "src": "6d68178ccddb",
+   "t": "No eres para tanto…<NL><END>"
+  },
+  {
+   "key": "str:08D980",
+   "src": "e2b2ac77a959",
+   "t": "No estás nada mal<NL><END>"
+  },
+  {
+   "key": "str:08D98C",
+   "src": "31a154e3f5b2",
+   "t": "¡No voy a perder con<NL>novatos como ustedes!<END>"
+  },
+  {
+   "key": "str:08D9A8",
+   "src": "b0ca42a65fad",
+   "t": "Ga… gané-robo…<NL>¡Gané a <PLAYER>-robo!<END>"
+  },
+  {
+   "key": "str:08D9C4",
+   "src": "66dda142a2a3",
+   "t": "Me… me ganaron-robo…<NL><END>"
+  },
+  {
+   "key": "str:08D9D4",
+   "src": "0f195f058925",
+   "t": "Ya solo nos queda esto<NL>¡No perderemos-robo!<END>"
+  },
+  {
+   "key": "str:08D9F4",
+   "src": "1210de3b412e",
+   "t": "¡Al fin llegó nuestra<NL>época-robo!<END>"
+  },
+  {
+   "key": "str:08DA0C",
+   "src": "71e5a6e01169",
+   "t": "Hasta aquí-robo…<NL><END>"
+  },
+  {
+   "key": "str:08DA18",
+   "src": "11494b0f9054",
+   "t": "¡Al ataque-robo!<NL><END>"
+  },
+  {
+   "key": "str:08DA28",
+   "src": "1a2dd11227f8",
+   "t": "¡Este es nuestro<NL>poder-robo!<END>"
+  },
+  {
+   "key": "str:08DA3C",
+   "src": "e4af92747065",
+   "t": "No sirve-robo…<NL>Perdimos-robo…<END>"
+  },
+  {
+   "key": "str:08DA50",
+   "src": "563d4fc04b23",
+   "t": "¡Si nos esforzamos<NL>también podemos-robo!<END>"
+  },
+  {
+   "key": "str:08DA68",
+   "src": "3919e5354ea7",
+   "t": "El alma… cof… a veces<NL>supera al cuerpo… cof…<END>"
+  },
+  {
+   "key": "str:08DA90",
+   "src": "5d1d6d7a91de",
+   "t": "Cof… hasta aquí…<NL><END>"
+  },
+  {
+   "key": "str:08DAA4",
+   "src": "3d74b230df6b",
+   "t": "Cof… cof… ¿empezamos<NL>ya la… ¡cof! …batalla?<END>"
+  },
+  {
+   "key": "str:08DAD0",
+   "src": "7c6465c5629c",
+   "t": "¡El que ríe al último<NL>gana! ¡Fuaaa ja ja ja!<END>"
+  },
+  {
+   "key": "str:08DAF8",
+   "src": "f326b68635eb",
+   "t": "¿Q… quéee?<NL>¡¿Ni con esto basta?!<END>"
+  },
+  {
+   "key": "str:08DB14",
+   "src": "54ee4e07f56f",
+   "t": "¡Aquí mismo decidamos<NL>quién es más fuerte!<END>"
+  },
+  {
+   "key": "str:08DB3C",
+   "src": "ec623600aa5c",
+   "t": "Vas a caer rendido<NL>ante mí, guapo<END>"
+  },
+  {
+   "key": "str:08DB54",
+   "src": "0748a0757424",
+   "t": "¿Acaso no te gusto?<NL><END>"
+  },
+  {
+   "key": "str:08DB64",
+   "src": "47a84f5d1e8e",
+   "t": "¡A esta chica hay que<NL>obedecerla!<END>"
+  },
+  {
+   "key": "str:08DB7C",
+   "src": "12c768be0877",
+   "t": "<PLAYER>… al destino…<NL>nadie escapa… jujuju…<END>"
+  },
+  {
+   "key": "str:08DB9C",
+   "src": "49110a1640a2",
+   "t": "…¿hasta dónde… seguirá<NL>este destino…?<END>"
+  },
+  {
+   "key": "str:08DBBC",
+   "src": "6a8124ebcded",
+   "t": "…juju… <PLAYER>…<NL>el destino… a los dos…<END>"
+  },
+  {
+   "key": "str:08DBD8",
+   "src": "e6c2e3e9866d",
+   "t": "¡Ustedes también deben<NL>ejercitar el cuerpo!<END>"
+  },
+  {
+   "key": "str:08DBF0",
+   "src": "5ed70930647b",
+   "t": "¡Perder no me detiene!<NL><END>"
+  },
+  {
+   "key": "str:08DC04",
+   "src": "5f81b9b0967d",
+   "t": "¡Mi cuerpo forjado lo<NL>verán en la batalla!<END>"
+  },
+  {
+   "key": "str:08DC2C",
+   "src": "cf6cff4d6902",
+   "t": "¡Los Sperobo ya casi<NL>conquistan el espacio!<END>"
+  },
+  {
+   "key": "str:08DC54",
+   "src": "ea81b86cdd9f",
+   "t": "Ante mí no hay camino…<NL><END>"
+  },
+  {
+   "key": "str:08DC6C",
+   "src": "608953754b21",
+   "t": "¡Ante mí no hay senda!<NL>¡Solo la hay detrás!<END>"
+  },
+  {
+   "key": "str:08DC94",
+   "src": "644937f0e9f1",
+   "t": "¡<PLAYER>!<NL>¡Aguanta firme!<END>"
+  },
+  {
+   "key": "str:08DCA4",
+   "src": "bb5635d397ea",
+   "t": "¡Así es <PLAYER>!<NL>¡Muy fuerte!<END>"
+  },
+  {
+   "key": "str:08DCBC",
+   "src": "8d138b6ebd92",
+   "t": "Vamos a robobatallar<NL><END>"
+  },
+  {
+   "key": "str:08DCC8",
+   "src": "5ae24a8ec4a1",
+   "t": "Con esto es perfecto<NL>Ya no perderé más<END>"
+  },
+  {
+   "key": "str:08DCE0",
+   "src": "fd6c3324d69d",
+   "t": "Mmm, mmm…<NL><END>"
+  },
+  {
+   "key": "str:08DCEC",
+   "src": "ea217792229c",
+   "t": "Es de repente, pero…<NL>allá voy…<END>"
+  },
+  {
+   "key": "str:08DD00",
+   "src": "46d3dfc9f22f",
+   "t": "¡También podemos!<NL><END>"
+  },
+  {
+   "key": "str:08DD18",
+   "src": "27b395780b67",
+   "t": "¿No sirvo para esto…?<NL><END>"
+  },
+  {
+   "key": "str:08DD30",
+   "src": "1f11b1883957",
+   "t": "¡Cuando toca, vamos!<NL><END>"
+  },
+  {
+   "key": "str:08DD48",
+   "src": "db3d439d9b18",
+   "t": "¿Así está bien?<NL><END>"
+  },
+  {
+   "key": "str:08DD58",
+   "src": "631c58f17640",
+   "t": "…Así que perdí…<NL><END>"
+  },
+  {
+   "key": "str:08DD6C",
+   "src": "385f280bb64d",
+   "t": "…¿Estás listo…?<NL>Allá voy…<END>"
+  },
+  {
+   "key": "str:08DD88",
+   "src": "de2ddba0c855",
+   "t": "Nosotros también<NL>servimos un poco, ¿no?<END>"
+  },
+  {
+   "key": "str:08DDA0",
+   "src": "560efac50739",
+   "t": "Todavía no le alcanzo…<NL><END>"
+  },
+  {
+   "key": "str:08DDB4",
+   "src": "67830ebbaddb",
+   "t": "¡Vamos a robobatallar!<NL><END>"
+  },
+  {
+   "key": "str:08DDC8",
+   "src": "da8a6e39f875",
+   "t": "¿Eso era todo…?<NL><END>"
+  },
+  {
+   "key": "str:08DDD8",
+   "src": "43e69c5bfcb3",
+   "t": "¡Buena robobatalla!<NL><END>"
+  },
+  {
+   "key": "str:08DDE8",
+   "src": "7a8a6004ca93",
+   "t": "¡<PLAYER>!<NL>¡Sin contemplaciones!<END>"
+  },
+  {
+   "key": "str:08DDFC",
+   "src": "2f6f901b8fe7",
+   "t": "¿Entonces la líder<NL>seré yo, al final?<END>"
+  },
+  {
+   "key": "str:08DE20",
+   "src": "c475beb607c2",
+   "t": "Es impresionante…<NL>¿Aún me falta mucho?<END>"
+  },
+  {
+   "key": "str:08DE44",
+   "src": "fed5fb2fa4d0",
+   "t": "¡Ánimos renovados!<NL>¡Llegan las Niwaka!<END>"
+  },
+  {
+   "key": "str:08DE60",
+   "src": "16da487ef88e",
+   "t": "¡Bien! ¡Ahora yo soy<NL>el número uno!<END>"
+  },
+  {
+   "key": "str:08DE78",
+   "src": "503d81da45d8",
+   "t": "Uuuh… eres bueno<NL><END>"
+  },
+  {
+   "key": "str:08DE88",
+   "src": "1d53938ba337",
+   "t": "¡Voy a probar de qué<NL>soy capaz!<END>"
+  },
+  {
+   "key": "str:08DEA0",
+   "src": "8427a869ccda",
+   "t": "¡Bah!<NL>Era de esperarse…<END>"
+  },
+  {
+   "key": "str:08DEB0",
+   "src": "f91fdbff7de3",
+   "t": "¡Ven aquí!<NL>¡Muéstrame tu fuerza!<END>"
+  },
+  {
+   "key": "str:08DECC",
+   "src": "72c7f9c139ff",
+   "t": "¿Los sobreestimé un<NL>poco, quizás…?<END>"
+  },
+  {
+   "key": "str:08DEE8",
+   "src": "1977b064053c",
+   "t": "La robobatalla de<NL><PLAYER>, la veré bien<END>"
+  },
+  {
+   "key": "str:08DF08",
+   "src": "44bd03ffbc48",
+   "t": "¡Lo logré, lo logré!<NL>¡Le gané a <PLAYER>!<END>"
+  },
+  {
+   "key": "str:08DF24",
+   "src": "f794811591cd",
+   "t": "Sí que eres fuerte…<NL>No eres como Urin…<END>"
+  },
+  {
+   "key": "str:08DF40",
+   "src": "3b1345d7c60c",
+   "t": "¡Robobatallemos!<NL>¡Sí, sí, sí!<END>"
+  },
+  {
+   "key": "str:08DF54",
+   "src": "57f93bfea16e",
+   "t": "¿Eh? ¿Ya se acabó?<NL>¡Me da risa!<END>"
+  },
+  {
+   "key": "str:08DF6C",
+   "src": "b5a622923e11",
+   "t": "…Bah, no estás mal<NL><END>"
+  },
+  {
+   "key": "str:08DF7C",
+   "src": "be4664de857a",
+   "t": "¡No te creas la gran<NL>cosa!<END>"
+  },
+  {
+   "key": "str:08DF94",
+   "src": "bcc362eb1261",
+   "t": "¡En robobatallas somos<NL>mejores nosotros!<END>"
+  },
+  {
+   "key": "str:08DFB0",
+   "src": "afa2adfa1198",
+   "t": "Sí que eres fuerte…<NL><END>"
+  },
+  {
+   "key": "str:08DFC0",
+   "src": "99631428d65b",
+   "t": "Verás que nosotros<NL>también podemos<END>"
+  },
+  {
+   "key": "str:08DFE0",
+   "src": "d1dd141bef6b",
+   "t": "¡Ponle ganas!<NL><END>"
+  },
+  {
+   "key": "str:08DFF0",
+   "src": "b7c48572e324",
+   "t": "Tsk… sí que eres bueno<NL><END>"
+  },
+  {
+   "key": "str:08E004",
+   "src": "5e540aeae719",
+   "t": "¡Ven aquí! ¡Oye!<NL><END>"
+  },
+  {
+   "key": "str:08E014",
+   "src": "48b145f3f116",
+   "t": "Una robobatalla se<NL>gana con estilo<END>"
+  },
+  {
+   "key": "str:08E030",
+   "src": "305214b33c75",
+   "t": "¿No basta con tener<NL>estilo…?<END>"
+  },
+  {
+   "key": "str:08E048",
+   "src": "e4118da91207",
+   "t": "¡Queremos estilo en la<NL>moda y en la batalla!<END>"
+  },
+  {
+   "key": "str:08E070",
+   "src": "7f5b989396c5",
+   "t": "¿No te falta un poco<NL>de garra?<END>"
+  },
+  {
+   "key": "str:08E088",
+   "src": "c2718791c0a2",
+   "t": "¡Nada mal, en serio!<NL><END>"
+  },
+  {
+   "key": "str:08E098",
+   "src": "e645faa39999",
+   "t": "¡Entrena robobatalla<NL>con nosotras!<END>"
+  },
+  {
+   "key": "str:08E0B4",
+   "src": "580662291b7c",
+   "t": "¿Y si yo me vuelvo la<NL>líder? ¡Ohohohohoho!<END>"
+  },
+  {
+   "key": "str:08E0DC",
+   "src": "86f7f07d37ac",
+   "t": "¡Es el héroe de veras!<NL>¡Qué bien lo hace!<END>"
+  },
+  {
+   "key": "str:08E0F4",
+   "src": "fe66367beb19",
+   "t": "Seas o no el héroe de<NL>la clase, ¡no cedemos!<END>"
+  },
+  {
+   "key": "str:08E120",
+   "src": "d2076be01061",
+   "t": "Su poder no pasa de<NL>eso, después de todo<END>"
+  },
+  {
+   "key": "str:08E13C",
+   "src": "877ab880d65a",
+   "t": "Que mi poder… no<NL>sirva… de nada…<END>"
+  },
+  {
+   "key": "str:08E158",
+   "src": "b1f8f2555df0",
+   "t": "Yo soy Mistral…<NL>Ese acto es inútil…<END>"
+  },
+  {
+   "key": "str:08E17C",
+   "src": "5068dfd64076",
+   "t": "Objetivo en silencio…<NL><END>"
+  },
+  {
+   "key": "str:08E18C",
+   "src": "cc7ea7fbc842",
+   "t": "Bip… bip bip… zzz…<NL><END>"
+  },
+  {
+   "key": "str:08E19C",
+   "src": "c0a3b1ea5d46",
+   "t": "Objetivo detenido…<NL>Nuevo objetivo… ataque<END>"
+  },
+  {
+   "key": "str:08E1C4",
+   "src": "75f8368a268f",
+   "t": "Misión completa…<NL>Destruir enemigo…<END>"
+  },
+  {
+   "key": "str:08E1E4",
+   "src": "e005da39b06e",
+   "t": "Ga… gaga… energía<NL>baja… pro… gra… ma…<END>"
+  },
+  {
+   "key": "str:08E210",
+   "src": "32f1f4858640",
+   "t": "Objetivo fijado…<NL>Cuenta regresiva… 3…2…<END>"
+  },
+  {
+   "key": "str:08E234",
+   "src": "ea2631cbbdf0",
+   "t": "El intruso detuvo su<NL>acción hostil…<END>"
+  },
+  {
+   "key": "str:08E254",
+   "src": "4ebdb1513880",
+   "t": "…Bip… por el ataque…<NL>no puedo… se… guir…<END>"
+  },
+  {
+   "key": "str:08E288",
+   "src": "2e4394bbfd18",
+   "t": "Cambio de objetivo…<NL>ser desconocido… purga<END>"
+  },
+  {
+   "key": "str:08E2B8",
+   "src": "862ebc71b247",
+   "t": "Purga completa…<NL>Programa continúa…<END>"
+  },
+  {
+   "key": "str:08E2D4",
+   "src": "09854c7e736d",
+   "t": "…No puedo ejecutar la<NL>purga…<END>"
+  },
+  {
+   "key": "str:08E2EC",
+   "src": "33ccc35cd2dc",
+   "t": "Objetivo confirmado…<NL>Es intruso… lo purgaré<END>"
+  },
+  {
+   "key": "str:08E320",
+   "src": "122064e68e19",
+   "t": "Intruso eliminado…<NL>Proceso completado…<END>"
+  },
+  {
+   "key": "str:08E33C",
+   "src": "47e9d259160e",
+   "t": "Funciones detenidas…<NL>no puedo eliminarlo…<END>"
+  },
+  {
+   "key": "str:08E36C",
+   "src": "2d83fb46712f",
+   "t": "Ser desconocido hostil<NL>detectado… lo elimino<END>"
+  },
+  {
+   "key": "str:08E3A4",
+   "src": "08d1b7cedb17",
+   "t": "¡Fuajajaja! Desde hoy<NL>trabajan para nosotros<END>"
+  },
+  {
+   "key": "str:08E3C8",
+   "src": "8ad036b39a9b",
+   "t": "En mi diccionario…<NL><END>"
+  },
+  {
+   "key": "str:08E3D8",
+   "src": "fa1b2fa89529",
+   "t": "¡Serás el cimiento del<NL>futuro de los Sperobo!<END>"
+  },
+  {
+   "key": "str:08E400",
+   "src": "93be35a1554f",
+   "t": "Cof… ¿desafiar a los<NL>Sperobo? Qué risa… cof<END>"
+  },
+  {
+   "key": "str:08E430",
+   "src": "d1f7e503f1f7",
+   "t": "Mi cuerpo… ug… llegó<NL>al límite… cof…<END>"
+  },
+  {
+   "key": "str:08E450",
+   "src": "cbfc49c5ce31",
+   "t": "Me hiciste ir en serio<NL>cof… te arrepentirás…<END>"
+  },
+  {
+   "key": "str:08E47C",
+   "src": "11650711113a",
+   "t": "¡Puro hablador ahora!<NL>¡Fuaaa ja ja ja!<END>"
+  },
+  {
+   "key": "str:08E4A4",
+   "src": "ff84dd36de8c",
+   "t": "Atacar por sorpresa…<NL>qué cobardía…<END>"
+  },
+  {
+   "key": "str:08E4B8",
+   "src": "867268a8a405",
+   "t": "¡Burlarte de mí merece<NL>la muerte! ¡Prepárate!<END>"
+  },
+  {
+   "key": "str:08E4E0",
+   "src": "d8a3bd432da5",
+   "t": "Vas a venir conmigo<NL>lindo ni·ñi·to[<3]<END>"
+  },
+  {
+   "key": "str:08E500",
+   "src": "5c360f9f8831",
+   "t": "Qué frío eres…<NL><END>"
+  },
+  {
+   "key": "str:08E50C",
+   "src": "1f564cf98423",
+   "t": "¡Te enseñaré cuál es<NL>mi encanto!<END>"
+  },
+  {
+   "key": "str:08E524",
+   "src": "1ced0ba69adc",
+   "t": "¡Lo viste!<NL>Este es mi poder… ug<END>"
+  },
+  {
+   "key": "str:08E540",
+   "src": "71d3153fb10c",
+   "t": "Si tan solo este<NL>cuerpo… ug…<END>"
+  },
+  {
+   "key": "str:08E554",
+   "src": "33e840c344b3",
+   "t": "Aunque mi cuerpo… cof…<NL>sea débil… no perderé<END>"
+  },
+  {
+   "key": "str:08E580",
+   "src": "3e44787a6de3",
+   "t": "Jujuju…<NL>el destino… es cruel…<END>"
+  },
+  {
+   "key": "str:08E5A0",
+   "src": "bc4dc752d4b4",
+   "t": "En la bola de cristal…<NL>una sombra funesta…<END>"
+  },
+  {
+   "key": "str:08E5B8",
+   "src": "981a67c6b997",
+   "t": "…Según mi adivinación…<NL>tú eres… mi destino…<END>"
+  },
+  {
+   "key": "str:08E5DC",
+   "src": "b8f4b9409c16",
+   "t": "¿Entendieron? ¡Sperobo<NL>reina en el cosmos!<END>"
+  },
+  {
+   "key": "str:08E608",
+   "src": "a9390acbde64",
+   "t": "¿Por qué no gano?<NL>¡La próxima no pierdo!<END>"
+  },
+  {
+   "key": "str:08E62C",
+   "src": "791b44b1bd92",
+   "t": "¡El poder Sperobo ruge<NL>en todo el cosmos!<END>"
+  },
+  {
+   "key": "str:08E658",
+   "src": "8ba7fe7fe330",
+   "t": "Ahora ustedes son los<NL>subordinados-robo…<END>"
+  },
+  {
+   "key": "str:08E670",
+   "src": "45e9a16b3d89",
+   "t": "¿Por qué siempre nos<NL>estorban-robo…?<END>"
+  },
+  {
+   "key": "str:08E68C",
+   "src": "325e5d7ddcf3",
+   "t": "¡Quítense ya-robo!<NL>¡Estamos ocupados!<END>"
+  },
+  {
+   "key": "str:08E6B0",
+   "src": "11b1dd87802f",
+   "t": "¡Ya quedó claro quién<NL>es la líder!<END>"
+  },
+  {
+   "key": "str:08E6CC",
+   "src": "f70289fe3d8d",
+   "t": "No puede ser…<NL>Yo, que soy la líder…<END>"
+  },
+  {
+   "key": "str:08E6E8",
+   "src": "9fc785f1ef63",
+   "t": "¡La verdadera líder<NL>soy yo! ¡A decidirlo!<END>"
+  },
+  {
+   "key": "str:08E70C",
+   "src": "d4d2da71446e",
+   "t": "¡Uoooo-robo!<NL>¡Estoy ardiendo-robo!<END>"
+  },
+  {
+   "key": "str:08E720",
+   "src": "0749997fac14",
+   "t": "…Se me enfrió la<NL>cabeza-robo…<END>"
+  },
+  {
+   "key": "str:08E734",
+   "src": "53a548c2201e",
+   "t": "¡Ahora no pierdo-robo!<NL>¡Ven acá!<END>"
+  },
+  {
+   "key": "str:08E754",
+   "src": "bb70fc6014c6",
+   "t": "¡Sí podemos-robo!<NL><END>"
+  },
+  {
+   "key": "str:08E76C",
+   "src": "6fb41a938a25",
+   "t": "Pf… sin fuerzas-robo…<END>"
+  },
+  {
+   "key": "str:08E784",
+   "src": "518fe97c4449",
+   "t": "¡Uoooo! ¡Ardo-robo!<NL><END>"
+  },
+  {
+   "key": "str:08E79C",
+   "src": "193d2abacfde",
+   "t": "Gagaga…<NL>Ejecutar purga…<END>"
+  },
+  {
+   "key": "str:08E7B0",
+   "src": "0308a0ab636b",
+   "t": "Bip… bip… bip…<NL><END>"
+  },
+  {
+   "key": "str:08E7C0",
+   "src": "0a0fb963a785",
+   "t": "Zzz…zzz… gi…ga…<NL>Iniciar… ataque…<END>"
+  },
+  {
+   "key": "str:08E7DC",
+   "src": "46b4c7939a6c",
+   "t": "¡Fuajajaja!<NL>¡Su fuerza no es nada!<END>"
+  },
+  {
+   "key": "str:08E7FC",
+   "src": "b3c084ca34f4",
+   "t": "Uuh…<NL>Otra vez…<END>"
+  },
+  {
+   "key": "str:08E80C",
+   "src": "16532e85d051",
+   "t": "¡Muchachos!<NL>¡Aquí termina todo!<END>"
+  },
+  {
+   "key": "str:08E828",
+   "src": "5cab41b14da4",
+   "t": "Ohohohoho…<NL>¡Ya son míos, chicos!<END>"
+  },
+  {
+   "key": "str:08E848",
+   "src": "1ac4b5e2f0db",
+   "t": "No entienden bromas…<NL><END>"
+  },
+  {
+   "key": "str:08E864",
+   "src": "ad5beb00073e",
+   "t": "¡Bad Pirates Queen<NL>llegó!<END>"
+  },
+  {
+   "key": "str:08E880",
+   "src": "09700f253c73",
+   "t": "Ven conmigo, guapo[<3]<NL><END>"
+  },
+  {
+   "key": "str:08E89C",
+   "src": "24d6a77e589d",
+   "t": "¡Ay!<NL>¡Qué poco tiernos!<END>"
+  },
+  {
+   "key": "str:08E8B0",
+   "src": "95502e4c72a0",
+   "t": "¡Ustedes!<NL>¡Me los llevo a todos!<END>"
+  },
+  {
+   "key": "str:08E8CC",
+   "src": "6ada6b5fd3ee",
+   "t": "¡Nadie me gana!<END>"
+  },
+  {
+   "key": "str:08E8DC",
+   "src": "aee0e7c9b79b",
+   "t": "¡Guaa, perdí!<NL><END>"
+  },
+  {
+   "key": "str:08E8EC",
+   "src": "c1771e8ef160",
+   "t": "¡Soy el mejor!<NL><END>"
+  },
+  {
+   "key": "str:08E8FC",
+   "src": "3f94855a5127",
+   "t": "¡Ganamos-robo!<NL><END>"
+  },
+  {
+   "key": "str:08E914",
+   "src": "4c7b3ee75c4b",
+   "t": "Perdí otra vez-robo…<NL><END>"
+  },
+  {
+   "key": "str:08E928",
+   "src": "6890d7765072",
+   "t": "¿Solo eso-robo? Penoso<END>"
+  },
+  {
+   "key": "str:08E940",
+   "src": "f5fb416e090e",
+   "t": "Perdí con honor-robo…<NL><END>"
+  },
+  {
+   "key": "str:08E958",
+   "src": "91c9ceabef8b",
+   "t": "¡Pelea limpia-robo!<NL><END>"
+  },
+  {
+   "key": "str:08E970",
+   "src": "50618155b5c3",
+   "t": "Ug… al fin respiro…<NL><END>"
+  },
+  {
+   "key": "str:08E99C",
+   "src": "afac89fe6405",
+   "t": "¡Cof! ¡Cof! ……<NL>Volveré a quitártelo…<END>"
+  },
+  {
+   "key": "str:08E9BC",
+   "src": "5d9098048b5c",
+   "t": "Este bloque tan verde…<NL>cof… no… ¡no lo cedo!<END>"
+  },
+  {
+   "key": "str:08E9EC",
+   "src": "adb09ab4d99e",
+   "t": "Cof, cof…<NL>¿Estás listo…? cof…<END>"
+  },
+  {
+   "key": "str:08EA08",
+   "src": "4a2daf26a7aa",
+   "t": "Y me faltaba un paso…<NL><END>"
+  },
+  {
+   "key": "str:08EA1C",
+   "src": "1e5052f35d8a",
+   "t": "Su fuerza… cof… la voy<NL>a tomar despacio… cof…<END>"
+  },
+  {
+   "key": "str:08EA4C",
+   "src": "a138a452d4bb",
+   "t": "¡Fuaaa ja ja ja!<NL>¡Hasta aquí llegaron!<END>"
+  },
+  {
+   "key": "str:08EA6C",
+   "src": "cd5db6b5abb9",
+   "t": "Ggg… ¿hasta aquí?…<NL>¡No! Esto no acaba así<END>"
+  },
+  {
+   "key": "str:08EA90",
+   "src": "6e5c348d094c",
+   "t": "¡Raiun no cae dos<NL>veces en lo mismo!<END>"
+  },
+  {
+   "key": "str:08EAB0",
+   "src": "0c5aa3412822",
+   "t": "¡Fuaaa ja ja ja! Niño:<NL>¡elige bien tu rival!<END>"
+  },
+  {
+   "key": "str:08EAD0",
+   "src": "34028839ca72",
+   "t": "Mmm… esto no se queda<NL>así<END>"
+  },
+  {
+   "key": "str:08EAE4",
+   "src": "0651f7c34385",
+   "t": "¡Fuaaa ja ja ja! Es un<NL>honor pelear con Raiun<END>"
+  },
+  {
+   "key": "str:08EB14",
+   "src": "0c4184d1100b",
+   "t": "Perdí, pero no me<NL>molesta-robo…<END>"
+  },
+  {
+   "key": "str:08EB2C",
+   "src": "ac8052ac420f",
+   "t": "¡Así no me basta-robo!<NL>¡Quiero más acción!<END>"
+  },
+  {
+   "key": "str:08EB4C",
+   "src": "6278fe1c6515",
+   "t": "Me quedé a gusto-robo<NL><END>"
+  },
+  {
+   "key": "str:08EB60",
+   "src": "a0071826e2d7",
+   "t": "¡Les soltaremos todo<NL>nuestro rencor-robo!<END>"
+  },
+  {
+   "key": "str:08EB7C",
+   "src": "9e8645bfeb50",
+   "t": "¿Q… qué hacemos-robo…?<NL><END>"
+  },
+  {
+   "key": "str:08EB8C",
+   "src": "b99dca7dc06e",
+   "t": "Uf… ganamos-robo<NL><END>"
+  },
+  {
+   "key": "str:08EBA0",
+   "src": "829f4a731849",
+   "t": "Somos inútiles-robo…<NL><END>"
+  },
+  {
+   "key": "str:08EBB4",
+   "src": "5cdf7ba19758",
+   "t": "¡Este bloque no se lo<NL>cedo a ustedes-robo!<END>"
+  },
+  {
+   "key": "str:08EBD0",
+   "src": "19715b91a43d",
+   "t": "P… perdimos-robo…<NL><END>"
+  },
+  {
+   "key": "str:08EBE0",
+   "src": "88221101ba5b",
+   "t": "¡Esta vez sí lo<NL>defenderemos-robo!<END>"
+  },
+  {
+   "key": "str:08EBF4",
+   "src": "866082c236f5",
+   "t": "¡Este bloque no es<NL>para nadie más-robo!<END>"
+  },
+  {
+   "key": "str:08EC0C",
+   "src": "917f3fcde93b",
+   "t": "¡Sperobo peligra-robo!<NL><END>"
+  },
+  {
+   "key": "str:08EC20",
+   "src": "951fa74c8ecf",
+   "t": "¡Este lugar lo<NL>defendemos-robo!<END>"
+  },
+  {
+   "key": "str:08EC38",
+   "src": "6e879b91faf4",
+   "t": "¡Ustedes también, a<NL>entrenar con agallas!<END>"
+  },
+  {
+   "key": "str:08EC58",
+   "src": "266e944423bd",
+   "t": "¡Aún me falta ánimo!<NL>¡Me faltan agallas!<END>"
+  },
+  {
+   "key": "str:08EC80",
+   "src": "f320269ef74a",
+   "t": "¡Nada supera al ánimo<NL>y las agallas!<END>"
+  },
+  {
+   "key": "str:08ECA0",
+   "src": "aa2a30304982",
+   "t": "El ánimo trae victoria<NL>Las agallas son todo<END>"
+  },
+  {
+   "key": "str:08ECC4",
+   "src": "6421c338b1ac",
+   "t": "Aún me falta ánimo,<NL>parece<END>"
+  },
+  {
+   "key": "str:08ECDC",
+   "src": "2d5b0560b46d",
+   "t": "¡En todo, agallas!<NL>¡En todo, ánimo!<END>"
+  },
+  {
+   "key": "str:08ECFC",
+   "src": "41f7f8568c6f",
+   "t": "¿Q… qué tal… con<NL>esto…? cof, cof…<END>"
+  },
+  {
+   "key": "str:08ED18",
+   "src": "96832dbaf0bb",
+   "t": "O… otra vez… cof, cof…<NL>mi… mi dolencia… ug…<END>"
+  },
+  {
+   "key": "str:08ED3C",
+   "src": "e6d5433e4073",
+   "t": "Este Smog… cof… cof…<NL>no tantas veces… ¡cof!<END>"
+  },
+  {
+   "key": "str:08ED6C",
+   "src": "82b8470e397a",
+   "t": "Cof… este es… ug…<NL>mi… poder… cof…<END>"
+  },
+  {
+   "key": "str:08ED94",
+   "src": "4ae630dbb6a8",
+   "t": "Cof, cof… aquí…<NL>este es… mi lí… mite…<END>"
+  },
+  {
+   "key": "str:08EDB8",
+   "src": "9e3ce1eac7a3",
+   "t": "Por ahora… de aquí…<NL>cof… no… pasarán… ug…<END>"
+  },
+  {
+   "key": "str:08EDE8",
+   "src": "e3f68c261159",
+   "t": "¡No me subestimen!<NL>¡Eso no se hace!<END>"
+  },
+  {
+   "key": "str:08EE04",
+   "src": "4896ab732565",
+   "t": "¡Nuuaaa! ¡Perdí otra<NL>vez!<END>"
+  },
+  {
+   "key": "str:08EE1C",
+   "src": "b0c217d6a077",
+   "t": "¡Por el orgullo de<NL>Nyuudou, no perderé!<END>"
+  },
+  {
+   "key": "str:08EE3C",
+   "src": "c1bb998383db",
+   "t": "¡Gajajaja!<NL>¡Ya es de los Sperobo!<END>"
+  },
+  {
+   "key": "str:08EE5C",
+   "src": "de5842d1df95",
+   "t": "M… me derrotaron…<NL><END>"
+  },
+  {
+   "key": "str:08EE70",
+   "src": "53018cb005e2",
+   "t": "¡Les mostraré la<NL>fuerza de los Sperobo!<END>"
+  },
+  {
+   "key": "str:08EE88",
+   "src": "088e4a2164bd",
+   "t": "¿Será que nosotros…<NL>somos buenos-robo?<END>"
+  },
+  {
+   "key": "str:08EEA4",
+   "src": "9159302cf61d",
+   "t": "No veo esperanza-robo…<NL><END>"
+  },
+  {
+   "key": "str:08EEB8",
+   "src": "0d3aa86185bb",
+   "t": "¿De verdad hay que<NL>robobatallar-robo?<END>"
+  },
+  {
+   "key": "str:08EED4",
+   "src": "c3c08c64990b",
+   "t": "Ganamos-robo…<NL>No estamos tan mal<END>"
+  },
+  {
+   "key": "str:08EEF8",
+   "src": "5d259c2b0514",
+   "t": "Tocamos fondo-robo…<NL><END>"
+  },
+  {
+   "key": "str:08EF0C",
+   "src": "a6e2ff4aff34",
+   "t": "Ya no hay vuelta atrás<NL>¡A pelear-robo!<END>"
+  },
+  {
+   "key": "str:08EF28",
+   "src": "1db2a1629451",
+   "t": "¡Defendimos nuestro<NL>bloque-robo!<END>"
+  },
+  {
+   "key": "str:08EF44",
+   "src": "0d75088381bc",
+   "t": "Nos echaron otra<NL>vez-robo…<END>"
+  },
+  {
+   "key": "str:08EF58",
+   "src": "56dbe0eab55c",
+   "t": "¡Este bloque es<NL>nuestro-robo!<END>"
+  },
+  {
+   "key": "str:08EF70",
+   "src": "53e5e488b77f",
+   "t": "¿Qué tal-robo?<NL>¡Si queremos, podemos!<END>"
+  },
+  {
+   "key": "str:08EF8C",
+   "src": "8266589784a8",
+   "t": "¡Qué problema-robo!<NL>¡Nos derrotaron!<END>"
+  },
+  {
+   "key": "str:08EFA4",
+   "src": "e24daf1d2271",
+   "t": "¡Ahora nos toca a<NL>nosotros-robo!<END>"
+  },
+  {
+   "key": "str:08EFB8",
+   "src": "04ee1e030f96",
+   "t": "Haaay…<NL>¿Esto era todo…?<END>"
+  },
+  {
+   "key": "str:08EFCC",
+   "src": "84b90fd750aa",
+   "t": "Ay… qué horror…<NL><END>"
+  },
+  {
+   "key": "str:08EFDC",
+   "src": "b91740f19ae6",
+   "t": "¡¿Eeeh?! ¿Por quéee…?<NL><END>"
+  },
+  {
+   "key": "str:08EFEC",
+   "src": "e8886749207f",
+   "t": "Ganamos fácil-robo<NL>¡Sirvió entrenar!<END>"
+  },
+  {
+   "key": "str:08F010",
+   "src": "00ad8c1dd763",
+   "t": "Sin resultados-robo…<NL><END>"
+  },
+  {
+   "key": "str:08F024",
+   "src": "8977651a2bd1",
+   "t": "¡Verán el fruto del<NL>entrenamiento-robo!<END>"
+  },
+  {
+   "key": "str:08F03C",
+   "src": "843a3ab81262",
+   "t": "¡El entrenamiento dio<NL>fruto-robo!<END>"
+  },
+  {
+   "key": "str:08F050",
+   "src": "027542e98c27",
+   "t": "¿Eh…? Qué raro-robo…<NL>¿Por qué perdimos…?<END>"
+  },
+  {
+   "key": "str:08F074",
+   "src": "0348149b978f",
+   "t": "¡Nosotros somos<NL>diferentes-robo!<END>"
+  },
+  {
+   "key": "str:08F088",
+   "src": "612ba12963b5",
+   "t": "Resultado obvio…<NL><END>"
+  },
+  {
+   "key": "str:08F098",
+   "src": "d3afd7c6c7cd",
+   "t": "Q… que pase esto…<NL><END>"
+  },
+  {
+   "key": "str:08F0A8",
+   "src": "8fddd188c787",
+   "t": "¿Podrán ustedes ser<NL>rivales para mí?<END>"
+  },
+  {
+   "key": "str:08F0C4",
+   "src": "ab1f4d76c369",
+   "t": "Actividad detenida…<NL>Programa terminado…<END>"
+  },
+  {
+   "key": "str:08F0E4",
+   "src": "6efc1623234c",
+   "t": "…Bip bip… bip…<NL>Estado no sostenible…<END>"
+  },
+  {
+   "key": "str:08F100",
+   "src": "e235ca94f23b",
+   "t": "Bip… procedo a purgar…<NL><END>"
+  },
+  {
+   "key": "str:08F114",
+   "src": "df6b844269f1",
+   "t": "Deuda saldada…<NL>¡Hmpf!<END>"
+  },
+  {
+   "key": "str:08F128",
+   "src": "2da63c93632d",
+   "t": "····<NL>Me vencieron<END>"
+  },
+  {
+   "key": "str:08F134",
+   "src": "b4d4433fe548",
+   "t": "Lo prestado se<NL>devuelve… hmpf…<END>"
+  },
+  {
+   "key": "str:08F150",
+   "src": "57fafaad6cf4",
+   "t": "Juju… acabar aquí…<NL>ese es… tu destino…<END>"
+  },
+  {
+   "key": "str:08F174",
+   "src": "69ebc064b919",
+   "t": "Se repetirá una y otra<NL>vez… eso… es destino…<END>"
+  },
+  {
+   "key": "str:08F194",
+   "src": "6e3287ca403b",
+   "t": "Adonde yo esté…<NL>tú… vendrás…<END>"
+  },
+  {
+   "key": "str:08F1B4",
+   "src": "53d1e98c0365",
+   "t": "¿Aquí… para… siempre…?<NL><END>"
+  },
+  {
+   "key": "str:08F1C8",
+   "src": "b865ad575098",
+   "t": "Que me sigas…<NL>eso es… el destino…<END>"
+  },
+  {
+   "key": "str:08F1E8",
+   "src": "554213a3b5ae",
+   "t": "Tú… me encontraste…<NL>esto es… el destino…<END>"
+  },
+  {
+   "key": "str:08F20C",
+   "src": "a11110f358bd",
+   "t": "¡Lo viste! ¡Este es<NL>mi poder!<END>"
+  },
+  {
+   "key": "str:08F224",
+   "src": "70894cfbeb20",
+   "t": "Nnn… por esta vez te<NL>dejo ir…<END>"
+  },
+  {
+   "key": "str:08F244",
+   "src": "7e74a6ebeaf9",
+   "t": "¡<PLAYER><NL>no es rival para mí!<END>"
+  },
+  {
+   "key": "str:08F25C",
+   "src": "ba8855521972",
+   "t": "¡Hmpf!<NL>Está decidido…<END>"
+  },
+  {
+   "key": "str:08F270",
+   "src": "2cf6fc003f11",
+   "t": "····<NL>¿Hasta aquí?<END>"
+  },
+  {
+   "key": "str:08F27C",
+   "src": "9709d05bf06a",
+   "t": "¡Hmpf! Ya es hora de<NL>decidirlo… ¡Vamos!<END>"
+  },
+  {
+   "key": "str:08F29C",
+   "src": "6776d5434491",
+   "t": "¿Debí contenerme más?<NL>¡Fuaaa ja ja ja!<END>"
+  },
+  {
+   "key": "str:08F2C4",
+   "src": "6dcf5096b8e5",
+   "t": "Me confié demasiado…<NL><END>"
+  },
+  {
+   "key": "str:08F2D4",
+   "src": "e219ee3072d0",
+   "t": "Al que estorbe mi paso<NL>¡no habrá piedad!<END>"
+  },
+  {
+   "key": "str:08F2F8",
+   "src": "8348b1658870",
+   "t": "Mog… ahí estorbas mog…<NL><END>"
+  },
+  {
+   "key": "str:08F310",
+   "src": "0047872eb397",
+   "t": "Mog… mog…<NL><END>"
+  },
+  {
+   "key": "str:08F31C",
+   "src": "a2e0f8bf2f70",
+   "t": "Mog… estorbas mog…<NL><END>"
+  },
+  {
+   "key": "str:08F32C",
+   "src": "4813eff8f1d0",
+   "t": "Juju… juju… del<NL>destino nadie escapa…<END>"
+  },
+  {
+   "key": "str:08F358",
+   "src": "7d613eb5e10f",
+   "t": "Perder es… el destino…<NL>Volver a vernos… igual<END>"
+  },
+  {
+   "key": "str:08F380",
+   "src": "cf8d7ac9dc37",
+   "t": "<PLAYER>… tú y yo…<NL>estábamos destinados…<END>"
+  },
+  {
+   "key": "str:08F3A4",
+   "src": "8640a7b35ba3",
+   "t": "Estaba en la bola…<NL>tal cual… el destino…<END>"
+  },
+  {
+   "key": "str:08F3D0",
+   "src": "17c39611b452",
+   "t": "…Esta robobatalla…<NL>es alguna señal…<END>"
+  },
+  {
+   "key": "str:08F3EC",
+   "src": "4aa146ceffd3",
+   "t": "Juju… vernos aquí…<NL>también es destino…<END>"
+  },
+  {
+   "key": "str:08F408",
+   "src": "8566c49914a1",
+   "t": "¡No nos ganas en cosas<NL>de Medabots!<END>"
+  },
+  {
+   "key": "str:08F428",
+   "src": "ae6f0f62f10b",
+   "t": "Es injusto que también<NL>seas bueno en batalla…<END>"
+  },
+  {
+   "key": "str:08F440",
+   "src": "c9eaed1a38e6",
+   "t": "¡Por Kirika hago lo<NL>que sea!<END>"
+  },
+  {
+   "key": "str:08F45C",
+   "src": "cd055a9c51e6",
+   "t": "Ji ji ji… Bueno,<NL>no estuvo tan mal…<END>"
+  },
+  {
+   "key": "str:08F47C",
+   "src": "0a8fa71f5f63",
+   "t": "¡Pero qué horror…!<NL>¡Esto no puede pasar…!<END>"
+  },
+  {
+   "key": "str:08F4A0",
+   "src": "066474e64f64",
+   "t": "¿Y ustedes creen que<NL>me pueden ganar a mí?<END>"
+  },
+  {
+   "key": "str:08F4C4",
+   "src": "3e01d8c42cc4",
+   "t": "¡Hay alguien más débil<NL>que nosotros-robo!<END>"
+  },
+  {
+   "key": "str:08F4DC",
+   "src": "caf4f1d6e05c",
+   "t": "Ya nada importa-robo…<NL><END>"
+  },
+  {
+   "key": "str:08F4F0",
+   "src": "c1b464e106ba",
+   "t": "Ni modo, toca<NL>robobatallar-robo<END>"
+  },
+  {
+   "key": "str:08F504",
+   "src": "8816b6bbee9c",
+   "t": "¡Son muy débiles-robo!<NL>¡No son rivales-robo!<END>"
+  },
+  {
+   "key": "str:08F520",
+   "src": "f04a1274897f",
+   "t": "Ay… no pudimos-robo…<NL><END>"
+  },
+  {
+   "key": "str:08F534",
+   "src": "8d2b8dd0ad0b",
+   "t": "¡No perderemos tan<NL>fácil-robo!<END>"
+  },
+  {
+   "key": "str:08F54C",
+   "src": "8bea4c966f72",
+   "t": "¡Ya somos todos unos<NL>expertos-robo!<END>"
+  },
+  {
+   "key": "str:08F564",
+   "src": "58ac8f1ae541",
+   "t": "Ay… otro castigo-robo…<NL><END>"
+  },
+  {
+   "key": "str:08F578",
+   "src": "811215b07a17",
+   "t": "Siempre nos estorban…<NL>¿qué les hicimos-robo?<END>"
+  },
+  {
+   "key": "str:08F598",
+   "src": "ad9646d2cc2f",
+   "t": "¡Ya aprendieron-robo!<NL><END>"
+  },
+  {
+   "key": "str:08F5A8",
+   "src": "2a2c07f93099",
+   "t": "¡Q-qué fuertes-robo!<NL><END>"
+  },
+  {
+   "key": "str:08F5B8",
+   "src": "73b359ec8d0c",
+   "t": "¡Los detenemos-robo!<NL><END>"
+  },
+  {
+   "key": "str:08F5CC",
+   "src": "24af741c483a",
+   "t": "¿Está bien-robo? ¿Sí?<NL>¿Podemos ganar-robo?<END>"
+  },
+  {
+   "key": "str:08F5EC",
+   "src": "08c102316e28",
+   "t": "Ya vámonos-robo…<NL><END>"
+  },
+  {
+   "key": "str:08F600",
+   "src": "fa005909ad00",
+   "t": "¿De verdad hay que<NL>robobatallar aquí?<END>"
+  },
+  {
+   "key": "str:08F618",
+   "src": "bf0f186a43ea",
+   "t": "La libramos-robo…<NL><END>"
+  },
+  {
+   "key": "str:08F628",
+   "src": "6bddabc163c1",
+   "t": "Nos regañarán-robo…<NL><END>"
+  },
+  {
+   "key": "str:08F638",
+   "src": "1556bb1af56a",
+   "t": "Con frío y de guardia…<NL>¡Es culpa suya-robo!<END>"
+  },
+  {
+   "key": "str:08F658",
+   "src": "7d2fb53c0021",
+   "t": "Je je… al fin te<NL>atrapé… mi destino…<END>"
+  },
+  {
+   "key": "str:08F67C",
+   "src": "a851a36e92f5",
+   "t": "Nos vimos otra vez…<NL>esto es… el destino…<END>"
+  },
+  {
+   "key": "str:08F6A4",
+   "src": "b8fa19b476d7",
+   "t": "…el destino… no se<NL>puede evitar…<END>"
+  },
+  {
+   "key": "str:08F6C0",
+   "src": "d7ddcc6dabc4",
+   "t": "…¿este es mi destino…?<NL><END>"
+  },
+  {
+   "key": "str:08F6D8",
+   "src": "59675fd42b2f",
+   "t": "Vernos aquí… destino…<NL>¿pelear… también?<END>"
+  },
+  {
+   "key": "str:08F6FC",
+   "src": "262da374168e",
+   "t": "¡Regresa cuando seas<NL>fuerte! ¡Oye!<END>"
+  },
+  {
+   "key": "str:08F710",
+   "src": "4d1337f65d82",
+   "t": "¡Nada mal! ¡Oye!!<NL><END>"
+  },
+  {
+   "key": "str:08F720",
+   "src": "c8461994954b",
+   "t": "¡Somos la Banda<NL>Sperobo! ¡Vengan ya!<END>"
+  },
+  {
+   "key": "str:08F73C",
+   "src": "5e0532c32a1b",
+   "t": "Ven, vámonos juntos…<NL><END>"
+  },
+  {
+   "key": "str:08F754",
+   "src": "4e2b48e1aa7c",
+   "t": "Ay, qué frío eres…<NL><END>"
+  },
+  {
+   "key": "str:08F76C",
+   "src": "607a035f94c1",
+   "t": "¡Esta vez sí te vienes<NL>conmigo!<END>"
+  },
+  {
+   "key": "str:08F78C",
+   "src": "e790ad4fb0cd",
+   "t": "No eras para tanto…<NL>¡qué decepción!<END>"
+  },
+  {
+   "key": "str:08F7B0",
+   "src": "d6da18308340",
+   "t": "No están nada mal…<NL><END>"
+  },
+  {
+   "key": "str:08F7C4",
+   "src": "96f3b8502319",
+   "t": "Si pierden la batalla,<NL>harán lo que yo diga[<3]<END>"
+  },
+  {
+   "key": "str:08F7E8",
+   "src": "674db097068b",
+   "t": "Ja ja ja…<NL>Vístete mejor y vuelve<END>"
+  },
+  {
+   "key": "str:08F804",
+   "src": "5f098b7f9afc",
+   "t": "Ay, mi ropa favorita…<NL><END>"
+  },
+  {
+   "key": "str:08F81C",
+   "src": "a791b461f942",
+   "t": "Arréglate un poco…<NL>¡el estilo da fuerza!<END>"
+  },
+  {
+   "key": "str:08F844",
+   "src": "055a5d000b1c",
+   "t": "¡No perderemos-robo!<NL><END>"
+  },
+  {
+   "key": "str:08F858",
+   "src": "2f89f2477f33",
+   "t": "No pudimos-robo…<NL><END>"
+  },
+  {
+   "key": "str:08F868",
+   "src": "aa964ec224ac",
+   "t": "¡No podemos perder<NL>contra ustedes-robo!<END>"
+  },
+  {
+   "key": "str:08F884",
+   "src": "7d96faa03505",
+   "t": "¡Esto nos va a<NL>ascender-robo!<END>"
+  },
+  {
+   "key": "str:08F89C",
+   "src": "ed80e53b68b2",
+   "t": "Estamos perdidos-robo…<NL><END>"
+  },
+  {
+   "key": "str:08F8A8",
+   "src": "eb3b9568544d",
+   "t": "¡Dejaremos de ser<NL>los últimos-robo!<END>"
+  },
+  {
+   "key": "str:08F8BC",
+   "src": "3a3cb6540985",
+   "t": "¡Caer ante Raiun es un<NL>honor! ¡Fuaaa ja ja!<END>"
+  },
+  {
+   "key": "str:08F8EC",
+   "src": "8b5607330a50",
+   "t": "Mmm, ya veo…<NL>ya calé tus técnicas…<END>"
+  },
+  {
+   "key": "str:08F90C",
+   "src": "30d229eb9e80",
+   "t": "Toparnos aquí… ¡Raiun<NL>te va a hacer polvo!<END>"
+  },
+  {
+   "key": "str:08F940",
+   "src": "525692ba0e4b",
+   "t": "Que me salvara él…<NL>qué vergüenza…<END>"
+  },
+  {
+   "key": "str:08F960",
+   "src": "e1a8cb4d13a4",
+   "t": "¡¿Qué significa esto?!<NL><END>"
+  },
+  {
+   "key": "str:08F974",
+   "src": "084f9f27f25a",
+   "t": "Olvidarnos así…<NL>¡¿quién te crees?!<END>"
+  },
+  {
+   "key": "str:08F990",
+   "src": "5229823c1072",
+   "t": "¡Topar con Raiun es tu<NL>mala suerte! ¡Fuaaa!<END>"
+  },
+  {
+   "key": "str:08F9BC",
+   "src": "f3b7f290409f",
+   "t": "Ugh……<NL>me descuidé…<END>"
+  },
+  {
+   "key": "str:08F9D0",
+   "src": "964f7033274a",
+   "t": "¡Fuaaa ja ja ja!<NL>¡Verás el infierno!<END>"
+  },
+  {
+   "key": "str:08F9F0",
+   "src": "2331b857458e",
+   "t": "¡Cof! ¿Qué tal? Cof…<NL>aunque sea débil… cof…<END>"
+  },
+  {
+   "key": "str:08FA18",
+   "src": "0558d93b0299",
+   "t": "Cof… vencido por unos<NL>niños… cof…<END>"
+  },
+  {
+   "key": "str:08FA34",
+   "src": "f758d1b495e2",
+   "t": "¡Esta naturaleza… cof!<NL>¡no… la cederé… cof…!<END>"
+  },
+  {
+   "key": "str:08FA60",
+   "src": "a60bd4ead6fc",
+   "t": "Cof cof cof…<NL>Ser fuerte no basta…<END>"
+  },
+  {
+   "key": "str:08FA84",
+   "src": "dab0aa2bf4ba",
+   "t": "Cof cof cof…<NL>Este cuerpo mío……<END>"
+  },
+  {
+   "key": "str:08FA9C",
+   "src": "4db34ef79361",
+   "t": "¿Quieres enfrentarte a<NL>Smog…? …cof<END>"
+  },
+  {
+   "key": "str:08FABC",
+   "src": "12eee33f4b18",
+   "t": "¡Hmp! No conocen sus<NL>límites…<END>"
+  },
+  {
+   "key": "str:08FAD0",
+   "src": "db85be42fcd4",
+   "t": "¡Hmp!!<NL><END>"
+  },
+  {
+   "key": "str:08FAD8",
+   "src": "5d58c291cbac",
+   "t": "¡Hmp!<NL><END>"
+  },
+  {
+   "key": "str:08FAE0",
+   "src": "77f87ec41924",
+   "t": "¡Contemplen mi fuerza!<NL><END>"
+  },
+  {
+   "key": "str:08FAF8",
+   "src": "a102e202c3e3",
+   "t": "Ahora sí sabrán qué<NL>puede la Banda Sperobo<END>"
+  },
+  {
+   "key": "str:08FB18",
+   "src": "69cfe8f3d7f5",
+   "t": "¡Ja ja ja! Esto<NL>es pan comido<END>"
+  },
+  {
+   "key": "str:08FB40",
+   "src": "86ba44309823",
+   "t": "Aún me falta fuerza<NL><END>"
+  },
+  {
+   "key": "str:08FB58",
+   "src": "6790d3f18c3e",
+   "t": "Con esa fuerza suya<NL>¡jamás me ganarán!<END>"
+  },
+  {
+   "key": "str:08FB7C",
+   "src": "760bfb840067",
+   "t": "¡Nosotros no perdemos<NL>nunca-robo!<END>"
+  },
+  {
+   "key": "str:08FB94",
+   "src": "b4498066f4bd",
+   "t": "¿Q-qué pasó-robo…?<NL><END>"
+  },
+  {
+   "key": "str:08FBA8",
+   "src": "97dd655ecf86",
+   "t": "¡Es la revancha-robo!<NL><END>"
+  },
+  {
+   "key": "str:08FBBC",
+   "src": "9dbc9d100413",
+   "t": "¡Sí que servimos-robo!<NL><END>"
+  },
+  {
+   "key": "str:08FBD4",
+   "src": "3297c0545783",
+   "t": "Robo robo robo…<NL><END>"
+  },
+  {
+   "key": "str:08FBE0",
+   "src": "949503e13686",
+   "t": "¡No perderemos contra<NL>ustedes-robo!<END>"
+  },
+  {
+   "key": "str:08FBF8",
+   "src": "8968e3c2ab87",
+   "t": "Te tocó un mal rival…<NL>no te sientas mal…<END>"
+  },
+  {
+   "key": "str:08FC1C",
+   "src": "f5f750385dfb",
+   "t": "Que a mí me derroten…<NL><END>"
+  },
+  {
+   "key": "str:08FC30",
+   "src": "0043776b1c9e",
+   "t": "Nadie se interpone en<NL>mi camino<END>"
+  },
+  {
+   "key": "str:08FC48",
+   "src": "49b30e77d099",
+   "t": "INTRUSO DETENIDO…<NL>INICIANDO EXPULSIÓN…<END>"
+  },
+  {
+   "key": "str:08FC6C",
+   "src": "16196af1d6bd",
+   "t": "EXPULSIÓN IMPOSIBLE…<NL><END>"
+  },
+  {
+   "key": "str:08FC84",
+   "src": "db54dab0c890",
+   "t": "BIP… CONFIRMADO:<NL>INTRUSO EN EL BLOQUE<END>"
+  },
+  {
+   "key": "str:08FCAC",
+   "src": "acb98e8fcf0a",
+   "t": "Por querer lucirse<NL>¡les fue muy mal!<END>"
+  },
+  {
+   "key": "str:08FCD0",
+   "src": "4d9805faf279",
+   "t": "Tenga compasión…<NL><END>"
+  },
+  {
+   "key": "str:08FCE4",
+   "src": "87356ae2e4cf",
+   "t": "Por ser jefe de grupo<NL>no se agrande tanto<END>"
+  },
+  {
+   "key": "str:08FD0C",
+   "src": "861d9ce4252c",
+   "t": "OBJETIVO DETENIDO…<NL>EXPULSANDO DEL BLOQUE<END>"
+  },
+  {
+   "key": "str:08FD30",
+   "src": "be881fe6b86f",
+   "t": "FUNCIONES DETENIDAS…<NL><END>"
+  },
+  {
+   "key": "str:08FD40",
+   "src": "e3be1df371d1",
+   "t": "ALERTA… HALLADO ALGO<NL>PELIGROSO: EXPULSAR YA<END>"
+  },
+  {
+   "key": "str:08FD68",
+   "src": "8b9d8baae856",
+   "t": "¿Ese es tu temple…?<NL><END>"
+  },
+  {
+   "key": "str:08FD80",
+   "src": "27523b9a1899",
+   "t": "Nada mal, debo admitir<NL><END>"
+  },
+  {
+   "key": "str:08FD90",
+   "src": "d3dde4ea5505",
+   "t": "¡A ver ese temple<NL>del que tanto hablas!<END>"
+  },
+  {
+   "key": "str:08FDB0",
+   "src": "41c03f0a85f3",
+   "t": "PROGRAMA FINALIZADO…<NL>OBJETIVO EXPULSADO…<END>"
+  },
+  {
+   "key": "str:08FDD4",
+   "src": "e0a9ffa5d51f",
+   "t": "EJECUCIÓN IMPOSIBLE…<NL><END>"
+  },
+  {
+   "key": "str:08FDEC",
+   "src": "07c840a830dc",
+   "t": "EXPULSIÓN FORZOSA:<NL>ELIMINAR AL INTRUSO…<END>"
+  },
+  {
+   "key": "str:08FE18",
+   "src": "9df10284fb56",
+   "t": "¡Oh, jo jo jo jo!<NL>Típico de un plebeyo…<END>"
+  },
+  {
+   "key": "str:08FE44",
+   "src": "0aee4574edde",
+   "t": "Los salvajes son un<NL>problema…<END>"
+  },
+  {
+   "key": "str:08FE5C",
+   "src": "e4dd0ef76e81",
+   "t": "¿Robobatalla? Acepto,<NL>¿pero podrás competir?<END>"
+  },
+  {
+   "key": "str:08FE88",
+   "src": "f0f2f055db08",
+   "t": "Ahora responderás a<NL>nuestras preguntas<END>"
+  },
+  {
+   "key": "str:08FEA4",
+   "src": "a7357ae7e399",
+   "t": "Je… no estás nada mal…<NL><END>"
+  },
+  {
+   "key": "str:08FEBC",
+   "src": "fa10c867baf4",
+   "t": "¡Voy a descubrir quién<NL>eres!<END>"
+  },
+  {
+   "key": "str:08FED4",
+   "src": "97d54340086d",
+   "t": "OBJETO… EN SILENCIO…<NL>ATAQUE FINALIZADO… BIP<END>"
+  },
+  {
+   "key": "str:08FEF4",
+   "src": "07b87f729fde",
+   "t": "FALLA DE FUNCIONES…<NL>EVASIÓN IMPOSIBLE…<END>"
+  },
+  {
+   "key": "str:08FF14",
+   "src": "74d7a355c2cc",
+   "t": "GR… OBJETO DETECTADO…<NL>INICIANDO ATAQUE…<END>"
+  },
+  {
+   "key": "str:08FF30",
+   "src": "3c252c06e288",
+   "t": "GRR GRR… GRR GRR…<NL>GRIC… GRIC… GRIC…<END>"
+  },
+  {
+   "key": "str:08FF50",
+   "src": "f54bf3d7074f",
+   "t": "GRI… GR… …<NL><END>"
+  },
+  {
+   "key": "str:08FF60",
+   "src": "daeefd8f1478",
+   "t": "GR… A-TA-QUE…<NL><END>"
+  },
+  {
+   "key": "str:08FF70",
+   "src": "dacd3b4fe696",
+   "t": "Puro cuento…<NL><END>"
+  },
+  {
+   "key": "str:08FF80",
+   "src": "99e5f6c24a17",
+   "t": "Me vencieron…<NL><END>"
+  },
+  {
+   "key": "str:08FF90",
+   "src": "65b68a99c2ea",
+   "t": "¡Yo soy mejor!<END>"
+  },
+  {
+   "key": "str:0906F4",
+   "src": "8c693c5dadd2",
+   "t": "Combate"
+  },
+  {
+   "key": "str:090704",
+   "src": "4000dce4eda1",
+   "t": "Audaz"
+  },
+  {
+   "key": "str:09070C",
+   "src": "13900fd793f5",
+   "t": "Certero"
+  },
+  {
+   "key": "str:090714",
+   "src": "ce93a603bec7",
+   "t": "Guardia"
+  },
+  {
+   "key": "str:09071C",
+   "src": "b290ab06a9c2",
+   "t": "Trampas"
+  },
+  {
+   "key": "str:090724",
+   "src": "b2fe70691a58",
+   "t": "Sanador"
+  },
+  {
+   "key": "str:09072C",
+   "src": "f3dc7779e5bb",
+   "t": "Único"
+  },
+  {
+   "key": "str:090734",
+   "src": "48d89c2ff255",
+   "t": "Apoyo"
+  },
+  {
+   "key": "str:09073C",
+   "src": "203bae3f5945",
+   "t": "Estorbo"
+  },
+  {
+   "key": "str:090744",
+   "src": "ad284e9087f0",
+   "t": "Rapidez"
+  },
+  {
+   "key": "str:090754",
+   "src": "674e091fbdd7",
+   "t": "Prioriza las patas"
+  },
+  {
+   "key": "str:090788",
+   "src": "deb066ae58e9",
+   "t": "Ataca al Medabot<NL>más cercano"
+  },
+  {
+   "key": "str:0907BC",
+   "src": "111174e727d7",
+   "t": "Apunta a las patas"
+  },
+  {
+   "key": "str:090BF8",
+   "src": "fe47f85a0d20",
+   "t": "Tajo vert"
+  },
+  {
+   "key": "str:090C08",
+   "src": "19ab5e307dec",
+   "t": "Ataque de Medafuerza"
+  },
+  {
+   "key": "str:090C3C",
+   "src": "4fc9be9de4a2",
+   "t": "Daña todas las partes<NL>de un rival"
+  },
+  {
+   "key": "str:0929A0",
+   "src": "fb32e2c6abdb",
+   "t": "SonStag"
+  },
+  {
+   "key": "str:092BD8",
+   "src": "ec0f2eb18e39",
+   "t": "Mortal"
+  },
+  {
+   "key": "str:092BE0",
+   "src": "8a6432767437",
+   "t": "AmblBat"
+  },
+  {
+   "key": "str:092BE8",
+   "src": "9b2d2026b8e4",
+   "t": "Feeler"
+  },
+  {
+   "key": "str:092BF0",
+   "src": "e839ae6bd562",
+   "t": "Sagitar"
+  },
+  {
+   "key": "str:092BF8",
+   "src": "783f2935a044",
+   "t": "Sparrow"
+  },
+  {
+   "key": "str:092C00",
+   "src": "4d8b13467408",
+   "t": "Tripter"
+  },
+  {
+   "key": "str:092C08",
+   "src": "b356eea9eff2",
+   "t": "SilLeaf"
+  },
+  {
+   "key": "str:092C18",
+   "src": "cf39dce7b952",
+   "t": "2Seater"
+  },
+  {
+   "key": "str:092C20",
+   "src": "088952058bf1",
+   "t": "HamTune"
+  },
+  {
+   "key": "str:092C28",
+   "src": "949f95b8e107",
+   "t": "Bouquet"
+  },
+  {
+   "key": "str:092C30",
+   "src": "f406fbcc1222",
+   "t": "Nectar"
+  },
+  {
+   "key": "str:092C78",
+   "src": "d96c34588d4c",
+   "t": "AwakeMe"
+  },
+  {
+   "key": "str:092C80",
+   "src": "4ede0e5983d4",
+   "t": "PupBeet"
+  },
+  {
+   "key": "str:092C88",
+   "src": "6d5a28bda67f",
+   "t": "PupStag"
+  },
+  {
+   "key": "str:092C90",
+   "src": "7381f8b94a59",
+   "t": "Mistral"
+  },
+  {
+   "key": "str:092C98",
+   "src": "bbbbb21cbcea",
+   "t": "Lamplit"
+  },
+  {
+   "key": "str:092CA0",
+   "src": "b2a0e4e79570",
+   "t": "RoseBud"
+  },
+  {
+   "key": "str:092CB0",
+   "src": "15d2acbaa182",
+   "t": "Acuario"
+  },
+  {
+   "key": "str:092CB8",
+   "src": "1d73044dd13c",
+   "t": "Libra"
+  },
+  {
+   "key": "str:092CC0",
+   "src": "3b39dbf3a505",
+   "t": "Giraffe"
+  },
+  {
+   "key": "str:092CC8",
+   "src": "8c54e64f93a8",
+   "t": "ZeroSui"
+  },
+  {
+   "key": "str:092CD0",
+   "src": "10853666f114",
+   "t": "Cheeper"
+  },
+  {
+   "key": "str:092CD8",
+   "src": "5029c8d72e18",
+   "t": "Gedamar"
+  },
+  {
+   "key": "str:092D00",
+   "src": "dc85b7557cb9",
+   "t": "Aries"
+  },
+  {
+   "key": "str:092D08",
+   "src": "abef8081bb10",
+   "t": "Cáncer"
+  },
+  {
+   "key": "str:092D18",
+   "src": "3d227414a4dc",
+   "t": "SizeCut"
+  },
+  {
+   "key": "str:092D20",
+   "src": "acba3af6ceaa",
+   "t": "Monocle"
+  },
+  {
+   "key": "str:092D28",
+   "src": "11600cf69555",
+   "t": "Flower"
+  },
+  {
+   "key": "str:092D38",
+   "src": "c167f22ed204",
+   "t": "Capric"
+  },
+  {
+   "key": "str:092D40",
+   "src": "24214580dfb9",
+   "t": "HopHop"
+  },
+  {
+   "key": "str:092D48",
+   "src": "e805176ff6f0",
+   "t": "Gaisize"
+  },
+  {
+   "key": "str:092D70",
+   "src": "19cebfa2eeab",
+   "t": "MedaKpr"
+  },
+  {
+   "key": "str:092D78",
+   "src": "1737a8031214",
+   "t": "Ashton"
+  },
+  {
+   "key": "str:092D80",
+   "src": "afe8738cae94",
+   "t": "Bahamut"
+  },
+  {
+   "key": "str:092D88",
+   "src": "92b8e953783c",
+   "t": "Vulture"
+  },
+  {
+   "key": "str:092D90",
+   "src": "aeb2a860588c",
+   "t": "Sweet"
+  },
+  {
+   "key": "str:092D98",
+   "src": "979313b22161",
+   "t": "Nutria"
+  },
+  {
+   "key": "str:092DA0",
+   "src": "32d07c46fe05",
+   "t": "DryCyst"
+  },
+  {
+   "key": "str:092DA8",
+   "src": "2a295c3a3ef7",
+   "t": "SonStag"
+  },
+  {
+   "key": "str:092DC0",
+   "src": "3dd586fd0306",
+   "t": "Tauro"
+  },
+  {
+   "key": "str:092DC8",
+   "src": "fc0eea100d93",
+   "t": "Silvari"
+  },
+  {
+   "key": "str:092DD0",
+   "src": "6f39d832a733",
+   "t": "GraBeet"
+  },
+  {
+   "key": "str:092E30",
+   "src": "2eec71acd3f1",
+   "t": "Tolomeo"
+  },
+  {
+   "key": "str:092E38",
+   "src": "5e574d1ba566",
+   "t": "Blazer"
+  },
+  {
+   "key": "str:092E40",
+   "src": "1f0bc03e85ae",
+   "t": "MedMaid"
+  },
+  {
+   "key": "str:092E48",
+   "src": "d7cbcf32c937",
+   "t": "Circled"
+  },
+  {
+   "key": "str:092E50",
+   "src": "0e7ab4491dee",
+   "t": "Pasión"
+  },
+  {
+   "key": "str:092E58",
+   "src": "cb674f2c42db",
+   "t": "Tolomic"
+  },
+  {
+   "key": "str:092E60",
+   "src": "8e90ea7e0e87",
+   "t": "Noel"
+  },
+  {
+   "key": "str:092E68",
+   "src": "a23f9e95f97f",
+   "t": "NaviCom"
+  },
+  {
+   "key": "str:092E70",
+   "src": "3f67f0660b1c",
+   "t": "Ophinix"
+  },
+  {
+   "key": "str:092E78",
+   "src": "8abeb4bf9ef0",
+   "t": "FlakLin"
+  },
+  {
+   "key": "str:092E80",
+   "src": "8ddded57bcbf",
+   "t": "Tapir"
+  },
+  {
+   "key": "str:092EC0",
+   "src": "98910f064233",
+   "t": "Virgo"
+  },
+  {
+   "key": "str:092EC8",
+   "src": "890a820e9125",
+   "t": "Cónico"
+  },
+  {
+   "key": "str:092ED0",
+   "src": "1d3753687421",
+   "t": "Scratch"
+  },
+  {
+   "key": "str:092ED8",
+   "src": "14f8c2253012",
+   "t": "BugStnk"
+  },
+  {
+   "key": "str:092EE0",
+   "src": "119092b6b97f",
+   "t": "SkinLek"
+  },
+  {
+   "key": "str:092EE8",
+   "src": "b5090a75ff14",
+   "t": "Warhead"
+  },
+  {
+   "key": "str:092EF8",
+   "src": "928cee041929",
+   "t": "BugShld"
+  },
+  {
+   "key": "str:092F00",
+   "src": "01918b3b0f38",
+   "t": "Dumpstr"
+  },
+  {
+   "key": "str:092F08",
+   "src": "7761a0f37070",
+   "t": "Mapache"
+  },
+  {
+   "key": "str:092F10",
+   "src": "eff93946c382",
+   "t": "Croco"
+  },
+  {
+   "key": "str:092F20",
+   "src": "ba8fd9657665",
+   "t": "Espejo"
+  },
+  {
+   "key": "str:092F30",
+   "src": "5079721a3d3d",
+   "t": "KaneMk3"
+  },
+  {
+   "key": "str:092F40",
+   "src": "61cf8eb9e073",
+   "t": "Brachio"
+  },
+  {
+   "key": "str:092F48",
+   "src": "2f9c02df244e",
+   "t": "Acrosel"
+  },
+  {
+   "key": "str:092F50",
+   "src": "97f4f60148c0",
+   "t": "Lava"
+  },
+  {
+   "key": "str:092F58",
+   "src": "0a1ec7084b49",
+   "t": "Pecera"
+  },
+  {
+   "key": "str:092F80",
+   "src": "ce901293cdb8",
+   "t": "Dondogu"
+  },
+  {
+   "key": "str:092F88",
+   "src": "36313dda48fd",
+   "t": "OsaBeti"
+  },
+  {
+   "key": "str:092F90",
+   "src": "260d5a5019e4",
+   "t": "SrchRat"
+  },
+  {
+   "key": "str:092F98",
+   "src": "7cf0ab5074f4",
+   "t": "Araña"
+  },
+  {
+   "key": "str:092FC0",
+   "src": "7b33c519ba1d",
+   "t": "Rokusho"
+  },
+  {
+   "key": "str:092FC8",
+   "src": "90aeea67b6d6",
+   "t": "Cantaro"
+  },
+  {
+   "key": "str:092FD0",
+   "src": "0e31ad295fb6",
+   "t": "MachMas"
+  },
+  {
+   "key": "str:092FD8",
+   "src": "aa7cb97e69fc",
+   "t": "ArcBeet"
+  },
+  {
+   "key": "str:092FE0",
+   "src": "aec4b87c5a75",
+   "t": "MskStag"
+  },
+  {
+   "key": "str:093060",
+   "src": "35193c79bfd7",
+   "t": "Pantera"
+  },
+  {
+   "key": "str:093068",
+   "src": "2971d8f859fe",
+   "t": "Blossom"
+  },
+  {
+   "key": "str:093070",
+   "src": "8aaae1e3bb19",
+   "t": "RolStar"
+  },
+  {
+   "key": "str:093078",
+   "src": "53a147544828",
+   "t": "Tortuga"
+  },
+  {
+   "key": "str:09309D",
+   "src": "beb7defd5c95",
+   "t": "Daño"
+  },
+  {
+   "key": "str:0930A7",
+   "src": "80a0290143fe",
+   "t": "Defe"
+  },
+  {
+   "key": "str:0930AC",
+   "src": "b290ab06a9c2",
+   "t": "Tram"
+  },
+  {
+   "key": "str:0930B1",
+   "src": "8a1bcc72190c",
+   "t": "Cura"
+  },
+  {
+   "key": "str:0930B6",
+   "src": "548ead207f08",
+   "t": "Anul"
+  },
+  {
+   "key": "str:0930BB",
+   "src": "4a55edca7d68",
+   "t": "Camb"
+  },
+  {
+   "key": "str:0930C0",
+   "src": "203bae3f5945",
+   "t": "Estr"
+  },
+  {
+   "key": "str:0930C5",
+   "src": "bb7e2bacfdfc",
+   "t": "Mov."
+  },
+  {
+   "key": "str:0930D8",
+   "src": "394438ea8590",
+   "t": "Espada"
+  },
+  {
+   "key": "str:0930F0",
+   "src": "2fa500a7dd5e",
+   "t": "Ataque de combate<NL>básico"
+  },
+  {
+   "key": "str:093124",
+   "src": "f7f57f6434a8",
+   "t": "Ataque rápido, bajo AP"
+  },
+  {
+   "key": "str:095758",
+   "src": "38ab92c72ba1",
+   "t": "Vuelo"
+  },
+  {
+   "key": "str:095768",
+   "src": "27b2342a50ee",
+   "t": "Medabot volador"
+  },
+  {
+   "key": "str:09579C",
+   "src": "5b51c7a654f5",
+   "t": "Fuerte en «arenal»<NL>y «desierto»"
+  },
+  {
+   "key": "str:095AA0",
+   "src": "2dbc8b819f71",
+   "t": "Equipar"
+  },
+  {
+   "key": "str:095AB2",
+   "src": "db132d621cb1",
+   "t": "Campo"
+  },
+  {
+   "key": "str:095AC4",
+   "src": "8deb91b6c73b",
+   "t": "1 aliado"
+  },
+  {
+   "key": "str:095AD6",
+   "src": "73c7ec7a36be",
+   "t": "Todos los aliados"
+  },
+  {
+   "key": "str:095AE8",
+   "src": "952b3b55e7f7",
+   "t": "1 rival"
+  },
+  {
+   "key": "str:095AFA",
+   "src": "eef81fd7f051",
+   "t": "Todos los rivales"
+  },
+  {
+   "key": "str:095B0C",
+   "src": "364c944cc66d",
+   "t": "1 aliado o rival"
+  },
+  {
+   "key": "str:095B1E",
+   "src": "1537345702e4",
+   "t": "Aliados y rivales"
+  },
+  {
+   "key": "str:09BEF0",
+   "src": "682154fa4816",
+   "t": "Rapidez"
+  },
+  {
+   "key": "str:09BEF8",
+   "src": "beb7defd5c95",
+   "t": "Daño"
+  },
+  {
+   "key": "str:09BF08",
+   "src": "80a0290143fe",
+   "t": "Defensa"
+  },
+  {
+   "key": "str:09BF10",
+   "src": "b290ab06a9c2",
+   "t": "Trampa"
+  },
+  {
+   "key": "str:09BF18",
+   "src": "8a1bcc72190c",
+   "t": "Curar"
+  },
+  {
+   "key": "str:09BF20",
+   "src": "548ead207f08",
+   "t": "Anular"
+  },
+  {
+   "key": "str:09BF28",
+   "src": "4a55edca7d68",
+   "t": "Cambio"
+  },
+  {
+   "key": "str:09BF30",
+   "src": "203bae3f5945",
+   "t": "Estorbo"
+  },
+  {
+   "key": "str:0E0694",
+   "src": "05ef79d077c7",
+   "t": "<FACE:69>¡Piérdete!"
+  },
+  {
+   "key": "str:0E06A0",
+   "src": "99e69974b1d6",
+   "t": "<FACE:69>¡Nobita, no te pases!"
+  },
+  {
+   "key": "str:0E06B8",
+   "src": "d67c574966c6",
+   "t": "<FACE:69>Fresco hasta el alba<NL>¡6 horas de frío!<WAIT>Parches para la fiebre<NL>HieloYa"
+  },
+  {
+   "key": "str:0E06E4",
+   "src": "a757ccbf0fb4",
+   "t": "<FACE:69>Comida casera caliente<NL>Cocina Butan<WAIT>¡Reservas OK! TEL FAX<NL>06(6353)7488"
+  },
+  {
+   "key": "str:0E08E8",
+   "src": "8093ec4e9725",
+   "t": "Pulpito "
+  },
+  {
+   "key": "str:0E08F4",
+   "src": "4337db4bb2f5",
+   "t": "Bubuzuke"
+  },
+  {
+   "key": "str:0E0900",
+   "src": "d6829feb6651",
+   "t": "Kasumi  "
+  },
+  {
+   "key": "str:0E090C",
+   "src": "d5f048a9564f",
+   "t": "GraBeet "
+  },
+  {
+   "key": "str:0E0918",
+   "src": "fb32e2c6abdb",
+   "t": "SonStag "
+  },
+  {
+   "key": "str:0E0924",
+   "src": "b8ed04245f6f",
+   "t": "Cabeza"
+  },
+  {
+   "key": "str:0E092C",
+   "src": "89c6e4aaf06b",
+   "t": "Brazo D"
+  },
+  {
+   "key": "str:0E0934",
+   "src": "b837ee4fc883",
+   "t": "Brazo I"
+  },
+  {
+   "key": "str:0E093C",
+   "src": "9ea13a55327f",
+   "t": "Patas"
+  },
+  {
+   "key": "str:0E0960",
+   "src": "26cff0716c38",
+   "t": " en tu poder"
+  },
+  {
+   "key": "str:0E096C",
+   "src": "61206fee803e",
+   "t": " pts de EXP ganados"
+  },
+  {
+   "key": "str:4C6AE2",
+   "src": "92ebc65a36fc",
+   "t": "Destreza +1"
+  },
+  {
+   "key": "str:4C6B14",
+   "src": "087e8b8ed681",
+   "t": "Daño 60"
+  },
+  {
+   "key": "str:4C6B28",
+   "src": "008f312853e9",
+   "t": "Daño 20"
+  },
+  {
+   "key": "str:4C6B3C",
+   "src": "f3b4fb892c85",
+   "t": "Daño 120"
+  },
+  {
+   "key": "str:4C6CE4",
+   "src": "eff9aaf2cd8c",
+   "t": "AREN"
+  },
+  {
+   "key": "str:4C6CEA",
+   "src": "755a0a2a45a6",
+   "t": "DESI"
+  },
+  {
+   "key": "str:4C6CF6",
+   "src": "8abb00f628b7",
+   "t": "MONT"
+  },
+  {
+   "key": "str:4C6CFC",
+   "src": "1933ed789308",
+   "t": "PRAD"
+  },
+  {
+   "key": "str:4C6D02",
+   "src": "d5644870147c",
+   "t": "BOSQ"
+  },
+  {
+   "key": "str:4C6D08",
+   "src": "2ca586ed40dd",
+   "t": "RUTA"
+  },
+  {
+   "key": "str:4C6D0E",
+   "src": "0e7558fd57ff",
+   "t": "CIUD"
+  },
+  {
+   "key": "str:4C6D14",
+   "src": "ba8abb5e480d",
+   "t": "ORIL"
+  },
+  {
+   "key": "str:4C6D1A",
+   "src": "0e235624e10f",
+   "t": "MAR"
+  },
+  {
+   "key": "str:4C6D20",
+   "src": "e02de1ea3e77",
+   "t": "AIRE"
+  },
+  {
+   "key": "str:4C6D26",
+   "src": "9c9a6ac74140",
+   "t": "ESPA"
+  },
+  {
+   "key": "str:4C6DA0",
+   "src": "e0b4a6aa9f42",
+   "t": "L·R·A cambian ajustes"
+  },
+  {
+   "key": "str:4C7558",
+   "src": "e0d5f8f8a954",
+   "t": "--------"
+  },
+  {
+   "key": "str:4C7568",
+   "src": "9a4a1ee84191",
+   "t": "Falta AP"
+  },
+  {
+   "key": "str:4C7578",
+   "src": "0237d2ae180c",
+   "t": "Sin usos"
+  },
+  {
+   "key": "str:4C7588",
+   "src": "b72a4fe6f264",
+   "t": "Anulada"
+  },
+  {
+   "key": "str:4C7598",
+   "src": "e771372df04d",
+   "t": "No sabe"
+  },
+  {
+   "key": "str:4C75A8",
+   "src": "8eec112d5874",
+   "t": "Falta MF"
+  },
+  {
+   "key": "str:4CCCC4",
+   "src": "df4b82dfc7e3",
+   "t": "SELECT: cambia parte"
+  },
+  {
+   "key": "str:4CCCD5",
+   "src": "f9a1ae25ad9f",
+   "t": "SELECT: cambia Medalla"
+  },
+  {
+   "key": "str:4CCCE6",
+   "src": "291ea0150320",
+   "t": "Elige una Medalla"
+  },
+  {
+   "key": "str:4CCCF6",
+   "src": "1781a80e90c0",
+   "t": "¿Cambiar esta parte?"
+  },
+  {
+   "key": "str:4CCD07",
+   "src": "69786c0910b8",
+   "t": "Transfiriendo parte…"
+  },
+  {
+   "key": "str:4CCD14",
+   "src": "3a6ccb688a37",
+   "t": "Intercambio completado"
+  },
+  {
+   "key": "str:4CCD28",
+   "src": "10e9e512e9d4",
+   "t": "No se envió la parte"
+  },
+  {
+   "key": "str:4CCD3C",
+   "src": "8f90d85ec13a",
+   "t": "Sí"
+  },
+  {
+   "key": "str:4CCD3F",
+   "src": "48ef2b674823",
+   "t": "No"
+  },
+  {
+   "key": "str:4CCD43",
+   "src": "67ee672f2faf",
+   "t": "Esperando…"
+  },
+  {
+   "key": "str:4CCD9F",
+   "src": "291ea0150320",
+   "t": "Elige una Medalla"
+  },
+  {
+   "key": "str:4CCDAF",
+   "src": "079b85a242a4",
+   "t": "¿Enviar esta Medalla?"
+  },
+  {
+   "key": "str:4CCDBD",
+   "src": "847b734c6a62",
+   "t": "Transfiriendo Medalla…"
+  },
+  {
+   "key": "str:4CCDCA",
+   "src": "a742aa744743",
+   "t": "Medalla transferida"
+  },
+  {
+   "key": "str:4CCDDE",
+   "src": "bf4e9a009f03",
+   "t": "No se envió la Medalla"
+  },
+  {
+   "key": "str:5D5B2C",
+   "src": "2b66988a881b",
+   "t": "Guarda tu progreso<END>"
+  },
+  {
+   "key": "str:5D5B40",
+   "src": "e49257a378b8",
+   "t": "Revisa el poder de<NL>tus aliados<END>"
+  },
+  {
+   "key": "str:5D5B58",
+   "src": "3dc3a7db094c",
+   "t": "---"
+  },
+  {
+   "key": "str:5D5B5C",
+   "src": "02b178d71a56",
+   "t": "Revisa los Medabots<NL>de cada bloque<END>"
+  },
+  {
+   "key": "str:5D5B78",
+   "src": "216261d6fae5",
+   "t": "Coloca a tus aliados<NL>en los bloques<END>"
+  },
+  {
+   "key": "str:5D5B90",
+   "src": "f8ef52df3c16",
+   "t": "Activa el Medarreloj<END>"
+  },
+  {
+   "key": "str:5D5BA0",
+   "src": "bd89c352dd95",
+   "t": "Elige a quién colocar<NL>START: OK<END>"
+  },
+  {
+   "key": "str:5D5BC4",
+   "src": "3f39b537749e",
+   "t": "No se puede colocar<NL>en este bloque<END>"
+  },
+  {
+   "key": "str:5D5BEC",
+   "src": "74a875ee6bf3",
+   "t": "Elige el bloque<NL>donde colocarlo<END>"
+  },
+  {
+   "key": "str:5D5C04",
+   "src": "781e6bcbca69",
+   "t": "Regala una Medalla a<NL>un amigo<END>"
+  },
+  {
+   "key": "str:5D5C1C",
+   "src": "54f3dc4c28d0",
+   "t": "Intercambia partes<NL>con un amigo<END>"
+  },
+  {
+   "key": "str:5D5C38",
+   "src": "8a72763ad785",
+   "t": "Robobatalla casual<NL>con un amigo<END>"
+  },
+  {
+   "key": "str:5D5C5C",
+   "src": "dc5461ad5faf",
+   "t": "Robobatalla apostando<NL>partes con un amigo<END>"
+  },
+  {
+   "key": "str:5D5C84",
+   "src": "e761a33231fe",
+   "t": "Elige tu campo<NL>←→ cambia, A acepta<END>"
+  },
+  {
+   "key": "str:5D5CB4",
+   "src": "e7865e024daf",
+   "t": "Elige a tu equipo<NL>START: OK<END>"
+  },
+  {
+   "key": "str:5D5CD8",
+   "src": "1bd9e5d7d09b",
+   "t": "Elige hasta 4<NL>START: OK<END>"
+  },
+  {
+   "key": "str:5D5CF4",
+   "src": "d3ffa7782a4e",
+   "t": "Elige hasta 3<NL>START: OK<END>"
+  },
+  {
+   "key": "str:5D5D10",
+   "src": "035d2c694661",
+   "t": "Elige hasta 2<NL>START: OK<END>"
+  },
+  {
+   "key": "str:5D5D2C",
+   "src": "792f7428675e",
+   "t": "Elige tu Medabot<NL>START: OK<END>"
+  },
+  {
+   "key": "str:5D5D50",
+   "src": "67d7514c0527",
+   "t": "R.Ball4"
+  },
+  {
+   "key": "str:5D5D58",
+   "src": "43246a8f5a78",
+   "t": "R.Ball3"
+  },
+  {
+   "key": "str:5D5D60",
+   "src": "d1e69fb0251e",
+   "t": "R.Ball2"
+  },
+  {
+   "key": "str:5D5D68",
+   "src": "174de32ff77e",
+   "t": "R.Ball1"
+  },
+  {
+   "key": "str:5D5E7C",
+   "src": "d63edc303545",
+   "t": "Combate e intercambio<NL>          Comunicando…<END>"
+  },
+  {
+   "key": "str:5D5EB8",
+   "src": "cd649c26eaa9",
+   "t": "Error de conexión"
+  },
+  {
+   "key": "str:5D5F60",
+   "src": "d2744d23def2",
+   "t": "Se puede colocar aquí<NL>A: datos del Medabot<END>"
+  },
+  {
+   "key": "str:5D5F80",
+   "src": "d19a8a073a67",
+   "t": "No se puede colocar<NL>A: datos del Medabot<END>"
+  },
+  {
+   "key": "str:5D5FA0",
+   "src": "553ebc9b5a29",
+   "t": "Ya está colocado aquí<NL>A: datos del Medabot<END>"
+  },
+  {
+   "key": "str:5D5FEC",
+   "src": "e0d5f8f8a954",
+   "t": "--------"
+  },
+  {
+   "key": "str:5D5FF8",
+   "src": "defb0cc4449c",
+   "t": "Con apuesta"
+  },
+  {
+   "key": "str:5D6004",
+   "src": "152950baab03",
+   "t": "Sin apuesta"
+  },
+  {
+   "key": "str:5D6010",
+   "src": "2cc88c609be6",
+   "t": "Cambiar partes"
+  },
+  {
+   "key": "str:5D6018",
+   "src": "3680df85d373",
+   "t": "Dar Medalla"
+  },
+  {
+   "key": "str:5D60A8",
+   "src": "facb65239adc",
+   "t": "Tú y yo. ¡A ver<NL>quién puede más!<END>"
+  },
+  {
+   "key": "str:5D60C4",
+   "src": "2543fc224ad4",
+   "t": "…Bueno, perdí.<NL>Eres fuerte…<END>"
+  },
+  {
+   "key": "str:5D60DC",
+   "src": "77b7d3900282",
+   "t": "Mi Medabot no pierde<NL>con nadie<END>"
+  },
+  {
+   "key": "str:5D60F4",
+   "src": "6de1784b4423",
+   "t": "Conectando…<END>"
+  },
+  {
+   "key": "str:5D6100",
+   "src": "fd814e59c165",
+   "t": "Listo"
+  },
+  {
+   "key": "str:5D6108",
+   "src": "de679a0a8441",
+   "t": "Atrás"
+  },
+  {
+   "key": "str:5D6110",
+   "src": "bcc9453b7ed8",
+   "t": "MAYÚS"
+  },
+  {
+   "key": "str:5D6118",
+   "src": "cd2a3c50cde0",
+   "t": "minús"
+  },
+  {
+   "key": "str:5D6120",
+   "src": "3b43bbdead5e",
+   "t": "Nombre:"
+  },
+  {
+   "key": "str:5D6ABC",
+   "src": "f8d6e5d025bf",
+   "t": "<FACE:30>…"
+  },
+  {
+   "key": "str:5D6AC4",
+   "src": "e463a0e0a21b",
+   "t": "<FACE:30>…[<3]"
+  },
+  {
+   "key": "str:5D6AD0",
+   "src": "686b64e76737",
+   "t": "<FACE:2F>¿Por qué estoy yo<NL>en un lugar así…?"
+  },
+  {
+   "key": "str:5D6AE8",
+   "src": "f3f2a7eaff31",
+   "t": "<FACE:2F>¿Eh? ¿Es <PLAYER>?…<NL>Mucho ánimo…"
+  },
+  {
+   "key": "str:5D6B08",
+   "src": "95bd67f51995",
+   "t": "<FACE:2E>Ando de mal humor,<NL>así que no molestes"
+  },
+  {
+   "key": "str:5D6B28",
+   "src": "9bcce259ed4c",
+   "t": "<FACE:2E>Relájate y tómate<NL>tu tiempo. Yo vigilo"
+  },
+  {
+   "key": "str:5D6B50",
+   "src": "195461b0751d",
+   "t": "<FACE:51>¡Oh, my God!<NL>Esto ser horrible"
+  },
+  {
+   "key": "str:5D6B64",
+   "src": "3ee155afc953",
+   "t": "<FACE:52>¡Jai, <PLAYER>!!<NL>¿Venir a verme, sí?"
+  },
+  {
+   "key": "str:5D6B7C",
+   "src": "841cff3e93a5",
+   "t": "<FACE:4F>Desde llegar a Japón<NL>¡solo pasar penas!"
+  },
+  {
+   "key": "str:5D6B9C",
+   "src": "172010e1bf9e",
+   "t": "<FACE:50>¡Jelou, <PLAYER>!<NL>¿Venir a verme a mí?"
+  },
+  {
+   "key": "str:5D6BB8",
+   "src": "9bec560f6fb8",
+   "t": "<FACE:4E>Oye, <PLAYER><NL>¿Algún problema, eh?"
+  },
+  {
+   "key": "str:5D6BD4",
+   "src": "a8256699792e",
+   "t": "<FACE:4E>Qué onda, <PLAYER><NL>¡Échale ganas!"
+  },
+  {
+   "key": "str:5D6BE8",
+   "src": "faf2a794c595",
+   "t": "<FACE:4D>¡¿Qué miras, eh?!<NL>¡¿Te burlas de mí?!"
+  },
+  {
+   "key": "str:5D6C00",
+   "src": "beee8fbdf2bb",
+   "t": "<FACE:4D>¡¿Qué pasa, eh?!<NL>¡Yo me encargo aquí!"
+  },
+  {
+   "key": "str:5D6C18",
+   "src": "dec7eb9748da",
+   "t": "<FACE:4C>¡Ah! ¡¿Qué es esto?!<NL>¡No me hagas enojar!"
+  },
+  {
+   "key": "str:5D6C38",
+   "src": "37f1bfcd8be0",
+   "t": "<FACE:4C>¡Ah! ¡No te apures!<NL>¡Lo hago bien!"
+  },
+  {
+   "key": "str:5D6C58",
+   "src": "7ef294a66feb",
+   "t": "<FACE:4B>Ay, qué flojera…<NL>¡Este lugar no me va!"
+  },
+  {
+   "key": "str:5D6C74",
+   "src": "44e8f8cfaf0d",
+   "t": "<FACE:4B>Ah, eres <PLAYER><NL>No está nada mal aquí"
+  },
+  {
+   "key": "str:5D6C90",
+   "src": "71ffdbfb600f",
+   "t": "<FACE:4A>El lugar está bien,<NL>pero no va conmigo"
+  },
+  {
+   "key": "str:5D6CB0",
+   "src": "0c16b2bc44b0",
+   "t": "<FACE:4A>Este sitio no está<NL>nada mal. Me gusta"
+  },
+  {
+   "key": "str:5D6CD0",
+   "src": "d16d28bfac16",
+   "t": "<FACE:49>Este lugar no tiene<NL>ni pizca de estilo…"
+  },
+  {
+   "key": "str:5D6CEC",
+   "src": "5f76e600aac6",
+   "t": "<FACE:49>Je je je, qué lugar<NL>tan fino. Ideal, ¿no?"
+  },
+  {
+   "key": "str:5D6D10",
+   "src": "dc16bc9c2bec",
+   "t": "<FACE:48>¿Por qué tengo que<NL>estar aquí? ¡Grr!"
+  },
+  {
+   "key": "str:5D6D38",
+   "src": "f9b4c436e55c",
+   "t": "<FACE:48>Sí sabes lo que<NL>me gusta[<3]"
+  },
+  {
+   "key": "str:5D6D54",
+   "src": "7eaa3adf9d86",
+   "t": "<FACE:47>Este lugar es fatal…<NL>Qué aburrido…"
+  },
+  {
+   "key": "str:5D6D6C",
+   "src": "c6b8a98a3b90",
+   "t": "<FACE:47>Fuuu…<NL>Me voy a relajar"
+  },
+  {
+   "key": "str:5D6D84",
+   "src": "672be8a9cb2b",
+   "t": "<FACE:45>¡¿Qué es este lugar?!<NL>¡Es aburridísimo!"
+  },
+  {
+   "key": "str:5D6DA4",
+   "src": "6ab9e67b71c3",
+   "t": "<FACE:46>¡Genial!<NL>¡Ideal para mí!"
+  },
+  {
+   "key": "str:5D6DC0",
+   "src": "a66bf9bcb439",
+   "t": "<FACE:44>Aquí no me quedo,<NL>oiga"
+  },
+  {
+   "key": "str:5D6DDC",
+   "src": "69a7de2e98a0",
+   "t": "<FACE:43>¡<PLAYER>!<NL>¡Yo me encargo aquí!"
+  },
+  {
+   "key": "str:5D6DF8",
+   "src": "f03515c1cfd2",
+   "t": "<FACE:42>Qué aburrido es esto,<NL>miau…"
+  },
+  {
+   "key": "str:5D6E10",
+   "src": "41b34bcef31c",
+   "t": "<FACE:41>Déjamelo a mí, miau"
+  },
+  {
+   "key": "str:5D6E28",
+   "src": "c7ef07563b7d",
+   "t": "<FACE:40>Mi Medabot está<NL>llorando… Haz algo"
+  },
+  {
+   "key": "str:5D6E4C",
+   "src": "4f75f55392c9",
+   "t": "<FACE:3F>Me alegra que cuentes<NL>conmigo"
+  },
+  {
+   "key": "str:5D6E68",
+   "src": "2836b09973a0",
+   "t": "<FACE:3E>Está bien, pero<NL>¿no puede ser otro?"
+  },
+  {
+   "key": "str:5D6E90",
+   "src": "717a745a5b71",
+   "t": "<FACE:3E>Yo respondo aquí.<NL>Quédate tranquilo"
+  },
+  {
+   "key": "str:5D6EB8",
+   "src": "432b70a52634",
+   "t": "<FACE:3D>Me oxido aquí…<NL>Quiero ir a otro lado"
+  },
+  {
+   "key": "str:5D6EE0",
+   "src": "87269e7a0391",
+   "t": "<FACE:3D>¡Ey, <PLAYER>!<NL>Ya me acostumbré aquí"
+  },
+  {
+   "key": "str:5D6F00",
+   "src": "50ec26fabb34",
+   "t": "<FACE:3B>En un lugar así<NL>uno se oxida…"
+  },
+  {
+   "key": "str:5D6F1C",
+   "src": "da9f35d0bc08",
+   "t": "<FACE:3B>¡Este es mi terreno!"
+  },
+  {
+   "key": "str:5D6F34",
+   "src": "fe160de6d45f",
+   "t": "<FACE:3A>No tengo tiempo para<NL>estar aquí…"
+  },
+  {
+   "key": "str:5D6F50",
+   "src": "eff3f8b5e6ec",
+   "t": "<FACE:3A>¡Échale ganas!<NL>Este bloque está bien"
+  },
+  {
+   "key": "str:5D6F74",
+   "src": "cda5f0b47959",
+   "t": "<FACE:39>El torneo nacional ya<NL>viene… y yo aquí…"
+  },
+  {
+   "key": "str:5D6FA0",
+   "src": "5e80d3a5169b",
+   "t": "<FACE:39>¡Déjanos esto a<NL>nosotras!"
+  },
+  {
+   "key": "str:5D6FB8",
+   "src": "44401a1894f1",
+   "t": "<FACE:38>¡Este lugar no sirve<NL>para entrenar bien!"
+  },
+  {
+   "key": "str:5D6FD8",
+   "src": "9a53bead0cf1",
+   "t": "<FACE:37>Antes del nacional,<NL>un respiro viene bien"
+  },
+  {
+   "key": "str:5D6FFC",
+   "src": "aa41a7327582",
+   "t": "<FACE:36>Déjeme, por favor…<NL>No se ocupe de mí"
+  },
+  {
+   "key": "str:5D701C",
+   "src": "a5e33ebc9dbf",
+   "t": "<FACE:36>¿Cómo está, <PLAYER>?<NL>Déjeme esto a mí"
+  },
+  {
+   "key": "str:5D703C",
+   "src": "99b377e379cb",
+   "t": "<FACE:35>Ay, qué fastidio<NL>No hablo con usted"
+  },
+  {
+   "key": "str:5D7060",
+   "src": "b12b67323f73",
+   "t": "<FACE:35>Qué bloque tan grato<NL>Me levanta el ánimo"
+  },
+  {
+   "key": "str:5D7080",
+   "src": "0fed71c7f02f",
+   "t": "<FACE:34>¿Tendría la bondad de<NL>no hablarme así?"
+  },
+  {
+   "key": "str:5D70A0",
+   "src": "aebb30ecdef1",
+   "t": "<FACE:33>¡Oooh jo jo jo jo!<NL><PLAYER>, ¿es usted?"
+  },
+  {
+   "key": "str:5D70BC",
+   "src": "3b37d80ae1ae",
+   "t": "<FACE:32>Aquí no me gustaaa<NL>Me voy a otro lado…"
+  },
+  {
+   "key": "str:5D70E0",
+   "src": "d924ecf03e5d",
+   "t": "<FACE:31>¡Ah, <PLAYER>!<NL>¡Vamos a jugar!"
+  },
+  {
+   "key": "str:5D70F4",
+   "src": "dcb0015b35ba",
+   "t": "<FACE:2D>Debe de haber bloques<NL>que sí me necesiten…"
+  },
+  {
+   "key": "str:5D711C",
+   "src": "b9e0806dff13",
+   "t": "<FACE:2B>Esto debe cuidarlo<NL>alguien sabio como yo"
+  },
+  {
+   "key": "str:5D7148",
+   "src": "1634ad0bfc85",
+   "t": "<FACE:2A>¡Bah! No me hables"
+  },
+  {
+   "key": "str:5D715C",
+   "src": "71938939fc71",
+   "t": "<FACE:29>…Hoy estoy de buenas"
+  },
+  {
+   "key": "str:5D7174",
+   "src": "80220270174d",
+   "t": "<FACE:E4>El lugar no está mal…<NL>pero no va conmigo…"
+  },
+  {
+   "key": "str:5D719C",
+   "src": "28ef2fd6d1d7",
+   "t": "<FACE:E2>Hola, ¿eres <PLAYER>?<NL>Este lugar es lindo"
+  },
+  {
+   "key": "str:5D71B8",
+   "src": "75fc51bc5909",
+   "t": "<FACE:03>Parece una versión<NL>nueva para Hiyori…<WAIT><FACE:02>Que la use Hiyori…<WAIT><FACE:07>¡Ay! Gracias<NL>¿Me quedará bien?"
+  },
+  {
+   "key": "str:5D7200",
+   "src": "f8be4d6bf1e2",
+   "t": "<FACE:03>Parece una versión<NL>nueva para Gousetsu…<WAIT><FACE:02>Que la use Gousetsu<WAIT><FACE:16>¡¿De veras?!<WAIT>¡Mil gracias!"
+  },
+  {
+   "key": "str:5D724C",
+   "src": "fd96c7dbadfb",
+   "t": "<FACE:03>Parece una versión<NL>nueva para Mizore…<WAIT><FACE:02>Que la use Mizore<WAIT><FACE:1B>¿¡De verdad!?<NL>¡Se lo agradezco!"
+  },
+  {
+   "key": "str:5D7294",
+   "src": "b1aca9ad178b",
+   "t": "<FACE:03>Parece una versión<NL>nueva para Fubuki…<WAIT><FACE:02>Que la use Fubuki<WAIT><FACE:0C>¿¡En serio!?<NL>¡Gracias, viejo!"
+  },
+  {
+   "key": "str:62CEB4",
+   "src": "3976db80f94b",
+   "t": "→Sí "
+  },
+  {
+   "key": "str:62CEB9",
+   "src": "aff5fab3336f",
+   "t": " No "
+  },
+  {
+   "key": "str:62CEBE",
+   "src": "273e84235df9",
+   "t": " Sí "
+  },
+  {
+   "key": "str:62CEC3",
+   "src": "483c63997fa3",
+   "t": "→No "
+  },
+  {
+   "key": "str:645D8C",
+   "src": "363a7e09bdb2",
+   "t": "Medabot"
+  },
+  {
+   "key": "str:645D95",
+   "src": "814d1c03dde5",
+   "t": "Medalla"
+  },
+  {
+   "key": "str:645D9E",
+   "src": "643ebce497e9",
+   "t": "Cabeza"
+  },
+  {
+   "key": "str:645DA7",
+   "src": "3dd415252c20",
+   "t": "Brz.der"
+  },
+  {
+   "key": "str:645DB0",
+   "src": "732e6f89abd2",
+   "t": "Brz.izq"
+  },
+  {
+   "key": "str:645DB9",
+   "src": "629eff9db791",
+   "t": "Patas"
+  },
+  {
+   "key": "str:645DC2",
+   "src": "01ad19be23a5",
+   "t": "Nivel"
+  },
+  {
+   "key": "str:645E09",
+   "src": "ea4bd87b4f66",
+   "t": "Modelo"
+  },
+  {
+   "key": "str:645E10",
+   "src": "816dc2026f10",
+   "t": "Atr.A"
+  },
+  {
+   "key": "str:645E16",
+   "src": "83cf8b609de6",
+   "t": "999"
+  },
+  {
+   "key": "str:645E23",
+   "src": "9d3ffe6cd280",
+   "t": ".."
+  },
+  {
+   "key": "str:645E33",
+   "src": "a19d74e4be2b",
+   "t": "Nombre rasgo"
+  },
+  {
+   "key": "str:645E41",
+   "src": "062a2dfbc89f",
+   "t": "Acción"
+  },
+  {
+   "key": "str:645E8D",
+   "src": "ea4bd87b4f66",
+   "t": "Modelo"
+  },
+  {
+   "key": "str:645E94",
+   "src": "816dc2026f10",
+   "t": "Atr.A"
+  },
+  {
+   "key": "str:645E9A",
+   "src": "83cf8b609de6",
+   "t": "999"
+  },
+  {
+   "key": "str:645EA7",
+   "src": "9d3ffe6cd280",
+   "t": ".."
+  },
+  {
+   "key": "str:645EB7",
+   "src": "a19d74e4be2b",
+   "t": "Nombre rasgo"
+  },
+  {
+   "key": "str:645EC5",
+   "src": "062a2dfbc89f",
+   "t": "Acción"
+  },
+  {
+   "key": "str:645F2B",
+   "src": "9d3ffe6cd280",
+   "t": "Alcance"
+  },
+  {
+   "key": "str:645F3B",
+   "src": "a19d74e4be2b",
+   "t": "Nombre rasgo"
+  },
+  {
+   "key": "str:645FED",
+   "src": "01ad19be23a5",
+   "t": "Nivel"
+  },
+  {
+   "key": "str:645FF1",
+   "src": "ce3a598687c8",
+   "t": "9999999999"
+  },
+  {
+   "key": "str:645FFC",
+   "src": "814d1c03dde5",
+   "t": "Tipo"
+  },
+  {
+   "key": "str:646005",
+   "src": "d86148e026c0",
+   "t": "Atributo"
+  },
+  {
+   "key": "str:64600E",
+   "src": "5410d7e61f75",
+   "t": "Carácter"
+  },
+  {
+   "key": "str:646017",
+   "src": "8fb1a4b2fd24",
+   "t": "+99999"
+  },
+  {
+   "key": "str:646045",
+   "src": "2ac9a6746aca",
+   "t": "000"
+  },
+  {
+   "key": "str:646049",
+   "src": "55c8079ac96c",
+   "t": "987"
+  },
+  {
+   "key": "str:64604D",
+   "src": "a665a4592042",
+   "t": "123"
+  },
+  {
+   "key": "str:646051",
+   "src": "814d1c03dde5",
+   "t": "Tipo"
+  },
+  {
+   "key": "str:64605A",
+   "src": "40113bb308f1",
+   "t": "Medaf.01"
+  },
+  {
+   "key": "str:646063",
+   "src": "4e021b2c67ff",
+   "t": "Medaf.02"
+  },
+  {
+   "key": "str:64606C",
+   "src": "4a5270960a3c",
+   "t": "Medaf.03"
+  },
+  {
+   "key": "str:6460A1",
+   "src": "814d1c03dde5",
+   "t": "Medalla"
+  },
+  {
+   "key": "str:6460AA",
+   "src": "d8970f0a9314",
+   "t": "Destr.01"
+  },
+  {
+   "key": "str:6460B3",
+   "src": "9129a8750c7a",
+   "t": "Destr.02"
+  },
+  {
+   "key": "str:6460BC",
+   "src": "9879876c9021",
+   "t": "Destr.03"
+  },
+  {
+   "key": "str:6460F4",
+   "src": "85ebf6a8ae73",
+   "t": "Medafuerza"
+  },
+  {
+   "key": "str:6460FB",
+   "src": "3c6cfc7d8ec7",
+   "t": "Destreza"
+  },
+  {
+   "key": "str:646114",
+   "src": "3c6cfc7d8ec7",
+   "t": "Destreza"
+  },
+  {
+   "key": "str:64611B",
+   "src": "d8257789a368",
+   "t": "Aptitud"
+  },
+  {
+   "key": "str:646134",
+   "src": "d8257789a368",
+   "t": "Aptitud"
+  },
+  {
+   "key": "str:64613A",
+   "src": "85ebf6a8ae73",
+   "t": "Medafuerza"
+  },
+  {
+   "key": "str:64615A",
+   "src": "442f712115b1",
+   "t": "Patas"
+  },
+  {
+   "key": "str:64615F",
+   "src": "83cf8b609de6",
+   "t": "999"
+  },
+  {
+   "key": "str:64619E",
+   "src": "3c9e5129c0c2",
+   "t": "Drive A"
+  },
+  {
+   "key": "str:6461A8",
+   "src": "f6e0a1e2ac41",
+   "t": "111"
+  },
+  {
+   "key": "str:6461B5",
+   "src": "845c48f2e4ed",
+   "t": ".."
+  },
+  {
+   "key": "str:6461F2",
+   "src": "f09c80bca282",
+   "t": "Drive B"
+  },
+  {
+   "key": "str:6461FC",
+   "src": "f6e0a1e2ac41",
+   "t": "111"
+  },
+  {
+   "key": "str:646209",
+   "src": "845c48f2e4ed",
+   "t": ".."
+  },
+  {
+   "key": "str:7EC676",
+   "src": "65176d8a5af2",
+   "t": "¡No has armado<NL>ningún Medabot!<END>"
+  },
+  {
+   "key": "str:7F3D68",
+   "src": "b32a4946928e",
+   "t": "AREN"
+  },
+  {
+   "key": "str:7F3D6D",
+   "src": "86d07756e0d5",
+   "t": "DESI"
+  },
+  {
+   "key": "str:7F3D72",
+   "src": "57ed7a09dff2",
+   "t": "LOMA"
+  },
+  {
+   "key": "str:7F3D77",
+   "src": "a399c8247c13",
+   "t": "MONT"
+  },
+  {
+   "key": "str:7F3D7C",
+   "src": "1933ed789308",
+   "t": "PRAD"
+  },
+  {
+   "key": "str:7F3D81",
+   "src": "d5644870147c",
+   "t": "BOSQ"
+  },
+  {
+   "key": "str:7F3D86",
+   "src": "12732d48ec4b",
+   "t": "RUTA"
+  },
+  {
+   "key": "str:7F3D8B",
+   "src": "0e7558fd57ff",
+   "t": "CIUD"
+  },
+  {
+   "key": "str:7F3D90",
+   "src": "6045da5e6d39",
+   "t": "ORIL"
+  },
+  {
+   "key": "str:7F3D95",
+   "src": "12115b81abe7",
+   "t": "MAR"
+  },
+  {
+   "key": "str:7F3D9A",
+   "src": "b5f951291ddf",
+   "t": "AIRE"
+  },
+  {
+   "key": "str:7F3D9F",
+   "src": "9c9a6ac74140",
+   "t": "ESPA"
+  },
+  {
+   "key": "str:7F3DA4",
+   "src": "82edb95b61e1",
+   "t": "BOSQ Y LOMA"
+  },
+  {
+   "key": "str:7F3DB0",
+   "src": "23b3b6e4907c",
+   "t": "BOSQ Y PRAD"
+  },
+  {
+   "key": "str:7F3DBC",
+   "src": "ba858786b7ee",
+   "t": "BOSQ Y RUTA"
+  },
+  {
+   "key": "str:7F3DC8",
+   "src": "dc8a7ef38073",
+   "t": "CIUD Y PRAD"
+  },
+  {
+   "key": "str:7F3DD4",
+   "src": "dd602ab19fea",
+   "t": "CIUD Y RUTA"
+  },
+  {
+   "key": "str:7F3DE0",
+   "src": "d42533f9cd08",
+   "t": "CIUD Y ORIL"
+  },
+  {
+   "key": "str:7F3DEC",
+   "src": "f790ae217e49",
+   "t": "MAR  Y RUTA"
+  },
+  {
+   "key": "str:7F3DF8",
+   "src": "a031a5f9fac1",
+   "t": "MAR  Y ORIL"
+  },
+  {
+   "key": "str:7F3E04",
+   "src": "26578e4b2b55",
+   "t": "MAR  Y AREN"
+  },
+  {
+   "key": "str:7F3E10",
+   "src": "c2f61fd246b1",
+   "t": "DESI Y ORIL"
+  },
+  {
+   "key": "str:7F3E1C",
+   "src": "138d30352bad",
+   "t": "DESI Y AREN"
+  },
+  {
+   "key": "str:7F3E28",
+   "src": "1338beba9089",
+   "t": "DESI Y LOMA"
+  },
+  {
+   "key": "str:7F3E34",
+   "src": "46af08a619a7",
+   "t": "MONT Y AREN"
+  },
+  {
+   "key": "str:7F3E40",
+   "src": "1561d8af9e1b",
+   "t": "MONT Y LOMA"
+  },
+  {
+   "key": "str:7F3E4C",
+   "src": "47afdaf907af",
+   "t": "MONT Y PRAD"
+  },
+  {
+   "key": "str:7F3E58",
+   "src": "ee70d57c474d",
+   "t": "AIRE Y ESPA"
+  },
+  {
+   "key": "str:7F3E64",
+   "src": "ee70d57c474d",
+   "t": "AIRE Y ESPA"
+  },
+  {
+   "key": "str:7F3E70",
+   "src": "ee70d57c474d",
+   "t": "AIRE Y ESPA"
+  },
+  {
+   "key": "str:7F3E7C",
+   "src": "858bc5c1683c",
+   "t": "ESPA Y AIRE"
+  },
+  {
+   "key": "str:7F3E88",
+   "src": "858bc5c1683c",
+   "t": "ESPA Y AIRE"
+  },
+  {
+   "key": "str:7F3E94",
+   "src": "858bc5c1683c",
+   "t": "ESPA Y AIRE"
+  },
+  {
+   "key": "str:7F7526",
+   "src": "5063c81309da",
+   "t": "<FACE:01>¡No es hora de rodeos!<NL>¡Hay que apurarse!"
+  },
+  {
+   "key": "str:4C6B50",
+   "src": "37d8cba22de4",
+   "t": "Confusión"
+  },
+  {
+   "key": "str:4C6B64",
+   "src": "ad3603cbdcf0",
+   "t": "Cambia el terreno"
+  },
+  {
+   "key": "str:4C6B78",
+   "src": "d7df7ff38fcb",
+   "t": "Abre GP"
+  },
+  {
+   "key": "str:4C6B8C",
+   "src": "dab142c6555e",
+   "t": "Cierra GP"
+  },
+  {
+   "key": "str:4C6BA0",
+   "src": "eac9a13c75c9",
+   "t": "Autorreparo"
+  },
+  {
+   "key": "str:4C6BAC",
+   "src": "03117cc885a3",
+   "t": "Sube AP"
+  },
+  {
+   "key": "str:4C6BB8",
+   "src": "0228b9255ebb",
+   "t": "Drena AP"
+  },
+  {
+   "key": "str:4C6BC4",
+   "src": "011f8bbb7cb5",
+   "t": "Fin efec.+"
+  },
+  {
+   "key": "str:4C6BD0",
+   "src": "3df0a1efb925",
+   "t": "Variación"
+  },
+  {
+   "key": "str:4C6BDC",
+   "src": "5216f075e004",
+   "t": "Atadura"
+  },
+  {
+   "key": "str:4C6BE8",
+   "src": "63c862e41714",
+   "t": "Continuo"
+  },
+  {
+   "key": "str:4C6BF4",
+   "src": "e20bb240a335",
+   "t": "Detención"
+  },
+  {
+   "key": "str:4C6C00",
+   "src": "b7ee2aa84262",
+   "t": "Cuenta reg."
+  },
+  {
+   "key": "str:4C6C0C",
+   "src": "9d1830b28cda",
+   "t": "Nostalgia"
+  },
+  {
+   "key": "str:4C6C18",
+   "src": "b547931c7074",
+   "t": "Fin efec.-"
+  },
+  {
+   "key": "str:4C6C24",
+   "src": "47d7be175e6c",
+   "t": "No usable"
+  },
+  {
+   "key": "str:4C6C30",
+   "src": "37d8cba22de4",
+   "t": "Confusión"
+  },
+  {
+   "key": "str:4C6C3C",
+   "src": "e09755993128",
+   "t": "No evade"
+  },
+  {
+   "key": "str:4C6C48",
+   "src": "52bf997059aa",
+   "t": "No defiende"
+  },
+  {
+   "key": "str:4C6C54",
+   "src": "0228b9255ebb",
+   "t": "Drena AP"
+  },
+  {
+   "key": "str:4C6C60",
+   "src": "2dcf22e1342d",
+   "t": "Fija dentro"
+  },
+  {
+   "key": "str:4C6C6C",
+   "src": "5cde182ca375",
+   "t": "Fija fuera"
+  },
+  {
+   "key": "str:4C6C78",
+   "src": "04600ce3cfd4",
+   "t": "Trampa puño"
+  },
+  {
+   "key": "str:4C6C84",
+   "src": "9b0a8f008c73",
+   "t": "Trampa tiro"
+  },
+  {
+   "key": "str:4C6C90",
+   "src": "186a0f69d8ca",
+   "t": "Force Plant"
+  },
+  {
+   "key": "str:4C6C9C",
+   "src": "ecdaccd0d479",
+   "t": "Fin radar"
+  },
+  {
+   "key": "str:4C6CA8",
+   "src": "90c6d1ec71c9",
+   "t": "Fin sigilo"
+  },
+  {
+   "key": "str:4C6CB4",
+   "src": "1a919d8d2f40",
+   "t": "Fin único"
+  },
+  {
+   "key": "str:4C6CC0",
+   "src": "9f45240cbe6d",
+   "t": "Auxilio"
+  },
+  {
+   "key": "str:4C6CCC",
+   "src": "0850eefa4b8c",
+   "t": "Atq.cruzado"
+  },
+  {
+   "key": "str:4C6CD8",
+   "src": "891a460bcd0d",
+   "t": "Retirada"
+  },
+  {
+   "key": "str:0929BC",
+   "src": "6f39d832a733",
+   "t": "GraBeet"
+  },
+  {
+   "key": "str:092A48",
+   "src": "eed38c89b9ba",
+   "t": "RisPlnt"
+  },
+  {
+   "key": "str:092A64",
+   "src": "a0d19adaa4a4",
+   "t": "DpMarin"
+  },
+  {
+   "key": "str:092A9C",
+   "src": "a32fbd1be911",
+   "t": "HrdWork"
+  },
+  {
+   "key": "str:092AB8",
+   "src": "d59e7b79d5bf",
+   "t": "FarEast"
+  },
+  {
+   "key": "str:092AF0",
+   "src": "a918cdaef411",
+   "t": "FarWest"
+  },
+  {
+   "key": "str:092B28",
+   "src": "26e516151a76",
+   "t": "LumStag"
+  },
+  {
+   "key": "str:092C40",
+   "src": "a963ffa215fd",
+   "t": "BlzMult"
+  },
+  {
+   "key": "str:092C48",
+   "src": "94f472354674",
+   "t": "MstTail"
+  },
+  {
+   "key": "str:092EA0",
+   "src": "8d3a865e42c4",
+   "t": "LndRacr"
+  },
+  {
+   "key": "str:092EA8",
+   "src": "f4baad8a0d91",
+   "t": "HomCary"
+  },
+  {
+   "key": "str:093040",
+   "src": "dbc1170f1698",
+   "t": "SlrMult"
+  },
+  {
+   "key": "str:093048",
+   "src": "a69414094e20",
+   "t": "BrvNurs"
+  },
+  {
+   "key": "str:0930A2",
+   "src": "7e6f41473cea",
+   "t": "Sínt"
+  },
+  {
+   "key": "str:09BF00",
+   "src": "7e6f41473cea",
+   "t": "Sínt"
+  },
+  {
+   "key": "str:0930CD",
+   "src": "b8f39c8447a4",
+   "t": "Pot"
+  },
+  {
+   "key": "str:0929F4",
+   "src": "14970d9f99c6",
+   "t": "FstVehi<B:00><B:01><B:03><B:07><B:01><B:21><B:1E><B:3C>"
+  },
+  {
+   "key": "str:092A2C",
+   "src": "6b28656cd757",
+   "t": "QkBeast<B:00><B:04><B:05><B:09><B:04><B:23><B:1E><B:3C>"
+  },
+  {
+   "key": "str:092A80",
+   "src": "c41863856e46",
+   "t": "LtMirag<B:00><B:03><B:08><B:09><B:07><B:25><B:1E><B:3C>"
+  },
+  {
+   "key": "str:092B44",
+   "src": "6582979b6e88",
+   "t": "KsrBeet<B:00><B:01><B:03><B:09>"
+  },
+  {
+   "key": "str:092C50",
+   "src": "548031724e81",
+   "t": "SldCotg<B:00>ElemMrk<B:00>PeaPlt"
+  },
+  {
+   "key": "str:092C68",
+   "src": "f8b3f44d3d82",
+   "t": "FlyngOb<B:00>Urbn"
+  },
+  {
+   "key": "str:092CE8",
+   "src": "43b2c64f9807",
+   "t": "ImagKsr<B:00>SickCut<B:00>Milpd"
+  },
+  {
+   "key": "str:092D50",
+   "src": "cf0cea690699",
+   "t": "YlwClik<B:00>DuckB"
+  },
+  {
+   "key": "str:092D60",
+   "src": "25e337ca3b84",
+   "t": "WndClap<B:00>ClyDol"
+  },
+  {
+   "key": "str:092DD8",
+   "src": "4b194e3af042",
+   "t": "SupExpe<B:00>Dryguia"
+  },
+  {
+   "key": "str:092DE8",
+   "src": "5efd0796ef06",
+   "t": "LumStag<B:00>Domestc"
+  },
+  {
+   "key": "str:092E00",
+   "src": "45aeb5ed14eb",
+   "t": "KsrBeet<B:00>DTyran"
+  },
+  {
+   "key": "str:092E18",
+   "src": "e87cbc32eb43",
+   "t": "BlkLest<B:00>LaBrage<B:00>LdyOutr"
+  },
+  {
+   "key": "str:092EB0",
+   "src": "63baff6ba677",
+   "t": "NutCrak<B:00>Dip"
+  },
+  {
+   "key": "str:093018",
+   "src": "74620ed7ceba",
+   "t": "BrwBisn<B:00>TirBeet<B:00>ArcBeeD<B:00>AnzBeet<B:00>CamStag"
+  },
+  {
+   "key": "str:093050",
+   "src": "6e61e0a69e80",
+   "t": "MgntCat<B:00>BunHrt"
+  },
+  {
+   "key": "str:092F70",
+   "src": "3c2a058e6e88",
+   "t": "BtmGris<B:00><B:82><B:0D><B:09><B:0D>"
+  },
+  {
+   "key": "str:092FB0",
+   "src": "f52a49fca7b4",
+   "t": "CosAlin<B:00><B:58><B:47><B:97><B:CD>"
+  },
+  {
+   "key": "str:093000",
+   "src": "68987ef60381",
+   "t": "StrWolf<B:00><B:0B><B:02><B:06><B:11><B:0D>"
+  },
+  {
+   "key": "str:093088",
+   "src": "e1d2b3eeedb8",
+   "t": "Tinpet MTinpet HVel"
+  },
+  {
+   "key": "str:4C6AFC",
+   "src": "4d06d6ca14c4",
+   "t": "Ac.<B:00>MF<B:00><B:00>Ctrl"
+  },
+  {
+   "key": "str:095B30",
+   "src": "9e6bbb129c46",
+   "t": "RDF-11NF<B:1C><B:28><B:6F><B:28><B:CD>"
+  },
+  {
+   "key": "str:096710",
+   "src": "30b26e181be1",
+   "t": "RDF-12NF<B:0D><B:14><B:2A><B:CD><B:15><B:CD>"
+  },
+  {
+   "key": "str:0972F0",
+   "src": "eac5f2a6b057",
+   "t": "RDF-13NF<B:0D><B:07><B:CD><B:1F><B:CD>"
+  },
+  {
+   "key": "str:097ED0",
+   "src": "b4da5be10d50",
+   "t": "RDF-14NF<B:13><B:CD><B:27><B:CD>"
+  },
+  {
+   "key": "str:5D72D4",
+   "src": "5b78eaebc158",
+   "t": "<FACE:53><SFX:32>¡Con <X:E8> se<NL>creó 1 <X:E9>!"
+  },
+  {
+   "key": "str:5D72EC",
+   "src": "b5ca84b8c542",
+   "t": "No hay miembros para<NL>desarrollar Medabots<END>"
+  },
+  {
+   "key": "str:5D7308",
+   "src": "be744548c5c5",
+   "t": "Este Bloque está<NL>desarrollando Medabots<END>"
+  },
+  {
+   "key": "str:5D7324",
+   "src": "d2e1f57ae3ed",
+   "t": "Este Bloque no puede<NL>desarrollar Medabots<END>"
+  },
+  {
+   "key": "str:5D7340",
+   "src": "df23aaf37fd2",
+   "t": "<FACE:00>Duerme a cada rato<NL>y es una despistada…<WAIT><FACE:05>Una hermana que<NL>despierta de malas…<WAIT><FACE:00>Y un hermano siempre<NL>hiperactivo…<WAIT><FACE:05>Son casi como<NL>los humanos…<WAIT><FACE:04>Arreglar eso con el<NL>mantenimiento sería<WAIT>un poco aburrido, ¿no?<WAIT><FACE:05>Sí, es cierto<WAIT><FACE:A4>No me hicieron nadaaa<WAIT><FACE:00>Q-qué alivio…<NL>Ya eres la de antes…<WAIT><FACE:A4>¿La de antes?<NL>¿De qué hablaaas?<WAIT><FACE:00>N-no, no es nada…<WAIT><FACE:A5>No nos hicieron nada<NL>Solo nos sentaron<WAIT>frente a un sensor,<NL>nada más<WAIT><FACE:A4>De verdaaad, ¿para qué<NL>nos llamaríaaan…?<WAIT><FACE:05>Bueno, ¿qué más da?<WAIT><FACE:02>Eso de ustedes dos<NL>me agrada bastante<WAIT><FACE:A4>¿En seriooo? Entonces…<NL> <WAIT>Buenas noochesss…<WAIT><FACE:A5>¡H-hermana!<WAIT><FACE:05>Oye, ¿ya se durmió<NL>otra vez?<WAIT><FACE:03>¡H-Hiyori!<NL>¡No la to…!<WAIT><FACE:05>C-cierto<NL> <WAIT>B-bueno, nosotros<NL>seguimos adelante<WAIT><FACE:00>Fue como estar de<NL>relajo con la clase<WAIT>¿Qué será esa simpatía<NL>que tienen…?<WAIT><FACE:05>Bueno, eso muestra lo<NL>humanos que parecen<WAIT>esos dos…"
+  },
+  {
+   "key": "str:5D7544",
+   "src": "08126e07114f",
+   "t": "<FACE:00>¡Ah!<NL>Al fin se encontraron<WAIT><FACE:05>Uf, una preocupación<NL>menos para nosotros…<WAIT><FACE:02>Sí, así es<WAIT><FACE:A5>¡Hermana! ¡Hermana!<NL>¡Despierta, hermana!<WAIT><FACE:A4>ZZZZZ…<WAIT><FACE:05>¿Otra vez dormida?<NL>Qué niña, en serio<WAIT>Oye…<NL> <WAIT>(<SFX:35>toc<DELAY:000F><SFX:35> toc)<DELAY:000F><WAIT><FACE:A5>¡Ay, no, tonta!<NL>Si la despiertas así…<WAIT><FACE:A4><SFX:4B>!!!!<DELAY:0028><WAIT><FACE:03>¡Hiyori, ven acá!<WAIT><FACE:08>Oye… ¿acaso metí<NL>la pata?<WAIT><FACE:00>Seguramente…<WAIT><FACE:A4>¡Oye! ¡¿Quién fue?!<NL>¡Dormía tan a gusto!<WAIT><FACE:A5>¡¿Ves lo que hiciste?!<NL>Si la despiertan a<WAIT>golpes, se pone de un<NL>humor de perros<WAIT><FACE:A4>¡Oye, tú!<NL> <WAIT>¡¿Así le hablas a<NL>tu hermana mayor?!<WAIT>¡Se dice<NL>querida hermana!<WAIT><FACE:A5>¡S-sí!<NL>¡Querida hermana!<WAIT><FACE:A4>Muy bieeen<NL> <WAIT>¡Vamos a darles una<NL>lección a esos dos!<WAIT><FACE:A5>¡S-sí!"
+  },
+  {
+   "key": "str:5D76F4",
+   "src": "047e59db51aa",
+   "t": "<FACE:00>…<WAIT><FACE:A4>…<WAIT><FACE:05>Uf… ojalá con esto<NL>se calme…<WAIT><FACE:A4>…<WAIT><FACE:00>Ya no se dormirá tan<NL>pronto, hablemos de<WAIT>su hermanito<WAIT><FACE:A4>…<WAIT><FACE:05>Cierto<WAIT><FACE:A4>¡Esta me la hicieron!<NL>¡Me las van a pagar!<WAIT><FACE:05>Se fue corriendo<WAIT><FACE:04>Al final no funcionó…"
+  },
+  {
+   "key": "str:5D7790",
+   "src": "27171411d041",
+   "t": "<FACE:08>¡Ah!<WAIT><FACE:00>La corriente se la<NL>lleva otra vez…<WAIT><FACE:06>¡Esta vez hazlo bien!<WAIT><FACE:04>Sí, sí…<WAIT><FACE:00>Con calma, con calma…<WAIT><FACE:05>¿Y si <MEDABOT><NL>te ayuda?<WAIT><FACE:00>Ah, tienes razón<NL>¡<MEDABOT>, transporte!<SFX:43><DELAY:003C><DELAY:0028><CLEAR>"
+  },
+  {
+   "key": "str:5D78FC",
+   "src": "b766ff941f50",
+   "t": "<FACE:05>Al menos pudo<NL>preguntar dónde era…"
+  },
+  {
+   "key": "str:5D791C",
+   "src": "16e91dcab8a7",
+   "t": "<FACE:A5>Oigan, ustedes…<WAIT><FACE:05>¿Qué te pasa?<NL>Te ves decaído<WAIT><FACE:A5>Perdón por lo de antes<WAIT><FACE:00>¿Q-qué tienes?<NL>Esto se siente raro…<WAIT><FACE:A5>Parece que el destino<NL>los une a mi hermana…<WAIT>¡Por favor!<NL>Aunque tengan que<WAIT>amarrarla por ahí,<NL>díganle que me espere<WAIT><FACE:05>¿Ves? Para quien está<NL>buscando a alguien<WAIT><FACE:05>lo peor es que ande<NL>de un lado a otro<WAIT><FACE:00>Eso parece…<WAIT><FACE:A5>¿Qué pasó?<WAIT><FACE:05>Pues verás…<WAIT><FACE:04>…<NL>(Ay, ya sé qué sigue…)<WAIT><FACE:A5>¡¿Qué cosa?!<NL> <WAIT>¡¿Que tiraron a mi<NL>hermana a la basura?!<WAIT><FACE:03>¡¿A la basura?!<NL>Hiyori, ¿qué dijiste?<WAIT><FACE:07>Ajajaja… perdón…<NL>Me emocioné contando…<WAIT><FACE:04>Por favooor…<WAIT><FACE:A5>¡¡No los perdonaré!!<NL> <WAIT>¡Fue un error pedirles<NL>ayuda a ustedes!<WAIT>¡Yo mismo encontraré<NL>a mi hermana!"
+  },
+  {
+   "key": "str:5D7AC4",
+   "src": "1d214b07f3ea",
+   "t": "<FACE:A4>B-buenos díasss…<WAIT><FACE:04>Ay… ¿qué soy, que me<NL>ataca una dormida…?<WAIT><FACE:05>Oye…<NL>Tu hermanito te<WAIT>estuvo buscando<NL>por todas partes<WAIT><FACE:A4>Ah… ¿síii…?<NL> <WAIT>Entonces esperaréee<NL>a que venga por míii…<WAIT>ZZZZZZ…<WAIT><FACE:05>¿Eso es modo ahorro?<NL>Es una siesta y ya<WAIT><FACE:A4>Mmm… mmm…<WAIT><FACE:03><SFX:37><DELAY:0028>¡¡Auch!!<WAIT><FACE:04>Hasta dormida pega…<WAIT><FACE:05>¡Tonto! ¡¿Por qué<NL>la soltaste?!<WAIT><FACE:03>Ah, se fue flotando…<WAIT><FACE:06>¡Torpe!<WAIT><FACE:03><SFX:37><DELAY:0028>¡¡Auch!!<WAIT><FACE:04>Ay de mí…"
+  },
+  {
+   "key": "str:5D7BCC",
+   "src": "2ffac6610d11",
+   "t": "<FACE:00>Bueno, es hora de ir<NL>al siguiente Bloque<WAIT><FACE:05>¡Espera un momento!<NL>¡Ahí hay algo!<WAIT><FACE:00><SFX:4B>!!<DELAY:0028><NL>¿Un Medabot flotante?<WAIT>Flota a la deriva…<WAIT><FACE:05>Viene hacia acá…<WAIT><FACE:A4>ZZZZZZ…<WAIT><FACE:05>Ahora llegó flotando<NL>y dormida…<WAIT><FACE:00>Es un caso perdido…<NL>Con razón su hermano<WAIT>se preocupa tanto<WAIT><FACE:05>Cierto…<WAIT><FACE:04>Y no podemos<NL>llevarla con nosotros…<WAIT><FACE:05>Si la amarramos por<NL>aquí, ¿no la hallará<WAIT>su hermanito?<WAIT><FACE:00>¿No es algo cruel?<WAIT><FACE:05>No queda de otra<NL> <WAIT>Así es más probable<NL>que la encuentre, ¿no?<WAIT><FACE:00>Puede que sí…<NL>Entonces…<WAIT>¡Upa!<WAIT><FACE:A4>ZZZZZZ…<WAIT><FACE:05>Qué vida se da…<NL>Su hermano ha de estar<WAIT>muerto de angustia<WAIT><FACE:A4><SFX:4B>!!<DELAY:0028><WAIT><FACE:03>¡Rayos!<NL>La despertamos<WAIT><FACE:05>¡<PLAYER>, tontooo!<WAIT><FACE:A4>¡R-robobatallaaa!"
+  },
+  {
+   "key": "str:5D7D88",
+   "src": "31f81b23aca8",
+   "t": "<FACE:A5>¡Maldición!<NL> <WAIT>A este paso jamás<NL>veré a mi hermana<WAIT><FACE:00>¿Por qué la buscas?<WAIT><FACE:A5>Quedamos en vernos<NL>tras el mantenimiento<WAIT>¡Pero nunca llegó!<NL> <WAIT>¡Seguro le pasó algo!<WAIT><FACE:05>Andaba perdida<WAIT><FACE:A5>¿Eh?<WAIT><FACE:00>Ella misma nos dijo<NL>que estaba perdida<WAIT><FACE:A5>Gr…<NL> <WAIT>Grr…<NL> <WAIT>¡El mantenimiento no<NL>la cambió en nadaaa!<WAIT><FACE:00>Qué chico tan agitado<NL>Se fue gritando<WAIT><FACE:05>Seguro lo mandaron al<NL>mantenimiento por ser<WAIT>tan hiperactivo<WAIT><FACE:00>…Seguramente"
+  },
+  {
+   "key": "str:5D7EA4",
+   "src": "400bd263fa45",
+   "t": "<FACE:05>Uf… ¿descansamos un<NL>poco? Estoy cansada<WAIT><FACE:00>Sí, buena idea<NL>Aquí no creo que<WAIT>vengan los Sperobo…<WAIT><FACE:A5>Perdón por cortar su<NL>descanso, pero van a<WAIT>contarme unas cosas<WAIT><FACE:05>Está bien<NL>Siéntate aquí al lado<WAIT><FACE:A5>¡Sí!<NL> <WAIT>¡Digo! ¡Claro que no!<NL> <WAIT>¡Debo asustarlos para<NL>que hablen o no<WAIT>tiene sentido!<WAIT><FACE:00>…¿Así funciona eso?<WAIT><FACE:05>Así es<NL>Ha de estar jugando<WAIT>al detective, ¿no?<WAIT><FACE:A5>¡No estoy jugandooo!"
+  },
+  {
+   "key": "str:5D7F90",
+   "src": "0343a33f592d",
+   "t": "<FACE:A4>Q-qué horroor…<NL>Volví a perdeeer…<WAIT>¿Q-qué hacemooos?<WAIT><FACE:00>¿Que qué hacemos?<NL>Pues… nada, supongo…<WAIT><FACE:A4>Graciasss…<NL> <WAIT>Quedé de verme con<NL>alguien, me voooy…<WAIT><FACE:00>Se fue…<WAIT><FACE:05>¿A dónde pensará ir<NL>esa niña…?"
+  },
+  {
+   "key": "str:5D801C",
+   "src": "7fa5d87efa05",
+   "t": "<FACE:00>¿E-eh?<NL>¿Otra vez un Medabot…?<WAIT><FACE:05>Mira, ¿no es la niña<NL>del otro día?<WAIT><FACE:00>Sí, es ella<NL>Hay que despertarla<WAIT>con cuidado para que<NL>no entre en pánico…<WAIT>Oye… disculpa…<WAIT><FACE:A4>ZZZZZ…<WAIT><FACE:00>Oye…<WAIT><FACE:A4>ZZZZZ…<WAIT><FACE:04>…<WAIT><FACE:05>¿Los Medabots toman<NL>siestas?<WAIT><FACE:00>¿Quién sabe…?<WAIT><FACE:A4>Fuaaah…<WAIT><FACE:03>¡Ah! ¡Despertó!<WAIT><FACE:00>No hay que alterarla…<WAIT><FACE:A4>Mmm…<WAIT><FACE:00>Buenos días<WAIT><FACE:A4><SFX:4C>?<DELAY:0028><NL>Buenos díiiasss…<WAIT><FACE:00>(Uf, qué alivio)<WAIT><FACE:A4><SFX:4C>??<DELAY:0028><WAIT><FACE:00>¿Qué hacías en un<NL>lugar como este?<WAIT><FACE:A4>Ah, pues veráaan…<NL>Estooo…<WAIT>Estoy perdidaaa<WAIT><FACE:08>¡¿Perdidaaa?!<WAIT><FACE:A4>Síii…<NL>Creo que iba a verme<WAIT>con alguieeen… pero<NL>olvidé dóndeee…<WAIT>Por eso me perdíii<WAIT><FACE:05>Olvidar con quién te<NL>ibas a ver también es<WAIT>un problema…<WAIT><FACE:A4>De tanto ir y veniiir<NL>entré en modo ahorro<WAIT>y a dormiiir…<WAIT><FACE:08>¡¿Modo ahorrooo?!<WAIT><FACE:05>¿Eso existe?<WAIT><FACE:04>Ni idea…<WAIT><FACE:A4>Aaah…<WAIT><FACE:00>(Oye, hasta suspira)<WAIT><FACE:A4>Por eso a mí y a mi<NL> <WAIT>hermanooo nos mandan<NL>al mantenimientooo…<WAIT><FACE:05>Con razón me parecía<NL>una niña rara<WAIT><FACE:A4>…?<WAIT><FACE:00>El otro día me<NL>sorprendiste, apenas<WAIT>despertaste y ya era<NL>robobatalla<WAIT>Y al terminar, puro<NL>adiooós… jajaja<WAIT><FACE:A4>…<NL> <WAIT><SFX:4B>!<DELAY:0028><NL> <WAIT>¡E-eso esss!<NL>¡R-robobatallaaa!<WAIT>Si gano, borrón y<NL>cuenta nueva, ¿síii?<WAIT><FACE:00>¿Cómo que SI ganas?<NL>Qué Medabot tan<WAIT>inseguro…"
+  },
+  {
+   "key": "str:5D8324",
+   "src": "4413c844fc39",
+   "t": "<FACE:A5>¡Rayos! ¡La próxima<NL>me las van a pagar!<WAIT><FACE:07>Sí, sí<NL>Te esperaré ansiosa[<3]<WAIT><FACE:00>Ya se fue<WAIT><FACE:04><SFX:4C>??<DELAY:0028><NL>¿Volvió?<WAIT><FACE:A5>¡Si ven a mi hermana,<NL>no le hagan nada!<WAIT><FACE:07>Qué buen niño, cómo<NL>quiere a su hermana<WAIT><FACE:00>Aunque es muy ruidoso"
+  },
+  {
+   "key": "str:5D83B4",
+   "src": "f26d94e447e3",
+   "t": "<FACE:A5>Vaya, otra vez tú<WAIT><FACE:00>Ah, eres tú<WAIT><FACE:07>Jiji, esos modales<NL>tan rudos lo hacen<WAIT>más lindo aún<WAIT><FACE:A5>¡Grr! Grr…<NL> <WAIT>No voy a caer en eso<NL>Ya no me hago enojar<WAIT><FACE:00>Bueno, dejando eso…<WAIT><FACE:A5>¡Escuchen bien!<NL>¡Admitan que no soy<WAIT>ningún niño!<WAIT><FACE:07>Jijiji[<3]<WAIT><FACE:A5>¡¿De qué se ríen?!<WAIT><FACE:00>Oye, ¿no buscabas a<NL>alguien?<WAIT><FACE:A5>Ah, sí, es cierto<NL> <WAIT>…Ejem<NL> <WAIT>¿Han visto a mi<NL>hermana? ¡Y no me<WAIT>oculten nada!<WAIT><FACE:00>…<WAIT><FACE:A5>¡¿La vieron o no la<NL>vieron?!<WAIT><FACE:05>¿No será esa niña que<NL>dormía en el pasillo…?<WAIT><FACE:00>Ahora que lo dices,<NL>se parecen<WAIT><FACE:A5><SFX:4B>!!<DELAY:0028><NL>¡¿Dónde?! ¿Dónde está?<WAIT><FACE:00>Despertó, nos retó a<NL>una robobatalla y<WAIT>luego se fue quién<NL>sabe a dónde<WAIT><FACE:A5>…<WAIT><FACE:05>Perdón por no ser de<NL>más ayuda…<WAIT><FACE:A5>¡¿Qué le hicieron<NL>a mi hermanaaa?!<WAIT><FACE:04>Oye, oye…"
+  },
+  {
+   "key": "str:5D8578",
+   "src": "33b537008509",
+   "t": "<FACE:A4>P-perdíii…<NL>¿Q-qué hagooo…?<WAIT><FACE:05>¿Cómo que qué hago?<NL>Ella misma nos retó a<WAIT>robobatallar y ahora<NL>anda nerviosa…<WAIT><FACE:04>¿Q-qué hacemos?<WAIT><FACE:06>¡¿Y tú por qué te<NL>pones nervioso?!<WAIT><FACE:00>E-es cierto…<WAIT><FACE:A4>…<WAIT><FACE:05>…<WAIT><FACE:A4>…<NL> <WAIT>¡P-perdóoon!<NL>¡Adióoos…!<WAIT><FACE:00>Se fue…<WAIT><FACE:05>Oye, ¿esa niña no se<NL>parece a alguien?"
+  },
+  {
+   "key": "str:5D8648",
+   "src": "5c3bc5f68430",
+   "t": "<FACE:00>¿Eh?<NL>Un Medabot exhibido…<WAIT>Y esto ni siquiera es<NL>zona de exhibición…<WAIT><FACE:05>Sí…<NL>Vamos a verlo de cerca<WAIT><FACE:A4>Fuaaah…<WAIT><FACE:03>¡A-ah!<NL>¡Qué susto me dio!<WAIT>Se reinició de golpe…<WAIT><FACE:05>Parecía estar<NL>tomando una siesta<WAIT><FACE:A4>…<WAIT><FACE:00>¿Qué hacías en un<NL>lugar como este?<WAIT><FACE:A4>¡Aaaay!<WAIT><FACE:03>¡¿Ehhh?!<WAIT><FACE:A4>¡¿Qué van a haceeer?!<NL>¡Alto, por favooor!<WAIT><FACE:03>N-no te haremos nada<WAIT><FACE:08>¿Q-qué le pasa a esta<NL>niña, así de golpe…?<WAIT><FACE:A4>E-en ese caso…<NL>Si gano la<WAIT>robobatalla,<NL>¡perdónenmeee!<WAIT><FACE:04>¿Perdonarte… qué?"
+  },
+  {
+   "key": "str:5D8760",
+   "src": "154f9df61dad",
+   "t": "<FACE:A5>¡M-maldición!<NL>¡Me las pagarán!<WAIT><FACE:00>Vaya…<NL>Tan pequeño y ya<WAIT>tiene secuaces<WAIT><FACE:00>Nada mal, ¿eh?<WAIT><FACE:07>Y además es lindo[<3]"
+  },
+  {
+   "key": "str:5D87A8",
+   "src": "3f395ed35fc2",
+   "t": "<FACE:A5>¡Alto ahí, ustedes!<WAIT><FACE:03>¡Uy!<NL>¡¿Y ahora qué?!<WAIT><FACE:07>¡Vaya, es pequeñito y<NL>adorable!<WAIT>No sabía que había<NL>Medabots así…<WAIT>¿Los venderán por<NL>catálogo…?<WAIT><FACE:A5>…<WAIT><FACE:00>¿Qué te pasa?<NL>Hace nada estabas bien<WAIT><FACE:A5>¡C-cállense!<NL>¡No me traten como<WAIT>niño por ser pequeño!<WAIT><FACE:03>¡Ay!<WAIT><FACE:A5>¡Respondan!<NL>¿Han visto por aquí<WAIT>un Medabot femenino<NL>parecido a mí?<WAIT><FACE:07>Jijiji<NL>Mírate, haciéndote el<WAIT>rudo… ¡Qué lindo![<3]<WAIT><FACE:A5>¡C-cállenseee!<NL>¡¡Verán mi poder!!"
+  },
+  {
+   "key": "str:4CC830",
+   "src": "4a99aaa1c2ff",
+   "t": "Tú"
+  },
+  {
+   "key": "str:4CC83A",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC84C",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC85F",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC879",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC895",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC8B1",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC8CD",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC8E4",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC8FD",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC916",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC92F",
+   "src": "34e1a5ed4bfb",
+   "t": "<PLAYER>"
+  },
+  {
+   "key": "str:4CC97F",
+   "src": "c3d7313a6ca2",
+   "t": "MF: <NL>"
+  },
+  {
+   "key": "str:4CCB10",
+   "src": "17b80bc751e1",
+   "t": "CCCCC"
+  },
+  {
+   "key": "str:4CCB38",
+   "src": "dfa23e192149",
+   "t": ""
+  },
+  {
+   "key": "str:4CCD4B",
+   "src": "6a0ca6cec8ee",
+   "t": "Tu Medalla:<X:F0>"
+  },
+  {
+   "key": "str:4CCD68",
+   "src": "8f1f88656d3f",
+   "t": "¡El rival la tiene!"
+  },
+  {
+   "key": "str:4CCD7D",
+   "src": "95ed0a13c35f",
+   "t": "¡El rival elige!<X:F0>"
+  },
+  {
+   "key": "str:4CCDF0",
+   "src": "6bf61970506d",
+   "t": ""
+  },
+  {
+   "key": "str:4CCDF4",
+   "src": "07886c97af5c",
+   "t": ""
+  },
+  {
+   "key": "str:4CCDF8",
+   "src": "00049100fe4e",
+   "t": ""
+  },
+  {
+   "key": "str:4CCDFC",
+   "src": "b77a6fcbc75b",
+   "t": ""
+  },
+  {
+   "key": "str:7F6ACE",
+   "src": "8f3962d34c2a",
+   "t": "<FACE:16>¡Vivaaaa!<NL>¡Nació nuestro líder!<WAIT><FACE:1D>Al fin sus servidores<NL>tienen un líder… buaa…<WAIT><FACE:0D>…Oigan, no exageren<WAIT><FACE:14>¡No exageramos nada,<NL>líder!<WAIT>¡Por mi líder doy<NL>la vida, pues!<WAIT><FACE:1D>Buaa… un servidor<NL>también…<WAIT><FACE:0E>…¡E-está bien!<NL><WAIT>¡Que ya entendí! ¡Ya<NL>dejen de llorar!<WAIT><FACE:05>Por cierto, ustedes…<NL><WAIT>¿A <PLAYER> no tienen<NL>algo que devolverle?<WAIT><FACE:17>…¡Ah, cierto! ¡Ya me<NL>olvidaba, pues!<WAIT><FACE:14>¡Oye, Mizore!<WAIT><FACE:19>¡Así es, <PLAYER>!<NL>¡Aquí está su Medalla!<WAIT><FACE:03><SFX:4B>¡Ah, cierto!<NL>¡Mi Medalla!<WAIT><FACE:18>Perdona, ¿eh?…<NL>La guardamos bastante<WAIT><FACE:1D>Era una broma nomás…<NL>Íbamos a devolverla<WAIT><FACE:02>Lo sé… La experiencia<NL>está igual que antes<WAIT>La guardaron sin<NL>usarla, ¿verdad?<WAIT><FACE:06>¡Pero bueno, <PLAYER>!<NL><WAIT>Aunque ya sean equipo,<NL>¡enójate un poco más!<WAIT><FACE:05>.<DELAY:001E>.<DELAY:001E>.<DELAY:001E>Bueno, ya qué…<WAIT><FACE:0A>Oye, <PLAYER>…<WAIT><FACE:0A>Todos en este equipo,<NL>Hiyori y yo incluidos,<WAIT>te seguiremos pase<NL>lo que pase<WAIT>Cuéntanos tus planes<NL>sin ocultarnos nada<WAIT>¿¡Verdad, chicos!?<WAIT><FACE:05>¡Claro!<NL>La clase será egoísta,<WAIT>¡nosotros al menos<NL>apoyemos a <PLAYER>!<WAIT><FACE:14>Si el líder lo dice,<NL>pos ni modo<WAIT><FACE:19>¡Un servidor obedece!<WAIT><FACE:00>Por cierto, adelante<NL>debería estar<WAIT>el Bloque Computadora…<WAIT><FACE:14>Ah, ese es el bloque<NL>de al lado, pues<WAIT>¡Estaba lleno de<NL>monitores raros!<WAIT><FACE:1D>Ahora que lo pienso…<NL><WAIT>¡El medaguerrero<NL>Shiden entró en ese<WAIT>bloque con cara de<NL>espanto!<WAIT><FACE:14>¡Eso, eso!<NL>¡Se veía bien apurado!<WAIT><FACE:03>¿Shiden?<WAIT><FACE:06>¡Lo sabía, algo está<NL>tramando!<WAIT><FACE:17>¿Tramando?<NL>¿Ese era un tipo malo?<WAIT><FACE:06>¡Claro que sí!<NL>¡Si <PLAYER> casi<WAIT>la pasa muy mal<NL>por su culpa!<WAIT><FACE:1A>¡Con razón se veía tan<NL>creído y odioso!<WAIT><FACE:15>¡De seguro el secreto<NL>está en ese bloque!<WAIT><FACE:1A>¡Hay que descubrirlo<NL>de inmediato!<WAIT><FACE:05>¡Sí! ¡Es un tipo bien<NL>rastrero!<WAIT>¡Vamos!"
+  },
+  {
+   "key": "str:7F653D",
+   "src": "be4eebaa976b",
+   "t": "<FACE:00>Navi, ¿alguna novedad<NL>de Mistral, el del<WAIT>Bloque Lobby?<WAIT><FACE:53><SFX:32>¿Mistral…? ¿Se refiere<NL>al Medabot espacial?<WAIT>Sensores de todo tipo<NL>vigilan la exhibición…<WAIT>Está del todo inactivo<NL>y no se ha movido<WAIT>desde que llegó aquí<WAIT><FACE:04>¿Inactivo? Pero yo<NL>oí una voz, seguro…<WAIT><FACE:53><SFX:32>¿Una voz?<NL><WAIT>Si hubiera emitido<NL>sonido, ¿no habrían<WAIT>reaccionado los<NL>sensores?<WAIT><FACE:00>No es esa clase de<NL>voz… La oigo… dentro<WAIT>de mi corazón<WAIT><FACE:53><SFX:32>¿El corazón…?<NL><WAIT>El corazón humano no<NL>tiene esa capacidad,<WAIT>¿o sí?<WAIT><FACE:04>Eh, no… no hablo de<NL>«capacidades» ni nada<WAIT>tan serio… Es algo<NL>que se transmite…<WAIT>El punto es que<NL>Mistral no puede<WAIT>estar del todo<NL>inactivo…<WAIT><FACE:05>¡Ya, ya, <PLAYER>!<NL>¡No lo pienses tanto!<WAIT>¡Vamos al siguiente<NL>bloque!<WAIT><FACE:53>…<DELAY:0028><NL><CLEAR>"
+  },
+  {
+   "key": "str:7F6855",
+   "src": "349bd41db4ff",
+   "t": "<FACE:53><SFX:32>Bienvenidos de vuelta<NL><WAIT>Logramos evadir la<NL>órbita de colisión<WAIT>…El señor Shiden, ¿no?<NL>¿Se les unió también?<WAIT><FACE:0F>Hola, Navi. Así es<NL>De ahora en adelante<WAIT>yo también los<NL>acompañaré<WAIT><FACE:53><SFX:32>Ya veo…<NL><WAIT>Perdimos contacto y<NL>estaba preocupada<WAIT><FACE:10>…¿Mmm?<NL><WAIT>¿Preocupada, dices?<NL><WAIT><FACE:0F>Tú no tienes esa<NL>función…<WAIT><FACE:00>¡Ah, cierto! Shiden,<NL>deja enlazada tu<WAIT>terminal, ¿sí?<WAIT>Como dice Navi, ¡es<NL>preocupante quedar<WAIT>sin contacto en una<NL>emergencia!<WAIT><FACE:0F>Ah… sí…"
+  },
+  {
+   "key": "str:7F6104",
+   "src": "6d8cae92cf6e",
+   "t": "<FACE:06>Por más que sean así,<NL>¡olvidar a amigas de<WAIT>la clase es el colmo!<WAIT><FACE:45>¡Momentito, Hiyori!<NL>Lo que dijiste recién<WAIT>de nosotras…<WAIT><FACE:08>En fin… aún queda<NL>mucho camino…<WAIT><FACE:05>¡A concentrarse![<3]<WAIT><FACE:45>¡Oye, no te hagas!<WAIT><FACE:04>…"
+  },
+  {
+   "key": "str:7F6755",
+   "src": "c5d9e52072da",
+   "t": "<FACE:09>…¿Habré comido de más?<NL>Me da miedo pesarme…<WAIT><FACE:03>¿Eh? Vi una báscula<NL>en el Bloque Lobby<WAIT><FACE:00>¿Te la traigo?<WAIT><FACE:06>¡Nadie pidió tu ayuda!<WAIT><FACE:03><SFX:37>¡Ugh!"
+  },
+  {
+   "key": "str:7F696F",
+   "src": "fac6477a6648",
+   "t": "<FACE:03>¿¡Pero qué pasa!?<NL><WAIT><FACE:53><SFX:66>¡Emergencia!<DELAY:003C><DELAY:0008><NL>¡Emergencia!<DELAY:003C><DELAY:0018><NL><CLEAR>"
+  },
+  {
+   "key": "str:7F67C6",
+   "src": "bb5330271e08",
+   "t": "<FACE:05>Hasta los jefes<NL>enemigos ya parecen<WAIT>monstruos…"
+  },
+  {
+   "key": "str:7F6AF3",
+   "src": "31e006f1733e",
+   "t": "Ahora también tenemos<NL>un líder... ¡Buaaa!<WAIT><FACE:0D>...Oigan, no exageren.<WAIT><FACE:14>¡No exageramos, líder!<NL><WAIT>¡Yo daría la vida<NL>por mi líder!<WAIT><FACE:1D>Buá... y-yo también...<WAIT><FACE:0E>...¡E-está bien!<NL><WAIT>Ya entendí, ¡ya no<NL>lloren más!<WAIT><FACE:05>Oigan, ustedes...<NL><WAIT>¿no tienen algo que<NL>devolverle a <PLAYER>?<WAIT><FACE:17>...¡Cierto!<NL>¡Se me olvidaba!<WAIT><FACE:14>¡Oye, Mizore!<WAIT><FACE:19>¡Así es, <PLAYER>!<NL>¡Aquí está tu Medalla!<WAIT><FACE:03><SFX:4B>¡Ah, cierto!<NL>¡Mi Medalla!<WAIT><FACE:18>Perdón... la tuvimos<NL>mucho tiempo, pero...<WAIT><FACE:1D>Era solo una broma...<NL>íbamos a devolverla.<WAIT><FACE:02>Lo sé... La EXP no ha<NL>cambiado nada.<WAIT>¡La guardaron sin<NL>usarla ni una vez!<WAIT><FACE:06>¡Oye, <PLAYER>!<NL><WAIT>Aunque sean un equipo,<NL>¡enójate un poco más!<WAIT><FACE:05>.<DELAY:001E>.<DELAY:001E>.<DELAY:001E>Bueno, está bien...<WAIT><FACE:0A>Oye, <PLAYER>...<WAIT><FACE:0A>Todos en este equipo,<NL>Hiyori y yo incluidos,<WAIT>te seguiremos pase<NL>lo que pase.<WAIT>Cuéntanos tus planes<NL>sin ocultarnos nada.<WAIT>¿Verdad, chicos?<WAIT><FACE:05>¡Claro!<NL>Si la clase no ayuda,<WAIT>¡al menos nosotros<NL>apoyaremos a <PLAYER>!<WAIT><FACE:14>Si el líder lo dice,<NL>ni modo.<WAIT><FACE:19>¡A sus órdenes!<WAIT><FACE:00>Por aquí debe estar el<NL>Bloque Computadora...<WAIT><FACE:14>Ah, ese es el bloque<NL>de al lado.<WAIT>¡Estaba lleno de<NL>monitores raros!<WAIT><FACE:1D>Ahora que lo pienso...<NL><WAIT>vimos al Medaguerrero<NL>Shiden muy alterado<WAIT>entrar en ese bloque.<WAIT><FACE:14>¡Sí, sí!<NL>¡Se veía muy apurado!<WAIT><FACE:03>¿Shiden?<WAIT><FACE:06>¡Lo sabía! ¡Está<NL>tramando algo!<WAIT><FACE:17>¿Tramando?<NL>¿Ese tipo era malo?<WAIT><FACE:06>¡Sí!<NL>¡<PLAYER> estuvo<WAIT>a punto de pasarla<NL>muy mal por su culpa!<WAIT><FACE:1A>¡Con razón me pareció<NL>un presumido odioso!<WAIT><FACE:15>¡El Bloque Computadora<NL>esconde un secreto!<WAIT><FACE:1A>¡Vamos a descubrirlo<NL>rápido!<WAIT><FACE:05>¡Sí! ¡Es un tramposo!<NL>¡Apurémonos!"
+  },
+  {
+   "key": "str:7F6193",
+   "src": "f334f20061bd",
+   "t": "<FACE:14>Qué suerte, <PLAYER><NL><WAIT>no solo una Medalla,<NL>¡también un Tinpet!<WAIT><FACE:19>¡Ventajas de ser el<NL>delegado de la clase!<WAIT><FACE:04>N-no... yo solo...<WAIT><FACE:05>¡Y eso no es todo!<NL><WAIT>¡Mira!<SFX:52><DELAY:0028><WAIT><FACE:17>¡Ah, una R.Ball!<WAIT><FACE:19>¡El tal Shiden la<NL>dejó olvidada!<WAIT><FACE:07>¡Exacto!<WAIT><FACE:05>Quédatela también,<NL><PLAYER>.<WAIT><FACE:03>¿Eh? Pero es de<NL>Hiyori...<WAIT><FACE:07>¡Solo tómala y ya!<WAIT><FACE:06>(No aguanto tantas<NL> robobatallas...)<WAIT>(Que use la R.Ball<NL> y no a mí...)<WAIT><FACE:04>¿Mmm? Hiyori, pusiste<NL>una cara rara...<WAIT><FACE:06>¡Oye!<NL>¡Qué grosero!"
+  },
+  {
+   "key": "str:7F7252",
+   "src": "71b7f24456be",
+   "t": "<FACE:00>Desde aquí se ve<NL>todo el Cluster.<WAIT>...Hay que avanzar<NL>bloque por bloque...<WAIT><FACE:05>Y la Tierra se aleja<NL>más y más...<WAIT>Tenemos que hacer<NL>algo nosotros mismos.<WAIT><FACE:04>Pero ¿por qué pasó<NL>todo esto...?<WAIT>¿Habrá sido aquella<NL>Medafuerza...?<WAIT><FACE:05>Claro que no.<NL><WAIT>Hasta el Medaguerrero<NL>Shiden dijo que eso<WAIT>es imposible...<WAIT>Aquí alguien más<NL>trama algo..."
+  },
+  {
+   "key": "str:7F71DA",
+   "src": "3d4a895d1bc5",
+   "t": "<FACE:03>¿Qué? ¿Qué pasa?<WAIT><FACE:53><SFX:66>¡Alerta! <DELAY:003C><DELAY:0008>¡Alerta!<DELAY:003C><DELAY:0018><MUSIC><NL>¡Activen de inmediato<WAIT>el motor de control<NL>del Bloque Pirámide!<WAIT><FACE:01>¡Hay que ir rápido!<NL><WAIT>¡Falta poco!<NL>¡Vamos!"
+  },
+  {
+   "key": "str:7F700C",
+   "src": "165f3fa867d8",
+   "t": "<FACE:00>Ahora que lo pienso,<NL>aquella vez Hiyori<WAIT>corrió hacia mí...<WAIT><FACE:02>Quizá Hiyori,<NL>en el fondo...<WAIT><FACE:06>¡<PLAYER>!<WAIT><FACE:05>¿Dijiste algo?<WAIT><FACE:04>N-no, nada..."
+  },
+  {
+   "key": "str:7F718D",
+   "src": "e99a88e6ecc7",
+   "t": "<FACE:00>Al fin, sigue el<NL>Bloque Propulsor...<WAIT>¡Si lo recuperamos,<NL>caso resuelto!<WAIT>¡Armemos el mejor<NL>equipo y entremos!"
+  },
+  {
+   "key": "str:7F7503",
+   "src": "cc115cb06a93",
+   "t": "¡Hay intrusos!<NL>¡Control anulado!"
+  },
+  {
+   "key": "str:7F62CE",
+   "src": "ac8ad7834522",
+   "t": "<FACE:05>En fin, ese jefe<NL>Nyuudou, dale con<WAIT>«¡agallas, agallas!»…<NL>Pura palabrería<WAIT>espiritual, ¡qué<NL>sinsentido!<WAIT>Sus pobres secuaces<NL>la han de pasar mal…<WAIT><FACE:00>Pero la verdad, a<NL>veces siento que los<WAIT>Medabots responden a<NL>nuestro esfuerzo…<WAIT>a eso de las agallas,<NL>¿sabes?<WAIT>Hasta mi Medabot a<NL>veces hace más de lo<WAIT>que le ordeno…<NL>Quizá las agallas sí<WAIT>hacen falta en una<NL>robobatalla, ¿no?<WAIT><FACE:09>¿Hablas en serioooo?<WAIT><FACE:53><SFX:32>…Señor <PLAYER>,<NL>¿qué son las agallas?<WAIT><FACE:03>¡Ah! Eres tú, Navi…<NL>¡No me asustes así!<WAIT><FACE:53><SFX:32>En mi memoria solo<NL>están definidas como<WAIT>«voluntad fuerte»…<NL>pero lo que usted<WAIT>dice, señor <PLAYER>,<NL>no parece explicarse<WAIT>con esa definición…<WAIT><FACE:04>Mmmmm… a ver…<WAIT><FACE:02>Las agallas son dar<NL>todo tu esfuerzo y<WAIT>superar tu propia<NL>capacidad… ¿será?<WAIT><FACE:53><SFX:32>¿Superar la propia<NL>capacidad…?<WAIT>¡¿Los humanos logran<NL>algo tan increíble?!<WAIT>¿Su capacidad no<NL>tiene límite, acaso?<WAIT><FACE:04>No creo que sea para<NL>tanto… pero…<WAIT><FACE:02>Cuando queremos<NL>esforzarnos, humanos<WAIT>y Medabots hacemos<NL>cosas increíbles,<WAIT>más que de costumbre"
+  },
+  {
+   "key": "str:7F7060",
+   "src": "fc2f70917990",
+   "t": "<FACE:00>Ahora que lo pienso,<NL>esa vez Hiyori vino<WAIT>corriendo hacia mí…<WAIT><FACE:02>Hiyori en el fondo…<WAIT><FACE:06>¡<PLAYER>!<WAIT><FACE:05>¿Dijiste algo?<WAIT><FACE:04>N-no, no es nada…<WAIT><FACE:53><SFX:32>Comunicación entrante<NL><WAIT>¿Desea que la conecte?<WAIT><FACE:03>A-ah… sí, por favor…<WAIT><FACE:8E><SFX:32>¡<PLAYER>!<NL>¡Tenemos un problema!<WAIT>¡No hay material para<NL>desarrollar Medabots!<WAIT>¡Parece que la Banda<NL>Sperobo se apoderó<WAIT>del Bloque Mina!<WAIT>¡Recupera ese bloque,<NL>rápido!<WAIT>¡Si no, no podremos<NL>crear nuevos Medabots!<WAIT><FACE:0A>Es justo el bloque<NL>vecino…<WAIT><FACE:0A>¡Vamos ya!"
+  },
+  {
+   "key": "str:7F6ED5",
+   "src": "eaea69e51bc8",
+   "t": "<FACE:8E><SFX:32>¡<PLAYER>!<NL>¡Tenemos un problema!<WAIT>¡No hay material para<NL>desarrollar Medabots!<WAIT>¡Parece que la Banda<NL>Sperobo se apoderó<WAIT>del Bloque Mina!<WAIT>¡Recupera ese bloque,<NL>rápido!<WAIT>¡Si no, no podremos<NL>crear nuevos Medabots!<WAIT><FACE:0A>Es justo el bloque<NL>vecino…<WAIT><FACE:0A>¡Vamos ya!<NL>"
+  },
+  {
+   "key": "str:7F6F85",
+   "src": "50a767e9bd63",
+   "t": "<FACE:33>Entonces, señorita<NL>Koharubi, ¡buen día!<WAIT><FACE:35>¡Nosotras nos haremos<NL>cargo de este lugar!<WAIT><FACE:33>Bueno, podríamos<NL>turnarnos con los<WAIT>demás de la clase…<WAIT><FACE:35>pero esto no es para<NL>plebeyos… ¡¿verdad?!<WAIT><FACE:06>…¡De veras que me<NL>hacen enojar!"
+  },
+  {
+   "key": "str:7F67E9",
+   "src": "c7d5c562a2a2",
+   "t": "<FACE:0A>Ese jefe dijo que su<NL>meta era retrasarnos…<WAIT><FACE:03>Es cierto…<NL>¿Buscan ganar tiempo?<WAIT><FACE:0B>Seguro traman algo<NL>a escondidas…<WAIT><FACE:01>¡Avancemos ya!"
+  },
+  {
+   "key": "str:7F74FC",
+   "src": "04555e5f8614",
+   "t": "<FACE:53><SFX:32>¡Intrusos dentro<NL>del bloque!<WAIT>¡Control anulado!"
+  },
+  {
+   "key": "str:5D5BD8",
+   "src": "f41cd88d8299",
+   "t": "Este Bloque desarrolla<NL><X:E8><END>"
+  },
+  {
+   "key": "str:5D5DA4",
+   "src": "9ed12b8f7307",
+   "t": "<FACE:00><SFX:79>Tinpet <X:E8><NL>¡tuyo!<WAIT><SFX:79>Cabeza <X:E9><NL>¡tuya!<WAIT><SFX:79>Br.der. <X:EA><NL>¡tuya!<WAIT><SFX:79>Br.izq. <X:EB><NL>¡tuya!<WAIT><SFX:79>Patas <X:EC><NL>¡tuyas!"
+  },
+  {
+   "key": "str:5D5E04",
+   "src": "c8b052a6e283",
+   "t": "<FACE:00><SFX:79>Tinpet <X:E8><NL>¡tuyo!"
+  },
+  {
+   "key": "str:5D5E18",
+   "src": "ea246fce54ec",
+   "t": "<FACE:00><SFX:79><X:E8> <X:E9><NL>¡Parte obtenida!"
+  },
+  {
+   "key": "str:5D5E2C",
+   "src": "6f30f4ebaf4a",
+   "t": "<FACE:00><SFX:79>Medalla <X:E8><NL>¡obtenida!"
+  },
+  {
+   "key": "str:5D5E40",
+   "src": "9a001a9916ee",
+   "t": "hembra"
+  },
+  {
+   "key": "str:5D5E48",
+   "src": "758467a39b50",
+   "t": "macho"
+  },
+  {
+   "key": "str:5D5E50",
+   "src": "a55782616f8b",
+   "t": "Patas"
+  },
+  {
+   "key": "str:5D5E58",
+   "src": "00da7cbe13ff",
+   "t": "Brazo i."
+  },
+  {
+   "key": "str:5D5E60",
+   "src": "8bde89d9cfa1",
+   "t": "Brazo d."
+  },
+  {
+   "key": "str:5D5E68",
+   "src": "917540c6475c",
+   "t": "Cabeza"
+  }
+ ]
+}

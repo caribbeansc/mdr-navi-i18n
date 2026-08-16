@@ -295,3 +295,67 @@ def script_area(rom: Rom) -> tuple[int, int]:
     start = min(offset for offset, _ in bounds)
     end = max(offset + length for offset, length in bounds)
     return (start, end)
+
+
+#: Live text the scan's heuristics miss — found by a pointer-free kana sweep
+#: of the whole dump (2026-08), every zone verified pointer-reachable:
+#: the roaming-NPC chatter block parked just BEFORE the event scripts, the
+#: late-game scenes parked at the ROM TAIL (below the 0x7F7541 data end, so
+#: the allocator never touches them), and the link/result composites next to
+#: the battle messages. The scan skips them because their runs fail the
+#: preceded-by-a-terminator test or drown in neighbouring non-text.
+SUPPLEMENT_ZONES = (
+    (0x5D7000, 0x5D8B54),   # roaming-NPC and event snippets
+    (0x7F6100, 0x7F7541),   # late-game scenes at the ROM tail
+    (0x4CC700, 0x4CCE00),   # link/robattle result composites
+)
+
+#: Pointer targets inside those zones that are NOT text: sound/animation
+#: ramps and bare insert tokens the composites splice in.
+SUPPLEMENT_SKIP = {0x7F6004}
+
+#: Individually curated strings the zone/score filters would reject: the
+#: item-get dialog templates and their INSERT words (slot names down to a
+#: single kanji, so the min-length bar drops them), each reached by exactly
+#: one pointer in the gift table at 0x7F01CC-0x7F01F0.
+SUPPLEMENT_EXTRA = (
+    0x5D5BD8,            # "this block develops X"
+    0x5D5DA4,            # starter-pack 5-box template
+    0x5D5E04, 0x5D5E18, 0x5D5E2C,   # tinpet / part / medal get
+    0x5D5E40, 0x5D5E48,  # tinpet types (female/male)
+    0x5D5E50, 0x5D5E58, 0x5D5E60, 0x5D5E68,  # slot words legs/l.arm/r.arm/head
+)
+
+
+def supplement(rom: Rom, charset: Charset,
+               model: "LanguageModel | None" = None) -> list[LooseString]:
+    """The curated strings behind SUPPLEMENT_ZONES, as normal loose lines."""
+    model = model or LanguageModel.from_scripts(rom)
+    index = pointer_index(rom)
+    data = bytes(rom.data)
+    out = []
+    for target in sorted(SUPPLEMENT_EXTRA):
+        if target in index:
+            text, end = decode(data, target, charset, limit=2000)
+            pointers = [site for site in index[target] if site >= 0x8000]
+            out.append(LooseString(offset=target, text=text,
+                                   length=end - target, pointers=pointers,
+                                   text_bytes=end - target))
+    for target in sorted(index):
+        if target in SUPPLEMENT_SKIP or target in SUPPLEMENT_EXTRA:
+            continue
+        if not any(a <= target < b for a, b in SUPPLEMENT_ZONES):
+            continue
+        text, end = decode(data, target, charset, limit=2000)
+        visible = _visible(text)
+        if len(visible) < 4 or model.score(data[target:end]) < -4.5:
+            continue
+        # Words inside the BOOT code (0x334, 0x4820, 0x4B94...) can decode as
+        # pointers into these zones by pure coincidence; repointing one there
+        # bricks the ROM to a white screen at power-on (it happened). The real
+        # loaders' tables and literal pools all live above 0x8000, so only
+        # those may ever be rewritten.
+        pointers = [site for site in index[target] if site >= 0x8000]
+        out.append(LooseString(offset=target, text=text, length=end - target,
+                               pointers=pointers, text_bytes=end - target))
+    return out

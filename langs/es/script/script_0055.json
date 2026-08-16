@@ -329,7 +329,7 @@
   {
    "key": "script:0055:13EA",
    "src": "4583d7b11c8e",
-   "t": "<FACE:03>¿Lo sabías?<WAIT><FACE:05>Sí, más o menos…<NL>Pero no pasa nada<WAIT><PLAYER> ya lo<NL>pensaste bastante<WAIT>Y además…<WAIT><FACE:07>Esa Medalla te queda<NL>bastante bien"
+   "t": "<FACE:03>¿Lo sabías?<WAIT><FACE:05>Sí, más o menos…<NL>Pero no pasa nada<WAIT><PLAYER>, ya lo<NL>pensaste bastante<WAIT>Y además…<WAIT><FACE:07>Esa Medalla te queda<NL>bastante bien"
   },
   {
    "key": "script:0055:1438",
@@ -389,7 +389,7 @@
   {
    "key": "script:0055:1578",
    "src": "f777b3c22832",
-   "t": "<FACE:0E>Señorita Rainy… le<NL>devuelvo el separador<WAIT><FACE:0A>Por favor, retírese al<NL>bloque Lobby<WAIT>y vuelva a la Tierra…"
+   "t": "<FACE:0E>Señorita Rainy… le<NL>devuelvo el separador<WAIT><FACE:0A>Por favor, retírese al<NL>Bloque Lobby<WAIT>y vuelva a la Tierra…"
   },
   {
    "key": "script:0055:15B7",

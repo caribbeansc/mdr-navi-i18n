@@ -54,7 +54,7 @@
   {
    "key": "script:0134:09BA",
    "src": "0dc305b77e00",
-   "t": "<FACE:69>¡Maldita base ruinosa!"
+   "t": "<FACE:69>¡Maldita guarida<NL>ruinosa!"
   },
   {
    "key": "script:0134:09CA",
@@ -89,7 +89,7 @@
   {
    "key": "script:0134:0A66",
    "src": "3598a924e691",
-   "t": "<FACE:69>Lo llevaré a la base<NL>como nuevo jefe<WAIT>¡Muchachos! ¡Sujeten a<NL><PLAYER>!"
+   "t": "<FACE:69>Me lo llevo a la<NL>guarida de jefe nuevo<WAIT>¡Muchachos! ¡Sujeten a<NL><PLAYER>!"
   },
   {
    "key": "script:0134:0AA6",
@@ -99,7 +99,7 @@
   {
    "key": "script:0134:0ABE",
    "src": "57e55d227364",
-   "t": "<FACE:7A>¡El gran yo se niega!"
+   "t": "<FACE:7A>¡El gran Raiun se<NL>niega!"
   },
   {
    "key": "script:0134:0ACC",

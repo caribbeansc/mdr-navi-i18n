@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0168",
+ "entries": [
+  {
+   "key": "script:0168:027E",
+   "src": "dcf6f7fa8efc",
+   "t": ""
+  },
+  {
+   "key": "script:0168:038E",
+   "src": "b324f7067acc",
+   "t": ""
+  },
+  {
+   "key": "script:0168:03F0",
+   "src": "685d552f55f1",
+   "t": ""
+  },
+  {
+   "key": "script:0168:041F",
+   "src": "0f5c55e99a6f",
+   "t": ""
+  },
+  {
+   "key": "script:0168:0464",
+   "src": "db232a74c6ce",
+   "t": ""
+  },
+  {
+   "key": "script:0168:0493",
+   "src": "b080c850dc13",
+   "t": ""
+  },
+  {
+   "key": "script:0168:04A2",
+   "src": "cdfb01100dd9",
+   "t": ""
+  },
+  {
+   "key": "script:0168:04CC",
+   "src": "17261cb13666",
+   "t": ""
+  },
+  {
+   "key": "script:0168:04D6",
+   "src": "9bcb7014ddaf",
+   "t": ""
+  },
+  {
+   "key": "script:0168:04DE",
+   "src": "6850d526a366",
+   "t": ""
+  },
+  {
+   "key": "script:0168:04F4",
+   "src": "dbc85926f625",
+   "t": ""
+  },
+  {
+   "key": "script:0168:04FF",
+   "src": "eaf46846462e",
+   "t": ""
+  },
+  {
+   "key": "script:0168:0521",
+   "src": "5fc9936cab0f",
+   "t": ""
+  },
+  {
+   "key": "script:0168:055A",
+   "src": "49e83adef7ef",
+   "t": ""
+  },
+  {
+   "key": "script:0168:0571",
+   "src": "3022b1c27fe0",
+   "t": ""
+  },
+  {
+   "key": "script:0168:0588",
+   "src": "8984f2202d49",
+   "t": ""
+  }
+ ]
+}

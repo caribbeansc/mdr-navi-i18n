@@ -19,7 +19,7 @@
   {
    "key": "script:0130:02BD",
    "src": "7b1739b0b8cf",
-   "t": "<FACE:4E>¡Vamos a ver quiénes<NL>somos mejores, eh!"
+   "t": "<FACE:4E>¡A ver quién es mejor,<NL>ustedes o nosotros!"
   },
   {
    "key": "script:0130:02E1",
@@ -54,7 +54,7 @@
   {
    "key": "script:0130:037B",
    "src": "cb433825303f",
-   "t": "<FACE:57>Contraseña uno: «A»"
+   "t": "<FACE:57>Primera contraseña:<NL>«A»"
   },
   {
    "key": "script:0130:038C",

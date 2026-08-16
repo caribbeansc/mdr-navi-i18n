@@ -419,7 +419,7 @@
   {
    "key": "script:0028:26D8",
    "src": "2b1734b20168",
-   "t": "<FACE:2E>Niwaka, el delegado,<NL>huyó, y para cuidarnos<WAIT>andábamos con ellos<NL><WAIT>Como ellos huyeron,<NL>ahora los seguimos"
+   "t": "<FACE:2E>Niwaka, el presidente,<NL>huyó, y para cuidarnos<WAIT>andábamos con ellos<NL><WAIT>Como ellos huyeron,<NL>ahora los seguimos"
   },
   {
    "key": "script:0028:2735",
@@ -879,7 +879,7 @@
   {
    "key": "script:0028:354E",
    "src": "2e57e5bb3cca",
-   "t": "<FACE:0F>¡Shiden se unió!<NL><WAIT><FACE:2E>¡Hyouga se unió!<NL><WAIT><FACE:30>¡Shinkirou se unió!"
+   "t": "<FACE:0F>¡Shiden se unió<NL>al equipo!<WAIT><FACE:2E>¡Hyouga se unió<NL>al equipo!<WAIT><FACE:30>¡Shinkirou se unió<NL>al equipo!"
   },
   {
    "key": "script:0028:3586",

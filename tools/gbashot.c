@@ -106,6 +106,10 @@ int main(int argc, char** argv) {
 	unsigned savestate_frame = 0;
 	const char* savestate_path = NULL;
 	const char* loadstate_path = NULL;
+	// --poke FRAME:ADDR:VALUE writes a 32-bit word into the running game's
+	// memory. Used to neutralise a stale pointer the save carries before
+	// letting the game write the save back with its own checksum.
+	unsigned poke_frame = 0; uint32_t poke_addr = 0, poke_value = 0; int poke_on = 0;
 
 	for (int i = 2; i < argc; ++i) {
 		if (!strcmp(argv[i], "--frames") && i + 1 < argc) {
@@ -179,6 +183,16 @@ int main(int argc, char** argv) {
 			*colon = 0;
 			savestate_frame = (unsigned) atoi(spec);
 			savestate_path = colon + 1;
+		} else if (!strcmp(argv[i], "--poke") && i + 1 < argc) {
+			char* spec = argv[++i];
+			char* c1 = strchr(spec, ':');
+			char* c2 = c1 ? strchr(c1 + 1, ':') : NULL;
+			if (!c1 || !c2) { fprintf(stderr, "--poke wants FRAME:HEXADDR:HEXVALUE\n"); return 2; }
+			*c1 = 0; *c2 = 0;
+			poke_frame = (unsigned) atoi(spec);
+			poke_addr = (uint32_t) strtoul(c1 + 1, NULL, 16);
+			poke_value = (uint32_t) strtoul(c2 + 1, NULL, 16);
+			poke_on = 1;
 		} else if (!strcmp(argv[i], "--loadstate") && i + 1 < argc) {
 			loadstate_path = argv[++i];
 		} else if (!strcmp(argv[i], "--wander") && i + 1 < argc) {
@@ -228,6 +242,10 @@ int main(int argc, char** argv) {
 		fprintf(stderr, "cannot load %s\n", rom_path);
 		return 1;
 	}
+	// Pick up ROM.sav the way mGBA does, so a player's own save can be
+	// loaded and "Continue" appears on the title menu. Without this the
+	// cartridge always boots with empty save memory.
+	mCoreAutoloadSave(core);
 	core->reset(core);
 
 	if (loadstate_path) {
@@ -298,6 +316,11 @@ int main(int argc, char** argv) {
 					status = 1;
 				}
 			}
+		}
+		if (poke_on && frame == poke_frame) {
+			core->busWrite32(core, poke_addr, poke_value);
+			printf("poked %08X = %08X (frame %u)\n", poke_addr, poke_value, frame);
+			fflush(stdout);
 		}
 		if (savestate_path && frame == savestate_frame) {
 			struct VFile* vf = VFileOpen(savestate_path, O_WRONLY | O_CREAT | O_TRUNC);

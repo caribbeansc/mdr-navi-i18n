@@ -24,7 +24,7 @@
   {
    "key": "script:0044:09E9",
    "src": "d9fc231f3a5a",
-   "t": "<FACE:70>¿Aaay, sí?"
+   "t": "<FACE:70>¿Aaay, sí?<NL>"
   },
   {
    "key": "script:0044:09F2",
@@ -69,12 +69,12 @@
   {
    "key": "script:0044:0B3F",
    "src": "612af1d99ba3",
-   "t": "<FACE:00>Eso es sin duda…<WAIT><FACE:05>¿¡Otra vez la Banda<NL>Space Roborobo!?<WAIT><FACE:05>Y con ellos están<NL>los chicos de mi clase<WAIT><FACE:01>¿Qué estarán tramando?<NL>Mejor observemos…"
+   "t": "<FACE:00>Eso es sin duda…<WAIT><FACE:05>¿¡Otra vez la Banda<NL>Space Robo Robo!?<WAIT><FACE:05>Y con ellos están<NL>los chicos de mi clase<WAIT><FACE:01>¿Qué estarán tramando?<NL>Mejor observemos…"
   },
   {
    "key": "script:0044:0BA4",
    "src": "be34c5533278",
-   "t": "<FACE:05>¿Y esa qué? ¿Será<NL>una oficial…?<WAIT>Con esa ropa tan<NL>chillona y ridícula…"
+   "t": "<FACE:05>¿Y esa qué? ¿Será<NL>una jefa…?<WAIT>Con esa ropa tan<NL>chillona y ridícula…"
   },
   {
    "key": "script:0044:0BD2",
@@ -159,7 +159,7 @@
   {
    "key": "script:0044:0DD6",
    "src": "e10af660d43d",
-   "t": "<FACE:72>¡Oh, jo jo jo jo!<NL>Mi nombre…<WAIT>Oficial de la Banda<NL>Space Roborobo:<WAIT>«The Ultimate<NL>Beautiful Madonna»<WAIT>¡La diosa suprema<NL>de la belleza!<WAIT>¡Sekiran del Mar!"
+   "t": "<FACE:72>¡Oh, jo jo jo jo!<NL>Mi nombre…<WAIT>Oficial de la Banda<NL>Space Robo Robo:<WAIT>«The Ultimate<NL>Beautiful Madonna»<WAIT>¡La diosa suprema<NL>de la belleza!<WAIT>¡Sekiran del Mar!"
   },
   {
    "key": "script:0044:0E2B",
@@ -209,7 +209,7 @@
   {
    "key": "script:0044:109F",
    "src": "2039534bf24a",
-   "t": "<FACE:80>¡C… cierto-robo!<WAIT>Señora Sekiran, ¿qué<NL>pensaba hacer-robo?<WAIT><FACE:70>…Pues…"
+   "t": "<FACE:80>¡C… cierto-robo!<WAIT>Jefa Sekiran, ¿qué<NL>pensaba hacer-robo?<WAIT><FACE:70>…Pues…"
   },
   {
    "key": "script:0044:10D0",

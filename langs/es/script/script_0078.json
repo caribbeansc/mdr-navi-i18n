@@ -19,7 +19,7 @@
   {
    "key": "script:0078:0CDE",
    "src": "b5668a5a96c2",
-   "t": "<FACE:08>¿¡Qué!?<NL>¡Qué gritote fue ese!<WAIT><FACE:03>Parece que viene de<NL>los altavoces…"
+   "t": "<FACE:08>¿¡Qué!?<NL>¡Qué gritote fue ese!<WAIT><FACE:03>Parece que viene de<NL>los parlantes…"
   },
   {
    "key": "script:0078:0D0A",
@@ -34,7 +34,7 @@
   {
    "key": "script:0078:0D42",
    "src": "c511064fbd78",
-   "t": "<FACE:7F>¡Ya se anima el gran<NL>grito Sperobo-robo!<WAIT>¡Falta poco para la<NL>avalancha-robo!<NL><WAIT>Si con la avalancha<NL>cerramos este bloque,<WAIT>¡<PLAYER> y su grupo<NL>no pasan de acá-robo!<WAIT>¡Y el amo Nyuudou nos<NL>dará un premio-robo!"
+   "t": "<FACE:7F>¡Ya se anima el gran<NL>grito Sperobo-robo!<WAIT>¡Falta poco para la<NL>avalancha-robo!<NL><WAIT>Si con la avalancha<NL>cerramos este bloque,<WAIT>¡<PLAYER> y su grupo<NL>no pasan de acá-robo!<WAIT>¡Y el jefe Nyuudou nos<NL>dará un premio-robo!"
   },
   {
    "key": "script:0078:0DD9",
@@ -54,7 +54,7 @@
   {
    "key": "script:0078:0E1F",
    "src": "9991dc74b57b",
-   "t": "<FACE:08>¡Son los altavoces!<NL>Si los desconectamos…<WAIT><FACE:09>¿Alguna buena idea…?"
+   "t": "<FACE:08>¡Son los parlantes!<NL>Si los desconectamos…<WAIT><FACE:09>¿Alguna buena idea…?"
   },
   {
    "key": "script:0078:0E59",

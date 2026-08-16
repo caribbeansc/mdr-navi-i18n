@@ -193,17 +193,62 @@ def read_scripts(rom: Rom) -> list[Script]:
     return scripts
 
 
+#: Keys whose several boxes really are ONE string the engine reads through.
+#: Verified on screen one by one; anything not here is read as a single box.
+CHAIN_KEYS = frozenset({
+    "script:0031:0851",   # the Navi terminal's three-box greeting
+})
+
+
 def read_strings(script: Script, charset: Charset) -> dict[int, tuple[str, int]]:
     """Every string the script draws, as ``offset -> (text, bytes it occupies)``.
 
     The byte count is what decides, later, whether a translation can be written
     over the Japanese instead of forcing the whole script to move.
+
+    Some strings are CHAINS: the engine reads straight through <CLEAR>, so
+    one 0x01 op can carry several boxes back to back — the Navi greeting is
+    three (welcome / "I am the management computer" / "my name is Navi").
+    But "text right after a segment" is NOT a reliable sign of one: the
+    opcode walker misses sites, and two neighbouring lines that belong to
+    DIFFERENT speakers then look like a chain. Merging them showed one NPC's
+    line twice, the second time with the other's portrait, and — when the
+    merged translation was written in place — blanked a live line. So a
+    chain is only read as one when its key is listed in CHAIN_KEYS, each
+    verified on screen.
     """
     out: dict[int, tuple[str, int]] = {}
-    for text_at in script.text_offsets():
-        if text_at >= len(script.data):
+    data = bytes(script.data)
+    allowed = {int(k.split(":")[2], 16) for k in CHAIN_KEYS
+               if int(k.split(":")[1]) == script.index}
+    offsets = script.text_offsets()
+    site_set = set(offsets)
+    for i, text_at in enumerate(offsets):
+        if text_at >= len(data):
             continue
-        text, end = decode(script.data, text_at, charset)
-        if text:
-            out[text_at] = (text, end - text_at)
+        limit = offsets[i + 1] if i + 1 < len(offsets) else len(data)
+        text, end = decode(data, text_at, charset)
+        if not text:
+            continue
+        first_end = end
+        while (text_at in allowed and end < limit and end < len(data) - 2
+               and end not in site_set and data[end] not in (0x00, 0xF3)):
+            more, more_end = decode(data, end, charset)
+            visible = more
+            for tag in ("<CLEAR>", "<END>", "<NL>", "<WAIT>"):
+                visible = visible.replace(tag, "")
+            import re as _re
+            if more_end <= end or len(_re.sub(r"<[^>]+>", "", visible).strip()) < 2:
+                break
+            text += more
+            end = more_end
+        # SAFETY: report only the FIRST segment's byte count. The chain's
+        # text is what the translator needs to see, but claiming the whole
+        # chain's bytes let the builder BLANK the tail — and the opcode
+        # walker does not find every site, so a tail can still be some other
+        # branch's live line. Under-reporting the room makes a chain
+        # translation too long to fit, so it is APPENDED and the original
+        # bytes stay untouched: a missed site keeps showing Japanese instead
+        # of an empty box. (A save mid-game went unplayable when it blanked.)
+        out[text_at] = (text, first_end - text_at)
     return out

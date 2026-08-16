@@ -109,7 +109,7 @@
   {
    "key": "script:0021:0AAC",
    "src": "0ccade51f393",
-   "t": "<FACE:45>¡<PLAYER>!<NL>¡Hasta que llegas!<WAIT>¡Se supone que eres<NL>el jefe de grupo!<WAIT><FACE:48>¡Sálvanos de una<NL>buena vez!"
+   "t": "<FACE:45>¡<PLAYER>!<NL>¡Hasta que llegas!<WAIT>¡Se supone que eres<NL>el presidente!<WAIT><FACE:48>¡Sálvanos de una<NL>buena vez!"
   },
   {
    "key": "script:0021:0ADB",
@@ -169,7 +169,7 @@
   {
    "key": "script:0021:0C69",
    "src": "118daae46638",
-   "t": "<FACE:7C>¡Ah, cierto,<NL>joven <PLAYER>!<WAIT><FACE:79>En ese panel, ¡pulsa<NL>el botón de escalera!<WAIT><FACE:03>¿Eh?<NL>"
+   "t": "<FACE:7C>¡Ah, cierto,<NL>joven <PLAYER>!<WAIT><FACE:79>En ese panel, ¡oprime<NL>el botón de escalera!<WAIT><FACE:03>¿Eh?<NL>"
   },
   {
    "key": "script:0021:0CA5",
@@ -199,7 +199,7 @@
   {
    "key": "script:0021:0D15",
    "src": "2c2530a753d0",
-   "t": "<FACE:45>¡¿Cómo se atreven<NL>a dejarnos olvidadas?!<WAIT><FACE:09>Ah, con que eran<NL>estas niñas"
+   "t": "<FACE:45>¡¿Cómo se atreven<NL>a dejarnos olvidadas?!<WAIT><FACE:09>Ah, conque eran<NL>estas niñas"
   },
   {
    "key": "script:0021:0D43",

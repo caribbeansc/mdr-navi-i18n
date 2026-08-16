@@ -23,8 +23,8 @@
   },
   {
    "key": "script:0031:0851",
-   "src": "7fa94e0bc552",
-   "t": "<FACE:53><SFX:64>Bienvenidos al Cluster<NL><DELAY:003C><DELAY:0034><CLEAR>"
+   "src": "ae0edc08cd87",
+   "t": "<FACE:53><SFX:64>Bienvenidos al Cluster<NL><DELAY:003C><DELAY:0034><CLEAR>Soy la computadora<NL><DELAY:0036>de este Cluster<DELAY:0078><DELAY:0017><CLEAR>Me llamo «Navi»<DELAY:0028><END>"
   },
   {
    "key": "script:0031:0894",

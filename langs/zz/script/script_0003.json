@@ -1,0 +1,40 @@
+{
+ "part": "script/script_0003",
+ "entries": [
+  {
+   "key": "script:0003:0248",
+   "src": "57f1d43414ba",
+   "t": ""
+  },
+  {
+   "key": "script:0003:026F",
+   "src": "991d8958a776",
+   "t": ""
+  },
+  {
+   "key": "script:0003:02C0",
+   "src": "786cedf04560",
+   "t": ""
+  },
+  {
+   "key": "script:0003:02D8",
+   "src": "713a4c9531a2",
+   "t": ""
+  },
+  {
+   "key": "script:0003:02F6",
+   "src": "2b0e9cdfff30",
+   "t": ""
+  },
+  {
+   "key": "script:0003:031F",
+   "src": "3615bef7d5a2",
+   "t": ""
+  },
+  {
+   "key": "script:0003:0347",
+   "src": "dc3119a8cff7",
+   "t": ""
+  }
+ ]
+}

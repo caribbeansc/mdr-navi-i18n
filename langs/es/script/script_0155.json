@@ -54,7 +54,7 @@
   {
    "key": "script:0155:0646",
    "src": "5f609fba3678",
-   "t": "<FACE:92>¿Qué? ¿Insinúas que<NL>yo no soy delicada?"
+   "t": "<FACE:92>¿Qué? ¿Insinúas que<NL>yo no soy formal?"
   },
   {
    "key": "script:0155:0668",
@@ -64,7 +64,7 @@
   {
    "key": "script:0155:067A",
    "src": "99de3e3cb973",
-   "t": "<FACE:9D>¡Ju ja ja ja! ¡Aquí<NL>el Ladrón Fantasma!!"
+   "t": "<FACE:9D>¡Ju ja ja ja! ¡Aquí el<NL>Fantasma Renegado!"
   },
   {
    "key": "script:0155:0699",
@@ -149,7 +149,7 @@
   {
    "key": "script:0155:08C7",
    "src": "cc8e129ae373",
-   "t": "<FACE:94>Íbamos a vernos en la<NL>fiesta de Cluster…<WAIT>pero antes de abrir<NL>pasó todo ese lío<WAIT>y aún no lo conozco"
+   "t": "<FACE:94>Íbamos a vernos en la<NL>fiesta del Cluster…<WAIT>pero antes de abrir<NL>pasó todo ese lío<WAIT>y aún no lo conozco"
   },
   {
    "key": "script:0155:0914",
@@ -164,7 +164,7 @@
   {
    "key": "script:0155:094A",
    "src": "ac9ece2a1e1c",
-   "t": "<FACE:04>¿Eh? ¿Y el Ladrón<NL>Fantasma? No lo veo"
+   "t": "<FACE:04>¿Eh? ¿Y el Fantasma<NL>Renegado? No lo veo"
   },
   {
    "key": "script:0155:0965",

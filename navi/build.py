@@ -269,6 +269,43 @@ def _write_team_names(rom: Rom, pack: Pack, charset: Charset, report: Report) ->
 #: 0x4C8660 the data is Shift-JIS text, not pointers.
 BATTLE_MSG_TABLE = (0x4C8660, 0x4C8964)
 
+#: The attack/destruction CINEMATIC renders battle messages through a routine
+#: whose epilogue (0x08042A00) returns via a stack slot that DRIFTS 4 bytes
+#: per composed cell: a message that COMPOSES longer than its Japanese
+#: original walks the return past its frame into a stale register and the
+#: game jumps to 0x040000D4 (proven by single-message bisection; the length
+#: of the ROM bytes is irrelevant, only the composed width counts).  Which
+#: messages that routine can show is not statically knowable, so the rule is
+#: blanket: EVERY battle message must satisfy composed(ES) <= composed(JP).
+#: The build REFUSES violators — the line then shows Japanese, never a crash.
+
+#: What each <NL>x insert slot expands to, in cells.  Names (medabots,
+#: parts, medaforce) are up to 8-9 either way; digits are 3.  コ (the
+#: part-slot label) copies a FIXED BYTE COUNT — the one its Japanese label
+#: occupied, never seeking a terminator: 頭 is 2, so the head label must BE
+#: 2 characters ("CB"), while 右腕/左腕/脚部 are 4 and keep 4-character
+#: labels (Br.D/Br.I/Pata).  Proven in-game per slot; budget at the worst
+#: case, 4.  エ (the hit-result word) is JP <= 6, ES <= 7.
+_INSERT_W_ES = {"オ": 8, "シ": 8, "ス": 8, "カ": 8, "コ": 4, "エ": 7, "セ": 9,
+                "ア": 3, "イ": 3, "キ": 3, "サ": 3, "ク": 3, "ソ": 3, "ケ": 3}
+_INSERT_W_JP = {"オ": 8, "シ": 8, "ス": 8, "カ": 8, "コ": 2, "エ": 6, "セ": 8,
+                "ア": 3, "イ": 3, "キ": 3, "サ": 3, "ク": 3, "ソ": 3, "ケ": 3}
+
+
+def _composed_cells(text: str, widths: dict[str, int]) -> int:
+    """Cells the cinematic will actually draw: 1 per character, inserts at
+    the width of what their slot expands to, terminator tags free."""
+    import re
+
+    text = re.sub(r"<X:F0>|<END>", "", text)
+    total = 0
+    for match in re.finditer(r"<NL>(.)|\[note\]|\[<3\]|(.)", text):
+        if match.group(1):
+            total += widths.get(match.group(1), 8)
+        else:
+            total += 1
+    return total
+
 
 def _write_battle_messages(rom: Rom, pack: Pack, charset: Charset,
                            allocator, report: Report) -> None:
@@ -284,7 +321,17 @@ def _write_battle_messages(rom: Rom, pack: Pack, charset: Charset,
     table = json.loads(path.read_text(encoding="utf-8")).get("battle_messages", {})
     if not table:
         return
+    import re as _re
+
     japanese = load_japanese()
+
+    # The kana after each <NL> is the insert SLOT byte, spelled as the
+    # kana it decodes to; turn it back into the raw byte so the Latin
+    # charset never has to know it.
+    def _slot(match: "_re.Match[str]") -> str:
+        code = japanese.encode.get(match.group(1))
+        return f"<NL><B:{code:02X}>" if code is not None else match.group(0)
+
     relocated: dict[str, int] = {}
     missing: set[str] = set()
     handled: set[int] = set()
@@ -310,15 +357,14 @@ def _write_battle_messages(rom: Rom, pack: Pack, charset: Charset,
             if source:
                 missing.add(key)
             continue
-        # The kana after each <NL> is the insert SLOT byte, spelled as the
-        # kana it decodes to; turn it back into the raw byte so the Latin
-        # charset never has to know it.
-        import re as _re
-
-        def _slot(match: "\\re.Match[str]") -> str:
-            code = japanese.encode.get(match.group(1))
-            return f"<NL><B:{code:02X}>" if code is not None else match.group(0)
-
+        over = (_composed_cells(latin, _INSERT_W_ES)
+                - _composed_cells(source, _INSERT_W_JP))
+        if over > 0:
+            report.skipped.append(
+                (f"battlemsg:{key}",
+                 f"composes {over} cell(s) past the Japanese; "
+                 "the cinematic would crash (0x040000D4)"))
+            continue
         latin = _re.sub(r"<NL>(.)", _slot, latin)
         try:
             payload = encode(latin, charset)
@@ -338,6 +384,60 @@ def _write_battle_messages(rom: Rom, pack: Pack, charset: Charset,
                 relocated[key] = destination
             rom.write_ptr(site, destination)
         report.written += 1
+    # GROUP VARIANTS: some pointers mark a GROUP — the engine walks past
+    # <X:F0> terminators (skipping zero padding, proven in-game) to pick a
+    # variant, so strings can follow a target with no pointer of their own:
+    # 0x4C8FB9 ("evade and defense are void") is a variant in 0x4C8F90's
+    # group and NO pointer in the ROM reaches it. Variants can only be
+    # written IN PLACE, inside their own footprint plus any zero padding
+    # that follows; the composed-width rule applies to them the same.
+    region_end = 0x4CA150  # the kana keyboard grids follow the last message
+    starts = targets + [region_end]
+    for i in range(len(starts) - 1):
+        limit = starts[i + 1]
+        _, at = decode(bytes(rom.data), starts[i], japanese, limit=120)
+        while at < limit:
+            if rom.data[at] == 0:
+                at += 1
+                continue
+            source, end = decode(bytes(rom.data), at, japanese, limit=120)
+            if end <= at:
+                at += 1
+                continue
+            key = fingerprint(source)
+            latin = table.get(key)
+            if latin is None:
+                if source.replace("<X:F0>", "").strip():
+                    missing.add(key)
+                at = end
+                continue
+            over = (_composed_cells(latin, _INSERT_W_ES)
+                    - _composed_cells(source, _INSERT_W_JP))
+            if over > 0:
+                report.skipped.append(
+                    (f"battlemsg:{key}",
+                     f"variant composes {over} cell(s) past the Japanese"))
+                at = end
+                continue
+            latin = _re.sub(r"<NL>(.)", _slot, latin)
+            try:
+                payload = encode(latin, charset)
+            except TableError as exc:
+                report.skipped.append((f"battlemsg:{key}", str(exc)))
+                at = end
+                continue
+            room_end = end
+            while room_end < limit and rom.data[room_end] == 0:
+                room_end += 1
+            if len(payload) > room_end - at:
+                report.skipped.append(
+                    (f"battlemsg:{key}",
+                     f"variant needs {len(payload)} bytes in {room_end - at}, "
+                     "and a variant cannot move"))
+            else:
+                rom.write(at, payload + bytes(room_end - at - len(payload)))
+                report.written += 1
+            at = end
     if missing:
         report.skipped.append(
             ("battle-messages", f"{len(missing)} messages have no entry yet"))
@@ -367,14 +467,53 @@ def _write_extra_strings(rom: Rom, pack: Pack, charset: Charset, report: Report)
         text = entry.get("t", "")
         if not text:
             continue
+        # Two sites can share the same Japanese and need DIFFERENT Spanish
+        # (ランダム is a medal personality in one table and a targeting
+        # strategy in another, with different room). A key may therefore be
+        # "<fingerprint>@<site>" to name one site only — plain fingerprints
+        # still cover every site that decodes to that Japanese.
+        src = src.split("@")[0]
         room = int(entry["room"])
         try:
             payload = encode(text, charset)
         except TableError as exc:
             report.skipped.append((f"extra:{src}", str(exc)))
             continue
-        if not text.endswith("<END>"):
+        # The result composer looks for the NEXT piece immediately after the
+        # previous one's 0x00, so a piece must fill its slot EXACTLY: any
+        # 0x00 padding we leave behind reads as an empty next piece and eats
+        # the real one (proven in-game: the part name vanished). Pieces
+        # marked "exact" are padded with SPACES inside the text instead, and
+        # keep whatever the Japanese had between the terminator and the end
+        # of the slot — the 0x02 there is what clears the box before the
+        # next line.
+        if entry.get("exact"):
+            original_bytes = bytes(rom.data)[int(str(entry["sites"][0]), 16):][:room]
+            stop = original_bytes.find(0xF0)
+            tail = original_bytes[stop + 1:] if stop >= 0 else b"\x00"
+            body = payload[:-1] if text.endswith("<X:F0>") else payload
+            room_for_body = room - 1 - len(tail)
+            if len(body) > room_for_body:
+                report.skipped.append(
+                    (f"extra:{src}",
+                     f"{len(body)} bytes of text into {room_for_body} "
+                     "(exact-fit piece)"))
+                continue
+            payload = (body + bytes([charset.encode.get(" ", 0xDB)])
+                       * (room_for_body - len(body)) + b"\xf0" + tail)
+        elif not text.endswith(("<END>", "<X:F0>")):
             payload += b"\x00"
+        elif text.endswith("<X:F0>") and len(payload) >= room:
+            # The result composer separates its pieces with a 0x00 AFTER the
+            # F0; a piece that fills the slot to the brim eats that separator
+            # and the NEXT fragment's 0x01 insert token prints as a literal
+            # glyph (proven in-game: "A ¡es tuya!"). The zero padding below
+            # supplies the separator, so the payload must leave room for it.
+            report.skipped.append(
+                (f"extra:{src}",
+                 f"a sealed piece must leave 1 byte for the 0x00 separator "
+                 f"({len(payload)} bytes into a {room}-byte slot)"))
+            continue
         if len(payload) > room:
             report.skipped.append(
                 (f"extra:{src}", f"{len(payload)} bytes into a {room}-byte slot"))
@@ -441,6 +580,13 @@ def _write_ptr_strings(rom: Rom, pack: Pack, charset: Charset,
     if not table:
         return
     japanese = load_japanese()
+    # The original four targets are NESTED (each a suffix of the previous)
+    # inside one mixed pointer table the engine may walk comparing
+    # NEIGHBOURING pointers. Scattering four independent copies over the
+    # tail gives that walk absurd deltas, so all payloads go into ONE
+    # contiguous block, in ascending original-target order, and every site
+    # is repointed inside it.
+    entries = []
     for site, entry in table.items():
         at = int(str(site), 16)
         target = rom.ptr(at)
@@ -453,9 +599,17 @@ def _write_ptr_strings(rom: Rom, pack: Pack, charset: Charset,
         except TableError as exc:
             report.skipped.append((f"ptr:{site}", str(exc)))
             continue
-        destination = allocator.take(len(payload), align=1)
-        rom.write(destination, payload)
-        rom.write_ptr(at, destination)
+        entries.append((target, at, payload))
+    if not entries:
+        return
+    entries.sort()
+    blob = b"".join(payload for _, _, payload in entries)
+    base = allocator.take(len(blob), align=4)
+    rom.write(base, blob)
+    offset = 0
+    for _, at, payload in entries:
+        rom.write_ptr(at, base + offset)
+        offset += len(payload)
         report.written += 1
 
 
@@ -525,12 +679,17 @@ def build(rom: Rom, catalog: Catalog, pack: Pack, charset: Charset) -> Report:
             rom.write(line.offset, payload + bytes(line.length - len(payload)))
             report.strings_inline += 1
         else:
-            if not line.pointers:
+            # NEVER rewrite a "pointer" inside the boot code: words below
+            # 0x8000 can equal a string address by coincidence (two THUMB
+            # instructions at 0x334 did), and repointing one white-screens
+            # the ROM at power-on.
+            safe_sites = [site for site in line.pointers if site >= 0x8000]
+            if not safe_sites:
                 report.skipped.append((line.key, "too long, and nothing points at it"))
                 continue
             destination = allocator.take(len(payload), align=1)
             rom.write(destination, payload)
-            for site in line.pointers:
+            for site in safe_sites:
                 rom.write_ptr(site, destination)
             report.strings_moved += 1
         report.written += 1
