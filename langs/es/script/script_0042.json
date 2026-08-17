@@ -104,7 +104,7 @@
   {
    "key": "script:0042:0BB3",
    "src": "17ac790cb8cd",
-   "t": "<FACE:3D>¡Ah, señorita Hiyori<NL>y <PLAYER>!<WAIT><FACE:01>¿Por qué a Hiyori la<NL>tratas de «señorita»?<WAIT><FACE:3D>Es que…"
+   "t": "<FACE:3D>¡Ah, señorita Koharubi<NL>y <PLAYER>!<WAIT><FACE:01>¿Por qué a Hiyori la<NL>tratas de «señorita»?<WAIT><FACE:3D>Es que…"
   },
   {
    "key": "script:0042:0BE4",
@@ -329,7 +329,7 @@
   {
    "key": "script:0042:114A",
    "src": "3e720a81802c",
-   "t": "<FACE:3D>Gracias, señorita<NL>Hiyori"
+   "t": "<FACE:3D>Gracias, señorita<NL>Koharubi"
   },
   {
    "key": "script:0042:1159",
@@ -339,7 +339,7 @@
   {
    "key": "script:0042:118A",
    "src": "4d653643e421",
-   "t": "<FACE:3D>Jajaja, qué dura es<NL>la señorita Hiyori"
+   "t": "<FACE:3D>Jajaja, qué dura es la<NL>señorita Koharubi"
   },
   {
    "key": "script:0042:119E",

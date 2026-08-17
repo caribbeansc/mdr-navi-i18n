@@ -9,7 +9,7 @@ the same people the same way.
 |---|---|
 | **Murasame Shiden** | The idol Medafighter. Not `Siden`, not `Shiden Murasame` (surname first stays Japanese order here). |
 | **Rainy** | Shiden's little sister. Not `Reiny`, `Reinī`. She is formal and deferential towards her brother. |
-| **Hiyori** | The player's sharp-tongued classmate. |
+| **Hiyori** | The player's sharp-tongued classmate. Her SURNAME is **Koharubi** (`コハルビ ヒヨリ`, she says both in script_0030): `コハルビさん` is `Miss Koharubi`, NEVER `Miss Hiyori`. Bare `ヒヨリ` is `Hiyori`. Getting this wrong also kills a joke — in script_0042 Niwaka is the only one who uses the formal surname, and the others tease him for it. |
 | **Sachi** | Classmate. |
 | **Kirika** | The fortune-teller girl. Speaks in trailing ellipses: `…I see…`. |
 | **Tensai** | Of the Kansai trio. |

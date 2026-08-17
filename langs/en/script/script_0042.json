@@ -104,7 +104,7 @@
   {
    "key": "script:0042:0BB3",
    "src": "17ac790cb8cd",
-   "t": "<FACE:3D>Ah, Miss Hiyori and<NL><PLAYER><WAIT><FACE:01>Why do you call Hiyori<NL>'Miss'?<WAIT><FACE:3D>Well, that's…"
+   "t": "<FACE:3D>Ah, Miss Koharubi and<NL><PLAYER><WAIT><FACE:01>Why do you call Hiyori<NL>'Miss'?<WAIT><FACE:3D>Well, that's…"
   },
   {
    "key": "script:0042:0BE4",
@@ -329,7 +329,7 @@
   {
    "key": "script:0042:114A",
    "src": "3e720a81802c",
-   "t": "<FACE:3D>Thanks, Miss Hiyori"
+   "t": "<FACE:3D>Thanks, Miss Koharubi"
   },
   {
    "key": "script:0042:1159",
@@ -339,7 +339,7 @@
   {
    "key": "script:0042:118A",
    "src": "4d653643e421",
-   "t": "<FACE:3D>Hahaha, Miss Hiyori<NL>is harsh"
+   "t": "<FACE:3D>Hahaha, Miss Koharubi<NL>is harsh"
   },
   {
    "key": "script:0042:119E",
