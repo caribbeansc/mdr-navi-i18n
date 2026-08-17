@@ -2134,7 +2134,7 @@
   {
    "key": "str:090C3C",
    "src": "4fc9be9de4a2",
-   "t": "Damages all parts<NL>of one enemy"
+   "t": "Damages all its parts"
   },
   {
    "key": "str:092998",
@@ -3130,11 +3130,6 @@
    "key": "str:095768",
    "src": "27b2342a50ee",
    "t": "Flying Medabot"
-  },
-  {
-   "key": "str:09579C",
-   "src": "5b51c7a654f5",
-   "t": "Strong on «sand»<NL>and «desert»"
   },
   {
    "key": "str:095AA0",

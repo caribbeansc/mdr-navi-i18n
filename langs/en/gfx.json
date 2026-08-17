@@ -12595,6 +12595,30 @@
    ],
    "room": 16,
    "comment": "tipo de pierna: idem"
+  },
+  "5b51c7a654f5": {
+   "t": "Strong on sand and desert",
+   "sites": [
+    "0x09579C"
+   ],
+   "room": 52,
+   "comment": "tipo de pierna, terrenos fuertes. Se lee por índice: en menus.json el escritor de cadenas sueltas la reubicaba y repuntaba sus dos punteros, y el juego seguía leyendo el japonés"
+  },
+  "661c9b3f1c0a": {
+   "t": "(Ailment) Continuous, all",
+   "sites": [
+    "0x090FC8"
+   ],
+   "room": 52,
+   "comment": "medafuerza: segundo renglón de síntoma en masa, sin traducir hasta ahora"
+  },
+  "2d5fe9d51bf3": {
+   "t": "(Ailment) Stop, all foes",
+   "sites": [
+    "0x091040"
+   ],
+   "room": 52,
+   "comment": "medafuerza: segundo renglón de síntoma en masa, sin traducir hasta ahora"
   }
  },
  "sjis_strings": {

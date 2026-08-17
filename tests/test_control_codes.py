@@ -19,11 +19,14 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+
 from navi.boxes import box_for, is_classified
 from navi.table import TAG_RE, rows_by_box
 
+from .conftest import language_packs, pack_id
+
 ROOT = Path(__file__).resolve().parent.parent
-PACK = ROOT / "langs/es"
 
 
 def _codes(text: str) -> set[str]:
@@ -31,22 +34,23 @@ def _codes(text: str) -> set[str]:
     return {m.group(1) for m in TAG_RE.finditer(text) if m.group(1) != "B"}
 
 
-def _pack_sites() -> dict[int, tuple[str, str]]:
-    """Every non-script translation, as ``offset -> (text, where)``."""
+def _pack_sites(pack: Path) -> dict[int, tuple[str, str]]:
+    """Every non-script translation of a pack, as ``offset -> (text, where)``."""
     out: dict[int, tuple[str, str]] = {}
-    gfx = json.loads((PACK / "gfx.json").read_text("utf-8"))
+    gfx = json.loads((pack / "gfx.json").read_text("utf-8"))
     for key, entry in gfx["extra_strings"].items():
         for site in entry.get("sites", []):
             out[int(str(site), 16)] = (entry.get("t", ""), f"extra:{key}")
-    for entry in json.loads((PACK / "menus.json").read_text("utf-8"))["entries"]:
+    for entry in json.loads((pack / "menus.json").read_text("utf-8"))["entries"]:
         if entry["key"].startswith("str:") and entry.get("t"):
             out[int(entry["key"][4:], 16)] = (entry["t"], entry["key"])
     return out
 
 
-def test_every_line_only_uses_codes_its_box_honours():
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_every_line_only_uses_codes_its_box_honours(pack):
     guilty = []
-    for at, (text, where) in sorted(_pack_sites().items()):
+    for at, (text, where) in sorted(_pack_sites(pack).items()):
         box = box_for(at)
         stray = _codes(text) - box.codes
         if stray:
@@ -57,18 +61,21 @@ def test_every_line_only_uses_codes_its_box_honours():
         f"character after it, it does not just vanish: {guilty}")
 
 
-def test_no_line_overruns_the_box_that_draws_it():
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_no_line_overruns_the_box_that_draws_it(pack):
     """Only where the width was measured; an unmeasured box is skipped.
 
-    langs/es/wide.json holds the rows still too wide, and they are DEBT, not
+    langs/<code>/wide.json holds the rows still too wide, and they are DEBT, not
     exceptions: the description tables were translated before their boxes had
     been measured, so a few hundred rows are cut on screen today. What this
     guards is that the number only goes down — a new over-wide row is not in
     the file and fails here.
     """
-    debt = set(json.loads((PACK / "wide.json").read_text("utf-8"))["known"])
+    debt_path = pack / "wide.json"
+    debt = set(json.loads(debt_path.read_text("utf-8"))["known"]
+               if debt_path.is_file() else [])
     guilty = []
-    for at, (text, where) in sorted(_pack_sites().items()):
+    for at, (text, where) in sorted(_pack_sites(pack).items()):
         box = box_for(at)
         if box.columns is None:
             continue
