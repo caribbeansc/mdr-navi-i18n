@@ -3984,12 +3984,12 @@
   {
    "key": "str:5D6100",
    "src": "fd814e59c165",
-   "t": "Done"
+   "t": "Done "
   },
   {
    "key": "str:5D6108",
    "src": "de679a0a8441",
-   "t": "Back"
+   "t": "Back "
   },
   {
    "key": "str:5D6110",
@@ -4004,7 +4004,7 @@
   {
    "key": "str:5D6120",
    "src": "3b43bbdead5e",
-   "t": "Enter a name"
+   "t": "Your name:"
   },
   {
    "key": "str:5D632C",
