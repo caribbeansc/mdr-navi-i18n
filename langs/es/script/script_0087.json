@@ -4,12 +4,12 @@
   {
    "key": "script:0087:06FE",
    "src": "1c9fc3664e36",
-   "t": "<FACE:71>¡Uuuh, qué frííío!<WAIT>¡¿Por qué a mí, la<NL>Reina Tropical del<WAIT>Verano, me pasa esto?!"
+   "t": "<FACE:71>¡Uuuh, qué frííío!<WAIT>¡¿Por qué a mí, Reina<NL>Tropical del Verano?!"
   },
   {
    "key": "script:0087:0736",
    "src": "c126662c73fa",
-   "t": "<FACE:7D>Ni modo-robo<NL>Aunque esté congelado<WAIT><FACE:7D>Esto es un río, y por<NL>regla le toca a la<WAIT>jefa Sekiran-robo…"
+   "t": "<FACE:7D>Ni modo-robo<NL>Aunque esté congelado<WAIT><FACE:7D>Es un río: le toca a<NL>la jefa Sekiran-robo…"
   },
   {
    "key": "script:0087:0771",
@@ -24,7 +24,7 @@
   {
    "key": "script:0087:07A5",
    "src": "25bab414b4cd",
-   "t": "<FACE:80>¡¡No-robo!!<WAIT>¡La jefa corrió tan<NL>brusco que el hielo<WAIT>ya se agrieta-robo!"
+   "t": "<FACE:80>¡¡No-robo!!<WAIT>¡La jefa salió brusca<NL>y el hielo cede-robo!"
   },
   {
    "key": "script:0087:07D6",
@@ -39,7 +39,7 @@
   {
    "key": "script:0087:07F4",
    "src": "a5a2a0564423",
-   "t": "<FACE:03>¡Mejor mira eso!<WAIT><FACE:00>¡Al otro lado del río<NL>congelado hay un<WAIT>panel de control!"
+   "t": "<FACE:03>¡Mejor mira eso!<WAIT><FACE:00>¡Cruzando el río hay<NL>un panel de control!"
   },
   {
    "key": "script:0087:0823",
@@ -54,12 +54,12 @@
   {
    "key": "script:0087:0857",
    "src": "286f4a94225e",
-   "t": "<FACE:04>Sin cruzar a la otra<NL>orilla no recuperamos<WAIT>este bloque, pero…"
+   "t": "<FACE:04>Sin cruzar no podemos<NL>tomar el bloque…"
   },
   {
    "key": "script:0087:087E",
    "src": "662e75454dbf",
-   "t": "<FACE:09>Cierto, si vamos<NL>muchos el hielo<WAIT>se va a romper…<WAIT><FACE:07>¿Pero uno solo sí<NL>estaría bien, no?<WAIT>¡Oye! ¡<PLAYER>!"
+   "t": "<FACE:09>Cierto, si vamos todos<NL>el hielo se rompe…<WAIT><FACE:07>¿Pero uno solo estaría<NL>bien, no? ¡<PLAYER>!"
   },
   {
    "key": "script:0087:08C0",
@@ -69,7 +69,7 @@
   {
    "key": "script:0087:08E1",
    "src": "fb5ce0f2a272",
-   "t": "<FACE:07>¡Tranquilo!<WAIT><FACE:05>Se ve todo desde aquí<NL>y si hay robobatalla<WAIT>allá, ¡participo<NL>desde este lado!"
+   "t": "<FACE:07>¡Tranquilo!<WAIT><FACE:05>Se ve todo muy bien<NL>y si pelean allá<WAIT>¡participo desde aquí!"
   },
   {
    "key": "script:0087:0916",
@@ -94,7 +94,7 @@
   {
    "key": "script:0087:0A5A",
    "src": "2202a5ff8907",
-   "t": "<FACE:0A>¿No será peligroso<NL>moverse tanto por<WAIT>ahí?"
+   "t": "<FACE:0A>¿No será peligroso<NL>moverse tanto ahí?"
   },
   {
    "key": "script:0087:0A75",

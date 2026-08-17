@@ -39,7 +39,7 @@
   {
    "key": "script:0156:023C",
    "src": "fd7f53e81f03",
-   "t": "<FACE:00>Si ve a Hikaru,<NL>¿podría decirle algo?<WAIT>Que lo estoy buscando<WAIT>¡Yo soy <PLAYER>!<WAIT><FACE:8D><PLAYER>… O sea,<NL>¿el que fue el héroe<WAIT>del accidente de hace<NL>un rato?<WAIT>¿Ese <PLAYER>?<WAIT><FACE:02>Héroe, lo que se dice<NL>héroe… bueno…"
+   "t": "<FACE:00>Si ve a Hikaru,<NL>¿podría decirle algo?<WAIT>Que lo estoy buscando<WAIT>¡Yo soy <PLAYER>!<WAIT><FACE:8D><PLAYER>… ¿El que fue<NL>el héroe del choque?<WAIT>¿Ese <PLAYER>?<WAIT><FACE:02>Héroe, lo que se dice<NL>héroe… bueno…"
   },
   {
    "key": "script:0156:02AF",

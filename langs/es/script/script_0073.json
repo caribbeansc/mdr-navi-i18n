@@ -9,7 +9,7 @@
   {
    "key": "script:0073:05C1",
    "src": "14363c2787e8",
-   "t": "<FACE:05>En el folleto…<NL>«Bloque temático de<WAIT>un bosque. El tema:<NL>fieras de la selva»<WAIT>Eso es lo que dice"
+   "t": "<FACE:05>En el folleto…<NL>«Bloque tipo bosque<WAIT>Tema: las fieras que<NL>viven en la selva»<WAIT>Eso es lo que dice"
   },
   {
    "key": "script:0073:0609",
@@ -114,7 +114,7 @@
   {
    "key": "script:0073:07F6",
    "src": "eed428932d66",
-   "t": "<FACE:00>Parece que con esto<NL>se calman los<WAIT>Medabots"
+   "t": "<FACE:00>Parece que con esto se<NL>calman los Medabots…"
   }
  ]
 }

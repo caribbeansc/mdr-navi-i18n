@@ -14,7 +14,7 @@
   {
    "key": "script:0038:04FB",
    "src": "ee9e1e454df8",
-   "t": "<FACE:04>Huele a azufre<WAIT>…¡Ya sé!<NL>¡El bloque del<WAIT>volcán!"
+   "t": "<FACE:04>Huele a azufre<WAIT>…¡Ya sé!<NL>¡El bloque volcánico!"
   },
   {
    "key": "script:0038:0522",
@@ -79,7 +79,7 @@
   {
    "key": "script:0038:06A9",
    "src": "b9c9bdd00330",
-   "t": "<FACE:6E>¡Fuajajaja!<NL>La otra vez me<WAIT>confié,<WAIT><FACE:6C>¡pero jugando en serio<NL>no puedo perder!"
+   "t": "<FACE:6E>¡Fuajajaja!<NL>La otra vez me confié<WAIT><FACE:6C>¡pero jugando en serio<NL>no puedo perder!"
   },
   {
    "key": "script:0038:06E7",

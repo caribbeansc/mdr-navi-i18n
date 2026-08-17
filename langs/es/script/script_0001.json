@@ -19,7 +19,7 @@
   {
    "key": "script:0001:0350",
    "src": "336786abdfad",
-   "t": "<FACE:7D>¡Seguro es un tipo<NL>enorme como un oso,<WAIT>más grande que el<NL>jefe Nyuudou-robo!<WAIT>¡Los fracasados como<NL>nosotros no duramos<WAIT>ni un asalto-robo!"
+   "t": "<FACE:7D>¡Seguro es un tipo<NL>enorme como un oso,<WAIT>más grande que el<NL>jefe Nyuudou-robo!<WAIT>¡Nosotros, los peores,<NL>no duramos nada-robo!"
   },
   {
    "key": "script:0001:039C",
@@ -89,7 +89,7 @@
   {
    "key": "script:0001:0572",
    "src": "4421f68a8ffa",
-   "t": "<FACE:00>El aspecto no tiene<NL>nada que ver con<WAIT>la robobatalla, ¿no?"
+   "t": "<FACE:00>El aspecto da igual en<NL>la robobatalla, ¿no?"
   },
   {
    "key": "script:0001:0591",

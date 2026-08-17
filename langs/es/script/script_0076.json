@@ -4,7 +4,7 @@
   {
    "key": "script:0076:05E5",
    "src": "4af18ce3e755",
-   "t": "<FACE:0F>Navi, muéstrame los<NL>datos de la base<WAIT>del asteroide<WAIT><FACE:53>Entendido"
+   "t": "<FACE:0F>Navi, dame datos de la<NL>base del asteroide<WAIT><FACE:53>Entendido"
   },
   {
    "key": "script:0076:060C",
@@ -19,7 +19,7 @@
   {
    "key": "script:0076:064E",
    "src": "5dd6f925ada1",
-   "t": "<FACE:14>Pos no nos queda más<NL>que pelear contra<WAIT>la Banda Sperobo"
+   "t": "<FACE:14>Pos hay que pelear<NL>con la Banda Sperobo"
   },
   {
    "key": "script:0076:0670",
@@ -34,17 +34,17 @@
   {
    "key": "script:0076:0702",
    "src": "8567742d0903",
-   "t": "<FACE:00>Sí, yo pienso igual<NL><WAIT>Si sellamos todo para<NL>que no entren<WAIT>los Sperobo, estamos<NL>bien<WAIT>¡Entremos en montón y<NL>acabemos de una vez!"
+   "t": "<FACE:00>Sí, yo pienso igual<NL><WAIT>Sellamos y no entran<NL>los Sperobo: listo<WAIT>¡Entremos en montón y<NL>acabemos de una vez!"
   },
   {
    "key": "script:0076:0752",
    "src": "7e660404cc2f",
-   "t": "<FACE:0F>Decidido entonces<NL>¡Comencemos el<WAIT>asalto!"
+   "t": "<FACE:0F>Decidido entonces<NL>¡Comienza el asalto!"
   },
   {
    "key": "script:0076:0769",
    "src": "8f98f4ceae68",
-   "t": "<FACE:0F>Navi, ¿en este Bloque<NL>también hay tubo<WAIT>de conexión?"
+   "t": "<FACE:0F>Navi, ¿en este Bloque<NL>hay tubo de conexión?"
   },
   {
    "key": "script:0076:0789",
@@ -64,12 +64,12 @@
   {
    "key": "script:0076:07DC",
    "src": "ab0c51a0d577",
-   "t": "<FACE:06>(¡¿En qué piensas?!)<NL><WAIT>(Si a una computadora<NL> que cuida la<WAIT> seguridad le dices<NL> que es guarida<WAIT> enemiga, ¡no nos va a<NL> dejar salir!)"
+   "t": "<FACE:06>(¡¿En qué piensas?!)<NL><WAIT>(Si a esa computadora<NL> le dices «enemigo»…)<WAIT>(¡no nos deja salir!)"
   },
   {
    "key": "script:0076:082F",
    "src": "ae34a47f3e1b",
-   "t": "<FACE:14>¿Eh? ¿Hiyori no le<NL>hizo algo a<WAIT><PLAYER> recién?<WAIT><FACE:1D>No lo vi muy bien<NL>pero parece que<WAIT>le dio un golpe…"
+   "t": "<FACE:14>¿Eh? ¿Hiyori no le<NL>hizo algo a<WAIT><PLAYER> recién?<WAIT><FACE:1D>No lo vi muy bien pero<NL>parece que le pegó…"
   },
   {
    "key": "script:0076:0875",
@@ -79,7 +79,7 @@
   {
    "key": "script:0076:089C",
    "src": "422538ecef39",
-   "t": "<FACE:12>A, a, ese asteroide<NL>es…<WAIT>n, nuestra mina<NL>secreta<WAIT>Es un secreto que<NL>solo yo, el<WAIT>presidente, conozco…"
+   "t": "<FACE:12>A, a, ese asteroide es<NL>nuestra mina secreta<WAIT>Es un secreto que solo<NL>yo, el presidente, sé"
   },
   {
    "key": "script:0076:08E5",
@@ -89,7 +89,7 @@
   {
    "key": "script:0076:0904",
    "src": "0976f64b35af",
-   "t": "<FACE:06>¡Ay, en serio!<NL>Ser tan honesto<WAIT>también es un problema"
+   "t": "<FACE:06>¡Ay, en serio! Ser tan<NL>honesto no es bueno"
   },
   {
    "key": "script:0076:0920",
@@ -99,7 +99,7 @@
   {
    "key": "script:0076:0928",
    "src": "8b2bd9de9ea6",
-   "t": "<FACE:04>(Para mí Navi<NL> también es una<WAIT> compañera valiosa…)"
+   "t": "<FACE:04>(Navi también es una<NL> compañera valiosa…)"
   },
   {
    "key": "script:0076:094A",
@@ -114,7 +114,7 @@
   {
    "key": "script:0076:09A1",
    "src": "26de12a0e210",
-   "t": "<FACE:8E>Ya lo sé<NL>Tengo mucho que decir<WAIT>al respecto, pero…<NL>no hay otra opción<WAIT>…Por cierto<NL><WAIT>Para que no se corte<NL>la comunicación<WAIT>actualizaré el<NL>programa de tu<WAIT>Medarreloj para que<NL>hables con el Cluster<WAIT><FACE:00>¡Muchas gracias,<NL>Doctor!"
+   "t": "<FACE:8E>Ya lo sé<NL>Tengo mucho que decir<WAIT>pero no hay opción<NL>…Por cierto<WAIT>Para que no se corte<NL>la comunicación,<WAIT>actualizaré tu<NL>Medarreloj<WAIT>para que hables con el<NL>Cluster<WAIT><FACE:00>¡Muchas gracias,<NL>Doctor!"
   },
   {
    "key": "script:0076:0A3B",
@@ -129,7 +129,7 @@
   {
    "key": "script:0076:0A8D",
    "src": "fe0ab7190654",
-   "t": "<FACE:53>Yo…<NL><WAIT>Creía que los humanos<NL>a diferencia de<WAIT>nosotras las máquinas<NL>cambian día a día<WAIT>y progresan…<NL><WAIT>Pero usted no ha<NL>cambiado en nada<WAIT>Más que a un humano…<NL><WAIT>se parece a nosotras<NL>las máquinas…"
+   "t": "<FACE:53>Yo…<NL><WAIT>Creía que los humanos<NL>cambian día a día<WAIT>y progresan, no como<NL>las máquinas…<WAIT>Pero usted no ha<NL>cambiado en nada<WAIT>Más que a un humano…<NL><WAIT>se parece a nosotras<NL>las máquinas…"
   },
   {
    "key": "script:0076:0B0D",
@@ -144,7 +144,7 @@
   {
    "key": "script:0076:0B3B",
    "src": "15cb82a3a893",
-   "t": "<FACE:00>Niwaka…<NL>Es cierto que lo de<WAIT>hace rato fue un<NL>fracaso enorme<WAIT>pero no te deprimas<NL>tanto<WAIT>Nosotros lo vamos a<NL>resolver<WAIT>No perderemos contra<NL>unos raros como<WAIT>la Banda Sperobo<NL><WAIT>Tú también cuida<NL>el Cluster<WAIT><FACE:22>…<WAIT><FACE:04>…¿Sí?<WAIT><FACE:22>…<WAIT><FACE:00>Bien, cuento contigo"
+   "t": "<FACE:00>Niwaka… Es cierto que<NL>fue un fracaso enorme<WAIT>pero no te deprimas;<NL>lo resolveremos<WAIT>No perderemos contra<NL>esos raros Sperobo<WAIT>Tú también cuida<NL>el Cluster<WAIT><FACE:22>…<WAIT><FACE:04>…¿Sí?<WAIT><FACE:22>…<WAIT><FACE:00>Bien, cuento contigo"
   }
  ]
 }

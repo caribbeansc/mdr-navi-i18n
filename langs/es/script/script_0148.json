@@ -9,17 +9,17 @@
   {
    "key": "script:0148:0135",
    "src": "2c801ccc26c5",
-   "t": "<FACE:19>Así es. Nosotros<NL>estamos aquí porque<WAIT>tenemos un asuntito<NL>que atender"
+   "t": "<FACE:19>Así es. Estamos aquí<NL>por un asuntito"
   },
   {
    "key": "script:0148:0162",
    "src": "c76253f5f776",
-   "t": "<FACE:14><PLAYER>…<NL>Te has vuelto fuerte…<WAIT>Nosotros aguantamos<NL>aquí, en este lugar<WAIT>tan varonil, para no<NL>quedarnos atrás…"
+   "t": "<FACE:14><PLAYER>…<NL>Te has vuelto fuerte…<WAIT>Para no perder contigo<NL>en este lugar varonil<WAIT>hemos aguantado…"
   },
   {
    "key": "script:0148:01A1",
    "src": "074f2bdd8941",
-   "t": "<FACE:1D>Así es…<NL>Ya no dejaremos que<WAIT><PLAYER> se lleve<NL>toda la gloria"
+   "t": "<FACE:1D>Así es…<WAIT>Ya no dejaremos que<NL><PLAYER> se luzca"
   },
   {
    "key": "script:0148:01C6",
@@ -49,7 +49,7 @@
   {
    "key": "script:0148:0238",
    "src": "a4abf1c189cc",
-   "t": "<FACE:14>Pero decidimos<NL>esforzarnos para no<WAIT>quedarnos atrás de ti"
+   "t": "<FACE:14>Pero decidimos no<NL>quedarnos atrás de ti"
   },
   {
    "key": "script:0148:0261",

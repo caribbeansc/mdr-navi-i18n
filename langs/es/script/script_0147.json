@@ -69,7 +69,7 @@
   {
    "key": "script:0147:05FE",
    "src": "eed81cba94d6",
-   "t": "<FACE:13>Pues… no lo entiendo…<WAIT><FACE:0F>Ni en medapartes ni en<NL>la Medalla: nada<WAIT>raro…"
+   "t": "<FACE:13>Pues… no lo entiendo…<WAIT><FACE:0F>No hay nada raro en<NL>medapartes ni Medalla"
   },
   {
    "key": "script:0147:0638",
@@ -99,7 +99,7 @@
   {
    "key": "script:0147:0739",
    "src": "1f608fc8a247",
-   "t": "<FACE:98>¡Seguro que sí!<NL>¡Él y yo somos<WAIT>amigos!"
+   "t": "<FACE:98>¡Seguro que sí!<NL>¡Él y yo, compañeros!"
   },
   {
    "key": "script:0147:0758",
@@ -109,7 +109,7 @@
   {
    "key": "script:0147:07BB",
    "src": "238bd6f06293",
-   "t": "<FACE:98>¡Cuando quieras!<NL>¡Contacto a mi<WAIT>equipo!"
+   "t": "<FACE:98>¡Cuando quieras!<NL>¡Llamo a mi equipo!"
   },
   {
    "key": "script:0147:07DC",

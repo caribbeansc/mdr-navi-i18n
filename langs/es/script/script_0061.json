@@ -39,7 +39,7 @@
   {
    "key": "script:0061:0955",
    "src": "13820887bd7e",
-   "t": "<FACE:05>No sé qué estén<NL>haciendo, pero por<WAIT>ahí<WAIT>anda una gente rara,<NL>la Banda Sperobo<WAIT>Así que tengan<NL>cuidado"
+   "t": "<FACE:05>No sé qué estén<NL>haciendo, pero ojo:<WAIT>anda gente rara de la<NL>Banda Sperobo por ahí"
   },
   {
    "key": "script:0061:098F",
@@ -79,7 +79,7 @@
   {
    "key": "script:0061:0AA6",
    "src": "5ad07ac91b9d",
-   "t": "<FACE:2D>Como suponía, no lo<NL>habían pensado…<WAIT><FACE:2B>Por eso mismo<NL>tenemos que hacerlo<WAIT>nosotros<WAIT>…Así es<NL>En este bloque hay<WAIT>alimentos guardados<WAIT>Por eso este bloque<NL>tenemos que tomarlo<WAIT>nosotros"
+   "t": "<FACE:2D>Como suponía, no lo<NL>habían pensado…<WAIT><FACE:2B>Por eso mismo tenemos<NL>que hacerlo nosotros<WAIT>…Así es<WAIT>En este bloque hay<NL>alimentos guardados<WAIT>Por eso este bloque lo<NL>tomamos nosotros"
   },
   {
    "key": "script:0061:0B1F",
@@ -124,7 +124,7 @@
   {
    "key": "script:0061:0C8B",
    "src": "5e4be3108eca",
-   "t": "<FACE:2B>Esfuércense en no<NL>estorbarnos, por<WAIT>favor"
+   "t": "<FACE:2B>Por favor, esfuércense<NL>en no estorbarnos"
   },
   {
    "key": "script:0061:0CAA",

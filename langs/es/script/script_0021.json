@@ -9,7 +9,7 @@
   {
    "key": "script:0021:07CC",
    "src": "50f46e5c3d92",
-   "t": "<FACE:05>Es como el foso de<NL>una hormiga león…<WAIT>Si caemos, ¿será que<NL>ya no podremos<WAIT>volver?<WAIT><FACE:04>Mmm…"
+   "t": "<FACE:05>Es como el foso de<NL>una hormiga león…<WAIT>Si caemos, ¿ya no<NL>podremos volver?<WAIT><FACE:04>Mmm…"
   },
   {
    "key": "script:0021:0803",
@@ -74,7 +74,7 @@
   {
    "key": "script:0021:0978",
    "src": "af0586c2b092",
-   "t": "<FACE:03>Así que esto es lo que<NL>había dentro del<WAIT>foso…"
+   "t": "<FACE:03>Así que esto es lo<NL>que había en el foso…"
   },
   {
    "key": "script:0021:0998",
@@ -114,7 +114,7 @@
   {
    "key": "script:0021:0ADB",
    "src": "683a79dff555",
-   "t": "<FACE:47>¡¿Y por qué nos<NL>tiene que pasar<WAIT>esto?!"
+   "t": "<FACE:47>¡¿Y por qué nos tiene<NL>que pasar esto?!"
   },
   {
    "key": "script:0021:0B03",
@@ -159,7 +159,7 @@
   {
    "key": "script:0021:0C16",
    "src": "1d0e57e43b9d",
-   "t": "<FACE:79><PLAYER>, ¿verdad?…<NL>¡Recordaré ese<WAIT>nombre!<WAIT><FACE:7B>¡Siéntete orgulloso!<NL>¡Fuaaa ja ja ja!"
+   "t": "<FACE:79><PLAYER>, ¿verdad?…<NL>¡Recordaré tu nombre!<WAIT><FACE:7B>¡Siéntete orgulloso!<NL>¡Fuaaa ja ja ja!"
   },
   {
    "key": "script:0021:0C4E",

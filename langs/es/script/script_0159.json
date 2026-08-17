@@ -9,7 +9,7 @@
   {
    "key": "script:0159:0180",
    "src": "422568135f08",
-   "t": "<FACE:00>¡¿Eh?! Entonces usted<NL>¿es el famoso Hikaru?<WAIT>Pero si nunca nos<NL>vimos… ¿cómo sabe mi<WAIT>nombre?"
+   "t": "<FACE:00>¡¿Eh?! Entonces usted<NL>¿es el famoso Hikaru?<WAIT>Pero nunca nos vimos…<NL>¿cómo sabe mi nombre?"
   },
   {
    "key": "script:0159:01BB",
@@ -39,12 +39,12 @@
   {
    "key": "script:0159:023A",
    "src": "8d379659070e",
-   "t": "<FACE:00>¿De verdad es Hikaru?<NL><WAIT>Últimamente hay quien<NL>se hace pasar por<WAIT>medaguerreros famosos…"
+   "t": "<FACE:00>¿De verdad es Hikaru?<NL><WAIT>Hay quien finge ser un<NL>medaguerrero famoso…"
   },
   {
    "key": "script:0159:0272",
    "src": "c2e7b6eb4524",
-   "t": "<FACE:8C>¡Ni modo! ¡Entonces te<NL>lo demuestro<WAIT>peleando!"
+   "t": "<FACE:8C>¡Ni modo! ¡Entonces te<NL>lo muestro peleando!"
   },
   {
    "key": "script:0159:0291",
@@ -69,7 +69,7 @@
   {
    "key": "script:0159:036C",
    "src": "37feaa6052aa",
-   "t": "<FACE:8C>A Rintaro lo vi hace<NL>un rato por aquí<WAIT>pero dijo que tenía<NL>algo que hacer y<WAIT>se regresó<WAIT><FACE:02>Ya veo…<NL>¡Voy tras él ahora!<WAIT>¡Gracias!"
+   "t": "<FACE:8C>A Rintaro lo vi hace<NL>un rato por aquí<WAIT>pero tenía algo que<NL>hacer y se regresó<WAIT><FACE:02>Ya veo…<NL>¡Voy tras él ahora!<WAIT>¡Gracias!"
   },
   {
    "key": "script:0159:03BC",

@@ -34,7 +34,7 @@
   {
    "key": "script:0031:08A6",
    "src": "d0d179423157",
-   "t": "<FACE:03>Vaaaya… ¿de verdad<NL>todo lo maneja una<WAIT>computadora…?"
+   "t": "<FACE:03>Vaaaya… ¿todo lo hace<NL>una computadora…?"
   },
   {
    "key": "script:0031:08C8",
@@ -94,7 +94,7 @@
   {
    "key": "script:0031:0A7A",
    "src": "1731fd026544",
-   "t": "<FACE:06>Por cierto… ¿dónde<NL>se metió el<WAIT>presidente<WAIT>de clase?<WAIT>Y yo con las ganas de<NL>darle su merecido"
+   "t": "<FACE:06>Por cierto… ¿a dónde<NL>fue el presidente?<WAIT>Y yo con las ganas de<NL>darle su merecido"
   },
   {
    "key": "script:0031:0AB4",
@@ -204,7 +204,7 @@
   {
    "key": "script:0031:0D9F",
    "src": "a33ce79a93e0",
-   "t": "<FACE:0F>Por aquí<WAIT>Sobre el «Medabot<NL>espacial» que<WAIT>hallaste<WAIT>Pensé que tal vez<NL>cayó algo más ese día<WAIT>y mandé un equipo<NL>de investigación<WAIT>pero al final no<NL>hallaron nada más"
+   "t": "<FACE:0F>Por aquí<WAIT>Ese «Medabot espacial»<NL>que hallaste tú…<WAIT>Pensé que tal vez<NL>cayó algo más ese día<WAIT>y mandé un equipo<NL>de investigación<WAIT>pero al final no<NL>hallaron nada más"
   },
   {
    "key": "script:0031:0E12",

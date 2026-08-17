@@ -69,7 +69,7 @@
   {
    "key": "script:0056:0956",
    "src": "f5f00e69c341",
-   "t": "<FACE:0C>Eso no es lo mío,<NL>¿me disculpas?<WAIT><FACE:0F>Lo siento, <PLAYER><NL>no me hace sentir<WAIT>bien"
+   "t": "<FACE:0C>Eso no es lo mío,<NL>¿me disculpas?<WAIT><FACE:0F>Lo siento, <PLAYER>…<NL>no estoy de ánimo"
   },
   {
    "key": "script:0056:0983",
@@ -79,7 +79,7 @@
   {
    "key": "script:0056:099B",
    "src": "4f9c3df4d8dd",
-   "t": "<FACE:73>…Esta victoria es la<NL>puerta de una<WAIT>derrota…"
+   "t": "<FACE:73>…Esta victoria es la<NL>puerta a una derrota…"
   },
   {
    "key": "script:0056:09B5",

@@ -109,7 +109,7 @@
   {
    "key": "script:0067:0AD6",
    "src": "89fca06fabca",
-   "t": "<FACE:06>(¿Glamurosa? ¡Ja!<NL> ¡Y ese oh jo jo jo!)<WAIT>(¡Me hierve la sangre!<NL> ¡Descansaré en esta<WAIT> mansión sí o sí!)"
+   "t": "<FACE:06>(¿Glamurosa? ¡Ja!<NL> ¡Y ese oh jo jo jo!)<WAIT>(¡Me hierve la sangre!<NL> ¡Descansaré ahí!)"
   },
   {
    "key": "script:0067:0B1F",
@@ -124,7 +124,7 @@
   {
    "key": "script:0067:0B51",
    "src": "9e2fe312357c",
-   "t": "<FACE:34>¡Ay, qué lástima!<WAIT><FACE:33>Pero nosotras también<NL>estamos cansadas…<WAIT>Como llevamos una vida<NL>tan elegante,<WAIT>nos cansamos más que<NL>ustedes<WAIT>¡Y por desgracia no<NL>hay cuartos libres!<WAIT><FACE:09>Ay… qué complicado…<NL>Pero somos amigas,<WAIT>¿ni un cuartito?<WAIT><FACE:34>¿Amigas, dice?<WAIT><FACE:33>Vaya… ¡Qué fácil hacen<NL>amistades los<WAIT>plebeyos!<NL>¡Cómo las envidio!"
+   "t": "<FACE:34>¡Ay, qué lástima!<WAIT><FACE:33>Pero nosotras también<NL>estamos cansadas…<WAIT>Como llevamos una vida<NL>tan elegante,<WAIT>nos cansamos más que<NL>ustedes<WAIT>¡Y por desgracia no<NL>hay cuartos libres!<WAIT><FACE:09>Ay… qué complicado…<NL>Pero somos amigas,<WAIT>¿ni un cuartito?<WAIT><FACE:34>¿Amigas, dice?<WAIT><FACE:33>Vaya… ¡Qué fácil hacen<NL>amigos los plebeyos!<WAIT>¡Cómo las envidio!"
   },
   {
    "key": "script:0067:0C2C",
@@ -134,7 +134,7 @@
   {
    "key": "script:0067:0C36",
    "src": "d07b64627877",
-   "t": "<FACE:06>¡Estoy que exploto!<NL><WAIT>¡No son más que unas<NL>niñas ricas!<WAIT>¡El gran <PLAYER><NL>se enfrentará a<WAIT>ustedes!<NL>¡Robobatalla y punto!"
+   "t": "<FACE:06>¡Estoy que exploto!<NL><WAIT>¡No son más que unas<NL>niñas ricas!<WAIT>¡Yo, el gran <PLAYER>!<NL>¡Robobatalla y punto!"
   },
   {
    "key": "script:0067:0C7C",
@@ -144,7 +144,7 @@
   {
    "key": "script:0067:0C91",
    "src": "1fa0f2b3c337",
-   "t": "<FACE:34>Vaya, vaya… ¿señor<NL><PLAYER>?<WAIT><FACE:33>¡Menuda forma de<NL>hablarnos!<WAIT>Muy bien<NL><WAIT>¡Saboreen el poder de<NL>nuestros glamurosos<WAIT>Medabots!"
+   "t": "<FACE:34>Vaya, vaya… ¿señor<NL><PLAYER>?<WAIT><FACE:33>¡Menuda forma de<NL>hablarnos!<WAIT>Muy bien<NL><WAIT>¡Saboreen el poder de<NL>nuestros Medabots!"
   },
   {
    "key": "script:0067:0CEF",
@@ -159,7 +159,7 @@
   {
    "key": "script:0067:0D2A",
    "src": "edd0ad91f2ba",
-   "t": "<FACE:33>Vaya… Aceptamos el<NL>duelo,<WAIT>pero ¿cuándo dijimos<NL>que apostábamos la<WAIT>mansión?<NL><WAIT>¡Qué acusación tan<NL>descarada!<WAIT><FACE:34>¡Ay, qué miedo!"
+   "t": "<FACE:33>Vaya… Aceptamos el<NL>duelo, pero…<WAIT>¿cuándo dijimos que la<NL>mansión se apostaba?<WAIT>¡Qué acusación tan<NL>descarada!<WAIT><FACE:34>¡Ay, qué miedo!"
   },
   {
    "key": "script:0067:0D74",
@@ -204,7 +204,7 @@
   {
    "key": "script:0067:0E83",
    "src": "f4d7b415b745",
-   "t": "<FACE:01>Lo sabía…<WAIT><FACE:05>Los Medabots de aquí<NL>también atacan a los<WAIT>humanos…<NL><WAIT>Ese tal Shiden<NL><WAIT>parece controlar a<NL>todos los Medabots<WAIT>del Cluster…"
+   "t": "<FACE:01>Lo sabía…<WAIT><FACE:05>Los Medabots de aquí<NL>también nos atacan…<WAIT>Ese tal Shiden<NL><WAIT>parece controlar a los<NL>Medabots del Cluster…"
   },
   {
    "key": "script:0067:0EDF",
@@ -214,7 +214,7 @@
   {
    "key": "script:0067:0F0A",
    "src": "a26e551cb50e",
-   "t": "<FACE:34>Vaya, eliminarnos…<WAIT><FACE:33>¡Este lugar es<NL>nuestro, de nadie<WAIT>más!<WAIT>¡Señor <PLAYER>!<WAIT>¡Si es el presidente,<NL>pelee por nosotras!<WAIT>¡Así les dejaremos<NL>usar este bloque!"
+   "t": "<FACE:34>Vaya, eliminarnos…<WAIT><FACE:33>¡Este lugar es nuestro<NL>y de nadie más!<WAIT>¡Señor <PLAYER>!<WAIT>¡Si es el presidente,<NL>pelee por nosotras!<WAIT>¡Así les dejaremos<NL>usar este bloque!"
   },
   {
    "key": "script:0067:0F82",
@@ -239,7 +239,7 @@
   {
    "key": "script:0067:0FFA",
    "src": "9630eebac13e",
-   "t": "<FACE:01>¡No, Hiyori!<NL><WAIT>Si Shiden controla<NL>los Medabots de todo<WAIT>el Cluster, ¡hay que<NL>hallar a la clase ya!"
+   "t": "<FACE:01>¡No, Hiyori!<NL><WAIT>Si Shiden controla los<NL>Medabots del Cluster,<WAIT>¡hay que hallar ya a<NL>los de la clase!"
   },
   {
    "key": "script:0067:103F",

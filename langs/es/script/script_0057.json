@@ -14,7 +14,7 @@
   {
    "key": "script:0057:04B4",
    "src": "a2298d59a31d",
-   "t": "<FACE:08>No me digas… ¿esos<NL>no son los otakus<WAIT>de nuestra clase?"
+   "t": "<FACE:08>No me digas…<WAIT>¿No son esos otakus<NL>de nuestra clase?"
   },
   {
    "key": "script:0057:04D1",
@@ -84,7 +84,7 @@
   {
    "key": "script:0057:05E7",
    "src": "7e2b861a1d9c",
-   "t": "<FACE:06>Oye… ¡oye, tú!<NL><WAIT>El otro día dijiste<NL>que <PLAYER> era<WAIT>tu persona del<NL>destino…<WAIT>¡¿Qué es esto ahora?!"
+   "t": "<FACE:06>Oye… ¡oye, tú!<NL><WAIT>El otro día dijiste…<WAIT>que <PLAYER> era tu<NL>persona del destino…<WAIT>¡¿Qué es esto ahora?!"
   },
   {
    "key": "script:0057:0620",
@@ -99,7 +99,7 @@
   {
    "key": "script:0057:06D0",
    "src": "35b97fb3b466",
-   "t": "<FACE:40>¡Qué cruel, Kirika!<NL><WAIT>¡Te seguí porque creí<NL>que el hilo del<WAIT>destino nos unía!<WAIT>¡Esto es traición!"
+   "t": "<FACE:40>¡Qué cruel, Kirika!<NL><WAIT>¡Vine porque creí que<NL>el destino nos unía!<WAIT>¡Esto es traición!"
   },
   {
    "key": "script:0057:070D",
@@ -184,7 +184,7 @@
   {
    "key": "script:0057:096B",
    "src": "55b0e1a9c3e4",
-   "t": "<FACE:05>Oigan, ustedes<NL>¿vieron esa batalla?<WAIT>¿Entendieron que<NL><PLAYER> no es solo<WAIT>suerte?<WAIT>Todos andan sueltos<NL>por su cuenta, y él<WAIT>se esfuerza al máximo<NL>por unirlos, ¿no?<WAIT>Actuar por su cuenta<NL>y solo quejarse…<WAIT>¡eso sí que es feo!"
+   "t": "<FACE:05>Oigan, ustedes<NL>¿vieron esa batalla?<WAIT>¿Ya ven que <PLAYER><NL>no es solo suerte?<WAIT>Todos andan sueltos<NL>por su cuenta, y él<WAIT>se esfuerza al máximo<NL>por unirlos, ¿no?<WAIT>Actuar por su cuenta<NL>y solo quejarse…<WAIT>¡eso sí que es feo!"
   },
   {
    "key": "script:0057:09FA",
@@ -199,7 +199,7 @@
   {
    "key": "script:0057:0A59",
    "src": "4c31cc191d58",
-   "t": "<FACE:41>Entendido, nya…<WAIT><FACE:41>Es cierto…<NL><PLAYER> sí que se<WAIT>esfuerza, nya<WAIT><FACE:43>Lo acepto como líder<NL>y le daré mi ayuda…"
+   "t": "<FACE:41>Entendido, nya…<WAIT><FACE:41>Es cierto… <PLAYER><NL>sí se esfuerza, nya<WAIT><FACE:43>Lo acepto como líder<NL>y le daré mi ayuda…"
   },
   {
    "key": "script:0057:0A97",

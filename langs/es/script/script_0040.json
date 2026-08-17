@@ -54,7 +54,7 @@
   {
    "key": "script:0040:0A32",
    "src": "eacd27d8f32e",
-   "t": "<FACE:01>¡Q-qué dices!<NL>Yo también tengo<WAIT>garra"
+   "t": "<FACE:01>¡Q-qué dices! Yo<NL>también tengo garra…"
   },
   {
    "key": "script:0040:0A4D",
@@ -89,7 +89,7 @@
   {
    "key": "script:0040:0B88",
    "src": "b829c14a0208",
-   "t": "<FACE:3A>¡Mi técnica es el<NL>Giro Mach!<WAIT><FACE:37>Una técnica en<NL>desarrollo es secreta<WAIT>¡Ni a un compañero de<NL>clase se la<WAIT>mostramos!"
+   "t": "<FACE:3A>¡Mi técnica es el<NL>Giro Mach!<WAIT><FACE:37>Una técnica en<NL>desarrollo es secreta<WAIT>¡Ni a un compañero se<NL>la mostramos!"
   },
   {
    "key": "script:0040:0BD4",
@@ -99,7 +99,7 @@
   {
    "key": "script:0040:0BF9",
    "src": "99957d7c6b43",
-   "t": "<FACE:38>¡Qué cosas dices!<WAIT>Las eliminatorias del<NL>torneo ya casi llegan<WAIT><FACE:39>Sí… ya no hay tiempo<WAIT><FACE:3A>De hecho, ni tiempo de<NL>venir al Cluster<WAIT>había<WAIT>Vinimos porque era<NL>actividad<WAIT>obligatoria…<WAIT><FACE:38>Y como no sabemos<NL>cuándo volveremos…<WAIT>¡solo nos queda tomar<NL>este lugar y<WAIT>entrenar!"
+   "t": "<FACE:38>¡Qué cosas dices!<WAIT>Las eliminatorias del<NL>torneo ya casi llegan<WAIT><FACE:39>Sí… ya no hay tiempo<WAIT><FACE:3A>De hecho, ni tiempo<NL>teníamos de venir acá<WAIT>Vinimos porque era<NL>actividad obligatoria<WAIT><FACE:38>Y como no sabemos<NL>cuándo volveremos…<WAIT>¡Solo queda tomar este<NL>lugar y entrenar!"
   },
   {
    "key": "script:0040:0CCC",

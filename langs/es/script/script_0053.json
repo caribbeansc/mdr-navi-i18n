@@ -9,17 +9,17 @@
   {
    "key": "script:0053:0513",
    "src": "3c6f5b0c73e3",
-   "t": "<FACE:1C>¡Talaron los árboles<NL>y ya solo hay<WAIT>troncos!"
+   "t": "<FACE:1C>¡Talaron los árboles y<NL>ya solo hay troncos!"
   },
   {
    "key": "script:0053:0537",
    "src": "267a90b7dbd0",
-   "t": "<FACE:0A>Seguro esos tipos los<NL>tiraron para<WAIT>pararnos…"
+   "t": "<FACE:0A>Seguro esos tipos los<NL>tiraron para pararnos"
   },
   {
    "key": "script:0053:0558",
    "src": "8750edbf993c",
-   "t": "<FACE:75>Cof… cof… ¿De verdad<NL>no van a poder<WAIT>pasar…?<WAIT><FACE:7D>¡Claro-robo!<NL>¡Ya está<WAIT>difícil-robo!<WAIT><FACE:75>¿Difícil? …cof…<WAIT>Dije que lo dejaran<NL>totalmente cerrado…"
+   "t": "<FACE:75>Cof… cof… ¿De verdad<NL>no podrán pasar…?<WAIT><FACE:7D>¡Claro-robo!<NL>¡Ya es difícil-robo!<WAIT><FACE:75>¿Difícil? …cof…<WAIT>Dije que lo dejaran<NL>totalmente cerrado…"
   },
   {
    "key": "script:0053:05D7",
@@ -74,7 +74,7 @@
   {
    "key": "script:0053:079A",
    "src": "9581deb20e90",
-   "t": "<FACE:77>Cof… uggh…<WAIT>Por su culpa… suelto<NL>este bloque así<WAIT>nomás…<WAIT>De castigo… cof… se<NL>quedan sin almuerzo…"
+   "t": "<FACE:77>Cof… uggh…<WAIT>Por su culpa… suelto<NL>este bloque sin más…<WAIT>De castigo… cof… se<NL>quedan sin almuerzo…"
   },
   {
    "key": "script:0053:07EC",

@@ -44,7 +44,7 @@
   {
    "key": "script:0136:0411",
    "src": "3c398e2f2da2",
-   "t": "<FACE:7E>¡Aún no-robo!<WAIT>¡Esto nos pasa por<NL>huir del<WAIT>enemigo-robo!<WAIT>¡Nunca des la espalda<NL>al enemigo-robo!"
+   "t": "<FACE:7E>¡Aún no-robo!<NL><WAIT>¡Esto nos pasa por<NL>huir del rival-robo!<WAIT>¡Nunca des la espalda<NL>al enemigo-robo!"
   },
   {
    "key": "script:0136:0451",

@@ -39,7 +39,7 @@
   {
    "key": "script:0048:0592",
    "src": "7a410371d38a",
-   "t": "<FACE:00>¿Y eso qué es?<WAIT><FACE:05>¡Los binoculares<NL>electrónicos<WAIT>superpotentes<NL>«MiraMira»!<WAIT>¡Cambiando el modo de<NL>visión, hasta en la<WAIT>oscuridad ves ropa<NL>tendida a 300 metros!"
+   "t": "<FACE:00>¿Y eso qué es?<WAIT><FACE:05>Binoculares «MiraMira»<NL>de alta tecnología<WAIT>Cambias el modo de<NL>visión y en lo oscuro<WAIT>¡ves hasta la ropa<NL>tendida a 300 metros!"
   },
   {
    "key": "script:0048:05F0",
@@ -54,7 +54,7 @@
   {
    "key": "script:0048:0631",
    "src": "248e1447976b",
-   "t": "<FACE:06>¡Está bien!<NL>¡A ti no te lo<WAIT>presto!"
+   "t": "<FACE:06>¡Está bien! A ti<NL>no te lo presto"
   },
   {
    "key": "script:0048:064C",

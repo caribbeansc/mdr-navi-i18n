@@ -34,7 +34,7 @@
   {
    "key": "script:0049:099B",
    "src": "7d813e9eb27e",
-   "t": "<FACE:04>Pero si lo acabo de<NL>armar… Aún no estoy<WAIT>para robobatallas…"
+   "t": "<FACE:04>Pero si lo acabo de<NL>armar… ¿robobatallar?"
   },
   {
    "key": "script:0049:09BC",
@@ -59,17 +59,17 @@
   {
    "key": "script:0049:0A1F",
    "src": "73a7a56d1132",
-   "t": "<FACE:15>¡Mi Bugstink tiene un<NL>rayo mucho más<WAIT>fuerte!<WAIT><FACE:1A>¡El rayo gasta tanta<NL>AP que casi no puedes<WAIT>disparar!"
+   "t": "<FACE:15>¡Mi Bugstink tiene el<NL>rayo más fuerte!<WAIT><FACE:1A>¡El rayo gasta tanta<NL>AP que ni disparas!"
   },
   {
    "key": "script:0049:0A63",
    "src": "c30237ea5f8e",
-   "t": "<FACE:18>Ay… ¡Pu-pues para eso<NL>te paras en un punto<WAIT>generador y recargas<NL>tu AP!"
+   "t": "<FACE:18>Ay… ¡Pu-pues te paras<NL>en un punto generador<WAIT>y recargas tu AP!"
   },
   {
    "key": "script:0049:0A94",
    "src": "3172518c054a",
-   "t": "<FACE:1A>Pero ahí no te puedes<NL>mover: si el enemigo<WAIT>no está a tiro, ¡igual<NL>no puedes disparar!<WAIT><FACE:1A>Y el alcance del rayo<NL>tiene un hueco<WAIT>dentro:<WAIT>si se le acercan, no<NL>puede hacer nada…"
+   "t": "<FACE:1A>Pero ahí no te mueves,<NL>y sin nadie a tiro<WAIT>¡igual no disparas!<NL><WAIT><FACE:1A>El rayo tiene un hueco<NL>grande por dentro<WAIT>y si se te acercan, no<NL>puedes hacer nada…"
   },
   {
    "key": "script:0049:0B04",
@@ -94,7 +94,7 @@
   {
    "key": "script:0049:0BA2",
    "src": "9f65a60f19fb",
-   "t": "<FACE:01>¡Elegir el Medabot<NL>según el terreno es<WAIT>ser medaguerrero!"
+   "t": "<FACE:01>¡El medaguerrero elige<NL>según el terreno!"
   },
   {
    "key": "script:0049:0BC4",
@@ -109,7 +109,7 @@
   {
    "key": "script:0049:0BEC",
    "src": "abb3b46cd43d",
-   "t": "<FACE:1A>Tu Medabot pega<NL>fuerte, eso sí, pero<WAIT>con el ataque<NL>alterador de mi<WAIT>Sicklecutter te dejo<NL>un estado negativo<WAIT>¡y ya no me asustas!"
+   "t": "<FACE:1A>Tu Medabot pega fuerte<NL>eso sí, pero…<WAIT>si mi Sicklecutter usa<NL>su ataque alterador<WAIT>te deja un estado malo<NL>¡y ya no me asustas!"
   },
   {
    "key": "script:0049:0C46",
@@ -119,17 +119,17 @@
   {
    "key": "script:0049:0C8B",
    "src": "74efa84e7f01",
-   "t": "<FACE:1D>¡Uy! Pu-pues entonces<NL>¡se lo pongo una y<WAIT>otra vez! ¡Al final no<NL>podrá quitárselo más!"
+   "t": "<FACE:1D>¡Uy! Pu-pues entonces<NL>¡lo repito mil veces!<WAIT>¡Al final no podrá<NL>quitárselo más!"
   },
   {
    "key": "script:0049:0CC2",
    "src": "54243c3a9d7e",
-   "t": "<FACE:14>Pero tu Medabot<NL>tampoco tiene patas<WAIT>para este terreno, y<NL>el ataque alterador<WAIT>es cuerpo a cuerpo,<NL>de poco alcance…<WAIT>Si te disparan de<NL>lejos, no harás nada…"
+   "t": "<FACE:14>Pero a tu Medabot las<NL>patas no le van aquí<WAIT>y el ataque alterador<NL>es de corto alcance<WAIT>Si te disparan de<NL>lejos, no harás nada…"
   },
   {
    "key": "script:0049:0D32",
    "src": "ea1aea1fbe74",
-   "t": "<FACE:1C>¡Waaaaah!<NL><WAIT>¡A este paso van a<NL>descubrir todas<WAIT>nuestras debilidades!"
+   "t": "<FACE:1C>¡Waaaaah!<NL><WAIT>¡A este paso descubren<NL>nuestras debilidades!"
   },
   {
    "key": "script:0049:0D5D",
@@ -149,7 +149,7 @@
   {
    "key": "script:0049:0D96",
    "src": "c9a0bcbd4a62",
-   "t": "<FACE:04>(Claro, amo los<NL> Medabots, y antes)<WAIT>(de tenerlo ya había<NL> investigado mucho,)<WAIT>(por eso sé tanto…)"
+   "t": "<FACE:04>(Amo los Medabots,<NL> y antes de tenerlo…)<WAIT>(ya había investigado<NL> mucho, por eso sé…)"
   },
   {
    "key": "script:0049:0DE1",
@@ -204,7 +204,7 @@
   {
    "key": "script:0049:0F13",
    "src": "81e3dbe5002b",
-   "t": "<FACE:00>El edificio viejo…<NL><WAIT>A los que hacen<NL>maldades les encantan<WAIT>estos lugares…"
+   "t": "<FACE:00>El edificio viejo…<NL><WAIT>A los revoltosos les<NL>gustan estos lugares…"
   },
   {
    "key": "script:0049:0F4E",
@@ -234,12 +234,12 @@
   {
    "key": "script:0049:0FDA",
    "src": "c94f0294e3f9",
-   "t": "<FACE:04>Mmmmm…<NL><WAIT>Los fantasmas dan<NL>miedo, pero quiero<WAIT>recuperar mi Medalla…"
+   "t": "<FACE:04>Mmmmm…<NL><WAIT>Los fantasmas asustan,<NL>pero… ¡mi Medalla!"
   },
   {
    "key": "script:0049:1002",
    "src": "14c30f80d7a9",
-   "t": "<FACE:04>Mmmmmm…<NL><WAIT>Aunque siempre quise<NL>saber la verdad de<WAIT>los 7 misterios…"
+   "t": "<FACE:04>Mmmmmm…<NL><WAIT>Quería saber la verdad<NL>de los 7 misterios…"
   },
   {
    "key": "script:0049:103B",
@@ -259,7 +259,7 @@
   {
    "key": "script:0049:10B1",
    "src": "067b30924ba1",
-   "t": "<FACE:00>…es porque a los<NL>obreros les da miedo<WAIT>aceptar el trabajo…"
+   "t": "<FACE:00>…es que los obreros no<NL>aceptan por miedo…"
   },
   {
    "key": "script:0049:10DB",
@@ -274,7 +274,7 @@
   {
    "key": "script:0049:10F5",
    "src": "f6d992c2c964",
-   "t": "<FACE:03>¡Waaaaaah!<NL><WAIT>¡E-esta vez lo oí<NL>clarito! ¿Será uno<WAIT>de los 7 misterios?"
+   "t": "<FACE:03>¡Waaaaaah!<NL><WAIT>¡E-esta vez sí lo oí!<NL>¿De los 7 misterios?"
   },
   {
    "key": "script:0049:1127",
@@ -284,7 +284,7 @@
   {
    "key": "script:0049:116F",
    "src": "f0f139a0b31c",
-   "t": "<FACE:01>¡Basta! ¡Los misterios<NL>siguen siéndolo<WAIT>porque<WAIT>nadie indaga!<NL>¡Voy con todo!"
+   "t": "<FACE:01>¡Basta! Son misterios<NL>porque nadie indaga<WAIT>¡Voy con todo!"
   },
   {
    "key": "script:0049:11A0",
@@ -309,7 +309,7 @@
   {
    "key": "script:0049:1208",
    "src": "a1a3052bf8d2",
-   "t": "<FACE:11>Perdonen, quisiera<NL>recorrer la escuela<WAIT>a solas. Así que por<NL>hoy, ¿puedo<WAIT>retirarme?"
+   "t": "<FACE:11>Perdonen, quisiera ver<NL>la escuela a solas<WAIT>Así que, por hoy,<NL>¿puedo retirarme?"
   },
   {
    "key": "script:0049:124E",
@@ -329,7 +329,7 @@
   {
    "key": "script:0049:1293",
    "src": "e73934fc87d7",
-   "t": "<FACE:5D>¡Oye, quítate de ahí!<NL>¡No me dejas ver<WAIT>a Shiden!"
+   "t": "<FACE:5D>¡Oye, quítate de ahí!<NL>¡No veo a Shiden!"
   },
   {
    "key": "script:0049:12B5",
@@ -384,7 +384,7 @@
   {
    "key": "script:0049:136C",
    "src": "f2539122f00b",
-   "t": "<FACE:00>Este casillero aún<NL>tiene el nombre del<WAIT>último que lo usó…"
+   "t": "<FACE:00>Este casillero guarda<NL>el nombre del último…"
   },
   {
    "key": "script:0049:1391",
@@ -394,7 +394,7 @@
   {
    "key": "script:0049:13B3",
    "src": "b42e03ff475a",
-   "t": "<FACE:00>«Sobre la mudanza al<NL>edificio nuevo»…<WAIT>…Aquí el tiempo se<NL>detuvo desde<WAIT>entonces…"
+   "t": "<FACE:00>«Sobre la mudanza al<NL>edificio nuevo»…<WAIT>…Aquí el tiempo se<NL>paró desde entonces…"
   },
   {
    "key": "script:0049:13ED",
@@ -404,12 +404,12 @@
   {
    "key": "script:0049:142D",
    "src": "a8b3798d60a2",
-   "t": "<FACE:00>La puerta está<NL>bloqueada, no puedo<WAIT>entrar…"
+   "t": "<FACE:00>La puerta está tapiada<NL>y no puedo entrar…"
   },
   {
    "key": "script:0049:146B",
    "src": "affc3e5cbb84",
-   "t": "<FACE:0F>Ese chico de hace un<NL>rato… Dijo algo de<WAIT>una Medalla…"
+   "t": "<FACE:0F>Ese chico de antes…<NL>Habló de una Medalla…"
   },
   {
    "key": "script:0049:148C",

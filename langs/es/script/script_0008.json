@@ -9,7 +9,7 @@
   {
    "key": "script:0008:0211",
    "src": "b828e1f56b92",
-   "t": "<FACE:7D>¡Esforzándonos hasta<NL>nosotros<WAIT>podemos-robo!<WAIT>Pero si vuelven<NL>esos tipos…"
+   "t": "<FACE:7D>¡Con esfuerzo nosotros<NL>también podemos-robo!<WAIT>Pero si vuelven<NL>esos tipos…"
   },
   {
    "key": "script:0008:0236",
@@ -24,7 +24,7 @@
   {
    "key": "script:0008:0278",
    "src": "644ab610a041",
-   "t": "<FACE:0A>Ni modo<NL>Hay que pasar por<WAIT>aquí"
+   "t": "<FACE:0A>Ni modo<NL>Hay que pasar por acá"
   },
   {
    "key": "script:0008:0292",
@@ -44,7 +44,7 @@
   {
    "key": "script:0008:02E1",
    "src": "7441c9cbb122",
-   "t": "<FACE:7D>Pediré otra vez el<NL>traslado a un bloque<WAIT>importante-robo…"
+   "t": "<FACE:7D>Voy a pedir el<NL>traslado otra vez…<WAIT>A un bloque<NL>importante-robo…"
   },
   {
    "key": "script:0008:0304",

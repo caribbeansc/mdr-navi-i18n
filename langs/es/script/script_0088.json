@@ -4,7 +4,7 @@
   {
    "key": "script:0088:0563",
    "src": "2dd34638cc07",
-   "t": "<FACE:70>Bueno, como siempre,<NL>dejo mi puesto un<WAIT>rato"
+   "t": "<FACE:70>Bueno, como siempre,<NL>me voy de mi puesto"
   },
   {
    "key": "script:0088:0582",
@@ -14,7 +14,7 @@
   {
    "key": "script:0088:0592",
    "src": "a716ffe714db",
-   "t": "<FACE:7D>…Al menos ajustaré la<NL>temperatura para que<WAIT>el hielo se rompa<NL>más fácil-robo"
+   "t": "<FACE:7D>…Al menos ajustaré la<NL>temperatura<WAIT>para que el hielo se<NL>rompa más fácil-robo"
   },
   {
    "key": "script:0088:05B9",

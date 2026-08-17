@@ -4,7 +4,7 @@
   {
    "key": "script:0007:0236",
    "src": "439fa8f6ec58",
-   "t": "<FACE:7D>Lo sabía…<NL>Lo sabía-robo…<WAIT>A inútiles como<NL>nosotros solo nos dan<WAIT>sitios así-robo…"
+   "t": "<FACE:7D>Lo sabía…<NL>Lo sabía-robo…<WAIT>Solo nos dan sitios<NL>así, a inútiles-robo…"
   },
   {
    "key": "script:0007:0276",
@@ -14,7 +14,7 @@
   {
    "key": "script:0007:02AA",
    "src": "8cae9f70db3c",
-   "t": "<FACE:7D>Yo tampoco-robo…<NL>Así vamos a quedar<WAIT>sepultados-robo…"
+   "t": "<FACE:7D>Yo tampoco-robo…<WAIT>Así vamos a quedar<NL>sepultados-robo…"
   },
   {
    "key": "script:0007:02C7",
@@ -29,7 +29,7 @@
   {
    "key": "script:0007:031E",
    "src": "dc5a19f58edf",
-   "t": "<FACE:81>Uy… al final perdimos<NL>en un suspiro-robo…<WAIT>¡Pediré otra vez el<NL>traslado a un bloque<WAIT>importante-robo!"
+   "t": "<FACE:81>Uy… al final perdimos<NL>en un suspiro-robo…<WAIT>¡Pediré otra vez un<NL>bloque clave-robo!"
   },
   {
    "key": "script:0007:035C",

@@ -4,7 +4,7 @@
   {
    "key": "script:0019:02B1",
    "src": "57bf7ca1635f",
-   "t": "<FACE:7D>Uf, qué lentos-robo<WAIT>Si <PLAYER> llega<NL>ahora, ¿qué<WAIT>hago-robo?"
+   "t": "<FACE:7D>Uf, qué lentos-robo<WAIT>¿Qué hago si <PLAYER><NL>llega ahora-robo…?"
   },
   {
    "key": "script:0019:02D8",

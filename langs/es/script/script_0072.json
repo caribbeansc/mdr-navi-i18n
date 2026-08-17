@@ -24,7 +24,7 @@
   {
    "key": "script:0072:07B5",
    "src": "0703d1febf5b",
-   "t": "<FACE:79>Mmm… Improvisar<NL>sobre la marcha es<WAIT>el lema de nuestra<NL>Banda Sperobo…"
+   "t": "<FACE:79>Mmm… Improvisar sobre<NL>la marcha…<WAIT>Es el lema de nuestra<NL>Banda Sperobo…"
   },
   {
    "key": "script:0072:07E2",
@@ -84,7 +84,7 @@
   {
    "key": "script:0072:094B",
    "src": "afae9858010b",
-   "t": "<FACE:7A>¡Prepárense ahí!<NL>¡Yo mismo seré su<WAIT>rival!"
+   "t": "<FACE:7A>¡Prepárense ahí! ¡Yo<NL>mismo seré su rival!"
   },
   {
    "key": "script:0072:0971",
@@ -99,12 +99,12 @@
   {
    "key": "script:0072:09E7",
    "src": "68772b04d75d",
-   "t": "<FACE:38>¡Malas noticias!<NL>¡Desde fuera de la<WAIT>nave usan Medabots<NL>ópticos para soltar<WAIT>los propulsores del<NL>Cluster!"
+   "t": "<FACE:38>¡Malas noticias!<NL>¡Salieron de la nave!<WAIT>¡Con Medabots ópticos<NL>sueltan el propulsor!"
   },
   {
    "key": "script:0072:0A24",
    "src": "26d4a967cb4b",
-   "t": "<FACE:01>¡Maldición!<NL>¡Si volvemos desde<WAIT>aquí no llegaremos a<NL>tiempo!<WAIT>¿Qué podemos hacer…?"
+   "t": "<FACE:01>¡Maldición! Ya no<NL>llegamos si volvemos<WAIT>¿Qué podemos hacer…?"
   },
   {
    "key": "script:0072:0A50",
@@ -139,7 +139,7 @@
   {
    "key": "script:0072:0B67",
    "src": "5e48797a369c",
-   "t": "<FACE:00>Además, de todos modos<NL>no llegaríamos a<WAIT>tiempo<WAIT>¡Confiemos en Niwaka<NL>y sigamos adelante!"
+   "t": "<FACE:00>Además, de todos modos<NL>no llegamos a tiempo<WAIT>¡Confiemos en Niwaka<NL>y sigamos adelante!"
   },
   {
    "key": "script:0072:0B98",

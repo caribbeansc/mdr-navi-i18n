@@ -4,7 +4,7 @@
   {
    "key": "script:0042:091E",
    "src": "d3d8cb6fe9b4",
-   "t": "<FACE:70>Mmm… no sé…<NL>Esto no emociona…<WAIT>Andar de pirata está<NL>bien, pero algo<WAIT>falta…"
+   "t": "<FACE:70>Mmm… no sé…<NL>Esto no emociona…<WAIT>Andar de pirata está<NL>bien, pero algo falta"
   },
   {
    "key": "script:0042:095A",
@@ -54,7 +54,7 @@
   {
    "key": "script:0042:0A6E",
    "src": "7980a0150d42",
-   "t": "<FACE:7E>¿Qué hacían metidos<NL>en nuestro<WAIT>barco-robo?"
+   "t": "<FACE:7E>¿Qué hacían metidos en<NL>nuestro barco-robo?"
   },
   {
    "key": "script:0042:0A8A",
@@ -109,12 +109,12 @@
   {
    "key": "script:0042:0BE4",
    "src": "4833ef6ec0b5",
-   "t": "<FACE:71>¡Se suben al barco<NL>ajeno y arman fiesta<WAIT>como si nada!<WAIT><FACE:70>¡Basta de rodeos!<WAIT>Si quieren que les<NL>devuelva a sus<WAIT>amigos,<WAIT>¡obedezcan sin chistar<NL>lo que les digamos!"
+   "t": "<FACE:71>¡Se suben al barco<NL>ajeno y arman fiesta<WAIT>como si nada!<WAIT><FACE:70>¡Basta de rodeos!<WAIT>Si quieren que les<NL>devuelva a sus amigos<WAIT>¡obedezcan sin chistar<NL>lo que les digamos!"
   },
   {
    "key": "script:0042:0C56",
    "src": "1fe45df855ef",
-   "t": "<FACE:06>¡Lo sabía, eres mala!<NL>¡Qué jugada tan<WAIT>sucia!"
+   "t": "<FACE:06>¡Lo sabía, eres mala!<NL>¡Qué jugada tan baja!"
   },
   {
    "key": "script:0042:0C6F",
@@ -209,12 +209,12 @@
   {
    "key": "script:0042:0E59",
    "src": "402231544d94",
-   "t": "<FACE:3D>No nos hace falta tu<NL>ayuda: lo nuestro lo<WAIT>hacemos por nuestra<NL>cuenta<WAIT><PLAYER> no es nadie<NL>para darnos órdenes"
+   "t": "<FACE:3D>No nos hace falta tu<NL>ayuda<WAIT>Lo nuestro lo hacemos<NL>por nuestra cuenta<WAIT><PLAYER> no es nadie<NL>para darnos órdenes"
   },
   {
    "key": "script:0042:0E94",
    "src": "36ceb8b5beb5",
-   "t": "<FACE:19>¿Pero qué dices?<WAIT><PLAYER> es el<NL>presidente de la<WAIT>clase"
+   "t": "<FACE:19>¿Pero qué dices?<WAIT><PLAYER> es el<NL>presidente de clase"
   },
   {
    "key": "script:0042:0EB5",

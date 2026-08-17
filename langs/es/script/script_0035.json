@@ -9,7 +9,7 @@
   {
    "key": "script:0035:0E05",
    "src": "b378db381081",
-   "t": "<FACE:00>Sí, Murasame Shiden,<NL>que lo halló conmigo,<WAIT>es el medaguerrero más<NL>popular del ranking<WAIT>de RR, la empresa que<NL>construyó el Cluster<WAIT>Por eso me sugirió que<NL>lo estudiaran a fondo"
+   "t": "<FACE:00>Sí, Murasame Shiden,<NL>que lo halló conmigo,<WAIT>es el medaguerrero más<NL>popular en el ranking<WAIT>que organiza RR, la<NL>creadora del Cluster<WAIT>Por eso me sugirió que<NL>lo estudiaran a fondo"
   },
   {
    "key": "script:0035:0E78",
@@ -69,7 +69,7 @@
   {
    "key": "script:0035:10BB",
    "src": "dcadc7d44824",
-   "t": "<FACE:06>Cómo me choca ese…<WAIT>Da órdenes como si<NL>fuera el dueño de<WAIT>todo"
+   "t": "<FACE:06>Cómo me choca ese…<WAIT>Da órdenes como si<NL>todo fuera suyo"
   },
   {
    "key": "script:0035:10E7",

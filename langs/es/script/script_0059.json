@@ -14,7 +14,7 @@
   {
    "key": "script:0059:04C3",
    "src": "76961f3b6973",
-   "t": "<FACE:00>Te faltan Medapartes,<NL>no puedes<WAIT>robobatallar"
+   "t": "<FACE:00>Te faltan Medapartes:<NL>no hay robobatalla"
   },
   {
    "key": "script:0059:04E5",
@@ -79,7 +79,7 @@
   {
    "key": "script:0059:0655",
    "src": "72dd1dc067ec",
-   "t": "<FACE:79>¡Necios!<WAIT>El amo de este Bloque<NL>del Oeste<WAIT>debe ser alguien como<NL>yo, ¡y nadie más!"
+   "t": "<FACE:79>¡Necios!<WAIT>¡El amo del Bloque del<NL>Oeste debo ser yo!"
   },
   {
    "key": "script:0059:0689",

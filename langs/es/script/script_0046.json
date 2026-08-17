@@ -69,7 +69,7 @@
   {
    "key": "script:0046:0D26",
    "src": "e391bc43ba5d",
-   "t": "<FACE:10>¡No lo sé!<NL>¡Quise hacerlo tan<WAIT>poderoso que ninguna<NL>Medalla normal puede<WAIT>moverlo!<NL>¡Es un fracaso!"
+   "t": "<FACE:10>¡No lo sé!<NL>Lo hice tan poderoso<WAIT>que una Medalla normal<NL>no lo mueve. ¡Fallé!"
   },
   {
    "key": "script:0046:0D63",
@@ -204,7 +204,7 @@
   {
    "key": "script:0046:130F",
    "src": "6ba763ffee48",
-   "t": "<FACE:0F>A decir verdad,<NL>este Medabot<WAIT>usa tecnología<NL>obtenida del<WAIT>análisis de aquel<NL>Mistral.<WAIT>Dijiste que hallaste<NL>esa Medalla en una<WAIT>cueva, ¿no?<NL><WAIT>Si es así, debe tener<NL>relación con Mistral."
+   "t": "<FACE:0F>A decir verdad,<NL>este Medabot…<WAIT>usa tecnología del<NL>análisis de Mistral<WAIT>Dijiste que la Medalla<NL>salió de una cueva<WAIT>Si es así, debe tener<NL>relación con Mistral"
   },
   {
    "key": "script:0046:138B",
@@ -249,7 +249,7 @@
   {
    "key": "script:0046:14A8",
    "src": "5c32ea0342ce",
-   "t": "<FACE:1E>¡Que se quede<NL>encerrado aquí para<WAIT>siempre, como quería!"
+   "t": "<FACE:1E>¡Como quiso: encerrado<NL>aquí para siempre!"
   },
   {
    "key": "script:0046:14CD",
@@ -364,7 +364,7 @@
   {
    "key": "script:0046:180B",
    "src": "1e810115e697",
-   "t": "<FACE:0A>¡Ah, por cierto!<NL>¡Hace poco vimos a<WAIT>la señorita Rainy!"
+   "t": "<FACE:0A>¡Ah! ¡Hace poco vimos<NL>a la señorita Rainy!"
   },
   {
    "key": "script:0046:1828",

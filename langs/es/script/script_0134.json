@@ -14,7 +14,7 @@
   {
    "key": "script:0134:0865",
    "src": "15ef057ecb20",
-   "t": "<FACE:69>Desde que fundé la<NL>Banda Sperobo, nada<WAIT>de<WAIT>tecnología moderna…<NL>Todo salió de mi<WAIT>mente"
+   "t": "<FACE:69>Desde que fundé la<NL>Banda Sperobo…<WAIT>no he tocado nada de<NL>tecnología moderna<WAIT>Todo salió de mi mente"
   },
   {
    "key": "script:0134:08B8",
@@ -24,12 +24,12 @@
   {
    "key": "script:0134:0900",
    "src": "d5629dbc3951",
-   "t": "<FACE:69>Y bien, ¿qué me dices?<NL>¿Entras a los<WAIT>Sperobo?<WAIT>¡Al espacio, juntos!"
+   "t": "<FACE:69>Y bien, ¿qué me dices?<NL>¿Te unes a la Banda?<WAIT>¡Al espacio, juntos!"
   },
   {
    "key": "script:0134:092E",
    "src": "66e05a43e19a",
-   "t": "<FACE:6A>¡Aunque no quieras,<NL>te alisto a la<WAIT>fuerza!"
+   "t": "<FACE:6A>¡Aunque no quieras, te<NL>alisto a la fuerza!"
   },
   {
    "key": "script:0134:094E",
@@ -104,7 +104,7 @@
   {
    "key": "script:0134:0ACC",
    "src": "b3df55241a04",
-   "t": "<FACE:7A>Sin ese tipo, yo solo<NL>haré grande a la<WAIT>Banda"
+   "t": "<FACE:7A>Sin ese tipo, yo solo<NL>haré grande la Banda"
   },
   {
    "key": "script:0134:0AF6",
@@ -119,7 +119,7 @@
   {
    "key": "script:0134:0B34",
    "src": "53e0a9cdb4f7",
-   "t": "<FACE:69>¿Otra vez tú?<WAIT>Cómo te cuesta soltar<NL>a la Banda Sperobo…<WAIT>¿Quieres robobatallar?<NL>¡Ellos te<WAIT>enfrentarán!"
+   "t": "<FACE:69>¿Otra vez tú?<WAIT>Cómo te cuesta soltar<NL>a la Banda Sperobo…<WAIT>¿Quieres robobatallar?<NL>¡Ellos son tu rival!"
   },
   {
    "key": "script:0134:0B7C",
@@ -194,7 +194,7 @@
   {
    "key": "script:0134:0C95",
    "src": "94b2c156dc45",
-   "t": "<FACE:6B>Ju, ju, ju…<WAIT><FACE:69>¡No soy tan necio!<WAIT>En este Cluster hallé<NL>una técnica que<WAIT>ignoro"
+   "t": "<FACE:6B>Ju, ju, ju…<WAIT><FACE:69>¡No soy tan necio!<WAIT>En este Cluster hallé<NL>algo que yo ignoro"
   },
   {
    "key": "script:0134:0CE1",

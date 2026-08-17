@@ -9,7 +9,7 @@
   {
    "key": "script:0033:0C37",
    "src": "1f67152a175c",
-   "t": "<FACE:11>Ese «Sonic Stag» es<NL>el último modelo del<WAIT>que se enorgullece<NL>nuestra empresa RR<WAIT>Aunque aún es un<NL>prototipo<WAIT><FACE:03>Vaya, increíble<NL><WAIT>Y pensar que puedo ver<NL>un Medabot así"
+   "t": "<FACE:11>Ese «Sonic Stag» es el<NL>último modelo<WAIT>Es el orgullo de<NL>nuestra empresa RR<WAIT>Aunque aún es un<NL>prototipo<WAIT><FACE:03>Vaya, increíble<NL><WAIT>Y pensar que puedo ver<NL>un Medabot así"
   },
   {
    "key": "script:0033:0C8E",
@@ -19,7 +19,7 @@
   {
    "key": "script:0033:0C96",
    "src": "98454654db0d",
-   "t": "<FACE:04>Shiden, ¿dijiste<NL>«nuestra empresa<WAIT>RR»…?"
+   "t": "<FACE:04>Shiden, ¿dijiste<NL>«nuestra empresa RR»?"
   },
   {
    "key": "script:0033:0CAD",
@@ -44,7 +44,7 @@
   {
    "key": "script:0033:0DA8",
    "src": "22e446fc7db2",
-   "t": "<FACE:00>(Con este Medabot…)<WAIT>(Tal vez yo también<NL>pueda subir de rango)<WAIT>(Y así quizá Hiyori<NL>no se burle más de<WAIT>mí)"
+   "t": "<FACE:00>(Con este Medabot…)<WAIT>(Tal vez yo también<NL>pueda subir de rango)<WAIT>(Y así quizá Hiyori<NL>no se burlaría de mí)"
   },
   {
    "key": "script:0033:0DFE",
@@ -74,7 +74,7 @@
   {
    "key": "script:0033:0ED2",
    "src": "ecb27c8f94f1",
-   "t": "<FACE:03>¿¡De qué hablas,<NL>Shiden!?<WAIT><FACE:0F>Lo que tú pones es lo<NL>que pasó dentro de<WAIT>aquella cueva…"
+   "t": "<FACE:03>¿¡De qué hablas,<NL>Shiden!?<WAIT><FACE:0F>Lo que tú pones es<NL>lo de aquella cueva…"
   },
   {
    "key": "script:0033:0F09",
@@ -99,12 +99,12 @@
   {
    "key": "script:0033:1039",
    "src": "52d44ec729f3",
-   "t": "<FACE:04>(Mi Medalla…<NL>¡ellos aún la<WAIT>tienen!)<WAIT>(¿Qué hago…?)<WAIT><FACE:0F>Jajaja, date prisa<WAIT>Esos Medabots son de<NL>diseño especial<WAIT>Manipulé las «3 leyes<NL>de los Medabots»<WAIT>para que vean a todo<NL>intruso como enemigo"
+   "t": "<FACE:04>(Mi Medalla…<NL>¡todavía la tienen!)<WAIT>(¿Qué hago…?)<WAIT><FACE:0F>Jajaja, date prisa<WAIT>Esos Medabots son de<NL>diseño especial<WAIT>Manipulé las «3 leyes<NL>de los Medabots»<WAIT>para que vean a todo<NL>intruso como enemigo"
   },
   {
    "key": "script:0033:10B9",
    "src": "908333b30846",
-   "t": "<FACE:04>(Lo único que tengo<NL>es la que hallé en<WAIT>aquella cueva…)"
+   "t": "<FACE:04>(Lo único que tengo es<NL>la de aquella cueva…)"
   },
   {
    "key": "script:0033:10DA",
@@ -194,7 +194,7 @@
   {
    "key": "script:0033:12AC",
    "src": "98b7dc96cc48",
-   "t": "<FACE:0F>(Je, je, je…)<WAIT>(Con esto no saldrá de<NL>aquí en un buen<WAIT>rato…)"
+   "t": "<FACE:0F>(Je, je, je…)<WAIT>(Con esto no saldrá de<NL>aquí en un buen rato)"
   },
   {
    "key": "script:0033:12D2",

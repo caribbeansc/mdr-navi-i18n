@@ -59,7 +59,7 @@
   {
    "key": "script:0037:0734",
    "src": "8a8ba7233728",
-   "t": "<FACE:81>¡No hubo remedio-robo!<NL><WAIT>No pensamos que<NL>hubiera tantos niños<WAIT>a bordo-robo…<NL>En fin, con la única<WAIT>que queda, aunque sea…"
+   "t": "<FACE:81>¡No hubo remedio-robo!<NL><WAIT>No creíamos que fueran<NL>tantos niños a bordo<WAIT>En fin, con la única<NL>nave que queda-robo…"
   },
   {
    "key": "script:0037:0779",
@@ -134,7 +134,7 @@
   {
    "key": "script:0037:08DD",
    "src": "021db5ba6135",
-   "t": "<FACE:06>¡Ustedes!<WAIT>¡Suelten ya el brazo<NL>que sujeta al<WAIT>Cluster!"
+   "t": "<FACE:06>¡Ustedes!<WAIT>¡Suelten el brazo que<NL>sujeta al Cluster!"
   },
   {
    "key": "script:0037:0908",

@@ -49,7 +49,7 @@
   {
    "key": "script:0010:0480",
    "src": "9598443b5a1b",
-   "t": "<FACE:7E>¡Toda esta tristeza<NL>la pagan<WAIT>ustedes-robo!"
+   "t": "<FACE:7E>¡Toda esta tristeza la<NL>pagan ustedes-robo!"
   },
   {
    "key": "script:0010:0499",

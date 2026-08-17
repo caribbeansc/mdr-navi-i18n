@@ -14,7 +14,7 @@
   {
    "key": "script:0092:06C0",
    "src": "08295f1c7f21",
-   "t": "<FACE:55>¡Ah!<NL><WAIT>¡¡No, no!!<NL>Tocarlo así es<WAIT>peligroso…"
+   "t": "<FACE:55>¡Ah!<NL><WAIT>¡¡No, no!! Tocarlo<NL>así es peligroso…"
   },
   {
    "key": "script:0092:06E5",
@@ -24,7 +24,7 @@
   {
    "key": "script:0092:06EC",
    "src": "f55f546392ae",
-   "t": "<FACE:56>Ay…<NL><DELAY:003C><DELAY:0031><CLEAR>Así que esto es lo que<DELAY:0078><DELAY:000C><NL>llaman «dar<DELAY:0020>un<WAIT>traspié»<DELAY:0078><DELAY:001E><END>"
+   "t": "<FACE:56>Ay…<NL><DELAY:003C><DELAY:0031><CLEAR>Así que esto es lo<DELAY:0078><DELAY:000C><NL>que llaman «tro<DELAY:0020>pezar»<DELAY:0078><DELAY:001E><END>"
   },
   {
    "key": "script:0092:072B",
@@ -44,7 +44,7 @@
   {
    "key": "script:0092:07BF",
    "src": "0bb62c92677f",
-   "t": "<FACE:0F>Como es de otro mundo,<NL>quizá me equivoque<WAIT>por completo…"
+   "t": "<FACE:0F>Como es de otro mundo,<NL>quizá me equivoque…"
   },
   {
    "key": "script:0092:07EE",
@@ -94,7 +94,7 @@
   {
    "key": "script:0092:08D8",
    "src": "76d03df58110",
-   "t": "<FACE:57>«¡Ustedes! ¡Saquen<NL>bien los tubos que<WAIT>clavan!»<WAIT>«¡Pero gracias a eso<NL>encontré por fin<WAIT>a quién conquistar!»<WAIT>«Empiezo ya la<NL>invasión,<WAIT>¡así que no se<NL>atrevan a estorbarme!<WAIT>profesor Kazanbai»"
+   "t": "<FACE:57>«¡Ustedes! ¡Saquen los<NL>tubos que clavan!»<WAIT>«¡Pero gracias a eso<NL>hallé mi objetivo!»<WAIT>«¡Empiezo la invasión,<NL>no me estorben!<WAIT>profesor Kazanbai»"
   },
   {
    "key": "script:0092:0965",
@@ -104,7 +104,7 @@
   {
    "key": "script:0092:098C",
    "src": "a9d783bfbccd",
-   "t": "<FACE:0F>¡Apurémonos!<WAIT>Si la Banda Sperobo<NL>ya se nos adelantó…<WAIT>esto podría acabar<NL>en guerra<WAIT>interestelar"
+   "t": "<FACE:0F>¡Apurémonos!<NL><WAIT>Si la Banda Sperobo<NL>ya se nos adelantó…<WAIT>¡esto puede acabar en<NL>guerra interestelar!"
   },
   {
    "key": "script:0092:09DA",

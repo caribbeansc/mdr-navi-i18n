@@ -14,7 +14,7 @@
   {
    "key": "script:0068:0A2F",
    "src": "a2b980308ae5",
-   "t": "<FACE:0C>Entonces nosotros<NL>vamos por nuestro<WAIT>lado"
+   "t": "<FACE:0C>Nosotros nos vamos<NL>por nuestro lado"
   },
   {
    "key": "script:0068:0A4B",
@@ -104,7 +104,7 @@
   {
    "key": "script:0068:0C05",
    "src": "b918d75beed4",
-   "t": "<FACE:6C>¡Yo soy Nyuudou, Jefe<NL>de Montaña de la<WAIT>Banda Space Robo Robo!<WAIT><FACE:04>¿¡Banda Space Robo<NL>Robo!?<WAIT><FACE:6C>Para abreviar, la<NL>Banda Sperobo<WAIT>¡El grupo malvado que<NL>domina el universo!"
+   "t": "<FACE:6C>¡Yo soy Nyuudou, Jefe<NL>de Montaña!<WAIT>¡Soy de la Banda Space<NL>Robo Robo!<WAIT><FACE:04>¿¡Banda Space Robo<NL>Robo!?<WAIT><FACE:6C>Para abreviar, la<NL>Banda Sperobo<WAIT>¡El grupo malvado que<NL>domina el universo!"
   },
   {
    "key": "script:0068:0C68",

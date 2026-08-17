@@ -29,7 +29,7 @@
   {
    "key": "script:0044:09F2",
    "src": "297ff30db705",
-   "t": "<FACE:72>(¡Uy! ¡Guapísimos!<NL>¡Y tres! ¡Qué<WAIT>suerte!)"
+   "t": "<FACE:72>(¡Uy! ¡Guapísimos!<NL>¡Tres! ¡Qué suerte!)"
   },
   {
    "key": "script:0044:0A1E",
@@ -39,12 +39,12 @@
   {
    "key": "script:0044:0A54",
    "src": "cff54540c3ed",
-   "t": "<FACE:70>¡Nada de esperar!<WAIT><FACE:70>Que esto lo hagan<NL>ellos, ¡vamos a<WAIT>comer!<WAIT>Por cierto, ¿no entran<NL>a la Banda Sperobo?<WAIT><FACE:72>Con mis contactos los<NL>hago casi oficiales"
+   "t": "<FACE:70>¡Nada de esperar!<WAIT><FACE:70>Que lo hagan ellos<NL>¡Vamos a comer ya!<WAIT>Por cierto, ¿no entran<NL>a la Banda Sperobo?<WAIT><FACE:72>Con mis contactos los<NL>hago casi oficiales"
   },
   {
    "key": "script:0044:0AC0",
    "src": "c40d622a27f2",
-   "t": "<FACE:81>¡Q… qué cruel-robo!<NL>¡Qué<WAIT>favoritismo-robo!"
+   "t": "<FACE:81>¡Q… qué cruel-robo!<NL>¡Es favoritismo-robo!"
   },
   {
    "key": "script:0044:0ADB",
@@ -69,7 +69,7 @@
   {
    "key": "script:0044:0B3F",
    "src": "612af1d99ba3",
-   "t": "<FACE:00>Eso es sin duda…<WAIT><FACE:05>¿¡Otra vez la Banda<NL>Space Robo Robo!?<WAIT><FACE:05>Y con ellos están<NL>los chicos de mi<WAIT>clase<WAIT><FACE:01>¿Qué estarán tramando?<NL>Mejor observemos…"
+   "t": "<FACE:00>Eso es sin duda…<WAIT><FACE:05>¿¡Otra vez la Banda<NL>Space Robo Robo!?<WAIT><FACE:05>Y con ellos están los<NL>chicos de mi clase<WAIT><FACE:01>¿Qué estarán tramando?<NL>Mejor observemos…"
   },
   {
    "key": "script:0044:0BA4",

@@ -49,7 +49,7 @@
   {
    "key": "script:0050:0798",
    "src": "8e97a2b9ba71",
-   "t": "<FACE:12>¡Oye, tú!<NL>¡¿Qué estás<WAIT>haciendo?!"
+   "t": "<FACE:12>¡Oye, tú!<NL>¡¿Qué haces ahí?!"
   },
   {
    "key": "script:0050:07AC",
@@ -94,7 +94,7 @@
   {
    "key": "script:0050:089B",
    "src": "92e952ae1b8a",
-   "t": "<FACE:00>El timbre de la<NL>escuela suena<WAIT>igual que ahora…"
+   "t": "<FACE:00>El timbre escolar<NL>no ha cambiado nada…"
   }
  ]
 }

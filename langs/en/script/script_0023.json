@@ -79,7 +79,7 @@
   {
    "key": "script:0023:0980",
    "src": "0a773724daa3",
-   "t": "<FACE:00>It looks like this<NL><WAIT>Block's control device<NL>is on the mountaintop<WAIT><FACE:0A>But… it's all cliffs.<NL>Looks hard to climb…"
+   "t": "<FACE:00>It looks like this<NL>Block…<WAIT>Its control device is<NL>on the mountaintop<WAIT><FACE:0A>But… it's all cliffs.<NL>Looks hard to climb…"
   },
   {
    "key": "script:0023:09C6",

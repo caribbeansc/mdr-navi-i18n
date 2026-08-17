@@ -39,7 +39,7 @@
   {
    "key": "script:0009:037A",
    "src": "ac4828a407e0",
-   "t": "<FACE:57>«¡Qué escándalo hacen<NL>ustedes, oigan!<WAIT>¡Robo-robo hasta la<NL>madrugada, cada<WAIT>noche!<WAIT>¡Se oye en mi bloque!<NL>¡Duermo por belleza!<WAIT>¡Ni una palabra!<NL>¡Ni respiren,<WAIT>oyeron!»"
+   "t": "<FACE:57>«¡Qué escándalo hacen<NL>ustedes, oigan!<WAIT>¡Robo-robo cada noche<NL>hasta la madrugada!<WAIT>¡Se oye en mi bloque!<NL>¡Duermo por belleza!<WAIT>¡Ni una palabra!<NL>¡Ni respiren más!»"
   },
   {
    "key": "script:0009:03F2",
@@ -49,7 +49,7 @@
   {
    "key": "script:0009:0402",
    "src": "ae3e8d6d7135",
-   "t": "<FACE:00>¿Eh?<NL>Hoy están más<WAIT>tristes…"
+   "t": "<FACE:00>¿Eh? Hoy están más<NL>tristes que nunca…"
   },
   {
    "key": "script:0009:041C",

@@ -29,12 +29,12 @@
   {
    "key": "script:0063:05B5",
    "src": "da5ab353674c",
-   "t": "<FACE:05>Ustedes dos…<NL>¿por qué están en un<WAIT>lugar tan caluroso?"
+   "t": "<FACE:05>Ustedes dos, ¿por qué<NL>están en este calor?"
   },
   {
    "key": "script:0063:05D3",
    "src": "8347e68bd7fb",
-   "t": "<FACE:1A>¡C-cállese usted!<NL>¡Este calor nos<WAIT>gusta!"
+   "t": "<FACE:1A>¡C-cállese usted!<NL>¡Nos gusta el calor!"
   },
   {
    "key": "script:0063:05F7",
@@ -44,7 +44,7 @@
   {
    "key": "script:0063:0633",
    "src": "9415410a6fde",
-   "t": "<FACE:07>¡Ay, perdón!<NL>Pensé que los demás<WAIT>los habían echado<NL>del grupo<WAIT>¡y que solo podían<NL>estar aquí!"
+   "t": "<FACE:07>¡Ay, perdón! Pensé que<NL>los echaron del grupo<WAIT>¡y que solo podían<NL>estar aquí!"
   },
   {
    "key": "script:0063:066F",
@@ -69,7 +69,7 @@
   {
    "key": "script:0063:0706",
    "src": "c9378199488b",
-   "t": "<FACE:0D>Vine de visita igual<NL>que ustedes y quedé<WAIT>atrapado en todo esto<WAIT><FACE:0A>Ahora ando con este<NL><PLAYER>…<WAIT>Ustedes también<NL>deberían ayudarlo"
+   "t": "<FACE:0D>Vine igual que ustedes<NL>y quedé atrapado aquí<WAIT><FACE:0A>Ahora ando con este<NL><PLAYER>…<WAIT>Ustedes también<NL>deberían ayudarlo"
   },
   {
    "key": "script:0063:0769",
@@ -79,7 +79,7 @@
   {
    "key": "script:0063:0795",
    "src": "d435e6ab9b07",
-   "t": "<FACE:1B>¡Puro palabrerío!<NL>¡Un cobarde que ni<WAIT>sabe robobatallar!"
+   "t": "<FACE:1B>¡Puro palabrerío! ¡Ni<NL>sabe robobatallar!"
   },
   {
    "key": "script:0063:07BA",
@@ -94,7 +94,7 @@
   {
    "key": "script:0063:07F9",
    "src": "f035dcbedc54",
-   "t": "<FACE:0A>Los dos tienen buenos<NL>Medabots, pero no hay<WAIT>nada de trabajo en<NL>equipo<WAIT>Uno debe ser el líder<NL>y guiar al equipo…<WAIT>En robobatalla por<NL>equipos no se pelea<WAIT>cada uno por su lado"
+   "t": "<FACE:0A>Tienen buenos Medabots<NL>pero no hay equipo<WAIT>Uno debe ser el líder<NL>y guiar al equipo…<WAIT>En robobatalla por<NL>equipos nadie va solo"
   },
   {
    "key": "script:0063:0859",
@@ -104,7 +104,7 @@
   {
    "key": "script:0063:087C",
    "src": "350226ead923",
-   "t": "<FACE:19>¡Lo subestimamos!<NL><WAIT>¡Nosotros también<NL>sentíamos que nos<WAIT>faltaba un líder!"
+   "t": "<FACE:19>¡Lo subestimamos!<NL><WAIT>¡Nosotros también<NL>necesitamos un líder!"
   },
   {
    "key": "script:0063:08AF",
@@ -129,7 +129,7 @@
   {
    "key": "script:0063:0964",
    "src": "a385e2f3a100",
-   "t": "<FACE:0D>¡Aah…! ¡Oigan!<NL><WAIT><FACE:0B>¡Basta ya!<NL>¡Qué asco!<WAIT><FACE:14>¿Pero qué dices?<NL>¡Es la bella amistad<WAIT>entre hombres!"
+   "t": "<FACE:0D>¡Aah…! ¡Oigan!<NL><WAIT><FACE:0B>¡Basta ya!<NL>¡Qué asco!<WAIT><FACE:14>¿Pero qué dices? ¡Es<NL>bella amistad viril!"
   },
   {
    "key": "script:0063:09A1",
@@ -139,7 +139,7 @@
   {
    "key": "script:0063:09E6",
    "src": "9b3b5828459c",
-   "t": "<FACE:0D>¡Miren! ¡Por ustedes<NL>me perdí la<WAIT>robobatalla!<WAIT><FACE:07>No pasa nada, Fubuki<NL>Hacen linda pareja"
+   "t": "<FACE:0D>¡Miren! ¡Por su culpa<NL>perdí la robobatalla!<WAIT><FACE:07>No pasa nada, Fubuki<NL>Hacen linda pareja"
   },
   {
    "key": "script:0063:0A2C",
@@ -149,12 +149,12 @@
   {
    "key": "script:0063:0A40",
    "src": "aa0fd659ad70",
-   "t": "<FACE:0D>¡Ay, ya basta!<NL>¡Hagan lo que<WAIT>quieran!"
+   "t": "<FACE:0D>¡Ay, ya basta! ¡Hagan<NL>lo que quieran!"
   },
   {
    "key": "script:0063:0A55",
    "src": "45fc7bf3760b",
-   "t": "<FACE:05>Qué calor…<NL>¿No se puede<WAIT>arreglar?"
+   "t": "<FACE:05>Qué calor…<NL>¿No hay remedio?"
   },
   {
    "key": "script:0063:0A6C",

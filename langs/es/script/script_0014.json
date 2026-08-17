@@ -19,7 +19,7 @@
   {
    "key": "script:0014:0308",
    "src": "e204176f29e0",
-   "t": "<FACE:7D>¿Pero no faltaba<NL>nada-robo?<WAIT>Los colegiales no<NL>supieron su<WAIT>valor-robo"
+   "t": "<FACE:7D>¿Pero no faltaba<NL>nada-robo?<WAIT>Los colegiales no<NL>vieron su valor-robo"
   },
   {
    "key": "script:0014:033F",
@@ -39,7 +39,7 @@
   {
    "key": "script:0014:0362",
    "src": "af7c692286c4",
-   "t": "<FACE:7D>¡Este punto clave<NL>ya no se<WAIT>entrega-robo!<WAIT>¡Esta vez sí lo<NL>defendemos-robo!"
+   "t": "<FACE:7D>¡Este punto clave ya<NL>no se entrega-robo!<WAIT>¡Esta vez sí lo<NL>defendemos-robo!"
   },
   {
    "key": "script:0014:038C",

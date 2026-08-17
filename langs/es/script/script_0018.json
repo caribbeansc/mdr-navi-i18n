@@ -29,7 +29,7 @@
   {
    "key": "script:0018:0286",
    "src": "153b2442010d",
-   "t": "<FACE:80>¡¿Q-qué-robo?! ¿Qué<NL>me van a hacer-robo?<WAIT><FACE:00>No les haré nada,<NL>si se van de aquí<WAIT><FACE:7D>Eso no puede ser-robo<NL>Hay que ver el fruto<WAIT>del entrenamiento-robo<WAIT><FACE:00>¿Entrenamiento? ¿De<NL>guerra de guerrillas?"
+   "t": "<FACE:80>¡¿Q-qué-robo?! ¿Qué<NL>me van a hacer-robo?<WAIT><FACE:00>No les haré nada,<NL>si se van de aquí<WAIT><FACE:7D>Eso no puede ser-robo<WAIT>Veamos el fruto del<NL>entrenamiento-robo<WAIT><FACE:00>¿Entrenamiento? ¿De<NL>guerra de guerrillas?"
   },
   {
    "key": "script:0018:02E1",
@@ -39,7 +39,7 @@
   {
    "key": "script:0018:0301",
    "src": "ff832788d20a",
-   "t": "<FACE:81>Qu-qué raro-robo…<NL>El entrenamiento no<WAIT>dio ningún fruto-robo…"
+   "t": "<FACE:81>Qu-qué raro-robo…<WAIT>El entrenamiento<NL>no dio fruto-robo…"
   },
   {
    "key": "script:0018:0324",

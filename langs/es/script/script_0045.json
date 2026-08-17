@@ -19,7 +19,7 @@
   {
    "key": "script:0045:0445",
    "src": "08619c53bb8d",
-   "t": "<FACE:0A>Por cierto, <PLAYER><NL>¿y tú qué? Que se te<WAIT>estaba insinuando…"
+   "t": "<FACE:0A>Por cierto, <PLAYER>,<NL>¿y tú? Se te insinuó…"
   },
   {
    "key": "script:0045:0462",

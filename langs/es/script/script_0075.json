@@ -49,7 +49,7 @@
   {
    "key": "script:0075:0A2C",
    "src": "717b52b72c83",
-   "t": "<FACE:22>En efecto, yo soy…<NL>el que ustedes<WAIT>votaron<WAIT>¡el gran Niwaka,<NL>presidente de clase!"
+   "t": "<FACE:22>En efecto, yo soy el<NL>que ustedes votaron…<WAIT>¡el gran Niwaka,<NL>presidente de clase!"
   },
   {
    "key": "script:0075:0A61",
@@ -64,7 +64,7 @@
   {
    "key": "script:0075:0AFB",
    "src": "2c71acc04a5b",
-   "t": "<FACE:22>¿No irán a creer que<NL>ustedes solos pueden<WAIT>manejar el Cluster<NL>y volver a la Tierra?"
+   "t": "<FACE:22>¿No irán a creer que<NL>manejarán el Cluster<WAIT>y volverán solos a<NL>la Tierra?"
   },
   {
    "key": "script:0075:0B3A",
@@ -74,7 +74,7 @@
   {
    "key": "script:0075:0B88",
    "src": "9b94e60595dc",
-   "t": "<FACE:22>Usar la tecnología de<NL>los Sperobo es<WAIT>lógico."
+   "t": "<FACE:22>¡Es más lógico usar la<NL>tecnología Sperobo!"
   },
   {
    "key": "script:0075:0BB0",
@@ -124,7 +124,7 @@
   {
    "key": "script:0075:0D63",
    "src": "7612eddb838b",
-   "t": "<FACE:06>¡Ojalá te vuelvas<NL>polvo espacial!<WAIT>¡Te agarraré y te<NL>tiraré por la<WAIT>esclusa!"
+   "t": "<FACE:06>¡Ojalá te vuelvas<NL>polvo espacial!<WAIT>¡Te agarro y te tiro<NL>por la esclusa!"
   },
   {
    "key": "script:0075:0DA4",
@@ -159,7 +159,7 @@
   {
    "key": "script:0075:0E3A",
    "src": "72753ef86ee4",
-   "t": "<FACE:11>Je… No es cómo te<NL>eligen, sino qué<WAIT>haces<WAIT>Yo también me dejé<NL>llevar por ser el<WAIT>NO.1"
+   "t": "<FACE:11>Je… No es cómo te<NL>eligen sino qué haces<WAIT>Yo también me dejé<NL>llevar por el NO.1"
   },
   {
    "key": "script:0075:0E86",
@@ -179,7 +179,7 @@
   {
    "key": "script:0075:0F29",
    "src": "cb2212d25903",
-   "t": "<FACE:25>¿Qué…? ¿Entonces me<NL>hicieron jefe por un<WAIT>plan, y no por mi<NL>propio talento…?<WAIT><FACE:72>Bueno, nos hiciste<NL>ganar tiempo.<WAIT><FACE:7B>¡Gracias a eso nos<NL>metimos a la base!<WAIT><FACE:73>…Tú… ya no sirves…<WAIT><FACE:75>Cof… sin más… cof…<WAIT>No es tan fácil llegar<NL>a jefe… ¡cof!"
+   "t": "<FACE:25>¿Qué…? ¿Me hicieron<NL>jefe por un plan…?<WAIT>¿Y no por mi propio<NL>talento…?<WAIT><FACE:72>Bueno, nos hiciste<NL>ganar tiempo.<WAIT><FACE:7B>¡Gracias a eso nos<NL>metimos a la base!<WAIT><FACE:73>…Tú… ya no sirves…<WAIT><FACE:75>Cof… sin más… cof…<WAIT>No es tan fácil llegar<NL>a jefe… ¡cof!"
   },
   {
    "key": "script:0075:0FDD",
@@ -209,22 +209,22 @@
   {
    "key": "script:0075:105B",
    "src": "7e0073e1278a",
-   "t": "<FACE:7D>Y si nos quitan esto<NL>ahora, es un<WAIT>lío-robo…<WAIT>Hay que ganar tiempo."
+   "t": "<FACE:7D>Y si nos quitan esto<NL>ahora es un lío-robo…<WAIT>Hay que ganar tiempo."
   },
   {
    "key": "script:0075:1094",
    "src": "68d3ec319947",
-   "t": "<FACE:7D>Al fin y al cabo es<NL>jefe; si le hacemos<WAIT>un favor, algo bueno<NL>saldrá-robo.<WAIT>¡Ni modo, hay que<NL>apoyarlo-robo!"
+   "t": "<FACE:7D>Igual es jefe; si le<NL>hacemos un favor<WAIT>algo bueno saldrá-robo<WAIT>¡Ni modo, hay que<NL>apoyarlo-robo!"
   },
   {
    "key": "script:0075:10CE",
    "src": "85285c8062f1",
-   "t": "<FACE:23>¡¿Qué están haciendo?!<WAIT>¡Es obvio que la tropa<NL>debe ayudar al jefe!<WAIT>¡Pase lo que pase, la<NL>orden del jefe es<WAIT>ley!<WAIT>¡Es lo básico de toda<NL>organización!"
+   "t": "<FACE:23>¡¿Qué están haciendo?!<WAIT>¡Es obvio que la tropa<NL>debe ayudar al jefe!<WAIT>Pase lo que pase, ¡la<NL>orden del jefe manda!<WAIT>¡Es lo básico de toda<NL>organización!"
   },
   {
    "key": "script:0075:1132",
    "src": "36ad0d479b0c",
-   "t": "<FACE:81>¡Hiiii-robo!<NL>¡No cambió<WAIT>nada-roboo!"
+   "t": "<FACE:81>¡Hiiii-robo!<NL>¡No cambió nada-robo!"
   },
   {
    "key": "script:0075:1151",
@@ -234,7 +234,7 @@
   {
    "key": "script:0075:117A",
    "src": "379f4daec50a",
-   "t": "<FACE:06>¡Oye, <PLAYER>!<NL>¡Eres demasiado<WAIT>bueno!<WAIT>¡Traicionó a todos y<NL>se hizo jefe enemigo!"
+   "t": "<FACE:06>¡Oye, <PLAYER>! ¡Eres<NL>demasiado bueno!<WAIT>¡Traicionó a todos y<NL>se hizo jefe enemigo!"
   },
   {
    "key": "script:0075:11BB",
@@ -244,7 +244,7 @@
   {
    "key": "script:0075:11F2",
    "src": "2e427ca0d11a",
-   "t": "<FACE:00>¿Verdad, Niwaka?<WAIT>Si sabes algo,<NL>¿nos ayudarías?<WAIT><FACE:05>No necesitas hacerle<NL>esos mimos tan<WAIT>obvios."
+   "t": "<FACE:00>¿Verdad, Niwaka?<WAIT>Si sabes algo,<NL>¿nos ayudarías?<WAIT><FACE:05>No necesitas hacerle<NL>esos mimos tan obvios"
   },
   {
    "key": "script:0075:1238",
@@ -274,7 +274,7 @@
   {
    "key": "script:0075:1353",
    "src": "d4320ef3ce3c",
-   "t": "<FACE:22>Ellos quieren llevar<NL>el Cluster a su base<WAIT>y usarlo como<NL>instalación propia.<WAIT>Su base está en este<NL>cinturón de<WAIT>asteroides<WAIT>Vaciaron un asteroide<NL>y viven en el hueco.<WAIT>Ahí van a amarrar el<NL>Cluster y usarlo así.<WAIT><FACE:00>¿Y cuándo llegamos a<NL>esa base?<WAIT><FACE:22>¿Eh? El informe decía<NL>que en 10 minutos…"
+   "t": "<FACE:22>Ellos quieren llevar<NL>el Cluster a su base<WAIT>y usarlo como<NL>instalación propia.<WAIT>Su base está entre los<NL>asteroides, al fondo<WAIT>Vaciaron un asteroide<NL>y viven en el hueco.<WAIT>Ahí van a amarrar el<NL>Cluster<WAIT>y usarlo tal cual.<WAIT><FACE:00>¿Y cuándo llegamos a<NL>esa base?<WAIT><FACE:22>¿Eh? El informe decía<NL>que en 10 minutos…"
   },
   {
    "key": "script:0075:1432",
@@ -294,12 +294,12 @@
   {
    "key": "script:0075:1481",
    "src": "ecd2d1d9eebb",
-   "t": "<FACE:22>Con los brazos de la<NL>base fijan el<WAIT>Cluster…"
+   "t": "<FACE:22>Los brazos de la base<NL>fijan el Cluster…"
   },
   {
    "key": "script:0075:14A5",
    "src": "c238b617dc49",
-   "t": "<FACE:12>¡Es grave!<WAIT>¡Bloquearon el<NL>propulsor! ¡No<WAIT>avanza!"
+   "t": "<FACE:12>¡Es grave!<WAIT>¡Taparon el propulsor!<NL>¡No avanza!"
   },
   {
    "key": "script:0075:14C7",

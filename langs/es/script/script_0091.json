@@ -49,12 +49,12 @@
   {
    "key": "script:0091:039B",
    "src": "da172776d5fe",
-   "t": "<FACE:06>Ya te descubrimos<NL>¡de nada sirve que<WAIT>te escondas!<WAIT><FACE:74>Jujuju…<NL>"
+   "t": "<FACE:06>Ya te descubrimos:<NL>¡esconderte no sirve!<WAIT><FACE:74>Jujuju…<NL>"
   },
   {
    "key": "script:0091:03C3",
    "src": "afdfacbb1be5",
-   "t": "<FACE:74>Me gusta… estar…<NL>sola… en un cuarto<WAIT>escondido…"
+   "t": "<FACE:74>En un cuarto secreto…<NL>sola… me gusta…"
   },
   {
    "key": "script:0091:03E9",

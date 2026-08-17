@@ -904,7 +904,7 @@
   {
    "key": "script:0028:35F3",
    "src": "0c75a90c1220",
-   "t": "<FACE:03>This is a Medal!<WAIT><FACE:00>Are you sure?<WAIT><FACE:11>Like it or not, I'm on<NL>your team, and having<WAIT>its leader so poorly<NL>equipped won't do…"
+   "t": "<FACE:03>This is a Medal!<WAIT><FACE:00>Are you sure?<WAIT><FACE:11>Like it or not, I'm on<NL>this team…<WAIT>Its leader can't go so<NL>poorly equipped…"
   },
   {
    "key": "script:0028:3643",

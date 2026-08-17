@@ -49,7 +49,7 @@
   {
    "key": "script:0089:05C7",
    "src": "2266b8ee5c35",
-   "t": "<FACE:5F>Cada bloque tiene su<NL>propio controlador,<WAIT>y por eso mantiene un<NL>ambiente<WAIT>independiente"
+   "t": "<FACE:5F>Cada bloque tiene su<NL>propio controlador<WAIT>y un ambiente<NL>independiente"
   },
   {
    "key": "script:0089:05F9",

@@ -24,7 +24,7 @@
   {
    "key": "script:0082:0C82",
    "src": "3d35de29ed52",
-   "t": "<FACE:7C>¿Quéee?<WAIT><FACE:7A>¡En nombre del gran<NL>Raiun, eso no se<WAIT>permite!<WAIT>Si la obra se atrasa,<NL>¡mi honor se hunde!"
+   "t": "<FACE:7C>¿Quéee?<WAIT><FACE:7A>¡En nombre del gran<NL>Raiun, no lo permito!<WAIT>Si la obra se atrasa,<NL>¡mi honor se hunde!"
   },
   {
    "key": "script:0082:0CCD",
@@ -54,7 +54,7 @@
   {
    "key": "script:0082:0D96",
    "src": "ebee1295bcb1",
-   "t": "<FACE:81>¿¡Eeeeeeeh!?<NL><WAIT>¡Si hacemos eso, los<NL>otros túneles se<WAIT>atrasarán-robo!<WAIT>¡Ya vamos con el agua<NL>al cuello-robo!"
+   "t": "<FACE:81>¿¡Eeeeeeeh!?<NL><WAIT>¡Así se atrasarán los<NL>otros túneles-robo!<WAIT>¡Ya vamos con el agua<NL>al cuello-robo!"
   },
   {
    "key": "script:0082:0DE4",
@@ -69,7 +69,7 @@
   {
    "key": "script:0082:0EAF",
    "src": "97c424dc1b06",
-   "t": "<FACE:7A>¡Prohibido atrasarse!<NL><WAIT>El atraso de cualquier<NL>bloque es culpa de<WAIT>todos ustedes<WAIT>Si un solo bloque se<NL>atrasa, ¡los castigo<WAIT>a todos!"
+   "t": "<FACE:7A>¡Prohibido atrasarse!<NL><WAIT>El atraso de un bloque<NL>es culpa de todos<WAIT>Si un bloque se atrasa<NL>¡los castigo a todos!"
   },
   {
    "key": "script:0082:0F05",
@@ -99,7 +99,7 @@
   {
    "key": "script:0082:0FBA",
    "src": "87fe39449ecc",
-   "t": "<FACE:7D>¡Jefe Raiun!<NL><WAIT>¡Basta de excusas-robo<NL>y acabe con ese<WAIT>colegial ya-robo!"
+   "t": "<FACE:7D>¡Jefe Raiun!<NL><WAIT>¡Basta de excusas-robo<NL>y acabe con él-robo!"
   },
   {
    "key": "script:0082:0FED",
@@ -109,7 +109,7 @@
   {
    "key": "script:0082:100F",
    "src": "cb368530033a",
-   "t": "<FACE:05>Sí, sí…<NL>Dejen la pelea<WAIT>interna<WAIT>¿Toca robobatalla?"
+   "t": "<FACE:05>Sí, sí… Dejen esa<NL>pelea interna<WAIT>¿Toca robobatalla?"
   },
   {
    "key": "script:0082:102B",
@@ -139,7 +139,7 @@
   {
    "key": "script:0082:1123",
    "src": "ffef3362ba0a",
-   "t": "<FACE:7B>Ju ju ju… parece que<NL>ni el gran Raiun<WAIT>puede<WAIT>ser cruel con niños…<WAIT>¡Mira que no usar<NL>aquello!<WAIT>¡Fuaaa ja ja ja!"
+   "t": "<FACE:7B>Ju ju ju… ni yo soy<NL>cruel con los niños…<WAIT>¡Mira que no usar<NL>aquello!<WAIT>¡Fuaaa ja ja ja!"
   },
   {
    "key": "script:0082:116B",
@@ -179,7 +179,7 @@
   {
    "key": "script:0082:1256",
    "src": "710bb5f21f4b",
-   "t": "<FACE:05>En fin, con esto el<NL>desarrollo de<WAIT>Medabots<WAIT>ya está a salvo<WAIT>Volvamos el control a<NL>la normalidad<WAIT>y sigamos adelante"
+   "t": "<FACE:05>En fin, el desarrollo<NL>de Medabots va bien<WAIT>Arreglemos el control<NL>y sigamos adelante"
   },
   {
    "key": "script:0082:1298",
@@ -214,7 +214,7 @@
   {
    "key": "script:0082:1300",
    "src": "6c33f692c6c4",
-   "t": "<FACE:2A>¡Para el temporizador<NL>de los explosivos!<WAIT><FACE:2B>¡Todo está bien!<NL>Ellos no se quedarán<WAIT>aquí mucho tiempo<WAIT><FACE:2A>¡Es muy peligroso!<WAIT><FACE:2B>Pero… pero para<NL>salvarnos con<WAIT>nuestras<WAIT>propias fuerzas<NL>¡no hay otra manera!<WAIT>¡Tú mismo lo dijiste,<NL>Amamiya!<WAIT>Que los descartados<NL>saldríamos de esta<WAIT>por nuestra cuenta"
+   "t": "<FACE:2A>¡Para el temporizador<NL>de los explosivos!<WAIT><FACE:2B>¡Todo está bien!<NL>Aquí no durarán mucho<WAIT><FACE:2A>¡Es muy peligroso!<WAIT><FACE:2B>Pero… pero solo así<NL>nos salvaremos solos<WAIT>¡Tú mismo lo dijiste,<NL>Amamiya!<WAIT>Que los descartados<NL>saldríamos de esta<WAIT>por nuestra cuenta"
   },
   {
    "key": "script:0082:13A4",
@@ -224,7 +224,7 @@
   {
    "key": "script:0082:13C4",
    "src": "e256f5fdac50",
-   "t": "<FACE:03>¡No puede ser!<WAIT><FACE:2B>Así es…<NL>¡Vamos a destruir<WAIT>este<WAIT>bloque!<WAIT><FACE:04>Pero ¿para qué harían<NL>algo así…?"
+   "t": "<FACE:03>¡No puede ser!<WAIT><FACE:2B>Así es… ¡Vamos a<NL>destruir este bloque!<WAIT><FACE:04>Pero ¿para qué harían<NL>algo así…?"
   },
   {
    "key": "script:0082:13FC",
@@ -234,17 +234,17 @@
   {
    "key": "script:0082:1403",
    "src": "5eb305802d99",
-   "t": "<FACE:0F>Este bloque está en el<NL>centro del Cluster<WAIT>Si lo destruyen…<WAIT>¡el Cluster se partirá<NL>en dos!<WAIT><FACE:00>Shiden… ¿y entonces<NL>qué pasaría?<WAIT><FACE:0F>La parte de aquí en<NL>adelante seguirá<WAIT>acelerando con los<NL>propulsores…<WAIT>Los bloques del lado<NL>del Lobby perderán<WAIT>el empuje y luego…"
+   "t": "<FACE:0F>Este bloque está en el<NL>centro del Cluster<WAIT>Si lo destruyen…<WAIT>¡el Cluster se partirá<NL>en dos!<WAIT><FACE:00>Shiden… ¿y entonces<NL>qué pasaría?<WAIT><FACE:0F>La parte delantera<NL>seguirá acelerando…<WAIT>Los bloques del Lobby<NL>perderán el empuje…"
   },
   {
    "key": "script:0082:1498",
    "src": "52206e5fc90a",
-   "t": "<FACE:2B>¡El Sol los atraerá de<NL>vuelta y podrán<WAIT>volver<WAIT>cerca de la Tierra!"
+   "t": "<FACE:2B>¡El Sol los traerá de<NL>vuelta a la Tierra!"
   },
   {
    "key": "script:0082:14BF",
    "src": "9e91655dbbc6",
-   "t": "<FACE:12>¡Es una locura! ¡No se<NL>sabe ni en qué<WAIT>dirección irían!<WAIT><FACE:01>¡Y seguro que hay<NL>alguien en los<WAIT>bloques<WAIT>de más adelante!"
+   "t": "<FACE:12>¡Es una locura! ¡Ni se<NL>sabe adónde irían!<WAIT><FACE:01>¡Y seguro hay alguien<NL>en los otros bloques!"
   },
   {
    "key": "script:0082:1502",
@@ -259,7 +259,7 @@
   {
    "key": "script:0082:1532",
    "src": "03df2a433793",
-   "t": "<FACE:2B>¡Si lo hacemos, tiene<NL>que ser ahora!<NL><WAIT>Si nos alejamos más de<NL>la Tierra, ya no<WAIT>servirá este método<WAIT><FACE:10>Pero al menos piensen<NL>en la seguridad de<WAIT>todos…"
+   "t": "<FACE:2B>¡Si lo hacemos, tiene<NL>que ser ahora!<NL><WAIT>Si nos alejamos de la<NL>Tierra, no funcionará<WAIT><FACE:10>Pero al menos cuiden<NL>la seguridad de todos"
   },
   {
    "key": "script:0082:1581",
@@ -274,7 +274,7 @@
   {
    "key": "script:0082:15D9",
    "src": "fd8ea91c545d",
-   "t": "<FACE:10>Ni modo… <PLAYER><NL>Habrá que usar la<WAIT>fuerza…"
+   "t": "<FACE:10>Ni modo… <PLAYER><NL>Usaremos la fuerza…"
   },
   {
    "key": "script:0082:15F5",
@@ -319,7 +319,7 @@
   {
    "key": "script:0082:16CC",
    "src": "4f9bfe0691b7",
-   "t": "<FACE:2B>Ya lo sé… <PLAYER>…<NL>Sé que era un método<WAIT>peligroso…"
+   "t": "<FACE:2B>Ya lo sé… <PLAYER>…<NL>Sé que era peligroso…"
   },
   {
    "key": "script:0082:16F0",
@@ -359,7 +359,7 @@
   {
    "key": "script:0082:1826",
    "src": "93f4e45e572c",
-   "t": "<FACE:0F>Si recuperamos esto<NL>podremos desarrollar<WAIT>nuevos Medabots"
+   "t": "<FACE:0F>Si recuperamos esto<NL>habrá Medabots nuevos"
   },
   {
    "key": "script:0082:184A",
@@ -424,7 +424,7 @@
   {
    "key": "script:0082:19B9",
    "src": "7c1039f8d6cf",
-   "t": "<FACE:05>¡Entonces puede que<NL>haya alguien más<WAIT>adelante!<WAIT><FACE:07>¡Bueno, quédatelo!"
+   "t": "<FACE:05>¡Entonces quizá haya<NL>alguien más adelante!<WAIT><FACE:07>¡Bueno, quédatelo!"
   },
   {
    "key": "script:0082:19E9",

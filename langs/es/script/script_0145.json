@@ -14,7 +14,7 @@
   {
    "key": "script:0145:0255",
    "src": "b1355e41ae10",
-   "t": "<FACE:75>…Hmp… con eso ya<NL>bajas la guardia…<WAIT>Aún te falta mucho<WAIT>Agradece… guf… la<NL>grandeza de alma<WAIT>del gran Smog…<NL>cof, cof…"
+   "t": "<FACE:75>…Hmp… con eso ya<NL>bajas la guardia…<WAIT>Aún te falta mucho<WAIT>Agradece… guf… la<NL>nobleza de Smog… cof…"
   },
   {
    "key": "script:0145:02A1",
@@ -34,7 +34,7 @@
   {
    "key": "script:0145:035C",
    "src": "1dfaa9aa2f75",
-   "t": "<FACE:00>¿Qué haces en un sitio<NL>así, Smog…?<WAIT><FACE:75>Mm… nada, nada…<NL>Unos brotes, nada<WAIT>más…"
+   "t": "<FACE:00>¿Qué haces en un sitio<NL>así, Smog…?<WAIT><FACE:75>Mm… nada, nada…<NL>Unos brotes nada más…"
   },
   {
    "key": "script:0145:0390",
@@ -44,17 +44,17 @@
   {
    "key": "script:0145:0396",
    "src": "949788176113",
-   "t": "<FACE:75>Así es…<NL><WAIT>Las plantas que<NL>crecen aquí<WAIT>no las hay en la<NL>guarida<WAIT>Y pensaba llevarme<NL>unas cuantas…<WAIT><FACE:00>Ajá…"
+   "t": "<FACE:75>Así es…<NL><WAIT>Las plantas de aquí no<NL>las hay en la guarida<WAIT>Y pensaba llevarme<NL>unas cuantas…<WAIT><FACE:00>Ajá…"
   },
   {
    "key": "script:0145:03DD",
    "src": "1130193823a3",
-   "t": "<FACE:04>(¿Volvió solo por eso?<NL> Cuidar la salud<WAIT> también es duro…)"
+   "t": "<FACE:04>(¿Volvió solo por eso?<NL> Cuidarse es duro…)"
   },
   {
    "key": "script:0145:0403",
    "src": "aeb5aebd3a4e",
-   "t": "<FACE:77>¡Cof! ¡Cof!<NL><WAIT>¿Qué… guf… hago yo<NL>charlando… cof… tan<WAIT>tranquilamente…?<WAIT>Cof, cof…"
+   "t": "<FACE:77>¡Cof! ¡Cof!<NL><WAIT>¿Qué hago yo… guf…<NL>charlando tan feliz…?<WAIT>Cof, cof…"
   },
   {
    "key": "script:0145:043D",

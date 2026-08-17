@@ -14,7 +14,7 @@
   {
    "key": "script:0032:0592",
    "src": "8f92cda93cdd",
-   "t": "<FACE:3D>¡¿Estás bromeando?!<WAIT>¡Dicen que en el<NL>Cluster no hay<WAIT>adultos<WAIT>y que solo quedamos<NL>nosotros!"
+   "t": "<FACE:3D>¡¿Estás bromeando?!<NL><WAIT>¡No hay ni un adulto<NL>aquí, solo nosotros!"
   },
   {
    "key": "script:0032:05C8",
@@ -29,7 +29,7 @@
   {
    "key": "script:0032:0621",
    "src": "dd12579c55ac",
-   "t": "<FACE:22>De ahora en adelante<NL>sigan mis<WAIT>indicaciones<WAIT>Yo, el presidente de<NL>la clase, los<WAIT>dirigiré<WAIT>Eh… primero…"
+   "t": "<FACE:22>De ahora en adelante<NL>sigan mis órdenes<WAIT>Como presidente de la<NL>clase, yo los guiaré<WAIT>Eh… primero…"
   },
   {
    "key": "script:0032:066B",
@@ -209,7 +209,7 @@
   {
    "key": "script:0032:0B59",
    "src": "f9c6f6d5dae2",
-   "t": "<FACE:05>Adelante está el<NL>Bloque Computadora<WAIT>que controla todo<NL>el Cluster, parece<WAIT>Vamos para allá<NL>Quizá averigüemos<WAIT>algo<WAIT><FACE:00>Tienes razón, vamos"
+   "t": "<FACE:05>El Bloque Computadora<NL>controla el Cluster<WAIT>Está adelante; vamos<NL>Quizá sepamos algo<WAIT><FACE:00>Tienes razón, vamos"
   }
  ]
 }

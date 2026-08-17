@@ -29,7 +29,7 @@
   {
    "key": "script:0143:01BE",
    "src": "6313a34e6428",
-   "t": "<FACE:2E>Anda, Shinkirou,<NL>aprende un poco de<WAIT><PLAYER><NL>¡y sé más decidido!"
+   "t": "<FACE:2E>Anda, Shinkirou,<NL>aprende de <PLAYER><WAIT>¡y sé más decidido!"
   },
   {
    "key": "script:0143:01EB",
@@ -49,7 +49,7 @@
   {
    "key": "script:0143:023F",
    "src": "f517f12b187a",
-   "t": "<FACE:30>Hyouga… ¿no lo has<NL>visto…?<WAIT><FACE:04>¿Eh? Pues no, no<NL>sabría decirte…<WAIT><FACE:30>Mmm…"
+   "t": "<FACE:30>Hyouga… ¿no la has<NL>visto…?<WAIT><FACE:04>¿Eh? Pues no, no<NL>sabría decirte…<WAIT><FACE:30>Mmm…"
   }
  ]
 }

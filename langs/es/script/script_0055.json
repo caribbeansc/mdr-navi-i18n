@@ -4,7 +4,7 @@
   {
    "key": "script:0055:09EB",
    "src": "f7717f4065d0",
-   "t": "<FACE:03>Vaya…<NL>Este bloque parece<WAIT>una<WAIT>ciudad del futuro<WAIT><FACE:19>Las calles parecen<NL>casas de muestra<WAIT><FACE:14>Tan pulcro que hasta<NL>da frialdad…"
+   "t": "<FACE:03>Vaya… Este bloque es<NL>una ciudad del futuro<WAIT><FACE:19>Las calles parecen<NL>casas de muestra<WAIT><FACE:14>Tan pulcro que hasta<NL>da frialdad…"
   },
   {
    "key": "script:0055:0A3D",
@@ -29,12 +29,12 @@
   {
    "key": "script:0055:0A80",
    "src": "583b37ae53df",
-   "t": "<FACE:04>¿Y esto qué es?<NL>¿Un separador con una<WAIT>flor prensada?<WAIT><FACE:05>¿A ver, a ver?<NL>"
+   "t": "<FACE:04>¿Y esto? ¿Un separador<NL>con flor prensada?<WAIT><FACE:05>¿A ver, a ver?<NL>"
   },
   {
    "key": "script:0055:0AA2",
    "src": "7085f9ed147d",
-   "t": "<FACE:08>¡Uy! ¿Y esto qué es?<NL>Se le cayeron los<WAIT>pétalos y solo<NL>queda uno<WAIT><FACE:06>¡Qué cosa más pobre!<NL>¡Esta flor salió mal!"
+   "t": "<FACE:08>¡Uy! ¿Y esto qué es?<WAIT>Se cayeron los pétalos<NL>y solo queda uno<WAIT><FACE:06>¡Qué cosa más pobre!<NL>¡Esta flor salió mal!"
   },
   {
    "key": "script:0055:0AE5",
@@ -89,12 +89,12 @@
   {
    "key": "script:0055:0C0D",
    "src": "2316e612b9c5",
-   "t": "<FACE:0E>Perdón, <PLAYER>…<NL>ahora no…<WAIT><FACE:0A>Pero esto sí lo digo<WAIT>Cerca de aquí hay un<NL>medaguerrero<WAIT>fortísimo<WAIT>Hay que tener cuidado…<WAIT><FACE:00>Entendido"
+   "t": "<FACE:0E>Perdón, <PLAYER>…<NL>ahora no…<WAIT><FACE:0A>Pero esto sí lo digo<WAIT>Hay un medaguerrero<NL>fortísimo aquí cerca<WAIT>Hay que tener cuidado…<WAIT><FACE:00>Entendido"
   },
   {
    "key": "script:0055:0C5C",
    "src": "770dce8470aa",
-   "t": "<FACE:00>Chicos, como dice<NL>Fubuki: ¡ojo con<WAIT>todo!<WAIT><FACE:05>Qué raaaro"
+   "t": "<FACE:00>Chicos, como dice<NL>Fubuki: ¡mucho ojo!<WAIT><FACE:05>Qué raaaro"
   },
   {
    "key": "script:0055:0C86",
@@ -114,12 +114,12 @@
   {
    "key": "script:0055:0CDB",
    "src": "f9674b67a019",
-   "t": "<FACE:05>¡Y no solo eso!<WAIT>Esa chica de allá…<NL>¡Ya la había visto!<WAIT>¡De repente me retó a<NL>una robobatalla!<WAIT>Sospeché de ella…<NL>¡y está con la Banda<WAIT>Sperobo!<NL>Miremos desde aquí<WAIT>y ¡le arrancamos<NL>la máscara!"
+   "t": "<FACE:05>¡Y no solo eso!<WAIT>Esa chica de allá…<NL>¡Ya la había visto!<WAIT>¡De repente me retó a<NL>una robobatalla!<WAIT>Sospeché de ella…<NL>¡y es de los Sperobo!<WAIT>Miremos desde aquí y<NL>¡a desenmascararla!"
   },
   {
    "key": "script:0055:0D61",
    "src": "b53cef83b6e7",
-   "t": "<FACE:81>Uuuh… qué paliza-robo<WAIT>Nunca vi un<NL>medaguerrero tan<WAIT>fuerte-robo…"
+   "t": "<FACE:81>Uuuh… qué paliza-robo<WAIT>Es el medaguerrero más<NL>fuerte que vi-robo…"
   },
   {
    "key": "script:0055:0D8E",
@@ -129,7 +129,7 @@
   {
    "key": "script:0055:0DA9",
    "src": "e1a148f6075f",
-   "t": "<FACE:80>Increíble-robo…<NL>Si entra a la Banda<WAIT>Sperobo, ¡será jefa<NL>segurísimo-robo!"
+   "t": "<FACE:80>Increíble-robo…<WAIT>Si entra a los Sperobo<NL>¡será jefa fijo-robo!"
   },
   {
    "key": "script:0055:0DD0",
@@ -144,7 +144,7 @@
   {
    "key": "script:0055:0E3C",
    "src": "2d65ff7c0457",
-   "t": "<FACE:7F>¡Ese es el objetivo<NL>de la Banda Sperobo<WAIT>también-robo!<NL>¡Cooperemos-robo!"
+   "t": "<FACE:7F>¡Los Sperobo buscamos<NL>lo mismo-robo!<WAIT>¡Cooperemos-robo!"
   },
   {
    "key": "script:0055:0E64",
@@ -199,7 +199,7 @@
   {
    "key": "script:0055:0F68",
    "src": "7a855ea53427",
-   "t": "<FACE:06>¡Cómo eres de<NL>despreocupado!<WAIT>La tal Rainy tendrá<NL>cara bonita, pero<WAIT>¡me atacó de repente!<WAIT>Fubuki podría ser<NL>cómplice suyo…"
+   "t": "<FACE:06>¡Cómo eres de<NL>despreocupado!<WAIT>Esa Rainy será linda,<NL>¡pero me atacó a mí!<WAIT>Fubuki podría ser<NL>cómplice suyo…"
   },
   {
    "key": "script:0055:0FC0",
@@ -224,7 +224,7 @@
   {
    "key": "script:0055:1039",
    "src": "d5f13b522537",
-   "t": "<FACE:1E>Vaya… y siendo tú…<NL>Parece que cometiste<WAIT>un error tremendo"
+   "t": "<FACE:1E>Vaya… y siendo tú…<NL>cometiste un errorazo"
   },
   {
    "key": "script:0055:105E",
@@ -234,7 +234,7 @@
   {
    "key": "script:0055:1069",
    "src": "0e0aa1f4dbf1",
-   "t": "<FACE:1E>¡Este bloque me lo<NL>quedo yo!<WAIT><FACE:1F>Y así, extendiendo mi<NL>poder, quizá le dé un<WAIT>buen susto a mi<NL>hermano mayor"
+   "t": "<FACE:1E>¡Este bloque me lo<NL>quedo yo!<WAIT><FACE:1F>Y extendiendo mi poder<NL>asustaré a mi hermano"
   },
   {
    "key": "script:0055:10AB",
@@ -249,17 +249,17 @@
   {
    "key": "script:0055:1134",
    "src": "65f43372725b",
-   "t": "<FACE:1D>Entonces… ¿el líder<NL>también está con<WAIT>ella?<WAIT><FACE:18>No puede ser…<NL>Qué cruel, líder…"
+   "t": "<FACE:1D>Entonces… ¿el líder<NL>también está en esto?<WAIT><FACE:18>No puede ser…<NL>Qué cruel, líder…"
   },
   {
    "key": "script:0055:1167",
    "src": "e72c2f6ce992",
-   "t": "<FACE:0B>¡Chicos!<NL>Hay que detener a la<WAIT>señorita Rainy…<NL>Tengo que detenerla…<WAIT>¡Por favor!<NL>¡Ayúdenme!"
+   "t": "<FACE:0B>¡Chicos! Hay que parar<NL>a la señorita Rainy…<WAIT>Tengo que detenerla…<NL>¡Por favor, ayúdenme!"
   },
   {
    "key": "script:0055:119C",
    "src": "b93165be1b41",
-   "t": "<FACE:06>Eso dices tú…<NL>¡Ya no me engañas!<WAIT><FACE:06>¡Eres amigo de una<NL>niña que quiere<WAIT>destruir el Cluster!<WAIT>¡Ya no confío en ti!"
+   "t": "<FACE:06>Eso dices tú…<NL>¡Ya no me engañas!<WAIT><FACE:06>¡Esa niña quiere<NL>destruir el Cluster!<WAIT>¡Y tú eres su amigo!<NL>¡Ya no confío en ti!"
   },
   {
    "key": "script:0055:11EE",
@@ -284,7 +284,7 @@
   {
    "key": "script:0055:12B0",
    "src": "04fded2b1b2c",
-   "t": "<FACE:06>Pero la tal Rainy<NL>dijo que va a<WAIT>¡destruir el Cluster!<WAIT><FACE:15>¡Eso, eso!<NL>¡Guardar secretos no<WAIT>es cosa de poco!"
+   "t": "<FACE:06>¡Pero Rainy dice que<NL>destruirá el Cluster!<WAIT><FACE:15>¡Eso, eso! ¡Ocultar<NL>cosas es muy grave!"
   },
   {
    "key": "script:0055:12F7",
@@ -294,7 +294,7 @@
   {
    "key": "script:0055:1305",
    "src": "b083f1139a39",
-   "t": "<FACE:04>Pero… yo también…<NL>Yo también les oculto<WAIT>algo a ustedes…<WAIT><FACE:0A>¡<PLAYER>!"
+   "t": "<FACE:04>Pero… yo también… yo<NL>también oculto algo…<WAIT><FACE:0A>¡<PLAYER>!"
   },
   {
    "key": "script:0055:1337",
@@ -349,7 +349,7 @@
   {
    "key": "script:0055:1490",
    "src": "ee48b4c073bc",
-   "t": "<FACE:05>…Está bien, <PLAYER>…<WAIT><FACE:07>Por lo buenazo que<NL>eres, esta vez te<WAIT>voy a creer"
+   "t": "<FACE:05>…Está bien, <PLAYER>…<WAIT><FACE:07>Por buenazo que eres,<NL>esta vez te creo"
   },
   {
    "key": "script:0055:14BE",
@@ -374,7 +374,7 @@
   {
    "key": "script:0055:1518",
    "src": "376cd1bf4c40",
-   "t": "<FACE:1E>¡Vamos, señores de la<NL>Banda Sperobo!<WAIT>Si ganan esto, quizá<NL>considere entrar en<WAIT>su banda"
+   "t": "<FACE:1E>¡Vamos, señores de la<NL>Banda Sperobo!<WAIT>Si ganan esto, quizá<NL>me una a su banda"
   },
   {
    "key": "script:0055:154B",
@@ -394,7 +394,7 @@
   {
    "key": "script:0055:15B7",
    "src": "3ef94fc8841e",
-   "t": "<FACE:21>¡No quiero!<NL>¡Ya no quiero<WAIT>esperar!"
+   "t": "<FACE:21>¡No quiero!<NL>¡Ya no esperaré más!"
   },
   {
    "key": "script:0055:15CD",

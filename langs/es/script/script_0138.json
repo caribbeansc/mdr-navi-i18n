@@ -4,7 +4,7 @@
   {
    "key": "script:0138:01E7",
    "src": "f0b2501e89d3",
-   "t": "<FACE:72>Vaya, ya me está<NL>saliendo bastante<WAIT>bien<WAIT>¡Qué divertido!<NL>La la la…"
+   "t": "<FACE:72>Vaya, ya me está<NL>saliendo muy bien<WAIT>¡Qué divertido!<NL>La la la…"
   },
   {
    "key": "script:0138:020E",
@@ -34,7 +34,7 @@
   {
    "key": "script:0138:02A3",
    "src": "a5ae0930c93f",
-   "t": "<FACE:71>¡Aaay!<WAIT>No hace falta que lo<NL>rechaces de forma tan<WAIT>descarada, ¿sabes?<WAIT>¡Es una falta de<NL>respeto para una<WAIT>dama!"
+   "t": "<FACE:71>¡Aaay!<WAIT>No hace falta que lo<NL>rechaces así de feo<WAIT>¡Es una falta de<NL>respeto a una dama!"
   },
   {
    "key": "script:0138:02F7",

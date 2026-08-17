@@ -9,7 +9,7 @@
   {
    "key": "script:0058:03C5",
    "src": "b5abff4accae",
-   "t": "<FACE:00>Pero el grupo otaku<NL>ya se había<WAIT>reformado…<WAIT><FACE:00>¿Entonces quién fue?"
+   "t": "<FACE:00>Pero el grupo otaku ya<NL>se había reformado…<WAIT><FACE:00>¿Entonces quién fue?"
   },
   {
    "key": "script:0058:03E7",
@@ -34,12 +34,12 @@
   {
    "key": "script:0058:044B",
    "src": "ac9679d11489",
-   "t": "<FACE:7D>¡Esto no tiene nada<NL>que ver con<WAIT>conquistar<WAIT>el universo-robo!"
+   "t": "<FACE:7D>¡Así no conquistaremos<NL>el universo-robo!"
   },
   {
    "key": "script:0058:046E",
    "src": "11bb4c2b7a7e",
-   "t": "<FACE:7D>No hay remedio-robo…<NL><WAIT>Desde lo del grupo<NL>otaku me volví adicto<WAIT>a las ovaciones-robo"
+   "t": "<FACE:7D>No hay remedio-robo…<NL><WAIT>Desde lo del grupo<NL>otaku…<WAIT>me volví adicto a las<NL>ovaciones-robo"
   },
   {
    "key": "script:0058:04A9",
@@ -84,7 +84,7 @@
   {
    "key": "script:0058:0589",
    "src": "8a5e8197a6d7",
-   "t": "<FACE:14>Si mal no recuerdo,<NL>el grupo otaku estaba<WAIT>en este bloque"
+   "t": "<FACE:14>El grupo otaku estaba<NL>en este bloque, creo"
   }
  ]
 }

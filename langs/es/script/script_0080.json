@@ -9,7 +9,7 @@
   {
    "key": "script:0080:0BDD",
    "src": "36b5f3a2f1dd",
-   "t": "<FACE:7F>¡Todo bien-robo!<WAIT><FACE:31>Peroo… si viene un<NL>jefe, ¿no los<WAIT>regañan?<WAIT>No se preocupen por<NL>Urin, sigan<WAIT>trabajando"
+   "t": "<FACE:7F>¡Todo bien-robo!<WAIT><FACE:31>Peroo… ¿y si viene un<NL>jefe y los regaña?<WAIT>No se preocupen por<NL>Urin, a trabajar"
   },
   {
    "key": "script:0080:0C21",
@@ -49,7 +49,7 @@
   {
    "key": "script:0080:0D04",
    "src": "dbfe1cadde77",
-   "t": "<FACE:32>Ay, ya no aguanto…<NL>Con un chico guapo,<WAIT>ya<WAIT>pero ¿por qué hacerme<NL>la linda con bichos…"
+   "t": "<FACE:32>Ay, ya no aguanto…<NL>Un chico guapo, vaya<WAIT>pero ¿por qué hacerme<NL>la linda con bichos…"
   },
   {
    "key": "script:0080:0D4C",
@@ -104,7 +104,7 @@
   {
    "key": "script:0080:0E25",
    "src": "a5390c1e3365",
-   "t": "<FACE:7F>Nuestro jefe Smog<NL>es de salud<WAIT>débil-robo"
+   "t": "<FACE:7F>Nuestro jefe Smog es<NL>de salud débil-robo"
   },
   {
    "key": "script:0080:0E45",
@@ -329,7 +329,7 @@
   {
    "key": "script:0080:1322",
    "src": "1785c02a17cc",
-   "t": "<FACE:08>¡¡Oye!! …Urin…<WAIT><FACE:06><PLAYER> se está<NL>ahogando, ¡¿no<WAIT>crees?!"
+   "t": "<FACE:08>¡¡Oye!! …Urin…<WAIT><FACE:06><PLAYER> se está<NL>ahogando, ¡¿no ves?!"
   },
   {
    "key": "script:0080:1351",

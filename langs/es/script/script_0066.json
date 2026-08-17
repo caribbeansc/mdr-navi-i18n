@@ -74,7 +74,7 @@
   {
    "key": "script:0066:0ED5",
    "src": "846cc761e6a7",
-   "t": "<FACE:02>Ya, ya, Hiyori…<NL>oigámoslo hasta el<WAIT>fin"
+   "t": "<FACE:02>Ya, ya, Hiyori…<NL>escuchémoslo todo"
   },
   {
    "key": "script:0066:0EF6",
@@ -89,7 +89,7 @@
   {
    "key": "script:0066:0F6D",
    "src": "9f7a858d1207",
-   "t": "<FACE:69>Tomar una estación<NL>como el Cluster,<WAIT>traerla a la fuerza al<NL>cinturón de<WAIT>asteroides<WAIT>Y entonces…"
+   "t": "<FACE:69>Tomar una estación<NL>como el Cluster,<WAIT>y traerla a la fuerza<NL>hasta los asteroides…<WAIT>Y entonces…"
   },
   {
    "key": "script:0066:0FB2",
@@ -154,7 +154,7 @@
   {
    "key": "script:0066:1198",
    "src": "ff350d4b4f0b",
-   "t": "<FACE:02>¡Ah, Niwaka!<WAIT>El Cluster está a<NL>salvo. ¡Te<WAIT>esforzaste!"
+   "t": "<FACE:02>¡Ah, Niwaka!<WAIT>El Cluster está a<NL>salvo<WAIT>¡Tú también te<NL>esforzaste!"
   },
   {
    "key": "script:0066:11C5",
@@ -234,7 +234,7 @@
   {
    "key": "script:0066:147F",
    "src": "cb7b37a5b82f",
-   "t": "<FACE:01>¡Aquí es peligroso!<WAIT>Volvamos a la sala de<NL>control, la más<WAIT>lejana<WAIT>¡Reúnan ahí a toda<NL>la clase!<WAIT><FACE:10>Sí, esto se mete en<NL>la red cada vez más<WAIT>¡Cortemos los cables<NL>y protejamos a Navi!"
+   "t": "<FACE:01>¡Aquí es peligroso!<WAIT>Volvamos a la sala de<NL>control más lejana<WAIT>¡Reúnan ahí a toda<NL>la clase!<WAIT><FACE:10>Sí, esto se mete en<NL>la red cada vez más<WAIT>¡Cortemos los cables<NL>y protejamos a Navi!"
   },
   {
    "key": "script:0066:1503",

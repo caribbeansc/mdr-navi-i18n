@@ -9,12 +9,12 @@
   {
    "key": "script:0013:03D8",
    "src": "9b13d0d2efbf",
-   "t": "<FACE:7D>¡No es así-robo!<NL>¡Al fin nos<WAIT>toca-robo!"
+   "t": "<FACE:7D>¡No es así-robo! ¡Al<NL>fin nos toca-robo!"
   },
   {
    "key": "script:0013:03F4",
    "src": "3902f96fe854",
-   "t": "<FACE:7D>¿En serio-robo?<WAIT>Sí-robo, robobatallar<NL>no conquista el<WAIT>cosmos<WAIT>¡Que robobatallen los<NL>fuertes-robo!"
+   "t": "<FACE:7D>¿En serio-robo?<WAIT>Sí-robo, robobatallar<NL>no nos dará el cosmos<WAIT>¡Que robobatallen los<NL>fuertes-robo!"
   },
   {
    "key": "script:0013:043F",
@@ -39,12 +39,12 @@
   {
    "key": "script:0013:04E1",
    "src": "3ddf5cdea52b",
-   "t": "<FACE:7D>¡Y lo peor-robo:<NL>nos quedamos sin<WAIT>casa!"
+   "t": "<FACE:7D>¡Y lo peor-robo: nos<NL>quedamos sin casa!"
   },
   {
    "key": "script:0013:04FD",
    "src": "a531f6200cdb",
-   "t": "<FACE:7D>¡Eso jamás-robo!<NL>¡Lo<WAIT>defenderemos-robo!"
+   "t": "<FACE:7D>¡Eso jamás-robo! ¡Lo<NL>defenderemos-robo!"
   },
   {
    "key": "script:0013:051B",

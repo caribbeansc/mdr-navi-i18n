@@ -24,7 +24,7 @@
   {
    "key": "script:0077:09B2",
    "src": "8cdce14b0cd8",
-   "t": "<FACE:10>¡Cortamos la red y van<NL>directo a cada<WAIT>bloque!"
+   "t": "<FACE:10>¡Cortamos la red y van<NL>directo a cada uno!"
   },
   {
    "key": "script:0077:09E0",
@@ -39,7 +39,7 @@
   {
    "key": "script:0077:0A2F",
    "src": "294429131431",
-   "t": "<FACE:08>¡¿Queeeeé?!<WAIT>¿Nos quedaremos así<NL>para siempre<WAIT>entonces?"
+   "t": "<FACE:08>¡¿Queeeeé?!<NL><WAIT>¿Entonces nos quedamos<NL>así para siempre?"
   },
   {
    "key": "script:0077:0A57",
@@ -59,7 +59,7 @@
   {
    "key": "script:0077:0AC7",
    "src": "632bffddf571",
-   "t": "<FACE:01>No hay de otra:<NL>¡vamos por Mistral!<WAIT><FACE:00>Si logramos detenerlo,<NL>seguro se calma todo<WAIT><FACE:0F>Cierto…<WAIT>Puede que sea mejor<NL>que quedarnos<WAIT>quietos…"
+   "t": "<FACE:01>No hay de otra:<NL>¡vamos por Mistral!<WAIT><FACE:00>Si logramos detenerlo,<NL>seguro se calma todo<WAIT><FACE:0F>Cierto…<NL><WAIT>Mejor eso que quedarse<NL>de brazos cruzados…"
   },
   {
    "key": "script:0077:0B2B",
@@ -119,7 +119,7 @@
   {
    "key": "script:0077:0D58",
    "src": "af6e34157234",
-   "t": "<FACE:00>¿O sea que el programa<NL>que protege a los<WAIT>humanos nos está<NL>empujando al peligro?"
+   "t": "<FACE:00>¿El programa protector<NL>nos pone en peligro?"
   },
   {
    "key": "script:0077:0D86",
@@ -154,7 +154,7 @@
   {
    "key": "script:0077:0E82",
    "src": "44f2f8a99461",
-   "t": "<FACE:53>Eso no puedo<NL>predecirlo…<WAIT>Nuestra situación no<NL>admite análisis<WAIT>alguno<WAIT>y faltan por completo<NL>datos para predecir.<WAIT><FACE:11>Sobre la situación del<NL>Cluster…<WAIT>¡Una sola cosa tiene<NL>que ser segura!<WAIT>¡¡Navi!!"
+   "t": "<FACE:53>Eso no puedo<NL>predecirlo…<WAIT>Ningún análisis sirve<NL>para esta situación<WAIT>y faltan por completo<NL>datos para predecir.<WAIT><FACE:11>Sobre la situación del<NL>Cluster…<WAIT>¡Una sola cosa tiene<NL>que ser segura!<WAIT>¡¡Navi!!"
   },
   {
    "key": "script:0077:0F03",
@@ -199,7 +199,7 @@
   {
    "key": "script:0077:0FE8",
    "src": "0af28175684b",
-   "t": "<FACE:03>¡Dice que así, en unos<NL>3 días, todo se<WAIT>apaga!"
+   "t": "<FACE:03>¡Dice que así, en unos<NL>3 días se apaga todo!"
   },
   {
    "key": "script:0077:100D",
@@ -219,17 +219,17 @@
   {
    "key": "script:0077:1135",
    "src": "a000742af49c",
-   "t": "<FACE:00>¡Pero no es cero!<WAIT>¡Si no es cero, vale<NL>la pena intentarlo!<WAIT>¡Yo quiero ver lo que<NL>hay afuera!<WAIT>¡Aunque haya peligro,<NL>no me quedo sin<WAIT>saber!<WAIT><FACE:01>Si no hago lo que<NL>puedo y pasa algo…<WAIT>¡seguro me arrepiento!<WAIT>¡Y eso sí que no!"
+   "t": "<FACE:00>¡Pero no es cero!<WAIT>¡Si no es cero, vale<NL>la pena intentarlo!<WAIT>¡Yo quiero ver lo que<NL>hay afuera!<WAIT>¡Aunque haya peligro,<NL>no soporto no saber!<WAIT><FACE:01>Si no hago lo que<NL>puedo y pasa algo…<WAIT>¡seguro me arrepiento!<WAIT>¡Y eso sí que no!"
   },
   {
    "key": "script:0077:11CA",
    "src": "7b6ad25441bc",
-   "t": "<FACE:53>¡Yo también quisiera<NL>probar a sobrevivir!<WAIT>¡Pero no puedo violar<NL>una prohibición<WAIT>total!<WAIT>Enviar humanos a una<NL>situación<WAIT>desconocida…"
+   "t": "<FACE:53>¡Yo también quisiera<NL>probar a sobrevivir!<WAIT>¡Pero no puedo violar<NL>una regla absoluta!<WAIT>Enviar humanos a lo<NL>desconocido es…"
   },
   {
    "key": "script:0077:122F",
    "src": "3a1be56b93f3",
-   "t": "<FACE:01>¡Justo porque no se<NL>sabe quiero verlo!<WAIT>Si solo dices «qué<NL>raro», ¡raro seguirá!<WAIT>¡Hay que lanzarse<NL>aunque duela!<WAIT>Quedarme mirando en<NL>silencio…<WAIT>y esperar el final sin<NL>hacer nada, ¡no<WAIT>puedo!"
+   "t": "<FACE:01>¡Justo porque no se<NL>sabe quiero verlo!<WAIT>Si solo dices «qué<NL>raro», ¡raro seguirá!<WAIT>¡Hay que lanzarse<NL>aunque duela!<WAIT>Quedarme mirando en<NL>silencio…<WAIT>y esperar sin hacer<NL>nada… ¡no puedo!"
   },
   {
    "key": "script:0077:129A",
@@ -244,7 +244,7 @@
   {
    "key": "script:0077:1371",
    "src": "e06ad4928f78",
-   "t": "<FACE:53>Envidio al ser humano,<NL>que no deja de<WAIT>cambiar<WAIT>Pero usted es humano:<NL>¿por qué no cambia?"
+   "t": "<FACE:53>Envidio al ser humano,<NL>que siempre cambia<WAIT>Pero usted es humano:<NL>¿por qué no cambia?"
   },
   {
    "key": "script:0077:13C2",
@@ -274,7 +274,7 @@
   {
    "key": "script:0077:1499",
    "src": "cd7e498520a2",
-   "t": "<FACE:03>¡¿Acompañarnos?!<WAIT><FACE:53>Bueno, yo…<WAIT>Los acompañará un<NL>Medabot que yo<WAIT>manejo.<WAIT>A través de él me<NL>comunicaré con<WAIT>ustedes<WAIT><FACE:00>¿Un Medabot?"
+   "t": "<FACE:03>¡¿Acompañarnos?!<WAIT><FACE:53>Bueno, yo…<NL><WAIT>Los acompañará un<NL>Medabot que yo manejo<WAIT>A través de él hablaré<NL>con ustedes<WAIT><FACE:00>¿Un Medabot?"
   },
   {
    "key": "script:0077:14FE",
@@ -294,12 +294,12 @@
   {
    "key": "script:0077:15B4",
    "src": "56cffb9edfdf",
-   "t": "<FACE:53>La verdad, el corazón<NL>humano me intrigaba…<WAIT>En secreto intentaba<NL>comprender el corazón<WAIT>humano, y seguí<NL>investigando…<WAIT>Sobre todo el Medabot,<NL>que atrapa el corazón<WAIT>de los niños y no lo<NL>suelta…<WAIT>Es máquina igual que<NL>yo: ¿por qué difiere?<WAIT>Quise resolver ese<NL>enigma…"
+   "t": "<FACE:53>La verdad, el corazón<NL>humano me intrigaba…<WAIT>En secreto intentaba<NL>comprenderlo…<WAIT>y seguí investigando…<WAIT>Sobre todo el Medabot<NL>que atrapa corazones…<WAIT>Es máquina igual que<NL>yo: ¿por qué difiere?<WAIT>Quise resolver ese<NL>enigma…"
   },
   {
    "key": "script:0077:1666",
    "src": "1cbebb14df97",
-   "t": "<FACE:05>¿O sea que te hiciste<NL>un Medabot enlazado?<WAIT><FACE:53>Así es…<WAIT>Pero no encontraba el<NL>motivo para<WAIT>activarlo…<WAIT>Salvo que llegara una<NL>ocasión como esta…"
+   "t": "<FACE:05>¿O sea que te hiciste<NL>un Medabot enlazado?<WAIT><FACE:53>Así es…<NL><WAIT>Pero nunca encontré el<NL>modo de activarlo…<WAIT>Salvo que llegara una<NL>ocasión como esta…"
   },
   {
    "key": "script:0077:16D7",

@@ -9,7 +9,7 @@
   {
    "key": "script:0052:0735",
    "src": "25a4857f4412",
-   "t": "<FACE:75>Cof… Los entretuvimos<NL>peleando uno por uno<WAIT>y mientras tanto le<NL>quitamos al Cluster<WAIT>sus propulsores…<NL>¡Nunca lo<WAIT>recuperarán!"
+   "t": "<FACE:75>Cof… Mientras peleaban<NL>uno por uno…<WAIT>le quitamos al Cluster<NL>sus propulsores…<WAIT>¡Ese era el plan: no<NL>lo recuperarán jamás!"
   },
   {
    "key": "script:0052:0787",
@@ -24,7 +24,7 @@
   {
    "key": "script:0052:07DB",
    "src": "ed752b7f0ca9",
-   "t": "<FACE:71>¡¿Pero qué dices?!<NL>¡Mi bloque fue el que<WAIT>más tiempo les quitó!"
+   "t": "<FACE:71>¡¿Pero qué dices?! ¡Mi<NL>bloque los frenó más!"
   },
   {
    "key": "script:0052:0805",
@@ -34,7 +34,7 @@
   {
    "key": "script:0052:081E",
    "src": "644924edf409",
-   "t": "<FACE:6C>Gu ju ju… Kirika<NL>tiene razón:<WAIT>¡los cinco jefes<NL>seremos sus rivales!<WAIT>Querrán liberar el<NL>brazo y lanzar el<WAIT>Cluster… ¡pero hasta<NL>aquí llegaron!<WAIT>¡El brazo no se puede<NL>liberar!!"
+   "t": "<FACE:6C>Gu ju ju… Kirika<NL>tiene razón:<WAIT>¡los cinco jefes<NL>seremos sus rivales!<WAIT>Querrán liberar el<NL>brazo y despegar…<WAIT>¡pero hasta aquí<NL>llegaron!<WAIT>¡El brazo no se puede<NL>liberar!!"
   },
   {
    "key": "script:0052:089C",
@@ -54,7 +54,7 @@
   {
    "key": "script:0052:096F",
    "src": "6770e65ec6db",
-   "t": "<FACE:78>¡Iiih! ¡Se… señor<NL>líder! Cof…<WAIT><FACE:75>¡Eso no, por favor!<NL>¡Si me hace eso, mi<WAIT>salud se resiente<NL>muchísimo…<WAIT><FACE:59>¡Eeeeeeeh!<NL>¡¡Silencio!!"
+   "t": "<FACE:78>¡Iiih! ¡Se… señor<NL>líder! Cof…<WAIT><FACE:75>¡Eso no, por favor!<NL>¡Me arruina la salud…<WAIT><FACE:59>¡Eeeeeeeh!<NL>¡¡Silencio!!"
   },
   {
    "key": "script:0052:09C4",
@@ -69,12 +69,12 @@
   {
    "key": "script:0052:09EA",
    "src": "684720748550",
-   "t": "<FACE:0F>Sí… Al parecer estas<NL><WAIT>cápsulas son cámaras<NL>de criosueño para<WAIT>viajes interestelares<WAIT>Parecen ser seguras…"
+   "t": "<FACE:0F>Ah… Por lo visto estas<NL>cápsulas…<WAIT>son de criosueño, para<NL>viajes espaciales<WAIT>Parecen ser seguras…"
   },
   {
    "key": "script:0052:0A32",
    "src": "915f55c7823d",
-   "t": "<FACE:02>Qué alivio… Serán<NL>jefes de una banda<WAIT>malvada, pero tan<NL>malos no son<WAIT><FACE:07>Je je… <PLAYER>,<NL>siempre tan bonachón"
+   "t": "<FACE:02>Qué alivio… Son jefes<NL>de una banda malvada…<WAIT>pero tan malos no son<WAIT><FACE:07>Je je… <PLAYER>,<NL>siempre tan bonachón"
   },
   {
    "key": "script:0052:0A7A",
@@ -84,7 +84,7 @@
   {
    "key": "script:0052:0AC4",
    "src": "c16babdcb8d1",
-   "t": "<FACE:01>Da igual: lo nuestro<NL>es liberar el Cluster<WAIT><FACE:15>¡Eso, eso! ¡Los<NL>personajes nuevos<WAIT>solo<WAIT>enredan la historia!<WAIT><FACE:1A>¡Ignorarlo y seguir<NL>de largo, digo yo!"
+   "t": "<FACE:01>Da igual: lo nuestro<NL>es liberar el Cluster<WAIT><FACE:15>¡Eso, eso! Los nuevos<NL>solo enredan la trama<WAIT><FACE:1A>¡Ignorarlo y seguir<NL>de largo, digo yo!"
   },
   {
    "key": "script:0052:0B33",
@@ -94,7 +94,7 @@
   {
    "key": "script:0052:0B63",
    "src": "2077fe2d1b1b",
-   "t": "<FACE:59>¡Fu ja ja ja ja!<NL>¡He anulado los<WAIT>mandos<WAIT>de esa sala!<NL>¡¿Qué tal, eh?!<WAIT>"
+   "t": "<FACE:59>¡Fu ja ja ja ja!<NL>¡Anulé esos mandos!<WAIT>¡¿Qué tal, eh?!<WAIT>"
   },
   {
    "key": "script:0052:0B90",
