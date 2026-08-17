@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0006",
+ "entries": [
+  {
+   "key": "script:0006:0286",
+   "src": "34e81627b3ee",
+   "t": "<FACE:7D>Why call us out-robo?<NL><WAIT>Can't be helped-robo<NL>everyone's busy-robo"
+  },
+  {
+   "key": "script:0006:02B6",
+   "src": "fa1bebcd0104",
+   "t": "<FACE:7D>So it's just our turn<NL>by chance-robo?"
+  },
+  {
+   "key": "script:0006:02CE",
+   "src": "674a931847ba",
+   "t": "<FACE:7E>Wrong-robo! We're here<NL>so the rest can work"
+  },
+  {
+   "key": "script:0006:02F7",
+   "src": "8858f0736114",
+   "t": "<FACE:7D>So we're the big<NL>heroes-robo?"
+  },
+  {
+   "key": "script:0006:030C",
+   "src": "cccdfdeb9ed7",
+   "t": "<FACE:7D>That's right-robo!"
+  },
+  {
+   "key": "script:0006:0314",
+   "src": "aed66c857be7",
+   "t": "<FACE:80>Will we get<NL>promoted-robo?"
+  },
+  {
+   "key": "script:0006:0321",
+   "src": "00f3fab0d9fb",
+   "t": "<FACE:7F>We sure will-robo!"
+  },
+  {
+   "key": "script:0006:032A",
+   "src": "bca1827b5c00",
+   "t": "<FACE:00>Huh? Again?"
+  },
+  {
+   "key": "script:0006:0334",
+   "src": "099d62b11bf8",
+   "t": "<FACE:7D>Look-robo!<NL>He's alone now-robo!<WAIT><FACE:7E>Our ticket to a<NL>promotion-robo!"
+  },
+  {
+   "key": "script:0006:035B",
+   "src": "c6608ae0b3ea",
+   "t": "<FACE:7D>That's cheating-robo!<NL><WAIT>Nobody said there were<NL>five of you-robo"
+  },
+  {
+   "key": "script:0006:037A",
+   "src": "a13114c0f615",
+   "t": "<FACE:7D>This time for sure<NL>a big Block-robo!"
+  },
+  {
+   "key": "script:0006:0398",
+   "src": "bc484726b4bc",
+   "t": "<FACE:7D>I doubt it-robo…"
+  }
+ ]
+}

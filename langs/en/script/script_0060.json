@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0060",
+ "entries": [
+  {
+   "key": "script:0060:03C4",
+   "src": "bb7abce24e98",
+   "t": "<FACE:66>Haaands up!<NL>Robattle me!"
+  },
+  {
+   "key": "script:0060:03DC",
+   "src": "b6205e6b41c4",
+   "t": "<FACE:03>Ah, it's you!?<WAIT><FACE:03>Did you lose again?<NL>"
+  },
+  {
+   "key": "script:0060:03F7",
+   "src": "eef3a38aa15f",
+   "t": "<FACE:66>Hey, it's <PLAYER>!<NL>Saw me at a bad time!"
+  },
+  {
+   "key": "script:0060:041B",
+   "src": "80b124d64505",
+   "t": "<FACE:05>Looks like they took<NL>his right arm again<WAIT><FACE:05><PLAYER>, let's get his<NL>right arm back too!"
+  },
+  {
+   "key": "script:0060:0454",
+   "src": "db05b7216b6d",
+   "t": "<FACE:01>You guys! Back in the<NL>office? Never learn!"
+  },
+  {
+   "key": "script:0060:0475",
+   "src": "2d4b750dc534",
+   "t": "<FACE:7A>Fools!<NL><WAIT><FACE:7B>The ruler of this West<NL>Block should be ME!"
+  },
+  {
+   "key": "script:0060:04AB",
+   "src": "13d271c2f957",
+   "t": "<FACE:7A>Tch! And here I was<NL>playing gunslinger…"
+  },
+  {
+   "key": "script:0060:04C8",
+   "src": "27e1fbcfa12b",
+   "t": "<FACE:7A>I'll be taking it<NL>back again!<NL>"
+  },
+  {
+   "key": "script:0060:04D8",
+   "src": "9e1b669956a1",
+   "t": "<FACE:00>Hurry, let's take it<NL>back"
+  },
+  {
+   "key": "script:0060:04E6",
+   "src": "d6acf399ffde",
+   "t": "<FACE:05>Hurry up, let's go"
+  },
+  {
+   "key": "script:0060:04F5",
+   "src": "fb8f7164e1ad",
+   "t": "<FACE:0A>Nothing here at all…<NL>How boring"
+  },
+  {
+   "key": "script:0060:0508",
+   "src": "7dea32a1992b",
+   "t": "<FACE:19>They took it back from<NL>us again, huh<WAIT><FACE:14>The Sperobos sure keep<NL>at it"
+  }
+ ]
+}

@@ -828,7 +828,17 @@
   "3758c93372d7": "Flojos",
   "b5e378d85e1c": "Prof. Z",
   "2f30ec0749c4": "Malabots",
-  "e39a06ecbbdd": "Kabutos"
+  "e39a06ecbbdd": "Kabutos",
+  "e86a6462c571": "Duckbill",
+  "afe8738cae94": "Bahamut",
+  "5feaf55d3f76": "KaisrBtl",
+  "ec0f2eb18e39": "Somrsalt",
+  "563ab2aed3e4": "Millpede",
+  "a72d74125068": "NutCrckr",
+  "cc176d06593d": "IslCroco",
+  "4d37e884244b": "CameStag",
+  "b39f4c91d33b": "M.Kuwaga",
+  "14d15d0140d2": "Kuwagats"
  },
  "team_names_notes": {
   "68d1259ce970": "スペロボだんいん = Sperobo gang member; the gang name alone, per GLOSSARY 'Banda Sperobo / los Sperobo'.",
@@ -918,7 +928,17 @@
   "3758c93372d7": "ダルダルだん = the slack gang; short Spanish.",
   "b5e378d85e1c": "Zぐみのせんせい = the teacher of class Z.",
   "2f30ec0749c4": "ダメロットぶ is ダメ + メダロット; mirrored as malo + bots.",
-  "e39a06ecbbdd": "カブトしてい = the Kabuto master-and-pupil pair; the plural carries the pairing in 8 chars."
+  "e39a06ecbbdd": "カブトしてい = the Kabuto master-and-pupil pair; the plural carries the pairing in 8 chars.",
+  "e86a6462c571": "ダックビル; the model name straight, it fits whole.",
+  "afe8738cae94": "バハムート, the dragon; the name is already Latin in the West.",
+  "5feaf55d3f76": "カイゼルビートル 'Kaiser Beetle'; Beetle clipped as in AnzudBtl.",
+  "ec0f2eb18e39": "サマーソルト 'Somersault', vowels dropped to reach eight.",
+  "563ab2aed3e4": "ミリペイド 'Millipede', one syllable clipped.",
+  "a72d74125068": "ナッツクラッカー 'Nutcracker', vowels dropped as in the rest of the table.",
+  "cc176d06593d": "アイランドクロコ 'Island Croco'; the modifier is abbreviated so the line name stays whole.",
+  "4d37e884244b": "カメオスタッグ 'Cameo Stag'; Stag whole, as in PupaStag.",
+  "b39f4c91d33b": "マスクドクワガタ 'Masked Kuwagata'; abbreviated exactly like M.Kabuto.",
+  "14d15d0140d2": "クワガタしてい = the Kuwagata master-and-pupil pair, the Kabuto release's カブトしてい under its own line; the plural carries the pairing, clipped to eight."
  },
  "sheets": [
   {

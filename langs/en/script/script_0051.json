@@ -1,0 +1,75 @@
+{
+ "part": "script/script_0051",
+ "entries": [
+  {
+   "key": "script:0051:0817",
+   "src": "e43d226f6ff9",
+   "t": "<FACE:73>…it's not working…"
+  },
+  {
+   "key": "script:0051:0822",
+   "src": "f07fb4ff9128",
+   "t": "<FACE:01>Kirika! That one's<NL>strong! Come with us…"
+  },
+  {
+   "key": "script:0051:0846",
+   "src": "8127147229ef",
+   "t": "<FACE:74>…heh heh… my fortune<NL>said… alone… fine…"
+  },
+  {
+   "key": "script:0051:086A",
+   "src": "49dff76a533b",
+   "t": "<FACE:73>My crystal ball has<NL>gone black?? No fate?"
+  },
+  {
+   "key": "script:0051:0889",
+   "src": "6005de21c60c",
+   "t": "<FACE:73>…is this fate too…?"
+  },
+  {
+   "key": "script:0051:0899",
+   "src": "8a6a314dce78",
+   "t": "<FACE:01>Don't give up!"
+  },
+  {
+   "key": "script:0051:08A7",
+   "src": "52312bf6e1c7",
+   "t": "<FACE:73>…<PLAYER>…<NL><WAIT>…so you really are…<NL>…the one of destiny…"
+  },
+  {
+   "key": "script:0051:08C2",
+   "src": "2a08185880dd",
+   "t": "<FACE:05>Yeah, yeah, fine!<NL>Enough talk, come on!"
+  },
+  {
+   "key": "script:0051:08E5",
+   "src": "81f5ed7d8e7d",
+   "t": "<FACE:00>What's up ahead?"
+  },
+  {
+   "key": "script:0051:08EE",
+   "src": "3e1e6dba8734",
+   "t": "<FACE:73>…Raiun…<NL>…I hate him…<WAIT><FACE:70>Yes, yes… even among<NL>the Bosses he's hated"
+  },
+  {
+   "key": "script:0051:091E",
+   "src": "78dd3a96d9f7",
+   "t": "<FACE:00>We have to hurry on"
+  },
+  {
+   "key": "script:0051:092F",
+   "src": "ea4f373b54fc",
+   "t": "<FACE:73>Kirika joined the<NL>team!"
+  },
+  {
+   "key": "script:0051:0940",
+   "src": "eca028b1d35b",
+   "t": "<FACE:04>What sort of aliens<NL>built this spaceship?<WAIT>Me, I'd love to meet<NL>them right away…"
+  },
+  {
+   "key": "script:0051:0995",
+   "src": "03f2865ff168",
+   "t": "<FACE:01>Could it be…?"
+  }
+ ]
+}

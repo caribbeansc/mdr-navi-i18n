@@ -1,0 +1,230 @@
+{
+ "part": "script/script_0033",
+ "entries": [
+  {
+   "key": "script:0033:0B6C",
+   "src": "792889086760",
+   "t": "<FACE:03>Never seen a Medabot<NL>like it… beetle type?<WAIT>But… it's nothing like<NL>anything I've seen!"
+  },
+  {
+   "key": "script:0033:0BDB",
+   "src": "92e2a43b88dc",
+   "t": "<FACE:11>That «Grand Beetle» is<NL>our RR Company's best<WAIT>It's still just a<NL>prototype, though<WAIT><FACE:03>Wow, amazing<NL><WAIT>To think I get to see<NL>a Medabot like that"
+  },
+  {
+   "key": "script:0033:0C88",
+   "src": "f696a7fec1b2",
+   "t": "<FACE:04>…Huh?"
+  },
+  {
+   "key": "script:0033:0C90",
+   "src": "98454654db0d",
+   "t": "<FACE:04>Shiden, did you say<NL>«our RR Company»…?"
+  },
+  {
+   "key": "script:0033:0CA7",
+   "src": "b7d6f4c925c7",
+   "t": "<FACE:0F>Did I say that?<NL>Do pay it no mind"
+  },
+  {
+   "key": "script:0033:0CC8",
+   "src": "9fdd74a1c430",
+   "t": "<FACE:0F>…Anyway<NL><WAIT>I showed it to you for<NL>one reason only<WAIT>You've been chosen to<NL>test that prototype"
+  },
+  {
+   "key": "script:0033:0D09",
+   "src": "39ef87e6508a",
+   "t": "<FACE:02>R-really!?"
+  },
+  {
+   "key": "script:0033:0D15",
+   "src": "313bf2fb2b28",
+   "t": "<FACE:11>Of course it is<NL><WAIT>RR was after a tester<NL>among Medafighters<WAIT>You and I met by a<NL>wonderful chance<WAIT>But I won't let it end<NL>as mere chance<WAIT>So I recommended you<NL>myself"
+  },
+  {
+   "key": "script:0033:0DA2",
+   "src": "22e446fc7db2",
+   "t": "<FACE:00>(With this Medabot…)<WAIT>(Maybe even I could<NL>climb the rankings)<WAIT>(And then maybe Hiyori<NL>wouldn't mock me)"
+  },
+  {
+   "key": "script:0033:0DF8",
+   "src": "0e21125641dd",
+   "t": "<FACE:04>…Huh?<NL><WAIT>Come to think of it,<NL>where'd Hiyori go?"
+  },
+  {
+   "key": "script:0033:0E1A",
+   "src": "73ec65df49a9",
+   "t": "<FACE:03>What the?<NL>What's going on!?"
+  },
+  {
+   "key": "script:0033:0E2D",
+   "src": "41d78d6eb87e",
+   "t": "<FACE:0F>No need to panic,<NL><PLAYER>…<WAIT>We have plenty of<NL>time"
+  },
+  {
+   "key": "script:0033:0E4F",
+   "src": "d1d315660290",
+   "t": "<FACE:01>Wha…! Shiden,<NL>where are you?"
+  },
+  {
+   "key": "script:0033:0E63",
+   "src": "a9e3e3653962",
+   "t": "<FACE:0F>I want to make a deal…<NL>My side of it is<WAIT>that «Grand Beetle»"
+  },
+  {
+   "key": "script:0033:0ECC",
+   "src": "ecb27c8f94f1",
+   "t": "<FACE:03>What are you talking<NL>about, Shiden!?<WAIT><FACE:0F>Your side is what<NL>happened in the cave…"
+  },
+  {
+   "key": "script:0033:0F03",
+   "src": "91c6840841a8",
+   "t": "<FACE:04>(I knew it…)<NL><WAIT>(He means the Medal I<NL>found in that cave…?)"
+  },
+  {
+   "key": "script:0033:0F2B",
+   "src": "eba4123969b9",
+   "t": "<FACE:10>Now talk!<NL><WAIT>What did you hear from<NL>that Medabot!<WAIT>Just what was it that<NL>you heard!?"
+  },
+  {
+   "key": "script:0033:0F62",
+   "src": "3e5939850d45",
+   "t": "<FACE:01>What do you mean!<NL><WAIT>I don't get a word<NL>you're saying!!<WAIT>Locking me up in here…<NL>what are you after!?<WAIT><FACE:10>Play dumb all you like<NL>I already know<WAIT>That word only you<NL>heard… «Mistral»…<WAIT>A word I could not<NL>hear myself…<WAIT>You'll tell me it all<NL>"
+  },
+  {
+   "key": "script:0033:0FFE",
+   "src": "3a5aeb9f8fff",
+   "t": "<FACE:0F>Now! The first test<NL>of the prototype!<WAIT>I'll have my fun until<NL>you confess it all"
+  },
+  {
+   "key": "script:0033:1033",
+   "src": "52d44ec729f3",
+   "t": "<FACE:04>(My Medal…<NL>they still have it!)<WAIT>(What do I do…?)<WAIT><FACE:0F>Hahaha! Do hurry<NL>Those are custom-made<WAIT>They see any intruder<NL>as an enemy now<WAIT>I adjusted their «3<NL>Laws of Medabots»"
+  },
+  {
+   "key": "script:0033:10B3",
+   "src": "908333b30846",
+   "t": "<FACE:04>(All I've got is the<NL>one from that cave…)"
+  },
+  {
+   "key": "script:0033:10D4",
+   "src": "ca3bf277af0f",
+   "t": "<FACE:01>(…I have to use this)"
+  },
+  {
+   "key": "script:0033:10E6",
+   "src": "66de311857eb",
+   "t": "<FACE:01>Go get 'em!<NL><MEDABOT>!!"
+  },
+  {
+   "key": "script:0033:10F3",
+   "src": "96aff4d90df5",
+   "t": "<FACE:03>(Amazing…)<NL><WAIT>(So this is<NL><MEDABOT>'s power…)"
+  },
+  {
+   "key": "script:0033:110D",
+   "src": "e0f3e6d341cd",
+   "t": "<FACE:12>Why!?<NL><WAIT>Why is it you…<NL>and not me…?"
+  },
+  {
+   "key": "script:0033:1129",
+   "src": "cb35ec6f4301",
+   "t": "<FACE:04>(Shiden…?)"
+  },
+  {
+   "key": "script:0033:1135",
+   "src": "d76e15767e28",
+   "t": "<FACE:0F>Well, never mind…<NL><WAIT>I'll get your secret<NL>out of you for sure<WAIT>And it doubles as the<NL>prototype test…<WAIT>By the time I get back<NL>you'll be obedient…"
+  },
+  {
+   "key": "script:0033:1193",
+   "src": "24ac0d3f5246",
+   "t": "<FACE:01>W-wait, Shiden!<WAIT><FACE:11>Do your best"
+  },
+  {
+   "key": "script:0033:11AF",
+   "src": "f10ad197dbfa",
+   "t": "<FACE:06>Where did you hide<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0033:11BF",
+   "src": "a5b44359e507",
+   "t": "<FACE:06>Hey! Hold it, you!"
+  },
+  {
+   "key": "script:0033:11CE",
+   "src": "a9f22c439b57",
+   "t": "<FACE:06>Answer me!"
+  },
+  {
+   "key": "script:0033:11D9",
+   "src": "d02a73d2de0f",
+   "t": "<FACE:08>Wh-what did you do!!<WAIT><FACE:12>Impossible…!<NL><WAIT>This can't be<NL>happening!!"
+  },
+  {
+   "key": "script:0033:120D",
+   "src": "5a871290afc8",
+   "t": "<FACE:01>(I can't take on all<NL>of them at once!)<WAIT>(No matter how strong<NL>this one is…!)"
+  },
+  {
+   "key": "script:0033:1244",
+   "src": "16ad3f7babb5",
+   "t": "<FACE:59>(Over here)<NL>"
+  },
+  {
+   "key": "script:0033:124F",
+   "src": "2912117ab34a",
+   "t": "<FACE:59>(Here, over here)"
+  },
+  {
+   "key": "script:0033:125B",
+   "src": "1e5c68efa971",
+   "t": "<FACE:04>…Nothing to do but<NL>try it"
+  },
+  {
+   "key": "script:0033:126B",
+   "src": "35dcf0712782",
+   "t": "<FACE:01><MEDABOT>!<NL>Aim for that spot!<WAIT>It's the only way out<NL>for us!"
+  },
+  {
+   "key": "script:0033:1293",
+   "src": "f17a41f0f935",
+   "t": "<FACE:03>(Is this…<NL>the Medaforce!?)"
+  },
+  {
+   "key": "script:0033:12A6",
+   "src": "98b7dc96cc48",
+   "t": "<FACE:0F>(Heh heh heh…)<NL><WAIT>(That should keep him<NL>in there a while…)"
+  },
+  {
+   "key": "script:0033:12CC",
+   "src": "13100f97395a",
+   "t": "<FACE:0F>(He could have just<NL>talked…)"
+  },
+  {
+   "key": "script:0033:12E6",
+   "src": "1e455c1a91e8",
+   "t": "<FACE:11>Hello, everyone<NL><WAIT>Sorry to keep you"
+  },
+  {
+   "key": "script:0033:12F7",
+   "src": "cbb84ab64b17",
+   "t": "<FACE:05>We won somehow, but<NL>where'd that boy go…"
+  },
+  {
+   "key": "script:0033:1323",
+   "src": "94a510423f07",
+   "t": "<FACE:08>Shiden?<NL><PLAYER> is gone…"
+  },
+  {
+   "key": "script:0033:1334",
+   "src": "1359b7a001e2",
+   "t": "<FACE:06>There's something<NL>fishy about this!"
+  },
+  {
+   "key": "script:0033:1347",
+   "src": "779a26bfd839",
+   "t": "<FACE:00>It'd be rude to keep<NL>Shiden waiting…"
+  }
+ ]
+}

@@ -1,0 +1,385 @@
+{
+ "part": "script/script_0068",
+ "entries": [
+  {
+   "key": "script:0068:09F4",
+   "src": "e693e513e50f",
+   "t": "<FACE:00>With so many hiding<NL>spots, who'd notice?"
+  },
+  {
+   "key": "script:0068:0A20",
+   "src": "69f3e0e5fe22",
+   "t": "<FACE:0C>Heh, sounds like fun"
+  },
+  {
+   "key": "script:0068:0A2F",
+   "src": "a2b980308ae5",
+   "t": "<FACE:0C>Then we'll do things<NL>our own way"
+  },
+  {
+   "key": "script:0068:0A4B",
+   "src": "f968331777e2",
+   "t": "<FACE:03>Huh?<NL>"
+  },
+  {
+   "key": "script:0068:0A52",
+   "src": "155c4d4c3f9b",
+   "t": "<FACE:03>Hey, wait…!<NL>"
+  },
+  {
+   "key": "script:0068:0A5F",
+   "src": "f130e9b65cc1",
+   "t": "<FACE:01>Split up here and we<NL>lose each other…"
+  },
+  {
+   "key": "script:0068:0A88",
+   "src": "521b627d8f3e",
+   "t": "<FACE:05>It's fine!<WAIT><FACE:07>I've got my «SeeMore»<NL>from the catalog"
+  },
+  {
+   "key": "script:0068:0AB5",
+   "src": "046ed180ea96",
+   "t": "<FACE:01>Please stop relying<NL>on stuff like that…"
+  },
+  {
+   "key": "script:0068:0ACC",
+   "src": "9bbb3bab701d",
+   "t": "<FACE:00>What is it, Hiyori?"
+  },
+  {
+   "key": "script:0068:0AD9",
+   "src": "9b555b071583",
+   "t": "<FACE:05>Quiet!<WAIT>Do you hear something?"
+  },
+  {
+   "key": "script:0068:0AF3",
+   "src": "8ffdea0a7cf2",
+   "t": "<FACE:59>Heeelp meee-roboo!"
+  },
+  {
+   "key": "script:0068:0AFF",
+   "src": "85df66fa06f1",
+   "t": "<FACE:03>Is someone calling for<NL>help?<WAIT><FACE:05>Sounded a bit odd<WAIT><FACE:00>Let's go look!"
+  },
+  {
+   "key": "script:0068:0B38",
+   "src": "8915490dc4a9",
+   "t": "<FACE:05>What is that?<WAIT><FACE:04>…Beats me…"
+  },
+  {
+   "key": "script:0068:0B4A",
+   "src": "252a1b94ff34",
+   "t": "<FACE:81>I'm too scared to<NL>climb any lower-robo!<WAIT>Heeelp meee-robo!"
+  },
+  {
+   "key": "script:0068:0B6E",
+   "src": "277a36fc085a",
+   "t": "<FACE:05>Robo? What's 'robo'<NL>supposed to mean?<WAIT><FACE:00>Some new fad, maybe?"
+  },
+  {
+   "key": "script:0068:0B8B",
+   "src": "9cd9daf5d164",
+   "t": "<FACE:7E>I said help me, so<NL>why won't you-robo?!<WAIT>Forget it-robo!<WAIT>I hope something awful<NL>happens to you-robo!"
+  },
+  {
+   "key": "script:0068:0BD3",
+   "src": "14c9fff3bac7",
+   "t": "<FACE:7D>Robo robo, robo robo"
+  },
+  {
+   "key": "script:0068:0BDF",
+   "src": "aa5ed8363375",
+   "t": "<FACE:08>What?!"
+  },
+  {
+   "key": "script:0068:0BE7",
+   "src": "45b1efb20ab3",
+   "t": "<FACE:01>Who are you guys?!"
+  },
+  {
+   "key": "script:0068:0BF4",
+   "src": "b0764a25f11b",
+   "t": "<FACE:01>What is going on…?"
+  },
+  {
+   "key": "script:0068:0C05",
+   "src": "b918d75beed4",
+   "t": "<FACE:6C>Yours truly is a Space<NL>Robo Robo Gang Boss…<WAIT>Nyuudou of the<NL>Mountain!<WAIT><FACE:04>The Space Robo Robo<NL>Gang?!<WAIT><FACE:6C>Sperobo Gang for<NL>short<WAIT>An evil league that<NL>rules the universe!"
+  },
+  {
+   "key": "script:0068:0C68",
+   "src": "d27737bb005b",
+   "t": "<FACE:01>Never heard of it"
+  },
+  {
+   "key": "script:0068:0C7B",
+   "src": "c31e39f5356c",
+   "t": "<FACE:6C>Naturally!<WAIT>Our stage of action<NL>is outer space<WAIT>No human on the ground<NL>could know of us"
+  },
+  {
+   "key": "script:0068:0CC5",
+   "src": "95b64544b0a1",
+   "t": "<FACE:03>Is that something to<NL>brag about?!"
+  },
+  {
+   "key": "script:0068:0CD7",
+   "src": "7bd0ca1bc40b",
+   "t": "<FACE:6D>Silence!<WAIT><FACE:01>What does this Sperobo<NL>Gang want with us?<WAIT>Let Hiyori go!"
+  },
+  {
+   "key": "script:0068:0D0D",
+   "src": "2196e7934226",
+   "t": "<FACE:6C>Our goal is to rule<NL>the whole universe"
+  },
+  {
+   "key": "script:0068:0D2C",
+   "src": "8d7034a1468b",
+   "t": "<FACE:6C>First off, we take<NL>over this Cluster"
+  },
+  {
+   "key": "script:0068:0D4A",
+   "src": "01878f9b9e26",
+   "t": "<FACE:6C>It seems only children<NL>were left here<WAIT>Children will make<NL>good workers<WAIT>We'll take you along<NL>to work for us"
+  },
+  {
+   "key": "script:0068:0D9E",
+   "src": "ca9cb22c6e71",
+   "t": "<FACE:01>So you lot set the<NL>Cluster adrift?!"
+  },
+  {
+   "key": "script:0068:0DBF",
+   "src": "1d855e12831a",
+   "t": "<FACE:08>How awful!<WAIT><FACE:06>As if anyone would do<NL>what a crook says!!<WAIT><FACE:6C>Bluffing won't help!<WAIT>With the girl hostage<NL>you can't do a thing!"
+  },
+  {
+   "key": "script:0068:0E29",
+   "src": "31429cd4d10c",
+   "t": "<FACE:01>Nngh…"
+  },
+  {
+   "key": "script:0068:0E2E",
+   "src": "973567d83bc3",
+   "t": "<FACE:6C>Now then!<NL>Come quietly, you too<WAIT>You lot, move out!<WAIT><FACE:7D>Robo robo, robo robo"
+  },
+  {
+   "key": "script:0068:0E64",
+   "src": "4055291edb1e",
+   "t": "<FACE:01>(Nothing I can do…?)"
+  },
+  {
+   "key": "script:0068:0E74",
+   "src": "1520ae6b8a8e",
+   "t": "<FACE:14>Hey, old man!<NL>You forgot one of us!"
+  },
+  {
+   "key": "script:0068:0E90",
+   "src": "3cdb541097d6",
+   "t": "<FACE:80>Aiiieee… roboooo…"
+  },
+  {
+   "key": "script:0068:0E9C",
+   "src": "e7f1925e6b65",
+   "t": "<FACE:14>All done over here"
+  },
+  {
+   "key": "script:0068:0EAA",
+   "src": "07bf2d5b686d",
+   "t": "<FACE:80>Gyaah-robo!"
+  },
+  {
+   "key": "script:0068:0EB3",
+   "src": "3dbb9b0eba23",
+   "t": "<FACE:19>Done here too, sir!"
+  },
+  {
+   "key": "script:0068:0EC5",
+   "src": "b71488d3b3a8",
+   "t": "<FACE:0A>That makes us even"
+  },
+  {
+   "key": "script:0068:0ED0",
+   "src": "8a14f11ba166",
+   "t": "<FACE:02>Everyone!"
+  },
+  {
+   "key": "script:0068:0ED7",
+   "src": "900b2f18ee68",
+   "t": "<FACE:6D>Grr! Cheeky, for a<NL>bunch of children!<WAIT>I'll teach you the<NL>power of Nyuudou!"
+  },
+  {
+   "key": "script:0068:0F0F",
+   "src": "9734504176b0",
+   "t": "<FACE:01>How's that!"
+  },
+  {
+   "key": "script:0068:0F16",
+   "src": "b163d4537184",
+   "t": "<FACE:05>You underestimated us<NL>because we're kids"
+  },
+  {
+   "key": "script:0068:0F2E",
+   "src": "8892c7c115fa",
+   "t": "<FACE:0B>And how are you going<NL>to make up for this?"
+  },
+  {
+   "key": "script:0068:0F49",
+   "src": "1b721f952b8d",
+   "t": "<FACE:6D>Nnnnnnnnnnnngh!<WAIT>Retreeeat!<WAIT><FACE:7D>Robo robo, robo robo"
+  },
+  {
+   "key": "script:0068:0F75",
+   "src": "9a4aeb327ba2",
+   "t": "<FACE:00>Good grief<WAIT><FACE:05>Hey, what was that?!<WAIT>Why are creeps like<NL>that in the Cluster?!"
+  },
+  {
+   "key": "script:0068:0FA5",
+   "src": "892b9c4e6939",
+   "t": "<FACE:0A>Doesn't matter<WAIT>Anyone in our way<NL>just gets flattened"
+  },
+  {
+   "key": "script:0068:0FC8",
+   "src": "6155c87fc49a",
+   "t": "<FACE:19>That's our leader!<WAIT><FACE:15>We'll follow you<NL>anywhere!"
+  },
+  {
+   "key": "script:0068:0FE9",
+   "src": "cdecb2ceee16",
+   "t": "<FACE:04>But could a bunch of<NL>klutzes like that…<WAIT>really set the whole<NL>Cluster adrift?"
+  },
+  {
+   "key": "script:0068:1029",
+   "src": "56a473c792e0",
+   "t": "<FACE:05>There, this place is<NL>safe now<WAIT><FACE:04>Yeah…"
+  },
+  {
+   "key": "script:0068:1045",
+   "src": "0eec4e49cd24",
+   "t": "<FACE:59>Help…"
+  },
+  {
+   "key": "script:0068:104E",
+   "src": "f3d4f72cbad0",
+   "t": "<FACE:4F>Help… help me…<WAIT><FACE:00>Hang on, I'll get<NL>you untied"
+  },
+  {
+   "key": "script:0068:1072",
+   "src": "9fab872fbccf",
+   "t": "<FACE:50>Sorry! I think I die!"
+  },
+  {
+   "key": "script:0068:1085",
+   "src": "85420ac538c9",
+   "t": "<FACE:52>Oh, thank you!<NL>You save us!<WAIT><FACE:50>We not think this<NL>happen in Japan!<WAIT><FACE:51>Thank you, savior of<NL>our lives!"
+  },
+  {
+   "key": "script:0068:10C9",
+   "src": "e1181f14199d",
+   "t": "<FACE:03>Gggg… can't… breathe…"
+  },
+  {
+   "key": "script:0068:10D7",
+   "src": "43bd9ff3c56f",
+   "t": "<FACE:05>Unless you want your<NL>savior to pass out…<WAIT>could you let go of<NL>him?"
+  },
+  {
+   "key": "script:0068:1107",
+   "src": "7b489852f917",
+   "t": "<FACE:51>Sorry! I squeeze too<NL>hard!"
+  },
+  {
+   "key": "script:0068:111B",
+   "src": "683a7cb6ae80",
+   "t": "<FACE:03>Cough cough, hack hack"
+  },
+  {
+   "key": "script:0068:1127",
+   "src": "15850ec18718",
+   "t": "<FACE:4F>Heh, my sister have<NL>crazy power. Careful!"
+  },
+  {
+   "key": "script:0068:1145",
+   "src": "e6c93060e9e2",
+   "t": "<FACE:03>If you knew that…<WAIT>then stop her…<WAIT><FACE:50>Until we repay you,<NL>we come with you!"
+  },
+  {
+   "key": "script:0068:11A5",
+   "src": "93cc59166219",
+   "t": "<FACE:00>Something about this<NL>Block bothers me…"
+  },
+  {
+   "key": "script:0068:11BB",
+   "src": "338ad2c47531",
+   "t": "<FACE:06>Hmph!"
+  },
+  {
+   "key": "script:0068:11C2",
+   "src": "fdeecc5ebbdb",
+   "t": "<FACE:06>I'm going on ahead!!"
+  },
+  {
+   "key": "script:0068:11D0",
+   "src": "967d973c2d82",
+   "t": "<FACE:05>All that's left is to<NL>reach the controls"
+  },
+  {
+   "key": "script:0068:11EC",
+   "src": "0ee5ef975840",
+   "t": "<FACE:0A>Sperobo Gang?<WAIT><FACE:0E>Never heard of them…"
+  },
+  {
+   "key": "script:0068:1203",
+   "src": "068cb757a996",
+   "t": "<FACE:19>Let's get moving, sir"
+  },
+  {
+   "key": "script:0068:1212",
+   "src": "3f954158f5c5",
+   "t": "<FACE:14>Wonder what those<NL>guys were all about"
+  },
+  {
+   "key": "script:0068:1228",
+   "src": "6ea152f0e340",
+   "t": "<FACE:4F>Hector joined the<NL>team!<WAIT><FACE:51>Pascal joined the<NL>team!"
+  },
+  {
+   "key": "script:0068:124C",
+   "src": "0f16a06d0840",
+   "t": "<FACE:03>Ah! Hector and Pascal,<NL>the exchange kids!"
+  },
+  {
+   "key": "script:0068:126E",
+   "src": "b0b92a75245c",
+   "t": "<FACE:81>O-ow, that hurts-robo…"
+  },
+  {
+   "key": "script:0068:127A",
+   "src": "edcc07b072d8",
+   "t": "<FACE:00>Still, those guys…<NL>Sperobo Gang, was it?<WAIT>With them prowling<NL>around, every Block…<WAIT>needs someone on watch<NL>or we lose it again"
+  },
+  {
+   "key": "script:0068:12D4",
+   "src": "b469b7fcf664",
+   "t": "<FACE:05>Right, let's ask the<NL>whole class to help<WAIT>Blocks next to ones we<NL>haven't visited yet<WAIT>are extra risky, so go<NL>in teams of a few<WAIT>Of course, I have to<NL>look after <PLAYER>,<WAIT>so I can't take a<NL>watch myself…<WAIT><FACE:04>…"
+  },
+  {
+   "key": "script:0068:1369",
+   "src": "3490ab06e2e7",
+   "t": "<FACE:0D>I<DELAY:000F>… I'm going with<NL><PLAYER> too!"
+  },
+  {
+   "key": "script:0068:1386",
+   "src": "bad655f1ef3d",
+   "t": "<FACE:05>Pfft!<WAIT><FACE:07>What's Fubuki in such<NL>a rush about?<WAIT>Could it be about<NL><PLAYER>…?"
+  },
+  {
+   "key": "script:0068:13B2",
+   "src": "7c3e06ca8132",
+   "t": "<FACE:0D>D-don't be stupid!<WAIT>I just hate being<NL>bossed around, okay!<WAIT><FACE:07>Heh heh…<NL>let's say that, then…<WAIT>We're a team, so of<NL>course we go together"
+  },
+  {
+   "key": "script:0068:141C",
+   "src": "8576969bb1aa",
+   "t": "<FACE:05>(Come to think of it,<NL> Fubuki is delicate…)<WAIT>(Just like a girl…<WAIT> maybe I'm right…)"
+  }
+ ]
+}

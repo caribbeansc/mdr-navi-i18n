@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0135",
+ "entries": [
+  {
+   "key": "script:0135:00EA",
+   "src": "998ca873dc27",
+   "t": "<FACE:4A>Aaah… if only I had<NL>a girlfriend too…"
+  },
+  {
+   "key": "script:0135:0106",
+   "src": "a2b824b324fe",
+   "t": "<FACE:4B>This is a place you<NL>bring a girl to, huh…"
+  },
+  {
+   "key": "script:0135:0120",
+   "src": "0d20a6299769",
+   "t": "<FACE:04>Huh? What's wrong?<NL>You guys look down…<WAIT><FACE:49>Sigh… we figured looks<NL>aren't everything…<WAIT>Come Robattle with us!"
+  },
+  {
+   "key": "script:0135:017E",
+   "src": "b3b51f8d29ad",
+   "t": "<FACE:49>You really are good…"
+  },
+  {
+   "key": "script:0135:018D",
+   "src": "10127ffaa31c",
+   "t": "<FACE:49>I'm confident about<NL>fashion, at least…"
+  }
+ ]
+}

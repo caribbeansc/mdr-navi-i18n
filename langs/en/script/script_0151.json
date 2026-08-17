@@ -1,0 +1,55 @@
+{
+ "part": "script/script_0151",
+ "entries": [
+  {
+   "key": "script:0151:027F",
+   "src": "abf9847f7827",
+   "t": "<FACE:7D>Phew…<NL><WAIT>Free at last from the<NL>Boss's grind-robo<WAIT>Hole up in this Block<NL>and we can hide-robo<WAIT><FACE:7F>Just hold out till we<NL>reach Earth-robo"
+  },
+  {
+   "key": "script:0151:02DB",
+   "src": "e1da47f22cf3",
+   "t": "<FACE:81><PLAYER>-robo!"
+  },
+  {
+   "key": "script:0151:02E2",
+   "src": "e9cf9e4b0b46",
+   "t": "<FACE:01>What are you two doing<NL>in a place like this?"
+  },
+  {
+   "key": "script:0151:02FC",
+   "src": "522f956defba",
+   "t": "<FACE:7E>S-shut up-robo!<NL><WAIT>We didn't run from the<NL>Boss to slack-robo!"
+  },
+  {
+   "key": "script:0151:0327",
+   "src": "05e21ab61b2f",
+   "t": "<FACE:81>I've seen you buddy up<NL>with the Boss-robo"
+  },
+  {
+   "key": "script:0151:034F",
+   "src": "bdbfdfae113e",
+   "t": "<FACE:81>This is bad-robo!<NL>The Boss'll know-robo"
+  },
+  {
+   "key": "script:0151:0368",
+   "src": "a15b5ff449c2",
+   "t": "<FACE:7E>Hit them before they<NL>hit us-robo!"
+  },
+  {
+   "key": "script:0151:0378",
+   "src": "1d5dbe100e39",
+   "t": "<FACE:81>…We lost-robo<NL><WAIT>Now the Boss is going<NL>to find out-robo"
+  },
+  {
+   "key": "script:0151:0398",
+   "src": "28fbd87af058",
+   "t": "<FACE:80>It's dangerous to stay<NL>here-robo!"
+  },
+  {
+   "key": "script:0151:03A9",
+   "src": "4ed31ad985f1",
+   "t": "<FACE:80>Right-robo!<NL>Run for it-robo!"
+  }
+ ]
+}

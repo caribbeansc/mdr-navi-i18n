@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0157",
+ "entries": [
+  {
+   "key": "script:0157:01C8",
+   "src": "e851f39d5b98",
+   "t": "<FACE:99>Hey! You there, kid!<NL>Know a guy, Rintaro?"
+  },
+  {
+   "key": "script:0157:01EC",
+   "src": "9f6ae729f3ac",
+   "t": "<FACE:04>Rintaro? …There was a<NL>Medafighter, I think…"
+  },
+  {
+   "key": "script:0157:0210",
+   "src": "1ec7c576ca7a",
+   "t": "<FACE:00>I see, so he's here<NL>too… Could it be…"
+  },
+  {
+   "key": "script:0157:0230",
+   "src": "29b6be99f260",
+   "t": "<FACE:99>I'm asking if you've<NL>seen him or not!"
+  },
+  {
+   "key": "script:0157:0245",
+   "src": "a8fec9eddf8e",
+   "t": "<FACE:00>No… I don't know him<WAIT><FACE:00>Do you guys know that<NL>Rintaro person?"
+  },
+  {
+   "key": "script:0157:0271",
+   "src": "53a4768c9311",
+   "t": "<FACE:99>Tch!"
+  },
+  {
+   "key": "script:0157:0277",
+   "src": "d1f24037d019",
+   "t": "<FACE:99>This is why total<NL>amateurs are a pain!<WAIT>I'm that Rintaro's<NL>mentor, I tell ya!"
+  },
+  {
+   "key": "script:0157:02A7",
+   "src": "70cac7145ca7",
+   "t": "<FACE:9A>We drilled the ABCs of<NL>Robattling into him!"
+  },
+  {
+   "key": "script:0157:02C0",
+   "src": "3c1da3b85f2b",
+   "t": "<FACE:9B>But Rintaro's the one<NL>who got famous-bear…"
+  },
+  {
+   "key": "script:0157:02DD",
+   "src": "fb7395688f3e",
+   "t": "<FACE:99>You idiots!<NL><WAIT>Around here we settle<NL>it with pure skill!!"
+  },
+  {
+   "key": "script:0157:0300",
+   "src": "7444d33294e5",
+   "t": "<FACE:00>Huh… is that so"
+  },
+  {
+   "key": "script:0157:030C",
+   "src": "0abe35f7212f",
+   "t": "<FACE:99>Oh! You doubt me, huh!<NL>Then we Robattle!!"
+  },
+  {
+   "key": "script:0157:0331",
+   "src": "9a9fbcfbed63",
+   "t": "<FACE:00>Yeah, you're good<NL><WAIT>That was a fine match<NL><WAIT>…By the way, I'm<NL><PLAYER><WAIT>Do you know a Hikaru<NL>or a Shiden?"
+  },
+  {
+   "key": "script:0157:037E",
+   "src": "41f46005975c",
+   "t": "<FACE:99>Tch…<NL>Never heard of 'em!<WAIT><FACE:00>If you do see them…"
+  },
+  {
+   "key": "script:0157:039B",
+   "src": "c37dcba56b2b",
+   "t": "<FACE:99>Don't think you'll win<NL>next time!"
+  },
+  {
+   "key": "script:0157:03AE",
+   "src": "9ec1b945d857",
+   "t": "<FACE:9A>Ah! Booosss!<WAIT><FACE:9B>Wait for us-bearrr!"
+  }
+ ]
+}

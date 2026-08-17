@@ -21,7 +21,10 @@ import json
 import re
 from pathlib import Path
 
-PACK = Path(__file__).resolve().parent.parent / "langs" / "es"
+import pytest
+
+from .conftest import language_packs, pack_id
+
 
 VISIBLE_CELLS = 9
 
@@ -50,16 +53,16 @@ def name_field(address: int) -> bool:
     )
 
 
-def panel_names() -> dict[int, str]:
-    """Every translation the packs aim at one of those name fields."""
+def panel_names(pack: Path) -> dict[int, str]:
+    """Every translation a pack aims at one of those name fields."""
     found: dict[int, str] = {}
-    gfx = json.loads((PACK / "gfx.json").read_text(encoding="utf-8"))
+    gfx = json.loads((pack / "gfx.json").read_text(encoding="utf-8"))
     for entry in gfx.get("extra_strings", {}).values():
         for site in entry["sites"]:
             at = int(site, 16)
             if name_field(at):
                 found[at] = entry["t"]
-    menus = json.loads((PACK / "menus.json").read_text(encoding="utf-8"))
+    menus = json.loads((pack / "menus.json").read_text(encoding="utf-8"))
     for entry in menus["entries"]:
         key = entry["key"]
         if not key.startswith("str:"):
@@ -70,14 +73,16 @@ def panel_names() -> dict[int, str]:
     return found
 
 
-def test_the_pack_aims_at_these_tables():
-    assert len(panel_names()) > 100
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_the_pack_aims_at_these_tables(pack):
+    assert len(panel_names(pack)) > 100
 
 
-def test_no_panel_name_overruns_the_nine_visible_cells():
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_no_panel_name_overruns_the_nine_visible_cells(pack):
     offenders = [
         f"0x{at:06X} {text!r} is {cells(text)} cells"
-        for at, text in sorted(panel_names().items())
+        for at, text in sorted(panel_names(pack).items())
         if cells(text) > VISIBLE_CELLS
     ]
     assert not offenders, (
@@ -86,10 +91,11 @@ def test_no_panel_name_overruns_the_nine_visible_cells():
     )
 
 
-def test_panel_names_are_single_line():
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_panel_names_are_single_line(pack):
     offenders = [
         f"0x{at:06X} {text!r}"
-        for at, text in sorted(panel_names().items())
+        for at, text in sorted(panel_names(pack).items())
         if "<NL>" in text or "<WAIT>" in text
     ]
     assert not offenders, (

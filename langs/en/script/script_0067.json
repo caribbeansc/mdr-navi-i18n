@@ -1,0 +1,265 @@
+{
+ "part": "script/script_0067",
+ "entries": [
+  {
+   "key": "script:0067:075F",
+   "src": "ae02dfd140c2",
+   "t": "<FACE:03>Wow! A huge mansion…<NL>Blocks like this too!"
+  },
+  {
+   "key": "script:0067:0785",
+   "src": "bb1b7abaa93c",
+   "t": "<FACE:05>Oh my?!<NL><WAIT>What a fancy mansion!<NL>Anyone living there?"
+  },
+  {
+   "key": "script:0067:07A8",
+   "src": "e348dd3334d2",
+   "t": "<FACE:00>I don't think any…"
+  },
+  {
+   "key": "script:0067:07B4",
+   "src": "941b3e03fb1c",
+   "t": "<FACE:07>Even if not, we could<NL>at least rest a bit!"
+  },
+  {
+   "key": "script:0067:07CC",
+   "src": "98e6dddd4eb3",
+   "t": "<FACE:00>We should hur…"
+  },
+  {
+   "key": "script:0067:07D7",
+   "src": "3c5209bfff8e",
+   "t": "<FACE:07>Right!<NL><WAIT>Let's take a break<NL>here, shall we!"
+  },
+  {
+   "key": "script:0067:07F1",
+   "src": "19912e7dc640",
+   "t": "<FACE:00>But we still…"
+  },
+  {
+   "key": "script:0067:07F8",
+   "src": "b64c7e9d70db",
+   "t": "<FACE:07><PLAYER><NL>I'll wait right here!<WAIT>Go check out the<NL>mansion, and hurry!"
+  },
+  {
+   "key": "script:0067:0822",
+   "src": "b56aac8b0ed1",
+   "t": "<FACE:0A><PLAYER>…<NL><WAIT>Got something you want<NL>to say?"
+  },
+  {
+   "key": "script:0067:083C",
+   "src": "a5a1f3de8c6b",
+   "t": "<FACE:33>My, my, if it isn't…<NL><PLAYER> and…"
+  },
+  {
+   "key": "script:0067:0853",
+   "src": "b8ff5cd60128",
+   "t": "<FACE:33>Miss Koharubi…<NL>And unfamiliar faces<WAIT>What business brings<NL>you to our mansion?"
+  },
+  {
+   "key": "script:0067:0887",
+   "src": "9e8b696b7ecc",
+   "t": "<FACE:00>Ohh, so this mansion<NL>is yours?"
+  },
+  {
+   "key": "script:0067:089F",
+   "src": "aed05fb55fbe",
+   "t": "<FACE:00>Ah, this is Fubuki<NL><WAIT>He goes to another<NL>school…<WAIT>Like us, he got left<NL>behind here too"
+  },
+  {
+   "key": "script:0067:08D7",
+   "src": "c49dfb2f7150",
+   "t": "<FACE:0A>Hey, hey, at least let<NL>me introduce mys…<WAIT><FACE:33>And so…? What is it<NL>you want of us?"
+  },
+  {
+   "key": "script:0067:090F",
+   "src": "571875e43bc0",
+   "t": "<FACE:00>We want to see if this<NL>place is safe, so…"
+  },
+  {
+   "key": "script:0067:0927",
+   "src": "121e2c4a62d2",
+   "t": "<FACE:06>(Hey! That mansion<NL> can't be theirs!)<WAIT>(I want to rest there<NL> too, so shoo them!)<WAIT><FACE:04>(But they're not the<NL> listening type…)<WAIT><FACE:06>(You're the president<NL> now, so order them!)"
+  },
+  {
+   "key": "script:0067:09B0",
+   "src": "ff32a3764ac7",
+   "t": "<FACE:00>I… sort of ended up<NL>the acting president<WAIT>This Block might be<NL>dangerous too…<WAIT>Leave this to us for<NL>now, and let us in?"
+  },
+  {
+   "key": "script:0067:0A13",
+   "src": "aead14b07626",
+   "t": "<FACE:33>Ohhhhh ho ho ho ho ho!<WAIT><FACE:35>Oh ho ho ho ho!<WAIT><FACE:36>Hee hee hee"
+  },
+  {
+   "key": "script:0067:0A34",
+   "src": "278ea5912550",
+   "t": "<FACE:33>Commoners such as you<NL><WAIT>may well dream of such<NL>a gorgeous mansion!<WAIT>But it hardly suits<NL>the likes of you!<WAIT>This mansion befits<NL>only people like us…<NL>"
+  },
+  {
+   "key": "script:0067:0A9B",
+   "src": "8211585feb4d",
+   "t": "<FACE:33>Only truly gorgeous<NL>people belong here!<WAIT>Do look elsewhere!"
+  },
+  {
+   "key": "script:0067:0AC7",
+   "src": "d4feb2036c16",
+   "t": "<FACE:33>Ohhhh ho ho ho ho ho!"
+  },
+  {
+   "key": "script:0067:0AD6",
+   "src": "89fca06fabca",
+   "t": "<FACE:06>(Gorgeous, my foot!<NL> Ohhh ho ho ho, ugh!)<WAIT>(That does it!<NL> I'm resting there!)"
+  },
+  {
+   "key": "script:0067:0B1F",
+   "src": "734bdfab3d71",
+   "t": "<FACE:09>I'm… sooooo tired…"
+  },
+  {
+   "key": "script:0067:0B36",
+   "src": "c88418cbf86e",
+   "t": "<FACE:09>Might I rest a while<NL>in this mansion…?"
+  },
+  {
+   "key": "script:0067:0B51",
+   "src": "9e2fe312357c",
+   "t": "<FACE:34>Oh, how unfortunate!<WAIT><FACE:33>But we are quite worn<NL>out ourselves too…<WAIT>We live so elegantly<NL>we tire more than you<WAIT>And sadly, we have no<NL>rooms to spare!<WAIT><FACE:09>Oh… that's rough…<NL>One room, as friends?<WAIT><FACE:34>Friends, you say?<WAIT><FACE:33>My… commoners become<NL>friends so easily!<WAIT>How I envy you!"
+  },
+  {
+   "key": "script:0067:0C2C",
+   "src": "a916421fc703",
+   "t": "<FACE:06>Snaaap!"
+  },
+  {
+   "key": "script:0067:0C36",
+   "src": "d07b64627877",
+   "t": "<FACE:06>That does it!!<NL><WAIT>You're just rich kids!<NL><WAIT>The great <PLAYER><NL>will Robattle you!"
+  },
+  {
+   "key": "script:0067:0C7C",
+   "src": "a15e4519a15c",
+   "t": "<FACE:03>Ah! W-wait, Hiyo…!?"
+  },
+  {
+   "key": "script:0067:0C91",
+   "src": "1fa0f2b3c337",
+   "t": "<FACE:34>My my… <PLAYER>?<WAIT><FACE:33>What a way to speak to<NL>the likes of us!<WAIT>Very well then<NL><WAIT>Do savor our gorgeous<NL>Medabots' power!"
+  },
+  {
+   "key": "script:0067:0CEF",
+   "src": "f2fe3167b5b1",
+   "t": "<FACE:06>Now hand over this<NL>Block without a fuss!"
+  },
+  {
+   "key": "script:0067:0D12",
+   "src": "52b554636e9d",
+   "t": "<FACE:03>(Hiyori, that's just<NL> blackmail…)"
+  },
+  {
+   "key": "script:0067:0D2A",
+   "src": "edd0ad91f2ba",
+   "t": "<FACE:33>My, we accepted, yes<NL><WAIT>but when did we stake<NL>this mansion on it?<WAIT>What a wild accusation<NL><WAIT><FACE:34>Oh, how scary!"
+  },
+  {
+   "key": "script:0067:0D74",
+   "src": "63024dc60fec",
+   "t": "<FACE:35>My, how scary!"
+  },
+  {
+   "key": "script:0067:0D7E",
+   "src": "4ab5df2668aa",
+   "t": "<FACE:36>So scary…"
+  },
+  {
+   "key": "script:0067:0D89",
+   "src": "8303164c709c",
+   "t": "<FACE:04>Hm?"
+  },
+  {
+   "key": "script:0067:0D8E",
+   "src": "c2ff21e8a66a",
+   "t": "<FACE:06>What do you mean,<NL>scary?!<WAIT><FACE:33><PLAYER>?<NL><WAIT>Which way are you<NL>facing as you speak?"
+  },
+  {
+   "key": "script:0067:0DBF",
+   "src": "00e84b49e752",
+   "t": "<FACE:04>Hey, um…"
+  },
+  {
+   "key": "script:0067:0DC8",
+   "src": "730471b55b6d",
+   "t": "<FACE:06>(What is it, <PLAYER>!<NL> Don't look away!)<WAIT>(I'm dealing with this<NL> blockhead now…)<WAIT><FACE:04>I keep hearing a sound<NL>I recognize…"
+  },
+  {
+   "key": "script:0067:0E10",
+   "src": "ebc546f6713a",
+   "t": "<FACE:64>Intruder detected<NL>Disposing of intruder<WAIT>Intruder detected<NL>Disposing of intruder<WAIT>Disposing of intruder<WAIT><FACE:64>Disposing"
+  },
+  {
+   "key": "script:0067:0E69",
+   "src": "ad4f2846deab",
+   "t": "<FACE:34>W-wait a moment…<NL>What in the world…"
+  },
+  {
+   "key": "script:0067:0E83",
+   "src": "f4d7b415b745",
+   "t": "<FACE:01>I knew it…<WAIT><FACE:05>So the Medabots here<NL>turn on humans too…<WAIT>That Shiden guy<NL><WAIT>seems to control every<NL>Cluster Medabot…"
+  },
+  {
+   "key": "script:0067:0EDF",
+   "src": "a414a2543561",
+   "t": "<FACE:01>But dispose of us…<NL>how?<WAIT><FACE:64>We will crush you in a<NL>Robattle"
+  },
+  {
+   "key": "script:0067:0F0A",
+   "src": "a26e551cb50e",
+   "t": "<FACE:34>My, disposing of us…<WAIT><FACE:33>This place belongs to<NL>us and no one else!<WAIT><PLAYER>!<NL><WAIT>If you are president,<NL>then fight for us!<WAIT>Do that and we may let<NL>you use this Block!"
+  },
+  {
+   "key": "script:0067:0F82",
+   "src": "e2ce8f86df99",
+   "t": "<FACE:0A>Can't be helped, huh,<NL><PLAYER>…<WAIT><FACE:0B>We have to take this<NL>place anyway"
+  },
+  {
+   "key": "script:0067:0FA7",
+   "src": "d14e4a55de75",
+   "t": "<FACE:07>Ooh! How wonderful!<NL><WAIT>That's our president,<NL><PLAYER>!"
+  },
+  {
+   "key": "script:0067:0FC7",
+   "src": "ab808a971f0d",
+   "t": "<FACE:05>Right! As promised,<NL>I'll be resting here"
+  },
+  {
+   "key": "script:0067:0FE9",
+   "src": "da4b767c32cd",
+   "t": "<FACE:05><PLAYER>, you should<NL>rest a bit too…"
+  },
+  {
+   "key": "script:0067:0FFA",
+   "src": "9630eebac13e",
+   "t": "<FACE:01>No, Hiyori!<NL><WAIT>If Shiden controls the<NL>Cluster's Medabots,<WAIT>we've gotta find our<NL>classmates fast!"
+  },
+  {
+   "key": "script:0067:103F",
+   "src": "2fe4095e9cb6",
+   "t": "<FACE:08>H-hey, <PLAYER>!<NL>Wait up!"
+  },
+  {
+   "key": "script:0067:1057",
+   "src": "2f3ba95aa9b1",
+   "t": "<FACE:05><PLAYER>, hurry and go<NL>take a look"
+  },
+  {
+   "key": "script:0067:1066",
+   "src": "0e68569e2d4c",
+   "t": "<FACE:0C>Pretty fancy, huh<NL>That mansion"
+  },
+  {
+   "key": "script:0067:107B",
+   "src": "e19fb317ae6d",
+   "t": "<FACE:33>Megumi joined the<NL>team!<WAIT><FACE:35>Shizuku joined the<NL>team!<WAIT><FACE:36>Sachi joined the team!"
+  }
+ ]
+}

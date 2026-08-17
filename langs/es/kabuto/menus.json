@@ -1,0 +1,465 @@
+{
+ "part": "menus",
+ "entries": [
+  {
+   "key": "str:09F4F1",
+   "src": "16906ba8e723",
+   "t": "<B:C0><B:1C><B:66><B:77><FACE7:66>"
+  },
+  {
+   "key": "str:4F1268",
+   "src": "01af770f21cd",
+   "t": "<B:46><B:34><B:04><B:67><B:10><B:17><B:D8><B:8A><B:50><B:74><B:02><B:43><B:57><B:43><B:2F><B:34><B:74><B:45><B:44><B:43><B:57><B:44><B:02><B:40><B:92><B:44><B:02>"
+  },
+  {
+   "key": "str:4F1284",
+   "src": "a319487eeae2",
+   "t": "<B:0C><B:77><B:11><B:04><B:9F><B:50><B:3B><B:97>"
+  },
+  {
+   "key": "str:4F1291",
+   "src": "c865e92ea52f",
+   "t": "<B:33><B:27><B:89><B:07><B:25><B:5B>"
+  },
+  {
+   "key": "str:4F129F",
+   "src": "14d41cbe797c",
+   "t": "<B:1B><B:24><B:9F><B:10><B:0F><B:26><B:03><B:30><B:67><B:54><B:26><B:43><B:07><B:34><B:07><B:9A><B:44><B:93><B:07><B:92><B:44><B:A3><B:10><B:6B><B:3E><B:10><B:07><B:66><B:73><B:07><B:53><B:4B><B:48><B:A2>"
+  },
+  {
+   "key": "str:4F12C2",
+   "src": "81601cf0cc38",
+   "t": "<B:44><B:A2><B:40><B:CF><B:64><B:A7><B:90><B:0B><B:35><B:37><B:8A><B:49><B:54><B:83>"
+  },
+  {
+   "key": "str:5B00A9",
+   "src": "8891bd7c7ede",
+   "t": "<B:0F><B:4F><B:13><B:89><B:0A><B:AA><B:4E><B:03><B:19><B:A4><B:CF><B:45><B:06><B:91><B:AA><B:84><B:0E>"
+  },
+  {
+   "key": "str:5B00BB",
+   "src": "e8112bedd4e1",
+   "t": "<B:1A><B:60><B:14><B:CB><B:18><B:8B><B:81><B:2A><B:06><B:97><B:02><B:BF><B:43><B:55><B:A9><B:4C><B:55>"
+  },
+  {
+   "key": "str:5B00D1",
+   "src": "d8c0ea26fab6",
+   "t": "<B:81><B:06><B:7B><B:21><B:0E>"
+  },
+  {
+   "key": "str:646246",
+   "src": "39369c218c87",
+   "t": "Drive C"
+  },
+  {
+   "key": "str:64625D",
+   "src": "845c48f2e4ed",
+   "t": ".."
+  },
+  {
+   "key": "str:700E90",
+   "src": "257cb230ae65",
+   "t": "<B:C0><B:2E><B:AA><B:9A><B:33><END>"
+  },
+  {
+   "key": "str:7951A0",
+   "src": "6c966de1f375",
+   "t": "<B:7E><B:20><B:22><B:37><B:03><B:40><B:44><B:03><B:30><B:0B><B:45><B:44><B:37><B:37><B:8C>"
+  },
+  {
+   "key": "str:7F6A1B",
+   "src": "c0d793438a95",
+   "t": "…¡ya!<WAIT><FACE:17>¡¿Q-qué dices, pues?!<WAIT><FACE:1C>¡Es terrible!<WAIT><FACE:03>¿E-el Bloque Pirámide?<WAIT><FACE:08>E-espera un momento<NL>Traigo el folleto…<WAIT><FACE:0B>Vas a la derecha y<NL>doblas: ¡ahí está!<WAIT><FACE:08>¿Eh?<WAIT><FACE:00>Sabes mucho, Fubuki<WAIT><FACE:0A>¿Y eso qué importa?<WAIT><FACE:01>¡Cierto, hay que<NL>apurarse!<WAIT>¡Fijemos la ruta y<NL>vamos derecho!"
+  },
+  {
+   "key": "str:KBT:011FE7",
+   "src": "89904975d8fe",
+   "t": "<B:07><B:01><B:0F><B:03><B:E0><B:C4><B:8A><B:09><B:08><B:01><B:21><B:49><B:42>"
+  },
+  {
+   "key": "str:KBT:01281F",
+   "src": "795ed24530a0",
+   "t": "<B:07><B:01><B:0F><B:03><B:E0><B:04><B:99><B:09><B:08><B:01><B:21><B:49><B:42>"
+  },
+  {
+   "key": "str:KBT:08D4D0",
+   "src": "a1e21f05493d",
+   "t": "Hmp… Eso les pasa<NL>por entrometerse<END>"
+  },
+  {
+   "key": "str:KBT:08D4E0",
+   "src": "12b996ef2451",
+   "t": "¿Así que perdimos…?<NL><END>"
+  },
+  {
+   "key": "str:KBT:08D4F4",
+   "src": "1fb91edc920b",
+   "t": "Si van a estorbarnos,<NL>¡seremos su rival!<END>"
+  },
+  {
+   "key": "str:KBT:08D514",
+   "src": "41f65a144463",
+   "t": "Mi entrenamiento<NL>por fin da frutos.<END>"
+  },
+  {
+   "key": "str:KBT:08D530",
+   "src": "8b8dc3b4511d",
+   "t": "Hasta aquí llego…<NL>Qué humillación…<END>"
+  },
+  {
+   "key": "str:KBT:08D544",
+   "src": "d52dfe72ac59",
+   "t": "¡Has mejorado un poco!<END>"
+  },
+  {
+   "key": "str:KBT:08D55C",
+   "src": "c0413d517a21",
+   "t": "Eso te pasa por<NL>estorbar tanto.<END>"
+  },
+  {
+   "key": "str:KBT:08D578",
+   "src": "13ff2f2cac63",
+   "t": "N… no puede ser…<END>"
+  },
+  {
+   "key": "str:KBT:08D588",
+   "src": "9200aa56e3a4",
+   "t": "Ese carácter tuyo…<NL>¡yo te lo curo!<END>"
+  },
+  {
+   "key": "str:KBT:08D5A8",
+   "src": "c0c2685c692a",
+   "t": "¡He… he vencido!<NL>¡Qué gran alegría!<END>"
+  },
+  {
+   "key": "str:KBT:08D5C0",
+   "src": "3a6acf341c0a",
+   "t": "…he sido derrotado…<END>"
+  },
+  {
+   "key": "str:KBT:08D5D4",
+   "src": "5dfd6b19d85e",
+   "t": "¡No caeré otra vez!<END>"
+  },
+  {
+   "key": "str:KBT:08D5E8",
+   "src": "785f484e1a88",
+   "t": "¿Ya lo entendiste?<END>"
+  },
+  {
+   "key": "str:KBT:08D5FC",
+   "src": "17d1c18fe61a",
+   "t": "Que pase esto…<END>"
+  },
+  {
+   "key": "str:KBT:08D608",
+   "src": "759f04cef1ed",
+   "t": "¡No pienso caer<NL>una y otra vez!<END>"
+  },
+  {
+   "key": "str:KBT:08D624",
+   "src": "fc946a824c90",
+   "t": "He tenido la fortuna<NL>de un gran rival.<END>"
+  },
+  {
+   "key": "str:KBT:08D638",
+   "src": "7587a592b9ce",
+   "t": "Argh…<NL>Qué humillación…<END>"
+  },
+  {
+   "key": "str:KBT:08D648",
+   "src": "1f3cb1de454a",
+   "t": "¡Lo daré todo!<NL>¡En guardia!<END>"
+  },
+  {
+   "key": "str:KBT:08D664",
+   "src": "30a20ccbef18",
+   "t": "¡Ahora vas a hablar!<END>"
+  },
+  {
+   "key": "str:KBT:08D678",
+   "src": "82b675d78328",
+   "t": "P… perdí…<END>"
+  },
+  {
+   "key": "str:KBT:08D688",
+   "src": "8736ebf799c6",
+   "t": "¡No voy a contenerme!<END>"
+  },
+  {
+   "key": "str:KBT:08D698",
+   "src": "f0c3f6699972",
+   "t": "Ni siquiera serviste<NL>de entrenamiento.<END>"
+  },
+  {
+   "key": "str:KBT:08D6B0",
+   "src": "8f5772fb1f4d",
+   "t": "Tú… eres muy fuerte…<END>"
+  },
+  {
+   "key": "str:KBT:08D6C4",
+   "src": "cae2b4db5a0c",
+   "t": "¿Estás preparado?<NL>¡Aquí voy!<END>"
+  },
+  {
+   "key": "str:KBT:08D6DC",
+   "src": "934d53c9984f",
+   "t": "Je je… ¿te sorprende<NL>mi fuerza?<END>"
+  },
+  {
+   "key": "str:KBT:08D6F8",
+   "src": "04abe51a9132",
+   "t": "…Q… qué horror…<END>"
+  },
+  {
+   "key": "str:KBT:08D708",
+   "src": "009df11d13cf",
+   "t": "¿Estás listo?<NL>¡Allá voy!<END>"
+  },
+  {
+   "key": "str:KBT:090544",
+   "src": "514e585b193f",
+   "t": "<B:4E><B:01><B:02><B:28><B:84><B:84><B:84><B:84>"
+  },
+  {
+   "key": "str:KBT:0905B4",
+   "src": "5e726b0f2356",
+   "t": "<B:52><B:01><B:01><B:32><B:7E><B:7E><B:7E><B:7E><B:02><B:03><B:02><B:03>"
+  },
+  {
+   "key": "str:KBT:0E0958",
+   "src": "7e5fd8a39bfc",
+   "t": "<B:38><B:09><B:0E><B:08><B:40><B:09><B:0E><B:08><B:48><B:09><B:0E><B:08><B:50><B:09><B:0E><B:08><B:38><B:39><B:3A><B:3B><B:3C><B:DB><B:DB><B:DB>"
+  },
+  {
+   "key": "str:KBT:4CC4C0",
+   "src": "4eb9881b8339",
+   "t": "<B:1D><B:BC><B:06><B:08><B:D5><B:BA><B:06><B:08><B:49><B:BB><B:06><B:08><B:AD><B:B8><B:06><B:08><B:A8><B:C4><B:4C><B:08>"
+  },
+  {
+   "key": "str:KBT:4CC5E8",
+   "src": "0fadd540dbea",
+   "t": "<B:19><B:C0><B:06><B:08><B:21><B:BE><B:06><B:08><B:15><B:BF><B:06><B:08><B:AD><B:B8><B:06><B:08><B:D0><B:C5><B:4C><B:08>"
+  },
+  {
+   "key": "str:KBT:4CC614",
+   "src": "823fbd28ca8c",
+   "t": "<B:A1><B:BF><B:06><B:08><B:21><B:BE><B:06><B:08><B:91><B:BE><B:06><B:08><B:AD><B:B8><B:06><B:08><B:D0><B:C5><B:4C><B:08>"
+  },
+  {
+   "key": "str:KBT:5D5FE4",
+   "src": "a22adbecb243",
+   "t": "<B:80><B:5F><B:5D><B:08><B:A0><B:5F><B:5D><B:08><B:C0><B:5F><B:5D><B:08><B:0C>"
+  },
+  {
+   "key": "str:KBT:5D6040",
+   "src": "098c924d6808",
+   "t": "<B:18><B:60><B:5D><B:08><B:24><B:60><B:5D><B:08><B:30><B:60><B:5D><B:08><B:38><B:60><B:5D><B:08><B:14>"
+  },
+  {
+   "key": "str:KBT:5D7360",
+   "src": "168c6b9d8853",
+   "t": "<FACE:06>¡¿Qué te pasa?!<NL>¡Nos traes de un lado<WAIT>a otro y al fin los<NL>vemos, ¿y nos retan?<WAIT><FACE:A2>¿Verlo?<NL>Se equivocan<WAIT>Por fin lo atrapé<WAIT><FACE:04>¿Atrapado?<WAIT><FACE:A2>Habla de entrenar y<NL>nunca me hace caso<WAIT>Hasta huyó cuando le<NL>tocaba la revisión<WAIT><FACE:A3>¡C-cállese, hermana!<NL>¡Tampoco le gustaba!<WAIT><FACE:A2>Aun así, yo fui<NL>sin llegar tarde<WAIT>Hay cosas que uno debe<NL>hacer aunque no guste<WAIT><FACE:A3>¡Eso no, en verdad!<NL> <WAIT>¡Este servidor será<NL>cada vez más fuerte!<WAIT>¡Para eso entreno!<NL> <WAIT>¡No perderé contra mi<NL>hermana!<WAIT><FACE:05>Ay… ¿y dicen que ya<NL>le hicieron revisión?<WAIT>¿Cómo sería antes de<NL>eso…?<WAIT><FACE:00>Jajaja, son tan<NL>humanos que da miedo<WAIT><FACE:A2>Ah, ahora que recuerdo<NL>no fue tal revisión<WAIT>Me pusieron sensores<NL>y solo me examinaron<WAIT><FACE:05>¿Y aun con revisión<NL>qué tan humanos son?<WAIT><FACE:04>Lo humano…<NL>¿qué será eso…?"
+  },
+  {
+   "key": "str:KBT:5D7598",
+   "src": "7c8358c1405e",
+   "t": "<FACE:08>¡Ah! ¡Ahí están!<WAIT><FACE:00>Parece que al fin se<NL>encontraron, pero…<WAIT><FACE:05>…Se mire como se mire<NL>no es nada emotivo…<WAIT><FACE:A2>Un cobarde que ataca<NL>por la espalda…<WAIT>No recuerdo tener un<NL>hermano así<WAIT><FACE:A3>Temí que me llevara a<NL>casa y actué sin más<WAIT>S-solo quise medir un<NL>poco la fuerza…<WAIT><FACE:05>¡A ver, no peleen!<NL>¡Son hermanos!<WAIT>¡Llévense mejor!<WAIT><FACE:A2>Es asunto nuestro<WAIT><FACE:A3>¡Les pido que no se<NL>entrometan!"
+  },
+  {
+   "key": "str:KBT:5D76A0",
+   "src": "0a60fef1813e",
+   "t": "<FACE:A3>Aún no basta…<NL>Así no venceré a ÉL<WAIT><FACE:05>¡¿A él?!<WAIT><FACE:A3>¡N-nada, en verdad!<NL>Este servidor se va…<WAIT>¡¡Con permiso!!"
+  },
+  {
+   "key": "str:KBT:5D76F8",
+   "src": "2bdc79d80e1a",
+   "t": "<FACE:A3>Lo he buscado<NL>Un duelo, se lo pido<WAIT><FACE:00>¿Y por qué estás tan<NL>encendido?<WAIT><FACE:A3>E-eso…<NL>no puedo decirlo<WAIT><FACE:00>Bueno, da igual<NL>Ahora escúchame tú<WAIT><FACE:A3>¡Todo puede esperar!<NL>¡Robobatalla!"
+  },
+  {
+   "key": "str:KBT:5D7774",
+   "src": "40fd8c46fb77",
+   "t": "<FACE:A2>Ngh…<NL> <WAIT>¡¿Por qué ustedes solo<NL>me estorban?!<WAIT>¡¿Un Medabot no puede<NL>querer a un hermano?!<WAIT><FACE:00>¡¿Eh?!<WAIT><FACE:A2>¿Ni los sentimientos<NL>normales en ustedes<WAIT>nos están permitidos<NL>a los Medabots?<WAIT><FACE:05>¡Nadie dijo eso!<NL>Escúchanos un poco…<WAIT><FACE:A2>Debo encontrarlo ya…<NL> <WAIT>¡Jamás me rendiré!<WAIT><FACE:04>¿Qué le pasará…?<NL>Algo anda raro<WAIT><FACE:09>…"
+  },
+  {
+   "key": "str:KBT:5D7874",
+   "src": "d243405f0354",
+   "t": "<FACE:03>¡Ah!<NL>¡Un Medabot caído!<WAIT><FACE:05>Sí… ¿qué le habrá<NL>pasado…?<WAIT><FACE:03>¡Es ella!<WAIT><FACE:05>La Medabot creída…<NL> <WAIT>Pero ¿qué le pasó…?<NL> <WAIT>No creo que la Banda<NL>Sperobo la venciera…<WAIT><FACE:A2>Mmm…<NL> <WAIT>¡¡Ah!!<NL> <WAIT>¡Cobarde!<NL>¡Atacas por detrás!<WAIT>No solo me engañaron<NL> <WAIT>Al fin lo encontraba<NL>¡y ustedes estorban!<WAIT>¡Ya fue suficiente!<WAIT><FACE:09>¿Lo encontró…?<WAIT><FACE:00>Escúchanos un poco a<NL>nosotros…<WAIT><FACE:A2>¡Silencio!<NL> <WAIT>No tengo tiempo para<NL>jugar con ustedes<WAIT><FACE:05>¡Está bien!<NL> <WAIT>¡Entonces te haré<NL>escuchar a la fuerza!"
+  },
+  {
+   "key": "str:KBT:5D79DC",
+   "src": "416b77a4209e",
+   "t": "<FACE:A3>A-aún me falta…<NL>Qué desconsuelo…<WAIT><FACE:05>Entonces sí nos vas a<NL>escuchar, ¿verdad?<WAIT><FACE:A3>…<WAIT><FACE:00>Oye, ¿acaso tienes una<NL>hermana mayor?<WAIT><FACE:A3>…<WAIT><FACE:00>Resulta que ella te<NL>anda buscando<WAIT><FACE:A3>…<WAIT><FACE:00>Sería bueno que tú<NL>fueras a verla…<WAIT><FACE:A3>…<WAIT><FACE:05>Oye, ¿me escuchas?<WAIT><FACE:A3>¡Ya veo!<WAIT><FACE:00>¡¿Q-qué pasa?!<WAIT><FACE:A3>¡Con que era eso!<WAIT><FACE:05>¡Sí!<NL>¡Te anda buscando!<WAIT><FACE:A3>¡Ya lo entendí!<NL>¡Mi punto débil!<WAIT><FACE:00>¡¿Eh?!<WAIT><FACE:A3>Este servidor siempre<NL>iba un paso atrás<WAIT>¡Golpear primero es<NL>vencer! ¡Qué ingenuo!<WAIT><FACE:05>¡¿Eh?!<WAIT><FACE:A3>¡La próxima vez no<NL>perderé!<WAIT>¡Con permiso!<WAIT><FACE:00>Se fue…<WAIT><FACE:06>¡¡No entendió nada!!"
+  },
+  {
+   "key": "str:KBT:5D7B60",
+   "src": "9bb44bd6a9c9",
+   "t": "<FACE:A3>Al fin lo encontré<WAIT><FACE:00>¡Ah! ¡Eres tú!<WAIT><FACE:05>Esta vez sí nos vas a<NL>escuchar<WAIT><FACE:A3>Lo escucharé con calma<NL>tras el duelo"
+  },
+  {
+   "key": "str:KBT:5D7BB8",
+   "src": "523b97211da2",
+   "t": "<FACE:A2>…<WAIT><FACE:05>¿Ya se calmó un poco?<WAIT><FACE:00>Es sobre tu hermano<NL>menor…<WAIT><FACE:A2><SFX:4B>!!<DELAY:0028><NL>¡¿Dónde lo viste?!<WAIT>¡Dígamelo, rápido!<WAIT><FACE:00>No sabemos dónde está<NL>ahora mismo<WAIT>pero hace poco estaba…<WAIT><FACE:A2>…<NL>¿Entonces no saben?<WAIT><FACE:05>¡Oye! Con lo que nos<NL>costó decírtelo…<WAIT><FACE:A2>¿Y qué fue lo que me<NL>dijeron?<WAIT>¡Con permiso!<WAIT><FACE:06>¡Uf!<NL>¡Cómo me hace enojar!<WAIT><FACE:00>¿Y por qué lo estará<NL>buscando…?<WAIT><FACE:06>¡Yo qué sé!"
+  },
+  {
+   "key": "str:KBT:5D7CCC",
+   "src": "d6f81ffde0d0",
+   "t": "<FACE:A2>Ustedes otra vez…<WAIT><FACE:06>¡¿Qué?!<NL>¡Qué antipática!<WAIT><FACE:04>Oye, Hiyori<NL>creo que te pasaste…<WAIT><FACE:06>¡Hmph!<WAIT><FACE:00>Oye, oye<NL>sobre tu hermano…<WAIT><FACE:A2>Ya no les preguntaré<NL> <WAIT>Los humanos no pueden<NL>entender lo nuestro…<WAIT><FACE:00>¿…?<WAIT><FACE:06>¡Pues sigue enojada!<NL> <WAIT>Los dos hermanos<NL>igual de sordos…<WAIT><FACE:A2><SFX:4B>!<DELAY:0028><NL>¡Dijo «los dos»!<WAIT>¡De él, tal vez, pero<NL>meterme a mí también!<WAIT>¡Eso no lo paso!<WAIT><FACE:06>¡¿Qué?! ¡¿Peleamos?!<WAIT><FACE:A2>¡Cuando guste!"
+  },
+  {
+   "key": "str:KBT:5D7E04",
+   "src": "32314d33ef0f",
+   "t": "<FACE:A3>Impresionante<NL> <WAIT>Justo lo que esperaba<NL>Me falta entrenar<WAIT>Con permiso<WAIT><FACE:05>Los dos hermanos son<NL>igual de impacientes<WAIT><FACE:00>No es momento para<NL>eso…"
+  },
+  {
+   "key": "str:KBT:5D7E6C",
+   "src": "6bbb54b2c72f",
+   "t": "<FACE:A3>Cuánto tiempo<NL>Disculpe la molestia<WAIT>Le pido otro duelo<WAIT><FACE:00>¡Ah, eres tú!<WAIT><FACE:A3>Este servidor lo pensó<NL> <WAIT>Y decidí que usted es<NL>mi meta<WAIT>Eso concluí<WAIT><FACE:00>Calma, calma…<NL>Mejor escúchame<WAIT><FACE:A3>Es un atrevimiento<NL>pero no tengo tiempo<WAIT><FACE:A3>¡Sin más demora:<NL>Robobatalla!"
+  },
+  {
+   "key": "str:KBT:5D7F38",
+   "src": "c179c2ce8294",
+   "t": "<FACE:A2>Ngh… mientras pierdo<NL>tiempo aquí, él…<WAIT><FACE:03>¡Espera!<NL>¡Escúchanos!<WAIT><FACE:06>¡Déjala en paz!<NL>¡Qué Medabot terca!"
+  },
+  {
+   "key": "str:KBT:5D7F84",
+   "src": "7fb7c9b51731",
+   "t": "<FACE:A2>Vaya, otra vez ustedes<NL> <WAIT>A quien busco es a mi<NL>hermano, un Medabot…<WAIT><FACE:08>¡¿Un Medabot con<NL>hermano menor?!<WAIT><FACE:A2>Nos hicieron del mismo<NL>diseño: él y yo<WAIT>Yo quedé lista antes,<NL>así que como hermanos<WAIT>nos llevábamos bien…<WAIT><FACE:00>¿Y se separaron?<WAIT><FACE:A2>El plan del Cluster<NL> <WAIT>se detuvo por el caos<NL>de la red…<WAIT><FACE:05>Ahora que lo pienso,<NL>con ese alboroto<WAIT>todos los Medabots de<NL>aquí enloquecieron…<WAIT><FACE:A2>Nosotros dos…<NL> <WAIT>Vieron nuestro lazo<NL>como una falla<WAIT>y nos dieron revisión…<NL> <WAIT>Al despertar, los<NL>demás estaban raros<WAIT><FACE:04>Con que era eso…<WAIT><FACE:05>Perdón por lo del otro<NL>día; no lo sabíamos…<WAIT><FACE:A2>No, yo también…<WAIT><FACE:00>Los Medabots sí que<NL>tienen personalidad<WAIT>Ah, el otro día…<NL> <WAIT>vimos a un Medabot que<NL>decía que entrenaba…<WAIT><FACE:A2>¡¿Entrenaba?!<NL> <WAIT>¡Entonces sí querían<NL>engañarme!<WAIT><FACE:03>¡E-espera un momento!<WAIT><FACE:A2>¡Los haré hablar a la<NL>fuerza!"
+  },
+  {
+   "key": "str:KBT:5D81E8",
+   "src": "737ed0ba82ab",
+   "t": "<FACE:A3>He perdido…<NL>Me falta entrenar<WAIT><FACE:06>¡Oye! ¡¿Por qué peleas<NL>tan en serio?!<WAIT><FACE:04>¡¿Eh?! Si no peleo en<NL>serio no le sirve…<WAIT><FACE:A3>¡Volveré a entrenar!<NL>¡Con permiso!<WAIT><FACE:08>¡Ah! ¡Espera un momen…<WAIT><FACE:06>¡Rayos! ¡Ya se fue!<WAIT><FACE:03>¡¡Ahhhhh!!<NL>¡El Medabot de recién<WAIT>no es el pequeño que<NL>buscaba la otra!"
+  },
+  {
+   "key": "str:KBT:5D82D8",
+   "src": "39632449d756",
+   "t": "<FACE:A3>Usted, el de ahí…<WAIT><FACE:00>¿Eh? ¿Qué pasa?<NL>Nunca vi ese Medabot…<WAIT><FACE:05>¡Qué chiquito y lindo[<3]<WAIT><FACE:A3>Este servidor está en<NL>pleno entrenamiento<WAIT><FACE:05>¡Ya veo! ¡Un Medabot<NL>que el Cluster crea!<WAIT><FACE:A3>¡Así es!<NL> <WAIT>Le pido una<NL>Robobatalla conmigo<WAIT><FACE:04>¡¿Eh?! No, es que…<NL>no tenemos tiempo…<WAIT><FACE:07>Ay, ¿y por qué no?<NL> <WAIT>Ayúdalo con su<NL>entrenamiento<WAIT><FACE:05>¿Pero estás solo?<NL>¿No tienes equipo?<WAIT><FACE:A3>¡Casi todos los<NL>Medabots me obedecen!<WAIT><FACE:00>Es que… llevamos<NL>prisa…<WAIT><FACE:07>¡Con que dominas la<NL>zona! ¡Qué confiable!<WAIT><FACE:07>Nada que ver con otro<NL> <WAIT>¡Anda, <PLAYER>!<NL>¡Robobatalla con él!<WAIT><FACE:A3>¡Se lo agradezco!"
+  },
+  {
+   "key": "str:KBT:5D8470",
+   "src": "c70fc5626d3c",
+   "t": "<FACE:00>De verdad, no tengo ni<NL>la menor idea<WAIT>Si lo llego a ver, le<NL>digo que lo buscas…<WAIT><FACE:A2>····<WAIT><FACE:06>····<WAIT><FACE:A2>¡Buscaré en otro lado!<WAIT><FACE:06>¡Eso me parece mejor!"
+  },
+  {
+   "key": "str:KBT:5D84D0",
+   "src": "431f6d770476",
+   "t": "<FACE:A2>Disculpe…<WAIT><FACE:03>¡Ay!<WAIT><FACE:00>¿…Qué? ¿Un Medabot de<NL>por aquí?<WAIT><FACE:A2>¿No vio por aquí un<NL>Medabot pequeño?<WAIT><FACE:00>¿Un Medabot pequeño…?<WAIT>Aquí hay montones de<NL>Medabots, no sabría…<WAIT><FACE:A2>No sabría…<WAIT>¿No estará mintiendo?<WAIT><FACE:05>¿Qué te pasa?<NL>¿Dudas de nosotros?<WAIT><FACE:A2>No<NL>Solo preguntaba<WAIT><FACE:00>Oye…<WAIT><FACE:06>¿No te parece grosero?<WAIT><FACE:03>¡Oye, Hiyori!<WAIT><FACE:A2>¡Habrá que hacerlos<NL>hablar a la fuerza!"
+  },
+  {
+   "key": "str:KBT:62C84C",
+   "src": "27d909267ef6",
+   "t": "<B:4C><B:BB><B:62><B:08><B:7C><B:BE><B:62><B:08><B:2C><B:BB><B:62><B:08><B:22>"
+  },
+  {
+   "key": "str:KBT:62C864",
+   "src": "76ffc498b8e4",
+   "t": "<B:CE><B:BF><B:62><B:08><B:6E><B:C0><B:62><B:08><B:AE><B:BF><B:62><B:08><B:14>"
+  },
+  {
+   "key": "str:KBT:62C87C",
+   "src": "668fefc58a56",
+   "t": "<B:64><B:B9><B:62><B:08><YESNO><B:BA><B:62><B:08><B:44><B:B9><B:62><B:08><B:06>"
+  },
+  {
+   "key": "str:KBT:62C8AC",
+   "src": "52a1e6c871f9",
+   "t": "<B:66><B:C5><B:62><B:08><B:70><B:C5><B:62><B:08><B:46><B:C5><B:62><B:08><B:14>"
+  },
+  {
+   "key": "str:KBT:6400DB",
+   "src": "33608e010e49",
+   "t": "<B:4C><B:37><B:03><B:10><B:2E><B:13><B:30><B:0E>"
+  },
+  {
+   "key": "str:KBT:6400E4",
+   "src": "7398252db1a0",
+   "t": "<B:14><B:20><B:37><B:0E><B:1D>"
+  },
+  {
+   "key": "str:KBT:6400EA",
+   "src": "dd856148da01",
+   "t": "<B:0B><B:10><B:0A><B:62><B:5F><B:81>"
+  },
+  {
+   "key": "str:KBT:641C83",
+   "src": "f9a11631b85c",
+   "t": "<B:08><B:40><B:5C><B:78><B:08><B:40><B:5D><B:78><B:08>"
+  },
+  {
+   "key": "str:KBT:645190",
+   "src": "6eb5ead2a912",
+   "t": "<B:54><B:51><B:64><B:08><B:5D><B:51><B:64><B:08><B:61><B:51><B:64><B:08><B:6C><B:51><B:64><B:08><B:75><B:51><B:64><B:08><B:7E><B:51><B:64><B:08><B:87><B:51><B:64><B:08>Medalla<B:9E>"
+  },
+  {
+   "key": "str:KBT:6451E8",
+   "src": "92dc2223fc54",
+   "t": "<B:AC><B:51><B:64><B:08><B:B5><B:51><B:64><B:08><B:B9><B:51><B:64><B:08><B:BD><B:51><B:64><B:08><B:C1><B:51><B:64><B:08><B:CA><B:51><B:64><B:08><B:D3><B:51><B:64><B:08><B:DC><B:51><B:64><B:08>Medalla<B:9E>"
+  },
+  {
+   "key": "str:KBT:645240",
+   "src": "76c486a70bb5",
+   "t": "<B:08><B:52><B:64><B:08><B:11><B:52><B:64><B:08><B:1A><B:52><B:64><B:08><B:23><B:52><B:64><B:08><B:2C><B:52><B:64><B:08><B:35><B:52><B:64><B:08><B:38><B:52><B:64><B:08><B:3B><B:52><B:64><B:08>Atr"
+  },
+  {
+   "key": "str:KBT:645264",
+   "src": "85ebf6a8ae73",
+   "t": "Medaf."
+  },
+  {
+   "key": "str:KBT:64526B",
+   "src": "3c6cfc7d8ec7",
+   "t": "Destreza"
+  },
+  {
+   "key": "str:KBT:645274",
+   "src": "e2ad934e7027",
+   "t": "<B:60><B:52><B:64><B:08><B:64><B:52><B:64><B:08><B:6B><B:52><B:64><B:08>Atr"
+  },
+  {
+   "key": "str:KBT:645284",
+   "src": "3c6cfc7d8ec7",
+   "t": "Destr."
+  },
+  {
+   "key": "str:KBT:64528B",
+   "src": "d8257789a368",
+   "t": "Aptitud"
+  },
+  {
+   "key": "str:KBT:645294",
+   "src": "193c312929da",
+   "t": "<B:80><B:52><B:64><B:08><B:84><B:52><B:64><B:08><B:8B><B:52><B:64><B:08>Atr"
+  },
+  {
+   "key": "str:KBT:6452A4",
+   "src": "d8257789a368",
+   "t": "Apt."
+  },
+  {
+   "key": "str:KBT:6452AA",
+   "src": "85ebf6a8ae73",
+   "t": "Medaf."
+  },
+  {
+   "key": "str:KBT:6452B4",
+   "src": "2f57849aed15",
+   "t": "<B:A0><B:52><B:64><B:08><B:A4><B:52><B:64><B:08><B:AA><B:52><B:64><B:08>Medabot"
+  },
+  {
+   "key": "str:KBT:6452E4",
+   "src": "7e3101299003",
+   "t": "<B:C0><B:52><B:64><B:08><B:CA><B:52><B:64><B:08><B:CF><B:52><B:64><B:08><B:D3><B:52><B:64><B:08><B:D6><B:52><B:64><B:08><B:D9><B:52><B:64><B:08><B:DC><B:52><B:64><B:08><B:DF><B:52><B:64><B:08>Medabot"
+  },
+  {
+   "key": "str:KBT:645334",
+   "src": "2f2ad8e84b0d",
+   "t": "<B:04><B:53><B:64><B:08><B:0E><B:53><B:64><B:08><B:18><B:53><B:64><B:08><B:1C><B:53><B:64><B:08><B:1F><B:53><B:64><B:08><B:22><B:53><B:64><B:08><B:25><B:53><B:64><B:08><B:2B><B:53><B:64><B:08><B:2E><B:53><B:64><B:08>Medabot"
+  },
+  {
+   "key": "str:KBT:645388",
+   "src": "889a9d225b8b",
+   "t": "<B:58><B:53><B:64><B:08><B:62><B:53><B:64><B:08><B:6C><B:53><B:64><B:08><B:70><B:53><B:64><B:08><B:73><B:53><B:64><B:08><B:76><B:53><B:64><B:08><B:79><B:53><B:64><B:08><B:7F><B:53><B:64><B:08><B:82><B:53><B:64><B:08>Nombre"
+  }
+ ]
+}

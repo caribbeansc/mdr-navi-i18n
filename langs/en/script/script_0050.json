@@ -1,0 +1,100 @@
+{
+ "part": "script/script_0050",
+ "entries": [
+  {
+   "key": "script:0050:0671",
+   "src": "d7dd195e14b1",
+   "t": "<FACE:00>(Such a clear voice…<NL> this is no ghost…)<WAIT>(There must be<NL>something here!)"
+  },
+  {
+   "key": "script:0050:06AB",
+   "src": "ca58007168e3",
+   "t": "<FACE:04>Hm? What's this hole…<WAIT><FACE:59>Over here…"
+  },
+  {
+   "key": "script:0050:06C7",
+   "src": "671a45297ba0",
+   "t": "<FACE:00>Is the voice coming<NL>from down here…?"
+  },
+  {
+   "key": "script:0050:06E0",
+   "src": "3123dc6bf548",
+   "t": "<FACE:03>Huh…? Waaaaaaaaaah!<NL>"
+  },
+  {
+   "key": "script:0050:06F5",
+   "src": "18dfdd2a2a13",
+   "t": "<FACE:03>Ow, ow, ow…"
+  },
+  {
+   "key": "script:0050:06FF",
+   "src": "ad65d9f36e8f",
+   "t": "<FACE:04>What was that…?<WAIT>Felt like something<NL>pulled me…"
+  },
+  {
+   "key": "script:0050:071D",
+   "src": "c96e7a54863d",
+   "t": "<FACE:03>(Oh, right, this…)"
+  },
+  {
+   "key": "script:0050:072C",
+   "src": "f80838768833",
+   "t": "<FACE:00>Let's see… the<NL>«Semi-Eternal Light»?<WAIT><FACE:02>The stuff Hiyori gives<NL>me works sometimes"
+  },
+  {
+   "key": "script:0050:076A",
+   "src": "5ef158564970",
+   "t": "<FACE:04>(A Medal…?)<WAIT>(What's this pattern…<NL> some kind of larva?)"
+  },
+  {
+   "key": "script:0050:0798",
+   "src": "8e97a2b9ba71",
+   "t": "<FACE:12>Hey, you there!<NL>What are you doing?!"
+  },
+  {
+   "key": "script:0050:07AC",
+   "src": "588e3c707bb3",
+   "t": "<FACE:03>Agh! Of all the times!<WAIT><FACE:01>This is why her stuff<NL>can never be trusted!"
+  },
+  {
+   "key": "script:0050:07DE",
+   "src": "977afac4439e",
+   "t": "<FACE:03>Ah!<WAIT>You're the famous<NL>Medafighter Shiden…"
+  },
+  {
+   "key": "script:0050:0803",
+   "src": "d49bdf03aafc",
+   "t": "<FACE:0F>Hm?<WAIT>Forget that, there's<NL>a light back there…<WAIT>Let's take a look…"
+  },
+  {
+   "key": "script:0050:082E",
+   "src": "3a7241fc4127",
+   "t": "<FACE:12>(This is…!)"
+  },
+  {
+   "key": "script:0050:083A",
+   "src": "07df08d93e87",
+   "t": "<FACE:00>Mistral…"
+  },
+  {
+   "key": "script:0050:0845",
+   "src": "b49c52df1e3b",
+   "t": "<FACE:12>What?<WAIT><FACE:00>It's the name of<NL>this Medabot<WAIT>I just heard it<NL>inside my head"
+  },
+  {
+   "key": "script:0050:0870",
+   "src": "304dcd2268e9",
+   "t": "<FACE:10>(I… didn't hear it)"
+  },
+  {
+   "key": "script:0050:0884",
+   "src": "c177b0ffc143",
+   "t": "<FACE:04>There's definitely<NL>something here…"
+  },
+  {
+   "key": "script:0050:089B",
+   "src": "92e952ae1b8a",
+   "t": "<FACE:00>The school crest<NL>hasn't changed a bit…"
+  }
+ ]
+}

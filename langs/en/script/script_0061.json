@@ -1,0 +1,270 @@
+{
+ "part": "script/script_0061",
+ "entries": [
+  {
+   "key": "script:0061:08BE",
+   "src": "03be38c5243a",
+   "t": "<FACE:03>…Who's that?!<WAIT><FACE:08>Our classmates?<NL>What are they up to?"
+  },
+  {
+   "key": "script:0061:08E7",
+   "src": "2eea0afd1f8b",
+   "t": "<FACE:19>Ah, it's Amamiya, sir"
+  },
+  {
+   "key": "script:0061:08F4",
+   "src": "26959debdc10",
+   "t": "<FACE:14>Tensai's there too<WAIT><FACE:04>…and the last one is…"
+  },
+  {
+   "key": "script:0061:0910",
+   "src": "fccc9f402275",
+   "t": "<FACE:06>That's Nadare!<NL><WAIT>At least learn your<NL>classmates' names!"
+  },
+  {
+   "key": "script:0061:0935",
+   "src": "a449dd2a7164",
+   "t": "<FACE:2C>Ah! <PLAYER>"
+  },
+  {
+   "key": "script:0061:093C",
+   "src": "5441275e6747",
+   "t": "<FACE:2F>Oh my, everyone's<NL>here…"
+  },
+  {
+   "key": "script:0061:094E",
+   "src": "218622ed4761",
+   "t": "<FACE:29>……"
+  },
+  {
+   "key": "script:0061:0955",
+   "src": "13820887bd7e",
+   "t": "<FACE:05>No idea what you're<NL>doing, but weird guys<WAIT>from the Sperobo Gang<NL>are around. Watch out"
+  },
+  {
+   "key": "script:0061:098F",
+   "src": "e7c9b9465764",
+   "t": "<FACE:2A>Sorry, no one gets<NL>past here…"
+  },
+  {
+   "key": "script:0061:09A1",
+   "src": "16d0bbabd957",
+   "t": "<FACE:08>What? Why not!<WAIT><FACE:2A>…Hmph!<WAIT><FACE:29>You're not the only<NL>ones after a way out…"
+  },
+  {
+   "key": "script:0061:09DF",
+   "src": "24afcca83b32",
+   "t": "<FACE:04>Even so…<NL><WAIT>Why won't you let us<NL>through?"
+  },
+  {
+   "key": "script:0061:09FB",
+   "src": "3ba0c7fe8c08",
+   "t": "<FACE:2A>…Hmph!"
+  },
+  {
+   "key": "script:0061:0A03",
+   "src": "1040df94babc",
+   "t": "<FACE:2B>We must find an escape<NL>route with a better<WAIT>chance of working"
+  },
+  {
+   "key": "script:0061:0A33",
+   "src": "567cc72a5402",
+   "t": "<FACE:08>That's no answer!<WAIT><FACE:2D>What an impatient one…<NL><WAIT><FACE:2B>Have you thought about<NL>securing food?<WAIT>Stranded as we are,<NL>food comes first"
+  },
+  {
+   "key": "script:0061:0A9D",
+   "src": "fecc7e5ccb72",
+   "t": "<FACE:03>I see…"
+  },
+  {
+   "key": "script:0061:0AA6",
+   "src": "5ad07ac91b9d",
+   "t": "<FACE:2D>So you hadn't thought<NL>about it after all…<WAIT><FACE:2B>Which is exactly why<NL>we have to do it<WAIT>…That's right<NL><WAIT>Food is stored in this<NL>Block<WAIT>So we're the ones who<NL>must hold this Block"
+  },
+  {
+   "key": "script:0061:0B1F",
+   "src": "6ab2920b95a3",
+   "t": "<FACE:04>But that alone won't<NL>convince us<WAIT>Why not work together?"
+  },
+  {
+   "key": "script:0061:0B4E",
+   "src": "215d9c437b0b",
+   "t": "<FACE:2A>Hmph!<WAIT><FACE:29>I don't rely on other<NL>people's strength…<WAIT><FACE:2B>Amamiya's strength and<NL>my brains are enough"
+  },
+  {
+   "key": "script:0061:0B8A",
+   "src": "894caa3abfe1",
+   "t": "<FACE:0D>Huh… bold words<WAIT><FACE:08>And Nadare, then?"
+  },
+  {
+   "key": "script:0061:0BA9",
+   "src": "1e964a59ba83",
+   "t": "<FACE:2F>…I'm just tagging<NL>along…"
+  },
+  {
+   "key": "script:0061:0BC1",
+   "src": "daedd10d75d9",
+   "t": "<FACE:00>All right…<NL>We won't interfere<WAIT><FACE:04>But we have to keep<NL>moving forward too<WAIT>Could you let us by?<WAIT><FACE:2A>No one passes here!"
+  },
+  {
+   "key": "script:0061:0C11",
+   "src": "7089708059ab",
+   "t": "<FACE:2D>Strange… by my math<NL>we can't have lost…<WAIT><FACE:2A>Hmph!"
+  },
+  {
+   "key": "script:0061:0C3B",
+   "src": "0b7e15eb43ea",
+   "t": "<FACE:2F>…What do we do now?<WAIT><FACE:00>No point fighting each<NL>other. Let's team up!"
+  },
+  {
+   "key": "script:0061:0C71",
+   "src": "5d424012ff7e",
+   "t": "<FACE:29>Hmph…<NL><WAIT>I won't borrow your<NL>strength…"
+  },
+  {
+   "key": "script:0061:0C8B",
+   "src": "5e4be3108eca",
+   "t": "<FACE:2B>Do your best not to<NL>get in our way"
+  },
+  {
+   "key": "script:0061:0CAA",
+   "src": "b2acecfa007e",
+   "t": "<FACE:2F>…Please wait for me<NL>I'm coming along too…"
+  },
+  {
+   "key": "script:0061:0CC9",
+   "src": "69279725f8a3",
+   "t": "<FACE:05>Look!<NL><PLAYER>!<WAIT><FACE:07>A candy house!<NL>Soooo cuuuute!!"
+  },
+  {
+   "key": "script:0061:0CEB",
+   "src": "b7cb78ba0c8b",
+   "t": "<FACE:16>It sure is!<NL>Looks tastyyyy!!"
+  },
+  {
+   "key": "script:0061:0CFD",
+   "src": "7e7957ddf3d4",
+   "t": "<FACE:06>Honestly! Gluttons!<NL>Is food all you know?"
+  },
+  {
+   "key": "script:0061:0D1F",
+   "src": "4337188b69a6",
+   "t": "<FACE:15>What're ya sayin'!<NL>Ya wanna eat it too!"
+  },
+  {
+   "key": "script:0061:0D42",
+   "src": "096b26f0fe47",
+   "t": "<FACE:0B>More to the point,<NL>isn't this fishy?"
+  },
+  {
+   "key": "script:0061:0D6D",
+   "src": "a9277c4b2749",
+   "t": "<FACE:14>Aaah, that smell…<NL>I just…<WAIT><FACE:16>Can't take it!"
+  },
+  {
+   "key": "script:0061:0D8A",
+   "src": "c52aa2fb52a1",
+   "t": "<FACE:08>H-hey, hold on a<NL>second!"
+  },
+  {
+   "key": "script:0061:0D9D",
+   "src": "906890477892",
+   "t": "<FACE:18>Ohhh nooo! Somebody<NL>help me!"
+  },
+  {
+   "key": "script:0061:0DAF",
+   "src": "76c54e4fdb7f",
+   "t": "<FACE:03>What happened!?"
+  },
+  {
+   "key": "script:0061:0DB8",
+   "src": "ccb4b0ebf491",
+   "t": "<FACE:75>Guh hu hu hu… cough,<NL>cough…<WAIT>To catch kids, sweets<NL>are best, I thought<WAIT>so I staked it out…<NL>cough… worked so well"
+  },
+  {
+   "key": "script:0061:0E0B",
+   "src": "4017dd3fe727",
+   "t": "<FACE:01>Are you a Sperobo Boss<NL>too!?<WAIT><FACE:75>Indeed… I am a Boss<NL>of the Sperobo Gang<WAIT>Smog of the Forest!<NL>…cough<WAIT>…A man who can't live<NL>without clean air…"
+  },
+  {
+   "key": "script:0061:0E6A",
+   "src": "b57c0c2fbc9a",
+   "t": "<FACE:00>Isn't that just called<NL>being sickly…<WAIT><FACE:75>Anyway… you kids will<NL>join the Sperobos…<WAIT>And for life, so I can<NL>bathe in forest air…<WAIT>you'll keep the trees<NL>growing… cough…"
+  },
+  {
+   "key": "script:0061:0EDF",
+   "src": "fbd3a59df9a6",
+   "t": "<FACE:18>That's just cruel…<NL><PLAYER>, help me out!"
+  },
+  {
+   "key": "script:0061:0EF7",
+   "src": "52776ef976f6",
+   "t": "<FACE:06>Honestly! Running off<NL>alone and then this…"
+  },
+  {
+   "key": "script:0061:0F19",
+   "src": "0da38b4a908e",
+   "t": "<FACE:06>Oh, fine… <PLAYER>!<NL>Finish him off!"
+  },
+  {
+   "key": "script:0061:0F36",
+   "src": "9cfb5580792a",
+   "t": "<FACE:03>…Hiyori's acting like<NL>a different person…"
+  },
+  {
+   "key": "script:0061:0F4D",
+   "src": "0c46ff50dda5",
+   "t": "<FACE:77>Cough… don't think<NL>this ends here…"
+  },
+  {
+   "key": "script:0061:0F67",
+   "src": "0bae71ae7941",
+   "t": "<FACE:04>It's kind of painful<NL>to watch…"
+  },
+  {
+   "key": "script:0061:0F78",
+   "src": "e55b13ae9a0c",
+   "t": "<FACE:05>No need to feel sorry<NL>This Block's ours now"
+  },
+  {
+   "key": "script:0061:0FA3",
+   "src": "03d29a8ca473",
+   "t": "<FACE:07>…And so…<NL>where do we bite in?"
+  },
+  {
+   "key": "script:0061:0FC0",
+   "src": "6ae42c28c292",
+   "t": "<FACE:00>It's too early to go<NL>back"
+  },
+  {
+   "key": "script:0061:0FD0",
+   "src": "9a9abf664942",
+   "t": "<FACE:05>From here on it's up<NL>to you"
+  },
+  {
+   "key": "script:0061:0FE2",
+   "src": "3b46719cce5e",
+   "t": "<FACE:0A>Go on ahead"
+  },
+  {
+   "key": "script:0061:0FF1",
+   "src": "f4b9848d6553",
+   "t": "<FACE:19>Looks like you can<NL>climb trees here, sir"
+  },
+  {
+   "key": "script:0061:1005",
+   "src": "c16221c601a1",
+   "t": "<FACE:16>All this green<NL>feels real nice"
+  },
+  {
+   "key": "script:0061:101B",
+   "src": "bfed35e22e85",
+   "t": "<FACE:03>Now that I think…<NL><WAIT><FACE:00>That «gloomy kid» Boss<NL>Sekiran mentioned…<WAIT>wasn't that Amamiya<NL>after all…?"
+  },
+  {
+   "key": "script:0061:105D",
+   "src": "0b06aceb8be6",
+   "t": "<FACE:04>Then who on earth was<NL>it?"
+  }
+ ]
+}

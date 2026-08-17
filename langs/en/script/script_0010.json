@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0010",
+ "entries": [
+  {
+   "key": "script:0010:02AE",
+   "src": "d4d231baa792",
+   "t": "<FACE:7D>Look-robo!<NL>Look at this-robo!!"
+  },
+  {
+   "key": "script:0010:02BF",
+   "src": "37e14220bf06",
+   "t": "<FACE:7D>What is it-robo?<NL><WAIT>A letter from the Sea<NL>Boss, Sekiran-robo!"
+  },
+  {
+   "key": "script:0010:02E0",
+   "src": "0a909176ca10",
+   "t": "<FACE:7D>It's just more hassle<NL>again-robo…"
+  },
+  {
+   "key": "script:0010:02F3",
+   "src": "d28d16f27125",
+   "t": "<FACE:7D>That's not it-robo!<NL>Read it-robo!"
+  },
+  {
+   "key": "script:0010:0303",
+   "src": "3b67bd9a0b77",
+   "t": "<FACE:7D>Umm…<NL>«Dear<WAIT> members of the Block<NL> next door…»<NL><WAIT>She's writing all<NL>polite again-robo!<NL><WAIT>Just like last<NL>time-robo…<NL><WAIT><FACE:57>«Sorry, I think I put<NL> it badly last time»"
+  },
+  {
+   "key": "script:0010:0378",
+   "src": "f75c3a43a111",
+   "t": "<FACE:80>N-no it's not-robo!<NL>Way different-robo<WAIT>That's right-robo!<WAIT><FACE:7D>What-robo!<NL>What's it say-robo!<WAIT>Wait-robo, I haven't<NL>read that far yet"
+  },
+  {
+   "key": "script:0010:03CE",
+   "src": "a0da7820b114",
+   "t": "<FACE:57>«Asking you lot for a<NL> serious favor<WAIT> was my mistake»<NL><WAIT>«Try making a racket<NL> late at night again!<WAIT> I'll come in person<NL> and make you sorry»<WAIT>«Well?! Got that?!»<NL>…robo"
+  },
+  {
+   "key": "script:0010:0448",
+   "src": "672f3b26ada4",
+   "t": "<FACE:7D>Th-that's worse than<NL>before-robo!"
+  },
+  {
+   "key": "script:0010:0458",
+   "src": "04ade64590a9",
+   "t": "<FACE:00>Huh?<NL>Something's gloomy<WAIT><FACE:00>Didn't they perk up<NL>the other day…?"
+  },
+  {
+   "key": "script:0010:0480",
+   "src": "9598443b5a1b",
+   "t": "<FACE:7E>You'll pay for this<NL>sadness of ours-robo!"
+  },
+  {
+   "key": "script:0010:0499",
+   "src": "599bd2cf1c02",
+   "t": "<FACE:7D>Phew…<NL><WAIT>Getting thrashed<NL>cleared us up-robo<WAIT>We'll be back-robo!"
+  },
+  {
+   "key": "script:0010:04BF",
+   "src": "9d1de33f09c4",
+   "t": "<FACE:0A>They come here just<NL>to get beaten?"
+  },
+  {
+   "key": "script:0010:04CD",
+   "src": "b93f03551f1d",
+   "t": "<FACE:00>Who knows…"
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "part": "script/script_0057",
+ "entries": [
+  {
+   "key": "script:0057:0478",
+   "src": "ab4240764c8b",
+   "t": "<FACE:05>This place is creepy…<WAIT><FACE:09>Makes me think of that<NL>gloomy Boss…"
+  },
+  {
+   "key": "script:0057:04AE",
+   "src": "718a5ce9563d",
+   "t": "<FACE:03>Ah!"
+  },
+  {
+   "key": "script:0057:04B4",
+   "src": "a2298d59a31d",
+   "t": "<FACE:08>Ugh, aren't those the<NL>otaku from our class?"
+  },
+  {
+   "key": "script:0057:04D1",
+   "src": "9e5f2e8e45cc",
+   "t": "<FACE:3F>Ki-ri-kaaaaaa!<NL>So moe, so moe!"
+  },
+  {
+   "key": "script:0057:04E9",
+   "src": "52ebdc564219",
+   "t": "<FACE:41>So moe, nyaaa!"
+  },
+  {
+   "key": "script:0057:04F6",
+   "src": "3c4c2e6594d8",
+   "t": "<FACE:43>So moe, verily"
+  },
+  {
+   "key": "script:0057:0502",
+   "src": "1396ea182300",
+   "t": "<FACE:74>…So… everyone…<NL><WAIT>…join the Sperobo Gang<NL>with me…?"
+  },
+  {
+   "key": "script:0057:052C",
+   "src": "319ea5223101",
+   "t": "<FACE:3F>Of course we will!"
+  },
+  {
+   "key": "script:0057:0537",
+   "src": "2cb3c848c244",
+   "t": "<FACE:41>We're in, nyaaa!"
+  },
+  {
+   "key": "script:0057:0541",
+   "src": "d48bd5d8bcf1",
+   "t": "<FACE:43>I shall enlist, verily"
+  },
+  {
+   "key": "script:0057:0555",
+   "src": "63863dcee28e",
+   "t": "<FACE:03>Huh? What's going on?!"
+  },
+  {
+   "key": "script:0057:0561",
+   "src": "f9fc6e9b923b",
+   "t": "<FACE:40>Nngh!<NL><WAIT>It's our hated enemy,<NL><PLAYER>!<WAIT><FACE:42><PLAYER>, nya!<WAIT><FACE:44><PLAYER>, verily!"
+  },
+  {
+   "key": "script:0057:0590",
+   "src": "8ffe20aa10a0",
+   "t": "<FACE:73>…everyone… take him<NL>down…"
+  },
+  {
+   "key": "script:0057:05A6",
+   "src": "328c6452065d",
+   "t": "<FACE:3F>Aaaall right!<NL>Kirika's asking us!<WAIT>Let's take down<NL><PLAYER>!"
+  },
+  {
+   "key": "script:0057:05CC",
+   "src": "77aa5cf0880b",
+   "t": "<FACE:41>Take him down, nya!"
+  },
+  {
+   "key": "script:0057:05D9",
+   "src": "4b2b874c6d79",
+   "t": "<FACE:43>Take him down, verily!"
+  },
+  {
+   "key": "script:0057:05E7",
+   "src": "7e2b861a1d9c",
+   "t": "<FACE:06>H-hey… hold on, you!<NL><WAIT>You called <PLAYER><NL>your destined one…<WAIT>And now what's this?!"
+  },
+  {
+   "key": "script:0057:0620",
+   "src": "b6753a5f5e4d",
+   "t": "<FACE:3F>What did you say?!<WAIT><FACE:40>Is it true, <PLAYER>?!<NL>Answer me!<WAIT><FACE:42>Answer, nya!<WAIT><FACE:44>Answer, verily!<WAIT><FACE:00>Yeah, it's true?<WAIT><FACE:3F>She called me her<NL>destined one too!?<WAIT><FACE:41>Me too, nya?<WAIT><FACE:43>This one too, verily?"
+  },
+  {
+   "key": "script:0057:06A1",
+   "src": "10892087a8d6",
+   "t": "<FACE:3F>Whaaat! You guys too?<WAIT><FACE:41>You guys too, nya?<WAIT><FACE:43>Ye as well, verily?"
+  },
+  {
+   "key": "script:0057:06D0",
+   "src": "35b97fb3b466",
+   "t": "<FACE:40>That's awful, Kirika!<NL><WAIT>I thought fate tied us<NL>together, so I came!<WAIT>This is betrayal!"
+  },
+  {
+   "key": "script:0057:070D",
+   "src": "08a15dd07427",
+   "t": "<FACE:42>Betrayal, nya!"
+  },
+  {
+   "key": "script:0057:071A",
+   "src": "52dbb479e1d3",
+   "t": "<FACE:44>Mutiny, verily!<NL>(←not quite the same)"
+  },
+  {
+   "key": "script:0057:0730",
+   "src": "54b7deadeb5d",
+   "t": "<FACE:40>Mmmmmm… but…<WAIT><FACE:3F>I just can't hate<NL>Kirikaaaaa!<WAIT><FACE:41>Can't hate her, nya!<WAIT><FACE:43>Hate overflows into<NL>×100 cuteness, verily"
+  },
+  {
+   "key": "script:0057:0782",
+   "src": "699a428fa115",
+   "t": "<FACE:40>I'm taking all this<NL>rage out on you!<WAIT>A Robattle decides it!"
+  },
+  {
+   "key": "script:0057:07A7",
+   "src": "2b0f12356f76",
+   "t": "<FACE:42>Let's fight, nya!"
+  },
+  {
+   "key": "script:0057:07B4",
+   "src": "a1aec3cedc54",
+   "t": "<FACE:44>Let's fight, verily!"
+  },
+  {
+   "key": "script:0057:07C1",
+   "src": "49db0459db3b",
+   "t": "<FACE:73>…hopeless… <PLAYER>…<NL>…you're my destiny…"
+  },
+  {
+   "key": "script:0057:07EA",
+   "src": "0f066266bc6b",
+   "t": "<FACE:40>Uoooooooooh!<WAIT><FACE:42>Uooooh, nya!<WAIT><FACE:44>Uooooh, verily!"
+  },
+  {
+   "key": "script:0057:0818",
+   "src": "0ef5bb02dd09",
+   "t": "<FACE:04>Um… you guys…"
+  },
+  {
+   "key": "script:0057:0826",
+   "src": "78fff26833b8",
+   "t": "<FACE:40>Shut up, <PLAYER>!<NL><WAIT>Childhood pals with<NL>Hiyori, popular too?!<WAIT>We know way more about<NL>Medabots than you do<WAIT>But you find the space<NL>Medabot, get famous!<WAIT>Why is it always you?<WAIT><FACE:42>Why you, nya?<WAIT><FACE:44>Why thee, verily?"
+  },
+  {
+   "key": "script:0057:08C2",
+   "src": "ccf564ecd3c0",
+   "t": "<FACE:04>The space Medabot…<NL>Mistral… why… why me?"
+  },
+  {
+   "key": "script:0057:08E8",
+   "src": "06f04c926372",
+   "t": "<FACE:40>It's all just luck!<NL><WAIT><PLAYER> is just<NL>plain lucky!<WAIT><FACE:42>Just lucky, nya!<WAIT><FACE:44>Just lucky, verily!"
+  },
+  {
+   "key": "script:0057:0929",
+   "src": "0df90157f96c",
+   "t": "<FACE:04>…Luck…"
+  },
+  {
+   "key": "script:0057:0932",
+   "src": "dc9a1e01ea69",
+   "t": "<FACE:73>…Robattle… let's go…"
+  },
+  {
+   "key": "script:0057:0944",
+   "src": "98a13d3a25d2",
+   "t": "<FACE:73>…<PLAYER>…<NL>we'll meet… again…"
+  },
+  {
+   "key": "script:0057:0958",
+   "src": "e8dfb4a34872",
+   "t": "<FACE:04>Luck, huh… Maybe I<NL>really am…"
+  },
+  {
+   "key": "script:0057:096B",
+   "src": "55b0e1a9c3e4",
+   "t": "<FACE:05>Hey, you guys<NL>Saw that Robattle?<WAIT><PLAYER> isn't just<NL>luck, get it?<WAIT>Everybody's off doing<NL>their own thing,<WAIT>and he's trying his<NL>hardest to unite us<WAIT>Going off on your own<NL>and just complaining…<WAIT>that's pretty uncool!"
+  },
+  {
+   "key": "script:0057:09FA",
+   "src": "37ffa96eb520",
+   "t": "<FACE:3F>Well… I do think so…<WAIT><FACE:41>I think so, nya<WAIT><FACE:43>I think so, veri…"
+  },
+  {
+   "key": "script:0057:0A1F",
+   "src": "d450f7d3976a",
+   "t": "<FACE:06>See!<NL><WAIT>Quit following others<NL>Say what you think!<WAIT>That's boring!"
+  },
+  {
+   "key": "script:0057:0A59",
+   "src": "4c31cc191d58",
+   "t": "<FACE:41>Got it, nya…<WAIT><FACE:41>It's true… <PLAYER><NL>really tries, nya<WAIT><FACE:43>I accept him as leader<NL>and lend aid, verily…"
+  },
+  {
+   "key": "script:0057:0A97",
+   "src": "98243cad84c6",
+   "t": "<FACE:04>Mistral… why me…?<NL>"
+  },
+  {
+   "key": "script:0057:0AAA",
+   "src": "08546639d055",
+   "t": "<FACE:09>Gives me the shivers…"
+  },
+  {
+   "key": "script:0057:0ABA",
+   "src": "7374b9f82bde",
+   "t": "<FACE:0A>Feels like a ghost<NL>could pop out here"
+  },
+  {
+   "key": "script:0057:0ACF",
+   "src": "2887b2734c39",
+   "t": "<FACE:19>Perfect spot for a<NL>hideout"
+  },
+  {
+   "key": "script:0057:0AE1",
+   "src": "47c5f36623b6",
+   "t": "<FACE:14>What, wanna turn back?<NL><PLAYER> scares easy"
+  },
+  {
+   "key": "script:0057:0AFE",
+   "src": "865588cdc9b9",
+   "t": "<FACE:3F>Shinsui joined the<NL>team!<WAIT><FACE:41>Amaashi joined the<NL>team!<WAIT><FACE:43>Nigemizu joined the<NL>team!"
+  }
+ ]
+}

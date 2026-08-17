@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0029",
+ "entries": [
+  {
+   "key": "script:0029:2AFE",
+   "src": "d6880a48c88e",
+   "t": "<FACE:03>Wh-where is this?"
+  },
+  {
+   "key": "script:0029:2B09",
+   "src": "47b05016d5cd",
+   "t": "<FACE:12>Where are we…?<WAIT><FACE:09>S-somehow… this feels<NL>different from before"
+  },
+  {
+   "key": "script:0029:2B33",
+   "src": "fd53031e4764",
+   "t": "<FACE:04>I feel like I've seen<NL>this place somewhere…"
+  },
+  {
+   "key": "script:0029:2B49",
+   "src": "ebf7aab2876f",
+   "t": "<FACE:08>Isn't this the old gym<NL>at our school?"
+  },
+  {
+   "key": "script:0029:2B6F",
+   "src": "2394a93ba7a5",
+   "t": "<FACE:1C>Did we come back here?"
+  },
+  {
+   "key": "script:0029:2B7E",
+   "src": "4ce8c6a25716",
+   "t": "<FACE:14>Nah, that can't be…"
+  },
+  {
+   "key": "script:0029:2B8F",
+   "src": "df8a781de86e",
+   "t": "<FACE:0F>This place… I remember<NL><WAIT><PLAYER> and I found<NL>Mistral right here…"
+  },
+  {
+   "key": "script:0029:2BB2",
+   "src": "5a52d06aa7e6",
+   "t": "<FACE:03>Right… I fell into<NL>that hole over there…"
+  },
+  {
+   "key": "script:0029:2BCC",
+   "src": "d23832785bf1",
+   "t": "<FACE:6E>This takes me back…<NL>An old Earth school…"
+  },
+  {
+   "key": "script:0029:2BF3",
+   "src": "57e29c370817",
+   "t": "<FACE:70>My school isn't this<NL>retro, you know"
+  },
+  {
+   "key": "script:0029:2C0D",
+   "src": "a679aa873349",
+   "t": "<FACE:72>…But somehow<NL>it tugs at my heart"
+  },
+  {
+   "key": "script:0029:2C26",
+   "src": "56c4c87ae049",
+   "t": "<FACE:6A>Stay back… don't come<NL>any closer!<WAIT><FACE:00>Huh? Professor,<NL>what's wrong?"
+  },
+  {
+   "key": "script:0029:2C4A",
+   "src": "cfa4823e69a3",
+   "t": "<FACE:08>Aaaaaaaaah!<WAIT><FACE:03>What was thaaat?"
+  }
+ ]
+}

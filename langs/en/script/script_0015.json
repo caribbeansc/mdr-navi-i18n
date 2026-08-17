@@ -1,0 +1,110 @@
+{
+ "part": "script/script_0015",
+ "entries": [
+  {
+   "key": "script:0015:0519",
+   "src": "12b4c0b19375",
+   "t": "<FACE:7D>Miss Kirika…-robo"
+  },
+  {
+   "key": "script:0015:0526",
+   "src": "68a607fc8b3d",
+   "t": "<FACE:7D>Whatcha doing-robo?"
+  },
+  {
+   "key": "script:0015:0532",
+   "src": "ed5a387b8bb2",
+   "t": "<FACE:81>Huh? …Nothing-robo"
+  },
+  {
+   "key": "script:0015:0543",
+   "src": "11d31dea0ffe",
+   "t": "<FACE:7D>…What'd you hide-robo?<NL>Show me-robo"
+  },
+  {
+   "key": "script:0015:055A",
+   "src": "d99fc74bfb8c",
+   "t": "<FACE:7D>S-stop it-robo…"
+  },
+  {
+   "key": "script:0015:0566",
+   "src": "56f582c286f7",
+   "t": "<FACE:09>What's all the noise?"
+  },
+  {
+   "key": "script:0015:0574",
+   "src": "cd19dc72efc6",
+   "t": "<FACE:00>But I don't see<NL>anything"
+  },
+  {
+   "key": "script:0015:0584",
+   "src": "0e731bcab910",
+   "t": "<FACE:08>Eek!"
+  },
+  {
+   "key": "script:0015:058A",
+   "src": "1075e8708520",
+   "t": "<FACE:80>S-sorry-robo!"
+  },
+  {
+   "key": "script:0015:0595",
+   "src": "51c1461dbbde",
+   "t": "<FACE:7D>Wait-robo!<NL><WAIT>Show me-robo!<NL>"
+  },
+  {
+   "key": "script:0015:05AA",
+   "src": "0d0d60b1d94b",
+   "t": "<FACE:06>Hey! What's your deal?<NL><WAIT>Knock it off already!<NL>You lot… hm?"
+  },
+  {
+   "key": "script:0015:05D4",
+   "src": "d861efb9bfb6",
+   "t": "<FACE:05>What's this?"
+  },
+  {
+   "key": "script:0015:05DD",
+   "src": "96807a661357",
+   "t": "<FACE:08>Ew! This is Kirika!"
+  },
+  {
+   "key": "script:0015:05F0",
+   "src": "8c21b3e9b7b1",
+   "t": "<FACE:7E>Ah! Give it back-robo"
+  },
+  {
+   "key": "script:0015:0629",
+   "src": "0b82330d8df7",
+   "t": "<FACE:04>Geez, what a mess…"
+  },
+  {
+   "key": "script:0015:0634",
+   "src": "59eaf934ef49",
+   "t": "<FACE:0A>What's wrong?<NL>Huh, the Sperobos!"
+  },
+  {
+   "key": "script:0015:0648",
+   "src": "e3c06e9b9d20",
+   "t": "<FACE:81>M-my photo of Miss<NL>Kirika…"
+  },
+  {
+   "key": "script:0015:065D",
+   "src": "405d0f9aa243",
+   "t": "<FACE:81>I can't go on-robo…"
+  },
+  {
+   "key": "script:0015:0670",
+   "src": "dcd95c69e514",
+   "t": "<FACE:7D>Don't cry-robo<NL>Cheer up-robo"
+  },
+  {
+   "key": "script:0015:0680",
+   "src": "68035033813e",
+   "t": "<FACE:04>I feel kinda bad<NL>about that…"
+  },
+  {
+   "key": "script:0015:0696",
+   "src": "41116391076d",
+   "t": "<FACE:05>S… sorryyy<NL>Did it get torn?<WAIT>I just get carried<NL>away when I Robattle…"
+  }
+ ]
+}

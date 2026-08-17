@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0005",
+ "entries": [
+  {
+   "key": "script:0005:0297",
+   "src": "ae089c9f4cc3",
+   "t": "<FACE:7D>Posted to a tiny room?<NL>We're losers-robo!"
+  },
+  {
+   "key": "script:0005:02C8",
+   "src": "c4d3acf7595e",
+   "t": "<FACE:7D>Can't be helped-robo…<NL>In the gang Robattles<WAIT>we lose in round one<NL>every time-robo…<WAIT>We only get the jobs<NL>nobody wants-robo…"
+  },
+  {
+   "key": "script:0005:0326",
+   "src": "fa366a6106ef",
+   "t": "<FACE:7D>We've gotta beat those<NL>middle schoolers and<WAIT>show our worth-robo!"
+  },
+  {
+   "key": "script:0005:0359",
+   "src": "1e486720f9e3",
+   "t": "<FACE:7D>But they're strong…<NL>Too hard to win-robo…"
+  },
+  {
+   "key": "script:0005:0383",
+   "src": "cb6be13e127f",
+   "t": "<FACE:7D>That's why a win means<NL>promotion! Go-robo!"
+  },
+  {
+   "key": "script:0005:03A3",
+   "src": "fcf12e160143",
+   "t": "<FACE:00>Huh? Another small<NL>Block… Let's hurry…"
+  },
+  {
+   "key": "script:0005:03C4",
+   "src": "5cd25128b307",
+   "t": "<FACE:7E>Not so fast-robo!<NL>Beat you and move up!"
+  },
+  {
+   "key": "script:0005:03E6",
+   "src": "d10138136beb",
+   "t": "<FACE:81>I knew it'd end up<NL>like this-robo…"
+  },
+  {
+   "key": "script:0005:03FC",
+   "src": "26ef64c2e458",
+   "t": "<FACE:7E>That negative thinking<NL>is no good-robo!<WAIT>Maybe they'll move us<NL>to a key Block-robo!"
+  },
+  {
+   "key": "script:0005:043A",
+   "src": "24bc4cd5ce2c",
+   "t": "<FACE:7D>I doubt that-robo…"
+  },
+  {
+   "key": "script:0005:044C",
+   "src": "e55ef69c398a",
+   "t": "<FACE:04>Looks like they were<NL>having a serious talk"
+  },
+  {
+   "key": "script:0005:0463",
+   "src": "cffba74e4fff",
+   "t": "<FACE:05>…Well, whatever<NL><WAIT>Anyway, let's secure<NL>this place"
+  }
+ ]
+}

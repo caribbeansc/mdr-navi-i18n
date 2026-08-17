@@ -1,0 +1,95 @@
+{
+ "part": "script/script_0013",
+ "entries": [
+  {
+   "key": "script:0013:03C1",
+   "src": "3e0aa535237f",
+   "t": "<FACE:7D>Sent off to a place<NL>like this again-robo…"
+  },
+  {
+   "key": "script:0013:03D8",
+   "src": "9b13d0d2efbf",
+   "t": "<FACE:7D>That's not it-robo!<NL>At last, our turn!"
+  },
+  {
+   "key": "script:0013:03F4",
+   "src": "3902f96fe854",
+   "t": "<FACE:7D>Is that so-robo?<WAIT>Right-robo! Robattling<NL>won't conquer space<WAIT>Let the strong ones do<NL>the Robattling-robo"
+  },
+  {
+   "key": "script:0013:043F",
+   "src": "5adf3450ccab",
+   "t": "<FACE:7D>We work with our heads<NL><WAIT>'Unsung heroes'-robo!<NL>"
+  },
+  {
+   "key": "script:0013:046C",
+   "src": "5d91c539f6a2",
+   "t": "<FACE:00>Another small Block…<NL>"
+  },
+  {
+   "key": "script:0013:047F",
+   "src": "fdf483f5daaf",
+   "t": "<FACE:0A>A tiny place like this<NL>can't have anything<WAIT><FACE:00>True, and we're in a<NL>hurry…"
+  },
+  {
+   "key": "script:0013:04AD",
+   "src": "2f0a9bb425e9",
+   "t": "<FACE:80>This is terrible-robo!<NL>They're here-robo!<WAIT>If they take it, the<NL>Sperobos are doomed!"
+  },
+  {
+   "key": "script:0013:04E1",
+   "src": "3ddf5cdea52b",
+   "t": "<FACE:7D>Worse than that-robo:<NL>we'd lose our home!"
+  },
+  {
+   "key": "script:0013:04FD",
+   "src": "a531f6200cdb",
+   "t": "<FACE:7D>Not that-robo!<NL>We'll defend it-robo!"
+  },
+  {
+   "key": "script:0013:051B",
+   "src": "8c6ff858cc5b",
+   "t": "<FACE:7D>You're not getting<NL>past here-robo!<WAIT><FACE:00>Sperobos way out here…<NL>Talk about free time<WAIT><FACE:7D>What'd you say-robo!<NL>This place is…"
+  },
+  {
+   "key": "script:0013:0567",
+   "src": "f80a3d51f187",
+   "t": "<FACE:7E>Idiot-robo!<NL><WAIT>This is a key spot for<NL>the Sperobo Gang!<WAIT>Why blurt it out<NL>like that-robo!"
+  },
+  {
+   "key": "script:0013:059A",
+   "src": "d4aa7fb343d9",
+   "t": "<FACE:7D>S-sorry-robo!"
+  },
+  {
+   "key": "script:0013:05A6",
+   "src": "958ee4011d73",
+   "t": "<FACE:7D>So anyway, there's<NL>nothing here-robo<WAIT>Go somewhere else-robo<NL>before you get hurt!"
+  },
+  {
+   "key": "script:0013:05D8",
+   "src": "5e9db96b424a",
+   "t": "<FACE:14>Quite a find, actually"
+  },
+  {
+   "key": "script:0013:05EB",
+   "src": "fb05b7949a3e",
+   "t": "<FACE:19>Let's finish them off!"
+  },
+  {
+   "key": "script:0013:05F8",
+   "src": "df7a87a94346",
+   "t": "<FACE:7D>W-we got beaten-robo…<WAIT>The Boss'll chew us<NL>out again-robo…<WAIT>There goes our place<NL>to belong-robo…"
+  },
+  {
+   "key": "script:0013:0639",
+   "src": "f0cb824cb426",
+   "t": "<FACE:05>Now then, what's here?<WAIT><FACE:00>They said it was<NL>something important"
+  },
+  {
+   "key": "script:0013:0661",
+   "src": "e97f946d73ef",
+   "t": "<FACE:05>Are these paper roses?<WAIT><FACE:00>…Looks like it<WAIT><FACE:05>A side job…?<WAIT><FACE:00>This is what's so<NL>important…?"
+  }
+ ]
+}

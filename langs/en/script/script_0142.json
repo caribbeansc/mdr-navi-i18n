@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0142",
+ "entries": [
+  {
+   "key": "script:0142:0226",
+   "src": "b7eb8d1d5ede",
+   "t": "<FACE:0A>…Oh, it's you, <PLAYER>"
+  },
+  {
+   "key": "script:0142:0230",
+   "src": "38a4d7ebb1e3",
+   "t": "<FACE:0A>Right here, wasn't it…<NL><WAIT>Where we started out<NL>together…"
+  },
+  {
+   "key": "script:0142:0259",
+   "src": "aa8fb19c1a8e",
+   "t": "<FACE:00>Yeah…<DELAY:003C><NL>You're right…"
+  },
+  {
+   "key": "script:0142:026C",
+   "src": "8442bb24b2f4",
+   "t": "<FACE:0C>How about a Robattle,<NL>like old times!"
+  },
+  {
+   "key": "script:0142:027E",
+   "src": "f14c750f6e85",
+   "t": "<FACE:0A>You've gotten strong,<NL>I can't beat you now…<WAIT><FACE:02>That's not true<NL><WAIT>You have too, Fubuki…"
+  },
+  {
+   "key": "script:0142:02B5",
+   "src": "3f03e52b1e02",
+   "t": "<FACE:0A>Hey <PLAYER>, once we<NL>get out of here…"
+  },
+  {
+   "key": "script:0142:02C9",
+   "src": "a25cf839063e",
+   "t": "<FACE:00>What is it?"
+  },
+  {
+   "key": "script:0142:02D2",
+   "src": "c20fa0e02aef",
+   "t": "<FACE:0A>…Nothing"
+  },
+  {
+   "key": "script:0142:02D9",
+   "src": "cfff43fdb3a4",
+   "t": "<FACE:0C>Even when we're out of<NL>here, we're friends!<WAIT><FACE:02>Yeah!"
+  },
+  {
+   "key": "script:0142:02F9",
+   "src": "b3c035d6ecb3",
+   "t": "<FACE:0C>Even when we're out of<NL>here, we're friends!"
+  },
+  {
+   "key": "script:0142:0327",
+   "src": "6e154a385798",
+   "t": "<FACE:00>Hmm, this doesn't look<NL>like it'll open…"
+  },
+  {
+   "key": "script:0142:033A",
+   "src": "ac145c0e8b37",
+   "t": "<FACE:00>I'd better not dig<NL>through the trash"
+  },
+  {
+   "key": "script:0142:0365",
+   "src": "bf01d617da06",
+   "t": "<FACE:00>Just barging in would<NL>be bad, wouldn't it…"
+  }
+ ]
+}

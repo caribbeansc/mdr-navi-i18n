@@ -1,0 +1,355 @@
+{
+ "part": "script/script_0066",
+ "entries": [
+  {
+   "key": "script:0066:0AEE",
+   "src": "b505ad4cb279",
+   "t": "<FACE:69>Heh heh… you show more<NL>promise than my men!<WAIT>Well then… join my<NL>Space Robo Robo Gang?<WAIT>I'll treat you well"
+  },
+  {
+   "key": "script:0066:0B45",
+   "src": "7839004e4163",
+   "t": "<FACE:01>Now you say that?!<NL><WAIT>You stole the Cluster<NL>and dragged it here<WAIT>Think we'd listen to<NL>crooks like you?<WAIT><FACE:00>One more thing I want<NL>to ask you<WAIT>You bring the Cluster<NL>here… for what?"
+  },
+  {
+   "key": "script:0066:0BD2",
+   "src": "7ca1c596d1fb",
+   "t": "<FACE:69>I'm Professor Kazanbai<NL>I lead the Sperobos!<WAIT>A sister society to<NL>Earth's Rubberobos!<WAIT>We have pushed out<NL>into outer space<WAIT>to conquer and rule<NL>this vast universe!"
+  },
+  {
+   "key": "script:0066:0C66",
+   "src": "a72deb749088",
+   "t": "<FACE:69>Looking back, it was<NL>nothing but hardship…<WAIT>We aimed for Mars and<NL>snuck aboard a probe<WAIT>But the weight of us<NL>riding it<WAIT>threw it off course<NL>and it hit this rock<WAIT>We hurried and built<NL>this base from it!"
+  },
+  {
+   "key": "script:0066:0D0C",
+   "src": "84dd52fee6d0",
+   "t": "<FACE:12>Unbelievable…<NL>Impossible…"
+  },
+  {
+   "key": "script:0066:0D22",
+   "src": "b8e2d92f2a70",
+   "t": "<FACE:6A>My dictionary has no<NL>word 'impossible'!"
+  },
+  {
+   "key": "script:0066:0D42",
+   "src": "a907d9519ecd",
+   "t": "<FACE:0E>A misprint?"
+  },
+  {
+   "key": "script:0066:0D4C",
+   "src": "fb96c4feb6ff",
+   "t": "<FACE:0F>Heh, probably means he<NL>knows it by heart"
+  },
+  {
+   "key": "script:0066:0D79",
+   "src": "76bb622eff2f",
+   "t": "<FACE:6A>Gwaaaaah!<NL><WAIT>You lot! Don't you<NL>know Napoleon's line?"
+  },
+  {
+   "key": "script:0066:0DA1",
+   "src": "9917a87c4cc5",
+   "t": "<FACE:11>I know, I was just<NL>joking<WAIT><FACE:0F>Anyway, no probe makes<NL>a base like this…"
+  },
+  {
+   "key": "script:0066:0DD9",
+   "src": "9451998afc20",
+   "t": "<FACE:6A>It can't be done, eh?!<NL><WAIT>Yet here I am, alive<NL>and well!<WAIT>If I'd given up I<NL>wouldn't be here!"
+  },
+  {
+   "key": "script:0066:0E1D",
+   "src": "c5337deb6912",
+   "t": "<FACE:69>It's all a matter of<NL>the will to survive"
+  },
+  {
+   "key": "script:0066:0E3A",
+   "src": "0ea8288ce242",
+   "t": "<FACE:6A>BUUUT!<NL><WAIT>Humans haven't gone<NL>past Earth's orbit!<WAIT><FACE:69>With nobody to attack<NL>there's nothing to do<WAIT>So a dreary life in<NL>the hideout went on…"
+  },
+  {
+   "key": "script:0066:0EA7",
+   "src": "7d511fe0374d",
+   "t": "<FACE:06>Are you kind of dumb?<NL><WAIT>Going out into space<NL>with nobody to rule!"
+  },
+  {
+   "key": "script:0066:0ED5",
+   "src": "846cc761e6a7",
+   "t": "<FACE:02>Easy, Hiyori<NL>let's hear him out"
+  },
+  {
+   "key": "script:0066:0EF6",
+   "src": "844edf2ce6cd",
+   "t": "<FACE:06>Do you even know<NL>what's going on here…"
+  },
+  {
+   "key": "script:0066:0F12",
+   "src": "9d67fe1f715a",
+   "t": "<FACE:6A>QUIEEEET!!<NL><WAIT>I didn't act without<NL>thinking either!<WAIT>I found a real fix,<NL>and this plan is it!"
+  },
+  {
+   "key": "script:0066:0F6D",
+   "src": "9f7a858d1207",
+   "t": "<FACE:69>Take a space station<NL>like the Cluster<WAIT>and haul it out to the<NL>asteroid belt. Then…"
+  },
+  {
+   "key": "script:0066:0FB2",
+   "src": "46e2b8d17cb6",
+   "t": "<FACE:69>Tourists will flock to<NL>the new attraction"
+  },
+  {
+   "key": "script:0066:0FD0",
+   "src": "090ff85b474c",
+   "t": "<FACE:69>Asteroid cruises and<NL>asteroid cakes sell!"
+  },
+  {
+   "key": "script:0066:0FF8",
+   "src": "dda86c71b73c",
+   "t": "<FACE:69>And space development<NL>speeds right up!"
+  },
+  {
+   "key": "script:0066:1018",
+   "src": "4f8f6e14b80e",
+   "t": "<FACE:00>…So you stole the<NL>Cluster for tourists?"
+  },
+  {
+   "key": "script:0066:1041",
+   "src": "0fbeebaf2412",
+   "t": "<FACE:69>Indeed!<NL><WAIT>And it lays the base<NL>for mankind in space"
+  },
+  {
+   "key": "script:0066:1068",
+   "src": "a7e6a5007f37",
+   "t": "<FACE:03>Wow, he really thought<NL>it through"
+  },
+  {
+   "key": "script:0066:107E",
+   "src": "e425cd9e800e",
+   "t": "<FACE:06>Hey, you!<NL><WAIT>Are you buying this?!"
+  },
+  {
+   "key": "script:0066:1096",
+   "src": "327ce33a792f",
+   "t": "<FACE:01>No, that's one thing<NL>and this is another!<WAIT>Professor!"
+  },
+  {
+   "key": "script:0066:10B0",
+   "src": "4389fd8be091",
+   "t": "<FACE:01>Give us back control<NL>of the Cluster!<WAIT>We want to go home<WAIT><FACE:6A>That I cannot do!<NL><WAIT>As future Sperobo Gang<NL>members, you lot<WAIT>will be staying here!"
+  },
+  {
+   "key": "script:0066:1115",
+   "src": "cb009c149bcd",
+   "t": "<FACE:69>You alone truly heard<NL>my dream<WAIT>aside from my own men<WAIT>What's left in the<NL>Cluster's tank is low<WAIT>Take some fuel as a<NL>parting gift"
+  },
+  {
+   "key": "script:0066:1179",
+   "src": "360ee2a29783",
+   "t": "<FACE:02>Thanks, Professor!"
+  },
+  {
+   "key": "script:0066:1188",
+   "src": "e43c5e496abe",
+   "t": "<FACE:00>All right, everyone<NL>let's head back!"
+  },
+  {
+   "key": "script:0066:1198",
+   "src": "ff350d4b4f0b",
+   "t": "<FACE:02>Ah, Niwaka!<NL><WAIT>The Cluster's safe, so<NL>you worked hard too!"
+  },
+  {
+   "key": "script:0066:11C5",
+   "src": "85ce3ecb59b1",
+   "t": "<FACE:22>Not at all…<NL>It was Navi's help<WAIT>On my own I could<NL>never have done it…"
+  },
+  {
+   "key": "script:0066:11FC",
+   "src": "d87617bc63e0",
+   "t": "<FACE:08>(Niwaka's gotten<NL>awfully honest!?)"
+  },
+  {
+   "key": "script:0066:1213",
+   "src": "e634bdde4ed0",
+   "t": "<FACE:0F>Fire up the boosters<NL>and set course home"
+  },
+  {
+   "key": "script:0066:1239",
+   "src": "d045de41d661",
+   "t": "<FACE:0F>Navi, run the orbit<NL>calculation<WAIT><FACE:53>Roger. Calculating…<NL>…please wait 10 min…"
+  },
+  {
+   "key": "script:0066:1279",
+   "src": "f01e5e80875a",
+   "t": "<FACE:22><PLAYER>… everyone…<NL>…I've been wrong…<WAIT><FACE:00>It's fine now, Niwaka<NL>But you've changed?<WAIT><FACE:22>Ah, that too is all<NL>thanks to Navi…"
+  },
+  {
+   "key": "script:0066:12D8",
+   "src": "20f7199384c6",
+   "t": "<FACE:25>Aaah!"
+  },
+  {
+   "key": "script:0066:12DF",
+   "src": "54b1b0c64662",
+   "t": "<FACE:03>Navi! What's wrong?<NL>The calculation…?"
+  },
+  {
+   "key": "script:0066:12F7",
+   "src": "37c540c67a57",
+   "t": "<FACE:53>It is not me!<NL><DELAY:003C><DELAY:0007><CLEAR>A vast flood of data<NL>from the Lobby Block…<DELAY:0078><DELAY:0018><CLEAR>The Cluster is out of<NL>my control now!!<DELAY:003C><DELAY:0028><END>"
+  },
+  {
+   "key": "script:0066:135A",
+   "src": "c5e167fd15a8",
+   "t": "<FACE:08>What's going on?<NL>A hacker, maybe?"
+  },
+  {
+   "key": "script:0066:136E",
+   "src": "b2d3c7470aa1",
+   "t": "<FACE:12>Impossible!<NL>The Lobby Block?<WAIT>There's no computer<NL>that powerful there…"
+  },
+  {
+   "key": "script:0066:13E5",
+   "src": "a74a86848680",
+   "t": "<FACE:08>Look! It's Mistral!<WAIT><FACE:12>That… is that Mistral?<WAIT><FACE:08>It's getting bigger!"
+  },
+  {
+   "key": "script:0066:1413",
+   "src": "414ef851fad2",
+   "t": "<FACE:10>Seems that Medabot is<NL>running the Cluster…"
+  },
+  {
+   "key": "script:0066:1439",
+   "src": "5894a97969cb",
+   "t": "<FACE:04>Mistral… where are you<NL>trying to take us?"
+  },
+  {
+   "key": "script:0066:1462",
+   "src": "7746db1a4cb0",
+   "t": "<FACE:04>…It's dangerous here…"
+  },
+  {
+   "key": "script:0066:1472",
+   "src": "48ee277de8bd",
+   "t": "<FACE:09>What's wrong, <PLAYER>…"
+  },
+  {
+   "key": "script:0066:147F",
+   "src": "cb7b37a5b82f",
+   "t": "<FACE:01>It's dangerous here!<NL>Let's go back to the<WAIT>control room, farthest<NL>away! Get everyone!<WAIT><FACE:10>Right, this thing is<NL>digging into the net<WAIT>Cut the cables and<NL>protect Navi too!"
+  },
+  {
+   "key": "script:0066:1503",
+   "src": "eebd6a0ff3a9",
+   "t": "<FACE:0F>That does it… Phew<NL>No more break-ins now"
+  },
+  {
+   "key": "script:0066:152B",
+   "src": "5137ab8bcb1b",
+   "t": "<FACE:08>Look!<NL><WAIT>That<DELAY:0014>… is that Jupiter?"
+  },
+  {
+   "key": "script:0066:1542",
+   "src": "3ba40d7b58b0",
+   "t": "<FACE:12>Impossible!<NL><WAIT>When did it speed up<NL>that much?!"
+  },
+  {
+   "key": "script:0066:155C",
+   "src": "a8cab5b5af0c",
+   "t": "<FACE:14>Aaah!<NL><WAIT>That… uh…<NL>what was it called…<WAIT>You know, that red<NL>dot on Jupiter?<WAIT><FACE:0A>The Great Red Spot…"
+  },
+  {
+   "key": "script:0066:159D",
+   "src": "d12c5aecf50f",
+   "t": "<FACE:16>Yes, that's the one!<NL><WAIT>That's our leader!<NL>I underrated you!<WAIT><FACE:14>And something's coming<NL>out of that Red Spot!"
+  },
+  {
+   "key": "script:0066:15DE",
+   "src": "99d03e14285f",
+   "t": "<FACE:0D>Ah, you're right"
+  },
+  {
+   "key": "script:0066:15E7",
+   "src": "4420dd043edc",
+   "t": "<FACE:03>What a huge spaceship…"
+  },
+  {
+   "key": "script:0066:15FE",
+   "src": "ee6e05cc0989",
+   "t": "<FACE:0F>Isn't that Mistral's<NL>mother ship?"
+  },
+  {
+   "key": "script:0066:1612",
+   "src": "23f9f8935bcd",
+   "t": "<FACE:05>Could it be…<NL>here to get Mistral?"
+  },
+  {
+   "key": "script:0066:1632",
+   "src": "cc36e6a1ff6b",
+   "t": "<FACE:03>It's getting closer<NL>and closer!"
+  },
+  {
+   "key": "script:0066:1642",
+   "src": "85a299cb38a7",
+   "t": "<FACE:08>Oh no!<NL><WAIT>Mistral just vanished!"
+  },
+  {
+   "key": "script:0066:165F",
+   "src": "7a7b4a27d14d",
+   "t": "<FACE:08>Are they going to grab<NL>the whole Cluster?"
+  },
+  {
+   "key": "script:0066:1678",
+   "src": "ca7e06d4de28",
+   "t": "<FACE:12>It's possible!<NL><WAIT>A ship that size could<NL>swallow the Cluster!"
+  },
+  {
+   "key": "script:0066:169C",
+   "src": "a5bceeaeda4b",
+   "t": "<FACE:10>It's no use…"
+  },
+  {
+   "key": "script:0066:16A4",
+   "src": "49d028621a6e",
+   "t": "<FACE:10>Control's been taken<NL>from us completely!"
+  },
+  {
+   "key": "script:0066:16BC",
+   "src": "c67f8b3a5e17",
+   "t": "<FACE:04>Did we get caught?"
+  },
+  {
+   "key": "script:0066:16CA",
+   "src": "a62fdba8067e",
+   "t": "<FACE:13>It's dark outside so I<NL>can't see, but…<WAIT>Sensors and radar are<NL>all dead…<WAIT>Seems we're completely<NL>shut in…"
+  },
+  {
+   "key": "script:0066:1714",
+   "src": "8b3b41400071",
+   "t": "<FACE:6A>…Losing to middle<NL>schoolers, of all!"
+  },
+  {
+   "key": "script:0066:172B",
+   "src": "075ce168613a",
+   "t": "<FACE:69>It seems…<NL>a new age has begun…<WAIT>I got full of myself<NL>for reaching space<WAIT>Then aimlessly I shut<NL>myself in the hideout<WAIT>All that moaning made<NL>me weak at Robattles…"
+  },
+  {
+   "key": "script:0066:17B2",
+   "src": "9e0a7b3c94ea",
+   "t": "<FACE:69>A fresh start, then…"
+  },
+  {
+   "key": "script:0066:17C4",
+   "src": "ca18cea82c69",
+   "t": "<FACE:69>…Very well!<NL>Go home if you wish!"
+  },
+  {
+   "key": "script:0066:17DE",
+   "src": "34087f7eb8b5",
+   "t": "<FACE:69>The arm is released<NL>Back to the Cluster!<WAIT><FACE:00>Professor…"
+  },
+  {
+   "key": "script:0066:1806",
+   "src": "a6f654ad2e46",
+   "t": "<FACE:69>Ah, right!<NL><WAIT>I'll share some fuel"
+  }
+ ]
+}

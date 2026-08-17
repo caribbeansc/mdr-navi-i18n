@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0085",
+ "entries": [
+  {
+   "key": "script:0085:0349",
+   "src": "2f469b4e05e7",
+   "t": "<FACE:01>Smog, the sickly Boss!<NL>You never learn…<WAIT><FACE:04>…Hm? Another cold?"
+  },
+  {
+   "key": "script:0085:0378",
+   "src": "d4f1c0356446",
+   "t": "<FACE:75>Mm… I was almost well<NL>and it came back…<WAIT>I thought I'd cure it<NL>in this Block again…<WAIT><FACE:00>So even draining it<NL>all won't cure you?"
+  },
+  {
+   "key": "script:0085:03D1",
+   "src": "1cb5d4c2af2d",
+   "t": "<FACE:75>That's right… cough…<NL>perfect timing…<WAIT><FACE:04>Huh? Why's that?<WAIT><FACE:75>…Heh heh… Get it yet?<NL>My minions this time!<WAIT>Your life force… guh…<NL>I'll drain it dry!"
+  },
+  {
+   "key": "script:0085:044E",
+   "src": "8620d09ef986",
+   "t": "<FACE:75>Hah… that hot Robattle<NL>warmed me up again…<WAIT>For now… guh…<NL>…I shall withdraw…"
+  },
+  {
+   "key": "script:0085:048B",
+   "src": "576220ed6712",
+   "t": "<FACE:04>Him retreating doesn't<NL>change a thing…"
+  }
+ ]
+}

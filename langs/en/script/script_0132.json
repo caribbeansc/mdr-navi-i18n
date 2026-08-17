@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0132",
+ "entries": [
+  {
+   "key": "script:0132:01DE",
+   "src": "715710d335b1",
+   "t": "<FACE:6F>Hah! Hah!<NL><WAIT>I've still got a ways<NL>to go! More training!<WAIT>Hah! Hah!"
+  },
+  {
+   "key": "script:0132:0212",
+   "src": "342bcc109610",
+   "t": "<FACE:6C>If it isn't <PLAYER>!"
+  },
+  {
+   "key": "script:0132:021D",
+   "src": "8ca1e750b04f",
+   "t": "<FACE:6C>Perfect timing!<NL>My training paid off…<WAIT>Let me show you!"
+  },
+  {
+   "key": "script:0132:024A",
+   "src": "3a612737add4",
+   "t": "<FACE:6D>Gwaaah!<NL>Beaten again!<WAIT>Still a long way to go<NL>Back to training!"
+  },
+  {
+   "key": "script:0132:0297",
+   "src": "e3c6c14ef9ff",
+   "t": "<FACE:03>Ah!"
+  },
+  {
+   "key": "script:0132:029C",
+   "src": "7f07ac493bf8",
+   "t": "<FACE:02>Hey, it's Nyuudou!"
+  },
+  {
+   "key": "script:0132:02A9",
+   "src": "9cea2a89bde7",
+   "t": "<FACE:6C>So it's <PLAYER>!"
+  },
+  {
+   "key": "script:0132:02B3",
+   "src": "21d786c05251",
+   "t": "<FACE:00>Why are you here? You<NL>went to Jupiter, no?"
+  },
+  {
+   "key": "script:0132:02DC",
+   "src": "324147385cc7",
+   "t": "<FACE:6C>I am going!<NL><WAIT>But I'm not ready yet!<NL>Not enough training!"
+  },
+  {
+   "key": "script:0132:030A",
+   "src": "563ffc562a27",
+   "t": "<FACE:04>You don't have to do<NL>it right here…"
+  },
+  {
+   "key": "script:0132:0321",
+   "src": "4fea18b3fb8a",
+   "t": "<FACE:6D>Gravity in the hideout<NL>is too weak to train!<WAIT><FACE:00>Oh, I see…"
+  },
+  {
+   "key": "script:0132:0352",
+   "src": "c08e228a5085",
+   "t": "<FACE:6C><PLAYER>!<NL>Spar with me!"
+  }
+ ]
+}

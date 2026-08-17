@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0146",
+ "entries": [
+  {
+   "key": "script:0146:0385",
+   "src": "0da2d9896077",
+   "t": "<FACE:74>Heh heh heh…<WAIT><FACE:73>I like… being alone…<NL>in secret rooms…"
+  },
+  {
+   "key": "script:0146:03AF",
+   "src": "0854a2228651",
+   "t": "<FACE:73><PLAYER>…<NL>Fate has bound us…"
+  },
+  {
+   "key": "script:0146:03CF",
+   "src": "6691109554a7",
+   "t": "<FACE:73>Heh heh heh…<NL>Sure to meet again…"
+  },
+  {
+   "key": "script:0146:0401",
+   "src": "2e6a2314cf71",
+   "t": "<FACE:03>Huh?<NL><WAIT>Kirika?"
+  },
+  {
+   "key": "script:0146:040D",
+   "src": "175215e7a7f9",
+   "t": "<FACE:74>Heh heh heh…<WAIT><FACE:04>What are you doing in<NL>a place like this…"
+  },
+  {
+   "key": "script:0146:042C",
+   "src": "dd1d79ddfb48",
+   "t": "<FACE:73>Heh heh…<NL><WAIT>Right now… going to…<NL>Jupiter…<WAIT>is ill-omened…"
+  },
+  {
+   "key": "script:0146:0451",
+   "src": "774c67a61b21",
+   "t": "<FACE:04>Huh?<WAIT><FACE:73>Virgo… and Jupiter…<NL>the stars are wrong…"
+  },
+  {
+   "key": "script:0146:0479",
+   "src": "7c8560e61133",
+   "t": "<FACE:04>Uh-huh…"
+  },
+  {
+   "key": "script:0146:0480",
+   "src": "8a5ec78a1048",
+   "t": "<FACE:73>So… I'm still…<DELAY:001E><NL>…here"
+  },
+  {
+   "key": "script:0146:0499",
+   "src": "4be46f0720f5",
+   "t": "<FACE:04>If you say so…<WAIT><FACE:73>And also…"
+  },
+  {
+   "key": "script:0146:04AE",
+   "src": "94b3becf767d",
+   "t": "<FACE:04>And also?"
+  }
+ ]
+}

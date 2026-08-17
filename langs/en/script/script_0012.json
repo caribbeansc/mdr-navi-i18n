@@ -1,0 +1,50 @@
+{
+ "part": "script/script_0012",
+ "entries": [
+  {
+   "key": "script:0012:027D",
+   "src": "9b0ece6e5798",
+   "t": "<FACE:7D>We took this Block<NL>back-robo!<WAIT><FACE:7D>We won't let go-robo<NL>It's our Block-robo<WAIT><FACE:7D>We'll give our lives<NL>defending it-robo"
+  },
+  {
+   "key": "script:0012:02C7",
+   "src": "7f1d3d0c11fe",
+   "t": "<FACE:05>Why are you here<NL>again?!<NL>"
+  },
+  {
+   "key": "script:0012:02DA",
+   "src": "481ccafb0e1c",
+   "t": "<FACE:00>Now, now…<NL>"
+  },
+  {
+   "key": "script:0012:02E2",
+   "src": "768152f170ef",
+   "t": "<FACE:0A>Let's rough 'em up!<NL>"
+  },
+  {
+   "key": "script:0012:02EF",
+   "src": "684d3a034fd4",
+   "t": "<FACE:7D>Look who's back-robo…<NL>"
+  },
+  {
+   "key": "script:0012:02FE",
+   "src": "fd52cbbe87c5",
+   "t": "<FACE:7D>We lost-robo…<NL><WAIT><FACE:7D>We lost again-robo…<NL>"
+  },
+  {
+   "key": "script:0012:0319",
+   "src": "b80132ad3ba3",
+   "t": "<FACE:7D>Is there a smaller<NL>Block than this-robo?<NL>"
+  },
+  {
+   "key": "script:0012:0332",
+   "src": "5f8a9c9b5d10",
+   "t": "<FACE:7D>Who cares-robo<NL>"
+  },
+  {
+   "key": "script:0012:033F",
+   "src": "8b3cafe545a1",
+   "t": "<FACE:05>Don't come back!"
+  }
+ ]
+}

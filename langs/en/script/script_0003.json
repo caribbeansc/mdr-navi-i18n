@@ -1,0 +1,40 @@
+{
+ "part": "script/script_0003",
+ "entries": [
+  {
+   "key": "script:0003:0248",
+   "src": "57f1d43414ba",
+   "t": "<FACE:7F>Whoaaa!<NL><WAIT>I did it-robo!<NL><WAIT>I'm amazing-robo!<NL>I'm the best-robo!"
+  },
+  {
+   "key": "script:0003:026F",
+   "src": "991d8958a776",
+   "t": "<FACE:7D>He's real happy-robo…<NL><WAIT>Yeah-robo, lately<NL>nothing good happened<WAIT>He's so moved that we<NL>took this Block-robo<WAIT>Robo robo…"
+  },
+  {
+   "key": "script:0003:02C0",
+   "src": "786cedf04560",
+   "t": "<FACE:0B>Ow!<NL><WAIT>What're you doing!<WAIT><FACE:7F>Whoaaa!"
+  },
+  {
+   "key": "script:0003:02D8",
+   "src": "713a4c9531a2",
+   "t": "<FACE:00>You okay?<WAIT><FACE:05>He's kinda hyper, huh…"
+  },
+  {
+   "key": "script:0003:02F6",
+   "src": "2b0e9cdfff30",
+   "t": "<FACE:15>Who cares about that!<NL>Avenging our leader!<WAIT><FACE:1A>Let's do this!"
+  },
+  {
+   "key": "script:0003:031F",
+   "src": "3615bef7d5a2",
+   "t": "<FACE:81>Wh-what-robo?!<NL><WAIT>Springing a Robattle<NL>on us is dirty-robo!"
+  },
+  {
+   "key": "script:0003:0347",
+   "src": "dc3119a8cff7",
+   "t": "<FACE:7D>…It's your fault-robo"
+  }
+ ]
+}

@@ -21,6 +21,8 @@ from pathlib import Path
 import pytest
 
 from navi.lang import fingerprint
+
+from .conftest import language_packs, pack_id
 from navi.strings import SLOT_TABLES, scan
 from navi.table import load_japanese, visible_length
 
@@ -32,13 +34,14 @@ def slots(game_rom):
     return {s.offset: s for s in scan(game_rom, load_japanese()) if s.fixed}
 
 
-def _pack():
-    entries = json.loads((ROOT / "langs/es/menus.json").read_text("utf-8"))
+def _pack(pack):
+    entries = json.loads((pack / "menus.json").read_text("utf-8"))
     return {e["key"]: e for e in entries["entries"]}
 
 
-def test_every_slot_is_translated(slots):
-    pack = _pack()
+@pytest.mark.parametrize("pack_dir", language_packs(), ids=pack_id)
+def test_every_slot_is_translated(slots, pack_dir):
+    pack = _pack(pack_dir)
     missing = []
     for start, stride, count, _width in SLOT_TABLES:
         for i in range(count):
@@ -55,8 +58,9 @@ def test_every_slot_is_translated(slots):
         f"{missing[:12]}")
 
 
-def test_no_slot_translation_fills_its_field(slots):
-    pack = _pack()
+@pytest.mark.parametrize("pack_dir", language_packs(), ids=pack_id)
+def test_no_slot_translation_fills_its_field(slots, pack_dir):
+    pack = _pack(pack_dir)
     over = []
     for start, stride, count, width in SLOT_TABLES:
         for i in range(count):

@@ -1,0 +1,90 @@
+{
+ "part": "script/script_0000",
+ "entries": [
+  {
+   "key": "script:0000:0335",
+   "src": "cc55c6a266c2",
+   "t": "<FACE:91>Whoaaa!<NL>Yeeow!<WAIT>Hoooh!<NL>Yikes!<WAIT>Ngaaah!"
+  },
+  {
+   "key": "script:0000:034D",
+   "src": "e4792c78409c",
+   "t": "<FACE:77>Nyu, nyuuu?"
+  },
+  {
+   "key": "script:0000:0356",
+   "src": "d0d6f31f131a",
+   "t": "<FACE:77>Start!!"
+  },
+  {
+   "key": "script:0000:035E",
+   "src": "750cf1c61bda",
+   "t": "<FACE:77>No way!<NL>Huuuh?<WAIT>Seriously?<NL><WAIT>What're ya on about?<NL>I'm through with ya<WAIT>I quit<NL>Well, see ya"
+  },
+  {
+   "key": "script:0000:0399",
+   "src": "e379ff86dea8",
+   "t": "<FACE:91>Medabots are…<NL><WAIT>beautiful![<3]<NL>"
+  },
+  {
+   "key": "script:0000:03AF",
+   "src": "eac6fb5b545b",
+   "t": "<FACE:91>But that's<NL>not right<WAIT>No, really"
+  },
+  {
+   "key": "script:0000:03C6",
+   "src": "c8a6d1ab9555",
+   "t": "<FACE:91>For real!?"
+  },
+  {
+   "key": "script:0000:03CF",
+   "src": "51bbe2e28ebd",
+   "t": "<FACE:91>Just kidding"
+  },
+  {
+   "key": "script:0000:03D6",
+   "src": "9b9cfe52a2f7",
+   "t": "<FACE:91>I'm Shiratama!!<NL>Let's Robattle!!"
+  },
+  {
+   "key": "script:0000:03EB",
+   "src": "536a678153ed",
+   "t": "<FACE:77>Ah, <PLAYER>!!<NL>What's up, what's up?"
+  },
+  {
+   "key": "script:0000:03FA",
+   "src": "e9420e2f93ad",
+   "t": "<FACE:77>from below"
+  },
+  {
+   "key": "script:0000:0401",
+   "src": "159b1a6c3a78",
+   "t": "<FACE:77>from above"
+  },
+  {
+   "key": "script:0000:0408",
+   "src": "0a9b0fb29d06",
+   "t": "<FACE:77>from the right"
+  },
+  {
+   "key": "script:0000:040F",
+   "src": "5dacf7261086",
+   "t": "<FACE:77>from the left"
+  },
+  {
+   "key": "script:0000:0417",
+   "src": "58a7dd02afe0",
+   "t": "<FACE:77>No more jumping!"
+  },
+  {
+   "key": "script:0000:0421",
+   "src": "dd8a6d4614c6",
+   "t": "<FACE:00><SFX:66>Waah!<NL>"
+  },
+  {
+   "key": "script:0000:042C",
+   "src": "9d6d0295c75a",
+   "t": "<FACE:77>The end!"
+  }
+ ]
+}

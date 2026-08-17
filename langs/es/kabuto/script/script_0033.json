@@ -1,0 +1,230 @@
+{
+ "part": "script/script_0033",
+ "entries": [
+  {
+   "key": "script:0033:0B6C",
+   "src": "792889086760",
+   "t": "<FACE:03>Nunca vi un Medabot<NL>así…<WAIT>¿Tipo escarabajo…?<NL><WAIT>Pero… ¡es totalmente<NL>distinto a los demás!"
+  },
+  {
+   "key": "script:0033:0BDB",
+   "src": "92e2a43b88dc",
+   "t": "<FACE:11>Ese «Grand Beetle» es<NL>el último modelo del<WAIT>que se enorgullece<NL>nuestra empresa RR<WAIT>Aunque aún es un<NL>prototipo<WAIT><FACE:03>Vaya, increíble<NL><WAIT>Y pensar que puedo ver<NL>un Medabot así"
+  },
+  {
+   "key": "script:0033:0C88",
+   "src": "f696a7fec1b2",
+   "t": "<FACE:04>…¿eh?"
+  },
+  {
+   "key": "script:0033:0C90",
+   "src": "98454654db0d",
+   "t": "<FACE:04>Shiden, ¿dijiste<NL>«nuestra empresa<WAIT>RR»…?"
+  },
+  {
+   "key": "script:0033:0CA7",
+   "src": "b7d6f4c925c7",
+   "t": "<FACE:0F>¿Eso dije?<NL>En fin, olvídalo"
+  },
+  {
+   "key": "script:0033:0CC8",
+   "src": "9fdd74a1c430",
+   "t": "<FACE:0F>…En fin<NL><WAIT>Te lo mostré por una<NL>razón muy concreta<WAIT>Has sido elegido para<NL>probar ese prototipo"
+  },
+  {
+   "key": "script:0033:0D09",
+   "src": "39ef87e6508a",
+   "t": "<FACE:02>¿¡D… de verdad!?"
+  },
+  {
+   "key": "script:0033:0D15",
+   "src": "313bf2fb2b28",
+   "t": "<FACE:11>Claro que sí<NL><WAIT>La compañía RR buscaba<NL>entre medaguerreros<WAIT>comunes a alguien que<NL>fuera su probador<WAIT>Tú y yo nos conocimos<NL>por pura casualidad<WAIT>Pero no quiero que<NL>quede en eso<WAIT>Por eso yo mismo te<NL>recomendé"
+  },
+  {
+   "key": "script:0033:0DA2",
+   "src": "22e446fc7db2",
+   "t": "<FACE:00>(Con este Medabot…)<WAIT>(Tal vez yo también<NL>pueda subir de rango)<WAIT>(Y así quizá Hiyori<NL>no se burle más de<WAIT>mí)"
+  },
+  {
+   "key": "script:0033:0DF8",
+   "src": "0e21125641dd",
+   "t": "<FACE:04>…¿Eh?<NL><WAIT>Ahora que lo pienso,<NL>¿adónde fue Hiyori?"
+  },
+  {
+   "key": "script:0033:0E1A",
+   "src": "73ec65df49a9",
+   "t": "<FACE:03>¿Qué pasa?<NL>¿¡Qué está pasando!?"
+  },
+  {
+   "key": "script:0033:0E2D",
+   "src": "41d78d6eb87e",
+   "t": "<FACE:0F>No hay por qué<NL>alterarse, <PLAYER>…<WAIT>Tenemos tiempo de<NL>sobra"
+  },
+  {
+   "key": "script:0033:0E4F",
+   "src": "d1d315660290",
+   "t": "<FACE:01>¡Qu…!<NL>Shiden, ¿dónde estás?"
+  },
+  {
+   "key": "script:0033:0E63",
+   "src": "a9e3e3653962",
+   "t": "<FACE:0F>Quiero hacer un trato<NL>contigo…<WAIT>Lo que yo ofrezco es<NL>ese «Grand Beetle»"
+  },
+  {
+   "key": "script:0033:0ECC",
+   "src": "ecb27c8f94f1",
+   "t": "<FACE:03>¿¡De qué hablas,<NL>Shiden!?<WAIT><FACE:0F>Lo que tú pones es lo<NL>que pasó dentro de<WAIT>aquella cueva…"
+  },
+  {
+   "key": "script:0033:0F03",
+   "src": "91c6840841a8",
+   "t": "<FACE:04>(Lo sabía…)<NL><WAIT>(¿Habla de la Medalla<NL>que hallé allí…?)"
+  },
+  {
+   "key": "script:0033:0F2B",
+   "src": "eba4123969b9",
+   "t": "<FACE:10>¡Vamos, habla!<NL><WAIT>¿¡Qué te dijo aquel<NL>Medabot!?<WAIT>¿¡Qué fue lo que<NL>llegaste a oír!?"
+  },
+  {
+   "key": "script:0033:0F62",
+   "src": "3e5939850d45",
+   "t": "<FACE:01>¡No sé de qué hablas!<NL><WAIT>¡¡No entiendo nada de<NL>lo que dices!!<WAIT>¿¡Qué pretendes<NL>encerrándome aquí!?<WAIT><FACE:10>Fingir demencia no te<NL>servirá: ya lo sé<WAIT>Esa palabra que solo<NL>tú oíste… «Mistral»…<WAIT>Una palabra que yo no<NL>pude oír…<WAIT>Vas a contármelo todo<NL>"
+  },
+  {
+   "key": "script:0033:0FFE",
+   "src": "3a5aeb9f8fff",
+   "t": "<FACE:0F>¡Vamos! ¡Primera<NL>prueba del prototipo!<WAIT>Me divertiré hasta que<NL>lo confieses todo"
+  },
+  {
+   "key": "script:0033:1033",
+   "src": "52d44ec729f3",
+   "t": "<FACE:04>(Mi Medalla…<NL>¡ellos aún la<WAIT>tienen!)<WAIT>(¿Qué hago…?)<WAIT><FACE:0F>Jajaja, date prisa<WAIT>Esos Medabots son de<NL>diseño especial<WAIT>Manipulé las «3 leyes<NL>de los Medabots»<WAIT>para que vean a todo<NL>intruso como enemigo"
+  },
+  {
+   "key": "script:0033:10B3",
+   "src": "908333b30846",
+   "t": "<FACE:04>(Lo único que tengo<NL>es la que hallé en<WAIT>aquella cueva…)"
+  },
+  {
+   "key": "script:0033:10D4",
+   "src": "ca3bf277af0f",
+   "t": "<FACE:01>(…No me queda más que<NL>usar esta)"
+  },
+  {
+   "key": "script:0033:10E6",
+   "src": "66de311857eb",
+   "t": "<FACE:01>¡Ve por él!<NL>¡<MEDABOT>!!"
+  },
+  {
+   "key": "script:0033:10F3",
+   "src": "96aff4d90df5",
+   "t": "<FACE:03>(Increíble…)<NL><WAIT>(Este es el poder de<NL><MEDABOT>…)"
+  },
+  {
+   "key": "script:0033:110D",
+   "src": "e0f3e6d341cd",
+   "t": "<FACE:12>¡¿Por qué?!<NL><WAIT>¿Por qué tú…<NL>y no yo…?"
+  },
+  {
+   "key": "script:0033:1129",
+   "src": "cb35ec6f4301",
+   "t": "<FACE:04>(¿Shiden…?)"
+  },
+  {
+   "key": "script:0033:1135",
+   "src": "d76e15767e28",
+   "t": "<FACE:0F>En fin…<NL><WAIT>Tu secreto te lo voy a<NL>sacar sin falta<WAIT>Y de paso servirá de<NL>prueba…<WAIT>Cuando yo regrese ya<NL>estarás más dócil…"
+  },
+  {
+   "key": "script:0033:1193",
+   "src": "24ac0d3f5246",
+   "t": "<FACE:01>¡Es… espera, Shiden!<WAIT><FACE:11>Esfuérzate"
+  },
+  {
+   "key": "script:0033:11AF",
+   "src": "f10ad197dbfa",
+   "t": "<FACE:06>¿Dónde escondiste a<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0033:11BF",
+   "src": "a5b44359e507",
+   "t": "<FACE:06>¡Oye, tú, un momento!"
+  },
+  {
+   "key": "script:0033:11CE",
+   "src": "a9f22c439b57",
+   "t": "<FACE:06>¡Contéstame!"
+  },
+  {
+   "key": "script:0033:11D9",
+   "src": "d02a73d2de0f",
+   "t": "<FACE:08>¿¡Q… qué hiciste!?<WAIT><FACE:12>¡No puede ser…!<NL><WAIT>¡¡Esto no debería<NL>estar pasando!!"
+  },
+  {
+   "key": "script:0033:120D",
+   "src": "5a871290afc8",
+   "t": "<FACE:01>(¡No puedo con todos<NL>estos a la vez!)<WAIT>(Por muy fuerte que<NL>sea este…)"
+  },
+  {
+   "key": "script:0033:1244",
+   "src": "16ad3f7babb5",
+   "t": "<FACE:59>(Por aquí)<NL>"
+  },
+  {
+   "key": "script:0033:124F",
+   "src": "2912117ab34a",
+   "t": "<FACE:59>(Aquí, aquí)"
+  },
+  {
+   "key": "script:0033:125B",
+   "src": "1e5c68efa971",
+   "t": "<FACE:04>…No queda más que<NL>intentarlo"
+  },
+  {
+   "key": "script:0033:126B",
+   "src": "35dcf0712782",
+   "t": "<FACE:01>¡<MEDABOT>!<NL>¡Apunta ahí!<WAIT>¡Es nuestra única<NL>salida!"
+  },
+  {
+   "key": "script:0033:1293",
+   "src": "f17a41f0f935",
+   "t": "<FACE:03>(¿Esto es…<NL>la Medafuerza?)"
+  },
+  {
+   "key": "script:0033:12A6",
+   "src": "98b7dc96cc48",
+   "t": "<FACE:0F>(Je, je, je…)<WAIT>(Con esto no saldrá de<NL>aquí en un buen<WAIT>rato…)"
+  },
+  {
+   "key": "script:0033:12CC",
+   "src": "13100f97395a",
+   "t": "<FACE:0F>(Y con lo fácil que<NL>era hablar…)"
+  },
+  {
+   "key": "script:0033:12E6",
+   "src": "1e455c1a91e8",
+   "t": "<FACE:11>Hola a todos<NL><WAIT>Perdón por la espera"
+  },
+  {
+   "key": "script:0033:12F7",
+   "src": "cbb84ab64b17",
+   "t": "<FACE:05>Ganamos a duras penas,<NL>pero ese chico…<WAIT>¿Adónde se metió…?"
+  },
+  {
+   "key": "script:0033:1323",
+   "src": "94a510423f07",
+   "t": "<FACE:08>¿Shiden?<NL><PLAYER> no está…"
+  },
+  {
+   "key": "script:0033:1334",
+   "src": "1359b7a001e2",
+   "t": "<FACE:06>¡Aquí hay gato<NL>encerrado!"
+  },
+  {
+   "key": "script:0033:1347",
+   "src": "779a26bfd839",
+   "t": "<FACE:00>No estará bien hacer<NL>esperar a Shiden…"
+  }
+ ]
+}

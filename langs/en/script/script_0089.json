@@ -1,0 +1,100 @@
+{
+ "part": "script/script_0089",
+ "entries": [
+  {
+   "key": "script:0089:0299",
+   "src": "df4bdca85730",
+   "t": "<FACE:5F>The Cluster is made up<NL>of many Blocks.<WAIT>A control unit in each<NL>Block manages it.<WAIT>Every computer runs<NL>the newest, best<WAIT>system, built on what<NL>Robattle Research<WAIT>learned from studying<NL>Medals.<WAIT>All computers link to<NL>the Computer Block<WAIT>at the center, which<NL>runs the whole thing.<WAIT>The system running it<NL>all is called \"Navi\"<WAIT>Robattle Research put<NL>all it had into it,<WAIT>the biggest parallel<NL>system of its kind.<WAIT>If one part goes down,<NL>the rest take over.<WAIT>Thanks to this system,<NL>the Cluster's control<WAIT>is always kept in<NL>perfect condition.<WAIT>A computer going wild,<NL>like in sci-fi manga,<WAIT>is simply impossible.<WAIT>Ahead of humanity's<NL>move into space,<WAIT>total computer control<NL>of living space.<WAIT>That is one of the<NL>Cluster's themes."
+  },
+  {
+   "key": "script:0089:04B9",
+   "src": "980b0ab1b468",
+   "t": "<FACE:60>The Lobby Block is<NL>just ahead"
+  },
+  {
+   "key": "script:0089:04CF",
+   "src": "203eba660bee",
+   "t": "<FACE:60>This is the entrance<NL>to the Cluster"
+  },
+  {
+   "key": "script:0089:04E4",
+   "src": "fc430cb183d1",
+   "t": "<FACE:60>Robattle Research also<NL>tests Medabots here"
+  },
+  {
+   "key": "script:0089:050A",
+   "src": "77701a097b9c",
+   "t": "<FACE:5F>Follow the Blocks from<NL>here all the way up<WAIT>and you'll reach the<NL>thruster control room"
+  },
+  {
+   "key": "script:0089:0542",
+   "src": "bb6aee1b0ac5",
+   "t": "<FACE:47>So many kinds of<NL>Blocks! I can't wait!"
+  },
+  {
+   "key": "script:0089:0566",
+   "src": "cab7dc8aceee",
+   "t": "<FACE:60>That space Medabot is<NL>in the Lobby Block"
+  },
+  {
+   "key": "script:0089:058E",
+   "src": "dae7535c07c9",
+   "t": "<FACE:5D>Where should I go?[<3]"
+  },
+  {
+   "key": "script:0089:059F",
+   "src": "5ae47f501ca8",
+   "t": "<FACE:2E>Niwaka says wait for<NL>check-in. Done yet?"
+  },
+  {
+   "key": "script:0089:05C7",
+   "src": "2266b8ee5c35",
+   "t": "<FACE:5F>Each Block has its own<NL>control unit<WAIT>and its own separate<NL>environment"
+  },
+  {
+   "key": "script:0089:05F9",
+   "src": "3f68e9ca816a",
+   "t": "<FACE:04>Looks like it'll be a<NL>while yet…"
+  },
+  {
+   "key": "script:0089:060E",
+   "src": "a4a8b0482d81",
+   "t": "<FACE:00>The Cluster isn't this<NL>way…"
+  },
+  {
+   "key": "script:0089:0622",
+   "src": "94aa24329bbe",
+   "t": "<FACE:5F>…So all our guests may<NL>just walk right in…"
+  },
+  {
+   "key": "script:0089:0646",
+   "src": "fd39830eda2f",
+   "t": "<FACE:22>No, that's not it…<NL><WAIT>You see, I'm the class<NL>president…<WAIT>So I must properly go<NL>in at the front…"
+  },
+  {
+   "key": "script:0089:0687",
+   "src": "ee2ab6d81fd2",
+   "t": "<FACE:5F>Ah… is that how it<NL>works…?"
+  },
+  {
+   "key": "script:0089:069A",
+   "src": "884bed722293",
+   "t": "<FACE:00>I want in already…"
+  },
+  {
+   "key": "script:0089:06AA",
+   "src": "03ee8aefeb3e",
+   "t": "<FACE:04>Is it okay to go in…?"
+  },
+  {
+   "key": "script:0089:06BA",
+   "src": "65179f6261b7",
+   "t": "<FACE:04>…"
+  },
+  {
+   "key": "script:0089:06C1",
+   "src": "545a41757bf8",
+   "t": "<FACE:02>Ah, whatever!<NL>I'm going in!"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0148",
+ "entries": [
+  {
+   "key": "script:0148:0114",
+   "src": "4ba9a8fef7f3",
+   "t": "<FACE:14>Hey, it's <PLAYER>!<NL>Nothing to find here"
+  },
+  {
+   "key": "script:0148:0135",
+   "src": "2c801ccc26c5",
+   "t": "<FACE:19>That's right. We're<NL>here on a little job"
+  },
+  {
+   "key": "script:0148:0162",
+   "src": "c76253f5f776",
+   "t": "<FACE:14><PLAYER>…<NL>you've gotten strong…<WAIT>To keep up with you,<NL>in this manly place<WAIT>we've been toughing<NL>it out…"
+  },
+  {
+   "key": "script:0148:01A1",
+   "src": "074f2bdd8941",
+   "t": "<FACE:1D>That's right…<NL>We won't let <PLAYER><WAIT>hog the glory anymore"
+  },
+  {
+   "key": "script:0148:01C6",
+   "src": "67be27adadd5",
+   "t": "<FACE:18>Ahh, man…<NL>Lost again…"
+  },
+  {
+   "key": "script:0148:01DD",
+   "src": "38b6d45eec3e",
+   "t": "<FACE:1D><PLAYER> really is<NL>strong after all"
+  },
+  {
+   "key": "script:0148:01EF",
+   "src": "ae5ca75bfa93",
+   "t": "<FACE:19>Oh, it's <PLAYER>…"
+  },
+  {
+   "key": "script:0148:01FA",
+   "src": "37652f208af3",
+   "t": "<FACE:14>We were just talking<NL>about you<WAIT><FACE:19>We were praising you<NL>for working so hard"
+  },
+  {
+   "key": "script:0148:022F",
+   "src": "f04247c7ca10",
+   "t": "<FACE:02>Aw, shucks…"
+  },
+  {
+   "key": "script:0148:0238",
+   "src": "a4abf1c189cc",
+   "t": "<FACE:14>But we decided to try<NL>and catch up with you"
+  },
+  {
+   "key": "script:0148:0261",
+   "src": "6fa3063c8a64",
+   "t": "<FACE:19>So, for the first time<NL>in a while, Robattle!"
+  },
+  {
+   "key": "script:0148:027D",
+   "src": "43a6c177df51",
+   "t": "<FACE:1B>We've still got a<NL>long way to go"
+  },
+  {
+   "key": "script:0148:028E",
+   "src": "f70b17e3182f",
+   "t": "<FACE:16>You're something else"
+  }
+ ]
+}

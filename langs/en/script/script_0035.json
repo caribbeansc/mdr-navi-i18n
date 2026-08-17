@@ -1,0 +1,220 @@
+{
+ "part": "script/script_0035",
+ "entries": [
+  {
+   "key": "script:0035:0DC5",
+   "src": "b1617013316c",
+   "t": "<FACE:3A>The Cluster space<NL>station we're off to<WAIT>shows the cave Medabot<NL><PLAYER> found, right?"
+  },
+  {
+   "key": "script:0035:0E05",
+   "src": "b378db381081",
+   "t": "<FACE:00>Yeah. Murasame Shiden,<NL>who found it with me,<WAIT>is the top Medafighter<NL>in the ranking run by<WAIT>Robattle Research, who<NL>built the Cluster<WAIT>So he told me to have<NL>it studied closely"
+  },
+  {
+   "key": "script:0035:0E78",
+   "src": "3b1afdd6aa0e",
+   "t": "<FACE:2E>Thanks to that, all of<NL>us got invited to the<WAIT>grand opening of that<NL>\"Cluster\" space park"
+  },
+  {
+   "key": "script:0035:0EB7",
+   "src": "626d2d784af9",
+   "t": "<FACE:00>Robattle Research does<NL>more than rankings<WAIT>Part specs, personal<NL>Medafighter data…<WAIT>They study every scrap<NL>of Medabot data<WAIT>It might be a big find<NL>on Medabot secrets<WAIT><FACE:02>They thanked me a lot<NL>for it"
+  },
+  {
+   "key": "script:0035:0F4E",
+   "src": "9d8dbbbb603e",
+   "t": "<FACE:36><PLAYER>, you're great!<NL><WAIT>You were in the paper<NL>and you're famous!"
+  },
+  {
+   "key": "script:0035:0F7C",
+   "src": "610ebe4dd8a6",
+   "t": "<FACE:07>Hehe, that's true"
+  },
+  {
+   "key": "script:0035:0F86",
+   "src": "a4b7d79e2f31",
+   "t": "<FACE:23>(Hmph!)<NL><WAIT>(A bit of luck and now<NL> he's playing hero!)<WAIT>(To outshine me, the<NL> president? Never!)"
+  },
+  {
+   "key": "script:0035:0FDB",
+   "src": "fb9093c66bbc",
+   "t": "<FACE:22>(But he won't be so<NL> smug much longer)<WAIT>(Just watch, <PLAYER>!)"
+  },
+  {
+   "key": "script:0035:100D",
+   "src": "6e82df01c756",
+   "t": "<FACE:01>What in the world<NL>was that?"
+  },
+  {
+   "key": "script:0035:101C",
+   "src": "3fe741d17f6a",
+   "t": "<FACE:05>(…That's the class<NL> president's doing)"
+  },
+  {
+   "key": "script:0035:1034",
+   "src": "d0f0987ccaa5",
+   "t": "<FACE:05>(<PLAYER> really is<NL> so clueless…)"
+  },
+  {
+   "key": "script:0035:104E",
+   "src": "6bb913c053ab",
+   "t": "<FACE:06>(…But that president<NL> could use a lesson)"
+  },
+  {
+   "key": "script:0035:1076",
+   "src": "a479cb75e5fe",
+   "t": "<FACE:22>Now then, everyone, no<NL>detours!<WAIT>This is a social<NL>studies trip!<WAIT>We are not here to<NL>have fun!"
+  },
+  {
+   "key": "script:0035:10BB",
+   "src": "dcadc7d44824",
+   "t": "<FACE:06>That guy bugs me…<NL><WAIT>Ordering us around<NL>like he owns it all"
+  },
+  {
+   "key": "script:0035:10E7",
+   "src": "3c79cb1a562a",
+   "t": "<FACE:23>You there! You're too<NL>noisy!"
+  },
+  {
+   "key": "script:0035:10F7",
+   "src": "27a859e10711",
+   "t": "<FACE:03>S-sorry…"
+  },
+  {
+   "key": "script:0035:1104",
+   "src": "6a72d3943b39",
+   "t": "<FACE:06>Hmph"
+  },
+  {
+   "key": "script:0035:110B",
+   "src": "e5d3cb05fee4",
+   "t": "<FACE:03>(Why am I the one<NL> apologizing?)"
+  },
+  {
+   "key": "script:0035:1120",
+   "src": "529d975ca589",
+   "t": "<FACE:22><PLAYER>, may I have a<NL>word?"
+  },
+  {
+   "key": "script:0035:1131",
+   "src": "8793503f6a7d",
+   "t": "<FACE:00>W-what is it?"
+  },
+  {
+   "key": "script:0035:113C",
+   "src": "137c3fba1c84",
+   "t": "<FACE:07>Where did <PLAYER> go?"
+  },
+  {
+   "key": "script:0035:114C",
+   "src": "694b8208b607",
+   "t": "<FACE:36>Hm?<NL><WAIT>He was talking to the<NL>president just now?"
+  },
+  {
+   "key": "script:0035:1173",
+   "src": "9bdadfbdf8f3",
+   "t": "<FACE:05>Hmm…"
+  },
+  {
+   "key": "script:0035:117C",
+   "src": "ac1f3b5d70b1",
+   "t": "<FACE:04>What is this place…?<NL><WAIT>Is it okay to just<NL>walk in?"
+  },
+  {
+   "key": "script:0035:119B",
+   "src": "1257c37941b2",
+   "t": "<FACE:01>And the departure time<NL>is almost here!"
+  },
+  {
+   "key": "script:0035:11B2",
+   "src": "5d613966c9e3",
+   "t": "<FACE:04>Now what do I do…"
+  },
+  {
+   "key": "script:0035:11F8",
+   "src": "c584cc6d8db5",
+   "t": "<FACE:06>You fell for such an<NL>obvious trap, klutz"
+  },
+  {
+   "key": "script:0035:121C",
+   "src": "8c01b526a8e2",
+   "t": "<FACE:04>(I got rescued, but I<NL> can't feel glad…)"
+  },
+  {
+   "key": "script:0035:123C",
+   "src": "00b84d0c62e4",
+   "t": "<FACE:22>Everyone's here<NL><WAIT>You're the last one!"
+  },
+  {
+   "key": "script:0035:1258",
+   "src": "ec7fdc317862",
+   "t": "<FACE:04>Mmh…"
+  },
+  {
+   "key": "script:0035:1260",
+   "src": "d0bd2081df69",
+   "t": "<FACE:04>Why would the class<NL>president be here…?"
+  },
+  {
+   "key": "script:0035:1284",
+   "src": "12295369a3b8",
+   "t": "<FACE:06>What are you doing?!<NL><WAIT>I'm going on ahead!"
+  },
+  {
+   "key": "script:0035:12A2",
+   "src": "065a0d0801b1",
+   "t": "<FACE:03>H-hey… wait uuup!"
+  },
+  {
+   "key": "script:0035:12B4",
+   "src": "c41bc7ca90aa",
+   "t": "<FACE:03>The shutter's closed!"
+  },
+  {
+   "key": "script:0035:12C4",
+   "src": "7bfc6718f5c2",
+   "t": "<FACE:03>Heeey, president!<NL><WAIT>Where aaare you?!"
+  },
+  {
+   "key": "script:0035:12E8",
+   "src": "be6136262a50",
+   "t": "<FACE:03>Waah!!"
+  },
+  {
+   "key": "script:0035:12EF",
+   "src": "fffa8ebf7e66",
+   "t": "<FACE:3E>Well, see you tomorrow<WAIT><FACE:00>Yeah, see you tomorrow"
+  },
+  {
+   "key": "script:0035:1309",
+   "src": "95a9825ff1ea",
+   "t": "<FACE:03>My shoelaces are tied<NL>together!<WAIT><FACE:01>Who would do something<NL>so awful?!"
+  },
+  {
+   "key": "script:0035:1330",
+   "src": "367da79af25a",
+   "t": "<FACE:04>Calling me out to a<NL>place like this…"
+  },
+  {
+   "key": "script:0035:1345",
+   "src": "23dc2af726cf",
+   "t": "<FACE:04>Who's this letter<NL>from, I wonder?<WAIT><FACE:02>…Could it really be<NL>from a girl?!"
+  },
+  {
+   "key": "script:0035:136F",
+   "src": "fcd1c7e56fb9",
+   "t": "<FACE:00>Hm?"
+  },
+  {
+   "key": "script:0035:1374",
+   "src": "5158ccef5090",
+   "t": "<FACE:03>Waaaah!<NL>A caterpillaaar!"
+  },
+  {
+   "key": "script:0035:1387",
+   "src": "4e18e7100450",
+   "t": "<FACE:00>Let's see…<NL>anything forgotten…?"
+  }
+ ]
+}

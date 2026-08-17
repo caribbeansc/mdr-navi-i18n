@@ -1,0 +1,105 @@
+{
+ "part": "script/script_0026",
+ "entries": [
+  {
+   "key": "script:0026:0593",
+   "src": "53d5bb046dd5",
+   "t": "<FACE:7D>Last time was a<NL>disaster-robo…<WAIT>Yeah-robo… Without<NL>them I'd have won…<WAIT>No-robo! I'd have won<NL>it all-robo!<WAIT>If I'd been there,<NL>we'd hold it-robo!"
+  },
+  {
+   "key": "script:0026:0603",
+   "src": "41279f2274b0",
+   "t": "<FACE:73>…Now… hurry…<NL>let's begin…"
+  },
+  {
+   "key": "script:0026:061C",
+   "src": "fe42d2dac352",
+   "t": "<FACE:81>Ah, L-Lady Kirika!<NL><WAIT>W-we noticed-robo"
+  },
+  {
+   "key": "script:0026:063C",
+   "src": "e6171220957a",
+   "t": "<FACE:81>N-now then, let's<NL>get ready-robo…"
+  },
+  {
+   "key": "script:0026:0651",
+   "src": "c868395a7335",
+   "t": "<FACE:81>M-me too-robo…"
+  },
+  {
+   "key": "script:0026:0662",
+   "src": "d403269683d9",
+   "t": "<FACE:73>…you noticed?…<NL><WAIT>…that…<NL><WAIT>a lie…"
+  },
+  {
+   "key": "script:0026:0680",
+   "src": "9a88d0b114ab",
+   "t": "<FACE:7F>Everyone, gather up!<NL><WAIT>At last, the «Sperobo<NL>Cup R» begins-robo!"
+  },
+  {
+   "key": "script:0026:06A7",
+   "src": "975645de86b6",
+   "t": "<FACE:7F>Today we settle who's<NL>best for Lady Kirika!"
+  },
+  {
+   "key": "script:0026:06E0",
+   "src": "3cad703d0db1",
+   "t": "<FACE:80>Ah! It's them-robo<NL><WAIT>They're back-robo!<NL>"
+  },
+  {
+   "key": "script:0026:06F8",
+   "src": "7d285acffa65",
+   "t": "<FACE:7D>This decides who's<NL>best for Kirika-robo"
+  },
+  {
+   "key": "script:0026:071E",
+   "src": "3be42fe6153b",
+   "t": "<FACE:73>…<PLAYER>…<NL>my destined one…<WAIT>we met… again…"
+  },
+  {
+   "key": "script:0026:073C",
+   "src": "d496679dcae2",
+   "t": "<FACE:03>(She's still scary…)"
+  },
+  {
+   "key": "script:0026:074B",
+   "src": "a55dafdc1d2e",
+   "t": "<FACE:06>Ugh, enough!<NL><WAIT>There you go again!<NL>Give this Block back!"
+  },
+  {
+   "key": "script:0026:0773",
+   "src": "773ea3feabc6",
+   "t": "<FACE:73>…surely… we'll meet…<NL>again…"
+  },
+  {
+   "key": "script:0026:0789",
+   "src": "0483ff2403d5",
+   "t": "<FACE:0D>Aw… and I thought I'd<NL>get to test my skills"
+  },
+  {
+   "key": "script:0026:07A5",
+   "src": "38a159bdc047",
+   "t": "<FACE:19>That's right, boss<WAIT><FACE:14>We blew our chance to<NL>impress the leader"
+  },
+  {
+   "key": "script:0026:07C4",
+   "src": "b7097dc67e87",
+   "t": "<FACE:0A>By the way, Hiyori…<NL><WAIT>You really go at that<NL>Kirika, don't you?"
+  },
+  {
+   "key": "script:0026:07EB",
+   "src": "3d6b9a2bbc19",
+   "t": "<FACE:08>Huh?! Y-you think so…"
+  },
+  {
+   "key": "script:0026:07FB",
+   "src": "c48872518ae7",
+   "t": "<FACE:81>…No good-robo<NL>We can't win-robo<WAIT>Run for it-robo!"
+  },
+  {
+   "key": "script:0026:0819",
+   "src": "1782b146d1dd",
+   "t": "<FACE:80>G-goodbye-robooo!"
+  }
+ ]
+}

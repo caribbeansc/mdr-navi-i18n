@@ -1,0 +1,50 @@
+{
+ "part": "script/script_0149",
+ "entries": [
+  {
+   "key": "script:0149:019F",
+   "src": "305616c165c7",
+   "t": "<FACE:31>Oh, <PLAYER>!"
+  },
+  {
+   "key": "script:0149:01A9",
+   "src": "87fd6f0dd957",
+   "t": "<FACE:31>This place is so big…<NL>Perfect for a stroll<WAIT><FACE:00>Don't you get bored<NL>walking on your own?<WAIT><FACE:31>I do, actually…<NL>So come play with me"
+  },
+  {
+   "key": "script:0149:01F9",
+   "src": "7a89ecb51cd4",
+   "t": "<FACE:31>Wowww…<NL>You're really strong<WAIT>Hiyori doesn't deserv…"
+  },
+  {
+   "key": "script:0149:021C",
+   "src": "e7309b9490a2",
+   "t": "<FACE:31>Oh, uh, never mind…<NL>Talking to myself…"
+  },
+  {
+   "key": "script:0149:0230",
+   "src": "f27542a9bcc3",
+   "t": "<FACE:31>I want a boyfriend<NL>like <PLAYER> too…"
+  },
+  {
+   "key": "script:0149:0267",
+   "src": "938b3618055b",
+   "t": "<FACE:00>Huh?<NL><WAIT>Something over there<NL>flashed white…"
+  },
+  {
+   "key": "script:0149:0286",
+   "src": "4f132321bca3",
+   "t": "<FACE:00>What's this?"
+  },
+  {
+   "key": "script:0149:0290",
+   "src": "8b470848657e",
+   "t": "<FACE:57>Third password: «RO»"
+  },
+  {
+   "key": "script:0149:02A1",
+   "src": "3f3f5cf83784",
+   "t": "<FACE:04>…<NL>Password?"
+  }
+ ]
+}

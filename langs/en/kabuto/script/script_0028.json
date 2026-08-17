@@ -1,0 +1,15 @@
+{
+ "part": "script/script_0028",
+ "entries": [
+  {
+   "key": "script:0028:2D56",
+   "src": "edcffe0141c3",
+   "t": "<FACE:0F>the Medal you set in<NL>your \"Grand Beetle\""
+  },
+  {
+   "key": "script:0028:2D8B",
+   "src": "eace49b513f4",
+   "t": "<FACE:0F>In the special room,<WAIT><FACE:0F>you didn't just beat<NL>the display Medabots<WAIT>you wrecked the whole<NL>room and escaped<WAIT>However good the Grand<NL>Beetle's parts may be<WAIT>that alone couldn't do<NL>a stunt like that"
+  }
+ ]
+}

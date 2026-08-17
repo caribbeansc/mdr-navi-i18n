@@ -1,0 +1,170 @@
+{
+ "part": "script/script_0048",
+ "entries": [
+  {
+   "key": "script:0048:04A6",
+   "src": "48bbc0e4d18a",
+   "t": "<FACE:0F>This will do…"
+  },
+  {
+   "key": "script:0048:04B1",
+   "src": "2dd616c88bdd",
+   "t": "<FACE:1E>Brother, where are you<NL>going?"
+  },
+  {
+   "key": "script:0048:04BF",
+   "src": "d4541575338b",
+   "t": "<FACE:0F>I'll look in on this<NL>middle school a bit<WAIT>How Medafighters my<NL>age spend their days…<WAIT><FACE:1E>Then I shall come too<WAIT><FACE:0F>No! It won't take long<NL>Rainy, wait here<WAIT><FACE:21>But…"
+  },
+  {
+   "key": "script:0048:0538",
+   "src": "ac42af4f83bb",
+   "t": "<FACE:0F>It's a normal school,<NL>not well managed…<WAIT>Too dangerous for you,<NL>Rainy"
+  },
+  {
+   "key": "script:0048:056D",
+   "src": "83fa1f13206b",
+   "t": "<FACE:21>…"
+  },
+  {
+   "key": "script:0048:0573",
+   "src": "618c73f89d99",
+   "t": "<FACE:05>Heh heh[<3]<NL><WAIT>Look, look, <PLAYER>!"
+  },
+  {
+   "key": "script:0048:0586",
+   "src": "9546cf106e7f",
+   "t": "<FACE:05>Isn't it great?"
+  },
+  {
+   "key": "script:0048:0592",
+   "src": "7a410371d38a",
+   "t": "<FACE:00>What's that?<WAIT><FACE:05>Ultra high-tech opera<NL>glasses: «SeeMore»!<WAIT>Switch the view mode<NL>and even in the dark<WAIT>you can see even the<NL>laundry 300M away!"
+  },
+  {
+   "key": "script:0048:05F0",
+   "src": "7ac5112897b0",
+   "t": "<FACE:00>Bought another weird<NL>mail-order thing, huh<WAIT><FACE:06>What's weird about it!<NL>How rude!"
+  },
+  {
+   "key": "script:0048:0624",
+   "src": "5e52082bd92e",
+   "t": "<FACE:03>Ow, ow, owww!"
+  },
+  {
+   "key": "script:0048:0631",
+   "src": "248e1447976b",
+   "t": "<FACE:06>Fine then! I'm not<NL>letting you use it"
+  },
+  {
+   "key": "script:0048:064C",
+   "src": "171ed2e5be41",
+   "t": "<FACE:08>Huh?"
+  },
+  {
+   "key": "script:0048:0652",
+   "src": "8d5266aae756",
+   "t": "<FACE:08>What's that? Someone<NL>got out of a limo…?"
+  },
+  {
+   "key": "script:0048:0671",
+   "src": "d5f42637bb6a",
+   "t": "<FACE:36>Huh!? Hiyori<NL><WAIT>You're still here?"
+  },
+  {
+   "key": "script:0048:068D",
+   "src": "00fce56310cf",
+   "t": "<FACE:07>Oh, Sachi, what is it?<NL><WAIT>Did something happen?"
+  },
+  {
+   "key": "script:0048:06AC",
+   "src": "b77323501a40",
+   "t": "<FACE:36>He's here!"
+  },
+  {
+   "key": "script:0048:06B9",
+   "src": "eb0ca13fbe97",
+   "t": "<FACE:07>'He'? Who do you mean?"
+  },
+  {
+   "key": "script:0048:06CD",
+   "src": "fdd3a81a60da",
+   "t": "<FACE:36>That star Medafighter,<NL>Murasame Shiden!"
+  },
+  {
+   "key": "script:0048:06F0",
+   "src": "6f3d720cac6a",
+   "t": "<FACE:07>I know there's a TV<NL>taping in town today…<WAIT>and that the girls<NL>were all in a fuss"
+  },
+  {
+   "key": "script:0048:0733",
+   "src": "7424b879840b",
+   "t": "<FACE:36>That's not it!<NL><WAIT>Shiden himself has<NL>come to THIS school!"
+  },
+  {
+   "key": "script:0048:0756",
+   "src": "6e29ff30a40c",
+   "t": "<FACE:08>Oh my… then that<NL>limousine is…"
+  },
+  {
+   "key": "script:0048:076E",
+   "src": "8d7af36aa43e",
+   "t": "<FACE:36>Waaah! It's the real<NL>Shiden!<WAIT>He's so cool[<3]"
+  },
+  {
+   "key": "script:0048:078F",
+   "src": "03c1377e0c52",
+   "t": "<FACE:36>Let's hurry, Hiyori!"
+  },
+  {
+   "key": "script:0048:07A5",
+   "src": "76f8803368a4",
+   "t": "<FACE:07>Yes, I'll come at once"
+  },
+  {
+   "key": "script:0048:07B3",
+   "src": "b4d75093b112",
+   "t": "<FACE:06>What are you doing<NL>standing there…<WAIT>Keep dawdling and I'll<NL>leave you behind"
+  },
+  {
+   "key": "script:0048:07D8",
+   "src": "5b21284c3d65",
+   "t": "<FACE:03>H-hey, wait up,<NL>Hiyori!"
+  },
+  {
+   "key": "script:0048:07F0",
+   "src": "8945ce3de169",
+   "t": "<FACE:36>Huh?! Let me see!<NL>"
+  },
+  {
+   "key": "script:0048:07FE",
+   "src": "50a239875f77",
+   "t": "<FACE:00>Quite a crowd here…"
+  },
+  {
+   "key": "script:0048:080F",
+   "src": "49593684c543",
+   "t": "<FACE:00>First, the Medawatch…<NL><WAIT>With this you manage<NL>and command Medabots…<WAIT>I'd better register my<NL>name!"
+  },
+  {
+   "key": "script:0048:0859",
+   "src": "1551c6c22b9e",
+   "t": "<FACE:02>All right!"
+  },
+  {
+   "key": "script:0048:085F",
+   "src": "03c04512ae44",
+   "t": "<FACE:02>Set the Medal into the<NL>Tinpet, the skeleton…<WAIT>The Medal is the brain<NL>so raise it right…<WAIT>I'll give it a cool<NL>name!"
+  },
+  {
+   "key": "script:0048:08C7",
+   "src": "c3a9e3a8993d",
+   "t": "<FACE:02>That's done!<NL><WAIT>Add the parts and it's<NL>complete!<WAIT><FACE:00>The legs set the whole<NL>performance<WAIT>Then head, right arm,<NL>left arm, all skills…<WAIT>Gotta think how the 4<NL>parts and Medal fit…"
+  },
+  {
+   "key": "script:0048:0947",
+   "src": "748071e1c7e4",
+   "t": "<FACE:02>I finally got one!<NL><WAIT>I can't wait to get<NL>home<WAIT>I'll build it right<NL>here!"
+  }
+ ]
+}

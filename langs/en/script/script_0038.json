@@ -1,0 +1,125 @@
+{
+ "part": "script/script_0038",
+ "entries": [
+  {
+   "key": "script:0038:04D6",
+   "src": "144879132f1b",
+   "t": "<FACE:05>This place gives me<NL>the creeps…"
+  },
+  {
+   "key": "script:0038:04E8",
+   "src": "f29438ec8852",
+   "t": "<FACE:08>Ugh! What is<NL>that smell?!"
+  },
+  {
+   "key": "script:0038:04FB",
+   "src": "ee9e1e454df8",
+   "t": "<FACE:04>Smells like sulfur<NL><WAIT>…Got it!<NL>It's a volcano Block!"
+  },
+  {
+   "key": "script:0038:0522",
+   "src": "16522e4da596",
+   "t": "<FACE:09>What's that…?"
+  },
+  {
+   "key": "script:0038:052B",
+   "src": "0c278a48f9ba",
+   "t": "<FACE:00>It's the Sperobo Boss<NL>we fought before…"
+  },
+  {
+   "key": "script:0038:0549",
+   "src": "751b611d4e10",
+   "t": "<FACE:00>I think… his name was<NL>Nyuudou!"
+  },
+  {
+   "key": "script:0038:055F",
+   "src": "49652300d19c",
+   "t": "<FACE:0B>Looks like he's up to<NL>something again"
+  },
+  {
+   "key": "script:0038:0574",
+   "src": "dd0ffacbd5e6",
+   "t": "<FACE:01>Hey! You there!<NL>What are you up to?!"
+  },
+  {
+   "key": "script:0038:0595",
+   "src": "9965dadf966f",
+   "t": "<FACE:6E>Bwa ha ha ha ha!<NL>You're too late!<WAIT><FACE:6C>This Medabot sets the<NL>bomb, volcano erupts!<WAIT>And this whole Block<NL>blows to smithereens!"
+  },
+  {
+   "key": "script:0038:05E8",
+   "src": "29617f3f14d2",
+   "t": "<FACE:7D>Well… Boss Nyuudou…<NL>"
+  },
+  {
+   "key": "script:0038:05FB",
+   "src": "77bc4d24eb81",
+   "t": "<FACE:7D>It's too soon-robo…<WAIT><FACE:6F>What did you say?!"
+  },
+  {
+   "key": "script:0038:0614",
+   "src": "e7146002bd5e",
+   "t": "<FACE:7D>Loading all the bombs<NL>takes a while-robo!"
+  },
+  {
+   "key": "script:0038:0640",
+   "src": "70e29eb0a2bd",
+   "t": "<FACE:6D>Why didn't you say so<NL>sooner?!"
+  },
+  {
+   "key": "script:0038:0659",
+   "src": "dd82ec773a0b",
+   "t": "<FACE:7D>I had no chance-robo!<WAIT><FACE:7D>Boss Nyuudou spilled<NL>the plan first…"
+  },
+  {
+   "key": "script:0038:068A",
+   "src": "2566f76e9c9d",
+   "t": "<FACE:05>Then let's get this<NL>Robattle over with!"
+  },
+  {
+   "key": "script:0038:06A9",
+   "src": "b9c9bdd00330",
+   "t": "<FACE:6E>Bwa ha ha ha!<NL>Last time I slipped!<WAIT><FACE:6C>If I play for real,<NL>I can't lose!"
+  },
+  {
+   "key": "script:0038:06E7",
+   "src": "02b55e0e2658",
+   "t": "<FACE:06>That's what I wanted!<NL><WAIT>Go get 'em!<NL><PLAYER>!!"
+  },
+  {
+   "key": "script:0038:0708",
+   "src": "030a81dc5a0d",
+   "t": "<FACE:00>What do you mean<NL>\"what you wanted\"…"
+  },
+  {
+   "key": "script:0038:0715",
+   "src": "4497cee184c7",
+   "t": "<FACE:05>By the way, will it<NL>really erupt?<WAIT><FACE:09>I doubt they'd build<NL>something that risky…<WAIT><FACE:00>Yeah, it'd normally be<NL>just a diorama, huh"
+  },
+  {
+   "key": "script:0038:076E",
+   "src": "c5758a824db7",
+   "t": "<FACE:05>Is there anybody even<NL>in a place like this?"
+  },
+  {
+   "key": "script:0038:0784",
+   "src": "cca05409bbd8",
+   "t": "<FACE:0A>What are you doing?<NL>Let's get moving"
+  },
+  {
+   "key": "script:0038:079C",
+   "src": "8508bcff431a",
+   "t": "<FACE:18>No way! I can't stand<NL>this smell!"
+  },
+  {
+   "key": "script:0038:07AF",
+   "src": "49a08a302819",
+   "t": "<FACE:6D>Grrr…"
+  },
+  {
+   "key": "script:0038:07B6",
+   "src": "dea1873a58bf",
+   "t": "<FACE:6D>You'll pay for this!"
+  }
+ ]
+}

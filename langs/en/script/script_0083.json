@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0083",
+ "entries": [
+  {
+   "key": "script:0083:030B",
+   "src": "b565b64f00d1",
+   "t": "<FACE:7B>Did you see that, men?<NL>My splendid victory!<WAIT>Once I get serious,<NL>that's how it goes!<WAIT><FACE:7D>But…<NL>"
+  },
+  {
+   "key": "script:0083:034F",
+   "src": "8443cf927877",
+   "t": "<FACE:7D>That kid <PLAYER><NL>wasn't there-robo…<WAIT><FACE:7A>What did you say?<WAIT><FACE:7D>That's right-robo…<NL><WAIT>That was a stand-in<NL>…a benchwarmer-robo…"
+  },
+  {
+   "key": "script:0083:039A",
+   "src": "2b7ff3e5e8e7",
+   "t": "<FACE:7A>Ngh… What nonsense!<NL><PLAYER> is no match…"
+  },
+  {
+   "key": "script:0083:03BB",
+   "src": "fb913f12f67a",
+   "t": "<FACE:00>You called?"
+  },
+  {
+   "key": "script:0083:03C2",
+   "src": "25f09e3b3ad8",
+   "t": "<FACE:7C>Gulp!"
+  },
+  {
+   "key": "script:0083:03C9",
+   "src": "22e0fb6ea696",
+   "t": "<FACE:79>…Right on time!<NL><WAIT>Now I'll show you my<NL>true strength!<WAIT><FACE:05>Hmmm…<NL>Bluffing again, huh?"
+  },
+  {
+   "key": "script:0083:041C",
+   "src": "29d0266453ea",
+   "t": "<FACE:7A>Whaaaaat!<NL>Bluffing, am I!?<WAIT>Who!? Who said such<NL>a thing!?"
+  },
+  {
+   "key": "script:0083:0449",
+   "src": "96d894942d73",
+   "t": "<FACE:79>……<WAIT><FACE:05>So it was a bluff<NL>after all"
+  },
+  {
+   "key": "script:0083:0461",
+   "src": "d022509a4550",
+   "t": "<FACE:7C>T-that's right!<NL><WAIT><FACE:7A>Who's been spreading<NL>this bluffing talk!?<WAIT>B-because of it I lost<NL>my Robattle focus!<WAIT><FACE:09>Huh!?"
+  },
+  {
+   "key": "script:0083:04A5",
+   "src": "846f64487561",
+   "t": "<FACE:79>Honestly…<NL>Such a perfect chance<WAIT>to show my true power!<NL><WAIT>And I owe my opponent<NL>an apology!"
+  },
+  {
+   "key": "script:0083:04F5",
+   "src": "c3644f4b2600",
+   "t": "<FACE:79>Retreat and find the<NL>culprit! Move out!"
+  },
+  {
+   "key": "script:0083:0518",
+   "src": "aad53c4f10e0",
+   "t": "<FACE:00>If they take it, we<NL>take it back"
+  }
+ ]
+}

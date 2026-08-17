@@ -43,21 +43,41 @@ def _tags(text: str) -> list[tuple[str, str | None]]:
 
 
 def check(catalog: Catalog, pack: Pack, charset: Charset) -> list[Problem]:
-    """Every problem in a pack, in the order a translator should fix them."""
+    """Every problem in a pack, in the order a translator should fix them.
+
+    A pack names its lines the way Kuwagata lays them out, and the other
+    release is the same game with some of its own scenes. So when the pack was
+    loaded for that release, a line it cannot find there is not a mistake in
+    the pack — it is a line that cartridge does not have — and a line whose
+    Japanese differs is that cartridge saying it its own way. Both are
+    reported as what they are, and neither stops a build: the fingerprint
+    check leaves those lines in Japanese, which is the honest outcome until
+    someone translates them under ``langs/<code>/<release>/``.
+    """
     problems: list[Problem] = []
     sources = catalog.sources()
+    other = bool(pack.release)
 
     for key, entry in sorted(pack.entries.items()):
         if not entry.t:
             continue
         source = sources.get(key)
         if source is None:
-            problems.append(Problem(key, "orphan",
-                                    "no line in this dump has that key"))
+            problems.append(Problem(
+                key, "absent" if other else "orphan",
+                f"no line of this {pack.release} dump has that key" if other
+                else "no line in this dump has that key"))
             continue
         if entry.src and entry.src != fingerprint(source):
-            problems.append(Problem(key, "stale",
-                                    "the Japanese has changed since this was written"))
+            problems.append(Problem(
+                key, "differs" if other else "stale",
+                f"{pack.release} words this line differently; it needs its own "
+                f"translation" if other
+                else "the Japanese has changed since this was written"))
+            if other:
+                # Measuring a line this release will not draw says nothing:
+                # it is written for the other cartridge's slot, not this one.
+                continue
 
         try:
             encode(entry.t, charset)

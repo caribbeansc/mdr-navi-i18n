@@ -244,6 +244,32 @@ KEYBOARD_ROWS = 11
 #: File offsets of the code literals pointing at (font, lut).
 KEYBOARD_LITERALS = (0x4C01C, 0x4C020)
 
+
+def keyboard_literals(rom: Rom, sites: dict[int, list[int]]
+                      ) -> tuple[int, int] | None:
+    """The two code words that name the keyboard font and its pattern table.
+
+    On Kuwagata these were found by watchpointing a grid tile's VRAM write.
+    Reversing them a second time for the other release is unnecessary: they
+    are the only words in the ROM's code that point at those two tables, so
+    the pointer index finds them. Returns None if either is ambiguous, and
+    the build then leaves the keyboard font alone rather than repointing a
+    word it cannot vouch for.
+    """
+    font_at = rom.at(KEYBOARD_FONT, 22 * KEYBOARD_GLYPHS)
+    lut_at = rom.at(KEYBOARD_LUT, 2 * KEYBOARD_LUT_ENTRIES)
+    found = []
+    if font_at is not None and lut_at is not None:
+        for target in (font_at, lut_at):
+            where = [site for site in sites.get(target, []) if site < 0x100000]
+            if len(where) == 1:
+                found.append(where[0])
+    if len(found) == 2:
+        return found[0], found[1]
+    # On Kuwagata the answer is already known — the search agrees with it on a
+    # real dump, and falls back to it on an image that has no code to search.
+    return KEYBOARD_LITERALS if not rom.release.tag else None
+
 FILL = 15
 OUTLINE = 5
 
@@ -252,11 +278,13 @@ def _kb_decode(rom: Rom) -> tuple[list[int], list[list[list[int]]]]:
     """The keyboard font as pixel grids, plus its pattern table."""
     import struct
 
-    lut = [struct.unpack_from("<H", rom.data, KEYBOARD_LUT + 2 * i)[0]
+    lut_at = rom.at(KEYBOARD_LUT, 2 * KEYBOARD_LUT_ENTRIES) or KEYBOARD_LUT
+    font_at = rom.at(KEYBOARD_FONT, 22 * KEYBOARD_GLYPHS) or KEYBOARD_FONT
+    lut = [struct.unpack_from("<H", rom.data, lut_at + 2 * i)[0]
            for i in range(KEYBOARD_LUT_ENTRIES)]
     glyphs = []
     for code in range(KEYBOARD_GLYPHS):
-        base = KEYBOARD_FONT + 22 * code
+        base = font_at + 22 * code
         rows = []
         for r in range(KEYBOARD_ROWS):
             pixels = []

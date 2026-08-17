@@ -1,0 +1,80 @@
+{
+ "part": "script/script_0159",
+ "entries": [
+  {
+   "key": "script:0159:0166",
+   "src": "8336c477d7e7",
+   "t": "<FACE:8C>Hey there, <PLAYER>!<NL>Looking for me?"
+  },
+  {
+   "key": "script:0159:0180",
+   "src": "422568135f08",
+   "t": "<FACE:00>Huh!? Wait, are you<NL>the famous Hikaru?<WAIT>But we've never met<NL>How'd you know me?"
+  },
+  {
+   "key": "script:0159:01BB",
+   "src": "b914d639c908",
+   "t": "<FACE:8C>Well, that Robatt…<NL>no, that's not it!"
+  },
+  {
+   "key": "script:0159:01D4",
+   "src": "fa8275df2254",
+   "t": "<FACE:8C>Uhhh…"
+  },
+  {
+   "key": "script:0159:01DC",
+   "src": "a934bc781050",
+   "t": "<FACE:8C>R-right! Ikki told me<NL>about you earlier!"
+  },
+  {
+   "key": "script:0159:01F9",
+   "src": "6a85973568e6",
+   "t": "<FACE:04>That's odd…<NL><WAIT>Ikki said if he saw<NL>Hikaru,<WAIT>he'd let me know…"
+  },
+  {
+   "key": "script:0159:0233",
+   "src": "90d33a408999",
+   "t": "<FACE:8C>Gulp!"
+  },
+  {
+   "key": "script:0159:023A",
+   "src": "8d379659070e",
+   "t": "<FACE:00>Are you really Hikaru?<NL><WAIT>Some folks fake being<NL>famous Medafighters…"
+  },
+  {
+   "key": "script:0159:0272",
+   "src": "c2e7b6eb4524",
+   "t": "<FACE:8C>Fine then!<NL>I'll just show you!"
+  },
+  {
+   "key": "script:0159:0291",
+   "src": "90daf131d832",
+   "t": "<FACE:8C>Nooooooo!<NL><WAIT>Medabots these days<NL>are strong…"
+  },
+  {
+   "key": "script:0159:02B1",
+   "src": "a495e8573c39",
+   "t": "<FACE:00>…Hmmmm<NL><WAIT>I won, but that was<NL>pretty tough…<WAIT>You really do seem to<NL>be the real Hikaru<WAIT>Shiden left a parcel<NL>with me<WAIT>Isn't it yours?<WAIT><FACE:8C>Huh? That Shiden did?<WAIT>Let's have a look…"
+  },
+  {
+   "key": "script:0159:032E",
+   "src": "368336d7c71d",
+   "t": "<FACE:8C>…This isn't for me"
+  },
+  {
+   "key": "script:0159:0340",
+   "src": "c0ec0cce25fc",
+   "t": "<FACE:8C>This is Rintaro's<NL>Medabot<WAIT><FACE:00>Rintaro's?<NL>I see…<WAIT>"
+  },
+  {
+   "key": "script:0159:036C",
+   "src": "37feaa6052aa",
+   "t": "<FACE:8C>I ran into Rintaro<NL>around here just now<WAIT>but he said he had<NL>an errand and left<WAIT><FACE:02>I see… I'll go after<NL>him right away!<WAIT>Thank you!"
+  },
+  {
+   "key": "script:0159:03BC",
+   "src": "b7209fed1c00",
+   "t": "<FACE:8C>Hikaru joined the<NL>team!"
+  }
+ ]
+}

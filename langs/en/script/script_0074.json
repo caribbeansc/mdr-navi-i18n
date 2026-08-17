@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0074",
+ "entries": [
+  {
+   "key": "script:0074:05FD",
+   "src": "8a5ce21183a7",
+   "t": "<FACE:01>Smog! You can't!<NL>You're too frail!"
+  },
+  {
+   "key": "script:0074:0618",
+   "src": "81e5366e9d99",
+   "t": "<FACE:75>Heh heh heh? Cough…<NL><PLAYER>, is it?"
+  },
+  {
+   "key": "script:0074:0629",
+   "src": "4d9f8a7ce4bb",
+   "t": "<FACE:75>Look!<NL><WAIT>This beautiful Block!<NL><WAIT>Resting here will heal<NL>my body!"
+  },
+  {
+   "key": "script:0074:0654",
+   "src": "69cc0eca71ad",
+   "t": "<FACE:76>Cough…<NL>I'll take this place!"
+  },
+  {
+   "key": "script:0074:0670",
+   "src": "cec2ebf4cfbc",
+   "t": "<FACE:76>Hmph!"
+  },
+  {
+   "key": "script:0074:0676",
+   "src": "32913a036f7e",
+   "t": "<FACE:78>Honestly… there was no<NL>need for that…"
+  },
+  {
+   "key": "script:0074:0689",
+   "src": "5309178e7001",
+   "t": "<FACE:6E>You say that, but your<NL>face is awfully red"
+  },
+  {
+   "key": "script:0074:06A5",
+   "src": "344fcb509e6e",
+   "t": "<FACE:76>You fool! This is from<NL>absorbing nutrients…"
+  },
+  {
+   "key": "script:0074:06BC",
+   "src": "cb759d96667c",
+   "t": "<FACE:72>Aww, you're blushing!<NL>"
+  },
+  {
+   "key": "script:0074:06CC",
+   "src": "a9847dd61fa1",
+   "t": "<FACE:00>I've got no business<NL>over there"
+  },
+  {
+   "key": "script:0074:06DB",
+   "src": "376850bf4730",
+   "t": "<FACE:75>Smog joined the team!"
+  },
+  {
+   "key": "script:0074:06ED",
+   "src": "367ee99abdea",
+   "t": "<FACE:00>I see… so there's<NL>nobody but Medabots"
+  },
+  {
+   "key": "script:0074:070A",
+   "src": "fc376d2c7a47",
+   "t": "<FACE:04>But why…?"
+  }
+ ]
+}

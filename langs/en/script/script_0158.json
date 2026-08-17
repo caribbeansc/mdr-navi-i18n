@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0158",
+ "entries": [
+  {
+   "key": "script:0158:021F",
+   "src": "50b6ffcd5fba",
+   "t": "<FACE:9C>Did that person really<NL>say <PLAYER>?<WAIT><FACE:99>What!? Is that guy<NL>really that famous?"
+  },
+  {
+   "key": "script:0158:0252",
+   "src": "a1f28d85d96a",
+   "t": "<FACE:9C>They say he fixed the<NL>big meltdown here!<WAIT>Once that gets around,<NL>he'll be famous!"
+  },
+  {
+   "key": "script:0158:0290",
+   "src": "569002a90638",
+   "t": "<FACE:99>Huh, if he's that good<NL>I want a rematch!"
+  },
+  {
+   "key": "script:0158:02BA",
+   "src": "aff273b78a91",
+   "t": "<FACE:02>We meet again, guys!"
+  },
+  {
+   "key": "script:0158:02CA",
+   "src": "b2e0a858644e",
+   "t": "<FACE:99>Oh! <PLAYER>, right?<NL><WAIT>I hear you're a pretty<NL>famous Medafighter<WAIT>Let's Robattle again!<WAIT><FACE:00>Sure… but about what<NL>they just said…"
+  },
+  {
+   "key": "script:0158:0321",
+   "src": "9c3a02005155",
+   "t": "<FACE:9C>Hey, hey, let teacher<NL>in on that Robattle!"
+  },
+  {
+   "key": "script:0158:033C",
+   "src": "b1544423b091",
+   "t": "<FACE:99>Whaaat!<NL><WAIT>With a teacher along<NL>you'd slow us down!"
+  },
+  {
+   "key": "script:0158:0362",
+   "src": "77b6b9330417",
+   "t": "<FACE:9C>Look, I'm not the only<NL>one joining the team!"
+  },
+  {
+   "key": "script:0158:0382",
+   "src": "50aac0ed20f6",
+   "t": "<FACE:99>Huh! You don't mean<NL>Rintaro!?"
+  },
+  {
+   "key": "script:0158:0397",
+   "src": "072cf6c74afb",
+   "t": "<FACE:00>What?<NL>Rintaro's coming too?"
+  },
+  {
+   "key": "script:0158:03AE",
+   "src": "978c45b1e77d",
+   "t": "<FACE:9C>I'm the Meda club<NL>advisor, you know!<WAIT>I'm always linked to<NL>student Medawatches!<WAIT><FACE:00>Could you contact him…"
+  },
+  {
+   "key": "script:0158:03F3",
+   "src": "4beb4422f144",
+   "t": "<FACE:99>Then it's settled!<NL>Let's Robattle now!"
+  },
+  {
+   "key": "script:0158:040D",
+   "src": "572da4059a49",
+   "t": "<FACE:9C>Waaah… I lost…"
+  },
+  {
+   "key": "script:0158:041F",
+   "src": "10dc8f6b2397",
+   "t": "<FACE:99>See, with the teacher<NL>as leader…"
+  },
+  {
+   "key": "script:0158:0436",
+   "src": "912474e6e2c0",
+   "t": "<FACE:9C>But…!<NL><WAIT>I wanted some clout so<NL>students respect me!"
+  },
+  {
+   "key": "script:0158:0464",
+   "src": "2c96be8be66e",
+   "t": "<FACE:00>So… I've got something<NL>to ask Rintaro…"
+  },
+  {
+   "key": "script:0158:0488",
+   "src": "c1fe59cad76f",
+   "t": "<FACE:9C>…Sniff… Huh? Rintaro…<NL>…hold on a moment…"
+  },
+  {
+   "key": "script:0158:04AF",
+   "src": "4a5cf2274f1c",
+   "t": "<FACE:9C>Helloo…<NL>Oh!? The link's cut…<WAIT>He says he's busy…"
+  },
+  {
+   "key": "script:0158:04E0",
+   "src": "5077e99dc73d",
+   "t": "<FACE:99>Bah, knowing him,<NL>he's out somewhere<WAIT>Robattling like crazy!<WAIT><FACE:04>…I see…"
+  },
+  {
+   "key": "script:0158:0510",
+   "src": "f0d8d2f6daf1",
+   "t": "<FACE:00>If you see him, tell<NL>him I was looking"
+  },
+  {
+   "key": "script:0158:052A",
+   "src": "ccb2f17ff8e6",
+   "t": "<FACE:99>Tch, fine…<NL>You owe me a match!<WAIT><FACE:00>Sure<NL>And also…<WAIT>It's Ms. Tamao, right?<NL><WAIT>Do you know someone<NL>named Hikaru?"
+  },
+  {
+   "key": "script:0158:0583",
+   "src": "21e71528e76b",
+   "t": "<FACE:9C>Hikaru? The one that<NL>Rintaro looks up to?<WAIT>I saw him in a room<NL>a lot like this one<WAIT>I just can't recall<NL>where…"
+  },
+  {
+   "key": "script:0158:05DD",
+   "src": "0f1704124845",
+   "t": "<FACE:02>Really!? I'll go check<NL>the other rooms!<WAIT>Thank you!"
+  }
+ ]
+}

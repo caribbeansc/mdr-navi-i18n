@@ -5,8 +5,10 @@ each line is called, or a pack written today would miss tomorrow. That walk
 lives here, once.
 
 Keys look like ``script:0042:0335`` (script index, offset within it) or
-``str:7EC660`` (file offset). They are stable for a given release because they
-name where the game keeps the line, not what it says.
+``str:7EC660`` (file offset). They name where the game keeps the line, not what
+it says — and specifically where KUWAGATA keeps it, in both releases, because
+Kabuto is the same data shifted (navi/align.py) and one pack should serve both.
+A line only Kabuto has is named ``str:KBT:645264`` so it can never collide.
 """
 
 from __future__ import annotations
@@ -17,7 +19,7 @@ from .lang import fingerprint
 from .rom import Rom
 from .script import Script, read_scripts, read_strings
 from .strings import LooseString, scan, script_area
-from .table import Charset, load_japanese
+from .table import Charset, decode, load_japanese
 
 
 @dataclass
@@ -73,12 +75,59 @@ def script_key(index: int, relative: int) -> str:
     return f"script:{index:04d}:{relative:04X}"
 
 
-def loose_key(offset: int) -> str:
-    return f"str:{offset:06X}"
+def loose_key(offset: int, tag: str = "") -> str:
+    return f"str:{tag}:{offset:06X}" if tag else f"str:{offset:06X}"
 
 
-def build(rom: Rom, charset: Charset | None = None, loose: bool = True) -> Catalog:
-    """Walk a dump and name everything in it."""
+def seeded(rom: Rom, charset: Charset, wanted: dict[int, str],
+           known: dict[str, Line]) -> list[Line]:
+    """Loose lines the scan missed here but a pack already names.
+
+    The scan is a heuristic — a run of strings has to look enough like the
+    game's own writing to be believed — and the other release shifts the data
+    it weighs that against, so a block the Kuwagata scan accepts whole can
+    come up one string short on Kabuto. The pack knows where those strings
+    are: its keys ARE the list, in Kuwagata's offsets, each with a fingerprint
+    of what it expects to find. Following it here is not a second scanner, it
+    is the same finding read through the alignment — and a line is only
+    catalogued where the dump still holds the Japanese the pack was written
+    against, so a seed can never invent a line that is not there.
+    """
+    from .strings import PAD_LIMIT, pointer_index
+
+    index = pointer_index(rom)
+    data = bytes(rom.data)
+    out: list[Line] = []
+    for canonical, src in sorted(wanted.items()):
+        at = rom.at(canonical)
+        if at is None or loose_key(canonical) in known:
+            continue
+        text, end = decode(data, at, charset, limit=200)
+        if not text.strip() or end <= at or fingerprint(text) != src:
+            continue
+        padded = end
+        while padded < len(data) and data[padded] == 0 and padded - end < PAD_LIMIT:
+            padded += 1
+        out.append(Line(
+            key=loose_key(canonical),
+            text=text,
+            kind="loose",
+            offset=at,
+            length=padded - at,
+            pointers=sorted(index.get(at, [])),
+        ))
+    return out
+
+
+def build(rom: Rom, charset: Charset | None = None, loose: bool = True,
+          seeds: dict[int, str] | None = None) -> Catalog:
+    """Walk a dump and name everything in it.
+
+    ``seeds`` are canonical (Kuwagata) offsets of loose strings a pack already
+    translates; on another release they are followed through the alignment to
+    catch what the scan words differently there. They are ignored on Kuwagata
+    itself, whose scan is what the keys were named from in the first place.
+    """
     charset = charset or load_japanese()
     catalog = Catalog()
 
@@ -102,7 +151,15 @@ def build(rom: Rom, charset: Charset | None = None, loose: bool = True) -> Catal
         found_all = scan(rom, charset, exclude=script_area(rom))
         found_all += supplement(rom, charset)
         for found in found_all:
-            key = loose_key(found.offset)
+            # A key names a line by where KUWAGATA keeps it, in every release,
+            # so that one pack serves both: the other cartridge is the same
+            # data shifted, and navi/align.py says by how much. A string that
+            # has no Kuwagata twin — the ones naming the release's own cover
+            # Medabot — is named after this dump instead, tagged so it can
+            # never collide with a Kuwagata key.
+            canonical = rom.back(found.offset, max(1, found.length))
+            key = (loose_key(canonical) if canonical is not None
+                   else loose_key(found.offset, rom.release.tag))
             if key in catalog.lines:
                 continue
             catalog.lines[key] = Line(
@@ -114,6 +171,10 @@ def build(rom: Rom, charset: Charset | None = None, loose: bool = True) -> Catal
                 pointers=found.pointers,
                 fixed=found.fixed,
             )
+
+        if seeds and rom.release.tag:
+            for line in seeded(rom, charset, seeds, catalog.lines):
+                catalog.lines[line.key] = line
 
     return catalog
 

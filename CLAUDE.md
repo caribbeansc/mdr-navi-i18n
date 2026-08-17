@@ -21,7 +21,12 @@ python navi.py font [chars]    # ASCII preview of the patched font
 python navi.py doctor          # check the setup
 pytest                         # tests; ROM-dependent ones skip without a dump
 make -C tools                  # build gbashot (needs: brew install mgba libpng)
+python3 tools/align.py <kabuto.gba>   # regenerate data/offsets-kabuto.json
 ```
+
+Two packs ship: `langs/es` (es-419) and `langs/en` (English dub canon). Both
+build for either release — point `navi.py rom` at the dump you want and the
+same pack applies (see "The two releases").
 
 ## Verifying in the emulator (do this, it catches what static checks cannot)
 
@@ -56,6 +61,19 @@ DYLD_LIBRARY_PATH=$(brew --prefix mgba)/lib ./tools/gbashot build/…gba \
   d-pad are reachable; `--mash 0` turns the built-in A-mashing off. Bisect
   the `--arm FRAME` to learn *when* the write happens, then feed the pc to
   `tools/disasm.py`.
+
+## The two releases
+
+Kuwagata and Kabuto shipped the same day and are ONE build with the data
+shifted: 159 of the 170 event scripts are byte-identical, the fonts and tables
+move by a few hundred bytes, and only the cover Medabot's own scenes differ.
+Kuwagata is canonical here — every offset written down in this repository is a
+Kuwagata offset — and `navi/align.py` places it in the other cartridge. Kabuto
+constants live in `rom.py` like Kuwagata's (script table 0x629728, font
+0x657D60, kanji font 0x658540, 1bpp table 0x4C7608; the first three agree with
+Normmatt's independently reversed values). Regenerate the map with
+`python3 tools/align.py "…Kabuto (Japan).gba"` — it prints where each anchor
+landed and refuses to be quiet about one it could not place.
 
 ## What the ROM is (Kuwagata; constants in `navi/rom.py`)
 
@@ -99,11 +117,22 @@ DYLD_LIBRARY_PATH=$(brew --prefix mgba)/lib ./tools/gbashot build/…gba \
   never garbage.
 - Language packs (`langs/<code>/`) contain `key`, `src` (12-hex fingerprint of
   the Japanese), `t` (translation). If `src` no longer matches the dump, the
-  build refuses that line. **Never commit Japanese text, ROM bytes, `work/`,
-  `build/`, `dist/`, or any `.gba`.**
-- Translation style: es-419, Latin-American dub canon — see
-  `langs/es/GLOSSARY.md`. The Sperobo verbal tic is a trailing `-robo`;
-  drop it when a row would exceed the visible width.
+  build refuses that line. A pack is written against Kuwagata and serves both
+  releases; `langs/<code>/kabuto/` holds only what that cartridge words its
+  own way, loaded on top when the dump is a Kabuto one. On a non-canonical
+  release `validate` reports `absent` (that cartridge has no such line) and
+  `differs` (it says it its own way) instead of `orphan`/`stale`, and neither
+  blocks a build — the fingerprint leaves those lines Japanese, which is the
+  honest outcome until someone translates them. **Never commit Japanese text,
+  ROM bytes, `work/`, `build/`, `dist/`, or any `.gba`.**
+- The pack-specific tests are parameterised over EVERY pack in `langs/`
+  (`language_packs()` in tests/conftest.py): a rule the cartridge imposes is
+  not a Spanish rule, and a new language gets the same enforcement for free.
+- Translation style: es-419, Latin-American dub canon (`langs/es/GLOSSARY.md`);
+  English follows the Nelvana dub (`langs/en/GLOSSARY.md`): Medabot,
+  Medafighter, Robattle, Medaforce, Medapart, Medawatch, Tinpet. The Sperobo
+  verbal tic is a trailing `-robo` in both; drop it when a row would exceed
+  the visible width.
 - **What the original already shows in English STAYS in English** — UI or
   dialogue, text or graphics: `push start`, `OPTION`/`TIME`/`BGM`, `WIN`/
   `LOSE`, `LV`/`EXP`/`MF`, `ROBOTTLE!`, `MEDAROT`, `TYPE`/`LEVEL`, `PAGE`,
@@ -182,10 +211,25 @@ Hard-won facts:
 
 ## Gotchas that already cost time
 
-- Kabuto is the same game at shifted offsets — `Release` in `navi/rom.py` has a
-  stub; fill its constants before touching a Kabuto dump.
-- The catalog key is `script:NNNN:OFFS` / `str:OFFSET` — stable per release
-  only. Kabuto will need its own packs or key remapping.
+- **Kabuto is the same build at shifted offsets, and that is now derived, not
+  re-reversed.** `navi/align.py` aligns the two dumps into 2205 byte-identical
+  runs covering 97.5% of the cartridge (committed as `data/offsets-kabuto.json`
+  by `tools/align.py`, offsets only). Every constant in this project stays a
+  KUWAGATA offset and goes through `rom.at(offset, length)` at the point of
+  use; `None` means the releases differ there and the caller must leave it
+  alone. NEVER pass an offset read out of the ROM through `at` — it is already
+  in that dump's space. Pointer TABLES cannot be content-matched (their bytes
+  are the addresses that differ): they are found by mapping what they point at,
+  in `tools/align.py`.
+- The catalog key is `script:NNNN:OFFS` / `str:OFFSET`, and it names where
+  KUWAGATA keeps the line **in both releases**, so one pack serves both — 4323
+  of the Spanish pack's 4481 lines apply to a Kabuto dump unchanged. A line
+  only the other release has is keyed `str:KBT:OFFSET`; what Kabuto words
+  differently (the Grand Beetle scenes, a few name tables) lives in
+  `langs/<code>/kabuto/` and is loaded on top when the dump is Kabuto.
+  The loose scan is a heuristic and finds slightly different runs on each
+  cartridge, so the catalogue is also SEEDED from the pack's own keys
+  (`catalog.seeded`) — same finding, read through the alignment.
 - `Charset.multi` handles `[<3]` and `[note]` spellings; width checks count
   them as one cell.
 - **Fused fixed-table records** (several 8-byte name fields with no

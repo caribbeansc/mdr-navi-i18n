@@ -1,0 +1,13 @@
+{
+  "code": "en",
+  "name": "English",
+  "english_name": "English",
+  "validation": {
+    "line_width": 32,
+    "box_rows": 2,
+    "extra_chars": "'\"…«»"
+  },
+  "credits": [
+    "Glossary follows the English dub of Medabots (Nelvana / Fox Kids, 2001)"
+  ]
+}

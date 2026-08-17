@@ -1,0 +1,320 @@
+{
+ "part": "script/script_0071",
+ "entries": [
+  {
+   "key": "script:0071:0CDF",
+   "src": "a2cb270a6e54",
+   "t": "<FACE:09>This place gives me<NL>the creeps…"
+  },
+  {
+   "key": "script:0071:0CF5",
+   "src": "381dbe3a196e",
+   "t": "<FACE:0F>They hollowed out the<NL>asteroid…<WAIT>Must've dug it out for<NL>this base's material…"
+  },
+  {
+   "key": "script:0071:0D2F",
+   "src": "36d772500929",
+   "t": "<FACE:00>So this base was built<NL>right here?<WAIT><FACE:03>Amazing…<WAIT><FACE:0F>Yeah… I took them for<NL>reckless show-offs…"
+  },
+  {
+   "key": "script:0071:0D80",
+   "src": "6509a6f092f9",
+   "t": "<FACE:0F>Well now, seems they<NL>do have real tech…"
+  },
+  {
+   "key": "script:0071:0D9F",
+   "src": "0dcf75d2e074",
+   "t": "<FACE:0F>A fork… Let's split up<NL>I'll look that way"
+  },
+  {
+   "key": "script:0071:0DC9",
+   "src": "7b9513d7b4d5",
+   "t": "<FACE:0A>Then I'll go this way"
+  },
+  {
+   "key": "script:0071:0DD7",
+   "src": "23bbb9f8ccf3",
+   "t": "<FACE:19>I'll go the other way,<NL>sir"
+  },
+  {
+   "key": "script:0071:0DEC",
+   "src": "86249e8aecb1",
+   "t": "<FACE:05>We'll take this path!<NL>Let's go, <PLAYER>!<WAIT><FACE:03>Uh, Hiyori… what do<NL>you mean, we…?"
+  },
+  {
+   "key": "script:0071:0E1C",
+   "src": "abe168b6c5bb",
+   "t": "<FACE:04>Hiyori always does<NL>just what she wants!"
+  },
+  {
+   "key": "script:0071:0E2E",
+   "src": "dc28af512999",
+   "t": "<FACE:05>With this mail-order…<NL>"
+  },
+  {
+   "key": "script:0071:0E3F",
+   "src": "574eb62fced8",
+   "t": "<FACE:05>«Auto Dowsing Machine<NL>Dowsinger Z»! Easy!"
+  },
+  {
+   "key": "script:0071:0E68",
+   "src": "5af7f2f0db3e",
+   "t": "<FACE:05>Look! Let's go where<NL>it's reacting!"
+  },
+  {
+   "key": "script:0071:0E83",
+   "src": "94f33edbd9c8",
+   "t": "<FACE:00>Hey, Hiyori…<NL><WAIT>Isn't dowsing for<NL>finding ore veins?<WAIT>Then where it reacts<NL>would be blocked up…"
+  },
+  {
+   "key": "script:0071:0ECF",
+   "src": "426c23f1bcc6",
+   "t": "<FACE:06>Ugh! It's a dead end!<NL>"
+  },
+  {
+   "key": "script:0071:0EE5",
+   "src": "a6048bf88135",
+   "t": "<FACE:06>I kind of felt that!<NL>Back we go, <PLAYER>"
+  },
+  {
+   "key": "script:0071:0F04",
+   "src": "54a5d0d71e7c",
+   "t": "<FACE:05>Wonder what the others<NL>are up to? Go check!"
+  },
+  {
+   "key": "script:0071:0F27",
+   "src": "acc6a7fb5c38",
+   "t": "<FACE:00>Shiden! What are you<NL>doing?<WAIT><FACE:0F>Hmmm…<NL><WAIT>An ultra-pure crystal<NL>of special metal…<WAIT>The asteroid's got<NL>amazing resources…<WAIT><FACE:00>Ugh! If you know it's<NL>a dead end, get back!"
+  },
+  {
+   "key": "script:0071:0F99",
+   "src": "b2c284f62ecd",
+   "t": "<FACE:00>Fubuki! What are you<NL>doing?"
+  },
+  {
+   "key": "script:0071:0FA9",
+   "src": "f70004203aba",
+   "t": "<FACE:0A>Ah… as a spy…<NL><WAIT>Gotta check if they<NL>left any codes behind<WAIT><FACE:00>This isn't some cheap<NL>mystery novel!<NL><WAIT>If you know it's a<NL>dead end, get back!"
+  },
+  {
+   "key": "script:0071:1013",
+   "src": "bc816d96c315",
+   "t": "<FACE:0A>Hm? What's this?!"
+  },
+  {
+   "key": "script:0071:1021",
+   "src": "2119793742d3",
+   "t": "<FACE:03>Ah! Fubuki, that…<NL><WAIT>that's a dirty book…"
+  },
+  {
+   "key": "script:0071:103F",
+   "src": "0056be1e9b5e",
+   "t": "<FACE:0D>Eek!"
+  },
+  {
+   "key": "script:0071:1046",
+   "src": "d9dfaf131d9c",
+   "t": "<FACE:80>That's mine-roboo!<NL>Middle schoolers<WAIT>mustn't see that-robo!"
+  },
+  {
+   "key": "script:0071:1070",
+   "src": "86916056ceba",
+   "t": "<FACE:03>Fubuki! What was that<NL>just now!?<WAIT><FACE:0B>Let's go after him!"
+  },
+  {
+   "key": "script:0071:1087",
+   "src": "1aebb284a90c",
+   "t": "<FACE:03>Huh? Hiyori?<NL>Why are you here?"
+  },
+  {
+   "key": "script:0071:109B",
+   "src": "4d7823467d48",
+   "t": "<FACE:05>What do you mean, why…<NL><WAIT>Fubuki squealed, so I<NL>peeked: a Sperobo…<WAIT><FACE:00>Where did he go?<WAIT><FACE:09>Well…<NL>"
+  },
+  {
+   "key": "script:0071:10E9",
+   "src": "56f5e1389c78",
+   "t": "<FACE:09>I was worried about<NL>you guys, that's all…<WAIT><FACE:05>Everything OK over<NL>there?<WAIT><FACE:00>Yeah, Fubuki just<NL>found a weird book…<NL><WAIT>But I see… I wish we<NL>knew where he went"
+  },
+  {
+   "key": "script:0071:114D",
+   "src": "c0a8f2d9dd27",
+   "t": "<FACE:0A>Can't be helped<NL><WAIT>Anyway, it must lead<NL>somewhere…<WAIT>For now, let's regroup"
+  },
+  {
+   "key": "script:0071:117F",
+   "src": "151a7dd35686",
+   "t": "<FACE:00>Mizore! What are you<NL>doing?"
+  },
+  {
+   "key": "script:0071:118F",
+   "src": "a154395a6aa1",
+   "t": "<FACE:1C>!<NL><WAIT>That's not it, sir…<NL><WAIT>I wasn't slacking off<NL>on a break, sir!<WAIT><FACE:01>…If you know it's a<NL>dead end, get back!"
+  },
+  {
+   "key": "script:0071:11D9",
+   "src": "598ab9bf3f34",
+   "t": "<FACE:00>Gousetsu! What are you<NL>doing?"
+  },
+  {
+   "key": "script:0071:11EA",
+   "src": "b186dba5e9af",
+   "t": "<FACE:17>!<NL><WAIT>It ain't like that…<NL><WAIT>I wasn't slackin' off!<NL>Believe me, will ya!<WAIT><FACE:01>…If you know it's a<NL>dead end, get back!"
+  },
+  {
+   "key": "script:0071:1238",
+   "src": "e5b1cd7635ce",
+   "t": "<FACE:13>Strange, though…<NL>No path leads deeper…"
+  },
+  {
+   "key": "script:0071:125D",
+   "src": "442fd3936ef6",
+   "t": "<FACE:0D>Hm? This wall looks a<NL>little odd!?"
+  },
+  {
+   "key": "script:0071:1275",
+   "src": "20d0c37e860e",
+   "t": "<FACE:0A>It's a bit wobbly<NL>Rocks put here later?"
+  },
+  {
+   "key": "script:0071:129A",
+   "src": "2de1b8dbd021",
+   "t": "<FACE:0F>So there's a passage<NL>on the other side…"
+  },
+  {
+   "key": "script:0071:12B6",
+   "src": "26eadde2baa7",
+   "t": "<FACE:05>Let's just smash this<NL>with a Medaforce!"
+  },
+  {
+   "key": "script:0071:12D2",
+   "src": "a06fd2afc72c",
+   "t": "<FACE:05><PLAYER>!<NL>Go on, do it!"
+  },
+  {
+   "key": "script:0071:12E2",
+   "src": "2aa54bf71323",
+   "t": "<FACE:12>No, that's a bad idea…"
+  },
+  {
+   "key": "script:0071:12F1",
+   "src": "9b02e3df1d70",
+   "t": "<FACE:0F>They dug deep here to<NL>get at the resources"
+  },
+  {
+   "key": "script:0071:1314",
+   "src": "3c7b1453abcf",
+   "t": "<FACE:0F>It's structurally weak<NL>Slip up and it caves!"
+  },
+  {
+   "key": "script:0071:1341",
+   "src": "d6d600178618",
+   "t": "<FACE:04>Yeah… if only we could<NL>get them to open it…"
+  },
+  {
+   "key": "script:0071:1371",
+   "src": "e5b9a843ca28",
+   "t": "<FACE:16>Somethin' like that?<NL>Leave it to me!"
+  },
+  {
+   "key": "script:0071:1386",
+   "src": "16b2ae78d689",
+   "t": "<FACE:17>Aaaaaaah!"
+  },
+  {
+   "key": "script:0071:1393",
+   "src": "65e1d122537b",
+   "t": "<FACE:17>Scraped the wall a bit<NL>and out poured gold!"
+  },
+  {
+   "key": "script:0071:13B6",
+   "src": "5d0336457a9d",
+   "t": "<FACE:17>It's a vein of gold!<NL>Look! A big gold bar!"
+  },
+  {
+   "key": "script:0071:13DD",
+   "src": "90b7af2e3d6c",
+   "t": "<FACE:0B>There's no way a bar<NL>comes out of a vein!"
+  },
+  {
+   "key": "script:0071:13FA",
+   "src": "dc58fd2f309e",
+   "t": "<FACE:0F>Besides, the special<NL>metal from this vein<WAIT>is worth many times<NL>more than gold!"
+  },
+  {
+   "key": "script:0071:1430",
+   "src": "f1195247c61f",
+   "t": "<FACE:05>I thought so too!<NL>So ignorant it hurts!<WAIT><FACE:1D>I misjudged you, sir!"
+  },
+  {
+   "key": "script:0071:1461",
+   "src": "c1527845eae4",
+   "t": "<FACE:18>Guys… you don't have<NL>to go that fa…"
+  },
+  {
+   "key": "script:0071:1473",
+   "src": "e08ae96232d8",
+   "t": "<FACE:15>Ya didn't have to say<NL>that muuuuuch!!!"
+  },
+  {
+   "key": "script:0071:1491",
+   "src": "dd010138dd19",
+   "t": "<FACE:18>Sniff… sob… sob…<NL>Then…<WAIT>Then I'm sure you lot<NL>have great ideas, eh!"
+  },
+  {
+   "key": "script:0071:14D1",
+   "src": "9259848d89b8",
+   "t": "<FACE:0E>…<NL><WAIT>(If I mess this up…)"
+  },
+  {
+   "key": "script:0071:14E5",
+   "src": "6756ac896a3c",
+   "t": "<FACE:1D>(I'd end up just like<NL> Gousetsu did, sir…)"
+  },
+  {
+   "key": "script:0071:1500",
+   "src": "3852428f65d1",
+   "t": "<FACE:10>(If they laugh at me,<NL> my cool image is…)"
+  },
+  {
+   "key": "script:0071:1522",
+   "src": "a1bb4f9168d6",
+   "t": "<FACE:03>What's with everyone?<NL>Suddenly so quiet…"
+  },
+  {
+   "key": "script:0071:1540",
+   "src": "8020c5147a8a",
+   "t": "<FACE:00>Hiyori! How do we<NL>lure them out?"
+  },
+  {
+   "key": "script:0071:1563",
+   "src": "e4d112e840e0",
+   "t": "<FACE:06>Quit bugging me… go<NL>ask somebody else!<WAIT><FACE:00>Don't say that, Hiyori<NL>You can lure them out<WAIT><FACE:06>Don't say things you<NL>can't back up!<NL>"
+  },
+  {
+   "key": "script:0071:15B1",
+   "src": "ba1a189a3a8a",
+   "t": "<FACE:06>Besides, they're wimps<NL>who block off paths!"
+  },
+  {
+   "key": "script:0071:15CF",
+   "src": "54f34a41441f",
+   "t": "<FACE:06>By now they've run off<NL>somewhere far away!"
+  },
+  {
+   "key": "script:0071:15EE",
+   "src": "da1e62703c22",
+   "t": "<FACE:04>Wimps?"
+  },
+  {
+   "key": "script:0071:15F6",
+   "src": "5d3692762530",
+   "t": "<FACE:06>What? Obviously!<NL><WAIT>If they had the skill,<NL>they'd Robattle us!<WAIT>They kept losing to us<NL>back in the Cluster<WAIT>They think they can't<NL>win, so they do this!"
+  },
+  {
+   "key": "script:0071:16D9",
+   "src": "69ebca237ca5",
+   "t": "<FACE:00>No need to go this<NL>way…"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0009",
+ "entries": [
+  {
+   "key": "script:0009:027C",
+   "src": "d4d231baa792",
+   "t": "<FACE:7D>Look-robo!<NL>Look at this-roboo!!"
+  },
+  {
+   "key": "script:0009:028D",
+   "src": "337cdc2ff2e1",
+   "t": "<FACE:7D>What is it-robo?<NL><WAIT>A letter from Sea Boss<NL>Sekiran-robo!"
+  },
+  {
+   "key": "script:0009:02AE",
+   "src": "97db473a9d2e",
+   "t": "<FACE:80>Sekiran runs the Block<NL>right next door-robo!<WAIT>At last, even dropout<NL><WAIT>grunts like us get to<NL>be Bosses-robo!"
+  },
+  {
+   "key": "script:0009:02FC",
+   "src": "4a95c5438158",
+   "t": "<FACE:7D>Read it already-robo!"
+  },
+  {
+   "key": "script:0009:0308",
+   "src": "08cc1c28ecec",
+   "t": "<FACE:7D>Uhh, what's it say?<NL><WAIT>\"Dear esteemed members<NL> of the next Block…\""
+  },
+  {
+   "key": "script:0009:0330",
+   "src": "f75adb0ce794",
+   "t": "<FACE:80>\"Dear esteemed\"-robo!?<NL>They're being polite<WAIT>to us-robo!<NL>"
+  },
+  {
+   "key": "script:0009:0356",
+   "src": "1e59ed36fa27",
+   "t": "<FACE:7D>We're on a roll-robo!<NL>A real roll-roboo!!<WAIT>Keep reading-robo!<NL>"
+  },
+  {
+   "key": "script:0009:037A",
+   "src": "ac4828a407e0",
+   "t": "<FACE:57>\"You lot are too loud!<NL><WAIT> Robo-robo till late<NL> I hear it next door!<WAIT> I sleep early for my<NL> complexion, got it!<WAIT> Not one more word!<NL> Don't even breathe!\""
+  },
+  {
+   "key": "script:0009:03F2",
+   "src": "4987d2d3d14c",
+   "t": "<FACE:7D>Th-that's cruel-robo…"
+  },
+  {
+   "key": "script:0009:0402",
+   "src": "ae3e8d6d7135",
+   "t": "<FACE:00>Huh? They look even<NL>gloomier than usual…"
+  },
+  {
+   "key": "script:0009:041C",
+   "src": "231da859f25a",
+   "t": "<FACE:7E>We're taking this pain<NL>out on you-robo!"
+  },
+  {
+   "key": "script:0009:0435",
+   "src": "446a837afe9d",
+   "t": "<FACE:7D>Heh heh… what a relief<NL>to lose! Bye-roboo!"
+  },
+  {
+   "key": "script:0009:045F",
+   "src": "ec4da681035f",
+   "t": "<FACE:00>Guess everyone's got<NL>their troubles…"
+  }
+ ]
+}

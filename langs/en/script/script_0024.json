@@ -1,0 +1,80 @@
+{
+ "part": "script/script_0024",
+ "entries": [
+  {
+   "key": "script:0024:02C5",
+   "src": "061eb4d3d307",
+   "t": "<FACE:7D>Message from Nyuudou<NL>Hmm… what is it-robo…"
+  },
+  {
+   "key": "script:0024:02E6",
+   "src": "c0e10b30a941",
+   "t": "<FACE:7D>I've got a bad<NL>feeling-robo<WAIT><FACE:57>\"We've finally taken<NL>this Block back<WAIT><FACE:57>Drills resume at once,<NL>but I have a meeting\"<WAIT><FACE:57>\"While I'm gone…<WAIT>run up and down this<NL>slope 10 times\""
+  },
+  {
+   "key": "script:0024:0375",
+   "src": "33eeb4d4b349",
+   "t": "<FACE:81>Eeeeeeeek-robo!<WAIT><FACE:81>Boss Nyuudou hasn't<NL>forgotten the drills…<WAIT><FACE:81>While this Block is<NL>ours, no rest-robo!"
+  },
+  {
+   "key": "script:0024:03CC",
+   "src": "c31be27848f0",
+   "t": "<FACE:7D>…Heh heh heh… I know…<NL>we lure that kid back<WAIT><FACE:7D>and let him take this<NL>Block off us…"
+  },
+  {
+   "key": "script:0024:040A",
+   "src": "5a1346f24c25",
+   "t": "<FACE:6D>Yaaa haaa riiii!<NL>So that's how it is!!"
+  },
+  {
+   "key": "script:0024:0429",
+   "src": "adc25ce5b79c",
+   "t": "<FACE:6D>Luring <PLAYER> here<NL>just to skip drills…<WAIT>Do you hate the drills<NL>that much?!<WAIT>Do you dislike this<NL>Nyuudou that much?!"
+  },
+  {
+   "key": "script:0024:0488",
+   "src": "c2b372351bec",
+   "t": "<FACE:81>N-nobody said<NL>that much-robo<WAIT>Boss Nyuudou, please<NL>calm down-robo"
+  },
+  {
+   "key": "script:0024:04B4",
+   "src": "263c33ddf819",
+   "t": "<FACE:6D>Silence!<WAIT>Then I'll beat some<NL>spirit into you lot!"
+  },
+  {
+   "key": "script:0024:04E0",
+   "src": "5a7172c6cee1",
+   "t": "<FACE:03>Huh? What's going on?<NL>Infighting?"
+  },
+  {
+   "key": "script:0024:04F7",
+   "src": "554ad6eb6cb7",
+   "t": "<FACE:6F>Gwah! You're <PLAYER>!<NL>"
+  },
+  {
+   "key": "script:0024:0508",
+   "src": "197eed9b3f8c",
+   "t": "<FACE:6D>Curse youuuuu!<WAIT><FACE:6D>So you'd already lured<NL>him out here?!"
+  },
+  {
+   "key": "script:0024:052F",
+   "src": "315e7a154a51",
+   "t": "<FACE:81>N-no, it's not-robo!<NL>He came up alone!<WAIT><FACE:81>We won't betray Boss<NL>Nyuudou again-robo!"
+  },
+  {
+   "key": "script:0024:0567",
+   "src": "75cf3ec2d08f",
+   "t": "<FACE:6C>Then prove it in a<NL>Robattle!!"
+  },
+  {
+   "key": "script:0024:0583",
+   "src": "0d0a65e8134a",
+   "t": "<FACE:6D>How pathetic!!<NL>Hell training it is!!"
+  },
+  {
+   "key": "script:0024:05AA",
+   "src": "b799c82de1da",
+   "t": "<FACE:80>It's tougher than<NL>before-roboooo!!"
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "part": "script/script_0036",
+ "entries": [
+  {
+   "key": "script:0036:0881",
+   "src": "3eceefa0e7aa",
+   "t": "<FACE:5A>Move it! Move it!<NL>You're in my shot!"
+  },
+  {
+   "key": "script:0036:089D",
+   "src": "a5cbd9b5341e",
+   "t": "<FACE:5C>Aaaaaaah!!<NL>Shideeeeen!!"
+  },
+  {
+   "key": "script:0036:08B8",
+   "src": "53b4121cc3f7",
+   "t": "<FACE:06>What's so great about<NL>that airhead? Idiots!"
+  },
+  {
+   "key": "script:0036:08D8",
+   "src": "bf9d2b7b5ce7",
+   "t": "<FACE:03>H-hey, Hiyori!"
+  },
+  {
+   "key": "script:0036:08E4",
+   "src": "4edb1140e0bd",
+   "t": "<FACE:22>Come on, everyone!<NL>Time to board at last"
+  },
+  {
+   "key": "script:0036:0904",
+   "src": "134046749c1b",
+   "t": "<FACE:23>(Tch!)"
+  },
+  {
+   "key": "script:0036:090C",
+   "src": "cbccb5cc3e2a",
+   "t": "<FACE:22>Come on, hurry, hurry!"
+  },
+  {
+   "key": "script:0036:091C",
+   "src": "71eddde468a9",
+   "t": "<FACE:23>(Wish they'd miss it…)"
+  },
+  {
+   "key": "script:0036:0931",
+   "src": "5c63e4117963",
+   "t": "<FACE:06>Honestly! Don't go<NL>wandering off alone!"
+  },
+  {
+   "key": "script:0036:094A",
+   "src": "1db3b8f07b33",
+   "t": "<FACE:5D>I came to see Shiden"
+  },
+  {
+   "key": "script:0036:095D",
+   "src": "51233595cf05",
+   "t": "<FACE:5C>Shiden's so cool!"
+  },
+  {
+   "key": "script:0036:0970",
+   "src": "4bc8d3292c3e",
+   "t": "<FACE:5E>The best Medafighter<NL>has to be Shiden"
+  },
+  {
+   "key": "script:0036:098B",
+   "src": "4bb000fe1539",
+   "t": "<FACE:5C>I came to see Shiden,<NL>but it's so crowded…"
+  },
+  {
+   "key": "script:0036:09AE",
+   "src": "88c1c856b78e",
+   "t": "<FACE:5C>Did you come to see<NL>Shiden too?"
+  },
+  {
+   "key": "script:0036:09C6",
+   "src": "78444c6e7ca2",
+   "t": "<FACE:5E>…Shiden[<3]"
+  },
+  {
+   "key": "script:0036:09D1",
+   "src": "a5d3e3abf742",
+   "t": "<FACE:5A>The camera won't move"
+  },
+  {
+   "key": "script:0036:09E0",
+   "src": "c74c935b8cac",
+   "t": "<FACE:5D>Aww, I can't get<NL>near Shiden"
+  },
+  {
+   "key": "script:0036:09F6",
+   "src": "62a20735b191",
+   "t": "<FACE:5A>You're in my shot!<NL>Move it, move it!"
+  },
+  {
+   "key": "script:0036:0A0D",
+   "src": "f28ea6a735ff",
+   "t": "<FACE:5A>I'm busy, don't talk!<NL>The good part's now!"
+  },
+  {
+   "key": "script:0036:0A56",
+   "src": "0ad328264abd",
+   "t": "<FACE:5A>I can't interview<NL>like this"
+  },
+  {
+   "key": "script:0036:0A6B",
+   "src": "22a7d6a2a093",
+   "t": "<FACE:5A>Don't push!<NL>Don't push!"
+  },
+  {
+   "key": "script:0036:0A7B",
+   "src": "ea79f2b23d5f",
+   "t": "<FACE:00>If I go back now,<NL>everyone'll leave…"
+  },
+  {
+   "key": "script:0036:0A98",
+   "src": "041d9904d23c",
+   "t": "<FACE:5F>I'll open the door"
+  },
+  {
+   "key": "script:0036:0AA7",
+   "src": "e8a840924e4b",
+   "t": "<FACE:5F>Welcome to the Cluster"
+  },
+  {
+   "key": "script:0036:0AB5",
+   "src": "db7ca4f8cb36",
+   "t": "<FACE:60>I'm on my break now"
+  },
+  {
+   "key": "script:0036:0AC5",
+   "src": "744fb1117ffe",
+   "t": "<FACE:60>Truth is, this is my<NL>first time here too"
+  },
+  {
+   "key": "script:0036:0AE7",
+   "src": "7d058b7d3386",
+   "t": "<FACE:00>Looks pretty busy…"
+  },
+  {
+   "key": "script:0036:0AF4",
+   "src": "92b2c77f28e3",
+   "t": "<FACE:60>Don't talk to me now<NL>My hands'll slip"
+  },
+  {
+   "key": "script:0036:0B18",
+   "src": "f326a64ac1ed",
+   "t": "<FACE:03>I-I'm sorry!"
+  },
+  {
+   "key": "script:0036:0B26",
+   "src": "052b1ab3e629",
+   "t": "<FACE:00>I shouldn't just walk<NL>in…"
+  },
+  {
+   "key": "script:0036:0B3C",
+   "src": "85b23b1e4edd",
+   "t": "<FACE:00>What's taking Hiyori<NL>so long? Oh well…"
+  },
+  {
+   "key": "script:0036:0B5B",
+   "src": "5f5d08fd81d3",
+   "t": "<FACE:47>We're here!<NL>We're here!"
+  },
+  {
+   "key": "script:0036:0B69",
+   "src": "a405075dd706",
+   "t": "<FACE:25>You people!<NL>Wait for me!<WAIT>Going off and leaving<NL>the class president…!"
+  },
+  {
+   "key": "script:0036:0B98",
+   "src": "dd700d536fb3",
+   "t": "8…<DELAY:0028> 7…<WAIT><FACE:05>Listen, <PLAYER>?<NL><WAIT>The moment we launch,<NL>don't you dare talk<WAIT>You'll bite your<NL>tongue!"
+  },
+  {
+   "key": "script:0036:0BD8",
+   "src": "c5f002225e28",
+   "t": "4…<DELAY:0028> 3…<DELAY:0028> 2…<WAIT><FACE:06>Hey! You listening?"
+  },
+  {
+   "key": "script:0036:0BF9",
+   "src": "65760e07de84",
+   "t": "1…<WAIT><FACE:02>Yeah, I get…"
+  },
+  {
+   "key": "script:0036:0C05",
+   "src": "f2a0fd795859",
+   "t": "0!"
+  },
+  {
+   "key": "script:0036:0C08",
+   "src": "de2483e4216f",
+   "t": "<FACE:03>Guh!"
+  },
+  {
+   "key": "script:0036:0C0F",
+   "src": "7cc4aef6f37e",
+   "t": "<FACE:04>Hmf… I'b fide…"
+  },
+  {
+   "key": "script:0036:0C1D",
+   "src": "fe9a8ed14376",
+   "t": "<FACE:04>Mfa… haga…<WAIT><FACE:05>Is your tongue still<NL>swollen?"
+  },
+  {
+   "key": "script:0036:0C38",
+   "src": "8e5aff69243f",
+   "t": "<FACE:06>Honestly!<NL>And I warned you!"
+  },
+  {
+   "key": "script:0036:0C4B",
+   "src": "ddca8894cba1",
+   "t": "<FACE:00>Huuum… It's smaller<NL>than I expected…"
+  },
+  {
+   "key": "script:0036:0C6A",
+   "src": "d6583a25fade",
+   "t": "<FACE:08>You're wrong!<NL><WAIT>No air, so it looked<NL>sharp even far away!"
+  },
+  {
+   "key": "script:0036:0C97",
+   "src": "5b58d13ff95b",
+   "t": "<FACE:03>It's true! Closer and<NL>closer! It's huge!"
+  },
+  {
+   "key": "script:0036:0CBB",
+   "src": "1a66ec122721",
+   "t": "<FACE:08>Wow…<NL>Amazing[<3]<WAIT>A jet's got nothing<NL>on this"
+  },
+  {
+   "key": "script:0036:0CE2",
+   "src": "cfba267cf87e",
+   "t": "<FACE:08>Ah!<NL><WAIT>Look, <PLAYER>!<NL>Cluster's coming up!<END>"
+  },
+  {
+   "key": "script:0036:0D00",
+   "src": "afb8d676639c",
+   "t": "<FACE:00>«Special shuttle to<NL> Cluster: Launch 1»…<WAIT><FACE:02>Can't wait"
+  },
+  {
+   "key": "script:0036:0D2E",
+   "src": "2e65d7407f5e",
+   "t": "<FACE:00>«Cluster tours start<NL> in two days», huh…<WAIT><FACE:02>Heh heh…<NL><WAIT>We'll be the first<NL>ones on board!"
+  }
+ ]
+}

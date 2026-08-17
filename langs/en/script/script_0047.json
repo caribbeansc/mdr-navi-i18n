@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0047",
+ "entries": [
+  {
+   "key": "script:0047:0276",
+   "src": "fd58197e3f82",
+   "t": "<FACE:54>Please wait!<WAIT><FACE:54>I'll go out first and<NL>check that it's safe!"
+  },
+  {
+   "key": "script:0047:02A7",
+   "src": "97926eb79518",
+   "t": "<FACE:00>Whaaaat! But I wanted<NL>to go first…"
+  },
+  {
+   "key": "script:0047:02C3",
+   "src": "81d95cbf6da0",
+   "t": "<FACE:03>Gwuh!"
+  },
+  {
+   "key": "script:0047:02CA",
+   "src": "b571e349cccd",
+   "t": "<FACE:06>(They finally let us<NL> out. Don't blow it!)"
+  },
+  {
+   "key": "script:0047:02F7",
+   "src": "516365d0357e",
+   "t": "<FACE:14>Ah, there's <PLAYER><NL>hunched over again"
+  },
+  {
+   "key": "script:0047:030D",
+   "src": "49dda9fb4a44",
+   "t": "<FACE:19>Sickly little thing,<NL>ain't he?<WAIT><FACE:0A>You're getting slack<NL>A spy'd be fired"
+  },
+  {
+   "key": "script:0047:0333",
+   "src": "dc19a1905d7c",
+   "t": "<FACE:54>Well then, here I go…"
+  },
+  {
+   "key": "script:0047:0340",
+   "src": "0e37a70ae5ca",
+   "t": "<FACE:54>Ship air is nearly the<NL>same as the Cluster's<WAIT>…No problem breathing<NL><WAIT>No bacteria or other<NL>microbes detected<WAIT>Gravity: 1.0013G…<NL><WAIT>Movement's no problem…<NL>…however…"
+  },
+  {
+   "key": "script:0047:03BD",
+   "src": "a8b624965982",
+   "t": "<FACE:04>However?"
+  },
+  {
+   "key": "script:0047:03C4",
+   "src": "de8337a745e0",
+   "t": "<FACE:56>Walking on my own…<DELAY:0078><NL>is really<DELAY:003C><DELAY:0014> wonderful!<DELAY:003C><DELAY:0028><END>"
+  },
+  {
+   "key": "script:0047:03F4",
+   "src": "3800999e0b1b",
+   "t": "<FACE:00>Aw, man…"
+  },
+  {
+   "key": "script:0047:03FB",
+   "src": "f96713c786e8",
+   "t": "<FACE:07>Awww[<3]<NL><WAIT>Honestly!<NL>Navico's so cuuute[<3]"
+  }
+ ]
+}

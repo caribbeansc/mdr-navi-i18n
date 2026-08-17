@@ -197,7 +197,13 @@ def _write_default_names(rom: Rom, pack: Pack, charset: Charset, report: Report)
             continue
         payload += bytes([pad]) * (field_width - len(payload))
         for site in entry["at"]:
-            rom.write(int(str(site), 16), payload)
+            # A pack names sites the way Kuwagata lays them out; on the other
+            # release the same field sits elsewhere, and where it has no twin
+            # at all there is nothing to write over.
+            at = rom.at(int(str(site), 16), field_width)
+            if at is None:
+                continue
+            rom.write(at, payload)
         report.written += 1
 
 
@@ -230,9 +236,28 @@ def _write_team_names(rom: Rom, pack: Pack, charset: Charset, report: Report) ->
     if not table:
         return
     japanese = load_japanese()
+    # Only the BASE is asked of the offset map. The geometry — 147 records of
+    # 0xC0, six 8-byte names at +0x10 — is a fact of the game's code and holds
+    # in both releases, while the CONTENT does not: the two cartridges field
+    # different teams, so the table is a patchwork of short runs and asking
+    # the map about each field separately made two records answer the same
+    # address (89 of them did), which writes one team's name over another's.
+    # Each field is still gated by the fingerprint below, so a record this
+    # release words its own way is left alone rather than guessed at.
+    base = rom.at(TEAM_TABLE)
+    if base is None:
+        report.skipped.append(("team-names", "this release keeps them elsewhere"))
+        return
+    # Read the whole table first, then write. Reading tells us whether the
+    # base is right at all: a wrong one recognises almost nothing, and the
+    # difference between "this release words a few teams its own way" and
+    # "we are looking at the wrong bytes" is exactly that ratio. Writing
+    # inside the read loop would have already corrupted the table by the time
+    # the second answer arrived.
+    writes: list[tuple[int, str]] = []
     missing: set[str] = set()
     for index in range(TEAM_COUNT):
-        record = TEAM_TABLE + index * TEAM_RECORD
+        record = base + index * TEAM_RECORD
         for fld in range(TEAM_NAME_FIELDS):
             at = record + 0x10 + 8 * fld
             raw = rom.read(at, 8)
@@ -243,17 +268,25 @@ def _write_team_names(rom: Rom, pack: Pack, charset: Charset, report: Report) ->
             latin = table.get(fingerprint(kana))
             if latin is None:
                 missing.add(kana)
-                continue
-            try:
-                payload = encode(latin, charset)
-            except TableError as exc:
-                report.skipped.append((f"team:{latin}", str(exc)))
-                continue
-            if len(payload) > 8:
-                report.skipped.append(
-                    (f"team:{latin}", f"{len(payload)} bytes into an 8-byte field"))
-                continue
-            rom.write(at, payload + bytes([0xDB]) * (8 - len(payload)))
+            else:
+                writes.append((at, latin))
+    if len(writes) < len(missing):
+        report.skipped.append(
+            ("team-names",
+             f"only {len(writes)} of {len(writes) + len(missing)} names are the "
+             "ones this pack knows; the table is not where it was looked for"))
+        return
+    for at, latin in writes:
+        try:
+            payload = encode(latin, charset)
+        except TableError as exc:
+            report.skipped.append((f"team:{latin}", str(exc)))
+            continue
+        if len(payload) > 8:
+            report.skipped.append(
+                (f"team:{latin}", f"{len(payload)} bytes into an 8-byte field"))
+            continue
+        rom.write(at, payload + bytes([0xDB]) * (8 - len(payload)))
     if missing:
         report.skipped.append(
             ("team-names", f"{len(missing)} names have no entry yet"))
@@ -336,6 +369,12 @@ def _write_battle_messages(rom: Rom, pack: Pack, charset: Charset,
     missing: set[str] = set()
     handled: set[int] = set()
     start, end = BATTLE_MSG_TABLE
+    moved = rom.at(start, end - start)
+    if moved is None:
+        report.skipped.append(
+            ("battle-messages", "this release keeps the table elsewhere"))
+        return
+    start, end = moved, moved + (end - start)
     # Some messages are NESTED: a short message is the tail of a longer one
     # (0x4C97B0 sits inside 0x4C97A0's bytes). An in-place write may never
     # cross another live target, or its zero padding wipes the inner message.
@@ -391,7 +430,9 @@ def _write_battle_messages(rom: Rom, pack: Pack, charset: Charset,
     # group and NO pointer in the ROM reaches it. Variants can only be
     # written IN PLACE, inside their own footprint plus any zero padding
     # that follows; the composed-width rule applies to them the same.
-    region_end = 0x4CA150  # the kana keyboard grids follow the last message
+    region_end = rom.near(0x4CA150)  # the kana keyboard grids follow
+    if region_end is None:
+        return
     starts = targets + [region_end]
     for i in range(len(starts) - 1):
         limit = starts[i + 1]
@@ -574,8 +615,15 @@ def _write_extra_strings(rom: Rom, pack: Pack, charset: Charset, report: Report)
         # keep whatever the Japanese had between the terminator and the end
         # of the slot — the 0x02 there is what clears the box before the
         # next line.
+        # Sites are named the way Kuwagata lays them out; ``Rom.at`` says
+        # where the same bytes are in this dump, or None where this release
+        # keeps something else there.
+        sites = [rom.at(int(str(site), 16), room) for site in entry["sites"]]
+        sites = [site for site in sites if site is not None]
+        if not sites:
+            continue
         if entry.get("exact"):
-            original_bytes = bytes(rom.data)[int(str(entry["sites"][0]), 16):][:room]
+            original_bytes = bytes(rom.data)[sites[0]:][:room]
             stop = _piece_break(original_bytes)
             tail = original_bytes[stop + 1:] if stop >= 0 else b"\x00"
             body = payload[:-1] if text.endswith("<X:F0>") else payload
@@ -620,8 +668,7 @@ def _write_extra_strings(rom: Rom, pack: Pack, charset: Charset, report: Report)
             report.skipped.append(
                 (f"extra:{src}", f"{len(payload)} bytes into a {room}-byte slot"))
             continue
-        for site in entry["sites"]:
-            at = int(str(site), 16)
+        for at in sites:
             source, _ = decode(bytes(rom.data), at, japanese, limit=64)
             if fingerprint(source) != src:
                 continue  # dump differs here; leave it alone
@@ -646,7 +693,9 @@ def _write_sjis_strings(rom: Rom, pack: Pack, report: Report) -> None:
         return
     table = json.loads(path.read_text(encoding="utf-8")).get("sjis_strings", {})
     for site, entry in table.items():
-        at = int(str(site), 16)
+        at = rom.at(int(str(site), 16), int(entry["room"]))
+        if at is None:
+            continue
         original = entry["jp"].encode("shift_jis")
         if bytes(rom.data[at:at + len(original)]) != original:
             report.skipped.append((f"sjis:{site}", "dump differs here; left alone"))
@@ -690,7 +739,9 @@ def _write_ptr_strings(rom: Rom, pack: Pack, charset: Charset,
     # is repointed inside it.
     entries = []
     for site, entry in table.items():
-        at = int(str(site), 16)
+        at = rom.at(int(str(site), 16), 4)
+        if at is None:
+            continue
         target = rom.ptr(at)
         source, _ = decode(bytes(rom.data), target, japanese, limit=40)
         if not source.startswith(entry["jp"]):
@@ -717,6 +768,8 @@ def _write_ptr_strings(rom: Rom, pack: Pack, charset: Charset,
 
 def build(rom: Rom, catalog: Catalog, pack: Pack, charset: Charset) -> Report:
     """Apply a language pack to a ROM, in place. Returns what happened."""
+    from .strings import pointer_index
+
     report = Report(language=pack.code)
 
     font_data, placed = font.build_font(rom, charset)
@@ -724,6 +777,10 @@ def build(rom: Rom, catalog: Catalog, pack: Pack, charset: Charset) -> Report:
     report.glyphs_added = len(placed)
 
     allocator = Allocator(rom)
+    # Every pointer in the cartridge, by what it points at. The graphics need
+    # it to repoint a relocated sheet, and the keyboard font to find the two
+    # code words that name it.
+    sites = pointer_index(rom)
 
     # -- event scripts ---------------------------------------------------
     per_script: dict[int, dict[int, tuple[bytes, int]]] = {}
@@ -799,10 +856,8 @@ def build(rom: Rom, catalog: Catalog, pack: Pack, charset: Charset) -> Report:
     # -- graphic menus ---------------------------------------------------
     if pack.path is not None:
         from . import gfx
-        from .strings import pointer_index
 
         texts = gfx.load_texts(pack.path)
-        sites = pointer_index(rom)
         if texts:
             gfx_report = gfx.patch(rom, charset, texts, allocator,
                                    sites, font_data=font_data)
@@ -869,14 +924,20 @@ def build(rom: Rom, catalog: Catalog, pack: Pack, charset: Charset) -> Report:
     # It is separate from the dialogue font (see navi/font.py). The patched
     # version grows its pattern table, so both tables are relocated and the
     # two code literals that name them are repointed.
-    kb_lut, kb_font = font.build_keyboard_font(rom, charset)
-    lut_at = allocator.take(len(kb_lut))
-    font_at = allocator.take(len(kb_font))
-    rom.write(lut_at, kb_lut)
-    rom.write(font_at, kb_font)
-    font_literal, lut_literal = font.KEYBOARD_LITERALS
-    rom.write_ptr(font_literal, font_at)
-    rom.write_ptr(lut_literal, lut_at)
+    literals = font.keyboard_literals(rom, sites)
+    if literals is None:
+        report.skipped.append(
+            ("keyboard-font", "the code words naming it are not where this "
+                              "release keeps them; left alone"))
+    else:
+        kb_lut, kb_font = font.build_keyboard_font(rom, charset)
+        lut_at = allocator.take(len(kb_lut))
+        font_at = allocator.take(len(kb_font))
+        rom.write(lut_at, kb_lut)
+        rom.write(font_at, kb_font)
+        font_literal, lut_literal = literals
+        rom.write_ptr(font_literal, font_at)
+        rom.write_ptr(lut_literal, lut_at)
 
     report.bytes_used = allocator.used
     report.rom_size = len(rom)

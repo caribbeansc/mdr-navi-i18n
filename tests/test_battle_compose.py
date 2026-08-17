@@ -17,7 +17,7 @@ from navi.build import (BATTLE_MSG_TABLE, _INSERT_W_ES, _INSERT_W_JP,
 from navi.lang import fingerprint
 from navi.table import decode, load_japanese
 
-from .conftest import REPO_ROOT
+from .conftest import REPO_ROOT, language_packs, pack_id
 
 
 def _japanese_messages(game_rom):
@@ -51,16 +51,18 @@ def _japanese_messages(game_rom):
     return seen
 
 
-def test_insert_widths_cover_the_slot_labels():
+@pytest.mark.parametrize("pack_dir", language_packs(), ids=pack_id)
+def test_insert_widths_cover_the_slot_labels(pack_dir):
     # コ inserts the part-slot label from "ptr_strings"; the width table
     # must not understate it or the composed check lies.
-    pack = json.loads((REPO_ROOT / "langs/es/gfx.json").read_text("utf-8"))
+    pack = json.loads((pack_dir / "gfx.json").read_text("utf-8"))
     longest = max(len(entry["t"]) for entry in pack["ptr_strings"].values())
     assert longest <= _INSERT_W_ES["コ"]
 
 
-def test_every_battle_message_composes_within_its_japanese(game_rom):
-    pack = json.loads((REPO_ROOT / "langs/es/gfx.json").read_text("utf-8"))
+@pytest.mark.parametrize("pack_dir", language_packs(), ids=pack_id)
+def test_every_battle_message_composes_within_its_japanese(game_rom, pack_dir):
+    pack = json.loads((pack_dir / "gfx.json").read_text("utf-8"))
     japanese = _japanese_messages(game_rom)
     offenders = []
     orphans = []

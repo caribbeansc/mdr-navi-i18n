@@ -32,8 +32,10 @@ def _rom(config: Config) -> Rom:
 
 def _catalog_and_pack(config: Config, language: str):
     rom = _rom(config)
-    catalog = build_catalog(rom)
-    pack = Pack.load(language)
+    pack = Pack.load(language, release=rom.release.name)
+    # On the other release the pack's own keys tell the catalogue where to
+    # look for strings this dump's scan words differently; see catalog.seeded.
+    catalog = build_catalog(rom, seeds=pack.loose_sites())
     return rom, catalog, pack
 
 
@@ -75,8 +77,9 @@ def cmd_scan(args, config: Config) -> int:
 
 def cmd_extract(args, config: Config) -> int:
     rom = _rom(config)
-    catalog = build_catalog(rom)
-    pack = Pack.load(args.language) if args.language in available() else None
+    pack = (Pack.load(args.language, release=rom.release.name)
+            if args.language in available() else None)
+    catalog = build_catalog(rom, seeds=pack.loose_sites() if pack else None)
     out = extract_mod.dump(rom, catalog, pack)
     print(f"{len(catalog)} lines written to {out.relative_to(ROOT)}/")
     if pack:
@@ -133,7 +136,7 @@ def cmd_build(args, config: Config) -> int:
         pristine, rom, load_japanese(), load_latin(),
         skip=leftovers_mod.script_area(pristine)
         + leftovers_mod.translated_area(pristine, catalog, pack)
-        + list(leftovers_mod.DATA_AREAS))
+        + leftovers_mod.data_areas(pristine))
     known = leftovers_mod.load_baseline(pack.path / "leftovers.json")
     fresh = [item for item in standing if item.key not in known]
     if fresh:
@@ -275,6 +278,19 @@ def cmd_doctor(args, config: Config) -> int:
     except Exception as exc:
         print(f"glyphs   {exc}")
         ok = False
+    # A pack is written against Kuwagata; the other release needs the map that
+    # says where the same bytes are, or nothing but the fonts would line up.
+    if rom.release.name != "Kuwagata":
+        from .align import load as load_alignment
+
+        mapping = load_alignment(rom.release.name)
+        if mapping is None:
+            print(f"offsets  no map for {rom.release.name} — run tools/align.py "
+                  "with both dumps")
+            ok = False
+        else:
+            print(f"offsets  {len(mapping.runs)} runs place Kuwagata's "
+                  f"addresses in this {rom.release.name} dump")
     for code in available():
         print(f"pack     {code}: {len(Pack.load(code))} lines")
     return 0 if ok else 1

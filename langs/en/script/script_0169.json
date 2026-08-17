@@ -1,0 +1,40 @@
+{
+ "part": "script/script_0169",
+ "entries": [
+  {
+   "key": "script:0169:0164",
+   "src": "87a4fa0c01a3",
+   "t": "<FACE:00>There's nothing left…"
+  },
+  {
+   "key": "script:0169:0173",
+   "src": "cd1591a29b64",
+   "t": "<FACE:04>What should I do now?"
+  },
+  {
+   "key": "script:0169:0185",
+   "src": "909eed1fafae",
+   "t": "<FACE:00>…Better not"
+  },
+  {
+   "key": "script:0169:018F",
+   "src": "10e473421b27",
+   "t": "<FACE:00>I'm sure that famous<NL>mail-order item…<WAIT>the «Power Stone GX»<NL>was lying right here…"
+  },
+  {
+   "key": "script:0169:01C8",
+   "src": "a7ae48bf3b19",
+   "t": "<FACE:08>Where, where, where!?<NL>Where is it!!!"
+  },
+  {
+   "key": "script:0169:01DF",
+   "src": "2e91e280eeb5",
+   "t": "<FACE:07>D-don't scare me like<NL>that, <PLAYER>![<3]"
+  },
+  {
+   "key": "script:0169:01F8",
+   "src": "eb274f422c75",
+   "t": "<FACE:00>Otaku are scary…"
+  }
+ ]
+}

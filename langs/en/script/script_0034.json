@@ -1,0 +1,210 @@
+{
+ "part": "script/script_0034",
+ "entries": [
+  {
+   "key": "script:0034:052C",
+   "src": "8a11f7667874",
+   "t": "<FACE:12>A mere Medabot attack<NL><WAIT>could never scratch<NL>this Cluster, never!<WAIT>But this is…!"
+  },
+  {
+   "key": "script:0034:056B",
+   "src": "ef7980a3a2f3",
+   "t": "<FACE:10>(This is bad…)<NL><WAIT>(That room controls<NL>the display Medabots)<WAIT>(If it's destroyed…!)"
+  },
+  {
+   "key": "script:0034:05B2",
+   "src": "b9204c126676",
+   "t": "<FACE:10>Ngh…!"
+  },
+  {
+   "key": "script:0034:05BB",
+   "src": "922dcfa972d6",
+   "t": "<FACE:08>H-hey! Where are you<NL>going?!"
+  },
+  {
+   "key": "script:0034:05CE",
+   "src": "08ac953304d8",
+   "t": "<FACE:22>Everyone, stay calm!"
+  },
+  {
+   "key": "script:0034:05E6",
+   "src": "8d9d3d07b982",
+   "t": "<FACE:10>Out of the way!"
+  },
+  {
+   "key": "script:0034:05ED",
+   "src": "78e248fb6737",
+   "t": "<FACE:25>Eeeeek!<NL>"
+  },
+  {
+   "key": "script:0034:05F6",
+   "src": "ac3298bc561c",
+   "t": "<FACE:25>Aaaaargh!!"
+  },
+  {
+   "key": "script:0034:0601",
+   "src": "181a3b6f7ef3",
+   "t": "<FACE:05>Soooorry!"
+  },
+  {
+   "key": "script:0034:060A",
+   "src": "c961e4beebb3",
+   "t": "<FACE:07>(Heh, serves him right<NL>payback for <PLAYER>!)"
+  },
+  {
+   "key": "script:0034:062B",
+   "src": "4937801e235a",
+   "t": "<FACE:06>Hey! Y-you there!<NL><WAIT>Don't run! A-answer<NL>my question!<NL>"
+  },
+  {
+   "key": "script:0034:0658",
+   "src": "fa9782277d55",
+   "t": "<FACE:06>Can you hear me?!<NL><WAIT>At least answer me…<NL>"
+  },
+  {
+   "key": "script:0034:0671",
+   "src": "2aeb47b6b4d6",
+   "t": "<FACE:08>No… way… why…<NL><WAIT>Something like this…!"
+  },
+  {
+   "key": "script:0034:068E",
+   "src": "2f9713b74a97",
+   "t": "<FACE:12>So it was him…<NL><WAIT>Hard to believe, but<NL>there's no other way<WAIT>But for this to break<NL>the Cluster's system…"
+  },
+  {
+   "key": "script:0034:06D3",
+   "src": "734986817017",
+   "t": "<FACE:60>What happened?!<NL><WAIT>Why is the Cluster<NL>breaking away?!"
+  },
+  {
+   "key": "script:0034:06F1",
+   "src": "3963e51c83c0",
+   "t": "<FACE:60>We don't know, sir!<NL><WAIT>Someone's firing the<NL>orbit thrusters, sir!"
+  },
+  {
+   "key": "script:0034:0725",
+   "src": "f6366236ce62",
+   "t": "<FACE:60>The «navi» protection<NL>would never allow it!"
+  },
+  {
+   "key": "script:0034:0750",
+   "src": "9f5edf9ed56c",
+   "t": "<FACE:60>That navi is offline!"
+  },
+  {
+   "key": "script:0034:076B",
+   "src": "7ec332d06faa",
+   "t": "<FACE:60>What did you say?!<NL><WAIT>What's Control doing?!<NL>What's inside?!"
+  },
+  {
+   "key": "script:0034:0798",
+   "src": "b34f8b2995c7",
+   "t": "<FACE:60>As of today the navi<NL>runs at full power…<WAIT>so the staff was cut<NL>way down, sir!<NL>"
+  },
+  {
+   "key": "script:0034:07CB",
+   "src": "77deabbf5f79",
+   "t": "<FACE:60>In the Cluster now…<NL>"
+  },
+  {
+   "key": "script:0034:07E0",
+   "src": "1d872a338412",
+   "t": "<FACE:60>Not one staff member!<NL>"
+  },
+  {
+   "key": "script:0034:07F8",
+   "src": "14b5b810243e",
+   "t": "<FACE:60>The people inside now…<NL>"
+  },
+  {
+   "key": "script:0034:0813",
+   "src": "174923da3dff",
+   "t": "<FACE:60>j-just guest kids!"
+  },
+  {
+   "key": "script:0034:0828",
+   "src": "c1480acb8782",
+   "t": "<FACE:06>Quit spacing out!<NL><WAIT>You know where<NL><PLAYER> is, right?<WAIT>Now tell me!"
+  },
+  {
+   "key": "script:0034:0856",
+   "src": "ead410dc7ea1",
+   "t": "<FACE:03>Huh? Hiyori"
+  },
+  {
+   "key": "script:0034:0860",
+   "src": "cae8a9041089",
+   "t": "<FACE:06>Don't you 'huh?' me!<NL>Where have you been?!"
+  },
+  {
+   "key": "script:0034:087A",
+   "src": "2d337d0befa0",
+   "t": "<FACE:09>D-do you know how I<NL>felt…!<WAIT><FACE:00>Hold on, Hiyori…<WAIT><FACE:02>Were you worried?"
+  },
+  {
+   "key": "script:0034:08AF",
+   "src": "bc88ad271c42",
+   "t": "<FACE:06>Idiot!"
+  },
+  {
+   "key": "script:0034:08B6",
+   "src": "125125f73505",
+   "t": "<FACE:03>Owww!"
+  },
+  {
+   "key": "script:0034:08BE",
+   "src": "b278b03e49f7",
+   "t": "<FACE:04>(Do girls normally<NL>punch with a fist?)<WAIT>(With a fist…!)"
+  },
+  {
+   "key": "script:0034:08E1",
+   "src": "6a20c0bf8c52",
+   "t": "<FACE:05>Did that man do<NL>something to you?<WAIT>Does anything hurt?<NL>Are you okay?"
+  },
+  {
+   "key": "script:0034:090E",
+   "src": "053ffc7a6e6e",
+   "t": "<FACE:00>…Yeah, I'm fine<WAIT><FACE:01>But what that guy did<NL>is no joke at all"
+  },
+  {
+   "key": "script:0034:093F",
+   "src": "160d64f02d03",
+   "t": "<FACE:03>Whoa!<WAIT><FACE:08>Eeek!"
+  },
+  {
+   "key": "script:0034:094D",
+   "src": "66efd10c9af5",
+   "t": "<FACE:03>Oof!<WAIT><FACE:08>Eep!"
+  },
+  {
+   "key": "script:0034:095B",
+   "src": "075d1cdb59ec",
+   "t": "<FACE:06>Watch where you grab!"
+  },
+  {
+   "key": "script:0034:0969",
+   "src": "f20ac92215a3",
+   "t": "<FACE:04>(Kicked while down…)"
+  },
+  {
+   "key": "script:0034:097C",
+   "src": "5843cb3f8c2b",
+   "t": "<FACE:05>But… this is bad<NL><WAIT>What's going to happen<NL>to us…?"
+  },
+  {
+   "key": "script:0034:099E",
+   "src": "000d0c62b8f0",
+   "t": "<FACE:04>What do you mean?<NL><WAIT>That big tremor just<NL>now… what's going on?"
+  },
+  {
+   "key": "script:0034:09C9",
+   "src": "5af6d76c0d6c",
+   "t": "<FACE:05>The Cluster's started<NL>drifting, it seems<WAIT><FACE:03>…Huh?"
+  },
+  {
+   "key": "script:0034:09EC",
+   "src": "24f409d44c39",
+   "t": "<FACE:05>It means we…<NL><WAIT>may be stranded here!"
+  }
+ ]
+}

@@ -274,6 +274,12 @@ def split_slot_tables(found: list[LooseString], rom: Rom,
     spans: list[tuple[int, int]] = []
     made: list[LooseString] = []
     for start, stride, count, width in SLOT_TABLES:
+        # The tables are declared where Kuwagata keeps them; on the other
+        # release the same records sit elsewhere, and where a table has no
+        # twin at all (a cover-Medabot part list) there is nothing to split.
+        start = rom.at(start, stride * count)
+        if start is None:
+            continue
         for i in range(count):
             at = start + i * stride
             spans.append((at, at + width))
@@ -389,8 +395,19 @@ def supplement(rom: Rom, charset: Charset,
     model = model or LanguageModel.from_scripts(rom)
     index = pointer_index(rom)
     data = bytes(rom.data)
+    # Zones and curated targets are written down as Kuwagata offsets; the same
+    # text sits elsewhere in the other release (navi/align.py). A zone whose
+    # bounds do not both translate is skipped rather than guessed at.
+    zones = []
+    for low, high in SUPPLEMENT_ZONES:
+        start, end = rom.at(low), rom.near(high)
+        if start is not None and end is not None and end > start:
+            zones.append((start, end))
+    extra = [rom.at(target) for target in SUPPLEMENT_EXTRA]
+    extra = sorted(target for target in extra if target is not None)
+    skip = {rom.at(target) for target in SUPPLEMENT_SKIP}
     out = []
-    for target in sorted(SUPPLEMENT_EXTRA):
+    for target in extra:
         if target in index:
             text, end = decode(data, target, charset, limit=2000)
             pointers = [site for site in index[target] if site >= 0x8000]
@@ -398,9 +415,9 @@ def supplement(rom: Rom, charset: Charset,
                                    length=end - target, pointers=pointers,
                                    text_bytes=end - target))
     for target in sorted(index):
-        if target in SUPPLEMENT_SKIP or target in SUPPLEMENT_EXTRA:
+        if target in skip or target in extra:
             continue
-        if not any(a <= target < b for a, b in SUPPLEMENT_ZONES):
+        if not any(a <= target < b for a, b in zones):
             continue
         text, end = decode(data, target, charset, limit=2000)
         visible = _visible(text)

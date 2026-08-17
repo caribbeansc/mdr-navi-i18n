@@ -1,0 +1,215 @@
+{
+ "part": "script/script_0032",
+ "entries": [
+  {
+   "key": "script:0032:0551",
+   "src": "dc9bcda5a6f9",
+   "t": "<FACE:05>…and that's how it is!"
+  },
+  {
+   "key": "script:0032:055F",
+   "src": "ce62ac4e9d7c",
+   "t": "<FACE:22>Everyone, listen up…<NL><WAIT>Calm down, calm down…<NL>Especially right now…"
+  },
+  {
+   "key": "script:0032:0592",
+   "src": "8f92cda93cdd",
+   "t": "<FACE:3D>Are you kidding me!?<NL><WAIT>No adults on this<NL>Cluster, just us!"
+  },
+  {
+   "key": "script:0032:05C8",
+   "src": "9cde9e62888e",
+   "t": "<FACE:35>And the main computer<NL>is down too?"
+  },
+  {
+   "key": "script:0032:05E3",
+   "src": "2a1b00e99c46",
+   "t": "<FACE:3D>Even now Earth's<NL>getting farther away!<WAIT>And there's a rumor it<NL>was terrorists!"
+  },
+  {
+   "key": "script:0032:0621",
+   "src": "dd12579c55ac",
+   "t": "<FACE:22>From now on, please<NL>follow my orders<WAIT>As class president, I<NL>will take command<WAIT>Now then, first…"
+  },
+  {
+   "key": "script:0032:066B",
+   "src": "61371b637ce9",
+   "t": "<FACE:22>You there!"
+  },
+  {
+   "key": "script:0032:0676",
+   "src": "d66382e041ea",
+   "t": "<FACE:2A>Haaah?"
+  },
+  {
+   "key": "script:0032:067D",
+   "src": "04b8c6a7cf52",
+   "t": "<FACE:22>From today, you're on<NL>food duty!<WAIT>Gather the park's food<NL>and hand it all out!"
+  },
+  {
+   "key": "script:0032:06BF",
+   "src": "180d823a9d0c",
+   "t": "<FACE:25>J-just kidding, right?<NL>Ha ha ha…<NL>"
+  },
+  {
+   "key": "script:0032:06D4",
+   "src": "6dc9b2b6e1f8",
+   "t": "<FACE:22>(Phew, that was close<NL>what was I thinking!)<WAIT>(Talking to Amamiya,<NL>the school bully!)"
+  },
+  {
+   "key": "script:0032:0717",
+   "src": "b0f87bd11bb4",
+   "t": "<FACE:22>All right, you two!<NL>"
+  },
+  {
+   "key": "script:0032:0726",
+   "src": "cdd12156f0aa",
+   "t": "<FACE:25>Food duty goes to you…<NL>…umm…"
+  },
+  {
+   "key": "script:0032:0744",
+   "src": "0c249978ace3",
+   "t": "<FACE:45>What's your problem!?<NL><WAIT>What right do you have<NL>to order us around?"
+  },
+  {
+   "key": "script:0032:076F",
+   "src": "c56c19bb1259",
+   "t": "<FACE:48>Yeaaah, totally!"
+  },
+  {
+   "key": "script:0032:0778",
+   "src": "cb9c41578bbc",
+   "t": "<FACE:45>And seriously, what's<NL>with that tacky look!<WAIT>Wanna talk to us?<NL><WAIT>Work on your fashion<NL>sense first!<WAIT><FACE:47>Yeah! You're so wimpy<NL>it's just sad!"
+  },
+  {
+   "key": "script:0032:07D9",
+   "src": "159b7066e400",
+   "t": "<FACE:45>Ten years too early!<NL>What a joke!<NL>"
+  },
+  {
+   "key": "script:0032:07F2",
+   "src": "ff519b72603d",
+   "t": "<FACE:45>Guys like you make me<NL>sick just to look at!<WAIT>We'll do our own thing<NL><WAIT>Later!"
+  },
+  {
+   "key": "script:0032:082F",
+   "src": "54c189eec490",
+   "t": "<FACE:25>Ah! Wait, you two!<NL>Let's work together…"
+  },
+  {
+   "key": "script:0032:0853",
+   "src": "48f343502721",
+   "t": "<FACE:05>How long's he gonna<NL>keep that up?<WAIT>Nobody listens to the<NL>president anyway"
+  },
+  {
+   "key": "script:0032:0884",
+   "src": "cb82fdaef527",
+   "t": "<FACE:04>That's mean, Hiyori<NL><WAIT>He's trying his best<NL>too, y'know"
+  },
+  {
+   "key": "script:0032:08A7",
+   "src": "d63b7f01a2c2",
+   "t": "<FACE:06>You are way too nice,<NL>you know that?<WAIT>He made your life<NL>miserable, remember?<WAIT><FACE:02>Well, that's all in<NL>the past now…"
+  },
+  {
+   "key": "script:0032:08E4",
+   "src": "d11eb4da54e2",
+   "t": "<FACE:07>(Well, that's what's<NL>nice about him, too)"
+  },
+  {
+   "key": "script:0032:0900",
+   "src": "c2f7712f04ca",
+   "t": "<FACE:3D>No point standing here<NL>forever. Let's go"
+  },
+  {
+   "key": "script:0032:0922",
+   "src": "fe9f8efbc80a",
+   "t": "<FACE:35>We've each got to look<NL>out for ourselves"
+  },
+  {
+   "key": "script:0032:093C",
+   "src": "1615706822ba",
+   "t": "<FACE:3D>Let's go, let's go!"
+  },
+  {
+   "key": "script:0032:0948",
+   "src": "ffd2662f4967",
+   "t": "<FACE:25>U-um, hold on, you…!<NL><WAIT>I am your leader, so…<NL>"
+  },
+  {
+   "key": "script:0032:0978",
+   "src": "b213906d6f9c",
+   "t": "<FACE:25>Eep!"
+  },
+  {
+   "key": "script:0032:097D",
+   "src": "776546a3d28c",
+   "t": "<FACE:29>Quit messing around<NL>and get lost already!"
+  },
+  {
+   "key": "script:0032:09A5",
+   "src": "47b390b555b8",
+   "t": "<FACE:25>U… uuuh…"
+  },
+  {
+   "key": "script:0032:09B2",
+   "src": "5a295bf6abeb",
+   "t": "<FACE:2E>H-hey… Niwaka?"
+  },
+  {
+   "key": "script:0032:09C4",
+   "src": "5cfbb3d5be91",
+   "t": "<FACE:23>I-I can't take it<NL>anymooore!!"
+  },
+  {
+   "key": "script:0032:09D7",
+   "src": "4f979307c07a",
+   "t": "<FACE:03>Whoa!<WAIT><FACE:01>Hey, that's dangerous!"
+  },
+  {
+   "key": "script:0032:09ED",
+   "src": "2b2590e8d779",
+   "t": "<FACE:22>……You took it, right?"
+  },
+  {
+   "key": "script:0032:09FD",
+   "src": "5a1831b3884d",
+   "t": "<FACE:03>……Huh!?<WAIT><FACE:22>You took it, right?<WAIT><FACE:04>……Uhh…"
+  },
+  {
+   "key": "script:0032:0A1E",
+   "src": "7d4a33548672",
+   "t": "<FACE:22><PLAYER>!<NL><WAIT>You took the class<NL>president's armband,<WAIT>so now YOU are the<NL>class president!<WAIT>You must take charge<NL>and lead everyone!<WAIT><FACE:03>Whaaat?!"
+  },
+  {
+   "key": "script:0032:0A82",
+   "src": "d92074e4180b",
+   "t": "<FACE:24>Understood?<NL>You are the leader!<WAIT><FACE:03>W-what are you saying<NL>all of a sudden!?"
+  },
+  {
+   "key": "script:0032:0AB4",
+   "src": "8576203ef6db",
+   "t": "<FACE:04>Uhhh…"
+  },
+  {
+   "key": "script:0032:0ABE",
+   "src": "dea133095a3f",
+   "t": "<FACE:14>Just so ya know…<NL><WAIT>I ain't listening to<NL>a word you say!<WAIT><FACE:1A>Same goes for me!"
+  },
+  {
+   "key": "script:0032:0AF9",
+   "src": "684dcc4edb7b",
+   "t": "<FACE:05>Kids these days and<NL>«teamwork»? No chance<WAIT><FACE:07>Well, chin up. Just do<NL>what you can"
+  },
+  {
+   "key": "script:0032:0B38",
+   "src": "710bcab5e861",
+   "t": "<FACE:04>Where should we go?<WAIT><FACE:09>Hmm, let me see…<NL>"
+  },
+  {
+   "key": "script:0032:0B59",
+   "src": "f9c6f6d5dae2",
+   "t": "<FACE:05>Up ahead is a Computer<NL>Block running it all<WAIT>Let's head there first<NL>Might learn something<WAIT><FACE:00>Right, let's go see"
+  }
+ ]
+}

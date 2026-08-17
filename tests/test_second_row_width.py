@@ -13,21 +13,30 @@ the kind of thing nobody notices while reading a diff.
 import json
 from pathlib import Path
 
+import pytest
+
 from navi.table import rows_by_box
 from navi.validate import LINE_WIDTH
+
+from .conftest import language_packs, pack_id
 
 ROOT = Path(__file__).resolve().parent.parent
 
 
-def _packs():
-    for path in sorted((ROOT / "langs/es/script").glob("*.json")):
+def _parts(pack: Path):
+    """Every file of a pack that holds text drawn in the dialogue box."""
+    for path in sorted(pack.rglob("script/*.json")):
         yield path
-    yield ROOT / "langs/es/menus.json"
+    for path in sorted(pack.glob("menus.json")):
+        yield path
+    for path in sorted(pack.glob("*/menus.json")):
+        yield path       # a release's own lines
 
 
-def test_no_second_row_uses_the_last_column():
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_no_second_row_uses_the_last_column(pack):
     offenders = []
-    for path in _packs():
+    for path in _parts(pack):
         for entry in json.loads(path.read_text("utf-8"))["entries"]:
             text = entry.get("t", "")
             if not text:

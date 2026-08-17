@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0053",
+ "entries": [
+  {
+   "key": "script:0053:0504",
+   "src": "884a33b851da",
+   "t": "<FACE:03>Whoa! What's all this?"
+  },
+  {
+   "key": "script:0053:0513",
+   "src": "3c6f5b0c73e3",
+   "t": "<FACE:1C>Huge trees, chopped<NL>down into logs, sir!"
+  },
+  {
+   "key": "script:0053:0537",
+   "src": "267a90b7dbd0",
+   "t": "<FACE:0A>Looks like they felled<NL>them to slow us down…"
+  },
+  {
+   "key": "script:0053:0558",
+   "src": "8750edbf993c",
+   "t": "<FACE:75>Cough… hack… you did<NL>block their way…?<WAIT><FACE:7D>Of course-robo! It's<NL>much harder now-robo!<WAIT><FACE:75>Harder? …hack…<WAIT>I said make it fully<NL>impassable…"
+  },
+  {
+   "key": "script:0053:05D7",
+   "src": "352c0e26d741",
+   "t": "<FACE:7D>But then we couldn't<NL>get back either-robo!"
+  },
+  {
+   "key": "script:0053:05F0",
+   "src": "8d286efe2601",
+   "t": "<FACE:77>You fools!!<NL>Hack cough hack!<WAIT><FACE:75>…The plan is close now<WAIT>All that matters is<NL>stopping them! Gahh…"
+  },
+  {
+   "key": "script:0053:063A",
+   "src": "8daf122a25e7",
+   "t": "<FACE:77>Hack… quickly, keep<NL>them from reaching…<WAIT>here… before they<NL>arrive… hurry… cough"
+  },
+  {
+   "key": "script:0053:068D",
+   "src": "5c92d508a996",
+   "t": "<FACE:7D>Understood-robo!<WAIT>No worries-robo!<WAIT>We hid it so well<NL>that getting here<WAIT>will take ages-robo!"
+  },
+  {
+   "key": "script:0053:06D7",
+   "src": "c4552b825081",
+   "t": "<FACE:75>Mm… I see…<NL>I thought so… ugh…"
+  },
+  {
+   "key": "script:0053:06F3",
+   "src": "00aea82a5444",
+   "t": "<FACE:00>Huh? Is that the end?<NL>Easier than I thought"
+  },
+  {
+   "key": "script:0053:0718",
+   "src": "4de677d4b897",
+   "t": "<FACE:77>Coough… hack hack…<NL>"
+  },
+  {
+   "key": "script:0053:072B",
+   "src": "a77022fca3d6",
+   "t": "<FACE:77>Y-you braaats!! …cough"
+  },
+  {
+   "key": "script:0053:0743",
+   "src": "e7762fe375f8",
+   "t": "<FACE:03>Ah, it's Smog, the<NL>sickly Boss!<WAIT><FACE:01>You're my opponent!"
+  },
+  {
+   "key": "script:0053:0768",
+   "src": "5998cf89227a",
+   "t": "<FACE:77>Hack… who's sick…ack…<NL>…Fine… I'll fight!"
+  },
+  {
+   "key": "script:0053:079A",
+   "src": "9581deb20e90",
+   "t": "<FACE:77>Hack… ngh…<WAIT>Thanks to you I lose<NL>this Block so easily…<WAIT>As punishment… cough…<NL>no lunch… hack…"
+  },
+  {
+   "key": "script:0053:07EC",
+   "src": "a4eadef14306",
+   "t": "<FACE:81>We're sorry-robo!<NL>"
+  },
+  {
+   "key": "script:0053:07FA",
+   "src": "fe7740f6254d",
+   "t": "<FACE:81>Have mercy-roboo!"
+  },
+  {
+   "key": "script:0053:080B",
+   "src": "d53c8dcb4cb2",
+   "t": "<FACE:04>He's still pitiful…<NL>"
+  },
+  {
+   "key": "script:0053:0821",
+   "src": "42c9cca99c1c",
+   "t": "<FACE:00>We can't just leave<NL>him like this"
+  },
+  {
+   "key": "script:0053:0839",
+   "src": "09fa8d6b6975",
+   "t": "<FACE:05>Looks like we can get<NL>through the logs"
+  },
+  {
+   "key": "script:0053:084A",
+   "src": "d13b3e8c4d2e",
+   "t": "<FACE:0A>They're somewhere up<NL>ahead, then"
+  },
+  {
+   "key": "script:0053:085D",
+   "src": "9059f6f661fa",
+   "t": "<FACE:19>Don't ask me, sir,<NL>I wouldn't know"
+  },
+  {
+   "key": "script:0053:0874",
+   "src": "00b662a89fab",
+   "t": "<FACE:14>Looks like we can push<NL>deeper in somehow"
+  }
+ ]
+}

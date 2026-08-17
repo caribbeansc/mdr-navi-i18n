@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0167",
+ "entries": [
+  {
+   "key": "script:0167:02DF",
+   "src": "0cc20119787f",
+   "t": "<FACE:05>Hey, <PLAYER>…<WAIT><FACE:00>Hm? What is it?"
+  },
+  {
+   "key": "script:0167:02F1",
+   "src": "6214cd34f862",
+   "t": "<FACE:07>The stars are pretty…"
+  },
+  {
+   "key": "script:0167:02FE",
+   "src": "6ffd1dd08443",
+   "t": "<FACE:07>When we're like this…"
+  },
+  {
+   "key": "script:0167:0309",
+   "src": "56a4629fafec",
+   "t": "<FACE:04>What's up, Hiyori?"
+  },
+  {
+   "key": "script:0167:0316",
+   "src": "dff4bbe9ad4b",
+   "t": "<FACE:06>What?!<WAIT>Is it so weird for me<NL>to talk like a girl?!<WAIT>Fine!<WAIT><PLAYER>, you…!"
+  },
+  {
+   "key": "script:0167:034D",
+   "src": "7ff2c8366da0",
+   "t": "<FACE:05>Huh, you got strong<NL>since our last match…"
+  },
+  {
+   "key": "script:0167:0372",
+   "src": "045b28ef5f14",
+   "t": "<FACE:06>…Hey, I'm still mad<NL>at you, you know!"
+  },
+  {
+   "key": "script:0167:0389",
+   "src": "338ad2c47531",
+   "t": "<FACE:06>Hmph!"
+  },
+  {
+   "key": "script:0167:0390",
+   "src": "e415090ad0d3",
+   "t": "<FACE:06>I'm going on ahead!<WAIT><FACE:03>W-wait up, Hiyori!<END>"
+  },
+  {
+   "key": "script:0167:03AF",
+   "src": "4d68774a5669",
+   "t": "<FACE:04>A tweak here and it's<NL>off to deep space…"
+  },
+  {
+   "key": "script:0167:03CF",
+   "src": "2c8da2032690",
+   "t": "<FACE:02>Better not"
+  },
+  {
+   "key": "script:0167:03F2",
+   "src": "ec04d2aac62a",
+   "t": "<FACE:04>Where is it planning<NL>to go?"
+  }
+ ]
+}

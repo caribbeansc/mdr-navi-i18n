@@ -1,0 +1,485 @@
+{
+ "part": "script/script_0025",
+ "entries": [
+  {
+   "key": "script:0025:0E7E",
+   "src": "add3311b972b",
+   "t": "<FACE:4D>Let us in the Sperobo<NL>Gang, ya hear!<WAIT>We like that universe<NL>conquest bit, got it!<WAIT><FACE:4C>Sign us up, c'mon!"
+  },
+  {
+   "key": "script:0025:0EC6",
+   "src": "58649c1fecd5",
+   "t": "<FACE:4D>Aaah?!<NL>Quit spacing out!<WAIT>Are we in or not?<NL>Spit it out, ya hear!"
+  },
+  {
+   "key": "script:0025:0EF5",
+   "src": "dd341de991db",
+   "t": "<FACE:4C>You got a problem<NL>with us, c'mon!"
+  },
+  {
+   "key": "script:0025:0F0A",
+   "src": "805093f6ca0e",
+   "t": "<FACE:4E>Say something already!<NL>Huh?!"
+  },
+  {
+   "key": "script:0025:0F1D",
+   "src": "4b739317445f",
+   "t": "<FACE:7D>These guys are bad<NL>news-robo…<WAIT>Just ignore them-robo?"
+  },
+  {
+   "key": "script:0025:0F3E",
+   "src": "12b6de1e872f",
+   "t": "<FACE:4D>What'd you say, punk!"
+  },
+  {
+   "key": "script:0025:0F49",
+   "src": "07cc0cb069e2",
+   "t": "<FACE:81>B-but as our flunkies<NL>we get to slack-robo<WAIT><FACE:7D>Why's that-robo?<NL><WAIT>They look strong-robo.<NL>Work 'em, take credit<WAIT><FACE:7F>I see-robo<NL><WAIT>We can dump the boss's<NL>yelling on them-robo"
+  },
+  {
+   "key": "script:0025:0FBF",
+   "src": "024b0d5c965e",
+   "t": "<FACE:4D>Quit your mumbling<NL>already!<WAIT>Are we in or not?!<NL><WAIT>Which is it, punk!"
+  },
+  {
+   "key": "script:0025:0FF1",
+   "src": "d389fbce13b1",
+   "t": "<FACE:7D>F-fine-robo…<NL><WAIT>I-if you insist that<NL>much, you're in-robo"
+  },
+  {
+   "key": "script:0025:1015",
+   "src": "f4898bb54c8f",
+   "t": "<FACE:4D>For real, ya hear?!"
+  },
+  {
+   "key": "script:0025:1020",
+   "src": "67ada10b5963",
+   "t": "<FACE:4C>We did it, c'mon!"
+  },
+  {
+   "key": "script:0025:102B",
+   "src": "2367551adc96",
+   "t": "<FACE:4E>We're the Sperobo<NL>Gang now, huh!"
+  },
+  {
+   "key": "script:0025:103F",
+   "src": "34d6df0af71e",
+   "t": "<FACE:7D>B-but you're only<NL>rookies-robo…<WAIT>Y-you do everything<NL>we tell you-robo…"
+  },
+  {
+   "key": "script:0025:1072",
+   "src": "82ea4923bf97",
+   "t": "<FACE:4D>Fine by us, ya hear!"
+  },
+  {
+   "key": "script:0025:1080",
+   "src": "79ecb3acc2ce",
+   "t": "<FACE:7D>…This feels kinda<NL>weird-robo…"
+  },
+  {
+   "key": "script:0025:1094",
+   "src": "edca2b26310d",
+   "t": "<FACE:03>Whoa!"
+  },
+  {
+   "key": "script:0025:109A",
+   "src": "f39e4cac4103",
+   "t": "<FACE:08>What is this place…"
+  },
+  {
+   "key": "script:0025:10A5",
+   "src": "aa91f666bbdf",
+   "t": "<FACE:08>Is this some kind of<NL>coliseum or what?"
+  },
+  {
+   "key": "script:0025:10BB",
+   "src": "5f81749ba77c",
+   "t": "<FACE:04>I've got a bad<NL>feeling…"
+  },
+  {
+   "key": "script:0025:10CD",
+   "src": "a372783be69a",
+   "t": "<FACE:7F>Ladies and gentlemen!<NL><WAIT>The «Sperobo Cup»<NL>starts now-robo!<NL>"
+  },
+  {
+   "key": "script:0025:10F5",
+   "src": "e68cab3e8c96",
+   "t": "<FACE:7D>Ah, and click-robo"
+  },
+  {
+   "key": "script:0025:1102",
+   "src": "f34f6593a4e0",
+   "t": "<FACE:03>What the heck is this?<WAIT><FACE:7F>Round 1: the Rookies<NL>vs Challengers-robo!"
+  },
+  {
+   "key": "script:0025:1134",
+   "src": "816299152673",
+   "t": "<FACE:03>Hey, did they just<NL>name our team for us?<WAIT><FACE:0B>That's messed up!"
+  },
+  {
+   "key": "script:0025:1161",
+   "src": "de70bd5d8ce0",
+   "t": "<FACE:0A>Whatever<NL><WAIT>No matter who it is,<NL>we'll smash 'em!<WAIT><FACE:19>I'll help out too,<NL>if you'll have me!<WAIT><FACE:14>Me too!"
+  },
+  {
+   "key": "script:0025:11A5",
+   "src": "55a65a65c68c",
+   "t": "<FACE:00>By the way, what's<NL>the «Rookie» part?"
+  },
+  {
+   "key": "script:0025:11B6",
+   "src": "385f5d8849bd",
+   "t": "<FACE:4D>We're the Rookie<NL>Sperobos, ya hear!<WAIT><FACE:4C>Come and get us,<NL>c'mon!<WAIT><FACE:4E>What, you scared?<NL>Huh!"
+  },
+  {
+   "key": "script:0025:11EA",
+   "src": "d87f7c1bdc1e",
+   "t": "<FACE:08>What? Those are my<NL>classmates!<WAIT>What are you doing in<NL>a place like this?"
+  },
+  {
+   "key": "script:0025:1216",
+   "src": "9df76e0c5cb0",
+   "t": "<FACE:4D>Pipe down, ya hear!<WAIT><FACE:4C>We're the Sperobo<NL>Gang, c'mon!<WAIT><FACE:4E>Rookies, huh!"
+  },
+  {
+   "key": "script:0025:1244",
+   "src": "e0d40e4906b4",
+   "t": "<FACE:0A>Are these guys dumb<NL>or something?"
+  },
+  {
+   "key": "script:0025:1254",
+   "src": "8aed1519ad0b",
+   "t": "<FACE:4D>Come at us, ya hear!"
+  },
+  {
+   "key": "script:0025:1263",
+   "src": "19cce5025e79",
+   "t": "<FACE:7D>Robattle, fight-robo!"
+  },
+  {
+   "key": "script:0025:1274",
+   "src": "8770b7afe1b1",
+   "t": "<FACE:4D>What'd you say, punk!<WAIT><FACE:4C>We lost, c'mon!<WAIT><FACE:4E>Not bad, <PLAYER>,<NL>huh!"
+  },
+  {
+   "key": "script:0025:129B",
+   "src": "ac35dc0631fb",
+   "t": "<FACE:02>…Was that praise…?<WAIT><FACE:06>Quit being so casual!<NL>Shape up, class rep!<WAIT><FACE:00>You're right<NL>"
+  },
+  {
+   "key": "script:0025:12DD",
+   "src": "2a03c036623a",
+   "t": "<FACE:00>You guys, in a place<NL>like this…"
+  },
+  {
+   "key": "script:0025:12EF",
+   "src": "715c62892427",
+   "t": "<FACE:80>Round 1 goes to the<NL>Challengers-roboo!<NL>"
+  },
+  {
+   "key": "script:0025:130D",
+   "src": "e68cab3e8c96",
+   "t": "<FACE:7D>Ah, and click-robo"
+  },
+  {
+   "key": "script:0025:131A",
+   "src": "9698a7882903",
+   "t": "<FACE:06>This one's obnoxious<NL>too"
+  },
+  {
+   "key": "script:0025:132A",
+   "src": "36ef8fcc93f6",
+   "t": "<FACE:7F>Now, Round 2-robo!<NL><WAIT>Round 2: the Sperobos<NL>vs Challengers-robo!"
+  },
+  {
+   "key": "script:0025:1358",
+   "src": "30965ab46630",
+   "t": "<FACE:7D>Click, there-robo"
+  },
+  {
+   "key": "script:0025:1364",
+   "src": "fb321e66df76",
+   "t": "<FACE:00>These look like the<NL>real ones this time"
+  },
+  {
+   "key": "script:0025:1376",
+   "src": "b91d84c87eb3",
+   "t": "<FACE:0A>Doesn't matter<WAIT><FACE:7F>Now then, Robattle<NL>fight-robo!"
+  },
+  {
+   "key": "script:0025:1394",
+   "src": "076ce53f0bc2",
+   "t": "<FACE:7D>Huh? What's up-robo?"
+  },
+  {
+   "key": "script:0025:13A3",
+   "src": "bdbd026f778d",
+   "t": "<FACE:81>N-no way-robo!<NL><WAIT>Guys that tough lost.<NL>We can't win-robo!"
+  },
+  {
+   "key": "script:0025:13DA",
+   "src": "31cf70845421",
+   "t": "<FACE:81>Y-yeah-robo!<NL><WAIT><FACE:80>Goodbyyye-robo!!"
+  },
+  {
+   "key": "script:0025:13F3",
+   "src": "07b5ef44d9a6",
+   "t": "<FACE:81>Uhhhhh…<NL><WAIT>Trouble-robo…<NL><WAIT>R-Round 2: a forfeit,<NL>Challengers win-robo!"
+  },
+  {
+   "key": "script:0025:142D",
+   "src": "30965ab46630",
+   "t": "<FACE:7D>Click, there-robo"
+  },
+  {
+   "key": "script:0025:1439",
+   "src": "e6c3ab214167",
+   "t": "<FACE:08>Yes, yes. Now get<NL>on with the next one"
+  },
+  {
+   "key": "script:0025:1451",
+   "src": "7802ce560b8d",
+   "t": "<FACE:7D>Got it-robo. Uhhh…<NL>"
+  },
+  {
+   "key": "script:0025:1461",
+   "src": "cc162801e62b",
+   "t": "<FACE:7F>The semifinals-robo!<NL><WAIT>The semifinal rivals<NL>are…"
+  },
+  {
+   "key": "script:0025:1489",
+   "src": "6a1a6e5271ae",
+   "t": "<FACE:7D>What's wrong-robo?<WAIT><FACE:80>Sperobos 2, the semi<NL>team, all ran-robo!"
+  },
+  {
+   "key": "script:0025:14BD",
+   "src": "958c87374224",
+   "t": "<FACE:81>N-no way! What do we<NL>do-robo!?<WAIT><FACE:80>Don't ask me-robo!"
+  },
+  {
+   "key": "script:0025:14E1",
+   "src": "4c5becaaad46",
+   "t": "<FACE:81>U-uhhh-robo…<NL><WAIT>By forfeit, the<NL>Challengers win… robo<NL>"
+  },
+  {
+   "key": "script:0025:150B",
+   "src": "30965ab46630",
+   "t": "<FACE:7D>Click, there-robo"
+  },
+  {
+   "key": "script:0025:1517",
+   "src": "89fb9fac3e45",
+   "t": "<FACE:06>Ugh, enough already!<NL><WAIT>Just get on with the<NL>final already!"
+  },
+  {
+   "key": "script:0025:1539",
+   "src": "a095932f9684",
+   "t": "<FACE:7D>T-the final is<NL>against our Boss-robo<WAIT>We've prepared a<NL>special stage-robo<WAIT><FACE:04>A special stage?!"
+  },
+  {
+   "key": "script:0025:1577",
+   "src": "675cfc5cfb34",
+   "t": "<FACE:03>Whoa… what a thick<NL>fog"
+  },
+  {
+   "key": "script:0025:1586",
+   "src": "c0faea6c2950",
+   "t": "<FACE:05>Times like this, my<NL>mail-order «SeeMore»…"
+  },
+  {
+   "key": "script:0025:15AB",
+   "src": "a7609a0d8930",
+   "t": "<FACE:08>Huh? Where did I put<NL>it?"
+  },
+  {
+   "key": "script:0025:15BE",
+   "src": "7b4b1fbb6687",
+   "t": "<FACE:01>Everyone, stay close<NL>so we don't split up…"
+  },
+  {
+   "key": "script:0025:15D5",
+   "src": "7042c0fad573",
+   "t": "<FACE:03>…Right as I say it…<NL>Aaaaah!"
+  },
+  {
+   "key": "script:0025:15EF",
+   "src": "d7ef4b5a9af3",
+   "t": "<FACE:01>Hiyori, don't wander!<NL>"
+  },
+  {
+   "key": "script:0025:15FE",
+   "src": "48f2071a7a61",
+   "t": "<FACE:03>(You're kidding me!)<NL>"
+  },
+  {
+   "key": "script:0025:160E",
+   "src": "e035d1484bac",
+   "t": "<FACE:03>Heeey! Hiyoriii!<NL>"
+  },
+  {
+   "key": "script:0025:161B",
+   "src": "d560ed841566",
+   "t": "<FACE:03>Fubukiii!<NL><WAIT>Mizore! Gousetsuuu!<NL><WAIT>Answer meee!"
+  },
+  {
+   "key": "script:0025:163B",
+   "src": "3735cfbe1eb0",
+   "t": "<FACE:02>Oh! There they are!<NL>"
+  },
+  {
+   "key": "script:0025:1646",
+   "src": "015085738969",
+   "t": "<FACE:02>Found 'em! Um, uhhh…"
+  },
+  {
+   "key": "script:0025:1656",
+   "src": "fa9b0143332f",
+   "t": "<FACE:03>Yikes! That's cold!"
+  },
+  {
+   "key": "script:0025:1663",
+   "src": "5c7b158faf67",
+   "t": "<FACE:73>You… who are you…?"
+  },
+  {
+   "key": "script:0025:1674",
+   "src": "91843de56e09",
+   "t": "<FACE:03>W-w-w-who are you<NL>yourself!!"
+  },
+  {
+   "key": "script:0025:168A",
+   "src": "4cb28a6b2738",
+   "t": "<FACE:73>I'm… Kirika…<NL><WAIT>Today's fortune said…<NL>«a fated encounter»…<WAIT>Which means… you are…<NL>…my fated one…"
+  },
+  {
+   "key": "script:0025:16DC",
+   "src": "bd6c069d11db",
+   "t": "<FACE:04>(Scary… she's kind of<NL>scary…)"
+  },
+  {
+   "key": "script:0025:16F2",
+   "src": "30c3d9546fba",
+   "t": "<FACE:73>My fated one…<NL>I won't let you go…<WAIT><FACE:03>Uh-wuh-wuh…"
+  },
+  {
+   "key": "script:0025:1710",
+   "src": "9f84f83bb796",
+   "t": "<FACE:03>The fog cleared up?"
+  },
+  {
+   "key": "script:0025:171B",
+   "src": "95119785ccd6",
+   "t": "<FACE:05><PLAYER>!"
+  },
+  {
+   "key": "script:0025:1720",
+   "src": "9e302420f0b0",
+   "t": "<FACE:0A>Oh, so that's where<NL>you guys were<WAIT><FACE:19>Honestly! Too old to<NL>be getting lost!<WAIT><FACE:14>That's what you get<NL>for not cooperating…"
+  },
+  {
+   "key": "script:0025:1773",
+   "src": "99a3a5017c28",
+   "t": "<FACE:73>Who…?<NL>"
+  },
+  {
+   "key": "script:0025:177C",
+   "src": "5cab479269e4",
+   "t": "<FACE:73>I'm… Sperobo officer<NL>Streetcorner Kirika…<WAIT>All of you…<NL>…my fated ones…?"
+  },
+  {
+   "key": "script:0025:17B7",
+   "src": "d1b0dbc3a837",
+   "t": "<FACE:05>What are you saying?"
+  },
+  {
+   "key": "script:0025:17C5",
+   "src": "06a31bae8525",
+   "t": "<FACE:7D>The final at last-robo<NL><WAIT>Challengers versus<NL>our Boss Kirika-robo!"
+  },
+  {
+   "key": "script:0025:17F6",
+   "src": "82f5fcaf4f25",
+   "t": "<FACE:0A>So if we beat these<NL>guys, we clear this?<WAIT><FACE:14>Easy as pie!"
+  },
+  {
+   "key": "script:0025:1820",
+   "src": "da624e4794e2",
+   "t": "<FACE:73>So fighting is fate…"
+  },
+  {
+   "key": "script:0025:1833",
+   "src": "350fd6fec111",
+   "t": "<FACE:80>Now then, Robattle<NL>fight-robo!"
+  },
+  {
+   "key": "script:0025:1846",
+   "src": "164100d1032f",
+   "t": "<FACE:81>K-Kirika lost-robo!<NL>We're out of moves!"
+  },
+  {
+   "key": "script:0025:1873",
+   "src": "e35918dc866a",
+   "t": "<FACE:0D>Now, let us through"
+  },
+  {
+   "key": "script:0025:1882",
+   "src": "e552d387a240",
+   "t": "<FACE:73>Mutter… mutter…<NL><WAIT>…So you beat me…<NL><WAIT>…I won't forget… ever…<NL><WAIT>…I won't… forget…"
+  },
+  {
+   "key": "script:0025:18C9",
+   "src": "7ebe9fd95030",
+   "t": "<FACE:05>By the way, what were<NL>you doing here?"
+  },
+  {
+   "key": "script:0025:18DE",
+   "src": "e27e779ba3d2",
+   "t": "<FACE:4D>We're joining the<NL>Sperobo Gang, got it!<WAIT><FACE:4E>You got a complaint,<NL>huh!"
+  },
+  {
+   "key": "script:0025:1907",
+   "src": "bf8886d21b05",
+   "t": "<FACE:0A>So you joined those<NL>weaklings? What for?<WAIT><FACE:4D>We're climbing to the<NL>top, ya hear"
+  },
+  {
+   "key": "script:0025:193B",
+   "src": "e3df43cb99bc",
+   "t": "<FACE:06>(Sure are worked up…)<NL><WAIT><FACE:05>With all that energy<NL>to spare, help us?"
+  },
+  {
+   "key": "script:0025:1970",
+   "src": "b783c892758a",
+   "t": "<FACE:4D>And why's that, punk!<WAIT><FACE:4E>Don't order us around,<NL>huh!"
+  },
+  {
+   "key": "script:0025:198F",
+   "src": "d3be46ccdb2e",
+   "t": "<FACE:07>Even though you lost<NL>to us?"
+  },
+  {
+   "key": "script:0025:19A0",
+   "src": "d373d0c191f3",
+   "t": "<FACE:4D>Guh…"
+  },
+  {
+   "key": "script:0025:19A7",
+   "src": "91e227f9a756",
+   "t": "<FACE:4D>Kanbatsu joined the<NL>team!<NL><WAIT><FACE:4C>Arashi joined the<NL>team!<NL><WAIT><FACE:4E>Kyoufuu joined the<NL>team!"
+  },
+  {
+   "key": "script:0025:19DF",
+   "src": "9a4bc2b2c3a5",
+   "t": "<FACE:08>Eeek!!"
+  },
+  {
+   "key": "script:0025:19E7",
+   "src": "3eb8bc6a3f91",
+   "t": "<FACE:09>What a creepy girl…"
+  },
+  {
+   "key": "script:0025:19FA",
+   "src": "d46193c85e24",
+   "t": "<FACE:0A>It got all gloomy"
+  }
+ ]
+}

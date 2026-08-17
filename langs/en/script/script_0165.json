@@ -1,0 +1,45 @@
+{
+ "part": "script/script_0165",
+ "entries": [
+  {
+   "key": "script:0165:0228",
+   "src": "803a394040c3",
+   "t": "<FACE:80>Eek!<NL><PLAYER>-robo!<WAIT>A-at last it's our<NL>turn-robo!"
+  },
+  {
+   "key": "script:0165:0247",
+   "src": "d872c5951a98",
+   "t": "<FACE:7D>Y-yeah-robo…<NL>If we stop them here<WAIT>the officers will<NL>praise us-robo"
+  },
+  {
+   "key": "script:0165:0271",
+   "src": "b5899c50cb3e",
+   "t": "<FACE:7E>P… promotion-roboo!"
+  },
+  {
+   "key": "script:0165:0281",
+   "src": "b88c7b3f2bec",
+   "t": "<FACE:80>L… lies-robo<NL>We're not fooled-robo"
+  },
+  {
+   "key": "script:0165:0295",
+   "src": "d8536f6e17a7",
+   "t": "<FACE:80>That's a bluff-roboo!"
+  },
+  {
+   "key": "script:0165:02A4",
+   "src": "ccce6d267c8e",
+   "t": "<FACE:7E>We don't buy it-robo!<NL>We'll be back-robo!"
+  },
+  {
+   "key": "script:0165:02B9",
+   "src": "255ec19e2f2f",
+   "t": "<FACE:04>I think I just saw<NL>something weird…"
+  },
+  {
+   "key": "script:0165:02EB",
+   "src": "cc4dbc5efa20",
+   "t": "<FACE:00>So there were still<NL>Sperobos here too…<WAIT>I thought they'd all<NL>pulled out already…"
+  }
+ ]
+}

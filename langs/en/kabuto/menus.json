@@ -1,0 +1,465 @@
+{
+ "part": "menus",
+ "entries": [
+  {
+   "key": "str:09F4F1",
+   "src": "16906ba8e723",
+   "t": "<B:C0><B:1C><B:66><B:77><FACE7:66>"
+  },
+  {
+   "key": "str:4F1268",
+   "src": "01af770f21cd",
+   "t": "<B:46><B:34><B:04><B:67><B:10><B:17><B:D8><B:8A><B:50><B:74><B:02><B:43><B:57><B:43><B:2F><B:34><B:74><B:45><B:44><B:43><B:57><B:44><B:02><B:40><B:92><B:44><B:02>"
+  },
+  {
+   "key": "str:4F1284",
+   "src": "a319487eeae2",
+   "t": "<B:0C><B:77><B:11><B:04><B:9F><B:50><B:3B><B:97>"
+  },
+  {
+   "key": "str:4F1291",
+   "src": "c865e92ea52f",
+   "t": "<B:33><B:27><B:89><B:07><B:25><B:5B>"
+  },
+  {
+   "key": "str:4F129F",
+   "src": "14d41cbe797c",
+   "t": "<B:1B><B:24><B:9F><B:10><B:0F><B:26><B:03><B:30><B:67><B:54><B:26><B:43><B:07><B:34><B:07><B:9A><B:44><B:93><B:07><B:92><B:44><B:A3><B:10><B:6B><B:3E><B:10><B:07><B:66><B:73><B:07><B:53><B:4B><B:48><B:A2>"
+  },
+  {
+   "key": "str:4F12C2",
+   "src": "81601cf0cc38",
+   "t": "<B:44><B:A2><B:40><B:CF><B:64><B:A7><B:90><B:0B><B:35><B:37><B:8A><B:49><B:54><B:83>"
+  },
+  {
+   "key": "str:5B00A9",
+   "src": "8891bd7c7ede",
+   "t": "<B:0F><B:4F><B:13><B:89><B:0A><B:AA><B:4E><B:03><B:19><B:A4><B:CF><B:45><B:06><B:91><B:AA><B:84><B:0E>"
+  },
+  {
+   "key": "str:5B00BB",
+   "src": "e8112bedd4e1",
+   "t": "<B:1A><B:60><B:14><B:CB><B:18><B:8B><B:81><B:2A><B:06><B:97><B:02><B:BF><B:43><B:55><B:A9><B:4C><B:55>"
+  },
+  {
+   "key": "str:5B00D1",
+   "src": "d8c0ea26fab6",
+   "t": "<B:81><B:06><B:7B><B:21><B:0E>"
+  },
+  {
+   "key": "str:646246",
+   "src": "39369c218c87",
+   "t": "Drive C"
+  },
+  {
+   "key": "str:64625D",
+   "src": "845c48f2e4ed",
+   "t": ".."
+  },
+  {
+   "key": "str:700E90",
+   "src": "257cb230ae65",
+   "t": "<B:C0><B:2E><B:AA><B:9A><B:33><END>"
+  },
+  {
+   "key": "str:7951A0",
+   "src": "6c966de1f375",
+   "t": "<B:7E><B:20><B:22><B:37><B:03><B:40><B:44><B:03><B:30><B:0B><B:45><B:44><B:37><B:37><B:8C>"
+  },
+  {
+   "key": "str:7F6A1B",
+   "src": "c0d793438a95",
+   "t": "…now!<WAIT><FACE:17>Wh-what was that?!<WAIT><FACE:1C>This is terrible, sir!<WAIT><FACE:03>Th-the Pyramid Block?<WAIT><FACE:08>H-hold on a second!<NL>Getting my pamphlet…<WAIT><FACE:0B>You go right from here<NL>and around the bend!<WAIT><FACE:08>Huh?<WAIT><FACE:00>You know a lot, Fubuki<WAIT><FACE:0A>Who cares about that?<WAIT><FACE:01>Right, we must hurry!<NL><WAIT>Set our route and go<NL>straight there!"
+  },
+  {
+   "key": "str:KBT:011FE7",
+   "src": "89904975d8fe",
+   "t": "<B:07><B:01><B:0F><B:03><B:E0><B:C4><B:8A><B:09><B:08><B:01><B:21><B:49><B:42>"
+  },
+  {
+   "key": "str:KBT:01281F",
+   "src": "795ed24530a0",
+   "t": "<B:07><B:01><B:0F><B:03><B:E0><B:04><B:99><B:09><B:08><B:01><B:21><B:49><B:42>"
+  },
+  {
+   "key": "str:KBT:08D4D0",
+   "src": "a1e21f05493d",
+   "t": "Hmph… That's what you<NL>get for butting in<END>"
+  },
+  {
+   "key": "str:KBT:08D4E0",
+   "src": "12b996ef2451",
+   "t": "So we've lost, then…<NL><END>"
+  },
+  {
+   "key": "str:KBT:08D4F4",
+   "src": "1fb91edc920b",
+   "t": "If you get in our way,<NL>we'll take you on!<END>"
+  },
+  {
+   "key": "str:KBT:08D514",
+   "src": "41f65a144463",
+   "t": "My training is paying<NL>off at last, indeed.<END>"
+  },
+  {
+   "key": "str:KBT:08D530",
+   "src": "8b8dc3b4511d",
+   "t": "This is it for me…<NL>How mortifying…<END>"
+  },
+  {
+   "key": "str:KBT:08D544",
+   "src": "d52dfe72ac59",
+   "t": "You've improved a bit!<END>"
+  },
+  {
+   "key": "str:KBT:08D55C",
+   "src": "c0413d517a21",
+   "t": "That's what you get<NL>for always meddling.<END>"
+  },
+  {
+   "key": "str:KBT:08D578",
+   "src": "13ff2f2cac63",
+   "t": "N… no way…<END>"
+  },
+  {
+   "key": "str:KBT:08D588",
+   "src": "9200aa56e3a4",
+   "t": "That nerve of yours…<NL>I'll fix it for you!<END>"
+  },
+  {
+   "key": "str:KBT:08D5A8",
+   "src": "c0c2685c692a",
+   "t": "I… I have won!<NL>I am truly glad!<END>"
+  },
+  {
+   "key": "str:KBT:08D5C0",
+   "src": "3a6acf341c0a",
+   "t": "…I am defeated…<END>"
+  },
+  {
+   "key": "str:KBT:08D5D4",
+   "src": "5dfd6b19d85e",
+   "t": "I won't lose again!<END>"
+  },
+  {
+   "key": "str:KBT:08D5E8",
+   "src": "785f484e1a88",
+   "t": "Do you understand?<END>"
+  },
+  {
+   "key": "str:KBT:08D5FC",
+   "src": "17d1c18fe61a",
+   "t": "This can't be…<END>"
+  },
+  {
+   "key": "str:KBT:08D608",
+   "src": "759f04cef1ed",
+   "t": "I won't be beaten<NL>again and again!<END>"
+  },
+  {
+   "key": "str:KBT:08D624",
+   "src": "fc946a824c90",
+   "t": "I was blessed with a<NL>worthy opponent.<END>"
+  },
+  {
+   "key": "str:KBT:08D638",
+   "src": "7587a592b9ce",
+   "t": "Ngh…<NL>How mortifying…<END>"
+  },
+  {
+   "key": "str:KBT:08D648",
+   "src": "1f3cb1de454a",
+   "t": "I shall give my all!<NL>Have at you!<END>"
+  },
+  {
+   "key": "str:KBT:08D664",
+   "src": "30a20ccbef18",
+   "t": "Now, you will talk!!<END>"
+  },
+  {
+   "key": "str:KBT:08D678",
+   "src": "82b675d78328",
+   "t": "I… I've lost…<END>"
+  },
+  {
+   "key": "str:KBT:08D688",
+   "src": "8736ebf799c6",
+   "t": "I won't hold back!<END>"
+  },
+  {
+   "key": "str:KBT:08D698",
+   "src": "f0c3f6699972",
+   "t": "You did not even make<NL>for good training.<END>"
+  },
+  {
+   "key": "str:KBT:08D6B0",
+   "src": "8f5772fb1f4d",
+   "t": "You there… you are<NL>strong indeed…<END>"
+  },
+  {
+   "key": "str:KBT:08D6C4",
+   "src": "cae2b4db5a0c",
+   "t": "Are you prepared!?<NL>Here I come!<END>"
+  },
+  {
+   "key": "str:KBT:08D6DC",
+   "src": "934d53c9984f",
+   "t": "Heh heh… surprised by<NL>my strength?<END>"
+  },
+  {
+   "key": "str:KBT:08D6F8",
+   "src": "04abe51a9132",
+   "t": "…H… how awful…<END>"
+  },
+  {
+   "key": "str:KBT:08D708",
+   "src": "009df11d13cf",
+   "t": "Are you ready!?<NL>Here I go!<END>"
+  },
+  {
+   "key": "str:KBT:090544",
+   "src": "514e585b193f",
+   "t": "<B:4E><B:01><B:02><B:28><B:84><B:84><B:84><B:84>"
+  },
+  {
+   "key": "str:KBT:0905B4",
+   "src": "5e726b0f2356",
+   "t": "<B:52><B:01><B:01><B:32><B:7E><B:7E><B:7E><B:7E><B:02><B:03><B:02><B:03>"
+  },
+  {
+   "key": "str:KBT:0E0958",
+   "src": "7e5fd8a39bfc",
+   "t": "<B:38><B:09><B:0E><B:08><B:40><B:09><B:0E><B:08><B:48><B:09><B:0E><B:08><B:50><B:09><B:0E><B:08><B:38><B:39><B:3A><B:3B><B:3C><B:DB><B:DB><B:DB>"
+  },
+  {
+   "key": "str:KBT:4CC4C0",
+   "src": "4eb9881b8339",
+   "t": "<B:1D><B:BC><B:06><B:08><B:D5><B:BA><B:06><B:08><B:49><B:BB><B:06><B:08><B:AD><B:B8><B:06><B:08><B:A8><B:C4><B:4C><B:08>"
+  },
+  {
+   "key": "str:KBT:4CC5E8",
+   "src": "0fadd540dbea",
+   "t": "<B:19><B:C0><B:06><B:08><B:21><B:BE><B:06><B:08><B:15><B:BF><B:06><B:08><B:AD><B:B8><B:06><B:08><B:D0><B:C5><B:4C><B:08>"
+  },
+  {
+   "key": "str:KBT:4CC614",
+   "src": "823fbd28ca8c",
+   "t": "<B:A1><B:BF><B:06><B:08><B:21><B:BE><B:06><B:08><B:91><B:BE><B:06><B:08><B:AD><B:B8><B:06><B:08><B:D0><B:C5><B:4C><B:08>"
+  },
+  {
+   "key": "str:KBT:5D5FE4",
+   "src": "a22adbecb243",
+   "t": "<B:80><B:5F><B:5D><B:08><B:A0><B:5F><B:5D><B:08><B:C0><B:5F><B:5D><B:08><B:0C>"
+  },
+  {
+   "key": "str:KBT:5D6040",
+   "src": "098c924d6808",
+   "t": "<B:18><B:60><B:5D><B:08><B:24><B:60><B:5D><B:08><B:30><B:60><B:5D><B:08><B:38><B:60><B:5D><B:08><B:14>"
+  },
+  {
+   "key": "str:KBT:5D7360",
+   "src": "168c6b9d8853",
+   "t": "<FACE:06>What's the big idea!<NL>You drag us all over<WAIT>and when we finally<NL>meet, you two jump us<WAIT><FACE:A2>Met him?<NL>You are mistaken<WAIT>I finally 'caught' him<WAIT><FACE:04>Caught him?<WAIT><FACE:A2>He talks of training<NL>and never listens<WAIT>He even ran off from<NL>his overhaul<WAIT><FACE:A3>B-be silent!<NL>Sister hated it too!<WAIT><FACE:A2>Even so, I went<NL>and I was not late<WAIT>There are things one<NL>must do regardless<WAIT><FACE:A3>This one will not!<NL> <WAIT>This one shall grow<NL>stronger and stronger<WAIT>That is why I train!<NL> <WAIT>I shall not lose to my<NL>sister!<WAIT><FACE:05>Sheesh… and that's<NL>after an overhaul…<WAIT>What on earth was he<NL>like before that…<WAIT><FACE:00>Haha, they're so human<NL>it's kind of scary<WAIT><FACE:A2>Ah, now that I recall…<NL>that was no overhaul<WAIT>They fitted sensors to<NL>me and just ran tests<WAIT><FACE:05>Even after an overhaul<NL>how human are they?<WAIT><FACE:04>Human-ness, huh…<NL>What is that…?"
+  },
+  {
+   "key": "str:KBT:5D7598",
+   "src": "7c8358c1405e",
+   "t": "<FACE:08>Ah! Over there!<WAIT><FACE:00>Looks like they met<NL>up at last, but…<WAIT><FACE:05>…No way that looks<NL>like a happy reunion…<WAIT><FACE:A2>A coward who strikes<NL>from behind…<WAIT>I recall no such<NL>brother of mine<WAIT><FACE:A3>I feared she'd drag me<NL>home, so I acted<WAIT>I-I only meant to go<NL>a little easy…<WAIT><FACE:05>Hey, hey, no fighting!<NL>You two are family!<WAIT>Try getting along!<WAIT><FACE:A2>This is our own affair<WAIT><FACE:A3>I would ask you not to<NL>interfere!"
+  },
+  {
+   "key": "str:KBT:5D76A0",
+   "src": "0a60fef1813e",
+   "t": "<FACE:A3>Still not enough…<NL>I cannot beat HIM yet<WAIT><FACE:05>Him?!<WAIT><FACE:A3>N-nothing at all!<NL>This one takes leave…<WAIT>Farewell!!"
+  },
+  {
+   "key": "str:KBT:5D76F8",
+   "src": "2bdc79d80e1a",
+   "t": "<FACE:A3>I have sought thee<NL>Now, a match, please<WAIT><FACE:00>By the way, why are<NL>you so fired up?<WAIT><FACE:A3>Th-that…<NL>This one cannot say<WAIT><FACE:00>Fine, whatever<NL>Then hear me out<WAIT><FACE:A3>All else can wait<NL>Robattle!"
+  },
+  {
+   "key": "str:KBT:5D7774",
+   "src": "40fd8c46fb77",
+   "t": "<FACE:A2>Ngh…<NL> <WAIT>Why do you people do<NL>nothing but stop me!<WAIT>May a Medabot not feel<NL>for her own brother?<WAIT><FACE:00>Huh?!<WAIT><FACE:A2>Even the feelings you<NL>humans think normal<WAIT>are they forbidden to<NL>us Medabots?<WAIT><FACE:05>Nobody said that!<NL>Just listen to us a…<WAIT><FACE:A2>I must find him, fast…<NL> <WAIT>I will never give up!<WAIT><FACE:04>What's with her…<NL>Something's off<WAIT><FACE:09>…"
+  },
+  {
+   "key": "str:KBT:5D7874",
+   "src": "d243405f0354",
+   "t": "<FACE:03>Ah!<NL>A Medabot is down!<WAIT><FACE:05>You're right<NL>What happened to her…<WAIT><FACE:03>It's her!<WAIT><FACE:05>That cheeky Medabot…<NL> <WAIT>But what happened…<NL> <WAIT>Surely the Sperobos<NL>didn't do this…<WAIT><FACE:A2>Mmm…<NL> <WAIT>Hah!!<NL> <WAIT>You coward!<NL>Striking from behind!<WAIT>Not only did you lie<NL> <WAIT>I had just found him<NL>and you interfere!<WAIT>That is quite enough!<WAIT><FACE:09>Found him…?<WAIT><FACE:00>Listen to our side<NL>for a moment…<WAIT><FACE:A2>Be silent!<NL> <WAIT>I have no time to<NL>play with you<WAIT><FACE:05>Fine, then!<NL> <WAIT>Then I'll make you<NL>listen by force!"
+  },
+  {
+   "key": "str:KBT:5D79DC",
+   "src": "416b77a4209e",
+   "t": "<FACE:A3>S-still too soft…<NL>How bitter…<WAIT><FACE:05>So you'll listen to us<NL>now, right?<WAIT><FACE:A3>…<WAIT><FACE:00>Hey, do you have an<NL>older sister?<WAIT><FACE:A3>…<WAIT><FACE:00>Turns out she's been<NL>looking for you<WAIT><FACE:A3>…<WAIT><FACE:00>It'd be great if you<NL>went to see her…<WAIT><FACE:A3>…<WAIT><FACE:05>Hey, you listening?<WAIT><FACE:A3>I see!<WAIT><FACE:00>Wh-what is it?!<WAIT><FACE:A3>So that was it!<WAIT><FACE:05>That's right!<NL>She's looking for you<WAIT><FACE:A3>I see it now!<NL>This one's weakness!<WAIT><FACE:00>Huh?!<WAIT><FACE:A3>Until now this one has<NL>always moved second<WAIT>Strike first and win!<NL>I was still too soft!<WAIT><FACE:05>Eh?!<WAIT><FACE:A3>When next we meet<NL>I shall not lose!<WAIT>Farewell!<WAIT><FACE:00>He's gone…<WAIT><FACE:06>He didn't get it!!"
+  },
+  {
+   "key": "str:KBT:5D7B60",
+   "src": "9bb44bd6a9c9",
+   "t": "<FACE:A3>Found thee at last<WAIT><FACE:00>Ah! You!<WAIT><FACE:05>This time you're going<NL>to hear us out<WAIT><FACE:A3>This one will hear it<NL>after our match"
+  },
+  {
+   "key": "str:KBT:5D7BB8",
+   "src": "523b97211da2",
+   "t": "<FACE:A2>…<WAIT><FACE:05>Cooled off a little?<WAIT><FACE:00>It's about your little<NL>brother…<WAIT><FACE:A2><SFX:4B>!!<DELAY:0028><NL>Where was he?!<WAIT>Quickly, tell me!<WAIT><FACE:00>We don't know where he<NL>is right now either<WAIT>but a while back…<WAIT><FACE:A2>…<NL>So you do not know…<WAIT><FACE:05>Hey! We went out of<NL>our way to tell you…<WAIT><FACE:A2>And what exactly did<NL>you tell me?<WAIT>Good day!<WAIT><FACE:06>Ugh!<NL>She makes me so mad<WAIT><FACE:00>Still, why is she<NL>looking for him…?<WAIT><FACE:06>How should I know!"
+  },
+  {
+   "key": "str:KBT:5D7CCC",
+   "src": "d6f81ffde0d0",
+   "t": "<FACE:A2>You people again…<WAIT><FACE:06>Excuse me!<NL>How rude!<WAIT><FACE:04>Hey, Hiyori<NL>that's a bit much…<WAIT><FACE:06>Hmph!<WAIT><FACE:00>Hey, hey<NL>about your brother…<WAIT><FACE:A2>I ask you nothing more<NL> <WAIT>Humans could never<NL>know how we feel…<WAIT><FACE:00>…?<WAIT><FACE:06>Fine, go ahead, sulk!<NL> <WAIT>Brother and sister,<NL>neither one listens…<WAIT><FACE:A2><SFX:4B>!<DELAY:0028><NL>'Both', you said!<WAIT>Say it of him if you<NL>must, but of me too!<WAIT>That I cannot ignore!<WAIT><FACE:06>What! You want to go?<WAIT><FACE:A2>With pleasure!"
+  },
+  {
+   "key": "str:KBT:5D7E04",
+   "src": "32314d33ef0f",
+   "t": "<FACE:A3>Splendid, verily<NL> <WAIT>Just as this one hoped<NL>My training lacks yet<WAIT>Then, farewell<WAIT><FACE:05>Brother and sister<NL>both in such a hurry<WAIT><FACE:00>This is no time for<NL>that…"
+  },
+  {
+   "key": "str:KBT:5D7E6C",
+   "src": "6bbb54b2c72f",
+   "t": "<FACE:A3>It has been a while<NL>Forgive this one, but<WAIT>One more match, please<WAIT><FACE:00>Ah, it's you!<WAIT><FACE:A3>This one pondered it<NL> <WAIT>And I decided that<NL>thou art my goal<WAIT>That is my conclusion<WAIT><FACE:00>Whoa, hold on…<NL>Just hear me out<WAIT><FACE:A3>It is brazen of me<NL>but I have no time<WAIT><FACE:A3>No more delay!<NL>Robattle!"
+  },
+  {
+   "key": "str:KBT:5D7F38",
+   "src": "c179c2ce8294",
+   "t": "<FACE:A2>Ngh… while I waste<NL>time here, he…<WAIT><FACE:03>Wait!<NL>Just listen to us!<WAIT><FACE:06>Just leave her!<NL>Pigheaded Medabot!"
+  },
+  {
+   "key": "str:KBT:5D7F84",
+   "src": "7fb7c9b51731",
+   "t": "<FACE:A2>Oh, we meet again<NL> <WAIT>In truth, I seek my<NL>brother, a Medabot…<WAIT><FACE:08>A Medabot with a<NL>little brother?!<WAIT><FACE:A2>From one design, built<NL>as male and female<WAIT>I was finished first<NL>so, like brother and<WAIT>sister, we got along…<WAIT><FACE:00>And you got separated?<WAIT><FACE:A2>The Cluster's program<NL> <WAIT>was halted by the<NL>network chaos…<WAIT><FACE:05>Come to think of it,<NL>in all that uproar<WAIT>every Medabot here<NL>went berserk…<WAIT><FACE:A2>The two of us…<NL> <WAIT>Our sibling bond was<NL>judged a malfunction<WAIT>so we were overhauled…<NL> <WAIT>When I woke, every<NL>Medabot had gone odd<WAIT><FACE:04>So that's how it was…<WAIT><FACE:05>Sorry about before<NL>We had no idea…<WAIT><FACE:A2>No, the fault is mine…<WAIT><FACE:00>Still, Medabots really<NL>do have personalities<WAIT>That reminds me…<NL> <WAIT>We met a Medabot who<NL>was training hard…<WAIT><FACE:A2>Training!<NL> <WAIT>So you WERE trying to<NL>deceive me after all!<WAIT><FACE:03>H-hold on a second!<WAIT><FACE:A2>Then I shall make you<NL>talk by force!"
+  },
+  {
+   "key": "str:KBT:5D81E8",
+   "src": "737ed0ba82ab",
+   "t": "<FACE:A3>This one has lost…<NL>My training is short<WAIT><FACE:06>Hey! Why'd you go all<NL>out on him?!<WAIT><FACE:04>Huh?! But a half fight<NL>is no help to him…<WAIT><FACE:A3>This one shall train<NL>anew! Farewell!<WAIT><FACE:08>Ah! Wait a momeeen…<WAIT><FACE:06>Ugh! He's gone and<NL>left!<WAIT><FACE:03>Aaaaah!!<NL>That Medabot just now<WAIT>isn't that the little<NL>one she was seeking!"
+  },
+  {
+   "key": "str:KBT:5D82D8",
+   "src": "39632449d756",
+   "t": "<FACE:A3>You there…<WAIT><FACE:00>Hm? What is it?<NL>Never seen that one…<WAIT><FACE:05>Oh! So tiny and cute[<3]<WAIT><FACE:A3>This one is in the<NL>midst of training<WAIT><FACE:05>I see! A Medabot the<NL>Cluster is building!<WAIT><FACE:A3>Just so!<NL> <WAIT>This one asks that you<NL>Robattle him<WAIT><FACE:04>Huh?! Uh, well…<NL>We haven't got time…<WAIT><FACE:07>Oh, why not?<NL> <WAIT>Go on, lend a hand<NL>with his training<WAIT><FACE:05>But are you alone?<NL>No team members?<WAIT><FACE:A3>Near all the Medabots<NL>here follow this one!<WAIT><FACE:00>Like I said, we're in<NL>a hur…<WAIT><FACE:07>So you run this area!<NL>Now that's reliable!<WAIT><FACE:07>So unlike someone here<NL> <WAIT>Go on, <PLAYER>!<NL>Robattle him!<WAIT><FACE:A3>Much obliged!"
+  },
+  {
+   "key": "str:KBT:5D8470",
+   "src": "c70fc5626d3c",
+   "t": "<FACE:00>I really don't have a<NL>clue<WAIT>If I see it, I'll tell<NL>it you're looking…<WAIT><FACE:A2>····<WAIT><FACE:06>····<WAIT><FACE:A2>I'll try elsewhere!<WAIT><FACE:06>That's for the best!"
+  },
+  {
+   "key": "str:KBT:5D84D0",
+   "src": "431f6d770476",
+   "t": "<FACE:A2>Excuse me…<WAIT><FACE:03>Whoa!<WAIT><FACE:00>…Huh? A Medabot from<NL>around here?<WAIT><FACE:A2>Have you seen a small<NL>Medabot around here?<WAIT><FACE:00>A small Medabot…?<WAIT>Lots of Medabots here,<NL>I wouldn't know…<WAIT><FACE:A2>You wouldn't know…<WAIT>Aren't you lying?<WAIT><FACE:05>What's your problem?<NL>Are you doubting us?<WAIT><FACE:A2>No<NL>I only asked<WAIT><FACE:00>H-hey…<WAIT><FACE:06>Kinda rude, isn't he?<WAIT><FACE:03>Hey, Hiyori!<WAIT><FACE:A2>It seems I must make<NL>you talk by force!"
+  },
+  {
+   "key": "str:KBT:62C84C",
+   "src": "27d909267ef6",
+   "t": "<B:4C><B:BB><B:62><B:08><B:7C><B:BE><B:62><B:08><B:2C><B:BB><B:62><B:08><B:22>"
+  },
+  {
+   "key": "str:KBT:62C864",
+   "src": "76ffc498b8e4",
+   "t": "<B:CE><B:BF><B:62><B:08><B:6E><B:C0><B:62><B:08><B:AE><B:BF><B:62><B:08><B:14>"
+  },
+  {
+   "key": "str:KBT:62C87C",
+   "src": "668fefc58a56",
+   "t": "<B:64><B:B9><B:62><B:08><YESNO><B:BA><B:62><B:08><B:44><B:B9><B:62><B:08><B:06>"
+  },
+  {
+   "key": "str:KBT:62C8AC",
+   "src": "52a1e6c871f9",
+   "t": "<B:66><B:C5><B:62><B:08><B:70><B:C5><B:62><B:08><B:46><B:C5><B:62><B:08><B:14>"
+  },
+  {
+   "key": "str:KBT:6400DB",
+   "src": "33608e010e49",
+   "t": "<B:4C><B:37><B:03><B:10><B:2E><B:13><B:30><B:0E>"
+  },
+  {
+   "key": "str:KBT:6400E4",
+   "src": "7398252db1a0",
+   "t": "<B:14><B:20><B:37><B:0E><B:1D>"
+  },
+  {
+   "key": "str:KBT:6400EA",
+   "src": "dd856148da01",
+   "t": "<B:0B><B:10><B:0A><B:62><B:5F><B:81>"
+  },
+  {
+   "key": "str:KBT:641C83",
+   "src": "f9a11631b85c",
+   "t": "<B:08><B:40><B:5C><B:78><B:08><B:40><B:5D><B:78><B:08>"
+  },
+  {
+   "key": "str:KBT:645190",
+   "src": "6eb5ead2a912",
+   "t": "<B:54><B:51><B:64><B:08><B:5D><B:51><B:64><B:08><B:61><B:51><B:64><B:08><B:6C><B:51><B:64><B:08><B:75><B:51><B:64><B:08><B:7E><B:51><B:64><B:08><B:87><B:51><B:64><B:08>Medal<B:9E>"
+  },
+  {
+   "key": "str:KBT:6451E8",
+   "src": "92dc2223fc54",
+   "t": "<B:AC><B:51><B:64><B:08><B:B5><B:51><B:64><B:08><B:B9><B:51><B:64><B:08><B:BD><B:51><B:64><B:08><B:C1><B:51><B:64><B:08><B:CA><B:51><B:64><B:08><B:D3><B:51><B:64><B:08><B:DC><B:51><B:64><B:08>Medal<B:9E>"
+  },
+  {
+   "key": "str:KBT:645240",
+   "src": "76c486a70bb5",
+   "t": "<B:08><B:52><B:64><B:08><B:11><B:52><B:64><B:08><B:1A><B:52><B:64><B:08><B:23><B:52><B:64><B:08><B:2C><B:52><B:64><B:08><B:35><B:52><B:64><B:08><B:38><B:52><B:64><B:08><B:3B><B:52><B:64><B:08>Bck"
+  },
+  {
+   "key": "str:KBT:645264",
+   "src": "85ebf6a8ae73",
+   "t": "Medaf."
+  },
+  {
+   "key": "str:KBT:64526B",
+   "src": "3c6cfc7d8ec7",
+   "t": "Skill"
+  },
+  {
+   "key": "str:KBT:645274",
+   "src": "e2ad934e7027",
+   "t": "<B:60><B:52><B:64><B:08><B:64><B:52><B:64><B:08><B:6B><B:52><B:64><B:08>Bck"
+  },
+  {
+   "key": "str:KBT:645284",
+   "src": "3c6cfc7d8ec7",
+   "t": "Skill"
+  },
+  {
+   "key": "str:KBT:64528B",
+   "src": "d8257789a368",
+   "t": "Ability"
+  },
+  {
+   "key": "str:KBT:645294",
+   "src": "193c312929da",
+   "t": "<B:80><B:52><B:64><B:08><B:84><B:52><B:64><B:08><B:8B><B:52><B:64><B:08>Bck"
+  },
+  {
+   "key": "str:KBT:6452A4",
+   "src": "d8257789a368",
+   "t": "Abil."
+  },
+  {
+   "key": "str:KBT:6452AA",
+   "src": "85ebf6a8ae73",
+   "t": "Medaforce"
+  },
+  {
+   "key": "str:KBT:6452B4",
+   "src": "2f57849aed15",
+   "t": "<B:A0><B:52><B:64><B:08><B:A4><B:52><B:64><B:08><B:AA><B:52><B:64><B:08>Medabot"
+  },
+  {
+   "key": "str:KBT:6452E4",
+   "src": "7e3101299003",
+   "t": "<B:C0><B:52><B:64><B:08><B:CA><B:52><B:64><B:08><B:CF><B:52><B:64><B:08><B:D3><B:52><B:64><B:08><B:D6><B:52><B:64><B:08><B:D9><B:52><B:64><B:08><B:DC><B:52><B:64><B:08><B:DF><B:52><B:64><B:08>Medabot"
+  },
+  {
+   "key": "str:KBT:645334",
+   "src": "2f2ad8e84b0d",
+   "t": "<B:04><B:53><B:64><B:08><B:0E><B:53><B:64><B:08><B:18><B:53><B:64><B:08><B:1C><B:53><B:64><B:08><B:1F><B:53><B:64><B:08><B:22><B:53><B:64><B:08><B:25><B:53><B:64><B:08><B:2B><B:53><B:64><B:08><B:2E><B:53><B:64><B:08>Medabot"
+  },
+  {
+   "key": "str:KBT:645388",
+   "src": "889a9d225b8b",
+   "t": "<B:58><B:53><B:64><B:08><B:62><B:53><B:64><B:08><B:6C><B:53><B:64><B:08><B:70><B:53><B:64><B:08><B:73><B:53><B:64><B:08><B:76><B:53><B:64><B:08><B:79><B:53><B:64><B:08><B:7F><B:53><B:64><B:08><B:82><B:53><B:64><B:08>Name"
+  }
+ ]
+}

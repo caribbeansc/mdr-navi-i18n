@@ -1,0 +1,115 @@
+{
+ "part": "script/script_0045",
+ "entries": [
+  {
+   "key": "script:0045:03B8",
+   "src": "9855a21f7cc0",
+   "t": "<FACE:14>Still, that Sekiran<NL>lady sure was pretty"
+  },
+  {
+   "key": "script:0045:03D7",
+   "src": "078eef830310",
+   "t": "<FACE:0A>You think so!?<NL><WAIT>Seemed like all flash<NL>to me<WAIT><FACE:19>That's right<NL>And dumb-looking too<WAIT>I prefer girls a bit<NL>calmer than that"
+  },
+  {
+   "key": "script:0045:042E",
+   "src": "465509978957",
+   "t": "<FACE:0A>Nobody asked about<NL>your taste<NL>"
+  },
+  {
+   "key": "script:0045:0445",
+   "src": "08619c53bb8d",
+   "t": "<FACE:0A>So how about <PLAYER>?<NL>She was all over you…"
+  },
+  {
+   "key": "script:0045:0462",
+   "src": "b971fb689a7f",
+   "t": "<FACE:03>Huh!?<WAIT><FACE:06>Yeah! Weren't you<NL>drooling over her?"
+  },
+  {
+   "key": "script:0045:0480",
+   "src": "97b225f5471c",
+   "t": "<FACE:03>N-nothing like that"
+  },
+  {
+   "key": "script:0045:048D",
+   "src": "37ae7d5c9def",
+   "t": "<FACE:70>We got this Block back<NL>at last! Get it done!"
+  },
+  {
+   "key": "script:0045:04AF",
+   "src": "029e8302e47b",
+   "t": "<FACE:81>B-but Boss Sekiran…<NL><WAIT>How do WE escape-robo…"
+  },
+  {
+   "key": "script:0045:04D5",
+   "src": "ca962ab1ffce",
+   "t": "<FACE:70>It'll be fine<NL><WAIT>If it comes to it, my<NL>Medabot will save you"
+  },
+  {
+   "key": "script:0045:04FE",
+   "src": "88d80b1246a4",
+   "t": "<FACE:06>There they go again<NL><WAIT>Give it a rest already"
+  },
+  {
+   "key": "script:0045:0517",
+   "src": "4cc2a513b454",
+   "t": "<FACE:7D>T-they're here-robo<NL><WAIT>Those guys again-robo"
+  },
+  {
+   "key": "script:0045:052C",
+   "src": "06490445c7f8",
+   "t": "<FACE:71>This is what happens<NL>when you're so slow!"
+  },
+  {
+   "key": "script:0045:054E",
+   "src": "84257cf3546c",
+   "t": "<FACE:0A>See? Told you. All<NL>flash and hysterics"
+  },
+  {
+   "key": "script:0045:0567",
+   "src": "73570af99da3",
+   "t": "<FACE:18>Y-yeah, maybe you're<NL>right"
+  },
+  {
+   "key": "script:0045:0575",
+   "src": "8509109f8e75",
+   "t": "<FACE:19>That's right<NL>No doubt about it"
+  },
+  {
+   "key": "script:0045:0589",
+   "src": "7dd6916fec7d",
+   "t": "<FACE:05>And doing the same<NL>thing all over again<WAIT><FACE:09>They never learn, huh…"
+  },
+  {
+   "key": "script:0045:05A5",
+   "src": "728c73b7f48e",
+   "t": "<FACE:71>Silence!<NL><WAIT>Saying whatever you<NL>like! I'll teach you!"
+  },
+  {
+   "key": "script:0045:05D1",
+   "src": "00614284d43d",
+   "t": "<FACE:05>Well? Learned your<NL>lesson now?"
+  },
+  {
+   "key": "script:0045:05E0",
+   "src": "3c6cac053c98",
+   "t": "<FACE:70>Hmph! Next time won't<NL>go like this!"
+  },
+  {
+   "key": "script:0045:05F5",
+   "src": "324036d8a1db",
+   "t": "<FACE:72>Let's meet again, hmm?<NL>My cute <DELAY:001E>b·<DELAY:000F>o·<DELAY:000F>y!"
+  },
+  {
+   "key": "script:0045:0618",
+   "src": "016010b9a76b",
+   "t": "<FACE:06>Why are you blushing!?"
+  },
+  {
+   "key": "script:0045:0628",
+   "src": "1ac31d73e476",
+   "t": "<FACE:03>Guh…"
+  }
+ ]
+}

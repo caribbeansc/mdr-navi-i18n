@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0130",
+ "entries": [
+  {
+   "key": "script:0130:026B",
+   "src": "b6fd3eb215cd",
+   "t": "<FACE:00>Huh? What are you<NL>doing way out here?"
+  },
+  {
+   "key": "script:0130:0282",
+   "src": "3147272d9bb9",
+   "t": "<FACE:4D>Ah! <PLAYER>!<NL>You've got guts!"
+  },
+  {
+   "key": "script:0130:029A",
+   "src": "7e56f4fe08b4",
+   "t": "<FACE:4C>Don't get cocky over<NL>a couple of wins!"
+  },
+  {
+   "key": "script:0130:02BD",
+   "src": "7b1739b0b8cf",
+   "t": "<FACE:4E>Let's settle who's on<NL>top, us or you!"
+  },
+  {
+   "key": "script:0130:02E1",
+   "src": "8dcb1a4e8194",
+   "t": "<FACE:4D><PLAYER>!<NL>You've got guts!"
+  },
+  {
+   "key": "script:0130:02F5",
+   "src": "12b11db9dc69",
+   "t": "<FACE:4C>This time we lose!"
+  },
+  {
+   "key": "script:0130:0309",
+   "src": "e7f101c27cbf",
+   "t": "<FACE:4E>Take us on again!<WAIT><FACE:02>Anytime"
+  },
+  {
+   "key": "script:0130:0324",
+   "src": "59dc71daedfe",
+   "t": "<FACE:03>Whoa… it's huge…"
+  },
+  {
+   "key": "script:0130:0350",
+   "src": "b7a51b3331b5",
+   "t": "<FACE:00>Huh?<NL><WAIT>Something flashed in<NL>the dark!"
+  },
+  {
+   "key": "script:0130:036B",
+   "src": "a8a1cb26e5b9",
+   "t": "<FACE:00>There's a scrap of<NL>paper here!"
+  },
+  {
+   "key": "script:0130:037B",
+   "src": "cb433825303f",
+   "t": "<FACE:57>First password: «A»"
+  },
+  {
+   "key": "script:0130:038C",
+   "src": "a15bdf95ab0a",
+   "t": "<FACE:04>…?<NL>What's this?"
+  }
+ ]
+}

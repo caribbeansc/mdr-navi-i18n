@@ -1,0 +1,20 @@
+{
+ "part": "script/script_0163",
+ "entries": [
+  {
+   "key": "script:0163:00F5",
+   "src": "ae15464b4832",
+   "t": "<FACE:50>You are strong, yes!<WAIT><FACE:52><PLAYER> is strong!"
+  },
+  {
+   "key": "script:0163:0128",
+   "src": "68c15cda46db",
+   "t": "<FACE:4F>The view from here is<NL>wonderful, yes!<WAIT><FACE:51>Perfect for hiking!<NL><WAIT>Feeling this refreshed<NL>I want to Robattle!<WAIT><FACE:04>R… really?"
+  },
+  {
+   "key": "script:0163:0177",
+   "src": "d7dc741d9e29",
+   "t": "<FACE:52>Oh, wonderful!<NL><WAIT>Robattling has such<NL>depth, yes!<WAIT><FACE:00>You were all pretty<NL>strong yourselves<WAIT><FACE:4F>That was a good match!<NL>Face me again, yes?"
+  }
+ ]
+}

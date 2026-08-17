@@ -1,0 +1,110 @@
+{
+ "part": "script/script_0019",
+ "entries": [
+  {
+   "key": "script:0019:02B1",
+   "src": "57bf7ca1635f",
+   "t": "<FACE:7D>Phew, so slow-robo<NL><WAIT>What do I do if<NL><PLAYER> shows up now…"
+  },
+  {
+   "key": "script:0019:02D8",
+   "src": "0ae4109ebca0",
+   "t": "<FACE:00>Huh? There's only one?<NL>"
+  },
+  {
+   "key": "script:0019:02EA",
+   "src": "95ee5f7104e0",
+   "t": "<FACE:80>H-he's here-robo!"
+  },
+  {
+   "key": "script:0019:02F4",
+   "src": "e2a6aa88988f",
+   "t": "<FACE:81>(W-what do I do-robo…)<NL><WAIT>(I can't hold this<NL> Block alone-robo)<WAIT>(Why'd they all go do<NL> laundry right now!?)"
+  },
+  {
+   "key": "script:0019:033D",
+   "src": "df2231dca4b7",
+   "t": "<FACE:05>What are you doing!<NL><WAIT>Robattle me! If you<NL>lose, you get out!"
+  },
+  {
+   "key": "script:0019:0366",
+   "src": "b940e02e8ca9",
+   "t": "<FACE:80>H-hold on a sec-robo!"
+  },
+  {
+   "key": "script:0019:0376",
+   "src": "c31161439126",
+   "t": "<FACE:81>(What do I do-robo…<NL> Think, think-robo)"
+  },
+  {
+   "key": "script:0019:038B",
+   "src": "c3be3c72df3b",
+   "t": "<FACE:00>Come on, it's fine<NL><WAIT>If they give the Block<NL>back, no harm done…"
+  },
+  {
+   "key": "script:0019:03B1",
+   "src": "3ac0577bd62e",
+   "t": "<FACE:06>What are you saying!<NL><WAIT>We should just flatten<NL>these guys, period!"
+  },
+  {
+   "key": "script:0019:03DA",
+   "src": "cc9d82e84e62",
+   "t": "<FACE:80>W-wait-robo"
+  },
+  {
+   "key": "script:0019:03E4",
+   "src": "374e851b56bd",
+   "t": "<FACE:7D>I'll talk it over with<NL>the others-robo<WAIT>They'll be back soon,<NL>so wait for them-robo"
+  },
+  {
+   "key": "script:0019:041B",
+   "src": "a49cb9edc8b1",
+   "t": "<FACE:0A>Fine by me, let's wait"
+  },
+  {
+   "key": "script:0019:042F",
+   "src": "5952e8524d80",
+   "t": "<FACE:09>Ugh, you too, Fubuki…<WAIT><FACE:7D>We're back-robo…"
+  },
+  {
+   "key": "script:0019:0447",
+   "src": "b88d0b78d934",
+   "t": "<FACE:7D>I'm a bit tired-robo…"
+  },
+  {
+   "key": "script:0019:0457",
+   "src": "e7a0b4deb2b5",
+   "t": "<FACE:7D>H-hey, you lot<NL>what's going on-robo"
+  },
+  {
+   "key": "script:0019:0471",
+   "src": "fca025039ae7",
+   "t": "<FACE:7E>You're late-robo!<NL><WAIT>They almost took this<NL>Block from us-robo!"
+  },
+  {
+   "key": "script:0019:0497",
+   "src": "8fa18153a58d",
+   "t": "<FACE:0A>All right, let's start"
+  },
+  {
+   "key": "script:0019:04A8",
+   "src": "407c0a97b5b3",
+   "t": "<FACE:81>We lost anyway-robo…<NL><WAIT>If we'd get wiped out<NL><WAIT>together, we should've<NL>taken way longer…"
+  },
+  {
+   "key": "script:0019:04E5",
+   "src": "170e0e12b3d5",
+   "t": "<FACE:7E>What is it-robo!?"
+  },
+  {
+   "key": "script:0019:04ED",
+   "src": "edb51335e965",
+   "t": "<FACE:7E>Wait-robo!"
+  },
+  {
+   "key": "script:0019:04F6",
+   "src": "9ae31c5ceb13",
+   "t": "<FACE:04>Rough life for the<NL>Sperobo Gang…"
+  }
+ ]
+}

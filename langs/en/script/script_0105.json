@@ -1,0 +1,15 @@
+{
+ "part": "script/script_0105",
+ "entries": [
+  {
+   "key": "script:0105:00D0",
+   "src": "6e154a385798",
+   "t": "<FACE:00>Hmm, doesn't look like<NL>it'll open…"
+  },
+  {
+   "key": "script:0105:00E3",
+   "src": "ac145c0e8b37",
+   "t": "<FACE:00>Better not dig through<NL>the trash"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "part": "script/script_0166",
+ "entries": [
+  {
+   "key": "script:0166:017A",
+   "src": "6ac58f430097",
+   "t": "<FACE:3E>Now, just watch this!!"
+  },
+  {
+   "key": "script:0166:0189",
+   "src": "47fa23015c10",
+   "t": "<FACE:3E>Fwoooooo…"
+  },
+  {
+   "key": "script:0166:0193",
+   "src": "bf8b2d81110f",
+   "t": "<FACE:3E>This takes some guts"
+  },
+  {
+   "key": "script:0166:01A3",
+   "src": "0f40f1ba5916",
+   "t": "<FACE:3B>Heeeere goes!"
+  },
+  {
+   "key": "script:0166:01AD",
+   "src": "5e79ba996202",
+   "t": "<FACE:3B>Fwoooooo…"
+  },
+  {
+   "key": "script:0166:01B7",
+   "src": "6f8d2cf46040",
+   "t": "<FACE:3D>Oh! It's <PLAYER>!<NL><WAIT>We got a bit stronger!<NL>Let's Robattle!"
+  },
+  {
+   "key": "script:0166:01E7",
+   "src": "01c8d8759d21",
+   "t": "<FACE:3D>Dang it!<NL>We're not there yet…"
+  },
+  {
+   "key": "script:0166:01FE",
+   "src": "ed47b03aaa22",
+   "t": "<FACE:3D>We're gonna get way,<NL>way stronger!"
+  },
+  {
+   "key": "script:0166:021A",
+   "src": "ef852290600d",
+   "t": "<FACE:02>Haaard to starboard!<NL><WAIT>What the…"
+  },
+  {
+   "key": "script:0166:0230",
+   "src": "9127d86046d4",
+   "t": "<FACE:03>Whoaaa!"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "part": "script/script_0087",
+ "entries": [
+  {
+   "key": "script:0087:06FE",
+   "src": "1c9fc3664e36",
+   "t": "<FACE:71>Ugh, it's freeeezing!<NL><WAIT>Why me, the Summer<NL>Tropical Queen?!"
+  },
+  {
+   "key": "script:0087:0736",
+   "src": "c126662c73fa",
+   "t": "<FACE:7D>Can't be helped-robo<NL>Even if it's frozen<WAIT><FACE:7D>It's a river, so Boss<NL>Sekiran's job-robo…"
+  },
+  {
+   "key": "script:0087:0771",
+   "src": "c9cf57035ffe",
+   "t": "<FACE:71>That's it! I'm going<NL>home!"
+  },
+  {
+   "key": "script:0087:0782",
+   "src": "9e555e7b1a1e",
+   "t": "<FACE:81>Ah! Boss Sekiraaan!<NL>Come baaack-robooo!!!"
+  },
+  {
+   "key": "script:0087:07A5",
+   "src": "25bab414b4cd",
+   "t": "<FACE:80>No good-robo!!<NL><WAIT>Boss Sekiran ran off,<NL>the ice is cracking!"
+  },
+  {
+   "key": "script:0087:07D6",
+   "src": "4f21a1591dda",
+   "t": "<FACE:71>Out of my way! Move!<WAIT><FACE:03>Ah!"
+  },
+  {
+   "key": "script:0087:07E9",
+   "src": "7049be71cce3",
+   "t": "<FACE:05>What was that?"
+  },
+  {
+   "key": "script:0087:07F4",
+   "src": "a5a2a0564423",
+   "t": "<FACE:03>Never mind that, look!<NL><WAIT><FACE:00>The control device is<NL>across the ice!"
+  },
+  {
+   "key": "script:0087:0823",
+   "src": "c2f4f80c46df",
+   "t": "<FACE:80>No-robo!<NL><WAIT>Come over and the ice<NL>breaks, no way back!"
+  },
+  {
+   "key": "script:0087:084C",
+   "src": "7a406a4d3d36",
+   "t": "<FACE:04>What do we do…<NL>"
+  },
+  {
+   "key": "script:0087:0857",
+   "src": "286f4a94225e",
+   "t": "<FACE:04>We can't secure this<NL>Block from this side…"
+  },
+  {
+   "key": "script:0087:087E",
+   "src": "662e75454dbf",
+   "t": "<FACE:09>True, if we all go<NL>the ice might break…<WAIT><FACE:07>One alone would be<NL>fine, right, <PLAYER>?"
+  },
+  {
+   "key": "script:0087:08C0",
+   "src": "90d1ed5b49a9",
+   "t": "<FACE:04>Not this again!<NL><WAIT>What if something<NL>happens to him?!"
+  },
+  {
+   "key": "script:0087:08E1",
+   "src": "fb5ce0f2a272",
+   "t": "<FACE:07>It'll be fine!<WAIT><FACE:05>The view's clear, so<NL>if a Robattle starts<WAIT>I can join in from<NL>right here!"
+  },
+  {
+   "key": "script:0087:0916",
+   "src": "4e575f592b86",
+   "t": "<FACE:04>That's not the point…"
+  },
+  {
+   "key": "script:0087:0929",
+   "src": "bfbcaa668a79",
+   "t": "<FACE:07>Just go, go on!"
+  },
+  {
+   "key": "script:0087:0A31",
+   "src": "177fb5c68bd7",
+   "t": "<FACE:06>That's the wrong way!<NL>Hurry up and go!"
+  },
+  {
+   "key": "script:0087:0A50",
+   "src": "c05f6310f495",
+   "t": "<FACE:05>Good luck, <PLAYER>!"
+  },
+  {
+   "key": "script:0087:0A5A",
+   "src": "2202a5ff8907",
+   "t": "<FACE:0A>Moving around so much<NL>can't be a good idea"
+  },
+  {
+   "key": "script:0087:0A75",
+   "src": "fb9e36ed8dd8",
+   "t": "<FACE:19>That was Sekiran just<NL>now, wasn't it"
+  },
+  {
+   "key": "script:0087:0A88",
+   "src": "0a9ee730a77d",
+   "t": "<FACE:14>Fall in and you won't<NL>be coming back"
+  }
+ ]
+}

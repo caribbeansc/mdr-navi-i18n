@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0163",
+ "entries": [
+  {
+   "key": "script:0163:010B",
+   "src": "ec06aae7ce55",
+   "t": "<FACE:51>¡Qué lindo recuerdo<NL>de Japón!"
+  },
+  {
+   "key": "script:0163:011D",
+   "src": "2787ed6540b5",
+   "t": "<FACE:4F>¡<PLAYER>!<NL>¡Robobatallemos!"
+  },
+  {
+   "key": "script:0163:012B",
+   "src": "e634d01639c4",
+   "t": "<FACE:4F>¡No olvidaré lo que<NL>pasó aquí!"
+  },
+  {
+   "key": "script:0163:013F",
+   "src": "437b72c8884e",
+   "t": "<FACE:51>¡El mejor recuerdo!"
+  },
+  {
+   "key": "script:0163:014F",
+   "src": "ae15464b4832",
+   "t": "<FACE:50>¡Sí que eres fuerte!<WAIT><FACE:52>¡<PLAYER> es fuerte!"
+  }
+ ]
+}

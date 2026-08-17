@@ -1,0 +1,140 @@
+{
+ "part": "script/script_0056",
+ "entries": [
+  {
+   "key": "script:0056:07D2",
+   "src": "02d8c178e503",
+   "t": "<FACE:05>All right, shall we<NL>search this Block?"
+  },
+  {
+   "key": "script:0056:07F3",
+   "src": "c6d5698a38c9",
+   "t": "<FACE:00>No! One look and this<NL>place looks weird!"
+  },
+  {
+   "key": "script:0056:080F",
+   "src": "e042ac8b3d33",
+   "t": "<FACE:04>We're in a hurry, so<NL>let's start here…"
+  },
+  {
+   "key": "script:0056:0824",
+   "src": "6721fa1aad06",
+   "t": "<FACE:05><PLAYER>, check here<NL>I'll go over there"
+  },
+  {
+   "key": "script:0056:0846",
+   "src": "efa5df3b0b6d",
+   "t": "<FACE:0F>I'll take that side…"
+  },
+  {
+   "key": "script:0056:0857",
+   "src": "d13b6871b886",
+   "t": "<FACE:0A>I'm going this way…"
+  },
+  {
+   "key": "script:0056:0862",
+   "src": "ed6f5566f588",
+   "t": "<FACE:04>What's with everyone?"
+  },
+  {
+   "key": "script:0056:0870",
+   "src": "2f4fd1006f7a",
+   "t": "<FACE:05>Huh, a bit old, but<NL>that's a pretty good<WAIT>video collection"
+  },
+  {
+   "key": "script:0056:0898",
+   "src": "09b7ada775b5",
+   "t": "<FACE:05>…Ah, <PLAYER>…<NL>What you should check<WAIT>is inside that hanging<NL>curtain!"
+  },
+  {
+   "key": "script:0056:08BD",
+   "src": "4214c359ec83",
+   "t": "<FACE:0F>Knowing what the enemy<NL>eats is a big help<WAIT>when planning tactics…"
+  },
+  {
+   "key": "script:0056:08ED",
+   "src": "6c22a4c4205c",
+   "t": "<FACE:04>Really, now…"
+  },
+  {
+   "key": "script:0056:0922",
+   "src": "307bdf777cb2",
+   "t": "<FACE:73>Your fortune today is…<NL>Bad luck!"
+  },
+  {
+   "key": "script:0056:093C",
+   "src": "2c01e3343b3c",
+   "t": "<FACE:05>Looks like they're<NL>done. Shall we start?"
+  },
+  {
+   "key": "script:0056:0956",
+   "src": "f5f00e69c341",
+   "t": "<FACE:0C>That's not really my<NL>thing. Sorry, okay?<WAIT><FACE:0F>Sorry, <PLAYER>…<NL>Not in the mood…"
+  },
+  {
+   "key": "script:0056:0983",
+   "src": "363e7a636945",
+   "t": "<FACE:73>…You really are the<NL>ones of destiny…<NL>"
+  },
+  {
+   "key": "script:0056:099B",
+   "src": "4f9c3df4d8dd",
+   "t": "<FACE:73>…This win… is the door<NL>to a great defeat…<NL>"
+  },
+  {
+   "key": "script:0056:09B5",
+   "src": "5f26b06932d2",
+   "t": "<FACE:73>…I knew it… today's<NL>fortune is… bad luck!"
+  },
+  {
+   "key": "script:0056:09CF",
+   "src": "d200b5041072",
+   "t": "<FACE:08>Ugh, no, no, no!<WAIT><FACE:06>Now I've heard that<NL>little \"ting\" sound!!"
+  },
+  {
+   "key": "script:0056:09F7",
+   "src": "f5b9320014f9",
+   "t": "<FACE:0A>Taking it easy once in<NL>a while isn't bad…"
+  },
+  {
+   "key": "script:0056:0A0F",
+   "src": "ea1fbc835fbe",
+   "t": "<FACE:15>Don't talk to me right<NL>now…"
+  },
+  {
+   "key": "script:0056:0A23",
+   "src": "6fe13b07d86e",
+   "t": "<FACE:19>Mmm…"
+  },
+  {
+   "key": "script:0056:0A41",
+   "src": "44b715a5bf6b",
+   "t": "<FACE:00>We'd better push on<NL>ahead, fast"
+  },
+  {
+   "key": "script:0056:0A53",
+   "src": "eb8f561100e9",
+   "t": "<FACE:00>Phew…"
+  },
+  {
+   "key": "script:0056:0A5A",
+   "src": "79ccd1bc5d7a",
+   "t": "<FACE:02>All right, let's go"
+  },
+  {
+   "key": "script:0056:0A65",
+   "src": "efebd32c1d3a",
+   "t": "<FACE:02>Scrub, scrub, scrub…"
+  },
+  {
+   "key": "script:0056:0A73",
+   "src": "3eca3444a96c",
+   "t": "<FACE:00>Looks like a shelf of<NL>classic videos"
+  },
+  {
+   "key": "script:0056:0A8B",
+   "src": "d6e469854114",
+   "t": "<FACE:00>A kitchen, huh…<NL><WAIT>Kind of grubby, huh?"
+  }
+ ]
+}

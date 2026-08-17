@@ -1,0 +1,75 @@
+{
+ "part": "script/script_0145",
+ "entries": [
+  {
+   "key": "script:0145:0245",
+   "src": "3ef3e6aa646f",
+   "t": "<FACE:77>Cough, cough…"
+  },
+  {
+   "key": "script:0145:024E",
+   "src": "04b48f008e29",
+   "t": "<FACE:76>Guh!"
+  },
+  {
+   "key": "script:0145:0255",
+   "src": "b1355e41ae10",
+   "t": "<FACE:75>…Hmph, dropping your<NL>guard? Still green…<WAIT>Be grateful… guh… for<NL>Smog's mercy… cough…"
+  },
+  {
+   "key": "script:0145:02A1",
+   "src": "c6a11982445e",
+   "t": "<FACE:75>…cough For the sake of<NL>conquering space…<WAIT>While I can… guh…<NL>I must rest up… cough"
+  },
+  {
+   "key": "script:0145:02E2",
+   "src": "763d62b91255",
+   "t": "<FACE:77>Guh-hoh-hoh…<NL>…ahem… guh…<WAIT><FACE:75><PLAYER>, is it…<NL>"
+  },
+  {
+   "key": "script:0145:0303",
+   "src": "4c5d574cec63",
+   "t": "<FACE:75>We joined hands once,<NL>but we're foes… cough<WAIT>Don't hold it… against<NL>me…"
+  },
+  {
+   "key": "script:0145:035C",
+   "src": "1dfaa9aa2f75",
+   "t": "<FACE:00>What are you doing<NL>here, Smog…?<WAIT><FACE:75>Mm… oh, nothing…<NL>Just some seedlings…"
+  },
+  {
+   "key": "script:0145:0390",
+   "src": "324da26b8cff",
+   "t": "<FACE:04>Seedlings?"
+  },
+  {
+   "key": "script:0145:0396",
+   "src": "949788176113",
+   "t": "<FACE:75>That's right…<NL><WAIT>The plants here don't<NL>grow at the hideout<WAIT>So I thought I'd help<NL>myself to a few…<WAIT><FACE:00>Hmmm…"
+  },
+  {
+   "key": "script:0145:03DD",
+   "src": "1130193823a3",
+   "t": "<FACE:04>(Back just for that?<NL> Health is hard work)"
+  },
+  {
+   "key": "script:0145:0403",
+   "src": "aeb5aebd3a4e",
+   "t": "<FACE:77>Cough! Cough!<NL><WAIT>What am I… guh! doing<NL>chatting so nicely…<WAIT>Cough, cough…"
+  },
+  {
+   "key": "script:0145:043D",
+   "src": "4e22d36311da",
+   "t": "<FACE:03>Wh-what's wrong?"
+  },
+  {
+   "key": "script:0145:0448",
+   "src": "abc11a1dd6d9",
+   "t": "<FACE:77>Cough, cough…<NL><WAIT>C-curse you…<NL>So it's come to… guh<WAIT>For conquering space…<NL>cough<WAIT>my hideout's garden…<NL>guh<WAIT>to m-make it thrive…<NL>guh!<WAIT>to build up strength…<NL>guh<WAIT>I can't take my time<NL>with such things…<WAIT>Here and now… cough…<NL>I'll help myself…"
+  },
+  {
+   "key": "script:0145:04F5",
+   "src": "32020b572072",
+   "t": "<FACE:75>Phew…<NL><WAIT>I'll come back for<NL>another feast…"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "part": "script/script_0143",
+ "entries": [
+  {
+   "key": "script:0143:0161",
+   "src": "8a255d2e7f33",
+   "t": "<FACE:2E>Oh, it's just you,<NL><PLAYER>…<WAIT>I thought Shinkirou<NL>had found me…"
+  },
+  {
+   "key": "script:0143:0188",
+   "src": "9ab233d9d095",
+   "t": "<FACE:2E>Aw… now I've gone and<NL>been spotted"
+  },
+  {
+   "key": "script:0143:019F",
+   "src": "def97ad2e92e",
+   "t": "<FACE:2E><PLAYER>!<NL>This is your fault!"
+  },
+  {
+   "key": "script:0143:01AF",
+   "src": "7ac8d6a40f38",
+   "t": "<FACE:2E>Not bad, <PLAYER>"
+  },
+  {
+   "key": "script:0143:01B7",
+   "src": "f8d6e5d025bf",
+   "t": "<FACE:30>……"
+  },
+  {
+   "key": "script:0143:01BE",
+   "src": "6313a34e6428",
+   "t": "<FACE:2E>See, Shinkirou? Take a<NL>page from <PLAYER><WAIT>and be more assertive,<NL>would you!"
+  },
+  {
+   "key": "script:0143:01EB",
+   "src": "8e94951f6d12",
+   "t": "<FACE:2E>(Sigh…)"
+  },
+  {
+   "key": "script:0143:01F5",
+   "src": "3a76c38ecd74",
+   "t": "<FACE:2E>(If only he'd pull<NL>himself together…)"
+  },
+  {
+   "key": "script:0143:022B",
+   "src": "ffb80f3fe07e",
+   "t": "<FACE:30>…Yeah… you're right…"
+  },
+  {
+   "key": "script:0143:023F",
+   "src": "f517f12b187a",
+   "t": "<FACE:30>Hyouga… have you seen<NL>her…?<WAIT><FACE:04>Huh? Hmm, I couldn't<NL>say…<WAIT><FACE:30>Mmm…"
+  }
+ ]
+}

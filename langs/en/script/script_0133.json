@@ -1,0 +1,50 @@
+{
+ "part": "script/script_0133",
+ "entries": [
+  {
+   "key": "script:0133:0174",
+   "src": "a1a750388968",
+   "t": "<FACE:39><PLAYER>!<NL>Here to train too?"
+  },
+  {
+   "key": "script:0133:0191",
+   "src": "46b896fa3455",
+   "t": "<FACE:3A>Training here is<NL>pretty nice too"
+  },
+  {
+   "key": "script:0133:01A6",
+   "src": "4b0b39a9f618",
+   "t": "<FACE:37>Oh, <PLAYER><NL>what brings you here…<WAIT><FACE:00>Oh, no reason…"
+  },
+  {
+   "key": "script:0133:01CF",
+   "src": "1d23b7ba48cf",
+   "t": "<FACE:37>I see, so you'll be<NL>our training partner?<WAIT>Thank you. I had no<NL>idea you cared…"
+  },
+  {
+   "key": "script:0133:021E",
+   "src": "af9458d178fb",
+   "t": "<FACE:37>Here we go, then!"
+  },
+  {
+   "key": "script:0133:022B",
+   "src": "4d74307f5edf",
+   "t": "<FACE:37>You really are the<NL>class leader"
+  },
+  {
+   "key": "script:0133:023E",
+   "src": "5d8c972288cd",
+   "t": "<FACE:37>We're getting back to<NL>training too!"
+  },
+  {
+   "key": "script:0133:0254",
+   "src": "084f401dcedc",
+   "t": "<FACE:37>Come practice with us<NL>again sometime"
+  },
+  {
+   "key": "script:0133:0268",
+   "src": "ab9bf49d1f31",
+   "t": "<FACE:00>Mmm… this feels nice…"
+  }
+ ]
+}

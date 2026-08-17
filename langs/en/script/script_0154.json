@@ -1,0 +1,105 @@
+{
+ "part": "script/script_0154",
+ "entries": [
+  {
+   "key": "script:0154:02C8",
+   "src": "4a07d1df5708",
+   "t": "<FACE:95>Ah! There he is!<NL>That's the guy!"
+  },
+  {
+   "key": "script:0154:02DB",
+   "src": "524e3eaec52a",
+   "t": "<FACE:95>Hey, you there!<NL><WAIT>You're gonna pay for<NL>what happened before!"
+  },
+  {
+   "key": "script:0154:0302",
+   "src": "41ee7085be3e",
+   "t": "<FACE:91>What is it, Kikuhime!<NL><WAIT>Did you drag us in as<NL>Robattle help again!"
+  },
+  {
+   "key": "script:0154:032C",
+   "src": "388f5d1dbd6d",
+   "t": "<FACE:92>Well, I figured it'd<NL>be like this anyway…<WAIT><FACE:91>Quit using people like<NL>this…"
+  },
+  {
+   "key": "script:0154:035F",
+   "src": "55f2a1bde6e9",
+   "t": "<FACE:00>Are you the famous<NL>Medafighter Ikki?<WAIT><FACE:91>Huh! Famous!?<NL>"
+  },
+  {
+   "key": "script:0154:038D",
+   "src": "23574e5b7aea",
+   "t": "<FACE:91>Aw, no… come on…<NL>Famous, me…?<WAIT><FACE:00>I wanted to ask you<NL>something… You're…"
+  },
+  {
+   "key": "script:0154:03C0",
+   "src": "24efd6fccf91",
+   "t": "<FACE:95>Hey! Enough chatting!<NL>Off to the Robattle!<WAIT><FACE:91>Uh… but this guy<NL>wants to talk to me…"
+  },
+  {
+   "key": "script:0154:0409",
+   "src": "77006507ddb1",
+   "t": "<FACE:95>What a pain!<NL>I put Ikki on my team<WAIT>figuring the Robattles<NL>here would work out…<WAIT>So much for that plan!<NL>"
+  },
+  {
+   "key": "script:0154:0448",
+   "src": "3ee006c88821",
+   "t": "<FACE:95>…But you, on the other<NL>hand…<WAIT>You've got real skill!<NL><WAIT>I could team up with<NL>you now and then"
+  },
+  {
+   "key": "script:0154:048C",
+   "src": "457007bf8818",
+   "t": "<FACE:03>Huh! No, never mind<NL>that… It's Ikki I…"
+  },
+  {
+   "key": "script:0154:04AF",
+   "src": "200e000fd3d4",
+   "t": "<FACE:95>No way, not that guy!<NL>He's totally useless!"
+  },
+  {
+   "key": "script:0154:04C9",
+   "src": "181a34e35a27",
+   "t": "<FACE:95>Forget him and call<NL>us anytime, okay!<WAIT>See ya!"
+  },
+  {
+   "key": "script:0154:04E9",
+   "src": "96afc0f795b7",
+   "t": "<FACE:96>Ah! Wait a sec…<NL>Boss laaady!?"
+  },
+  {
+   "key": "script:0154:04FF",
+   "src": "e3c6c14ef9ff",
+   "t": "<FACE:03>Ah!"
+  },
+  {
+   "key": "script:0154:0504",
+   "src": "aecd58001db9",
+   "t": "<FACE:00>Anyway, Ikki!<NL>You and this Shiden…<WAIT><FACE:91>…No way… losing that<NL>easily…"
+  },
+  {
+   "key": "script:0154:0543",
+   "src": "5bb46369ece1",
+   "t": "<FACE:03>It wasn't that easy!<NL>It was a close one…"
+  },
+  {
+   "key": "script:0154:0565",
+   "src": "b91eb77c076f",
+   "t": "<FACE:91>Spare me the pity!"
+  },
+  {
+   "key": "script:0154:0577",
+   "src": "f936e6378e6f",
+   "t": "<FACE:92>Ah! Wait, Ikkiii!?"
+  },
+  {
+   "key": "script:0154:0588",
+   "src": "e6546b330a24",
+   "t": "<FACE:04>I only came to deliver<NL>a package…<WAIT>…against little kids…<NL>Me… what am I doing…"
+  },
+  {
+   "key": "script:0154:05C4",
+   "src": "8df8f3ecbb8e",
+   "t": "<FACE:95>Kikuhime joined the<NL>team!<NL><WAIT><FACE:96>Iwanoi joined the<NL>team!<NL><WAIT><FACE:97>Kagamiyama joined the<NL>team!"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "part": "script/script_0081",
+ "entries": [
+  {
+   "key": "script:0081:0251",
+   "src": "a84957079b08",
+   "t": "<FACE:7F>We managed to take<NL>this Block back-robo!"
+  },
+  {
+   "key": "script:0081:0273",
+   "src": "84bfdede7bf4",
+   "t": "<FACE:7F>What a relief-robo!"
+  },
+  {
+   "key": "script:0081:027D",
+   "src": "4bec5a1615cc",
+   "t": "<FACE:7F>It sure is comfy-robo!<NL>We'll defend it-robo!"
+  },
+  {
+   "key": "script:0081:02C8",
+   "src": "4b03eeeb5786",
+   "t": "<FACE:7E>We're not handing this<NL>Block over-roboo!"
+  },
+  {
+   "key": "script:0081:02E3",
+   "src": "bc0b88d06ce3",
+   "t": "<FACE:7E>We'll retake it-robo!<NL>Just you wait-robo!!"
+  },
+  {
+   "key": "script:0081:0301",
+   "src": "3c1fd15f34a1",
+   "t": "<FACE:04>Those gang guys…<NL>why so fired up…?"
+  }
+ ]
+}

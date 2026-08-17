@@ -1,0 +1,50 @@
+{
+ "part": "script/script_0018",
+ "entries": [
+  {
+   "key": "script:0018:0219",
+   "src": "4d80a7fffe92",
+   "t": "<FACE:7D>Ready yet-robo?<NL><WAIT><FACE:7D>Not yet-robo!<NL>"
+  },
+  {
+   "key": "script:0018:0230",
+   "src": "c909e9837e6a",
+   "t": "<FACE:05>There they go again<NL>"
+  },
+  {
+   "key": "script:0018:023B",
+   "src": "9fde083d09a2",
+   "t": "<FACE:05>Let's mess with them<NL>a little"
+  },
+  {
+   "key": "script:0018:0251",
+   "src": "b4ec09d93a6d",
+   "t": "<FACE:7D>Ready yet-robo?<NL><WAIT><FACE:05>Not yet-robo!<NL><WAIT><FACE:7D>Ready yet-robo?<NL><WAIT><FACE:05>Not yet-robo!<NL>"
+  },
+  {
+   "key": "script:0018:027F",
+   "src": "a7faeed71788",
+   "t": "<FACE:7D>…<NL>"
+  },
+  {
+   "key": "script:0018:0286",
+   "src": "153b2442010d",
+   "t": "<FACE:80>W-what-robo! What are<NL>you doing-robo!<WAIT><FACE:00>I won't do anything,<NL>if you just leave<WAIT><FACE:7D>We can't do that-robo<NL>Show us your training<WAIT><FACE:00>Training? You mean the<NL>guerrilla stuff?"
+  },
+  {
+   "key": "script:0018:02E1",
+   "src": "6fd298ef8195",
+   "t": "<FACE:7D>That's not it-robo!<NL>Uhh, umm…<DELAY:001E><WAIT>Secret training-robo!"
+  },
+  {
+   "key": "script:0018:0301",
+   "src": "ff832788d20a",
+   "t": "<FACE:81>Th-this is odd-robo…<NL>Training did nothing"
+  },
+  {
+   "key": "script:0018:0324",
+   "src": "f729f243f045",
+   "t": "<FACE:00>That's hide-and-seek"
+  }
+ ]
+}

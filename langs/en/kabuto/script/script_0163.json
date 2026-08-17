@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0163",
+ "entries": [
+  {
+   "key": "script:0163:010B",
+   "src": "ec06aae7ce55",
+   "t": "<FACE:51>What a nice memory of<NL>Japan, yes!"
+  },
+  {
+   "key": "script:0163:011D",
+   "src": "2787ed6540b5",
+   "t": "<FACE:4F><PLAYER>!<NL>Let's Robattle, yes!"
+  },
+  {
+   "key": "script:0163:012B",
+   "src": "e634d01639c4",
+   "t": "<FACE:4F>I'll never forget what<NL>happened here, yes!"
+  },
+  {
+   "key": "script:0163:013F",
+   "src": "437b72c8884e",
+   "t": "<FACE:51>The best memory, yes!"
+  },
+  {
+   "key": "script:0163:014F",
+   "src": "ae15464b4832",
+   "t": "<FACE:50>You are strong, yes!<WAIT><FACE:52><PLAYER> is strong!"
+  }
+ ]
+}

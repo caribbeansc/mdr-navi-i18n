@@ -1,0 +1,135 @@
+{
+ "part": "script/script_0041",
+ "entries": [
+  {
+   "key": "script:0041:061B",
+   "src": "4ffcdbb0fcf7",
+   "t": "<FACE:01>Sekiran!<NL>That one's strong!<WAIT>Team up with us and<NL>fight it!"
+  },
+  {
+   "key": "script:0041:0647",
+   "src": "91778f85a3f1",
+   "t": "<FACE:70>What?! You lot?!<WAIT>Kids shouldn't stick<NL>their noses in!"
+  },
+  {
+   "key": "script:0041:066F",
+   "src": "c6b46380463e",
+   "t": "<FACE:70>Leave this to big sis!"
+  },
+  {
+   "key": "script:0041:0684",
+   "src": "b877236d110b",
+   "t": "<FACE:6F>It's no use, Sekiran!<NL>Their power's insane!"
+  },
+  {
+   "key": "script:0041:06AB",
+   "src": "32258d211c42",
+   "t": "<FACE:71>What's that, Nyuudou?!<WAIT>Now even you're taking<NL>orders from kids?!"
+  },
+  {
+   "key": "script:0041:06D8",
+   "src": "73eebb5506cb",
+   "t": "<FACE:70>I've got to show them<NL>real adult strength!"
+  },
+  {
+   "key": "script:0041:0701",
+   "src": "a84a1a30ecb8",
+   "t": "<FACE:01>Sekiran!"
+  },
+  {
+   "key": "script:0041:0709",
+   "src": "4177406e93b7",
+   "t": "<FACE:71>What are you doing?!<WAIT>Wait…<DELAY:0014> he's after…<DELAY:0014> me!<DELAY:0014><NL>You lot<DELAY:0014> go on…<DELAY:0014> ahead!<WAIT>You're in a hurry!"
+  },
+  {
+   "key": "script:0041:075B",
+   "src": "70e4c252d6ef",
+   "t": "<FACE:04>But if you do that…"
+  },
+  {
+   "key": "script:0041:0768",
+   "src": "f2f83e0fca3a",
+   "t": "<FACE:70>Kids should just do<NL>what grown-ups say…<WAIT>…at a time like this<DELAY:001E>…"
+  },
+  {
+   "key": "script:0041:079F",
+   "src": "d3fff28d4051",
+   "t": "<FACE:6D>Sekiran…<WAIT>That's not right…<WAIT><FACE:70>Nyuudou?<WAIT><FACE:6C>At a time like this<NL>age means nothing<WAIT>If we don't team up<NL>we all go down<WAIT>Yours truly was saved<NL>by kids too…"
+  },
+  {
+   "key": "script:0041:0817",
+   "src": "9f1a0a1c929e",
+   "t": "<FACE:6C>This time yours truly<NL>will save you!"
+  },
+  {
+   "key": "script:0041:082F",
+   "src": "bc0848d308a0",
+   "t": "<FACE:6C>Yours truly joins the<NL>team too!<WAIT><FACE:70>Nyuudou…"
+  },
+  {
+   "key": "script:0041:084F",
+   "src": "a126c4d4624b",
+   "t": "<FACE:02>With Nyuudou on board<NL>we're unstoppable!"
+  },
+  {
+   "key": "script:0041:0869",
+   "src": "782e1e944f8d",
+   "t": "<FACE:68>Intruders detected!"
+  },
+  {
+   "key": "script:0041:0878",
+   "src": "d45ef7f2b9d0",
+   "t": "<FACE:70>How embarrassing…<NL>saved by kids, me…"
+  },
+  {
+   "key": "script:0041:0894",
+   "src": "e29d24659851",
+   "t": "<FACE:05>Oh? Weren't you cooing<NL>\"sonny\" at <PLAYER>?"
+  },
+  {
+   "key": "script:0041:08B6",
+   "src": "db0fc572b8e2",
+   "t": "<FACE:71>Oh, shut up!<WAIT>A cute kid is one who<NL>does as she's told!<WAIT>Nosy brats like you<NL>aren't cute at all!!"
+  },
+  {
+   "key": "script:0041:090A",
+   "src": "03cb6c2e8b05",
+   "t": "<FACE:6C>Sekiran… yours truly…<WAIT>Before being a Sperobo<NL>Boss…"
+  },
+  {
+   "key": "script:0041:0930",
+   "src": "805ce928d85d",
+   "t": "<FACE:70>Well, Nyuudou…<NL>still tacky as ever…<WAIT>but back there…<NL>you looked cool…<WAIT>And I owe you one…<NL>"
+  },
+  {
+   "key": "script:0041:0978",
+   "src": "e3792e96034f",
+   "t": "<FACE:72>Guess big sis will<NL>lend a hand too!"
+  },
+  {
+   "key": "script:0041:0993",
+   "src": "ea050de275cf",
+   "t": "<FACE:05>So, Sekiran, which<NL>Block is next?<WAIT><FACE:70>Smog's, I'd say"
+  },
+  {
+   "key": "script:0041:09B2",
+   "src": "61ad0cfb8dd1",
+   "t": "<FACE:04>Then let's take the<NL>quiet way in…<NL>"
+  },
+  {
+   "key": "script:0041:09CE",
+   "src": "6f2f68bb9c4f",
+   "t": "<FACE:00>No time for detours<NL>right now"
+  },
+  {
+   "key": "script:0041:09E7",
+   "src": "d61f3fce3cad",
+   "t": "<FACE:6C>Nyuudou joined the<NL>team!<WAIT><FACE:70>Sekiran joined the<NL>team!"
+  },
+  {
+   "key": "script:0041:0A0D",
+   "src": "a676ce567813",
+   "t": "<FACE:00>Come to think of it,<NL>this spaceship…<WAIT>I only see Medabots…<NL>what's that about?"
+  }
+ ]
+}

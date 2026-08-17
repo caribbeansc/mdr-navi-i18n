@@ -1,0 +1,125 @@
+{
+ "part": "script/script_0064",
+ "entries": [
+  {
+   "key": "script:0064:08B1",
+   "src": "405633539afb",
+   "t": "<FACE:01>Raiun! Hang on till<NL>we get there…"
+  },
+  {
+   "key": "script:0064:08C6",
+   "src": "038c55d97f3f",
+   "t": "<FACE:79>Hah! The great Raiun…<NL>fussed over by kids…"
+  },
+  {
+   "key": "script:0064:08F1",
+   "src": "642cddc6d022",
+   "t": "<FACE:7B>Watch closely, boy!<NL>See a true warrior!!!"
+  },
+  {
+   "key": "script:0064:0918",
+   "src": "731ff086569d",
+   "t": "<FACE:70>(He'll show up anyway,<NL> whining excuses…)"
+  },
+  {
+   "key": "script:0064:0941",
+   "src": "c21c0c3e136b",
+   "t": "<FACE:7C>What's all this!?<NL>"
+  },
+  {
+   "key": "script:0064:094E",
+   "src": "4f80d3d70d3e",
+   "t": "<FACE:7C>So enemies and allies<NL>unite in this crisis…"
+  },
+  {
+   "key": "script:0064:0976",
+   "src": "612e1fa4f76c",
+   "t": "<FACE:79>I see…"
+  },
+  {
+   "key": "script:0064:097F",
+   "src": "6424e071d81f",
+   "t": "<FACE:70>Oh my!?"
+  },
+  {
+   "key": "script:0064:0986",
+   "src": "2468f0eb4d28",
+   "t": "<FACE:03>Didn't expect that…"
+  },
+  {
+   "key": "script:0064:0990",
+   "src": "d411095c65cd",
+   "t": "<FACE:7B>You lot can't do a<NL>thing without me!"
+  },
+  {
+   "key": "script:0064:09B0",
+   "src": "259e612e4484",
+   "t": "<FACE:7A>Let's go, you lot!"
+  },
+  {
+   "key": "script:0064:09BE",
+   "src": "ae2f146fd1bf",
+   "t": "<FACE:04>Good grief…"
+  },
+  {
+   "key": "script:0064:09C7",
+   "src": "3267d841ac08",
+   "t": "<FACE:05><PLAYER>, what are you<NL>doing? Hurry up!"
+  },
+  {
+   "key": "script:0064:09DE",
+   "src": "d05b12138ca0",
+   "t": "<FACE:19>I'm getting tired now…"
+  },
+  {
+   "key": "script:0064:09F0",
+   "src": "905437ee3997",
+   "t": "<FACE:0F>What's wrong? We can<NL>only push forward"
+  },
+  {
+   "key": "script:0064:0A07",
+   "src": "a76a52ff4053",
+   "t": "<FACE:0A>The Medabots here are<NL>tough too… Bring it!"
+  },
+  {
+   "key": "script:0064:0A2A",
+   "src": "fd18dd7a58ee",
+   "t": "<FACE:14>How many more are<NL>there, I wonder?"
+  },
+  {
+   "key": "script:0064:0A3C",
+   "src": "64e13ea2dac3",
+   "t": "<FACE:6C>I'm worried about<NL>Raiun! Let's hurry!"
+  },
+  {
+   "key": "script:0064:0A55",
+   "src": "2dafab104136",
+   "t": "<FACE:70>Even he's one of us,<NL>so we have to help"
+  },
+  {
+   "key": "script:0064:0A75",
+   "src": "5951c173fb20",
+   "t": "<FACE:75>Cough… hack…"
+  },
+  {
+   "key": "script:0064:0A81",
+   "src": "de1affbacaed",
+   "t": "<FACE:04>(Here the smog worries<NL> me more than Raiun…)"
+  },
+  {
+   "key": "script:0064:0AA4",
+   "src": "0efdc6b13e19",
+   "t": "<FACE:73>…No helping it… so…<NL>…we save Raiun…"
+  },
+  {
+   "key": "script:0064:0AC2",
+   "src": "3ecd4a56ea6c",
+   "t": "<FACE:00>We'd better hurry!"
+  },
+  {
+   "key": "script:0064:0AD0",
+   "src": "82f412e4d4ff",
+   "t": "<FACE:79>Raiun joined the team!"
+  }
+ ]
+}

@@ -51,11 +51,22 @@ class Pack:
     validation: dict = field(default_factory=dict)
     entries: dict[str, Entry] = field(default_factory=dict)
     path: Path | None = None
+    #: The release this pack was loaded for, when it is not the canonical one.
+    release: str = ""
 
     # -- disk ------------------------------------------------------------
 
     @classmethod
-    def load(cls, code: str, root: Path | None = None) -> "Pack":
+    def load(cls, code: str, root: Path | None = None,
+             release: str = "") -> "Pack":
+        """Read a pack, optionally as one particular release sees it.
+
+        The pack is written against Kuwagata, which is what every key names.
+        The other release is the same game with eleven scripts and a few name
+        tables changed — the cover Medabot is a different one — so its own
+        wording lives in ``langs/<code>/<release>/`` and is loaded on top.
+        Everything else is shared, and stays a single translation.
+        """
         root = (root or LANGS_DIR) / code
         meta_path = root / "lang.json"
         if not meta_path.is_file():
@@ -68,6 +79,7 @@ class Pack:
             credits=meta.get("credits", []),
             validation=meta.get("validation", {}),
             path=root,
+            release=release if release.lower() not in ("", "kuwagata") else "",
         )
         for part in sorted(root.glob("*.json")):
             if part.name == "lang.json":
@@ -75,7 +87,17 @@ class Pack:
             pack._load_part(part)
         for part in sorted(root.glob("script/*.json")):
             pack._load_part(part)
+        if pack.release:
+            for part in sorted((root / pack.subdir).glob("*.json")):
+                pack._load_part(part)
+            for part in sorted((root / pack.subdir / "script").glob("*.json")):
+                pack._load_part(part)
         return pack
+
+    @property
+    def subdir(self) -> str:
+        """Where this release's own lines live inside the pack."""
+        return self.release.lower()
 
     def _load_part(self, path: Path) -> None:
         raw = json.loads(path.read_text(encoding="utf-8"))
@@ -86,7 +108,8 @@ class Pack:
     def save_part(self, name: str, entries: list[Entry]) -> Path:
         if self.path is None:
             raise ValueError("This pack has no directory")
-        path = self.path / f"{name}.json"
+        root = self.path / self.subdir if self.release else self.path
+        path = root / f"{name}.json"
         path.parent.mkdir(parents=True, exist_ok=True)
         body = {
             "part": name,
@@ -116,6 +139,24 @@ class Pack:
 
     def get(self, key: str) -> Entry | None:
         return self.entries.get(key)
+
+    def loose_sites(self) -> dict[int, str]:
+        """Where this pack's loose lines are in Kuwagata, and what was there.
+
+        The catalogue of another release follows this through the offset map
+        to find strings its own scan worded differently, and only believes it
+        where the fingerprint still matches — see :func:`navi.catalog.seeded`.
+        """
+        out: dict[int, str] = {}
+        for key, entry in self.entries.items():
+            head, _, rest = key.partition(":")
+            if head != "str" or ":" in rest or not entry.src:
+                continue          # a release's own line, named after its dump
+            try:
+                out[int(rest, 16)] = entry.src
+            except ValueError:
+                continue
+        return out
 
     def translation_for(self, key: str, source: str) -> str | None:
         """The translation for a line, if the pack has one and it still fits.

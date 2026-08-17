@@ -1,0 +1,340 @@
+{
+ "part": "script/script_0077",
+ "entries": [
+  {
+   "key": "script:0077:0953",
+   "src": "51bb7512663f",
+   "t": "<FACE:00>Mistral disappeared…<NL><WAIT>What on earth is<NL>about to happen?"
+  },
+  {
+   "key": "script:0077:097D",
+   "src": "9c35f5ada83f",
+   "t": "<FACE:08>Look outside!"
+  },
+  {
+   "key": "script:0077:0987",
+   "src": "f9c95f636ea9",
+   "t": "<FACE:08>So many cables!"
+  },
+  {
+   "key": "script:0077:0995",
+   "src": "519720b4e0e4",
+   "t": "<FACE:12>The cables are getting<NL>into every Block!"
+  },
+  {
+   "key": "script:0077:09B2",
+   "src": "8cdce14b0cd8",
+   "t": "<FACE:10>The net's cut, so it's<NL>wiring in each Block!"
+  },
+  {
+   "key": "script:0077:09E0",
+   "src": "4ca083784781",
+   "t": "<FACE:00>Then what happens to<NL>the Cluster?<WAIT><FACE:0F>The Cluster's controls<NL>get taken completely…"
+  },
+  {
+   "key": "script:0077:0A14",
+   "src": "a75c1c19fba9",
+   "t": "<FACE:10>And then…<NL>escape is impossible…"
+  },
+  {
+   "key": "script:0077:0A2F",
+   "src": "294429131431",
+   "t": "<FACE:08>Whaaaaaat?!<NL><WAIT>You mean we stay like<NL>this forever?"
+  },
+  {
+   "key": "script:0077:0A57",
+   "src": "bf42317cd6b1",
+   "t": "<FACE:0F>Navi!<NL><WAIT>How long till they<NL>take control?"
+  },
+  {
+   "key": "script:0077:0A76",
+   "src": "24755f53b8d1",
+   "t": "<FACE:53>Estimated time until<NL>total takeover:<WAIT>1 hour, 23 min, 12 sec<NL>± 56 seconds"
+  },
+  {
+   "key": "script:0077:0AB3",
+   "src": "19bdda162d42",
+   "t": "<FACE:10>We have to do<NL>something by then…"
+  },
+  {
+   "key": "script:0077:0AC7",
+   "src": "632bffddf571",
+   "t": "<FACE:01>No choice. Let's go<NL>out and find Mistral!<WAIT><FACE:00>If we can stop it,<NL>things'll settle down<WAIT><FACE:0F>True…<NL><WAIT>Maybe better than just<NL>standing here idle…"
+  },
+  {
+   "key": "script:0077:0B2B",
+   "src": "fe74014aa959",
+   "t": "<FACE:0F>Unfortunately, we<NL>can't get out of here"
+  },
+  {
+   "key": "script:0077:0B56",
+   "src": "6e6c1db36706",
+   "t": "<FACE:03>No way!<NL><WAIT>Why not…?"
+  },
+  {
+   "key": "script:0077:0B66",
+   "src": "94c408dd7845",
+   "t": "<FACE:0F>Well, just watch…"
+  },
+  {
+   "key": "script:0077:0B73",
+   "src": "db387f0b7c6c",
+   "t": "<FACE:10>Navi!"
+  },
+  {
+   "key": "script:0077:0B79",
+   "src": "bf3829c06935",
+   "t": "<FACE:10>We're going outside!<NL>Prep for a spacewalk!"
+  },
+  {
+   "key": "script:0077:0B96",
+   "src": "e8b34634d59f",
+   "t": "<FACE:53><SFX:6C>For any reason at all,<NL><DELAY:003C><DELAY:0026>going out is denied!<DELAY:001E><END>"
+  },
+  {
+   "key": "script:0077:0BC4",
+   "src": "ba64d6ce0800",
+   "t": "<FACE:03>Huh…? Why not, Navi?<NL><WAIT>What do you mean, any<NL>reason at all?!<WAIT><FACE:53>All of my sensors…<NL><WAIT>cannot identify what<NL>surrounds the Cluster<WAIT>I cannot predict what<NL>going out would cause<WAIT>Sending humans out<NL>into such a place…<WAIT>I am programmed not<NL>to permit it<WAIT>Whatever the case,<NL>if a human's at risk…<WAIT>…I cannot permit it"
+  },
+  {
+   "key": "script:0077:0CB0",
+   "src": "f6cbbeb4f26c",
+   "t": "<FACE:01>But… at this rate you<NL>shut down too!"
+  },
+  {
+   "key": "script:0077:0CD5",
+   "src": "48490a6a7d47",
+   "t": "<FACE:53>As long as I function,<NL>I cannot permit it."
+  },
+  {
+   "key": "script:0077:0CF8",
+   "src": "735f400f4a2c",
+   "t": "<FACE:0F>It's no use, <PLAYER>!<NL>"
+  },
+  {
+   "key": "script:0077:0D02",
+   "src": "7973defdd036",
+   "t": "<FACE:0F>Keeping humans safe<NL><WAIT>is the very core of<NL>Navi's program<WAIT>Changing it would take<NL>experts months!"
+  },
+  {
+   "key": "script:0077:0D58",
+   "src": "af6e34157234",
+   "t": "<FACE:00>The program protecting<NL>humans endangers us?"
+  },
+  {
+   "key": "script:0077:0D86",
+   "src": "20a2e7127723",
+   "t": "<FACE:13>How careless of me…<NL><WAIT>To make management<NL>perfect…<WAIT>I left every final<NL>decision to Navi…<WAIT>And it backfires here<NL>of all places…"
+  },
+  {
+   "key": "script:0077:0DDA",
+   "src": "6a1185deec82",
+   "t": "<FACE:10>A computer can't make<NL>calls like a human…"
+  },
+  {
+   "key": "script:0077:0E00",
+   "src": "7e2b6dae94e3",
+   "t": "<FACE:01>So you're giving up<NL>already, Shiden?<NL>"
+  },
+  {
+   "key": "script:0077:0E18",
+   "src": "4a3d4ae4203f",
+   "t": "<FACE:01>Waiting around like<NL>this fixes nothing!<WAIT><FACE:0F>I know that, but…<NL><WAIT>…Yeah"
+  },
+  {
+   "key": "script:0077:0E4F",
+   "src": "a3c6b2a4e83e",
+   "t": "<FACE:12>Hold on!"
+  },
+  {
+   "key": "script:0077:0E56",
+   "src": "ceea5f61bb6d",
+   "t": "<FACE:10>Navi!<NL><WAIT>If we keep waiting…<NL><WAIT>what happens then?<NL><WAIT>Give me a prediction!"
+  },
+  {
+   "key": "script:0077:0E82",
+   "src": "44f2f8a99461",
+   "t": "<FACE:53>That I cannot predict…<NL><WAIT>Our situation admits<NL>of no analysis at all<WAIT>and there is far too<NL>little data to go on<WAIT><FACE:11>The Cluster's state…<NL><WAIT>There must be one<NL>thing you're sure of!<WAIT>Navi!!"
+  },
+  {
+   "key": "script:0077:0F03",
+   "src": "b4c2551f2f95",
+   "t": "<FACE:08>I see! I've got it!<NL>"
+  },
+  {
+   "key": "script:0077:0F12",
+   "src": "84e452d07430",
+   "t": "<FACE:05>Somewhere in this room<NL><WAIT>there's gotta be a<NL>power monitor!<WAIT>Everyone, search!"
+  },
+  {
+   "key": "script:0077:0F47",
+   "src": "6dfc7f05b771",
+   "t": "<FACE:06>Not yet? Ugh, you're<NL>all so slow!"
+  },
+  {
+   "key": "script:0077:0F5D",
+   "src": "c358ac2bce3c",
+   "t": "<FACE:0F>I want solid data<NL>Care to look too?"
+  },
+  {
+   "key": "script:0077:0F81",
+   "src": "4c12e7529893",
+   "t": "<FACE:0A>Try checking that<NL>monitor"
+  },
+  {
+   "key": "script:0077:0F92",
+   "src": "0f8f5115d61e",
+   "t": "<FACE:19>Ask the leader, I say"
+  },
+  {
+   "key": "script:0077:0FA2",
+   "src": "468f1c360a27",
+   "t": "<FACE:14>No good askin' me,<NL>I dunno"
+  },
+  {
+   "key": "script:0077:0FB7",
+   "src": "e1b9c3fe9e9c",
+   "t": "<FACE:04>Huh?<NL><WAIT>The power's dropping!<NL><WAIT>Functions are falling<NL>more and more…"
+  },
+  {
+   "key": "script:0077:0FE8",
+   "src": "0af28175684b",
+   "t": "<FACE:03>At this rate it all<NL>shuts down in 3 days!"
+  },
+  {
+   "key": "script:0077:100D",
+   "src": "9248192164a0",
+   "t": "<FACE:0F>Locked in…<NL><WAIT>In a Cluster with no<NL>solar power…<WAIT>the life support keeps<NL>us going for…<WAIT>3 days…<NL><WAIT>So if we leave things<NL>as they are…<WAIT>in 3 days we're in<NL>danger for certain!"
+  },
+  {
+   "key": "script:0077:1090",
+   "src": "f9b6cd1d767f",
+   "t": "<FACE:53>That is quite correct.<NL><WAIT>However…<NL><WAIT>Sending you out to the<NL>unknown is no safer"
+  },
+  {
+   "key": "script:0077:10D7",
+   "src": "c2b2508b1f6f",
+   "t": "<FACE:06>But if that brings new<NL>danger, it's no good!<WAIT><FACE:53>But if you go outside…<NL><WAIT>the chance of things<NL>improving is almost 0"
+  },
+  {
+   "key": "script:0077:1135",
+   "src": "a000742af49c",
+   "t": "<FACE:00>But it's not zero!<NL><WAIT>If it's not zero,<NL>it's worth a try!<WAIT>I want to see outside!<NL><WAIT>Even if I get hurt,<NL>I hate not knowing!<WAIT><FACE:01>If I don't do what I<NL>can, and it goes bad<WAIT>I'd surely regret it!<NL><WAIT>And I'd hate that!"
+  },
+  {
+   "key": "script:0077:11CA",
+   "src": "7b6ad25441bc",
+   "t": "<FACE:53>I too would like to<NL>test our chances!<WAIT>But I cannot defy an<NL>absolute prohibition!<WAIT>Sending humans into<NL>the unknown is…"
+  },
+  {
+   "key": "script:0077:122F",
+   "src": "3a1be56b93f3",
+   "t": "<FACE:01>It's unknown, that's<NL>why I want to see!<WAIT>Calling it a mystery<NL>keeps it a mystery!<WAIT>You've got to dive in!<NL><WAIT>Just watching quietly<NL><WAIT>and waiting for the<NL>end? I can't do that!"
+  },
+  {
+   "key": "script:0077:129A",
+   "src": "1d934be45bf3",
+   "t": "<FACE:0F>Navi, even if the<NL>outcome's the same…<WAIT>no, even if it's worse<NL>the journey matters<WAIT>Humans have a thing<NL>called «curiosity»<WAIT>and nothing at all<NL>can stop it<WAIT><FACE:13>When I made you, I<NL>forgot to teach that…"
+  },
+  {
+   "key": "script:0077:1335",
+   "src": "d6e554d2f676",
+   "t": "<FACE:22>Navi…<NL><WAIT>Back then, you said<NL>something to me…<WAIT>That humans change and<NL>progress day by day…"
+  },
+  {
+   "key": "script:0077:1371",
+   "src": "e06ad4928f78",
+   "t": "<FACE:53>I greatly envy humans,<NL>who keep on changing<WAIT>Yet you are human:<NL>why won't you change?"
+  },
+  {
+   "key": "script:0077:13C2",
+   "src": "0bd58cf39952",
+   "t": "<FACE:22>Those words changed me<NL>Even I could change!"
+  },
+  {
+   "key": "script:0077:13F1",
+   "src": "cfa0d2611242",
+   "t": "<FACE:22>Now, Navi, it's your<NL>turn to change!"
+  },
+  {
+   "key": "script:0077:1414",
+   "src": "b96c0c893377",
+   "t": "<FACE:53>Understood…<NL><WAIT>Redefining priority<NL>toward the unknown…"
+  },
+  {
+   "key": "script:0077:144B",
+   "src": "c21d2b03396d",
+   "t": "<FACE:53>Going outside…<NL><DELAY:0078><DELAY:0014><CLEAR>is hereby permitted…<NL><DELAY:003C><DELAY:000A><END>"
+  },
+  {
+   "key": "script:0077:146F",
+   "src": "1cdb70da736c",
+   "t": "<FACE:02>Yesss!<WAIT><FACE:07>You can talk sense!<WAIT><FACE:53>But I will come along"
+  },
+  {
+   "key": "script:0077:1499",
+   "src": "cd7e498520a2",
+   "t": "<FACE:03>Come along?!<WAIT><FACE:53>Well, rather than me…<NL><WAIT>a Medabot I operate<NL>will accompany you<WAIT>Through that Medabot<NL>I will speak with you<WAIT><FACE:00>A Medabot?"
+  },
+  {
+   "key": "script:0077:14FE",
+   "src": "2b659b967dd3",
+   "t": "<FACE:53><SFX:6E>Built in the Computer<NL><DELAY:0078><DELAY:000A>Block: a navi Medabot<DELAY:0078><DELAY:0008><CLEAR>This is «Navico»<NL><DELAY:003C><DELAY:003A><CLEAR>She'll join the team<NL><DELAY:0078><DELAY:0006>in Robattles to help<DELAY:003C><DELAY:002A><END>"
+  },
+  {
+   "key": "script:0077:156E",
+   "src": "1b418cac21fb",
+   "t": "<FACE:08>What?!<NL>This Medabot?<WAIT><FACE:07>So cuuute!"
+  },
+  {
+   "key": "script:0077:1589",
+   "src": "ed713a6aba95",
+   "t": "<FACE:0F>Hold on a minute, Navi<NL>Did that Block have<WAIT>any development gear?!"
+  },
+  {
+   "key": "script:0077:15B4",
+   "src": "56cffb9edfdf",
+   "t": "<FACE:53>Truth is, the human<NL>heart was a riddle…<WAIT>In secret I kept<NL>trying to grasp it<WAIT>I kept researching it<NL><WAIT>Especially Medabots,<NL>gripping kids' hearts<WAIT>Machines like me, yet<NL>why so different?<WAIT>I sought to solve that<NL>riddle…"
+  },
+  {
+   "key": "script:0077:1666",
+   "src": "1cbebb14df97",
+   "t": "<FACE:05>So you built a Medabot<NL>you could link with?<WAIT><FACE:53>That is so…<NL><WAIT>But I never found a<NL>reason to wake it…<WAIT>Not until a chance<NL>like this one came…"
+  },
+  {
+   "key": "script:0077:16D7",
+   "src": "ebdba69eecc8",
+   "t": "<FACE:0F>Even so…<NL>Building a Medabot on<WAIT>your own is already…"
+  },
+  {
+   "key": "script:0077:16FD",
+   "src": "4da0b4c4dccc",
+   "t": "<FACE:02>Let it go, Shiden<NL>We got permission…"
+  },
+  {
+   "key": "script:0077:1724",
+   "src": "3222115007d1",
+   "t": "<FACE:02>Besides, this Medabot…<NL><WAIT>Its specs look decent<NL>"
+  },
+  {
+   "key": "script:0077:174A",
+   "src": "f47242987c6b",
+   "t": "<FACE:22>…"
+  },
+  {
+   "key": "script:0077:1750",
+   "src": "a195a2a59aca",
+   "t": "<FACE:01>There's no time to go<NL>anywhere right now!"
+  },
+  {
+   "key": "script:0077:176B",
+   "src": "05cac7d95cab",
+   "t": "<FACE:56><SFX:6F>Nice to meet you<DELAY:003C><DELAY:0035><NL>I'm Navico<DELAY:003C><END>"
+  },
+  {
+   "key": "script:0077:1785",
+   "src": "c12eb99a614d",
+   "t": "<FACE:54>Navico joined the<NL>team!"
+  }
+ ]
+}

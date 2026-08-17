@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0136",
+ "entries": [
+  {
+   "key": "script:0136:034B",
+   "src": "6bd22a125495",
+   "t": "<FACE:7D><PLAYER>-robo…<NL><WAIT>Yeah-robo…"
+  },
+  {
+   "key": "script:0136:035B",
+   "src": "a6be47feb975",
+   "t": "<FACE:03>Huh?!"
+  },
+  {
+   "key": "script:0136:0362",
+   "src": "b511f64fef71",
+   "t": "<FACE:00>What are you doing<NL>in a place like this?"
+  },
+  {
+   "key": "script:0136:0374",
+   "src": "0050a9de0178",
+   "t": "<FACE:7D>The officers are so<NL>cruel-robo…<WAIT>Yeah-robo… Why'd they<NL>leave just us-robo…"
+  },
+  {
+   "key": "script:0136:03A8",
+   "src": "e88c4de80bbb",
+   "t": "<FACE:7D>I don't wanna think<NL>about it-robo…"
+  },
+  {
+   "key": "script:0136:03B6",
+   "src": "48590dfd29c2",
+   "t": "<FACE:7E>That's wrong-robo!<WAIT><FACE:7E>Here's our start-robo!<NL>Beat <PLAYER> and<WAIT>return in triumph with<NL>that as a gift-robo!"
+  },
+  {
+   "key": "script:0136:03F2",
+   "src": "9c81a37f2cd3",
+   "t": "<FACE:7D>…Yeah-robo…<WAIT><FACE:80>Yeah-robo!!"
+  },
+  {
+   "key": "script:0136:0406",
+   "src": "37cf5b67e1fe",
+   "t": "<FACE:7D>We lost-robo…"
+  },
+  {
+   "key": "script:0136:0411",
+   "src": "3c398e2f2da2",
+   "t": "<FACE:7E>Not yet-robo!<NL><WAIT>This happens because<NL>we turned tail-robo!<WAIT>Never show your back<NL>to the enemy-robo!"
+  },
+  {
+   "key": "script:0136:0451",
+   "src": "422e43f8ac1d",
+   "t": "<FACE:80>Right-robo! Got it!<NL>Flee facing 'em-robo!"
+  },
+  {
+   "key": "script:0136:0473",
+   "src": "1d250e0f71f5",
+   "t": "<FACE:00>I'm sure it's fake,<NL>but…<WAIT>it sure looks hot…"
+  }
+ ]
+}

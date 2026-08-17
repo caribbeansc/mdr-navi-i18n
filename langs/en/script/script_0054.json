@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0054",
+ "entries": [
+  {
+   "key": "script:0054:0483",
+   "src": "7e943e0c3405",
+   "t": "<FACE:75>Cough… You two! This<NL>time, block the road!"
+  },
+  {
+   "key": "script:0054:04AA",
+   "src": "16918d08b1ce",
+   "t": "<FACE:7E>I'll go-robo!<NL>"
+  },
+  {
+   "key": "script:0054:04B8",
+   "src": "8a9d3626a015",
+   "t": "<FACE:7E>No, it's my turn-robo!"
+  },
+  {
+   "key": "script:0054:04C8",
+   "src": "da01f2e3b49a",
+   "t": "<FACE:77>Cough… Look, you two…"
+  },
+  {
+   "key": "script:0054:04DC",
+   "src": "6a5bb0d36805",
+   "t": "<FACE:00>Same way in as before.<NL>Didn't they block it?"
+  },
+  {
+   "key": "script:0054:0502",
+   "src": "5c9a988e2abb",
+   "t": "<FACE:77>Coooough, cough, hack…<NL>"
+  },
+  {
+   "key": "script:0054:0514",
+   "src": "ff8e0f71baf1",
+   "t": "<FACE:77>Y… you twoooo!! …cough<NL>"
+  },
+  {
+   "key": "script:0054:052D",
+   "src": "86a2c435f92f",
+   "t": "<FACE:77>N… not again…<NL><WAIT>Because of you two we<NL>lost this Block easy…<WAIT><FACE:81>Don't tell me, this<NL>time too-robo?"
+  },
+  {
+   "key": "script:0054:056E",
+   "src": "6aa592e8bc68",
+   "t": "<FACE:77>Naturally… no lunch…<NL>cough…"
+  },
+  {
+   "key": "script:0054:0588",
+   "src": "3815107b71eb",
+   "t": "<FACE:81>We're sorry-robo!<NL><WAIT>Have mercy-roboo!<NL>"
+  },
+  {
+   "key": "script:0054:05A6",
+   "src": "938a195b3d77",
+   "t": "<FACE:00>I've got to take this<NL>Block back"
+  }
+ ]
+}

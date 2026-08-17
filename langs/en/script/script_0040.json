@@ -1,0 +1,210 @@
+{
+ "part": "script/script_0040",
+ "entries": [
+  {
+   "key": "script:0040:0877",
+   "src": "311ed45755e3",
+   "t": "<FACE:05>Wow!<NL>Look, look, <PLAYER>!<WAIT><FACE:07>What a beautiful sea!<NL>It looks so real…"
+  },
+  {
+   "key": "script:0040:08A3",
+   "src": "da16aa22b8d9",
+   "t": "<FACE:05>I should've brought my<NL>swimsuit…<WAIT><FACE:00>How can you be so<NL>laid-back about this?"
+  },
+  {
+   "key": "script:0040:08DC",
+   "src": "47ca1e6939e2",
+   "t": "<FACE:03>Yikes!!"
+  },
+  {
+   "key": "script:0040:08E5",
+   "src": "3bd8476a3d2b",
+   "t": "<FACE:38>You there!<NL>Not one step closer!<WAIT>We're in the middle of<NL>serious training!"
+  },
+  {
+   "key": "script:0040:0928",
+   "src": "8115a8733b58",
+   "t": "<FACE:03>Ah! The girls' water<NL>polo ace, Tsumuji!"
+  },
+  {
+   "key": "script:0040:0948",
+   "src": "6c56a6e098ba",
+   "t": "<FACE:00>The Cluster's Medabots<NL>are attacking people!<WAIT>Can you stop training<NL>and check this Block?"
+  },
+  {
+   "key": "script:0040:0999",
+   "src": "5fa84e1b9d5f",
+   "t": "<FACE:38>Sorry… but we can't<NL><PLAYER>…<WAIT><FACE:04>Why not? Every second<NL>counts here!"
+  },
+  {
+   "key": "script:0040:09CB",
+   "src": "2bee4ec5714d",
+   "t": "<FACE:37>That… I can't say!"
+  },
+  {
+   "key": "script:0040:09DB",
+   "src": "9a83b4d9bf73",
+   "t": "<FACE:01>You can't say?<NL>That's ridiculous!"
+  },
+  {
+   "key": "script:0040:09F4",
+   "src": "1d750044b97d",
+   "t": "<FACE:3A>Heh heh… Tsumuji<NL><WAIT>These kids could never<NL>understand our guts!"
+  },
+  {
+   "key": "script:0040:0A32",
+   "src": "eacd27d8f32e",
+   "t": "<FACE:01>W-what's that mean?!<NL>I've got guts too…"
+  },
+  {
+   "key": "script:0040:0A4D",
+   "src": "d2a56f18a157",
+   "t": "<FACE:39>Oh, really?<WAIT><FACE:37>Then those guts of<NL>yours… let's see"
+  },
+  {
+   "key": "script:0040:0A6C",
+   "src": "be86215da7d7",
+   "t": "<FACE:37>Your beloved Medabots…<NL>Let's see a Robattle!"
+  },
+  {
+   "key": "script:0040:0A96",
+   "src": "d1dc92df9f68",
+   "t": "<FACE:37>The class Medabot nut<NL>does have some guts!<WAIT><FACE:00>So, why can't you call<NL>off the training?"
+  },
+  {
+   "key": "script:0040:0AE8",
+   "src": "1064f044a379",
+   "t": "<FACE:37>Our secret training<NL>ground for new moves!<WAIT>We're required to win<NL>every single time<WAIT>The match is close, so<NL>we need a new move!"
+  },
+  {
+   "key": "script:0040:0B61",
+   "src": "6c163071ebef",
+   "t": "<FACE:37>My Lightning Shot!<NL>"
+  },
+  {
+   "key": "script:0040:0B73",
+   "src": "d7bd958eb100",
+   "t": "<FACE:39>Mine is…<NL>the Super Drill Dive"
+  },
+  {
+   "key": "script:0040:0B88",
+   "src": "b829c14a0208",
+   "t": "<FACE:3A>My special move is<NL>the Mach Turn!<WAIT><FACE:37>We can't show a move<NL>still in development<WAIT>not even to a<NL>classmate!"
+  },
+  {
+   "key": "script:0040:0BD4",
+   "src": "304d30c2ea39",
+   "t": "<FACE:04>How selfish…<NL>Why train right now…"
+  },
+  {
+   "key": "script:0040:0BF9",
+   "src": "99957d7c6b43",
+   "t": "<FACE:38>What are you saying!<NL><WAIT>We three have no time<NL>before the prelims<WAIT><FACE:39>Yes… we have no time<WAIT><FACE:3A>Really, we had no time<NL>for this Cluster trip<WAIT>We only came because<NL>it's a school event…<WAIT><FACE:38>We don't know when we<NL>can go home, so…<WAIT>all we can do is take<NL>this spot and train!"
+  },
+  {
+   "key": "script:0040:0CCC",
+   "src": "1c45d47ac1a7",
+   "t": "<FACE:37>Heeere goes!<NL>"
+  },
+  {
+   "key": "script:0040:0CD6",
+   "src": "1c45d47ac1a7",
+   "t": "<FACE:37>Heeere goes!<NL>"
+  },
+  {
+   "key": "script:0040:0CE0",
+   "src": "6a1d331ad59f",
+   "t": "<FACE:38>Get out of the way!<NL><WAIT>Please stop getting in<NL>our way!<WAIT><FACE:04>But Medabots attack<NL>around here too<WAIT>and it gets rough…"
+  },
+  {
+   "key": "script:0040:0D32",
+   "src": "b1ca09a448ce",
+   "t": "<FACE:37>Oh?<NL><WAIT>A few Medabots are<NL>no trouble at all"
+  },
+  {
+   "key": "script:0040:0D52",
+   "src": "07fefa029184",
+   "t": "<FACE:00>See? I hear them now!"
+  },
+  {
+   "key": "script:0040:0D61",
+   "src": "58bbe9683051",
+   "t": "<FACE:38>Kyaaaaaaaah!"
+  },
+  {
+   "key": "script:0040:0D6E",
+   "src": "b5885c40530e",
+   "t": "<FACE:38>Liiightniiing…"
+  },
+  {
+   "key": "script:0040:0D7C",
+   "src": "dad3ff2e2e9e",
+   "t": "<FACE:38>Shooooooot!"
+  },
+  {
+   "key": "script:0040:0D88",
+   "src": "33ea054deb46",
+   "t": "<FACE:0B>Amazing!<NL><WAIT><FACE:0A>At this rate she'll<NL>wipe them out fast!"
+  },
+  {
+   "key": "script:0040:0DAC",
+   "src": "2b1ca7cc50eb",
+   "t": "<FACE:38>W-wait, you… you're<NL>from another school?!"
+  },
+  {
+   "key": "script:0040:0DD0",
+   "src": "04d9fb6e4446",
+   "t": "<FACE:0C>Yep, I'm Fubuki<NL><WAIT>Amazing, your Sho…"
+  },
+  {
+   "key": "script:0040:0DF4",
+   "src": "dfe10c5d14c5",
+   "t": "<FACE:38>Uoooooooogh!<NL>What a disaster!<WAIT>A rival school's spy<NL>saw my new move…<WAIT>I can't use Lightning<NL>Shot anymore!<NL><WAIT>I've got to develop<NL>Lightning Shot 2 now!"
+  },
+  {
+   "key": "script:0040:0E60",
+   "src": "fdbac01b7300",
+   "t": "<FACE:03>They're baaaack!<NL><WAIT><FACE:04>And there's even more…"
+  },
+  {
+   "key": "script:0040:0E80",
+   "src": "b391ebd90953",
+   "t": "<FACE:37>We watched you fight<NL><WAIT>Unlike us, you weren't<NL>born with any talent<WAIT>but you pull through<NL>on guts alone…<NL><WAIT>Looks like we had you<NL>wrong…<NL><WAIT>Our overflowing talent<NL>is enough for us!<WAIT>Instead of polishing<NL>our own talent,<WAIT>we'll help you out!"
+  },
+  {
+   "key": "script:0040:0F38",
+   "src": "7f07a98a04cf",
+   "t": "<FACE:04>Somehow…<WAIT><FACE:09>I can't just be happy<NL>about that…"
+  },
+  {
+   "key": "script:0040:0F53",
+   "src": "fc6bf243c2cd",
+   "t": "<FACE:05>Ahh, I wanna swim<NL>Right, <PLAYER>?"
+  },
+  {
+   "key": "script:0040:0F65",
+   "src": "74dc4129dd36",
+   "t": "<FACE:0A>I wonder what's on the<NL>other side"
+  },
+  {
+   "key": "script:0040:0F7B",
+   "src": "7fe479e4fc18",
+   "t": "<FACE:00>We've got to move on"
+  },
+  {
+   "key": "script:0040:0F87",
+   "src": "dd66c67d50a9",
+   "t": "<FACE:37>Tsumuji joined the<NL>team!<WAIT><FACE:39>Soyoka joined the<NL>team!<WAIT><FACE:3A>Kosame joined the<NL>team!"
+  },
+  {
+   "key": "script:0040:0FBC",
+   "src": "4ca06d75dd4c",
+   "t": "<FACE:02>Mmm… this feels nice…<WAIT><FACE:00>…This is no time to be<NL>saying that, huh"
+  },
+  {
+   "key": "script:0040:0FE7",
+   "src": "2ad2bf962ca5",
+   "t": "<FACE:04>But that wasn't a win<NL>from a Robattle…"
+  }
+ ]
+}

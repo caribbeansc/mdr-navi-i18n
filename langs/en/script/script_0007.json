@@ -1,0 +1,45 @@
+{
+ "part": "script/script_0007",
+ "entries": [
+  {
+   "key": "script:0007:0236",
+   "src": "439fa8f6ec58",
+   "t": "<FACE:7D>Knew it… knew it-robo…<NL><WAIT>Duds like us only get<NL>spots like this-robo…"
+  },
+  {
+   "key": "script:0007:0276",
+   "src": "8afd7a365809",
+   "t": "<FACE:7D>Been in the Sperobo<NL>Gang for years now…<WAIT>and never once touched<NL>an officer-robo…"
+  },
+  {
+   "key": "script:0007:02AA",
+   "src": "8cae9f70db3c",
+   "t": "<FACE:7D>Me neither-robo…<NL>We'll be buried-robo…"
+  },
+  {
+   "key": "script:0007:02C7",
+   "src": "af53e83b99b1",
+   "t": "<FACE:14>Man, what a dreary<NL>Block this is…<WAIT><FACE:19>Taking a Block like<NL>this is pointless!"
+  },
+  {
+   "key": "script:0007:02FD",
+   "src": "a2fef68daede",
+   "t": "<FACE:05>What are you saying!<NL>We have to hold it!"
+  },
+  {
+   "key": "script:0007:031E",
+   "src": "dc5a19f58edf",
+   "t": "<FACE:81>Ugh… we lost in a<NL>flash after all-robo…<WAIT>I'll put in for a big<NL>Block again-robo!"
+  },
+  {
+   "key": "script:0007:035C",
+   "src": "899d3463447e",
+   "t": "<FACE:7D>Probably not-robo…"
+  },
+  {
+   "key": "script:0007:036A",
+   "src": "6286a3522d73",
+   "t": "<FACE:04>Somehow… even winning<NL>doesn't feel good…"
+  }
+ ]
+}

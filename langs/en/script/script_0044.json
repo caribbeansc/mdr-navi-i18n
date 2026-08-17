@@ -1,0 +1,265 @@
+{
+ "part": "script/script_0044",
+ "entries": [
+  {
+   "key": "script:0044:0952",
+   "src": "40cb3ef8beec",
+   "t": "<FACE:05>It's kind of noisy…<NL>Someone in the back?<WAIT><FACE:04>I've got a bad<NL>feeling…"
+  },
+  {
+   "key": "script:0044:0984",
+   "src": "60f397fd1ea0",
+   "t": "<FACE:71>It's not breaking…<NL>Are you even trying?"
+  },
+  {
+   "key": "script:0044:09A2",
+   "src": "7060e4fe045e",
+   "t": "<FACE:81>Th-that's harsh-robo!<NL><WAIT>We're giving it our<NL>all-robo!"
+  },
+  {
+   "key": "script:0044:09BF",
+   "src": "967b2fd25557",
+   "t": "<FACE:49>Are you in trouble,<NL>beautiful lady?<WAIT>Shall we lend you<NL>a hand?"
+  },
+  {
+   "key": "script:0044:09E9",
+   "src": "d9fc231f3a5a",
+   "t": "<FACE:70>Oh my!?<NL>"
+  },
+  {
+   "key": "script:0044:09F2",
+   "src": "297ff30db705",
+   "t": "<FACE:72>(Oh! What cute boys!?<NL> Three! Super lucky!)"
+  },
+  {
+   "key": "script:0044:0A1E",
+   "src": "3a585a4ffc1a",
+   "t": "<FACE:4A>Our Medabots pack<NL>quite a punch<WAIT><FACE:4B>And if it goes well…<NL>lunch, maybe?"
+  },
+  {
+   "key": "script:0044:0A54",
+   "src": "cff54540c3ed",
+   "t": "<FACE:70>Forget that!<WAIT><FACE:70>Leave this lot to it!<NL>Lunch, right now!<WAIT>By the way, you boys…<NL>join the Sperobos?<WAIT><FACE:72>With my connections,<NL>I'd make you Bosses"
+  },
+  {
+   "key": "script:0044:0AC0",
+   "src": "c40d622a27f2",
+   "t": "<FACE:81>Th-that's cruel-robo!<NL>Such favoritism-robo!"
+  },
+  {
+   "key": "script:0044:0ADB",
+   "src": "c0405db76e88",
+   "t": "<FACE:7D>She's like that-robo…<NL>Can't be helped-robo…"
+  },
+  {
+   "key": "script:0044:0AF2",
+   "src": "d1c0c1bd1757",
+   "t": "<FACE:72>See? It's settled!"
+  },
+  {
+   "key": "script:0044:0AFD",
+   "src": "4aa64824fcf8",
+   "t": "<FACE:71>Well, I'm heading off<NL>You lot do it right!"
+  },
+  {
+   "key": "script:0044:0B28",
+   "src": "4da057cf49b8",
+   "t": "<FACE:03>Hey, look…<WAIT><FACE:08>Yikes! Hide!"
+  },
+  {
+   "key": "script:0044:0B3F",
+   "src": "612af1d99ba3",
+   "t": "<FACE:00>That's definitely…<WAIT><FACE:05>The Space Robo Robo<NL>Gang again?!<WAIT><FACE:05>And those with them…<NL>boys from our class!<WAIT><FACE:01>What are they up to?<NL>Let's watch a while…"
+  },
+  {
+   "key": "script:0044:0BA4",
+   "src": "be34c5533278",
+   "t": "<FACE:05>Still, what is that?<NL>A Boss, maybe…<WAIT>That flashy, tacky<NL>getup of hers…"
+  },
+  {
+   "key": "script:0044:0BD2",
+   "src": "ec77fc1cc5cf",
+   "t": "<FACE:71>T-tacky!!!???<NL><WAIT>I heard that!<NL>Whooooo is tacky?!"
+  },
+  {
+   "key": "script:0044:0C00",
+   "src": "cc393fd87380",
+   "t": "<FACE:08>She hears everything!"
+  },
+  {
+   "key": "script:0044:0C09",
+   "src": "aefe0a17df66",
+   "t": "<FACE:70>So you're the ones…<NL><WAIT>the middle schoolers<NL>getting in our way…"
+  },
+  {
+   "key": "script:0044:0C31",
+   "src": "272b0baa1ff5",
+   "t": "<FACE:49>What?! Getting in the<NL>way of this beauty?!"
+  },
+  {
+   "key": "script:0044:0C55",
+   "src": "1c266c669ee6",
+   "t": "<FACE:03>Huh?! No, um, these<NL>guys are…<WAIT><FACE:49>And now he calls us<NL>«these guys»!<NL><WAIT>What a guy, <PLAYER>!"
+  },
+  {
+   "key": "script:0044:0C87",
+   "src": "2161a96be86a",
+   "t": "<FACE:04>No… like I said…"
+  },
+  {
+   "key": "script:0044:0C94",
+   "src": "642c07a492f5",
+   "t": "<FACE:49>Just watch us, miss!<NL><WAIT>We'll keep you safe,<NL>we promise!"
+  },
+  {
+   "key": "script:0044:0CBA",
+   "src": "92ebfa2df7de",
+   "t": "<FACE:72>How dreamy!"
+  },
+  {
+   "key": "script:0044:0CC2",
+   "src": "4d4026a1a7e7",
+   "t": "<FACE:7D>How many guys has she<NL>made cry-robo…?"
+  },
+  {
+   "key": "script:0044:0CDC",
+   "src": "5a84c56265d8",
+   "t": "<FACE:49>Darn! <PLAYER>, when'd<NL>you get one so tough?<WAIT><FACE:71>Hmph! You boys were<NL>all show and no use!"
+  },
+  {
+   "key": "script:0044:0D1D",
+   "src": "4c71ec9395a0",
+   "t": "<FACE:49>M… miss…"
+  },
+  {
+   "key": "script:0044:0D2B",
+   "src": "8bf34ed976ca",
+   "t": "<FACE:72>More·<DELAY:000A>im·<DELAY:000A>por·<DELAY:000A>tant·<DELAY:000A>ly<DELAY:000A><NL><WAIT>Hey, you there, boy!<NL>You're pretty cute!"
+  },
+  {
+   "key": "script:0044:0D68",
+   "src": "1dee8d30a0f3",
+   "t": "<FACE:05>That's the sort she is<NL><WAIT>You lot could use a<NL>hard lesson sometime"
+  },
+  {
+   "key": "script:0044:0D91",
+   "src": "5dcffa793d6e",
+   "t": "<FACE:72>Want to join big sis<NL>in the Sperobo Gang?<WAIT>Oh? You want to know<NL>who big sis is?"
+  },
+  {
+   "key": "script:0044:0DC3",
+   "src": "3c2df3f20e77",
+   "t": "<FACE:06>Nobody asked!"
+  },
+  {
+   "key": "script:0044:0DCD",
+   "src": "e91336578d84",
+   "t": "<FACE:71>Oh, shut it!"
+  },
+  {
+   "key": "script:0044:0DD6",
+   "src": "e10af660d43d",
+   "t": "<FACE:72>Oh ho ho ho! My name…<NL>Space Robo Robo Boss:<WAIT>«The Ultimate<NL>Beautiful Madonna»<WAIT>The goddess of beauty!<NL>Sekiran of the Sea!"
+  },
+  {
+   "key": "script:0044:0E2B",
+   "src": "1590b18aefbb",
+   "t": "<FACE:05>About «The Ultimate»…<NL><WAIT>Before a vowel, «the»<NL>is said «thee»…"
+  },
+  {
+   "key": "script:0044:0E56",
+   "src": "fc7e8b382f3f",
+   "t": "<FACE:19>And a «Madonna» is no<NL>goddess, it's Mary"
+  },
+  {
+   "key": "script:0044:0E7E",
+   "src": "51d38a7ea978",
+   "t": "<FACE:71>Oh, shut up!<NL>Details don't matter!<WAIT><FACE:72>Heeey, cute boy over<NL>there!"
+  },
+  {
+   "key": "script:0044:0EB0",
+   "src": "1e3426d59cea",
+   "t": "<FACE:06>Hey!<NL><WAIT><PLAYER> would never<NL>go with you! Right?!"
+  },
+  {
+   "key": "script:0044:0ED5",
+   "src": "e690732d140f",
+   "t": "<FACE:03>Y-yeah…<WAIT><FACE:72>Heh-hmmm…<NL><WAIT>The boy doesn't look<NL>all that against it…<WAIT>More my type than that<NL>gloomy kid, anyway"
+  },
+  {
+   "key": "script:0044:0F24",
+   "src": "6b702b9075b4",
+   "t": "<FACE:04>A gloomy kid?<WAIT><FACE:70>That's right!<NL><WAIT>We caught a gloomy kid<NL>about your age lately<WAIT>Smog, one of my crew,<NL>saw promise, took him<WAIT>Well, two gloomy sorts<NL>might hit it off!"
+  },
+  {
+   "key": "script:0044:0FB3",
+   "src": "110dedad5a3d",
+   "t": "<FACE:05>A gloomy guy…<WAIT><FACE:00>Could that be Amamiya?"
+  },
+  {
+   "key": "script:0044:0FCF",
+   "src": "b0c1cf799f34",
+   "t": "<FACE:70>Oh, I don't know his<NL>name<WAIT><FACE:72>He wasn't cute, so I<NL>wasn't interested!<WAIT><FACE:71>Same goes for you!"
+  },
+  {
+   "key": "script:0044:100D",
+   "src": "1541cf961a50",
+   "t": "<FACE:01>Never mind that! What<NL>are you lot doing?!<WAIT><FACE:72>What, you ask?<NL>Isn't it obvious?<WAIT>We'll flood this place<NL>and block the way!<WAIT>So you lot won't get<NL>any further!<WAIT><FACE:00>So that's why you hit<NL>the water tank…<NL><WAIT>But if you break it…<NL>can you get away?"
+  },
+  {
+   "key": "script:0044:109F",
+   "src": "2039534bf24a",
+   "t": "<FACE:80>Boss, he's right-robo!<NL>What was your plan?<WAIT><FACE:70>…Well…"
+  },
+  {
+   "key": "script:0044:10D0",
+   "src": "d6b6a410bfad",
+   "t": "<FACE:71>Argh! Fine then…<NL>Robattle, right now!"
+  },
+  {
+   "key": "script:0044:10E9",
+   "src": "4d6b7f79d982",
+   "t": "<FACE:81>She hadn't thought<NL>it through-roboooo!!!"
+  },
+  {
+   "key": "script:0044:10FE",
+   "src": "7b078dc2b554",
+   "t": "<FACE:70>…Can't be helped…<NL><WAIT>The flood plan is off!<NL>Lucky kids, you lot!"
+  },
+  {
+   "key": "script:0044:1139",
+   "src": "da872619f0eb",
+   "t": "<FACE:03>No, um… that plan was<NL>never going to work…"
+  },
+  {
+   "key": "script:0044:1157",
+   "src": "8b8208385751",
+   "t": "<FACE:00>We have to move on"
+  },
+  {
+   "key": "script:0044:1164",
+   "src": "9c1734e83dbb",
+   "t": "<FACE:05><PLAYER>, go look"
+  },
+  {
+   "key": "script:0044:1171",
+   "src": "ad7005fcbf34",
+   "t": "<FACE:0A>Let's get moving"
+  },
+  {
+   "key": "script:0044:117E",
+   "src": "1c257a55f7bd",
+   "t": "<FACE:19>The back's got me<NL>curious, I tell ya"
+  },
+  {
+   "key": "script:0044:118E",
+   "src": "4b3e828476f5",
+   "t": "<FACE:14>What's back there,<NL>I wonder?"
+  },
+  {
+   "key": "script:0044:119F",
+   "src": "4883a74d24e3",
+   "t": "<FACE:49>Raiu joined the team!<NL><WAIT><FACE:4A>Harou joined the team!<NL><WAIT><FACE:4B>Kikou joined the team!"
+  }
+ ]
+}

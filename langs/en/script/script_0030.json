@@ -1,0 +1,230 @@
+{
+ "part": "script/script_0030",
+ "entries": [
+  {
+   "key": "script:0030:038B",
+   "src": "acdb49bdcd4b",
+   "t": "<FACE:03>Whoa!"
+  },
+  {
+   "key": "script:0030:0393",
+   "src": "8b44ba3fc5d4",
+   "t": "<FACE:0A>Who are you?!"
+  },
+  {
+   "key": "script:0030:039F",
+   "src": "e15d025f6a0c",
+   "t": "<FACE:0B>…So you're a spy!"
+  },
+  {
+   "key": "script:0030:03AE",
+   "src": "f465270c81ff",
+   "t": "<FACE:01>What's your problem?!"
+  },
+  {
+   "key": "script:0030:03C3",
+   "src": "0a72634b197b",
+   "t": "<FACE:0D>…?"
+  },
+  {
+   "key": "script:0030:03CA",
+   "src": "c056e14bc410",
+   "t": "<FACE:0A>Is this Medabot yours?"
+  },
+  {
+   "key": "script:0030:03DB",
+   "src": "b5a4907e88d1",
+   "t": "<FACE:01>And what if it is?"
+  },
+  {
+   "key": "script:0030:03F0",
+   "src": "88789937843f",
+   "t": "<FACE:0A>Never seen a Medabot<NL>like that one<NL>"
+  },
+  {
+   "key": "script:0030:0407",
+   "src": "639c8b4e4e28",
+   "t": "<FACE:0A>Where'd you get it?"
+  },
+  {
+   "key": "script:0030:041A",
+   "src": "d5358dc23c9d",
+   "t": "<FACE:03>Wh-what's it to you!<WAIT><FACE:01>Forget that! Who just<NL>Robattles a stranger!"
+  },
+  {
+   "key": "script:0030:0452",
+   "src": "ce8ae374c3e6",
+   "t": "<FACE:0A>I wanted to check if<NL>you were a spy or not<WAIT><FACE:04>A spy?!"
+  },
+  {
+   "key": "script:0030:047A",
+   "src": "481d3ff7a2c2",
+   "t": "<FACE:0A>Hmmm…"
+  },
+  {
+   "key": "script:0030:0483",
+   "src": "63538671056a",
+   "t": "<FACE:03>Wh-what is it?<NL>Quit staring at me!<WAIT><FACE:0A>You don't look strong<NL>and yet you beat me"
+  },
+  {
+   "key": "script:0030:04C7",
+   "src": "631381b552b6",
+   "t": "<FACE:0C>And I like that<NL>Medabot of yours"
+  },
+  {
+   "key": "script:0030:04DC",
+   "src": "250c61d65c8f",
+   "t": "<FACE:01>You can't have it!"
+  },
+  {
+   "key": "script:0030:04ED",
+   "src": "effe8c60d199",
+   "t": "<FACE:0D>If I want it, I'll<NL>Robattle you for it<NL>"
+  },
+  {
+   "key": "script:0030:0507",
+   "src": "37d46ea3ceac",
+   "t": "<FACE:0A>I'm Fubuki. And you?<WAIT><FACE:00>I'm <PLAYER><NL><WAIT>…But why did you think<NL>I was a spy?"
+  },
+  {
+   "key": "script:0030:053D",
+   "src": "181d409f529c",
+   "t": "<FACE:0A>This accident, though<NL>it doesn't add up<WAIT>So I figured a spy had<NL><WAIT>snuck in and that he<NL>caused the accident"
+  },
+  {
+   "key": "script:0030:058F",
+   "src": "0de39c56c270",
+   "t": "<FACE:04>That's ridiculous…<WAIT><FACE:01>Says you! I've never<NL>seen you at school<WAIT>Pretty suspicious"
+  },
+  {
+   "key": "script:0030:05CD",
+   "src": "641906fc30ff",
+   "t": "<FACE:0A>You really don't know<NL><WAIT>They invited me to the<NL>Premier Open first"
+  },
+  {
+   "key": "script:0030:0607",
+   "src": "f2134c09785e",
+   "t": "<FACE:03>Huh…? So that means…<WAIT><FACE:0A>Others were invited to<NL>this Cluster too"
+  },
+  {
+   "key": "script:0030:0640",
+   "src": "ff1819d59dd8",
+   "t": "<FACE:04>(Haaah… and I thought<NL> I was the first…)"
+  },
+  {
+   "key": "script:0030:0662",
+   "src": "4841a30881af",
+   "t": "<FACE:0A>So if you're not a spy<NL>why hang around here?<WAIT><FACE:03>Uhh, well, that's…"
+  },
+  {
+   "key": "script:0030:069B",
+   "src": "070b08c2de3b",
+   "t": "<FACE:05><PLAYER>, you wanted<NL>the Computer Block?"
+  },
+  {
+   "key": "script:0030:06B5",
+   "src": "40a4fc9e7cf3",
+   "t": "<FACE:03>Hiyori! How long have<NL>you been there?"
+  },
+  {
+   "key": "script:0030:06C6",
+   "src": "18904c20732b",
+   "t": "<FACE:05>It looked fun, so I<NL>watched for a bit<WAIT><FACE:07>Didn't you notice?"
+  },
+  {
+   "key": "script:0030:06EC",
+   "src": "401f5b71fb9c",
+   "t": "<FACE:0A>And who are you?"
+  },
+  {
+   "key": "script:0030:06F8",
+   "src": "6aa3bb870251",
+   "t": "<FACE:05>I'm Hiyori<NL>\"Koharubi Hiyori\""
+  },
+  {
+   "key": "script:0030:070F",
+   "src": "529a8899b9fa",
+   "t": "<FACE:07><PLAYER>'s childhood<NL>friend and classmate!"
+  },
+  {
+   "key": "script:0030:072B",
+   "src": "78f81a8236d1",
+   "t": "<FACE:0B>Hmph"
+  },
+  {
+   "key": "script:0030:0730",
+   "src": "cd8c169f39b7",
+   "t": "<FACE:09>So he hasn't accepted<NL>me yet, huh"
+  },
+  {
+   "key": "script:0030:074B",
+   "src": "8b80aae41084",
+   "t": "<FACE:05>…Anyway<NL><WAIT>No point staying here<NL>Off to Computer Block"
+  },
+  {
+   "key": "script:0030:077D",
+   "src": "0baa575d94e2",
+   "t": "<FACE:0A>Computer Block?<NL><WAIT>What business do you<NL>have there?"
+  },
+  {
+   "key": "script:0030:0797",
+   "src": "a90e15b24031",
+   "t": "<FACE:05>We're after a way to<NL>get the Cluster back<WAIT><FACE:07>Want to come along?"
+  },
+  {
+   "key": "script:0030:07CF",
+   "src": "78f81a8236d1",
+   "t": "<FACE:0B>Hmph"
+  },
+  {
+   "key": "script:0030:07D4",
+   "src": "6880dd2f5a15",
+   "t": "<FACE:0A>…Fine. I'll come along"
+  },
+  {
+   "key": "script:0030:07E8",
+   "src": "1ded6de1da25",
+   "t": "<FACE:05>Let's go, then!"
+  },
+  {
+   "key": "script:0030:07F5",
+   "src": "a989ae73b83e",
+   "t": "<FACE:00>Umm, before that…"
+  },
+  {
+   "key": "script:0030:0804",
+   "src": "50f31d5d2f46",
+   "t": "<FACE:00>Ah! There it is!"
+  },
+  {
+   "key": "script:0030:080F",
+   "src": "07563ad5d5e5",
+   "t": "<FACE:00>If I do this…"
+  },
+  {
+   "key": "script:0030:081E",
+   "src": "470f27fed5e0",
+   "t": "<FACE:0A>Does that actually do<NL>anything?"
+  },
+  {
+   "key": "script:0030:0834",
+   "src": "7cbc05b07167",
+   "t": "<FACE:00>Looks like this panel<NL>controls the Block"
+  },
+  {
+   "key": "script:0030:0857",
+   "src": "409d7a012b62",
+   "t": "<FACE:05>So this calms down the<NL>rampaging Medabots?<WAIT><FACE:0D>Heeeh…"
+  },
+  {
+   "key": "script:0030:0885",
+   "src": "4d1b5370fc3a",
+   "t": "<FACE:00>This place is fine now<NL><WAIT>Well then, let's go!"
+  },
+  {
+   "key": "script:0030:08A1",
+   "src": "5346d9793668",
+   "t": "<FACE:05>Hiyori joined the<NL>team!<WAIT><FACE:0A>Fubuki joined the<NL>team!"
+  }
+ ]
+}

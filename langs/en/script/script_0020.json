@@ -1,0 +1,100 @@
+{
+ "part": "script/script_0020",
+ "entries": [
+  {
+   "key": "script:0020:02B2",
+   "src": "dca45d2bedb1",
+   "t": "<FACE:7D>Middle schoolers today<NL>are hopeless-robo!"
+  },
+  {
+   "key": "script:0020:02D0",
+   "src": "444b5550d7d4",
+   "t": "<FACE:7D>They could pick up<NL>their own trash-robo"
+  },
+  {
+   "key": "script:0020:02EB",
+   "src": "3a10c8337c33",
+   "t": "<FACE:7D>Even when we take a<NL>Block back…<WAIT>we have to start by<NL>cleaning. A pain-robo"
+  },
+  {
+   "key": "script:0020:031D",
+   "src": "5d11d9f69ca7",
+   "t": "<FACE:7D>Even taking out the<NL>trash is a chore-robo"
+  },
+  {
+   "key": "script:0020:0334",
+   "src": "52d2b745c902",
+   "t": "<FACE:7D>Somehow being alone<NL>makes me uneasy-robo…<WAIT>Wish they'd get back<NL>soon-robo"
+  },
+  {
+   "key": "script:0020:035F",
+   "src": "f44a8521a0c6",
+   "t": "<FACE:7D>Welcome back-robo…"
+  },
+  {
+   "key": "script:0020:036A",
+   "src": "bebeccad2a8a",
+   "t": "<FACE:80>Urk! It's <PLAYER>!!"
+  },
+  {
+   "key": "script:0020:0378",
+   "src": "2cfc24583d86",
+   "t": "<FACE:81>(Gotta stall for time<NL>somehow-robo…)<WAIT>(When everyone's back<NL> we'll trap 'em-robo)"
+  },
+  {
+   "key": "script:0020:03AF",
+   "src": "d3349e6d4437",
+   "t": "<FACE:05>What are you doing out<NL>here all by yourself?"
+  },
+  {
+   "key": "script:0020:03CC",
+   "src": "5ce71a0ecb58",
+   "t": "<FACE:7D>N-nothing at all-robo<WAIT><FACE:01>Something's fishy…"
+  },
+  {
+   "key": "script:0020:03E8",
+   "src": "ab87ab050f15",
+   "t": "<FACE:7D>I'm not plotting-robo<NL>Not stalling-robo…"
+  },
+  {
+   "key": "script:0020:040C",
+   "src": "2ed0950cb994",
+   "t": "<FACE:05>Hmmm, so you ARE<NL>stalling for time…<WAIT><FACE:19>Let's finish it before<NL>his pals show up<WAIT><FACE:0A>Let's do that…"
+  },
+  {
+   "key": "script:0020:044C",
+   "src": "0ffec4f743a6",
+   "t": "<FACE:80>W-wait-roboooo!"
+  },
+  {
+   "key": "script:0020:0459",
+   "src": "13e26c8f9d95",
+   "t": "<FACE:14>Enough talkin'!"
+  },
+  {
+   "key": "script:0020:0465",
+   "src": "6824d52dca2c",
+   "t": "<FACE:7D>What're you guys doing<NL>while we're out-robo!<WAIT>Are we that scary to<NL>you-robo?"
+  },
+  {
+   "key": "script:0020:0496",
+   "src": "c230b0e62607",
+   "t": "<FACE:05>You couldn't be<NL>more wrong"
+  },
+  {
+   "key": "script:0020:04A6",
+   "src": "d400b5668746",
+   "t": "<FACE:05>Come at us all<NL>at once!"
+  },
+  {
+   "key": "script:0020:04B9",
+   "src": "e71911a411e1",
+   "t": "<FACE:81>We lost-robo…<NL><WAIT>We hauled the trash<NL>out for nothing-robo…"
+  },
+  {
+   "key": "script:0020:04E5",
+   "src": "ff145acca4f0",
+   "t": "<FACE:05>Come to think of it,<NL>it is tidy in here<WAIT><FACE:00>They're neater than I<NL>thought"
+  }
+ ]
+}

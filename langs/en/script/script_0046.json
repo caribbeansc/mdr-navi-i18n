@@ -1,0 +1,385 @@
+{
+ "part": "script/script_0046",
+ "entries": [
+  {
+   "key": "script:0046:0B1C",
+   "src": "f7c052c7f4f6",
+   "t": "<FACE:03>Wh-what the?!<NL><WAIT>Is my Medal resonating<NL>with something…?"
+  },
+  {
+   "key": "script:0046:0B43",
+   "src": "422ace3df4ec",
+   "t": "<FACE:12>(No way…<DELAY:001E> it can't…)<NL><WAIT>(It shouldn't be able<NL> to move yet…)"
+  },
+  {
+   "key": "script:0046:0B6A",
+   "src": "a6e5e08a147a",
+   "t": "<FACE:00>What's wrong, Shiden?<NL>You look pale…"
+  },
+  {
+   "key": "script:0046:0B84",
+   "src": "bb5c772b9797",
+   "t": "<FACE:08>Look at this!<NL><WAIT>It's the «Power Stone<NL>GX» from TV shopping!"
+  },
+  {
+   "key": "script:0046:0BBB",
+   "src": "4b0377b2c99c",
+   "t": "<FACE:03>Careful, Hiyori!<NL>Might be their trap…"
+  },
+  {
+   "key": "script:0046:0BD4",
+   "src": "71177ebbe04c",
+   "t": "<FACE:03>Oh no! Shiden!"
+  },
+  {
+   "key": "script:0046:0BE1",
+   "src": "fc36e51b9756",
+   "t": "<FACE:06>Aaaah! The one on the<NL>ground is a fake too!"
+  },
+  {
+   "key": "script:0046:0BFC",
+   "src": "fab1b840e2d1",
+   "t": "<FACE:06>What a cunning trap!"
+  },
+  {
+   "key": "script:0046:0C0F",
+   "src": "46c02567a6d9",
+   "t": "<FACE:04>Cunning…?"
+  },
+  {
+   "key": "script:0046:0C1A",
+   "src": "8017dc16a7d6",
+   "t": "<FACE:00>But they knew Hiyori<NL>is a TV shopping nut…"
+  },
+  {
+   "key": "script:0046:0C3F",
+   "src": "42ae2a6755f1",
+   "t": "<FACE:06>Hey, who's a nut?!<WAIT><FACE:05>But it is strange…<NL><WAIT>No time for that now!<NL>After them, quick!"
+  },
+  {
+   "key": "script:0046:0C86",
+   "src": "91a4751d272b",
+   "t": "<FACE:7D>We found a super cool<NL>Medabot-robo!<WAIT>But it just growls and<NL>won't budge-robo!<WAIT>You could move it,<NL>couldn't you-robo?!"
+  },
+  {
+   "key": "script:0046:0CD4",
+   "src": "f0fcf18ed49f",
+   "t": "<FACE:28>Bwa ha ha ha! We know<NL>you're RR's president<WAIT>We've already checked!<NL><WAIT><FACE:27>Be a good boy and tell<NL>us how to move it!"
+  },
+  {
+   "key": "script:0046:0D26",
+   "src": "e391bc43ba5d",
+   "t": "<FACE:10>I don't know!<NL>I built it too strong<WAIT>and no ordinary Medal<NL>can move it. A dud!"
+  },
+  {
+   "key": "script:0046:0D63",
+   "src": "75ce6feeacf1",
+   "t": "<FACE:10>Even this growling<NL>sound it's making<WAIT>is a first for me…"
+  },
+  {
+   "key": "script:0046:0D86",
+   "src": "be4eb0746350",
+   "t": "<FACE:01>Hey, you guys!<NL><WAIT>Let go of Shiden!"
+  },
+  {
+   "key": "script:0046:0D9E",
+   "src": "1fcbf5be3bc3",
+   "t": "<FACE:03>Huh?!<NL><WAIT>Th<DELAY:0014> there it is again!<NL><WAIT>That growl again…"
+  },
+  {
+   "key": "script:0046:0DBE",
+   "src": "85ec025d01a9",
+   "t": "<FACE:27>Ho ho… it seems his<NL>Medal is involved…"
+  },
+  {
+   "key": "script:0046:0DE8",
+   "src": "15a571002888",
+   "t": "<FACE:27>That <PLAYER> again…"
+  },
+  {
+   "key": "script:0046:0DF4",
+   "src": "0ed84e98cc73",
+   "t": "<FACE:05><PLAYER>?<NL>\"Again\"? Meaning…?"
+  },
+  {
+   "key": "script:0046:0E04",
+   "src": "87141b7eb0ba",
+   "t": "<FACE:27>Ahem!<NL><WAIT><FACE:28>That boy's Medal seems<NL>to be involved<WAIT>Gang members!<NL><WAIT>Take that Medal from<NL>him at any cost!"
+  },
+  {
+   "key": "script:0046:0E50",
+   "src": "fcf2a8d02acf",
+   "t": "<FACE:81>Whaaat?! Just us-robo?<NL><WAIT>Officers lead from the<NL>front line-robo!"
+  },
+  {
+   "key": "script:0046:0E86",
+   "src": "7a1beb7f53f0",
+   "t": "<FACE:27>Enough! Silence!<NL><WAIT>Officers are important<NL>and chosen people!<WAIT>What if something<NL>happened to me?!<WAIT>From now on you grunts<NL>will be my shield!<WAIT>I'll take the rear and<NL>give the orders!"
+  },
+  {
+   "key": "script:0046:0F0D",
+   "src": "9481d508905b",
+   "t": "<FACE:06>That nasty attitude…<NL>I've seen it before…"
+  },
+  {
+   "key": "script:0046:0F24",
+   "src": "a3009be05bea",
+   "t": "<FACE:81>Aaah! He ran off by<NL>himself-robo!<WAIT>So mean-robo! Our new<NL>officer works us raw!"
+  },
+  {
+   "key": "script:0046:0F61",
+   "src": "6d78d115016b",
+   "t": "<FACE:12>Impossible! It's gone<NL>completely berserk!<WAIT>If its energy is freed<NL>the Cluster is done!"
+  },
+  {
+   "key": "script:0046:0F9B",
+   "src": "b7e262d712c4",
+   "t": "<FACE:03>Why would you build<NL>something like that?!"
+  },
+  {
+   "key": "script:0046:0FB1",
+   "src": "90342996b2de",
+   "t": "<FACE:01>We have to stop it!<NL>Everyone, help me!"
+  },
+  {
+   "key": "script:0046:0FD2",
+   "src": "e0036b9980a2",
+   "t": "<FACE:12>Stop it? But how?<NL><WAIT><FACE:10>A Medabot that could<NL>beat it berserk…<WAIT>doesn't exist!<NL><WAIT>And even if we won,<NL>no promise it stops…"
+  },
+  {
+   "key": "script:0046:1034",
+   "src": "fd38eab17220",
+   "t": "<FACE:01>But there's no other<NL>way, right?"
+  },
+  {
+   "key": "script:0046:1045",
+   "src": "5ca4f058f20f",
+   "t": "<FACE:06>Right! It beats doing<NL>nothing at all!<WAIT>If you're giving up,<NL>watch from a corner!"
+  },
+  {
+   "key": "script:0046:107B",
+   "src": "faf0726140f1",
+   "t": "<FACE:05>Come on, everyone!<NL>Let's help <PLAYER>!"
+  },
+  {
+   "key": "script:0046:1091",
+   "src": "82ea3bd4b57d",
+   "t": "<FACE:12>(Give up… I see.)<NL><WAIT><FACE:13>(I never had faith in<NL> my own ability…)<WAIT>(I was afraid to fight<NL> and settle things…)"
+  },
+  {
+   "key": "script:0046:10E4",
+   "src": "622bdb10e41c",
+   "t": "<FACE:0F>Right… no other move<NL>to make. Do or die…<WAIT>Let's take it on!<NL>"
+  },
+  {
+   "key": "script:0046:111A",
+   "src": "2d02186019eb",
+   "t": "<FACE:0F>In that case…"
+  },
+  {
+   "key": "script:0046:1126",
+   "src": "bdb642e573c5",
+   "t": "<FACE:11>This is the strongest<NL>Medabot I ever built!<NL><WAIT>I meant to debut it in<NL>style next tournament<WAIT>But now, let's use it!<NL><WAIT>Its power is beyond<NL>anything you've seen!"
+  },
+  {
+   "key": "script:0046:1191",
+   "src": "022d9a2544f0",
+   "t": "<FACE:15>Should've brought that<NL>out sooner…<WAIT><FACE:1A>You were still hiding<NL>something like that…?"
+  },
+  {
+   "key": "script:0046:11C0",
+   "src": "45142f7685fb",
+   "t": "<FACE:05>Phew… looks like the<NL>rampage has stopped"
+  },
+  {
+   "key": "script:0046:1259",
+   "src": "91fb15d8b3af",
+   "t": "<FACE:0F>This is the successor<NL>to your «Sonic Stag»…<WAIT>The «Luminous Stag».<NL><WAIT>Its balance control<NL>failed, so it stopped<WAIT>But with today's start<NL>data, it should obey<WAIT>From now on, use it"
+  },
+  {
+   "key": "script:0046:12D9",
+   "src": "eecb4569054b",
+   "t": "<FACE:03>Huh?!<NL><WAIT>But it's your newest…<WAIT><FACE:0F>It seems to match your<NL>Medal best of all…"
+  },
+  {
+   "key": "script:0046:130F",
+   "src": "6ba763ffee48",
+   "t": "<FACE:0F>To tell the truth,<NL>this Medabot<WAIT>uses technology from<NL>the Mistral analysis<WAIT>You said you found the<NL>Medal in a cave…<WAIT>If so, it must be tied<NL>to Mistral somehow."
+  },
+  {
+   "key": "script:0046:138B",
+   "src": "11feea6af3b4",
+   "t": "<FACE:12>Maybe it woke up<NL><WAIT>because it resonated<NL>with that Medal…"
+  },
+  {
+   "key": "script:0046:13B5",
+   "src": "f900b518ba36",
+   "t": "<FACE:04>Mistral… it doesn't<NL>call to me anymore…<WAIT>Was I just hearing<NL>things…?"
+  },
+  {
+   "key": "script:0046:13E9",
+   "src": "6304365ea917",
+   "t": "<FACE:05>What's the harm?<NL>Just take it!"
+  },
+  {
+   "key": "script:0046:13FE",
+   "src": "7f065427ddde",
+   "t": "<FACE:06>(That Sperobo officer<NL> from before…)<WAIT>(I'm sure that was…)"
+  },
+  {
+   "key": "script:0046:1420",
+   "src": "cd5d83e32174",
+   "t": "<FACE:0D>Master Shiden!"
+  },
+  {
+   "key": "script:0046:142A",
+   "src": "9328a2c8ad4c",
+   "t": "<FACE:0A>But the door…<WAIT><FACE:0E>Without the key we<NL>can't get in…"
+  },
+  {
+   "key": "script:0046:1450",
+   "src": "1b8aae881936",
+   "t": "<FACE:1F>Hee hee hee…<NL><WAIT>Serves him right!<WAIT><FACE:1E>Ever since he found<NL>that Medabot, brother<WAIT>has shut himself in<NL>here…"
+  },
+  {
+   "key": "script:0046:1493",
+   "src": "45a6af842d8a",
+   "t": "<FACE:21>To think he'd cast me<NL>aside like this…"
+  },
+  {
+   "key": "script:0046:14A8",
+   "src": "5c32ea0342ce",
+   "t": "<FACE:1E>As he wishes! Locked<NL>in here forever!"
+  },
+  {
+   "key": "script:0046:14CD",
+   "src": "5c88ca2116ae",
+   "t": "<FACE:0A>Lady Rainy!"
+  },
+  {
+   "key": "script:0046:14D7",
+   "src": "bc332bb36947",
+   "t": "<FACE:0E>…But, Lady Rainy…<NL>this flower fortune…<WAIT>Why always leave the<NL>last petal in place?<WAIT><FACE:0A>It's because…<DELAY:001E> you<DELAY:001E><NL>are still waiting?<WAIT>…For Master Shiden…"
+  },
+  {
+   "key": "script:0046:1542",
+   "src": "33928e8c9d79",
+   "t": "<FACE:20>Wh…!<NL><WAIT>What are you saying…<NL>Fubuki!"
+  },
+  {
+   "key": "script:0046:155A",
+   "src": "3c3fc6c2e61c",
+   "t": "<FACE:00>Didn't you come here<NL>to save Shiden?!"
+  },
+  {
+   "key": "script:0046:157C",
+   "src": "0b03cadd87b6",
+   "t": "<FACE:20>…That's not…<NL><WAIT>…That's not it!<NL><WAIT>I came to crush you<NL>for helping brother!"
+  },
+  {
+   "key": "script:0046:15B4",
+   "src": "bb10248571e2",
+   "t": "<FACE:0A>Lady Rainy…<NL><WAIT>Just waiting forever<NL>won't do…<WAIT>If you don't act…<DELAY:001E><NL>nothing will change…"
+  },
+  {
+   "key": "script:0046:15F9",
+   "src": "f8a4b65edd8e",
+   "t": "<FACE:1E>Don't talk like you<NL>understand!"
+  },
+  {
+   "key": "script:0046:160E",
+   "src": "6bd1dd7a3613",
+   "t": "<FACE:0D>This is Lady Rainy's<NL>card!"
+  },
+  {
+   "key": "script:0046:1621",
+   "src": "a85d890282b0",
+   "t": "<FACE:0A>With this, the door<NL>will open!"
+  },
+  {
+   "key": "script:0046:1632",
+   "src": "04e90db3bb9b",
+   "t": "<FACE:1E>Hmph!<NL><WAIT>That Medabot inside<NL>has growled for ages!<WAIT>It's going to go<NL>berserk, I'm sure!"
+  },
+  {
+   "key": "script:0046:166F",
+   "src": "9204eab98805",
+   "t": "<FACE:1E>Everyone…<DELAY:0014> along with<NL>this Block…<WAIT><FACE:20>I hope you're all<NL>smashed to pieces!"
+  },
+  {
+   "key": "script:0046:16A1",
+   "src": "19e11b655462",
+   "t": "<FACE:0E>Lady Rainy…"
+  },
+  {
+   "key": "script:0046:16AC",
+   "src": "20fe506d0055",
+   "t": "<FACE:05>Anyway, let's get that<NL>door open!"
+  },
+  {
+   "key": "script:0046:16C0",
+   "src": "b9b3d22edaa1",
+   "t": "<FACE:0A>Ah… right…"
+  },
+  {
+   "key": "script:0046:16C9",
+   "src": "fdc75db0baa1",
+   "t": "<FACE:0F>That's right…<NL>I don't need it now…"
+  },
+  {
+   "key": "script:0046:16DF",
+   "src": "c7430356ed5f",
+   "t": "<FACE:0F>…Hey, <PLAYER>…<NL><WAIT>At first I reached the<NL>top on my own merit…<WAIT>In a small net ranking<NL>my company started…"
+  },
+  {
+   "key": "script:0046:172C",
+   "src": "7f7c58805d02",
+   "t": "<FACE:13>But little by little<NL>the ranking grew…<WAIT>Staying at the top got<NL>harder and harder…<WAIT>So…<DELAY:001E> I faked the data…"
+  },
+  {
+   "key": "script:0046:1774",
+   "src": "ebcacc6a5225",
+   "t": "<FACE:10>But that couldn't last<NL><WAIT>Our own tournament was<NL>near. To win for sure"
+  },
+  {
+   "key": "script:0046:17B5",
+   "src": "d27446ae496d",
+   "t": "<FACE:10>…I built this thing…"
+  },
+  {
+   "key": "script:0046:17C5",
+   "src": "eaa958fcd703",
+   "t": "<FACE:13>But it failed. Look<NL>how it turned out…"
+  },
+  {
+   "key": "script:0046:17D9",
+   "src": "e8d1052de33a",
+   "t": "<FACE:0F>But all of that ends<NL>here."
+  },
+  {
+   "key": "script:0046:17EF",
+   "src": "fe6bf3106043",
+   "t": "<FACE:0F>Wrapped up in this,<NL>I've neglected Rainy…"
+  },
+  {
+   "key": "script:0046:180B",
+   "src": "1e810115e697",
+   "t": "<FACE:0A>Oh, that reminds me!<NL>We saw Lady Rainy!"
+  },
+  {
+   "key": "script:0046:1828",
+   "src": "c18b4778ddc2",
+   "t": "<FACE:12>I see…"
+  },
+  {
+   "key": "script:0046:1830",
+   "src": "1f526243a119",
+   "t": "<FACE:13>She must hold a grudge<NL>against me…"
+  },
+  {
+   "key": "script:0046:184B",
+   "src": "8bd042bf4ed3",
+   "t": "<FACE:08>Hey! That Medabot's<NL>moving even wilder!"
+  }
+ ]
+}

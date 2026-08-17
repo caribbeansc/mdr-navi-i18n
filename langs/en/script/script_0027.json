@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0027",
+ "entries": [
+  {
+   "key": "script:0027:10B3",
+   "src": "c34db48d59fa",
+   "t": "<FACE:08>This is…!"
+  },
+  {
+   "key": "script:0027:10BD",
+   "src": "d23fea9b078a",
+   "t": "<FACE:00>What's wrong, Hiyori?<NL>"
+  },
+  {
+   "key": "script:0027:10CB",
+   "src": "6a697e58fa8d",
+   "t": "<FACE:04>Medafighter ranking<NL>data, huh…<NL>"
+  },
+  {
+   "key": "script:0027:10E2",
+   "src": "429cb36c4ffb",
+   "t": "<FACE:00>What about it?"
+  },
+  {
+   "key": "script:0027:10F0",
+   "src": "ecf23c885514",
+   "t": "<FACE:06>Look closer, <PLAYER>!"
+  },
+  {
+   "key": "script:0027:1102",
+   "src": "c91dcfc71970",
+   "t": "<FACE:03>Two ranking lists…?<NL>These two lists…!!"
+  },
+  {
+   "key": "script:0027:1129",
+   "src": "72c2c34f5c13",
+   "t": "<FACE:05>See it?<NL><WAIT>On this list here<NL><WAIT>that smug Medafighter<NL>Shiden never shows up<WAIT>but on that one Shiden<NL>sits right at the top<WAIT>Know what that means?"
+  },
+  {
+   "key": "script:0027:119F",
+   "src": "b0d7a7a9deba",
+   "t": "<FACE:03>Huh? But…<NL>that can't be…"
+  },
+  {
+   "key": "script:0027:11B2",
+   "src": "bca0acd912dd",
+   "t": "<FACE:06>The data was rewritten<NL><WAIT>And the culprit… well,<NL>there's little doubt"
+  },
+  {
+   "key": "script:0027:11DC",
+   "src": "b26f8de796ca",
+   "t": "<FACE:04>But one Medafighter,<NL>acting alone…<WAIT>couldn't rewrite the<NL>rankings that easily<WAIT>Right?"
+  },
+  {
+   "key": "script:0027:121F",
+   "src": "40add2f0ba28",
+   "t": "<FACE:05>Well, yeah…<NL><WAIT>True, this alone isn't<NL>proof enough<WAIT><FACE:06>We'll have to ask the<NL>man himself…<WAIT><FACE:01>For now, taking back<NL>control comes first<WAIT><FACE:04>Right, that's…"
+  },
+  {
+   "key": "script:0027:1288",
+   "src": "c2c3451764fa",
+   "t": "<FACE:04>It's bugging me, but…"
+  },
+  {
+   "key": "script:0027:1295",
+   "src": "b7f35c2c2134",
+   "t": "<FACE:05>Let's leave that part<NL>to them<WAIT>I don't know how much<NL>help they'll be…<WAIT>And Shiden seems to be<NL>here too<WAIT>We've got nowhere else<NL>to go<WAIT>so we'd come to the<NL>Computer Block<WAIT>He'd figure that much,<NL>right?<WAIT>If he faked the data,<NL>wouldn't he hide it?"
+  },
+  {
+   "key": "script:0027:133F",
+   "src": "1c70a090faf0",
+   "t": "<FACE:04>Shiden…<NL>"
+  },
+  {
+   "key": "script:0027:134A",
+   "src": "c51c8a00c120",
+   "t": "<FACE:04>(Shiden… back when he<NL> showed me <MEDABOT>…)<NL><WAIT>(He said «our RR<NL> Company»…)"
+  },
+  {
+   "key": "script:0027:1382",
+   "src": "8c67aa018278",
+   "t": "<FACE:05>Right, let's split up<NL>You right, me left<WAIT>Dawdle and the proof<NL>gets erased too"
+  },
+  {
+   "key": "script:0027:13BF",
+   "src": "e926d1ce1419",
+   "t": "<FACE:04>(If he's RR staff…)"
+  },
+  {
+   "key": "script:0027:13D5",
+   "src": "14fbd5489f70",
+   "t": "<FACE:05>(Not bad, he's trying)<NL>"
+  },
+  {
+   "key": "script:0027:13E8",
+   "src": "1c1672886bfd",
+   "t": "<FACE:05>(«Staff Only», huh…)<NL>"
+  },
+  {
+   "key": "script:0027:1405",
+   "src": "01dd4419c743",
+   "t": "<FACE:05>(By now we're not just<NL> staff, we're in it.)"
+  },
+  {
+   "key": "script:0027:1430",
+   "src": "2120a3d2d0f8",
+   "t": "<FACE:08>(Oh?)<NL>"
+  },
+  {
+   "key": "script:0027:1439",
+   "src": "ee3cc251a6a1",
+   "t": "<FACE:05>(Hmm…)<NL><WAIT>(RR VIP Card No. 0001<DELAY:001E><NL> «Murasame Shiden»<DELAY:000A>…)<WAIT>(That's as good as<NL> saying «I did it»…)"
+  },
+  {
+   "key": "script:0027:2B44",
+   "src": "e5bb080bc9ba",
+   "t": "<FACE:04>This is it…<NL><WAIT><FACE:01>Let's hurry!<NL>Hiyori and I go here!<WAIT>Fubuki and the rest,<NL>take the other side<WAIT><FACE:0A>Got it"
+  }
+ ]
+}

@@ -8,21 +8,28 @@ type your text, and it builds you a patched ROM. Adding a language takes a
 folder, not code, and improving a translation that is already here takes a pull
 request.
 
-It starts out with one translation:
+It starts out with two translations:
 
 | Language | Lines | State |
 |---|---:|---|
-| Español | menus + chapter 1 | in progress |
+| Español | menus + scripts | in progress |
+| English | menus + scripts | in progress |
 
-The Spanish glossary follows the Latin American dub of the anime (Etcétera
-Group / Fox Kids, 2002), shared with
-[medarot-rb-i18n](https://github.com/caribbeansc/medarot-rb-i18n) so both games
-speak the same words.
+Each glossary follows the anime's own dub — the Latin American one (Etcétera
+Group / Fox Kids, 2002) for Spanish, the English one (Nelvana / Fox Kids, 2001)
+for English — so a player meets the same words here, in the sibling game
+[medarot-rb-i18n](https://github.com/caribbeansc/medarot-rb-i18n), and on
+television.
+
+**Both releases work.** Medarot Navi shipped as Kuwagata and Kabuto on the same
+day, and they are the same build with the data shifted a few hundred bytes. A
+pack is written once, against Kuwagata, and `navi/align.py` says where each of
+its lines lives in the other cartridge; only what the two releases genuinely
+word differently — the cover Medabot's own scenes — needs its own translation,
+under `langs/<code>/kabuto/`.
 
 > **You need your own copy of the game.** These tools read your own cartridge
-> dump. They do not contain the game and cannot get it for you. The Kuwagata
-> release is fully mapped; Kabuto needs its constants filled in
-> (`navi/rom.py`).
+> dump. They do not contain the game and cannot get it for you.
 
 ## Use it
 

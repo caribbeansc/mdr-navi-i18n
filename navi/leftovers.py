@@ -101,6 +101,16 @@ DATA_AREAS = tuple((0x7ECA90 + i * 0x10 + 9, 0x7ECA90 + (i + 1) * 0x10)
                    for i in range(86))
 
 
+def data_areas(original: Rom) -> list[tuple[int, int]]:
+    """:data:`DATA_AREAS`, in the offsets of whichever release this is."""
+    out = []
+    for low, high in DATA_AREAS:
+        start = original.at(low, high - low)
+        if start is not None:
+            out.append((start, start + high - low))
+    return out
+
+
 def script_area(original: Rom) -> list[tuple[int, int]]:
     """Where the event scripts live, as ``(start, end)`` pairs.
 

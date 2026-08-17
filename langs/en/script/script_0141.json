@@ -1,0 +1,30 @@
+{
+ "part": "script/script_0141",
+ "entries": [
+  {
+   "key": "script:0141:00BE",
+   "src": "0846bd4ff5b4",
+   "t": "<FACE:1E>Oh, <PLAYER>, it's you…<NL>Please, hear me out!<WAIT><FACE:21>My dear brother is<NL>being simply awful!<WAIT><FACE:00>Hm? What's wrong?<WAIT><FACE:1E>I offered to help him<NL>with his work, and…<WAIT>\"You're just a child,\"<NL>and he ignored me!"
+  },
+  {
+   "key": "script:0141:014F",
+   "src": "8479b5210330",
+   "t": "<FACE:20>Isn't that just awful?"
+  },
+  {
+   "key": "script:0141:0164",
+   "src": "f7381395aa1b",
+   "t": "<FACE:1F>That being the case,<NL>do keep me company"
+  },
+  {
+   "key": "script:0141:0187",
+   "src": "86ff6fb37f69",
+   "t": "<FACE:1E>Most impressive<WAIT><FACE:1E>No wonder my brother<NL>has you on his mind"
+  },
+  {
+   "key": "script:0141:01B1",
+   "src": "fbce2fb01502",
+   "t": "<FACE:21>This is why my brother<NL>treats me like a kid…"
+  }
+ ]
+}

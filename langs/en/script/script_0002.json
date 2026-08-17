@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0002",
+ "entries": [
+  {
+   "key": "script:0002:0466",
+   "src": "8573bbeb5a76",
+   "t": "<FACE:7D>I can't take it-robo…<NL><WAIT>It's so hopeless-robo…<NL><WAIT>What do we do-robo…"
+  },
+  {
+   "key": "script:0002:0487",
+   "src": "f83c7d05dc18",
+   "t": "<FACE:7D>…"
+  },
+  {
+   "key": "script:0002:048D",
+   "src": "f83c7d05dc18",
+   "t": "<FACE:7D>…"
+  },
+  {
+   "key": "script:0002:0493",
+   "src": "d8e4ea857658",
+   "t": "<FACE:7E>Gwooogh-robo!"
+  },
+  {
+   "key": "script:0002:049C",
+   "src": "842954af3a8e",
+   "t": "<FACE:81>W-what's wrong-robo"
+  },
+  {
+   "key": "script:0002:04A7",
+   "src": "fabdd547a5d1",
+   "t": "<FACE:7E>Gaah!! It's over-robo!<NL><WAIT>I can't do it-robo!<NL>I'm finished-robo!!<WAIT><FACE:81>C-calm down-robo"
+  },
+  {
+   "key": "script:0002:04D6",
+   "src": "713973efb842",
+   "t": "<FACE:7E>Shut up-robo!<NL>Stuck in a tiny Block<WAIT>sneered at as dropouts<NL>living an empty life!<WAIT>How do I calm down!?<NL>Don't you care-robo?!<WAIT><FACE:81>W-we've got no<NL>choice-robo…"
+  },
+  {
+   "key": "script:0002:0549",
+   "src": "bda532a7c979",
+   "t": "<FACE:04>Wh-what was that?<NL><WAIT><FACE:0A>Someone's fired up<NL><WAIT><FACE:09>Hope it doesn't turn<NL>into trouble"
+  },
+  {
+   "key": "script:0002:0582",
+   "src": "60b29b7c0be2",
+   "t": "<FACE:7E>Gwaaah-robo!"
+  },
+  {
+   "key": "script:0002:058B",
+   "src": "f9ca0fcdd0e9",
+   "t": "<FACE:80>W-wait-robo<NL><WAIT><FACE:03>H-hey, hold on…"
+  },
+  {
+   "key": "script:0002:05A2",
+   "src": "f83c7d05dc18",
+   "t": "<FACE:7D>…"
+  },
+  {
+   "key": "script:0002:05A8",
+   "src": "2525b861a808",
+   "t": "<FACE:81><PLAYER>-robo!<NL>It's terrible-robo!"
+  },
+  {
+   "key": "script:0002:05B7",
+   "src": "aa4936956acb",
+   "t": "<FACE:7D>He's usually calm-robo<NL><WAIT>Now he's come to and<NL>he's freaking out"
+  },
+  {
+   "key": "script:0002:05DB",
+   "src": "b8de5ef0086c",
+   "t": "<FACE:81>Wh-what do we do-robo!<NL><WAIT><FACE:05>Get lost, right now!"
+  },
+  {
+   "key": "script:0002:05FA",
+   "src": "f5990c96bff7",
+   "t": "<FACE:81>Y-yes-robo"
+  },
+  {
+   "key": "script:0002:0603",
+   "src": "5187bf1efbd8",
+   "t": "<FACE:80>Wait up-roboo!"
+  }
+ ]
+}

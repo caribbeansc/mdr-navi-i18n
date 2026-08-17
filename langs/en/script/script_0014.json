@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0014",
+ "entries": [
+  {
+   "key": "script:0014:0297",
+   "src": "3975a291a174",
+   "t": "<FACE:7D>We finally got it<NL>back-robo"
+  },
+  {
+   "key": "script:0014:02A6",
+   "src": "613380385639",
+   "t": "<FACE:7D>No letting our guard<NL>down-robo!<WAIT>Losing the Block put<NL>us behind-robo!<WAIT>The Sperobos are in<NL>big trouble-robo!"
+  },
+  {
+   "key": "script:0014:02EA",
+   "src": "d706444e1e1e",
+   "t": "<FACE:7D>Right-robo!<NL><WAIT>If we don't do it,<NL>who will-robo!"
+  },
+  {
+   "key": "script:0014:0308",
+   "src": "e204176f29e0",
+   "t": "<FACE:7D>But nothing was gone,<NL>was it-robo?<WAIT>Those middle schoolers<NL>missed its value-robo"
+  },
+  {
+   "key": "script:0014:033F",
+   "src": "5bd27b209eb2",
+   "t": "<FACE:7D>That was a relief-robo"
+  },
+  {
+   "key": "script:0014:0349",
+   "src": "b88a91b7b9a1",
+   "t": "<FACE:00>Are they at it again?"
+  },
+  {
+   "key": "script:0014:0357",
+   "src": "e197b2b693b7",
+   "t": "<FACE:7D>They're back-robo!"
+  },
+  {
+   "key": "script:0014:0362",
+   "src": "af7c692286c4",
+   "t": "<FACE:7D>We're not handing over<NL>this key spot-robo!<WAIT>This time we'll hold<NL>it-robo!"
+  },
+  {
+   "key": "script:0014:038C",
+   "src": "344ab90ca1ee",
+   "t": "<FACE:81>W-we lost again-robo…"
+  },
+  {
+   "key": "script:0014:039A",
+   "src": "cdba36d019d3",
+   "t": "<FACE:81>If we don't get it<NL>back, we're done-robo"
+  },
+  {
+   "key": "script:0014:03B3",
+   "src": "2d877b37482e",
+   "t": "<FACE:05>Looks like they were<NL>at it again"
+  }
+ ]
+}

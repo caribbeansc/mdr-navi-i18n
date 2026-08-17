@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0073",
+ "entries": [
+  {
+   "key": "script:0073:05B2",
+   "src": "35c305a0b671",
+   "t": "<FACE:00>Hiyori, what's this<NL>Block?"
+  },
+  {
+   "key": "script:0073:05C1",
+   "src": "14363c2787e8",
+   "t": "<FACE:05>In the pamphlet…<NL>«A forest-themed<WAIT>exhibit Block. Theme:<NL>beasts of the jungle»<WAIT>is what it says"
+  },
+  {
+   "key": "script:0073:0609",
+   "src": "b32e358e5da6",
+   "t": "<FACE:00>Huh, so in here…<NL><WAIT><FACE:00>they display Medabots<NL>that rule the forest<WAIT>Maybe some are hiding<NL>somewhere too"
+  },
+  {
+   "key": "script:0073:0652",
+   "src": "c96ffb613f77",
+   "t": "<FACE:00>What's wrong, Hiyori?"
+  },
+  {
+   "key": "script:0073:0661",
+   "src": "a87d395265b8",
+   "t": "<FACE:05>Did you hear something<NL>just now?"
+  },
+  {
+   "key": "script:0073:0673",
+   "src": "97126657c62b",
+   "t": "<FACE:08>What's happening?"
+  },
+  {
+   "key": "script:0073:067E",
+   "src": "adb67abe1e73",
+   "t": "<FACE:08>These Medabots…<NL>something's off"
+  },
+  {
+   "key": "script:0073:069D",
+   "src": "092b627d6f3f",
+   "t": "<FACE:01>(This is bad!)"
+  },
+  {
+   "key": "script:0073:06AC",
+   "src": "1d0033e26fe4",
+   "t": "<FACE:01>Hiyori!<NL><WAIT><FACE:01>You run right!<NL>I'll go left!"
+  },
+  {
+   "key": "script:0073:06CD",
+   "src": "01aeff1e6026",
+   "t": "<FACE:03>(Whew, that was close)"
+  },
+  {
+   "key": "script:0073:06DE",
+   "src": "a7e6335fd4b9",
+   "t": "<FACE:04>Still…"
+  },
+  {
+   "key": "script:0073:06EA",
+   "src": "8f3575f5baec",
+   "t": "<FACE:04>Did Hiyori go on<NL>ahead…?"
+  },
+  {
+   "key": "script:0073:0701",
+   "src": "58ff42c0921e",
+   "t": "<FACE:01>I've got to catch up<NL>with Hiyori"
+  },
+  {
+   "key": "script:0073:0715",
+   "src": "5fff42989a5f",
+   "t": "<FACE:04>Uhh…<NL><WAIT>What's this…?"
+  },
+  {
+   "key": "script:0073:0727",
+   "src": "cd0f43305337",
+   "t": "<FACE:03>I get it!<NL>It's the controls!"
+  },
+  {
+   "key": "script:0073:0757",
+   "src": "5c0304394b3c",
+   "t": "<FACE:04>More still coming…<NL><WAIT>This'll never end…"
+  },
+  {
+   "key": "script:0073:0774",
+   "src": "23874536a89f",
+   "t": "<FACE:65>Intruder detected in<NL>the Block… Removing…"
+  },
+  {
+   "key": "script:0073:079A",
+   "src": "a49a32fbab58",
+   "t": "<FACE:01>At this rate…"
+  },
+  {
+   "key": "script:0073:07A5",
+   "src": "62ab0040fa03",
+   "t": "<FACE:03>That's it!"
+  },
+  {
+   "key": "script:0073:07AC",
+   "src": "aef226d8dbb9",
+   "t": "<FACE:00>If I mess with this,<NL>maybe…"
+  },
+  {
+   "key": "script:0073:07C1",
+   "src": "7c964338331e",
+   "t": "<FACE:65>No anomalies in the<NL>Block…<WAIT>Enjoy the exhibits…"
+  },
+  {
+   "key": "script:0073:07ED",
+   "src": "c13c34d588de",
+   "t": "<FACE:00>Phew, what a relief…"
+  },
+  {
+   "key": "script:0073:07F6",
+   "src": "eed428932d66",
+   "t": "<FACE:00>Looks like this thing<NL>calms the Medabots…"
+  }
+ ]
+}

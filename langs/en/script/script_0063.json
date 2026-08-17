@@ -1,0 +1,180 @@
+{
+ "part": "script/script_0063",
+ "entries": [
+  {
+   "key": "script:0063:04CA",
+   "src": "e18c379d25f9",
+   "t": "<FACE:08>Sooo hooot!<NL>What is this heat!<WAIT><FACE:06>Even if it's to test<NL>Medabots…<WAIT>Recreating the desert<NL>heat just as it is!"
+  },
+  {
+   "key": "script:0063:0513",
+   "src": "e8922a609053",
+   "t": "<FACE:05><PLAYER>!<NL><WAIT>No one could be out<NL>in a place like this<WAIT>Let's check quick and<NL>move on!"
+  },
+  {
+   "key": "script:0063:0544",
+   "src": "84397b738140",
+   "t": "<FACE:01>…If she helped out<NL>we'd finish sooner…<WAIT><FACE:06>You said something?"
+  },
+  {
+   "key": "script:0063:056B",
+   "src": "b24d3270ac18",
+   "t": "<FACE:03>N-nope, nothing!"
+  },
+  {
+   "key": "script:0063:0579",
+   "src": "2a4297566988",
+   "t": "<FACE:14>Hoooold it!<NL><WAIT>Heh heh heh… <PLAYER><NL>No further for you!<WAIT><FACE:19>We're takin' this<NL>place, we are!"
+  },
+  {
+   "key": "script:0063:05B5",
+   "src": "da5ab353674c",
+   "t": "<FACE:05>You two… why are you<NL>in a spot this hot?"
+  },
+  {
+   "key": "script:0063:05D3",
+   "src": "8347e68bd7fb",
+   "t": "<FACE:1A>S-shut it, you!<NL>We like this heat!"
+  },
+  {
+   "key": "script:0063:05F7",
+   "src": "20f7bdbe6cad",
+   "t": "<FACE:14>That's right!<NL><WAIT>A real man can't lose<NL>to nature's worst!"
+  },
+  {
+   "key": "script:0063:0633",
+   "src": "9415410a6fde",
+   "t": "<FACE:07>Oh, sorry!<NL>I thought you'd been<WAIT>shut out, and this was<NL>the only place left!"
+  },
+  {
+   "key": "script:0063:066F",
+   "src": "a61a8c6c8a87",
+   "t": "<FACE:15>S-shut your mouth!<NL><WAIT>Gutless lot like that,<NL>we don't want 'em!<WAIT>What's so great about<NL>running in a pack?"
+  },
+  {
+   "key": "script:0063:06B4",
+   "src": "8400db472355",
+   "t": "<FACE:0A>Hmm, with folks like<NL>this, order's hard…"
+  },
+  {
+   "key": "script:0063:06D7",
+   "src": "94d0b07021f1",
+   "t": "<FACE:14>Eh? Don't know that<NL>face, do I?<WAIT><FACE:19>And who might he be?"
+  },
+  {
+   "key": "script:0063:06F7",
+   "src": "bbb5dfff36cd",
+   "t": "<FACE:00>Ah… he's Fubu…"
+  },
+  {
+   "key": "script:0063:0706",
+   "src": "c9378199488b",
+   "t": "<FACE:0D>I came to visit like<NL>you and got caught up<WAIT><FACE:0A>Right now I'm with<NL>this <PLAYER>…<WAIT>You lot should help<NL>him out too"
+  },
+  {
+   "key": "script:0063:0769",
+   "src": "af23e48053d3",
+   "t": "<FACE:15>An outsider, huh!<NL><WAIT>If you want our help,<NL>try beating us first!"
+  },
+  {
+   "key": "script:0063:0795",
+   "src": "d435e6ab9b07",
+   "t": "<FACE:1B>All talk! A coward who<NL>can't even Robattle!"
+  },
+  {
+   "key": "script:0063:07BA",
+   "src": "e25152ad1ae9",
+   "t": "<FACE:0B>Hmph… after all that,<NL>I've gotta fight now…"
+  },
+  {
+   "key": "script:0063:07E2",
+   "src": "2ac15032beea",
+   "t": "<FACE:0A>All right, <PLAYER><NL>You'll help, right!"
+  },
+  {
+   "key": "script:0063:07F9",
+   "src": "f035dcbedc54",
+   "t": "<FACE:0A>Hmph, good Medabots,<NL>but zero teamwork<WAIT>One of you must lead<NL>and pull the team…<WAIT>In a team Robattle,<NL>don't fight scattered"
+  },
+  {
+   "key": "script:0063:0859",
+   "src": "680dab239a98",
+   "t": "<FACE:14>…<WAIT><FACE:1D>…<WAIT><FACE:0B>Hm? What is it?<NL>Another match?"
+  },
+  {
+   "key": "script:0063:087C",
+   "src": "350226ead923",
+   "t": "<FACE:19>We underestimated you!<NL><WAIT>We felt keenly that we<NL>needed a leader too!"
+  },
+  {
+   "key": "script:0063:08AF",
+   "src": "e325ff6a39d9",
+   "t": "<FACE:18>We…<NL><WAIT>We've been camped in<NL>this manly spot<WAIT>looking for someone<NL>worthy to be leader!"
+  },
+  {
+   "key": "script:0063:08ED",
+   "src": "f1e739b592a4",
+   "t": "<FACE:14>You're the one! Our<NL>leader!<WAIT>Won't you be our…<NL>our leader?"
+  },
+  {
+   "key": "script:0063:0921",
+   "src": "6f2b3f607511",
+   "t": "<FACE:0D>H-hey! Cut it out!"
+  },
+  {
+   "key": "script:0063:0932",
+   "src": "7c3b70fc2e9a",
+   "t": "<FACE:14>Won't let go!<NL>Won't let go, leader!<WAIT><FACE:19>I-I'll follow you<NL>anywhere, I will!"
+  },
+  {
+   "key": "script:0063:0964",
+   "src": "a385e2f3a100",
+   "t": "<FACE:0D>Gyah… hey<NL><WAIT><FACE:0B>Hey, stop it!<NL>That's gross!<WAIT><FACE:14>What're you sayin'?<NL>It's manly bonding!"
+  },
+  {
+   "key": "script:0063:09A1",
+   "src": "3e719abed577",
+   "t": "<FACE:04>Hiyori… that sound,<NL>don't tell me…<WAIT><FACE:05>Knew there'd be a<NL>catch… Fubuki's out"
+  },
+  {
+   "key": "script:0063:09E6",
+   "src": "9b3b5828459c",
+   "t": "<FACE:0D>Look what you did! I<NL>missed the Robattle!<WAIT><FACE:07>It's fine, Fubuki<NL>You make a nice pair"
+  },
+  {
+   "key": "script:0063:0A2C",
+   "src": "236532534ebe",
+   "t": "<FACE:16>Hiyori says the<NL>smartest things!"
+  },
+  {
+   "key": "script:0063:0A40",
+   "src": "aa0fd659ad70",
+   "t": "<FACE:0D>Argh, enough!<NL>Do what you want!"
+  },
+  {
+   "key": "script:0063:0A55",
+   "src": "45fc7bf3760b",
+   "t": "<FACE:05>It's so hot…<NL>Can't we fix this?"
+  },
+  {
+   "key": "script:0063:0A6C",
+   "src": "93aac8bc5dda",
+   "t": "<FACE:0A>No helping it. Blocks<NL>like this are needed"
+  },
+  {
+   "key": "script:0063:0A88",
+   "src": "f0388939ef03",
+   "t": "<FACE:0A>Won't this heat get<NL>to the Medabots too?"
+  },
+  {
+   "key": "script:0063:0AA4",
+   "src": "918cab25ff1e",
+   "t": "<FACE:00>Gotta check what's<NL>around here"
+  },
+  {
+   "key": "script:0063:0AB5",
+   "src": "d7d7bbbb8888",
+   "t": "<FACE:19>Mizore joined the<NL>team!<NL><WAIT><FACE:14>Gousetsu joined the<NL>team!"
+  }
+ ]
+}

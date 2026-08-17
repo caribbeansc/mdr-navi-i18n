@@ -1,0 +1,20 @@
+{
+ "part": "script/script_0144",
+ "entries": [
+  {
+   "key": "script:0144:00A1",
+   "src": "d3c6a8b0f54b",
+   "t": "<FACE:2F>Ah! <PLAYER>…<NL>Thank goodness…<WAIT>I thought everyone had<NL>already gone home…"
+  },
+  {
+   "key": "script:0144:00CD",
+   "src": "476da9ec8c9b",
+   "t": "<FACE:2F>Are you alone now?<NL>Then would you please<WAIT>Robattle with me…"
+  },
+  {
+   "key": "script:0144:00F5",
+   "src": "e8454187a27a",
+   "t": "<FACE:2F>Hmm… so this is what a<NL>match is… Hmmm…"
+  }
+ ]
+}

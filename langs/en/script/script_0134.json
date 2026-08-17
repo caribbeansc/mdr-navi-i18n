@@ -1,0 +1,270 @@
+{
+ "part": "script/script_0134",
+ "entries": [
+  {
+   "key": "script:0134:082C",
+   "src": "8fcd411f4b41",
+   "t": "<FACE:69>Whoa there!<NL>If it isn't <PLAYER>…"
+  },
+  {
+   "key": "script:0134:083F",
+   "src": "5e7ebcec661c",
+   "t": "<FACE:69>Wonder what I'm up to?<NL>Very well, I'll tell"
+  },
+  {
+   "key": "script:0134:0865",
+   "src": "15ef057ecb20",
+   "t": "<FACE:69>Since I founded the<NL>Sperobos, no new tech<WAIT>Everything came out of<NL>my own head alone…"
+  },
+  {
+   "key": "script:0134:08B8",
+   "src": "4410189a8898",
+   "t": "<FACE:6A>BUUUT!<WAIT><FACE:69>Without the new there<NL>is no progress!<WAIT>Even for a genius like<NL>me, it is the same"
+  },
+  {
+   "key": "script:0134:0900",
+   "src": "d5629dbc3951",
+   "t": "<FACE:69>So, what do you say?<NL>Join the Sperobos?<WAIT>Let's aim for space<NL>together!"
+  },
+  {
+   "key": "script:0134:092E",
+   "src": "66e05a43e19a",
+   "t": "<FACE:6A>Even if you won't join<NL>I'll force you in!"
+  },
+  {
+   "key": "script:0134:094E",
+   "src": "693f4f5cd0dc",
+   "t": "<FACE:69>Not bad at all…<NL>The one who blocks my<WAIT>Sperobo Gang's path…<NL>might just be you"
+  },
+  {
+   "key": "script:0134:098B",
+   "src": "6bda3a2857e4",
+   "t": "<FACE:69>Hm?"
+  },
+  {
+   "key": "script:0134:0990",
+   "src": "2386ba0a4e67",
+   "t": "<FACE:69>It is I. What is it?"
+  },
+  {
+   "key": "script:0134:09A0",
+   "src": "8c721dc672c5",
+   "t": "<FACE:69>What?! Again!<NL><WAIT>I'll be right there,<NL>so wait"
+  },
+  {
+   "key": "script:0134:09BA",
+   "src": "0dc305b77e00",
+   "t": "<FACE:69>That rickety hideout!"
+  },
+  {
+   "key": "script:0134:09CA",
+   "src": "684bac3129aa",
+   "t": "<FACE:69>Something's come up<NL>Farewell, then!"
+  },
+  {
+   "key": "script:0134:09F8",
+   "src": "6f82db75903c",
+   "t": "<FACE:6C>Who sounded the signal<NL>to assemble?"
+  },
+  {
+   "key": "script:0134:0A14",
+   "src": "f51e10c0f566",
+   "t": "<FACE:70>Beats me<NL>"
+  },
+  {
+   "key": "script:0134:0A1F",
+   "src": "243abc9e0490",
+   "t": "<FACE:70>Wasn't it you, Raiun?"
+  },
+  {
+   "key": "script:0134:0A30",
+   "src": "3f3ea30c4e51",
+   "t": "<FACE:79>Why would the great<NL>Raiun summon you all?"
+  },
+  {
+   "key": "script:0134:0A4C",
+   "src": "74a13457c6d7",
+   "t": "<FACE:69>Ah, you've come<WAIT><FACE:6C>So it was you, Leader?"
+  },
+  {
+   "key": "script:0134:0A66",
+   "src": "3598a924e691",
+   "t": "<FACE:69>I'm taking this one<NL>home as a new Boss<WAIT>Men! Seize <PLAYER><NL>and hold him!"
+  },
+  {
+   "key": "script:0134:0AA6",
+   "src": "a365b4771fec",
+   "t": "<FACE:6C>Understood, Leader!<NL><PLAYER>! Prepare!"
+  },
+  {
+   "key": "script:0134:0ABE",
+   "src": "57e55d227364",
+   "t": "<FACE:7A>Count the great Raiun<NL>out!"
+  },
+  {
+   "key": "script:0134:0ACC",
+   "src": "b3df55241a04",
+   "t": "<FACE:7A>Even without him, I'll<NL>grow the Gang myself!"
+  },
+  {
+   "key": "script:0134:0AF6",
+   "src": "df28e9a331ba",
+   "t": "<FACE:7A>If you want him that<NL>badly, I'm out!"
+  },
+  {
+   "key": "script:0134:0B14",
+   "src": "cbe767f8965d",
+   "t": "<FACE:69>No help for it…<NL>I'll take you myself!"
+  },
+  {
+   "key": "script:0134:0B34",
+   "src": "53e0a9cdb4f7",
+   "t": "<FACE:69>Back again?<NL><WAIT>You really can't let<NL>the Sperobos go, eh<WAIT>Very well. Want to<NL>Robattle? Fight them!"
+  },
+  {
+   "key": "script:0134:0B7C",
+   "src": "9573134924a6",
+   "t": "<FACE:69>Hm? Raiun isn't here?"
+  },
+  {
+   "key": "script:0134:0B8E",
+   "src": "6b61b14eb7ec",
+   "t": "<FACE:70>Probably dozing off<NL>somewhere, isn't he?"
+  },
+  {
+   "key": "script:0134:0BA7",
+   "src": "8905472ed324",
+   "t": "<FACE:76>Guh… honestly…<NL>…what a slob… cough…"
+  },
+  {
+   "key": "script:0134:0BCA",
+   "src": "aaa9492095fc",
+   "t": "<FACE:6C>He's been slack lately"
+  },
+  {
+   "key": "script:0134:0BDB",
+   "src": "57cf7606d1e3",
+   "t": "<FACE:69>No help for it…"
+  },
+  {
+   "key": "script:0134:0BE7",
+   "src": "28d4dd656b2e",
+   "t": "<FACE:6A>I'll take you myself!<NL>Here I come!"
+  },
+  {
+   "key": "script:0134:0C02",
+   "src": "c1e38db937e0",
+   "t": "<FACE:6A>I blundered!"
+  },
+  {
+   "key": "script:0134:0C0B",
+   "src": "b8430ab873bf",
+   "t": "<FACE:69>But I am not one to<NL>stay beaten!<WAIT>Say your prayers and<NL>wait for me!"
+  },
+  {
+   "key": "script:0134:0C39",
+   "src": "c941a715ce13",
+   "t": "<FACE:7C>Did someone call the<NL>great Raiun?"
+  },
+  {
+   "key": "script:0134:0C4D",
+   "src": "780a96782e67",
+   "t": "<FACE:79>Hm, there's no one<NL>here"
+  },
+  {
+   "key": "script:0134:0C60",
+   "src": "035136be8235",
+   "t": "<FACE:79>Just my imagination?"
+  },
+  {
+   "key": "script:0134:0C6A",
+   "src": "87a4fa0c01a3",
+   "t": "<FACE:00>There's nothing left…"
+  },
+  {
+   "key": "script:0134:0C79",
+   "src": "cd1591a29b64",
+   "t": "<FACE:04>What should I do now?"
+  },
+  {
+   "key": "script:0134:0C8B",
+   "src": "909eed1fafae",
+   "t": "<FACE:00>…Better not"
+  },
+  {
+   "key": "script:0134:0C95",
+   "src": "94b2c156dc45",
+   "t": "<FACE:6B>Heh heh heh…<NL><WAIT><FACE:69>But I am not such a<NL>fool!<WAIT>I found tech unknown<NL>to me on this Cluster"
+  },
+  {
+   "key": "script:0134:0CE1",
+   "src": "fafa6d0efcae",
+   "t": "<FACE:03>Wow, so the Cluster<NL>really is amazing…<WAIT><FACE:00>So what is this tech?"
+  },
+  {
+   "key": "script:0134:0D0D",
+   "src": "6ea3826945ee",
+   "t": "<FACE:69>I shall tell you<NL><WAIT>It is…"
+  },
+  {
+   "key": "script:0134:0D1E",
+   "src": "89739d49a528",
+   "t": "<FACE:04>It is…?"
+  },
+  {
+   "key": "script:0134:0D25",
+   "src": "f7bce0d94906",
+   "t": "<FACE:69>It is…"
+  },
+  {
+   "key": "script:0134:0D2D",
+   "src": "b382a2662a61",
+   "t": "<FACE:6A><PLAYER>!<NL>You hold the key!"
+  },
+  {
+   "key": "script:0134:0D43",
+   "src": "ecb8817899c5",
+   "t": "<FACE:03>Whaaat!!"
+  },
+  {
+   "key": "script:0134:0D4B",
+   "src": "713fcefa7c8a",
+   "t": "<FACE:69>That Medabot you have…<NL>Its…"
+  },
+  {
+   "key": "script:0134:0D68",
+   "src": "4193563d8c30",
+   "t": "<FACE:03>(Gulp…)"
+  },
+  {
+   "key": "script:0134:0D72",
+   "src": "290b302d87d5",
+   "t": "<FACE:69>That Medabot's…"
+  },
+  {
+   "key": "script:0134:0D7F",
+   "src": "e81652d030e3",
+   "t": "<FACE:03>(Thump, thump…)"
+  },
+  {
+   "key": "script:0134:0D8A",
+   "src": "62229a726831",
+   "t": "<FACE:6A>It's the paaaint!!<END>"
+  },
+  {
+   "key": "script:0134:0D98",
+   "src": "0a1090312109",
+   "t": "<FACE:6A>The color!<DELAY:0014> The shine!<DELAY:0014><NL>The depth!<WAIT>In every respect it's<NL>a perfect paint!<WAIT><FACE:69>Even I cannot<NL>reproduce it…<WAIT><FACE:6B>So I must go to the<NL>Cluster and take it!<WAIT>And that is the story"
+  },
+  {
+   "key": "script:0134:0E10",
+   "src": "5c70e7efff43",
+   "t": "<FACE:04>Th-that's the unknown<NL>technology?"
+  },
+  {
+   "key": "script:0134:0E28",
+   "src": "a8e5e487543b",
+   "t": "<FACE:69>Mm-hm…"
+  }
+ ]
+}

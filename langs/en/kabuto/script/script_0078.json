@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0078",
+ "entries": [
+  {
+   "key": "script:0078:0C81",
+   "src": "b77f8a1cbbed",
+   "t": "<FACE:00>Whoa, there's places<NL>like this too…<WAIT>…Could you ski here?<WAIT><FACE:05>Don't be so laid-back!<NL>It's freezing!<WAIT>Let's just grab this<NL>Block already!"
+  },
+  {
+   "key": "script:0078:0CE2",
+   "src": "3aa9d09399a9",
+   "t": "<FACE:80>Yaaaaah…<NL>"
+  },
+  {
+   "key": "script:0078:0CEE",
+   "src": "3bbbae0bce03",
+   "t": "<FACE:80>Hooooooooo!!!"
+  },
+  {
+   "key": "script:0078:0CFE",
+   "src": "b5668a5a96c2",
+   "t": "<FACE:08>What?! What was that<NL>giant yell?!<WAIT><FACE:03>Sounds like it's from<NL>the speakers…<NL>"
+  },
+  {
+   "key": "script:0078:0D2A",
+   "src": "f12d27770a43",
+   "t": "<FACE:00>H-hey, isn't it over<NL>there?"
+  },
+  {
+   "key": "script:0078:0D38",
+   "src": "ef2e98df7ee7",
+   "t": "<FACE:7D>It shook a lot-robo?<NL>But so close-robo!<WAIT>One more push-robo!<NL>"
+  },
+  {
+   "key": "script:0078:0D62",
+   "src": "c511064fbd78",
+   "t": "<FACE:7F>Now! The Sperobo Gang<NL>Shout Contest is hot!<WAIT>One more push and the<NL>avalanche hits-robo!<NL><WAIT>If the avalanche seals<NL>this Block off,<WAIT><PLAYER> and his gang<NL>can't get past-robo!<WAIT>Then Boss Nyuudou will<NL>reward us-robo!"
+  },
+  {
+   "key": "script:0078:0DF9",
+   "src": "0a8dc6cb232e",
+   "t": "<FACE:08>They'll cause an<NL>avalanche?!"
+  },
+  {
+   "key": "script:0078:0E09",
+   "src": "7e9c10ce3551",
+   "t": "<FACE:04>True, if we're buried<NL>in snow, we're stuck"
+  },
+  {
+   "key": "script:0078:0E32",
+   "src": "4f93cab8edcc",
+   "t": "<FACE:04>We've got to do<NL>something…"
+  },
+  {
+   "key": "script:0078:0E3F",
+   "src": "9991dc74b57b",
+   "t": "<FACE:08>It's those speakers!<NL>If we shut them off…<WAIT><FACE:09>Isn't there some good<NL>way to do it…"
+  },
+  {
+   "key": "script:0078:0E79",
+   "src": "649cfabb75b4",
+   "t": "<FACE:06>Go find us a way,<NL>and make it quick!"
+  },
+  {
+   "key": "script:0078:0E96",
+   "src": "71de3013eb75",
+   "t": "<FACE:0A>My first time on a<NL>snowy mountain…"
+  },
+  {
+   "key": "script:0078:0EAA",
+   "src": "921171a708fc",
+   "t": "<FACE:19>I'm good at skiing!<NL>Want me to teach you?"
+  },
+  {
+   "key": "script:0078:0ECF",
+   "src": "5fc736bab647",
+   "t": "<FACE:15>What are you saying!<NL>I'm better than you!<WAIT><FACE:14>I'll teach ya, leader!"
+  },
+  {
+   "key": "script:0078:1289",
+   "src": "5ec8e6fce898",
+   "t": "<FACE:01>We have to stop those<NL>speakers, fast!"
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "part": "script/script_0070",
+ "entries": [
+  {
+   "key": "script:0070:0B36",
+   "src": "d52b1a89d425",
+   "t": "<FACE:0F>What a savage place…"
+  },
+  {
+   "key": "script:0070:0B4B",
+   "src": "eaeb2c2dcc62",
+   "t": "<FACE:00>Feels like the dawn of<NL>the Earth…<WAIT>And there are Medal<NL>patterns all over"
+  },
+  {
+   "key": "script:0070:0B7D",
+   "src": "b58d99d88d5b",
+   "t": "<FACE:04>Like the Cluster, do<NL>they test Medabots?"
+  },
+  {
+   "key": "script:0070:0BA1",
+   "src": "e89eb1f9a737",
+   "t": "<FACE:6E>Gwaa ha ha ha ha haaa!<NL>"
+  },
+  {
+   "key": "script:0070:0BB3",
+   "src": "9c77f15c455a",
+   "t": "<FACE:6C>What's wrong?!<NL>Shoot back at me!<WAIT>This is no Robattle<NL>at aaall!"
+  },
+  {
+   "key": "script:0070:0BE9",
+   "src": "3afb19dac870",
+   "t": "<FACE:55>Ah! How terrible!!<WAIT>First contact with<NL>aliens, so barbaric…<WAIT>What on earth are<NL>they thinking?!!<WAIT>This could start an<NL>interstellar war!"
+  },
+  {
+   "key": "script:0070:0C5D",
+   "src": "441a2c9e9339",
+   "t": "<FACE:08>Oh no!!<NL>We have to stop them"
+  },
+  {
+   "key": "script:0070:0C71",
+   "src": "bb4fcb844cbe",
+   "t": "<FACE:0F>No, I don't think<NL>we'll need to"
+  },
+  {
+   "key": "script:0070:0C84",
+   "src": "48b1753538e4",
+   "t": "<FACE:6C>Leo, cease fire<NL>"
+  },
+  {
+   "key": "script:0070:0C99",
+   "src": "c79929f048e7",
+   "t": "<FACE:6E>Looks like there's no<NL>need to finish this<WAIT>So much for the great<NL>space civilization…"
+  },
+  {
+   "key": "script:0070:0CCE",
+   "src": "b2bd6942e872",
+   "t": "<FACE:00>Yeah, Shiden's right,<NL>Hiyori<WAIT><FACE:05>…What are you two<NL>talking about…"
+  },
+  {
+   "key": "script:0070:0CF7",
+   "src": "736896ed3b9d",
+   "t": "<FACE:6F>Aaaaaah! Leooo!!"
+  },
+  {
+   "key": "script:0070:0D08",
+   "src": "68f5d5594b97",
+   "t": "<FACE:00>That Medabot barely<NL>dodged Leo's attacks…<WAIT><FACE:0F>Its abilities are<NL>frighteningly high!"
+  },
+  {
+   "key": "script:0070:0D46",
+   "src": "0d045e43709a",
+   "t": "<FACE:64>Intruder detected…<WAIT>Isolating intruder!"
+  },
+  {
+   "key": "script:0070:0D68",
+   "src": "258ae8db53be",
+   "t": "<FACE:6D>Gwooooh! What is<NL>this?!<WAIT><FACE:6F>I-I can't get down<NL>from here!<WAIT><FACE:64>Intruder isolation<NL>complete…<WAIT>Disposing of intruder"
+  },
+  {
+   "key": "script:0070:0DBB",
+   "src": "56eb57940a69",
+   "t": "<FACE:6F>Dispose?!<WAIT>It said dispose?!<WAIT><FACE:6D>A Medabot attacking<NL>a human being?!<WAIT><FACE:64>Disposing"
+  },
+  {
+   "key": "script:0070:0DFC",
+   "src": "808fc83ff863",
+   "t": "<FACE:08>Did it say dispose?!"
+  },
+  {
+   "key": "script:0070:0E09",
+   "src": "712b3021856f",
+   "t": "<FACE:01>We have to help him!"
+  },
+  {
+   "key": "script:0070:0E13",
+   "src": "bb22be4a5172",
+   "t": "<FACE:0F>No, wait, <PLAYER>…<NL>time is running out<WAIT>We have to hurry on!<WAIT>You saw that Medabot's<NL>power. No easy win.<WAIT>Luckily it's busy<NL>with Nyuudou<WAIT>If we slip past now<NL>we might get through"
+  },
+  {
+   "key": "script:0070:0EB4",
+   "src": "49878774c537",
+   "t": "<FACE:04>But Shiden,<NL>what about Nyuudou…?<WAIT><FACE:10>Listen, <PLAYER><WAIT>They're our enemies!<WAIT>I feel for him, but<NL>the Cluster first…"
+  },
+  {
+   "key": "script:0070:0F09",
+   "src": "e2c66cdf469f",
+   "t": "<FACE:01>…No good<DELAY:0014> …Shiden<DELAY:0014><NL>…I<DELAY:003C> …can't ignore it!"
+  },
+  {
+   "key": "script:0070:0F32",
+   "src": "c45448676b4c",
+   "t": "<FACE:6D>Blast!<WAIT>Run for it!<WAIT><FACE:01>Nyuudou!<WAIT><FACE:6D>Right now yours truly<NL>can hold it off!"
+  },
+  {
+   "key": "script:0070:0F6A",
+   "src": "d0674c773745",
+   "t": "<FACE:6C>Bah…<WAIT>Even without a Medabot<WAIT>this trained body of<NL>mine won't go down!"
+  },
+  {
+   "key": "script:0070:0F9B",
+   "src": "d976c71e0442",
+   "t": "<FACE:04>No, Nyuudou!<WAIT>I can't explain it…<WAIT><FACE:01>but that won't beat<NL>them!"
+  },
+  {
+   "key": "script:0070:0FD0",
+   "src": "f688f812c14c",
+   "t": "<FACE:11>Time's up, <PLAYER><NL>"
+  },
+  {
+   "key": "script:0070:0FDF",
+   "src": "14f371d589aa",
+   "t": "<FACE:0F>Looks like it saw us…<NL>Now we have to fight<WAIT><FACE:64>Disposing of intruder!"
+  },
+  {
+   "key": "script:0070:101B",
+   "src": "6803ad6ecdec",
+   "t": "<FACE:6C>…Honestly…<NL>what hopeless kids…<WAIT>But… I am in your<NL>debt…"
+  },
+  {
+   "key": "script:0070:104B",
+   "src": "fdaf331ed183",
+   "t": "<FACE:00>What about the others?"
+  },
+  {
+   "key": "script:0070:1057",
+   "src": "c34ad5ed2037",
+   "t": "<FACE:6C>While yours truly held<NL>off that Medabot…<WAIT>they went on ahead…<WAIT>to take over the<NL>other Blocks…"
+  },
+  {
+   "key": "script:0070:10A3",
+   "src": "a9ec5ea2dfb1",
+   "t": "<FACE:55>Ah!<WAIT>How dreadful!!<WAIT>Interstellar war, and<NL>who takes the blame?!"
+  },
+  {
+   "key": "script:0070:10DD",
+   "src": "3ff4bcb11349",
+   "t": "<FACE:6C>Blame? We are an evil<NL>secret society!<WAIT>Peace in space is no<NL>concern of ours!"
+  },
+  {
+   "key": "script:0070:111A",
+   "src": "f5c2be06bb47",
+   "t": "<FACE:55>A-and you call<NL>yourselves human?!"
+  },
+  {
+   "key": "script:0070:1136",
+   "src": "966db26d5b2e",
+   "t": "<FACE:05>Easy now, Navico<WAIT>don't get so mad…"
+  },
+  {
+   "key": "script:0070:1152",
+   "src": "dc03d45d0440",
+   "t": "<FACE:54><SFX:73>Mad…?!<DELAY:00B4><DELAY:001C><CLEAR><FACE:54>So this is what being<NL>mad feels like!<DELAY:00B4><DELAY:0015><CLEAR><FACE:56>Ahh! <DELAY:0030>Wonderful!!<DELAY:003C><DELAY:001E><END>"
+  },
+  {
+   "key": "script:0070:1198",
+   "src": "9e80b69b8791",
+   "t": "<FACE:07>Kyaaaah!"
+  },
+  {
+   "key": "script:0070:11A2",
+   "src": "f4223e538e10",
+   "t": "<FACE:00>Shiden?!<WAIT>That control computer<NL>of yours…<WAIT>A team of top-notch<NL>programmers built it…<WAIT>Isn't Navico a bit too<NL>much of a character?<WAIT><FACE:0F>Of all the programs<NL>humans ever built,<WAIT>navi is the largest<WAIT>And what's more…<NL>"
+  },
+  {
+   "key": "script:0070:123A",
+   "src": "87c9bd936bd6",
+   "t": "<FACE:0F>That exchange taught<NL>it to rewrite itself…<WAIT>It may already be<NL>something else now…"
+  },
+  {
+   "key": "script:0070:128C",
+   "src": "4318fbf398ab",
+   "t": "<FACE:10>…But…<WAIT><FACE:04>But?"
+  },
+  {
+   "key": "script:0070:129B",
+   "src": "ad9b670a602d",
+   "t": "<FACE:11>Strangely, I don't<NL>mind it…"
+  },
+  {
+   "key": "script:0070:12B3",
+   "src": "e5effefbdb7c",
+   "t": "<FACE:54>Hurry!<WAIT>Mistral's cables took<NL>about 20% of Blocks!<WAIT>At this rate we won't<NL>be able to get home!<WAIT><FACE:08>Oh no!<WAIT>We have to hurry!"
+  },
+  {
+   "key": "script:0070:130C",
+   "src": "a8f2f6ed284d",
+   "t": "<FACE:09>H-hold on…<NL>what was that blast?!<WAIT><FACE:03>Don't tell me…<NL>"
+  },
+  {
+   "key": "script:0070:1330",
+   "src": "5c0c5c4aa2ec",
+   "t": "<FACE:00>Nyuudou!<WAIT>You said the others<NL>went to take Blocks?<WAIT>If there are more<NL>Medabots like that…<WAIT><FACE:6C>If they attacked…<WAIT>they've met the same<NL>fate as yours truly!<WAIT><FACE:01>Let's hurry on!"
+  },
+  {
+   "key": "script:0070:13B3",
+   "src": "8a0558eb0f19",
+   "t": "<FACE:01>Let's hurry on!"
+  }
+ ]
+}

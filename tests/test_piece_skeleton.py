@@ -13,24 +13,27 @@ Japanese, which is recoverable — and this keeps the pack at zero refusals.
 import json
 from pathlib import Path
 
+import pytest
+
 from navi.build import _piece_break, piece_cells, piece_skeleton
 from navi.table import Charset, TableError, encode
 
+from .conftest import language_packs, pack_id
+
 ROOT = Path(__file__).resolve().parent.parent
 
-
-def _exact_pieces():
-    gfx = json.loads((ROOT / "langs/es/gfx.json").read_text("utf-8"))
+def _exact_pieces(pack):
+    gfx = json.loads((pack / "gfx.json").read_text("utf-8"))
     for key, entry in gfx["extra_strings"].items():
         if entry.get("exact"):
             yield key, entry
 
-
-def test_every_exact_piece_keeps_the_original_skeleton(game_rom):
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_every_exact_piece_keeps_the_original_skeleton(game_rom, pack):
     charset = Charset.load(ROOT / "data/charset-latin.tbl")
     data = bytes(game_rom.data)
     wrong = []
-    for key, entry in _exact_pieces():
+    for key, entry in _exact_pieces(pack):
         site = int(str(entry["sites"][0]), 16)
         original = data[site:site + int(entry["room"])]
         try:
@@ -45,15 +48,15 @@ def test_every_exact_piece_keeps_the_original_skeleton(game_rom):
     assert not wrong, ("pieces whose number would print in the wrong place, "
                        f"and which the build therefore refuses: {wrong}")
 
-
-def test_no_piece_composes_wider_than_its_japanese(game_rom):
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_no_piece_composes_wider_than_its_japanese(game_rom, pack):
     # The pieces of one result line share the box's 22 columns, so a piece
     # that grows pushes the ones after it off the edge, where the game draws
     # nothing at all.
     charset = Charset.load(ROOT / "data/charset-latin.tbl")
     data = bytes(game_rom.data)
     wide = []
-    for key, entry in _exact_pieces():
+    for key, entry in _exact_pieces(pack):
         site = int(str(entry["sites"][0]), 16)
         original = data[site:site + int(entry["room"])]
         try:
@@ -65,7 +68,6 @@ def test_no_piece_composes_wider_than_its_japanese(game_rom):
             wide.append(f"{key} @{site:06X}: "
                         f"{piece_cells(body)} > {piece_cells(original)} cells")
     assert not wide, f"pieces the build would refuse for width: {wide}"
-
 
 def test_a_kanji_low_byte_is_not_read_as_the_piece_break(game_rom):
     # 変 is 0xE0F0: scanning for a bare 0xF0 stops on its second half and

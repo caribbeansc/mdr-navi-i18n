@@ -1,0 +1,65 @@
+{
+ "part": "script/script_0150",
+ "entries": [
+  {
+   "key": "script:0150:023E",
+   "src": "1ad7d26dab88",
+   "t": "<FACE:22><PLAYER>…<NL><WAIT>What happened in this<NL>Cluster changed me…<WAIT>It gave me a lot to<NL>think about…<WAIT><FACE:00>Yeah… a lot happened<WAIT><FACE:02>You've grown a lot<NL>too, Niwaka"
+  },
+  {
+   "key": "script:0150:02A7",
+   "src": "a9fe62319ca4",
+   "t": "<FACE:22>Yes… from here begins<NL>my new starting line!"
+  },
+  {
+   "key": "script:0150:02CA",
+   "src": "0aecd00570d5",
+   "t": "<FACE:22>Now, behold the reborn<NL>me, the new Niwaka!<WAIT>Let's settle it with a<NL>Robattle!"
+  },
+  {
+   "key": "script:0150:02FC",
+   "src": "998ce35e627a",
+   "t": "<FACE:22>Ku ku kuu…<NL>So I lost…"
+  },
+  {
+   "key": "script:0150:030F",
+   "src": "8a09b904acef",
+   "t": "<FACE:23>But I won't give up!<NL><WAIT>You may be the leader<NL>for now,<WAIT>but I'm the one fit to<NL>lead this class!!"
+  },
+  {
+   "key": "script:0150:0353",
+   "src": "debc994661f4",
+   "t": "<FACE:00>Let's see… the energy…"
+  },
+  {
+   "key": "script:0150:0363",
+   "src": "c3874b905b40",
+   "t": "<FACE:00>Looks like it's fine"
+  },
+  {
+   "key": "script:0150:0370",
+   "src": "81a7ae20821b",
+   "t": "<FACE:00>The green lamp…"
+  },
+  {
+   "key": "script:0150:037E",
+   "src": "a2845356e07a",
+   "t": "<FACE:00>All normal…"
+  },
+  {
+   "key": "script:0150:038C",
+   "src": "f5552ea9d133",
+   "t": "<FACE:00>One nudge here and off<NL>to the ends of space…"
+  },
+  {
+   "key": "script:0150:03AC",
+   "src": "2c8da2032690",
+   "t": "<FACE:02>Better not"
+  },
+  {
+   "key": "script:0150:03B4",
+   "src": "13efc26ca38c",
+   "t": "<FACE:04>I guess he hasn't<NL>changed that much…"
+  }
+ ]
+}

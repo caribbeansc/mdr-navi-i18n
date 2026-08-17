@@ -1,0 +1,105 @@
+{
+ "part": "script/script_0052",
+ "entries": [
+  {
+   "key": "script:0052:0717",
+   "src": "ad4d4fe16dda",
+   "t": "<FACE:6E>Heh heh heh… You fell<NL>for it once again…"
+  },
+  {
+   "key": "script:0052:0735",
+   "src": "25a4857f4412",
+   "t": "<FACE:75>Cough… we fought you<NL>one by one to stall…<WAIT>Meanwhile we took the<NL>Cluster's boosters<WAIT>The plan: make taking<NL>it back impossible!"
+  },
+  {
+   "key": "script:0052:0787",
+   "src": "9c9d931c1b8f",
+   "t": "<FACE:75>The plan, of course…<NL>gah… was mine!"
+  },
+  {
+   "key": "script:0052:07A5",
+   "src": "4cfe4934acf7",
+   "t": "<FACE:7C>Hold it!<NL><WAIT>Don't forget who got<NL>the supplies for it!"
+  },
+  {
+   "key": "script:0052:07DB",
+   "src": "ed752b7f0ca9",
+   "t": "<FACE:71>Say what! My Block<NL>stalled them longest!"
+  },
+  {
+   "key": "script:0052:0805",
+   "src": "aa88e24b2589",
+   "t": "<FACE:73>…All the officers…<NL>…will face you…"
+  },
+  {
+   "key": "script:0052:081E",
+   "src": "644924edf409",
+   "t": "<FACE:6C>Heh heh heh… Kirika<NL>is right<WAIT>We five officers will<NL>take you on!<WAIT>You want the arm freed<NL>to launch the Cluster<WAIT>but I'm afraid this is<NL>as far as you go!<WAIT>The arm cannot be<NL>released!!"
+  },
+  {
+   "key": "script:0052:089C",
+   "src": "9b54de68e836",
+   "t": "<FACE:75>Cough… by now we know<NL>how strong you are!<WAIT>Don't think it'll go<NL>like before… gah!"
+  },
+  {
+   "key": "script:0052:08E5",
+   "src": "549335966ddb",
+   "t": "<FACE:6D>Ngh… we've disgraced<NL>ourselves again!<WAIT>…In that case…<WAIT><FACE:59>Enough! That's quite<NL>enough, Nyuudou!<NL>"
+  },
+  {
+   "key": "script:0052:0924",
+   "src": "a859762ff6a4",
+   "t": "<FACE:59>I was a fool to expect<NL>anything of you lot!<WAIT>I expect nothing now!<NL>A waste of oxygen!!"
+  },
+  {
+   "key": "script:0052:096F",
+   "src": "6770e65ec6db",
+   "t": "<FACE:78>Eeek! L-Leader, sir…<NL>cough…<WAIT><FACE:75>Anything but that!<NL>It ruins my health…<WAIT><FACE:59>Eeeeeenough!<NL>Silence!!"
+  },
+  {
+   "key": "script:0052:09C4",
+   "src": "e590ea4ab033",
+   "t": "<FACE:09>…T-that's awful…"
+  },
+  {
+   "key": "script:0052:09D0",
+   "src": "9b593e1ef88d",
+   "t": "<FACE:09>They're frozen…<NL>Will they be okay?"
+  },
+  {
+   "key": "script:0052:09EA",
+   "src": "684720748550",
+   "t": "<FACE:0F>Yeah, it seems these<NL>capsules<WAIT>are cold sleep pods<NL>for deep space travel<WAIT>They look safe enough…"
+  },
+  {
+   "key": "script:0052:0A32",
+   "src": "915f55c7823d",
+   "t": "<FACE:02>Good… evil officers,<NL>but not bad people<WAIT><FACE:07>Heh… <PLAYER>, you're<NL>soft-hearted as ever"
+  },
+  {
+   "key": "script:0052:0A7A",
+   "src": "1e4d5b65aa64",
+   "t": "<FACE:00>Hiyori, weren't you<NL>sad about it too…<WAIT><FACE:59>Hey! A mystery man's<NL>here! Look at me!!"
+  },
+  {
+   "key": "script:0052:0AC4",
+   "src": "c16babdcb8d1",
+   "t": "<FACE:01>Never mind, our job is<NL>freeing the Cluster!<WAIT><FACE:15>Yeah! New characters<NL>just muddle the plot!<WAIT><FACE:1A>Best to ignore him and<NL>push right through!"
+  },
+  {
+   "key": "script:0052:0B33",
+   "src": "3dbf9ceae40d",
+   "t": "<FACE:00>So then, quick, to the<NL>arm controls!<WAIT><FACE:59>Oops! I'd forgotten!<NL>"
+  },
+  {
+   "key": "script:0052:0B63",
+   "src": "2077fe2d1b1b",
+   "t": "<FACE:59>Bwa ha ha ha! I've<NL>disabled the controls<WAIT>in that room! How's<NL>that!<NL>"
+  },
+  {
+   "key": "script:0052:0B90",
+   "src": "ef2974df4379",
+   "t": "<FACE:59>Now you'll have to pay<NL>attention to me!<WAIT>Come up by the lift in<NL>that room!"
+  }
+ ]
+}

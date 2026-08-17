@@ -1,0 +1,40 @@
+{
+ "part": "script/script_0043",
+ "entries": [
+  {
+   "key": "script:0043:036A",
+   "src": "9ccc9c6c113b",
+   "t": "<FACE:00>You lot never learn…"
+  },
+  {
+   "key": "script:0043:037D",
+   "src": "fb750798a499",
+   "t": "<FACE:71>Oh, shut it! Playing<NL>pirates is addictive!"
+  },
+  {
+   "key": "script:0043:039E",
+   "src": "359254631e5d",
+   "t": "<FACE:70>This time I'm holding<NL>this Block for sure!"
+  },
+  {
+   "key": "script:0043:03BA",
+   "src": "ec209f682795",
+   "t": "<FACE:70>Mmm… I want to play<NL>pirates a bit longer…"
+  },
+  {
+   "key": "script:0043:03DC",
+   "src": "f7c736fb4413",
+   "t": "<FACE:70>Drop your guard and<NL>I'll be back!<NL>"
+  },
+  {
+   "key": "script:0043:03F3",
+   "src": "70da71704971",
+   "t": "<FACE:70>Boys! We're<NL>pulling out!"
+  },
+  {
+   "key": "script:0043:0405",
+   "src": "3544146aaeee",
+   "t": "<FACE:7D>Aye aye, ma'am-robo!"
+  }
+ ]
+}

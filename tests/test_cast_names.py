@@ -11,25 +11,28 @@ turn up in robattles later in the game.
 import json
 from pathlib import Path
 
+import pytest
+
 from navi.table import Charset, decode, encode, load_japanese
+
+from .conftest import language_packs, pack_id
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE, STRIDE, COUNT, FIELD = 0x7ECA90, 0x10, 86, 8
 
-
-def _sites():
-    gfx = json.loads((ROOT / "langs/es/gfx.json").read_text("utf-8"))
+def _sites(pack):
+    gfx = json.loads((pack / "gfx.json").read_text("utf-8"))
     out = {}
     for entry in gfx["names"]["entries"]:
         for site in entry["at"]:
             out[int(str(site), 16)] = entry
     return out
 
-
-def test_every_cast_record_has_a_name(game_rom):
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_every_cast_record_has_a_name(game_rom, pack):
     japanese = load_japanese()
     data = bytes(game_rom.data)
-    sites = _sites()
+    sites = _sites(pack)
     missing = []
     for index in range(COUNT):
         at = BASE + index * STRIDE
@@ -42,11 +45,11 @@ def test_every_cast_record_has_a_name(game_rom):
         "cast records whose kana the font would draw as Latin soup: "
         f"{missing}")
 
-
-def test_no_cast_name_overruns_its_field():
+@pytest.mark.parametrize("pack", language_packs(), ids=pack_id)
+def test_no_cast_name_overruns_its_field(pack):
     charset = Charset.load(ROOT / "data/charset-latin.tbl")
     over = []
-    for at, entry in _sites().items():
+    for at, entry in _sites(pack).items():
         width = int(entry.get("field", FIELD))
         if len(encode(entry["text"], charset)) > width:
             over.append(f"{at:06X}: {entry['text']!r} over {width}")

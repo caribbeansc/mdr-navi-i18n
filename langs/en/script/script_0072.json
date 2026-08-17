@@ -1,0 +1,165 @@
+{
+ "part": "script/script_0072",
+ "entries": [
+  {
+   "key": "script:0072:06E8",
+   "src": "2ebda8b4bfa6",
+   "t": "<FACE:79>Supplies strewn all<NL>over the place…<WAIT>Crates left wide open…<WAIT><FACE:7A>What is the meaning of<NL>this!<NL>"
+  },
+  {
+   "key": "script:0072:071B",
+   "src": "710b2ff768b5",
+   "t": "<FACE:7A>While I was away, keep<NL>this place in order!<WAIT>I told you over and<NL>over! What a mess!"
+  },
+  {
+   "key": "script:0072:0753",
+   "src": "5adbd4283658",
+   "t": "<FACE:7A>My honor is in ruins!!"
+  },
+  {
+   "key": "script:0072:076B",
+   "src": "26c0ef53bce4",
+   "t": "<FACE:81>We're sorry-robo,<NL>Boss Raiun…<WAIT>We had to rush an arm<NL>to grab the Cluster<WAIT>We fell behind-robo…"
+  },
+  {
+   "key": "script:0072:07B5",
+   "src": "0703d1febf5b",
+   "t": "<FACE:79>Hmm… Winging it is the<NL>Sperobo Gang's motto…"
+  },
+  {
+   "key": "script:0072:07E2",
+   "src": "49494ad17b44",
+   "t": "<FACE:79>But still! Only by<NL>keeping proper order<WAIT>can our supply corps<NL>keep its pride!!"
+  },
+  {
+   "key": "script:0072:0826",
+   "src": "b2eea25e6da8",
+   "t": "<FACE:79>Anyway, clean this up<NL>at once!<NL><WAIT>If the enemy saw this,<NL>it'd shame us all!"
+  },
+  {
+   "key": "script:0072:085F",
+   "src": "91fbd1ca5bb9",
+   "t": "<FACE:08>Ugh, what is all this…<NL>It's a total mess!"
+  },
+  {
+   "key": "script:0072:087E",
+   "src": "7ffe75a3c801",
+   "t": "<FACE:7C>Gah!"
+  },
+  {
+   "key": "script:0072:0885",
+   "src": "730dc11e8b8f",
+   "t": "<FACE:0A>Ah… evil gangs are<NL>just a pack of slobs"
+  },
+  {
+   "key": "script:0072:08B7",
+   "src": "0e7c81c1366f",
+   "t": "<FACE:7A>Ngggh…"
+  },
+  {
+   "key": "script:0072:08BF",
+   "src": "bae0c5253f22",
+   "t": "<FACE:14>My room's bad enough,<NL>but this beats it…"
+  },
+  {
+   "key": "script:0072:08E1",
+   "src": "90364a57d71e",
+   "t": "<FACE:19>Leader, look out, sir!<NL>It's all coming down!"
+  },
+  {
+   "key": "script:0072:0900",
+   "src": "088b122f3dad",
+   "t": "<FACE:7A>W-why you…"
+  },
+  {
+   "key": "script:0072:090A",
+   "src": "ba3540b97481",
+   "t": "<FACE:0A>I'd love to see who<NL>runs this Block…"
+  },
+  {
+   "key": "script:0072:0931",
+   "src": "67cddfe49691",
+   "t": "<FACE:7A>Enooough!!!<NL>I've had it!<NL>"
+  },
+  {
+   "key": "script:0072:094B",
+   "src": "afae9858010b",
+   "t": "<FACE:7A>Stand right there!!<NL>I'll take you on!!"
+  },
+  {
+   "key": "script:0072:0971",
+   "src": "f42f392751b3",
+   "t": "<FACE:79>Ngh…!<NL><WAIT>Heh… heh heh heh<NL>You think you've won,<WAIT>but our plan has hit<NL>its final stage…"
+  },
+  {
+   "key": "script:0072:09BB",
+   "src": "5e444168b895",
+   "t": "<FACE:79>Press on all you like,<NL>will you make it?<WAIT>Bwaa ha ha ha!"
+  },
+  {
+   "key": "script:0072:09E7",
+   "src": "68772b04d75d",
+   "t": "<FACE:38>Trouble! They're using<NL>optical Medabots<WAIT>outside to tear off<NL>the Cluster boosters!"
+  },
+  {
+   "key": "script:0072:0A24",
+   "src": "26d4a967cb4b",
+   "t": "<FACE:01>Dammit!<NL>No time to go back!<WAIT>What can we even do…"
+  },
+  {
+   "key": "script:0072:0A50",
+   "src": "e9ba022ff60c",
+   "t": "<FACE:22>Please wait! Humble as<NL>I am, let me, Niwaka,<WAIT>ex class president,<NL>guard the Cluster!"
+  },
+  {
+   "key": "script:0072:0A95",
+   "src": "acb8496b560f",
+   "t": "<FACE:08>Niwaka!?<WAIT><FACE:03>Niwaka!"
+  },
+  {
+   "key": "script:0072:0AA6",
+   "src": "3711ca992218",
+   "t": "<FACE:22>I have now completely<NL>come to my senses!<WAIT>This time I'll give my<NL>life for the class!<WAIT>Leave this to me<NL><WAIT>The rest of you focus<NL>on those villains!"
+  },
+  {
+   "key": "script:0072:0B1A",
+   "src": "3704462ec27a",
+   "t": "<FACE:08>He hung up…"
+  },
+  {
+   "key": "script:0072:0B26",
+   "src": "ad46a90665d5",
+   "t": "<FACE:06>With his skill there's<NL>no way he can win!"
+  },
+  {
+   "key": "script:0072:0B44",
+   "src": "0b407cba97a8",
+   "t": "<FACE:02>Now, now… Niwaka does<NL>seem to have changed…"
+  },
+  {
+   "key": "script:0072:0B67",
+   "src": "5e48797a369c",
+   "t": "<FACE:00>Besides, we won't make<NL>it. Trust Niwaka! Go!"
+  },
+  {
+   "key": "script:0072:0B98",
+   "src": "6a0b885ebae9",
+   "t": "<FACE:00>We won't make it if we<NL>don't hurry"
+  },
+  {
+   "key": "script:0072:0BAB",
+   "src": "95d858b06b9c",
+   "t": "<FACE:00>Nice, real nice<NL>This armor"
+  },
+  {
+   "key": "script:0072:0BBC",
+   "src": "996a9c0b5b53",
+   "t": "<FACE:04>This is what happens<NL>if you never tidy up…"
+  },
+  {
+   "key": "script:0072:0BD9",
+   "src": "1926bb848d46",
+   "t": "<FACE:00>Rows of difficult<NL>books here…"
+  }
+ ]
+}

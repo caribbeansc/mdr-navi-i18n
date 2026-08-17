@@ -1,0 +1,355 @@
+{
+ "part": "script/script_0080",
+ "entries": [
+  {
+   "key": "script:0080:0BC2",
+   "src": "cbd968f0946b",
+   "t": "<FACE:31>Heeey, is it really<NL>okay to do thiiis?"
+  },
+  {
+   "key": "script:0080:0BDD",
+   "src": "36b5f3a2f1dd",
+   "t": "<FACE:7F>It's fine-robo!<WAIT><FACE:31>If a big shot comes by<NL>won't they scold you?<WAIT>Don't mind Urin, go<NL>on with your woooork"
+  },
+  {
+   "key": "script:0080:0C21",
+   "src": "235734b9ca48",
+   "t": "<FACE:7F>Urin's a good kid-robo<NL>Worries about us-robo"
+  },
+  {
+   "key": "script:0080:0C48",
+   "src": "fe67ec804816",
+   "t": "<FACE:32>(Tch…)<NL><WAIT>(I can't keep dealing<NL> with these guys)<WAIT>(Wish they'd just get<NL> on with their work…)"
+  },
+  {
+   "key": "script:0080:0C8B",
+   "src": "1bc24822a3b4",
+   "t": "<FACE:7D>What's wrong-robo?<NL>Feeling sick-robo?"
+  },
+  {
+   "key": "script:0080:0CA3",
+   "src": "a96499b92e17",
+   "t": "<FACE:31>Huh? It's nothiiing"
+  },
+  {
+   "key": "script:0080:0CB1",
+   "src": "11c2138d7da5",
+   "t": "<FACE:7F>Then it's fine-robo"
+  },
+  {
+   "key": "script:0080:0CBB",
+   "src": "73f74e5da2f7",
+   "t": "<FACE:31>But this place…<NL>isn't it kinda dusty?<WAIT>Urin's throat huurts"
+  },
+  {
+   "key": "script:0080:0CE3",
+   "src": "4f326ec41c78",
+   "t": "<FACE:80>W-wait there-robo!<NL>I'll get water-robo!"
+  },
+  {
+   "key": "script:0080:0D04",
+   "src": "dbfe1cadde77",
+   "t": "<FACE:32>Ugh, I can't take it…<NL>A cute boy, sure, but<WAIT>why act all cutesy for<NL>those creatures…"
+  },
+  {
+   "key": "script:0080:0D4C",
+   "src": "1486c50c0b77",
+   "t": "<FACE:7F>Urin, I brought you<NL>water-robo"
+  },
+  {
+   "key": "script:0080:0D62",
+   "src": "1f1c415a113a",
+   "t": "<FACE:7E>Hey! What gives-robo!<NL><WAIT>Urin's drinking MY<NL>water-robo!<NL>"
+  },
+  {
+   "key": "script:0080:0D84",
+   "src": "11f9feaa44ef",
+   "t": "<FACE:7E>Wrong-robo! It's<NL>mine-robo!!"
+  },
+  {
+   "key": "script:0080:0D95",
+   "src": "f61002884d2d",
+   "t": "<FACE:31>It's okaaay, everyone…<NL>Urin's all better now"
+  },
+  {
+   "key": "script:0080:0DB3",
+   "src": "a5785827bb75",
+   "t": "<FACE:31>Is this Block's air<NL>filter broken, maybe?"
+  },
+  {
+   "key": "script:0080:0DD1",
+   "src": "7a54bac80354",
+   "t": "<FACE:7D>This Block's like that<NL>Can't be helped-robo"
+  },
+  {
+   "key": "script:0080:0DEB",
+   "src": "ee4786a4b5ef",
+   "t": "<FACE:31>Hmmmph…"
+  },
+  {
+   "key": "script:0080:0DF2",
+   "src": "b2070a6bd36c",
+   "t": "<FACE:80>S-so cute-robo…"
+  },
+  {
+   "key": "script:0080:0DFF",
+   "src": "639a5ec97cbe",
+   "t": "<FACE:7F>So cute-robo!<NL>"
+  },
+  {
+   "key": "script:0080:0E0A",
+   "src": "0d9851765d80",
+   "t": "<FACE:7F>But there's an upside<NL>too-robo!<WAIT><FACE:31>An upsiiide?"
+  },
+  {
+   "key": "script:0080:0E25",
+   "src": "a5390c1e3365",
+   "t": "<FACE:7F>Our Boss Smog has a<NL>frail body-robo"
+  },
+  {
+   "key": "script:0080:0E45",
+   "src": "f34a146802a1",
+   "t": "<FACE:7F>In a Block like this<NL>Smog can't come-robo<WAIT>So we get to play<NL>with Urin-roboo!"
+  },
+  {
+   "key": "script:0080:0E79",
+   "src": "f8906be051d2",
+   "t": "<FACE:08>What!?<NL><WAIT>What's with this dusty<NL>Block?"
+  },
+  {
+   "key": "script:0080:0E91",
+   "src": "a6ea057e4185",
+   "t": "<FACE:0A>You're right…<NL><WAIT>Even for a test case,<NL>no need for all this…"
+  },
+  {
+   "key": "script:0080:0EC4",
+   "src": "97233adffa8c",
+   "t": "<FACE:1D>The air filter here is<NL>broken, I tell ya<WAIT><FACE:14>Stay too long, chief,<NL>and you'll get sick"
+  },
+  {
+   "key": "script:0080:0EF9",
+   "src": "16a12e18ae8f",
+   "t": "<FACE:03>Guys, wait up… huff…<NL>"
+  },
+  {
+   "key": "script:0080:0F0D",
+   "src": "27317a443322",
+   "t": "<FACE:00>Phew… a breather…"
+  },
+  {
+   "key": "script:0080:0F19",
+   "src": "e735c25408f7",
+   "t": "<FACE:03>Gack! Cough, cough…<NL>"
+  },
+  {
+   "key": "script:0080:0F28",
+   "src": "fd9fb7e001b9",
+   "t": "<FACE:04>Wh-what's this…?!<NL>So dusty… cough cough"
+  },
+  {
+   "key": "script:0080:0F46",
+   "src": "f64f90cdab4f",
+   "t": "<FACE:0A>Anyway, we've got to<NL>take this Block back"
+  },
+  {
+   "key": "script:0080:0F64",
+   "src": "907f63d2f0bc",
+   "t": "<FACE:7F>Urin's it next-robo!<WAIT><FACE:31>Waaait up, Sperobooos…<NL>"
+  },
+  {
+   "key": "script:0080:0F8C",
+   "src": "5a55b9f359df",
+   "t": "<FACE:31>Theeere, caught you…<NL>"
+  },
+  {
+   "key": "script:0080:0F9B",
+   "src": "696099bd5710",
+   "t": "<FACE:31>Ah! It's <PLAYER>…"
+  },
+  {
+   "key": "script:0080:0FA8",
+   "src": "b6d3aa8b2261",
+   "t": "<FACE:00>What's up, Hiyori?<WAIT><FACE:09>That girl's too much…<NL>Always picking at me…"
+  },
+  {
+   "key": "script:0080:0FDA",
+   "src": "ac627a44225d",
+   "t": "<FACE:31>Well, if it isn't Miss<NL>Koharubiii!"
+  },
+  {
+   "key": "script:0080:0FEC",
+   "src": "6b2e77890689",
+   "t": "<FACE:07>O-oh, what a surprise…<NL>What brings you here?"
+  },
+  {
+   "key": "script:0080:100C",
+   "src": "ad1a37f94085",
+   "t": "<FACE:32>(I'm getting bored of<NL> this place…)<NL><WAIT>(But if Hiyori saves<NL> me, her fame grows…)"
+  },
+  {
+   "key": "script:0080:104D",
+   "src": "f4a68270e80c",
+   "t": "<FACE:31>(That's it! Sic these<NL> guys on 'em and run)"
+  },
+  {
+   "key": "script:0080:1073",
+   "src": "75f218b82307",
+   "t": "<FACE:7E>Wh-what did you come<NL>here for-robo!<NL><WAIT><FACE:01>Isn't it obvious!<NL>Hand this Block over!"
+  },
+  {
+   "key": "script:0080:10A6",
+   "src": "0b121c635db8",
+   "t": "<FACE:32>(Ooh, nice… very nice)"
+  },
+  {
+   "key": "script:0080:10B8",
+   "src": "aac562cf07d4",
+   "t": "<FACE:7E>Not happening-robo!<NL><WAIT>This place is ours and<NL>Urin's-robo!"
+  },
+  {
+   "key": "script:0080:10DF",
+   "src": "3a68102ef955",
+   "t": "<FACE:06>What's so great about<NL>hangers-on like that…"
+  },
+  {
+   "key": "script:0080:10FF",
+   "src": "aed14c459529",
+   "t": "<FACE:32>(Whaaat!? Well then…)"
+  },
+  {
+   "key": "script:0080:1113",
+   "src": "425d0691ca60",
+   "t": "<FACE:31>Heeey…<NL><WAIT>Urin doesn't like<NL>these people…<NL><WAIT>Urin wants more time<NL>with the Sperobos…"
+  },
+  {
+   "key": "script:0080:1141",
+   "src": "59ff47848d7b",
+   "t": "<FACE:80>U-Urin!<NL>"
+  },
+  {
+   "key": "script:0080:114E",
+   "src": "a3d8873b1f32",
+   "t": "<FACE:7F>Understood-robo!<NL><WAIT>We'll guard our Block<NL>and Urin's-robo!<WAIT>Fight together-robo!"
+  },
+  {
+   "key": "script:0080:1187",
+   "src": "0d8def90584d",
+   "t": "<FACE:31>(Huuuh!? Why!?)<NL>"
+  },
+  {
+   "key": "script:0080:1196",
+   "src": "16b112d79bf0",
+   "t": "<FACE:31>(Waaah… why does it<NL> turn out like this…)"
+  },
+  {
+   "key": "script:0080:11AB",
+   "src": "f8a601648035",
+   "t": "<FACE:81>W-we're done for-robo…<NL>"
+  },
+  {
+   "key": "script:0080:11B9",
+   "src": "7caad7515ce9",
+   "t": "<FACE:7E>No-robo! Quit now and<NL>Urin'll be sad-robo!<WAIT>That's right-robo!<NL><WAIT>No better Block for<NL>slacking off-robo!<WAIT>We won't give up-robo!<NL>"
+  },
+  {
+   "key": "script:0080:1209",
+   "src": "52bb6d805529",
+   "t": "<FACE:7E>Watch this-robo!<NL>All for Urin-robo!"
+  },
+  {
+   "key": "script:0080:1227",
+   "src": "a201328241bf",
+   "t": "<FACE:81>W-we lost-roboo…<NL>"
+  },
+  {
+   "key": "script:0080:1234",
+   "src": "c845896ca8e5",
+   "t": "<FACE:80>Goodbye to the slacker<NL>life-roboo"
+  },
+  {
+   "key": "script:0080:124D",
+   "src": "3503c9f3b0dc",
+   "t": "<FACE:31>(Wh-what do I do…)<NL>"
+  },
+  {
+   "key": "script:0080:125C",
+   "src": "1fd97a61636b",
+   "t": "<FACE:31>(W-well then…)"
+  },
+  {
+   "key": "script:0080:126B",
+   "src": "2a7731af89c7",
+   "t": "<FACE:31>I-I'm sorryyyy!"
+  },
+  {
+   "key": "script:0080:1278",
+   "src": "10dbb0d394fb",
+   "t": "<FACE:05>«I'm shorryyyy»?!<NL>Does sorry fix it?"
+  },
+  {
+   "key": "script:0080:129A",
+   "src": "dbdf588a8504",
+   "t": "<FACE:31>They threatened meee…<NL>I had no choiiice…<WAIT><FACE:09>Threatened, you say…<NL>"
+  },
+  {
+   "key": "script:0080:12C3",
+   "src": "7c5e8f66d8bc",
+   "t": "<FACE:09>Hey…"
+  },
+  {
+   "key": "script:0080:12CA",
+   "src": "2f0bde1222f5",
+   "t": "<FACE:31><PLAYER>, you'd<NL>understand, riiight?"
+  },
+  {
+   "key": "script:0080:12DE",
+   "src": "dd7367582d1b",
+   "t": "<FACE:31>Right? Right!? Right!!"
+  },
+  {
+   "key": "script:0080:12EB",
+   "src": "08aeb59f884f",
+   "t": "<FACE:03>H-hey, hold on…"
+  },
+  {
+   "key": "script:0080:12F7",
+   "src": "c9690a29b582",
+   "t": "<FACE:00>Phew… well,<NL>she apologized, so…"
+  },
+  {
+   "key": "script:0080:1313",
+   "src": "6ab08e6f6b79",
+   "t": "<FACE:31>Yaaay!"
+  },
+  {
+   "key": "script:0080:131A",
+   "src": "277276eab06c",
+   "t": "<FACE:03>Whoa…"
+  },
+  {
+   "key": "script:0080:1322",
+   "src": "1785c02a17cc",
+   "t": "<FACE:08>Hey!! …Urin…<WAIT><FACE:06><PLAYER> looks like<NL>he can't breathe?!"
+  },
+  {
+   "key": "script:0080:1351",
+   "src": "4d8bb6c09a87",
+   "t": "<FACE:00>Phewww…"
+  },
+  {
+   "key": "script:0080:1359",
+   "src": "48d58902f237",
+   "t": "<FACE:0E><PLAYER>'s got it<NL>rough too…"
+  },
+  {
+   "key": "script:0080:1367",
+   "src": "4e1f92f5906b",
+   "t": "<FACE:31>Urin joined the team!"
+  },
+  {
+   "key": "script:0080:1378",
+   "src": "f1523898e8aa",
+   "t": "<FACE:06>Well, well! Looks like<NL>you didn't mind it!!"
+  }
+ ]
+}

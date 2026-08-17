@@ -1,0 +1,90 @@
+{
+ "part": "script/script_0058",
+ "entries": [
+  {
+   "key": "script:0058:03BA",
+   "src": "937013313037",
+   "t": "<FACE:59>Waaaaaaah!"
+  },
+  {
+   "key": "script:0058:03C5",
+   "src": "b5abff4accae",
+   "t": "<FACE:00>But the otaku group<NL>already reformed…<WAIT><FACE:00>Then who on earth?"
+  },
+  {
+   "key": "script:0058:03E7",
+   "src": "6b04d60eae61",
+   "t": "<FACE:7F>Miss Ki-ri-kaaaa-robo!<NL><WAIT>We're melting-robo!"
+  },
+  {
+   "key": "script:0058:0406",
+   "src": "344b54aad53c",
+   "t": "<FACE:74>…heheh…"
+  },
+  {
+   "key": "script:0058:0410",
+   "src": "4ae0b4042390",
+   "t": "<FACE:7D>Hey, you!<NL>What's wrong-robo?!<NL>"
+  },
+  {
+   "key": "script:0058:0423",
+   "src": "cf1c49f0061c",
+   "t": "<FACE:7D>Th-this isn't why I<NL>joined the gang-robo!"
+  },
+  {
+   "key": "script:0058:044B",
+   "src": "ac9679d11489",
+   "t": "<FACE:7D>How's this conquering<NL>the universe-robo?!"
+  },
+  {
+   "key": "script:0058:046E",
+   "src": "11bb4c2b7a7e",
+   "t": "<FACE:7D>Can't help it-robo…<NL><WAIT>Ever since that whole<NL>otaku group business<WAIT>I got hooked on the<NL>cheering-robo"
+  },
+  {
+   "key": "script:0058:04A9",
+   "src": "ced9515fef19",
+   "t": "<FACE:05>…So you want that<NL>dream one more time?<WAIT>Is that why you took<NL>this Block back too?"
+  },
+  {
+   "key": "script:0058:04DE",
+   "src": "14d6d5c92d8f",
+   "t": "<FACE:80>Aaaah! Miss Kirika,<NL>intruders-robo!"
+  },
+  {
+   "key": "script:0058:04F7",
+   "src": "d6e2c59e3bbd",
+   "t": "<FACE:73>True… our gathering<NL>ruined… Unforgivable…"
+  },
+  {
+   "key": "script:0058:0514",
+   "src": "d3e8e018fc7d",
+   "t": "<FACE:73>…A shame… Again I'll…<NL>take this Block back…"
+  },
+  {
+   "key": "script:0058:0535",
+   "src": "78f0fa278af0",
+   "t": "<FACE:00>If it's not the otaku<NL>group, then who?"
+  },
+  {
+   "key": "script:0058:0555",
+   "src": "e3e0ab7fd220",
+   "t": "<FACE:05>This place gives me<NL>the creeps every time"
+  },
+  {
+   "key": "script:0058:0567",
+   "src": "c8cbc8dc0603",
+   "t": "<FACE:0A>Go check the back<NL>room too"
+  },
+  {
+   "key": "script:0058:0577",
+   "src": "052e26444215",
+   "t": "<FACE:19>I got a bad feeling<NL>about this, I do"
+  },
+  {
+   "key": "script:0058:0589",
+   "src": "8a5e8197a6d7",
+   "t": "<FACE:14>The otaku group was in<NL>this Block, I recall"
+  }
+ ]
+}

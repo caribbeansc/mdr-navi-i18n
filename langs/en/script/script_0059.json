@@ -1,0 +1,130 @@
+{
+ "part": "script/script_0059",
+ "entries": [
+  {
+   "key": "script:0059:04A8",
+   "src": "12067c823453",
+   "t": "<FACE:66>Haaands up!<NL>"
+  },
+  {
+   "key": "script:0059:04B5",
+   "src": "6ba944b40be3",
+   "t": "<FACE:66>Robattle me!"
+  },
+  {
+   "key": "script:0059:04C3",
+   "src": "76961f3b6973",
+   "t": "<FACE:00>You don't have enough<NL>Medaparts to Robattle"
+  },
+  {
+   "key": "script:0059:04E5",
+   "src": "257af1074935",
+   "t": "<FACE:66>Mrrrrrgh!<NL><WAIT>Never mind, just<NL>Robattle meeeee!"
+  },
+  {
+   "key": "script:0059:0507",
+   "src": "ea36c18d5bde",
+   "t": "<FACE:00>If your opponent lacks<NL>Medaparts, their<WAIT>Medawatch won't work,<NL>so you can't Robattle"
+  },
+  {
+   "key": "script:0059:053A",
+   "src": "adaa04bdaaba",
+   "t": "<FACE:05>That's right!<NL>"
+  },
+  {
+   "key": "script:0059:0542",
+   "src": "12175d6ce206",
+   "t": "<FACE:05>You don't know that?<NL>You're a Medabot!"
+  },
+  {
+   "key": "script:0059:0562",
+   "src": "ef496ff8b347",
+   "t": "<FACE:66>I know that much!<NL>"
+  },
+  {
+   "key": "script:0059:0576",
+   "src": "af055b0027be",
+   "t": "<FACE:66>They took my right arm<NL>so I'll take one back"
+  },
+  {
+   "key": "script:0059:05AA",
+   "src": "fab03dec48c7",
+   "t": "<FACE:00>Who's 'they'?"
+  },
+  {
+   "key": "script:0059:05B4",
+   "src": "43fcfae2c785",
+   "t": "<FACE:05>Could it be…<NL>those -robo guys?"
+  },
+  {
+   "key": "script:0059:05D2",
+   "src": "78828518ce19",
+   "t": "<FACE:66>Yeah, that's them!<NL><WAIT>You sure know a lot<NL>Are you one of them?"
+  },
+  {
+   "key": "script:0059:05F5",
+   "src": "96aea8f4be07",
+   "t": "<FACE:06>No way! Just the<NL>opposite!"
+  },
+  {
+   "key": "script:0059:0606",
+   "src": "f6296dd47773",
+   "t": "<FACE:05><PLAYER>, let's get<NL>his arm back too!"
+  },
+  {
+   "key": "script:0059:0628",
+   "src": "da79620e37da",
+   "t": "<FACE:03>Ah! It's you guys!<NL><WAIT><FACE:01>Villains like you, in<NL>a sheriff's office!"
+  },
+  {
+   "key": "script:0059:0655",
+   "src": "72dd1dc067ec",
+   "t": "<FACE:79>Fools!<NL><WAIT>The ruler of the West<NL>Block should be me!"
+  },
+  {
+   "key": "script:0059:0689",
+   "src": "13d271c2f957",
+   "t": "<FACE:7A>Tch! And here I was<NL>playing gunslinger…"
+  },
+  {
+   "key": "script:0059:06A6",
+   "src": "3230bb61f390",
+   "t": "<FACE:7A>I'll take it back!"
+  },
+  {
+   "key": "script:0059:06B6",
+   "src": "ec65ec8e573a",
+   "t": "<FACE:66>I owe you one…<NL><WAIT>Use my Medaparts<NL>however you like!<NL>"
+  },
+  {
+   "key": "script:0059:06D9",
+   "src": "e934899d6049",
+   "t": "<FACE:03>Huh? But then you'd…<NL><WAIT><FACE:66>Don't worry about it<NL>I got spares inside"
+  },
+  {
+   "key": "script:0059:0711",
+   "src": "cd6ceae1d972",
+   "t": "<FACE:00>We haven't done<NL>anything yet"
+  },
+  {
+   "key": "script:0059:0720",
+   "src": "f05b7e3d9ea0",
+   "t": "<FACE:05>This place is so old…<NL>Like a movie set"
+  },
+  {
+   "key": "script:0059:073D",
+   "src": "838d7a9a2bf8",
+   "t": "<FACE:0A>Let's get going"
+  },
+  {
+   "key": "script:0059:0749",
+   "src": "a88e11b8e11e",
+   "t": "<FACE:19>Feels like the Wild<NL>West, doesn't it?"
+  },
+  {
+   "key": "script:0059:075A",
+   "src": "a1ae0626c05f",
+   "t": "<FACE:14>Wonder if there's any<NL>cowboys around"
+  }
+ ]
+}

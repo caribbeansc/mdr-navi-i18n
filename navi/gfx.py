@@ -12,6 +12,18 @@ original sat is written in place. A bigger one is relocated to free space and
 the one pointer that names the block is repointed — every block here is
 reached through a small asset table, one pointer each, found by scanning.
 
+Every address written down here is a KUWAGATA offset, and so is every address
+a language pack's gfx.json names — the packs were written against that
+release. Before one is used to read or write the dump in hand it goes through
+``Rom.at``, which hands it back unchanged on Kuwagata and finds the same bytes
+on Kabuto; ``None`` means the two releases genuinely differ there, and the
+asset is skipped with that in the report, because the other release keeps
+something else at that address and drawing Spanish over it would wreck
+whatever that is. A compressed block is asked about by its header first — how
+far it reaches is not knowable until it has been unpacked — and then, once it
+has, about the whole of it (``_reaches``): a block the map places by its first
+byte and loses halfway through is not the same picture in both cartridges.
+
 Format, ported from Normmatt's Malias2.cs (see NOTICE):
   header  'L' 'e' <len:3> <pad:1>, then command bytes, 4 fields of 2 bits
   mode 0  far copy:  2 bytes -> distance (v&0xFFF)+5, count (v>>12)+3
@@ -402,6 +414,11 @@ BATTLE_BANNER_MAP_ES = (0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9,
 #: column, top and bottom half. In practice the word must measure 62px or less
 #: so that centring it in the 80px sheet leaves both outer columns empty.
 BATTLE_BANNER_PADS = (0, 9, 10, 19)
+#: Both maps are the same twelve-by-two grid, so ONE lookup vouches for the
+#: cells the check reads and the cells the build then writes. Asking twice with
+#: two lengths is how a map that moved would be refused by the check and
+#: written by the build anyway.
+BATTLE_BANNER_MAP_BYTES = 2 * len(BATTLE_BANNER_MAP_JP)
 
 #: THE MEDAWATCH BAR IS A CAROUSEL, AND ITS LAYOUT IS DATA, NOT CODE.
 #: The bar along the top of the Medawatch (navi badge, then one entry per
@@ -461,14 +478,18 @@ MEDAWATCH_BAR_CELLS = 27
 MEDAWATCH_SHEET_TILES = 380
 MEDAWATCH_SHEET_MAX_TILES = MEDAWATCH_SHEET_TILES
 
-#: The Spanish bar, then, is a re-cut of the cells rather than a bigger sheet.
+#: A Latin bar, then, is a re-cut of the cells rather than a bigger sheet.
+#: The cut is the same in every language — the device's own name is the long
+#: word in all of them — so a pack asks for it by setting "medawatch_layout"
+#: on the sheet; the value names the pack that asked, not a language the code
+#: knows about.
 #: メダロッチ moves to row 40 — the map is 40 rows, the 256 bytes behind it are
 #: zero and nothing in the ROM points at them — and takes eight cells, because
 #: eight will not fit on its old row where the icon blits own columns 10-15.
 #: メダロット生産 drops to three to pay for it: five entries, one separator
 #: cell each, and 27 cells of bar means the widths must sum to 22.
-MEDAWATCH_ROWS_ES = (40, 2, 4, 0, 6, 8)
-MEDAWATCH_WIDTHS_ES = (8, 4, 3, 0, 4, 3)
+MEDAWATCH_ROWS_LATIN = (40, 2, 4, 0, 6, 8)
+MEDAWATCH_WIDTHS_LATIN = (8, 4, 3, 0, 4, 3)
 
 #: The seven leg-type plates (飛行/浮遊/多脚/二脚/車両/戦車/潜水) are laid out
 #: by an uncompressed u16 table at PART_TYPE_PLATE_MAP: seven plates of 5x2
@@ -497,13 +518,22 @@ def patch_part_type_plates(rom: Rom, charset: Charset, words: list[str],
         report.skipped.append(("plate_words",
                                f"want {PART_TYPE_PLATE_COUNT} words, got {len(words)}"))
         return
-    sites = pointer_sites.get(PART_TYPE_PLATE_BLOCK, [])
-    at = rom.ptr(sites[0]) if sites else PART_TYPE_PLATE_BLOCK
+    block = rom.at(PART_TYPE_PLATE_BLOCK)
+    plate_map = rom.at(PART_TYPE_PLATE_MAP,
+                       2 * PART_TYPE_PLATE_COUNT * PART_TYPE_PLATE_CELLS)
+    if block is None or plate_map is None:
+        report.skipped.append(
+            ("plate_words", "this release keeps the plates or their map elsewhere"))
+        return
+    sites = pointer_sites.get(block, [])
+    at = rom.ptr(sites[0]) if sites else block
     dec, enc = CODECS["lz77"]
     try:
         raw, comp_len = dec(bytes(rom.data), at)
     except GfxError as exc:
         report.skipped.append(("plate_words", str(exc)))
+        return
+    if not _reaches(rom, PART_TYPE_PLATE_BLOCK, comp_len, "plate_words", report):
         return
     tiles = bytearray(raw)
     base = len(tiles) // TILE_BYTES
@@ -524,7 +554,7 @@ def patch_part_type_plates(rom: Rom, charset: Charset, words: list[str],
         setter.draw(canvas, (5 * TILE_SIDE - width) // 2, 3, word,
                     fill=15, outline=5, spacing=spacing)
         for j in range(PART_TYPE_PLATE_CELLS):
-            entry_at = PART_TYPE_PLATE_MAP + (i * PART_TYPE_PLATE_CELLS + j) * 2
+            entry_at = plate_map + (i * PART_TYPE_PLATE_CELLS + j) * 2
             rom.write(entry_at, bytes([
                 (base + i * PART_TYPE_PLATE_CELLS + j) & 0xFF,
                 ((base + i * PART_TYPE_PLATE_CELLS + j) >> 8) & 0x03,
@@ -562,6 +592,27 @@ class GfxReport:
     skipped: list[tuple[str, str]] = field(default_factory=list)
 
 
+def _reaches(rom: Rom, block: int, length: int, name: str,
+             report: GfxReport) -> bool:
+    """Does the map place the WHOLE block, or only the header it starts with?
+
+    ``Rom.at`` can only be asked about a compressed block by its header, since
+    its length is whatever the decompressor turns out to have read; asking
+    again with that length is the other half of the question. A block whose
+    first bytes the map places and whose tail it does not is a stretch the two
+    releases stop agreeing about partway through — so it is NOT the same
+    picture in both cartridges, whatever its header says, and the labels drawn
+    into it would land on something else. On Kuwagata this is always true (an
+    offset is itself, at any length), so it only ever refuses on the other
+    release, and it refuses out loud.
+    """
+    if rom.at(block, length) is not None:
+        return True
+    report.skipped.append(
+        (name, "the two releases stop agreeing partway into this block"))
+    return False
+
+
 def patch(rom: Rom, charset: Charset, texts: dict[str, str], allocator,
           pointer_sites: dict[int, list[int]],
           font_data: bytes | None = None) -> GfxReport:
@@ -578,10 +629,16 @@ def patch(rom: Rom, charset: Charset, texts: dict[str, str], allocator,
         wanted = [(label, texts.get(label.key)) for label in asset.labels]
         if not any(text for _, text in wanted):
             continue
+        block = rom.at(asset.block)
+        if block is None:
+            report.skipped.append((asset.name, "this release keeps something else there"))
+            continue
         try:
-            raw, comp_len = decompress(data, asset.block)
+            raw, comp_len = decompress(data, block)
         except GfxError as exc:
             report.skipped.append((asset.name, str(exc)))
+            continue
+        if not _reaches(rom, asset.block, comp_len, asset.name, report):
             continue
         tiles = bytearray(raw)
 
@@ -610,10 +667,10 @@ def patch(rom: Rom, charset: Charset, texts: dict[str, str], allocator,
 
         packed = compress(bytes(tiles))
         if len(packed) <= comp_len:
-            rom.write(asset.block, packed)
+            rom.write(block, packed)
             report.in_place += 1
         else:
-            sites = pointer_sites.get(asset.block, [])
+            sites = pointer_sites.get(block, [])
             if not sites:
                 report.skipped.append((asset.name, "grew, and nothing points at it"))
                 continue
@@ -635,16 +692,32 @@ def _patch_option_headers(rom: Rom, setter: Typesetter, texts: dict[str, str],
     wanted = [(key, rows, texts.get(key)) for key, rows in OPTION_HEADERS]
     if not any(text for _, _, text in wanted):
         return
+    sheet = rom.at(OPTION_SHEET_BLOCK)
+    if sheet is None:
+        report.skipped.append(
+            ("option-headers", "this release keeps something else there"))
+        return
     try:
-        raw, comp_len = decompress(original, OPTION_SHEET_BLOCK)
+        raw, comp_len = decompress(original, sheet)
     except GfxError as exc:
         report.skipped.append(("option-headers", str(exc)))
         return
+    if not _reaches(rom, OPTION_SHEET_BLOCK, comp_len, "option-headers", report):
+        return
     tiles = bytearray(raw)
 
-    for key, (top_row_at, bottom_row_at), text in wanted:
+    for key, rows, text in wanted:
         if not text:
             continue
+        # The map rows are two five-cell runs, checked before the sheet grows:
+        # tiles appended for a header nothing can be repointed at would ship as
+        # dead weight inside the block.
+        row_at = [rom.at(row, 2 * OPTION_HEADER_COLS) for row in rows]
+        if any(at is None for at in row_at):
+            report.skipped.append(
+                (key, "this release keeps the header's tilemap rows elsewhere"))
+            continue
+        top_row_at, bottom_row_at = row_at
         width = setter.measure(text)
         if width > OPTION_HEADER_COLS * TILE_SIDE:
             report.skipped.append(
@@ -664,10 +737,10 @@ def _patch_option_headers(rom: Rom, setter: Typesetter, texts: dict[str, str],
 
     packed = compress(bytes(tiles))
     if len(packed) <= comp_len:
-        rom.write(OPTION_SHEET_BLOCK, packed)
+        rom.write(sheet, packed)
         report.in_place += 1
     else:
-        sites = pointer_sites.get(OPTION_SHEET_BLOCK, [])
+        sites = pointer_sites.get(sheet, [])
         if not sites:
             report.skipped.append(("option-headers", "sheet grew, nothing points at it"))
             return
@@ -810,12 +883,27 @@ def patch_sheets(rom: Rom, charset: Charset, sheets: list[dict], allocator,
     for sheet in ordered:
         blocks = [int(str(b), 16) for b in
                   (sheet["blocks"] if "blocks" in sheet else [sheet["block"]])]
+        name = sheet.get("name", hex(blocks[0]))
+        # ``blocks`` stays in the space the pack wrote it in — Kuwagata's, the
+        # same space the constants below are named in, so the two are directly
+        # comparable. ``where`` is the same blocks in the dump being built.
+        where = [rom.at(block) for block in blocks]
+        if any(block is None for block in where):
+            report.skipped.append(
+                (name, "this release keeps something else there"))
+            continue
         codec = sheet.get("codec", "malias")
         dec, enc = CODECS[codec]
         try:
-            raw, comp_len = dec(data, blocks[0])
+            raw, comp_len = dec(data, where[0])
         except GfxError as exc:
-            report.skipped.append((sheet.get("name", hex(blocks[0])), str(exc)))
+            report.skipped.append((name, str(exc)))
+            continue
+        # Every copy is written, so every copy has to be placed whole — the
+        # length is the one measured on the first, which is what makes them
+        # copies in the first place.
+        if not all(_reaches(rom, block, comp_len, name, report)
+                   for block in blocks):
             continue
         tiles = bytearray(raw)
         # Clone first: the cloned tiles are what the run-addressed labels draw
@@ -824,58 +912,68 @@ def patch_sheets(rom: Rom, charset: Charset, sheets: list[dict], allocator,
         map_writes += apply_map_points(sheet, rom, report)
         apply_sheet_labels(tiles, sheet, setter, report, runs)
 
-        relayout = sheet.get("medawatch_layout") == "es"
+        relayout = bool(sheet.get("medawatch_layout"))
         if blocks[0] == MEDAWATCH_SHEET_BLOCK:
             problem = _medawatch_sheet_problem(rom, tiles, relayout)
             if problem is not None:
-                report.skipped.append((sheet.get("name", hex(blocks[0])), problem))
+                report.skipped.append((name, problem))
                 continue
 
         remap = None
         if blocks[0] == BATTLE_BANNER_BLOCK:
             problem = _battle_banner_map_problem(rom, tiles)
             if problem is not None:
-                report.skipped.append((sheet.get("name", hex(blocks[0])), problem))
+                report.skipped.append((name, problem))
                 continue
             remap = BATTLE_BANNER_MAP_ES
 
         packed = enc(bytes(tiles))
         if len(packed) <= comp_len:
-            for block in blocks:
+            for block in where:
                 rom.write(block, packed)
             report.in_place += 1
         else:
             destination = allocator.take(len(packed))
             rom.write(destination, packed)
             repointed = False
-            for block in blocks:
+            for block in where:
                 for site in pointer_sites.get(block, []):
                     rom.write_ptr(site, destination)
                     repointed = True
             if not repointed:
-                report.skipped.append(
-                    (sheet.get("name", hex(blocks[0])), "grew, and nothing points at it"))
+                report.skipped.append((name, "grew, and nothing points at it"))
                 continue
             report.relocated += 1
         for cell, tile in map_writes:
             rom.write_u16(cell, tile)
         if relayout:
-            for index, row in enumerate(MEDAWATCH_ROWS_ES):
-                rom.data[MEDAWATCH_ROWS + index] = row
-            for index, width in enumerate(MEDAWATCH_WIDTHS_ES):
-                rom.data[MEDAWATCH_WIDTHS + index] = width
+            tables = _medawatch_layout_tables(rom)
+            if tables is None:
+                report.skipped.append(
+                    (name, "this release keeps the bar's layout tables elsewhere"))
+            else:
+                rows_at, widths_at = tables
+                rom.write(rows_at, bytes(MEDAWATCH_ROWS_LATIN))
+                rom.write(widths_at, bytes(MEDAWATCH_WIDTHS_LATIN))
         if remap is not None:
+            # ``_battle_banner_map_problem`` already refused the sheet when
+            # this release keeps something else where the map is, and it asked
+            # for the same BATTLE_BANNER_MAP_BYTES, so this lookup answers too.
+            map_at = rom.at(BATTLE_BANNER_MAP, BATTLE_BANNER_MAP_BYTES)
             for cell, tile in enumerate(remap):
-                rom.write_u16(BATTLE_BANNER_MAP + 2 * cell, tile)
+                rom.write_u16(map_at + 2 * cell, tile)
     return report
 
 
 def _battle_banner_map_problem(rom: Rom, tiles: bytes) -> str | None:
     """Why the robottle banner's tilemap cannot be straightened, or None."""
-    current = tuple(rom.u16(BATTLE_BANNER_MAP + 2 * cell)
+    map_at = rom.at(BATTLE_BANNER_MAP, BATTLE_BANNER_MAP_BYTES)
+    if map_at is None:
+        return "this release keeps something else where the banner's tilemap is"
+    current = tuple(rom.u16(map_at + 2 * cell)
                     for cell in range(len(BATTLE_BANNER_MAP_JP)))
     if current != BATTLE_BANNER_MAP_JP:
-        return f"the tilemap at {BATTLE_BANNER_MAP:#x} is not the one this build knows"
+        return f"the tilemap at {map_at:#x} is not the one this build knows"
     inked = [tile for tile in BATTLE_BANNER_PADS
              if any(tiles[tile * TILE_BYTES:(tile + 1) * TILE_BYTES])]
     if inked:
@@ -911,9 +1009,16 @@ def apply_map_clones(tiles: bytearray, sheet: dict, rom: Rom,
     writes: list[tuple[int, int]] = []
     for clone in sheet.get("map_clones", []):
         name = clone.get("name", "?")
-        map_at = int(str(clone["map"]), 16)
         stride = int(clone.get("stride", MEDAWATCH_MAP_STRIDE))
         row, col, count = int(clone["row"]), int(clone["col"]), int(clone["count"])
+        # The pack names the map where Kuwagata keeps it, and the run it wants
+        # has to reach the last cell in one piece: a map whose tail belongs to
+        # the other release's own layout is not this map.
+        map_at = rom.at(int(str(clone["map"]), 16),
+                        2 * (row * stride + col + count))
+        if map_at is None:
+            report.skipped.append((name, "this release keeps something else there"))
+            continue
         cells = [map_at + 2 * (row * stride + col + index) for index in range(count)]
         sources = [rom.u16(cell) for cell in cells]
         expect = [int(str(tile), 16) for tile in clone.get("expect", [])]
@@ -961,10 +1066,16 @@ def apply_map_points(sheet: dict, rom: Rom, report: GfxReport) -> list[tuple[int
     writes: list[tuple[int, int]] = []
     for point in sheet.get("map_points", []):
         name = point.get("name", "?")
-        map_at = int(str(point["map"]), 16)
         stride = int(point.get("stride", MEDAWATCH_MAP_STRIDE))
         row, col = int(point["row"]), int(point["col"])
         tiles = _point_tiles(point)
+        # As in apply_map_clones: the pack's address is Kuwagata's, and the
+        # run has to hold every cell this entry rewrites.
+        map_at = rom.at(int(str(point["map"]), 16),
+                        2 * (row * stride + col + len(tiles)))
+        if map_at is None:
+            report.skipped.append((name, "this release keeps something else there"))
+            continue
         cells = [map_at + 2 * (row * stride + col + index) for index in range(len(tiles))]
         current = [rom.u16(cell) for cell in cells]
         expect = [int(str(tile), 16) for tile in point.get("expect", [])]
@@ -981,23 +1092,43 @@ def apply_map_points(sheet: dict, rom: Rom, report: GfxReport) -> list[tuple[int
     return writes
 
 
+def _medawatch_layout_tables(rom: Rom) -> tuple[int, int] | None:
+    """Where this dump keeps the carousel's row and width tables, or None."""
+    rows_at = rom.at(MEDAWATCH_ROWS, len(MEDAWATCH_ROWS_JP))
+    widths_at = rom.at(MEDAWATCH_WIDTHS, len(MEDAWATCH_WIDTHS_JP))
+    if rows_at is None or widths_at is None:
+        return None
+    return rows_at, widths_at
+
+
 def _medawatch_sheet_problem(rom: Rom, tiles: bytes, relayout: bool) -> str | None:
     """Why the Medawatch sheet must not be written, or None."""
     grown = len(tiles) // TILE_BYTES
     if grown > MEDAWATCH_SHEET_MAX_TILES:
         return (f"the sheet grew to {grown} tiles; it is decompressed straight into "
                 f"VRAM and only {MEDAWATCH_SHEET_MAX_TILES} fit before the next graphic")
-    rows = tuple(rom.data[MEDAWATCH_ROWS:MEDAWATCH_ROWS + len(MEDAWATCH_ROWS_JP)])
-    widths = tuple(rom.data[MEDAWATCH_WIDTHS:MEDAWATCH_WIDTHS + len(MEDAWATCH_WIDTHS_JP)])
+    tables = _medawatch_layout_tables(rom)
+    if tables is None:
+        return "this release keeps the bar's layout tables elsewhere"
+    rows_at, widths_at = tables
+    rows = tuple(rom.read(rows_at, len(MEDAWATCH_ROWS_JP)))
+    widths = tuple(rom.read(widths_at, len(MEDAWATCH_WIDTHS_JP)))
     if rows != MEDAWATCH_ROWS_JP or widths != MEDAWATCH_WIDTHS_JP:
-        return (f"the layout tables at {MEDAWATCH_ROWS:#x}/{MEDAWATCH_WIDTHS:#x} are "
+        return (f"the layout tables at {rows_at:#x}/{widths_at:#x} are "
                 "not the ones this build knows")
     if not relayout:
         return None
-    if sum(1 + width for width in MEDAWATCH_WIDTHS_ES if width) > MEDAWATCH_BAR_CELLS:
-        return "the Spanish widths do not fit the bar"
-    spare_at = MEDAWATCH_MAP + 2 * MEDAWATCH_MAP_ROWS * MEDAWATCH_MAP_STRIDE
-    rows_used = MEDAWATCH_ROWS_ES[0] + 2 - MEDAWATCH_MAP_ROWS
+    if sum(1 + width for width in MEDAWATCH_WIDTHS_LATIN if width) > MEDAWATCH_BAR_CELLS:
+        return "the re-cut widths do not fit the bar"
+    rows_used = MEDAWATCH_ROWS_LATIN[0] + 2 - MEDAWATCH_MAP_ROWS
+    # The spare rows are past the map's own end, so the map is asked about as
+    # far as the bar reaches into them; a release that keeps its own data
+    # behind the map has no spare rows to lend.
+    map_at = rom.at(MEDAWATCH_MAP,
+                    2 * MEDAWATCH_MAP_STRIDE * (MEDAWATCH_MAP_ROWS + rows_used))
+    if map_at is None:
+        return "this release keeps something else where the carousel's tilemap is"
+    spare_at = map_at + 2 * MEDAWATCH_MAP_ROWS * MEDAWATCH_MAP_STRIDE
     if any(rom.read(spare_at, 2 * MEDAWATCH_MAP_STRIDE * rows_used)):
         return f"the map's spare rows at {spare_at:#x} are not empty"
     return None
@@ -1172,11 +1303,19 @@ def bank_lut_bytes(lut: list[int]) -> bytes:
     return bytes(out)
 
 
-def load_bank(data: bytes, bank: dict) -> tuple[bytearray, list[int]]:
-    """The bank's tiles and lookup table, whichever shape it is stored in."""
+def load_bank(data: bytes, bank: dict, tiles_at: int | None = None,
+              lut_at: int | None = None) -> tuple[bytearray, list[int]]:
+    """The bank's tiles and lookup table, whichever shape it is stored in.
+
+    ``tiles_at`` and ``lut_at`` are where the dump in hand keeps them; the
+    pack's own addresses are Kuwagata's and stand in when a caller has no
+    release to translate them against.
+    """
     codec = bank.get("codec", "lz77")
-    tiles_at = int(str(bank["tiles"]), 16)
-    lut_at = int(str(bank["lut"]), 16)
+    if tiles_at is None:
+        tiles_at = int(str(bank["tiles"]), 16)
+    if lut_at is None:
+        lut_at = int(str(bank["lut"]), 16)
     if codec == "raw":
         count = int(bank.get("tile_count", (lut_at - tiles_at) // TILE_BYTES))
         entries = int(bank.get("lut_entries", 1024))
@@ -1257,16 +1396,36 @@ def patch_glyph_banks(rom: Rom, charset: Charset, banks: list[dict], allocator,
     for bank in banks:
         name = bank.get("name", str(bank.get("tiles")))
         codec = bank.get("codec", "lz77")
-        tiles_at = int(str(bank["tiles"]), 16)
-        lut_at = int(str(bank["lut"]), 16)
+        # Both addresses come out of the pack in Kuwagata's space.
+        tiles_named = int(str(bank["tiles"]), 16)
+        lut_named = int(str(bank["lut"]), 16)
+        if codec == "raw":
+            # A raw bank is read whole and its table sits right after the last
+            # tile, so the pair is asked for as one span: that way the distance
+            # between them, which load_bank counts tiles with, survives the move.
+            entries = int(bank.get("lut_entries", 1024))
+            tiles_at = rom.at(tiles_named, lut_named - tiles_named + 2 * entries)
+            lut_at = None if tiles_at is None else tiles_at + (lut_named - tiles_named)
+        else:
+            # A compressed block is asked about by its header, and by its whole
+            # length below, once unpacking has said what that is.
+            tiles_at = rom.at(tiles_named)
+            lut_at = rom.at(lut_named)
+        if tiles_at is None or lut_at is None:
+            report.skipped.append((name, "this release keeps something else there"))
+            continue
         try:
-            tiles, lut = load_bank(data, bank)
+            tiles, lut = load_bank(data, bank, tiles_at, lut_at)
             if codec != "raw":
                 dec, enc = CODECS[codec]
                 tiles_len = dec(data, tiles_at)[1]
                 lut_len = dec(data, lut_at)[1]
         except (GfxError, KeyError) as exc:
             report.skipped.append((name, str(exc)))
+            continue
+        if codec != "raw" and not (
+                _reaches(rom, tiles_named, tiles_len, name, report)
+                and _reaches(rom, lut_named, lut_len, name, report)):
             continue
         before = bytes(tiles)
 
@@ -1420,11 +1579,11 @@ NEWSPAPER_AREAS = {
 NEWSPAPER_CUT = 0.8
 
 
-def _newspaper_palette(rom_data: bytes) -> list[tuple[int, int, int]]:
+def _newspaper_palette(rom_data: bytes, at: int) -> list[tuple[int, int, int]]:
     """The page's own 256 colours, as (r, g, b) on 0-31 axes."""
     palette = []
     for index in range(256):
-        colour = struct.unpack_from("<H", rom_data, NEWSPAPER_PALETTE + 2 * index)[0]
+        colour = struct.unpack_from("<H", rom_data, at + 2 * index)[0]
         palette.append((colour & 31, (colour >> 5) & 31, (colour >> 10) & 31))
     return palette
 
@@ -1555,12 +1714,20 @@ def patch_newspaper(rom: Rom, setter: "Typesetter", texts: dict,
     if not texts:
         return
     original = bytes(rom.data)
+    block = rom.at(NEWSPAPER_BLOCK)
+    palette_at = rom.at(NEWSPAPER_PALETTE, 2 * 256)
+    if block is None or palette_at is None:
+        report.skipped.append(
+            ("newspaper", "this release keeps the page or its palette elsewhere"))
+        return
     try:
-        raw, comp_len = decompress(original, NEWSPAPER_BLOCK)
+        raw, comp_len = decompress(original, block)
     except GfxError as exc:
         report.skipped.append(("newspaper", str(exc)))
         return
-    palette = _newspaper_palette(original)
+    if not _reaches(rom, NEWSPAPER_BLOCK, comp_len, "newspaper", report):
+        return
+    palette = _newspaper_palette(original, palette_at)
     page = bytearray(raw)
     canvas = Canvas8(page)
 
@@ -1621,7 +1788,7 @@ def patch_newspaper(rom: Rom, setter: "Typesetter", texts: dict,
             else:
                 _draw8(setter, canvas, x + along, y + step, line, ink)
         report.drawn += 1
-    _put_back(rom, NEWSPAPER_BLOCK, compress(bytes(page)), comp_len,
+    _put_back(rom, block, compress(bytes(page)), comp_len,
               allocator, pointer_sites, report, "newspaper")
 
 
@@ -1678,10 +1845,19 @@ def patch_save_panel(rom: Rom, setter: "Typesetter", allocator,
                      fill: int = 1, outline: int = 1) -> None:
     """Redraw the save panel's four counter labels, map and all."""
     original = bytes(rom.data)
+    sheet = rom.at(SAVE_PANEL_SHEET)
+    # Sixteen top-row cells and sixteen bottom-row ones, rewritten together.
+    panel_map = rom.at(SAVE_PANEL_MAP, 2 * 32)
+    if sheet is None or panel_map is None:
+        report.skipped.append(
+            ("save-panel", "this release keeps the sheet or its cell list elsewhere"))
+        return
     try:
-        raw, comp_len = decompress(original, SAVE_PANEL_SHEET)
+        raw, comp_len = decompress(original, sheet)
     except GfxError as exc:
         report.skipped.append(("save-panel", str(exc)))
+        return
+    if not _reaches(rom, SAVE_PANEL_SHEET, comp_len, "save-panel", report):
         return
     tiles = bytearray(raw)
     cells: list[int] = []
@@ -1728,13 +1904,13 @@ def patch_save_panel(rom: Rom, setter: "Typesetter", allocator,
         bottoms += [t if t is not None else SAVE_PANEL_BLANK for t in bottom]
     bottoms = (bottoms + [SAVE_PANEL_BLANK] * 16)[:16]
     for index, tile in enumerate(order + bottoms):
-        rom.write(SAVE_PANEL_MAP + 2 * index, bytes([tile & 0xFF, tile >> 8]))
+        rom.write(panel_map + 2 * index, bytes([tile & 0xFF, tile >> 8]))
     packed = compress(bytes(tiles))
     if len(packed) <= comp_len:
-        rom.write(SAVE_PANEL_SHEET, packed)
+        rom.write(sheet, packed)
         report.in_place += 1
     else:
-        sites = pointer_sites.get(SAVE_PANEL_SHEET, [])
+        sites = pointer_sites.get(sheet, [])
         if not sites:
             report.skipped.append(("save-panel", "grew, and nothing points at it"))
             return

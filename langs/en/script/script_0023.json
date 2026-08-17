@@ -1,0 +1,195 @@
+{
+ "part": "script/script_0023",
+ "entries": [
+  {
+   "key": "script:0023:06FC",
+   "src": "f1cee358c3f1",
+   "t": "<FACE:6C>Listen up, everyone!<NL>This is deplorable…<WAIT>Lately mere middle<NL>schoolers beat us!"
+  },
+  {
+   "key": "script:0023:0738",
+   "src": "c2b51ee6dcab",
+   "t": "<FACE:6C>And what is the cause?<NL>Does anyone know?"
+  },
+  {
+   "key": "script:0023:0753",
+   "src": "668220d36a8a",
+   "t": "<FACE:7D>It's gotta be…<NL>"
+  },
+  {
+   "key": "script:0023:075D",
+   "src": "f7350e5f0b55",
+   "t": "<FACE:7D>Is that kid <PLAYER>'s<NL>Medal power-robo?"
+  },
+  {
+   "key": "script:0023:077A",
+   "src": "f9f32b49cf15",
+   "t": "<FACE:7D>No, thinking it over<NL>calmly…<WAIT>It must be <PLAYER>'s<NL>Medaparts-robo!"
+  },
+  {
+   "key": "script:0023:07A5",
+   "src": "478868b91dd8",
+   "t": "<FACE:7D>No-robo! <PLAYER>'s<NL>tactics beat us-robo!"
+  },
+  {
+   "key": "script:0023:07C4",
+   "src": "0bf7675b8868",
+   "t": "<FACE:80>Their friends-robo!<NL>They've got teamwork!"
+  },
+  {
+   "key": "script:0023:07DE",
+   "src": "08fffb748b5e",
+   "t": "<FACE:6D>Wroooooong!!<NL>Don't you get it!?"
+  },
+  {
+   "key": "script:0023:07F5",
+   "src": "005b8a6d16a8",
+   "t": "<FACE:6D>It's not that they're<NL>strong! We lack guts!<WAIT>What we need now is<NL>harsh training!!"
+  },
+  {
+   "key": "script:0023:0840",
+   "src": "4d0186de8839",
+   "t": "<FACE:81>T… training-robo?<NL><WAIT>Anything but that,<NL>please-ro…"
+  },
+  {
+   "key": "script:0023:0862",
+   "src": "10b36874c9e7",
+   "t": "<FACE:6D>Foooools!<NL><WAIT>That's exactly why you<NL>lose!<NL><WAIT>Now, up this mountain<NL>in bunny hops!"
+  },
+  {
+   "key": "script:0023:08A0",
+   "src": "4984a5598275",
+   "t": "<FACE:81>This mountain-robo!?<NL>T-that's awful-robo!!<WAIT><FACE:6C>That's proof you lack<NL>guts! Training it is!"
+  },
+  {
+   "key": "script:0023:08EF",
+   "src": "fe7de15c8215",
+   "t": "<FACE:7D>Bad-robo… At this rate<NL>we'll be scrap-robo…<WAIT>We've gotta find a way<NL>out of it-robo…"
+  },
+  {
+   "key": "script:0023:0936",
+   "src": "01bdf28c9576",
+   "t": "<FACE:80>Ah! Over there-robo!!"
+  },
+  {
+   "key": "script:0023:0943",
+   "src": "a9b4062fe23a",
+   "t": "<FACE:7F>I see-robo!<NL><WAIT>If we start a Robattle<NL>training's off-robo!!<WAIT>Provoke 'em-robo!<NL>Provoke 'em-robo!!"
+  },
+  {
+   "key": "script:0023:0980",
+   "src": "0a773724daa3",
+   "t": "<FACE:00>It looks like this<NL><WAIT>Block's control device<NL>is on the mountaintop<WAIT><FACE:0A>But… it's all cliffs.<NL>Looks hard to climb…"
+  },
+  {
+   "key": "script:0023:09C6",
+   "src": "27f44dea815d",
+   "t": "<FACE:05>Huh? What's that…"
+  },
+  {
+   "key": "script:0023:09D2",
+   "src": "a9d70256a1a4",
+   "t": "<FACE:80>Heeey! Over here-robo!<NL>Come on over-robo!"
+  },
+  {
+   "key": "script:0023:09EC",
+   "src": "fdede0b1df9e",
+   "t": "<FACE:00>What could that be…<NL>Should we go look?"
+  },
+  {
+   "key": "script:0023:0A00",
+   "src": "20a7a0099310",
+   "t": "<FACE:06>What are you saying?<NL>It's a trap for sure!"
+  },
+  {
+   "key": "script:0023:0A1C",
+   "src": "484c38d709d1",
+   "t": "<FACE:14>Yeah, yeah! No need<NL>to walk into a trap!!<WAIT><FACE:19>Don't believe 'em!<WAIT><FACE:04>I dunno about that…"
+  },
+  {
+   "key": "script:0023:0A73",
+   "src": "e40eb6892e58",
+   "t": "<FACE:80>Heeeeey!<NL>Here-robo! Here-robo!"
+  },
+  {
+   "key": "script:0023:0A8B",
+   "src": "c9bb5079e4fd",
+   "t": "<FACE:04>Is that really true…<NL>"
+  },
+  {
+   "key": "script:0023:0A97",
+   "src": "4e2a5473853e",
+   "t": "<FACE:04>But this road looks<NL>like a dead end…"
+  },
+  {
+   "key": "script:0023:0AB5",
+   "src": "3d5326c44504",
+   "t": "<FACE:7D>Boss Nyuudou!"
+  },
+  {
+   "key": "script:0023:0AC0",
+   "src": "af0a33fe8cfd",
+   "t": "<FACE:6C>What!? Did I say you<NL>could come running?!<WAIT>Like I said, climb up<NL>in bunny hops!!"
+  },
+  {
+   "key": "script:0023:0AF9",
+   "src": "42beae20058f",
+   "t": "<FACE:7D>No time for that-robo!<NL><WAIT><PLAYER> is here-robo!!"
+  },
+  {
+   "key": "script:0023:0B20",
+   "src": "43e4ca2c8e08",
+   "t": "<FACE:03>Ah! We made it!<NL>"
+  },
+  {
+   "key": "script:0023:0B30",
+   "src": "ef9683fd26ed",
+   "t": "<FACE:00>Heeey, everyone!<NL>We made it up here!"
+  },
+  {
+   "key": "script:0023:0B48",
+   "src": "f8211ffb1364",
+   "t": "<FACE:6C>Interesting!<NL><WAIT>Troops! Show me what<NL>that training did!!"
+  },
+  {
+   "key": "script:0023:0B7F",
+   "src": "196bec1e2710",
+   "t": "<FACE:6C>How pathetic!!"
+  },
+  {
+   "key": "script:0023:0B8D",
+   "src": "cb16676893a8",
+   "t": "<FACE:6D>In that case, even<NL>harsher training!!!"
+  },
+  {
+   "key": "script:0023:0BAF",
+   "src": "41431b32636c",
+   "t": "<FACE:80>All for nothing-robo!!<NL>"
+  },
+  {
+   "key": "script:0023:0BC1",
+   "src": "6d5426a5960c",
+   "t": "<FACE:05>It's a trap for sure!"
+  },
+  {
+   "key": "script:0023:0BD3",
+   "src": "8ea48aaeb558",
+   "t": "<FACE:0A>Let's go check it out"
+  },
+  {
+   "key": "script:0023:0BE4",
+   "src": "c57bed371032",
+   "t": "<FACE:19>It's their trap for<NL>sure, I tell ya"
+  },
+  {
+   "key": "script:0023:0BFA",
+   "src": "181bcd020db1",
+   "t": "<FACE:14>We'll be waiting here"
+  },
+  {
+   "key": "script:0023:0C0A",
+   "src": "539cfe093d23",
+   "t": "<FACE:00>I'm curious about that<NL>Sperobo Gang…"
+  }
+ ]
+}

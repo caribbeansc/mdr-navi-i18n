@@ -1,4 +1,4 @@
-"""Shared fixtures: a synthetic Kuwagata image, and the real dump when present.
+"""Shared fixtures: a synthetic Kuwagata image, and real dumps when present.
 
 The synthetic image is a bytearray shaped like a Kuwagata cartridge: the header
 title, a master script table at the release's offset, and two tiny hand-built
@@ -15,7 +15,8 @@ from pathlib import Path
 
 import pytest
 
-from navi.rom import KUWAGATA, Rom
+from navi import font
+from navi.rom import HEADER_TITLE, KUWAGATA, RELEASES, Rom
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -117,6 +118,15 @@ def build_synthetic() -> Synth:
     for slot, target in enumerate(entries):
         rom.write_ptr(table + 4 * slot, target)
 
+    # The name-entry keyboard's font is not reached by a table but by two code
+    # words that name it, and the build finds them by what they point at
+    # (font.keyboard_literals) rather than by trusting one release's offsets.
+    # An image without them is one the build reports it cannot patch, which is
+    # correct of it and not what any of these tests is about.
+    for site, target in zip(font.KEYBOARD_LITERALS,
+                            (font.KEYBOARD_FONT, font.KEYBOARD_LUT)):
+        rom.write_ptr(site, target)
+
     # The last real byte; everything after it is the free tail.
     rom.write(SYNTH_DATA_END - 1, b"\xab")
 
@@ -134,6 +144,26 @@ def build_synthetic() -> Synth:
     )
 
 
+def language_packs() -> list[Path]:
+    """Every pack under langs/, so a rule is enforced on all of them.
+
+    The checks in this suite were written while there was one translation, and
+    a second one does not get a free pass: the cartridge's limits are the
+    cartridge's, whatever language is being written into it. Parameterising on
+    this means adding a pack adds its own coverage — and that the day someone
+    starts a third, its first failing test tells them a real thing.
+    """
+    langs = REPO_ROOT / "langs"
+    if not langs.is_dir():
+        return []
+    return sorted(path for path in langs.iterdir()
+                  if (path / "lang.json").is_file())
+
+
+def pack_id(path: Path) -> str:
+    return path.name
+
+
 @pytest.fixture
 def synth() -> Synth:
     return build_synthetic()
@@ -147,7 +177,62 @@ def make_rom():
 
 @pytest.fixture(scope="session")
 def game_rom() -> Rom:
-    dumps = sorted(REPO_ROOT.glob("*.gba"))
-    if not dumps:
-        pytest.skip("no .gba dump at the repository root")
-    return Rom.load(dumps[0])
+    """The dump the project is configured to work on.
+
+    Taking the alphabetically first *.gba was fine while there was only ever
+    one, and wrong the moment a second release turned up: "Kabuto" sorts
+    before "Kuwagata", so every ROM-dependent test silently started reading
+    the other cartridge — the same game at shifted offsets — and eleven of
+    them failed on fingerprints that were never stale. The CLI already asks
+    the config, so this does too.
+    """
+    from navi.config import Config
+
+    try:
+        return Rom.load(Config.load().resolve_rom())
+    except FileNotFoundError as exc:
+        pytest.skip(str(exc))
+
+
+def release_in_header(path: Path) -> str:
+    """The release a file claims to be in its header, or "" for anything else.
+
+    Which cartridge a file holds is a question for the twelve bytes at 0xA0,
+    never for the file NAME: dumps get renamed, and a patched build carries
+    the name someone gave it. Reading the header also means a stray .gba that
+    is some other game is passed over instead of failing the run.
+    """
+    with path.open("rb") as handle:
+        header = handle.read(HEADER_TITLE.stop)
+    if len(header) < HEADER_TITLE.stop:
+        return ""
+    title = bytes(header[HEADER_TITLE]).decode("ascii", "replace").rstrip("\0")
+    for release in RELEASES:
+        if title == release.title:
+            return release.name
+    return ""
+
+
+@pytest.fixture(scope="session")
+def other_rom(game_rom: Rom) -> Rom:
+    """The OTHER release's dump, when one is sitting beside the working one.
+
+    Kuwagata and Kabuto are one build with the data shifted, and the map that
+    says by how much (navi/align.py) can only be checked against both
+    cartridges at once. Most people have one; the tests that need two skip
+    exactly the way the ones that need any dump at all do.
+
+    A patched build of the other release may be sitting here too, and it is
+    not evidence of anything, so a dump whose SHA-1 the project knows wins.
+    """
+    candidates = [path for path in sorted(REPO_ROOT.glob("*.gba"))
+                  if release_in_header(path) not in ("", game_rom.release.name)]
+    fallback = None
+    for path in candidates:
+        rom = Rom.load(path)
+        if rom.is_known_dump:
+            return rom
+        fallback = fallback or rom
+    if fallback is not None:
+        return fallback
+    pytest.skip("No dump of the other release at the repository root")

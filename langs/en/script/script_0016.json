@@ -1,0 +1,50 @@
+{
+ "part": "script/script_0016",
+ "entries": [
+  {
+   "key": "script:0016:0366",
+   "src": "f7fea78b7311",
+   "t": "<FACE:7F>Found it-robo!<NL>What a relief-robo!"
+  },
+  {
+   "key": "script:0016:0377",
+   "src": "c79b4875e9c2",
+   "t": "<FACE:7D>Found what-robo?"
+  },
+  {
+   "key": "script:0016:0381",
+   "src": "99a92836fded",
+   "t": "<FACE:81>N-nothing at all-robo…"
+  },
+  {
+   "key": "script:0016:0391",
+   "src": "3792150e7546",
+   "t": "<FACE:80>Hm? What's this-robo!<NL>That stack of photos!"
+  },
+  {
+   "key": "script:0016:03AB",
+   "src": "77d877b73403",
+   "t": "<FACE:7F>Heh heh, that's my<NL>collection-robo<WAIT><FACE:7D>So the one that got<NL>torn the other day…<WAIT><FACE:7F>That was my favorite<NL>one-robo!<WAIT><FACE:7D>So your big push to<NL>take this Block back…<WAIT><FACE:7F>That's right-robo<NL>They're stashed here!<WAIT><FACE:7E>Why you-roboooo!"
+  },
+  {
+   "key": "script:0016:042C",
+   "src": "6008308c6a84",
+   "t": "<FACE:06>Hey, what's your deal!<NL><WAIT>You got some kind of<NL>grudge against me!?"
+  },
+  {
+   "key": "script:0016:044B",
+   "src": "93896a3b5a6f",
+   "t": "<FACE:7D>Ah! It's that kid from<NL>the other day-robo!<WAIT><FACE:7E>Payback for my<NL>favorite photo-robo!"
+  },
+  {
+   "key": "script:0016:0472",
+   "src": "8afd5b47d246",
+   "t": "<FACE:80>I'll be back for them!<NL>No touching-robo!"
+  },
+  {
+   "key": "script:0016:048E",
+   "src": "309ff7d79e3c",
+   "t": "<FACE:04>Touch? Touch what?"
+  }
+ ]
+}

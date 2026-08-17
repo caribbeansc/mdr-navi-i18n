@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0092",
+ "entries": [
+  {
+   "key": "script:0092:065B",
+   "src": "d8a454505605",
+   "t": "<FACE:03>Whoa, amazing!<NL>I've never seen this!"
+  },
+  {
+   "key": "script:0092:06A0",
+   "src": "f67e651ff877",
+   "t": "<FACE:0D>What a strange<NL>material…<WAIT>What's it made of?"
+  },
+  {
+   "key": "script:0092:06C0",
+   "src": "08295f1c7f21",
+   "t": "<FACE:55>Ah!<NL><WAIT>You mustn't!! It's<NL>dangerous to touch…"
+  },
+  {
+   "key": "script:0092:06E5",
+   "src": "77eed2967b02",
+   "t": "<FACE:54>Ah!"
+  },
+  {
+   "key": "script:0092:06EC",
+   "src": "f55f546392ae",
+   "t": "<FACE:56>Ah…<NL><DELAY:003C><DELAY:0031><CLEAR>So this is what humans<DELAY:0078><DELAY:000C><NL>call a «tum<DELAY:0020>ble»<DELAY:0078><DELAY:001E><END>"
+  },
+  {
+   "key": "script:0092:072B",
+   "src": "ae0abe252091",
+   "t": "<FACE:07>Aaaah! Honestly!<NL>"
+  },
+  {
+   "key": "script:0092:0739",
+   "src": "8c1d7c4ac40b",
+   "t": "<FACE:07>Sooooo cuuuute!<NL>I want this one!"
+  },
+  {
+   "key": "script:0092:0751",
+   "src": "2059c4973803",
+   "t": "<FACE:19>By the material, this<NL>isn't from Earth<WAIT><FACE:14>What sort of place<NL>is this?<WAIT><FACE:0F>Perhaps a dock for<NL>spaceships?<WAIT>Or a cargo entrance?<NL>"
+  },
+  {
+   "key": "script:0092:07BF",
+   "src": "0bb62c92677f",
+   "t": "<FACE:0F>It's alien tech, so I<NL>may be way off…"
+  },
+  {
+   "key": "script:0092:07EE",
+   "src": "6a72c3684520",
+   "t": "<FACE:03>This is…<NL><WAIT>Isn't this the Sperobo<NL>Gang's hideout?"
+  },
+  {
+   "key": "script:0092:0809",
+   "src": "ecc1e275a761",
+   "t": "<FACE:14>Why's it way out<NL>here, I wonder?"
+  },
+  {
+   "key": "script:0092:081D",
+   "src": "5f89a7d622cf",
+   "t": "<FACE:0A>Hm? What's this tube?"
+  },
+  {
+   "key": "script:0092:082E",
+   "src": "d666444e07cc",
+   "t": "<FACE:03>Aaaaah!<NL><WAIT>It's the Cluster's<NL>docking tube!"
+  },
+  {
+   "key": "script:0092:084F",
+   "src": "2492b17ffb18",
+   "t": "<FACE:00>I see!<NL><WAIT>We forgot to unplug<NL>it earlier!<WAIT>That's how the Cluster<NL>dragged us here!"
+  },
+  {
+   "key": "script:0092:0884",
+   "src": "4bee3bf8ac27",
+   "t": "<FACE:08>No waaaaay!"
+  },
+  {
+   "key": "script:0092:088F",
+   "src": "3459f7a9f0ca",
+   "t": "<FACE:04>Are they inside,<NL>you think?"
+  },
+  {
+   "key": "script:0092:08A1",
+   "src": "e2a79ffb1669",
+   "t": "<FACE:54>No life signs detected<NL>It seems deserted"
+  },
+  {
+   "key": "script:0092:08C1",
+   "src": "70ea44e08e1d",
+   "t": "<FACE:1C>Ah!<NL><WAIT>There's a notice<NL>posted here"
+  },
+  {
+   "key": "script:0092:08D8",
+   "src": "76d03df58110",
+   "t": "<FACE:57>«You lot! Pull out the<NL>tubes you plug in!»<WAIT>«But thanks to that, I<NL>found my first target<WAIT>for conquest!»<WAIT>«I begin the invasion<NL>at once,<WAIT>so don't interfere!<NL>Professor Kazanbai»"
+  },
+  {
+   "key": "script:0092:0965",
+   "src": "d3f8f8c4e2ae",
+   "t": "<FACE:08>You mean they've all<NL>left already?<WAIT><FACE:00>They don't waste time"
+  },
+  {
+   "key": "script:0092:098C",
+   "src": "a9d783bfbccd",
+   "t": "<FACE:0F>Anyway, let's hurry!<NL><WAIT>If the Sperobo Gang is<NL>already ahead of us…<WAIT>this could turn into<NL>interstellar war!"
+  },
+  {
+   "key": "script:0092:09DA",
+   "src": "b26dbc3fb014",
+   "t": "<FACE:00>Looks like there's<NL>still something…"
+  },
+  {
+   "key": "script:0092:09EC",
+   "src": "b087dc92e3ce",
+   "t": "<FACE:00>Let's hurry and look!"
+  }
+ ]
+}

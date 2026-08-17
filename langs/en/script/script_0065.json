@@ -1,0 +1,90 @@
+{
+ "part": "script/script_0065",
+ "entries": [
+  {
+   "key": "script:0065:06B2",
+   "src": "6fe6bbb622d1",
+   "t": "<FACE:7D>This veggie patch is<NL>pesticide-free-robo!<NL>"
+  },
+  {
+   "key": "script:0065:06C8",
+   "src": "889c9881585f",
+   "t": "<FACE:7D>No chemical<NL>fertilizers-robo!<NL>"
+  },
+  {
+   "key": "script:0065:06DE",
+   "src": "5dffff175146",
+   "t": "<FACE:80>It's good for you, but<NL>it's hard work-robo!"
+  },
+  {
+   "key": "script:0065:06FA",
+   "src": "654ce6883d68",
+   "t": "<FACE:75>Heh heh heh… cough<NL>Behold this sunlight…<WAIT>This greenery… I built<NL>it to heal my body!<WAIT><FACE:76>This Block will never…<NL>cough… be yours!!"
+  },
+  {
+   "key": "script:0065:076B",
+   "src": "70479e88208d",
+   "t": "<FACE:00>Um…"
+  },
+  {
+   "key": "script:0065:0773",
+   "src": "f5f20071990c",
+   "t": "<FACE:75>Hm? What, come to beg<NL>for your lives?<WAIT><FACE:00>No, not that… If your<NL>health comes first,<WAIT>forget space, live in<NL>the country on Earth?"
+  },
+  {
+   "key": "script:0065:07C8",
+   "src": "f668703b6917",
+   "t": "<FACE:75>…No. Conquering space<NL>has its own romance!<WAIT>Frail or not, I won't<NL>give up space! cough<WAIT><FACE:04>…Well… I guess you're<NL>right about that…"
+  },
+  {
+   "key": "script:0065:0831",
+   "src": "d3a2c1b37b38",
+   "t": "<FACE:0A>Don't push yourself…<NL><WAIT>We may be enemies, but<NL>we do worry about you"
+  },
+  {
+   "key": "script:0065:0863",
+   "src": "3f056d674414",
+   "t": "<FACE:76>C…curse you…<NL>Pitied by children!!<WAIT>My dignity has fallen<NL>to the ground!<NL><WAIT>Then we settle this<NL>with a Robattle!<NL><WAIT>I'll show you how<NL>strong I am! …cough!!"
+  },
+  {
+   "key": "script:0065:08DE",
+   "src": "1a5aedd5fd24",
+   "t": "<FACE:77>Grr… then I fall back…<NL>cough<WAIT><FACE:75>and… cough… regroup<NL>my forces!<NL>"
+  },
+  {
+   "key": "script:0065:090E",
+   "src": "8005e9e99688",
+   "t": "<FACE:75>…But don't think I'll<NL>hand this over free…"
+  },
+  {
+   "key": "script:0065:092E",
+   "src": "20463d7a97b1",
+   "t": "<FACE:76>…Hmph!"
+  },
+  {
+   "key": "script:0065:0936",
+   "src": "0000acec1b92",
+   "t": "<FACE:75>…Phew, some strength<NL>is back! Farewell!"
+  },
+  {
+   "key": "script:0065:0958",
+   "src": "5fccd4c2b25c",
+   "t": "<FACE:05>He gets more monstrous<NL>every time…<NL>"
+  },
+  {
+   "key": "script:0065:096F",
+   "src": "46c98a51d07f",
+   "t": "<FACE:00>Let's hurry on ahead"
+  },
+  {
+   "key": "script:0065:097F",
+   "src": "df834d7ce0df",
+   "t": "<FACE:04>Everyone just wanders<NL>off on their own…"
+  },
+  {
+   "key": "script:0065:099A",
+   "src": "3c74bcc1107e",
+   "t": "<FACE:00>Nothing for it"
+  }
+ ]
+}

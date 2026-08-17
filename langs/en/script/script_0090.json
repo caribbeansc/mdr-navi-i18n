@@ -1,0 +1,120 @@
+{
+ "part": "script/script_0090",
+ "entries": [
+  {
+   "key": "script:0090:0514",
+   "src": "1b33f4083b37",
+   "t": "<FACE:05>This Block feels<NL>nice and calm<WAIT><FACE:00>It's like an old<NL>Japanese house…"
+  },
+  {
+   "key": "script:0090:0541",
+   "src": "a0fd7d73ea7b",
+   "t": "<FACE:0D>Something's off…<NL><WAIT>It has to be here<NL>somewhere…"
+  },
+  {
+   "key": "script:0090:0562",
+   "src": "35e84e414348",
+   "t": "<FACE:0A>This feeling…<NL>I sense a hidden room"
+  },
+  {
+   "key": "script:0090:0585",
+   "src": "24d40e29787f",
+   "t": "<FACE:00>A hidden room…?<NL>Like in ninja houses?"
+  },
+  {
+   "key": "script:0090:05A5",
+   "src": "6489d475d65a",
+   "t": "<FACE:0A>A… ah, right<NL><WAIT>Something like that"
+  },
+  {
+   "key": "script:0090:05BC",
+   "src": "6553f9b782fc",
+   "t": "<FACE:05>Wow, Fubuki!<NL>You know your stuff!"
+  },
+  {
+   "key": "script:0090:05D7",
+   "src": "733f8a7fd762",
+   "t": "<FACE:0D>Huh?! No… it's not<NL>like that, really…"
+  },
+  {
+   "key": "script:0090:05F1",
+   "src": "4efb8bb650eb",
+   "t": "<FACE:00>In that case, let's<NL>find the hidden door!"
+  },
+  {
+   "key": "script:0090:0614",
+   "src": "f7e5abd79860",
+   "t": "<FACE:00>In manga it's almost<NL>always around here…"
+  },
+  {
+   "key": "script:0090:062E",
+   "src": "2655279549ce",
+   "t": "<FACE:06>It won't be anywhere<NL>that obvious!"
+  },
+  {
+   "key": "script:0090:064A",
+   "src": "3b762361d308",
+   "t": "<FACE:08>Oh my…"
+  },
+  {
+   "key": "script:0090:0651",
+   "src": "f0978ab93f2a",
+   "t": "<FACE:73>…I was hidden…<NL>and you found me…<WAIT><PLAYER><NL>…I knew it… destiny…"
+  },
+  {
+   "key": "script:0090:067C",
+   "src": "1d859f02c61f",
+   "t": "<FACE:06>What?!<NL>Destiny, seriously?!<WAIT>And what's a villain<NL>doing hiding, huh?!<WAIT>Come out and fight<NL>fair and square!"
+  },
+  {
+   "key": "script:0090:06C3",
+   "src": "80ef069b9d97",
+   "t": "<FACE:04>Um, well… that's why<NL>she's the villain…"
+  },
+  {
+   "key": "script:0090:06DC",
+   "src": "a6b863f68ba2",
+   "t": "<FACE:06>Oh, be quiet!<NL>What a dopey face!<WAIT>Think you're popular?<NL>What an idiot!"
+  },
+  {
+   "key": "script:0090:070C",
+   "src": "57278e4b2017",
+   "t": "<FACE:73>…My aim… was to stall<NL>you… no need to fight<WAIT><FACE:06>Yeah, yeah!<NL>Quit the calm act!<WAIT>We found you! Let's<NL>Robattle! We win, go!<WAIT><FACE:73>…You… are scary…"
+  },
+  {
+   "key": "script:0090:078F",
+   "src": "4f0738f319d8",
+   "t": "<FACE:06>Whaaat did you saaay?!"
+  },
+  {
+   "key": "script:0090:07A4",
+   "src": "76eae0a54aa8",
+   "t": "<FACE:73>…Pity… see you again…<NL>…<PLAYER>…"
+  },
+  {
+   "key": "script:0090:07C1",
+   "src": "a66fa7e8ce73",
+   "t": "<FACE:00>Let's look elsewhere"
+  },
+  {
+   "key": "script:0090:07CC",
+   "src": "06a67987207a",
+   "t": "<FACE:05>How about over there?"
+  },
+  {
+   "key": "script:0090:07D9",
+   "src": "7ca9a7478f73",
+   "t": "<FACE:0A>What about that side?"
+  },
+  {
+   "key": "script:0090:07E8",
+   "src": "635989c9b51a",
+   "t": "<FACE:19>Looks like there's<NL>nothing here"
+  },
+  {
+   "key": "script:0090:07F8",
+   "src": "ed7843c14a37",
+   "t": "<FACE:14>Feels like something's<NL>here… but I dunno"
+  }
+ ]
+}

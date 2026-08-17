@@ -1,0 +1,185 @@
+{
+ "part": "script/script_0139",
+ "entries": [
+  {
+   "key": "script:0139:0302",
+   "src": "889ea10e35c2",
+   "t": "<FACE:7A>Nwoaah! <PLAYER>!"
+  },
+  {
+   "key": "script:0139:030B",
+   "src": "0f6154c3dd78",
+   "t": "<FACE:7B>Behind me? Impressive!<NL>So why are you here?"
+  },
+  {
+   "key": "script:0139:0338",
+   "src": "8890ac24dea2",
+   "t": "<FACE:01>That's my line!<NL>What are you doing<WAIT>in a place like this!"
+  },
+  {
+   "key": "script:0139:0361",
+   "src": "c43b89da707e",
+   "t": "<FACE:79>True enough…<NL>Well…<WAIT>The likes of you could<NL>never grasp my plans…"
+  },
+  {
+   "key": "script:0139:038C",
+   "src": "4dc8651adab3",
+   "t": "<FACE:00>So?"
+  },
+  {
+   "key": "script:0139:0391",
+   "src": "fd6014068113",
+   "t": "<FACE:7B>I am looking for That"
+  },
+  {
+   "key": "script:0139:03A0",
+   "src": "e70242e323fa",
+   "t": "<FACE:04>That?"
+  },
+  {
+   "key": "script:0139:03A6",
+   "src": "55956348f636",
+   "t": "<FACE:7C>Yes!<WAIT><FACE:7B>That!"
+  },
+  {
+   "key": "script:0139:03B3",
+   "src": "486f81e71a6d",
+   "t": "<FACE:04>That… meaning what…?"
+  },
+  {
+   "key": "script:0139:03C0",
+   "src": "a080c352c5e1",
+   "t": "<FACE:7A>Hmph! Playing dumb,<NL>are you…<WAIT><FACE:79>Well, no matter<NL><WAIT>Once That is mine,<NL><WAIT>I'll have power far<NL>beyond your reach!<WAIT><FACE:7B>I see why you hide it!<NL>Bwaa ha ha ha!"
+  },
+  {
+   "key": "script:0139:0430",
+   "src": "4b5dbc77604a",
+   "t": "<FACE:02>Huh… so it wasn't just<NL>a made-up story…"
+  },
+  {
+   "key": "script:0139:0447",
+   "src": "b28f93e102d7",
+   "t": "<FACE:7A>What! Whaaat!?<NL><WAIT>From the way you talk,<NL><WAIT>you think the great<NL>Raiun makes excuses!?<WAIT><FACE:79>Very well!<NL><WAIT>I too meant to settle<NL>this with you at last<WAIT>Talk like \"Raiun lost<NL>and ran away\"<WAIT>must not be allowed to<NL>spread!"
+  },
+  {
+   "key": "script:0139:04E9",
+   "src": "8daf341302f0",
+   "t": "<FACE:7A>Nnngh…<NL><WAIT>J-just as I thought…<NL>Without That…<WAIT>Where did I leave it…"
+  },
+  {
+   "key": "script:0139:0513",
+   "src": "25494ac43be3",
+   "t": "<FACE:7C>That's it!<NL><WAIT>It must be over there!"
+  },
+  {
+   "key": "script:0139:052B",
+   "src": "dc3d1537de62",
+   "t": "<FACE:7A><PLAYER>!<NL><WAIT>The great Raiun is not<NL>running away!"
+  },
+  {
+   "key": "script:0139:0542",
+   "src": "e680a14fe431",
+   "t": "<FACE:7A>Is that clear!<NL><WAIT>I am not running away!"
+  },
+  {
+   "key": "script:0139:055A",
+   "src": "7b8bc20db5ac",
+   "t": "<FACE:79>To meet again in a<NL>place like this…"
+  },
+  {
+   "key": "script:0139:0575",
+   "src": "52ccf3600d00",
+   "t": "<FACE:04>Oh, come on…<NL><WAIT><FACE:00>By the way, did you<NL>find That?"
+  },
+  {
+   "key": "script:0139:0591",
+   "src": "ca0f78f9572e",
+   "t": "<FACE:7C>Oh, right…<NL><WAIT><FACE:79>Thinking it over,<NL>it should be here…"
+  },
+  {
+   "key": "script:0139:05BC",
+   "src": "0d73a251f954",
+   "t": "<FACE:00>I see…<WAIT><FACE:02>Hope you find it soon"
+  },
+  {
+   "key": "script:0139:05D4",
+   "src": "693f1c70d314",
+   "t": "<FACE:7A>Wh…!"
+  },
+  {
+   "key": "script:0139:05DB",
+   "src": "13913bdaacfe",
+   "t": "<FACE:04>Wh…?"
+  },
+  {
+   "key": "script:0139:05E2",
+   "src": "46a9c7855148",
+   "t": "<FACE:7A>Wh…!!"
+  },
+  {
+   "key": "script:0139:05EA",
+   "src": "13913bdaacfe",
+   "t": "<FACE:04>Wh…?"
+  },
+  {
+   "key": "script:0139:05F1",
+   "src": "52f997127a87",
+   "t": "<FACE:7A>What did you saaaay!"
+  },
+  {
+   "key": "script:0139:05FE",
+   "src": "5ab4e14710cf",
+   "t": "<FACE:04>Huh?"
+  },
+  {
+   "key": "script:0139:0603",
+   "src": "8937b46cec3d",
+   "t": "<FACE:7A>Is that composure!?<NL><WAIT>The composure of a<NL>viiiictor!!"
+  },
+  {
+   "key": "script:0139:0621",
+   "src": "b3a1af9ee258",
+   "t": "<FACE:03>Eeeeeh?!"
+  },
+  {
+   "key": "script:0139:062C",
+   "src": "3797d752a16d",
+   "t": "<FACE:7A>Curse you, <PLAYER>…<NL><WAIT>You enjoy mocking me<NL>with That missing!?"
+  },
+  {
+   "key": "script:0139:065D",
+   "src": "8dd3b57c8f01",
+   "t": "<FACE:7A>Just you watch! I will<NL>find That next time!"
+  },
+  {
+   "key": "script:0139:067D",
+   "src": "4da8af24126c",
+   "t": "<FACE:7A>Mark my words well!<NL><WAIT>I am not running away<NL>because I lost!<WAIT>Is that clear!"
+  },
+  {
+   "key": "script:0139:06A8",
+   "src": "199cb1f7a65d",
+   "t": "<FACE:04>Yeah, yeah…"
+  },
+  {
+   "key": "script:0139:06B1",
+   "src": "1b114c6e3d43",
+   "t": "<FACE:04>Hm?<NL><WAIT><FACE:04>Something over there<NL>seemed to shine…"
+  },
+  {
+   "key": "script:0139:06D3",
+   "src": "122b5e12ce5d",
+   "t": "<FACE:00>There's a scrap of<NL>paper on the barrel!"
+  },
+  {
+   "key": "script:0139:06EA",
+   "src": "30d98b617ad9",
+   "t": "<FACE:57>Second password: «TSU»"
+  },
+  {
+   "key": "script:0139:06FB",
+   "src": "a15bdf95ab0a",
+   "t": "<FACE:04>…?<NL>What's this?"
+  }
+ ]
+}

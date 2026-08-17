@@ -1,0 +1,70 @@
+{
+ "part": "script/script_0039",
+ "entries": [
+  {
+   "key": "script:0039:035E",
+   "src": "b999ef3b08a1",
+   "t": "<FACE:6C>Make haste!<NL><WAIT>If you don't hurry up,<NL>they'll be here!"
+  },
+  {
+   "key": "script:0039:0381",
+   "src": "ef202ff0d1f7",
+   "t": "<FACE:7D>Easy for you to say,<NL>it won't move-robo"
+  },
+  {
+   "key": "script:0039:039C",
+   "src": "68758350d912",
+   "t": "<FACE:6C>How pathetic!<NL>"
+  },
+  {
+   "key": "script:0039:03A9",
+   "src": "2fb84aa7236a",
+   "t": "<FACE:6C>At that rate you're no<NL>use to the Sperobos!"
+  },
+  {
+   "key": "script:0039:03C6",
+   "src": "c4e5d3dac7be",
+   "t": "<FACE:6C>Use that rock to block<NL>the entrance somehow!"
+  },
+  {
+   "key": "script:0039:03E3",
+   "src": "03874b89f279",
+   "t": "<FACE:00>Looks like hard work…"
+  },
+  {
+   "key": "script:0039:03F2",
+   "src": "314ae53d4e7c",
+   "t": "<FACE:81>Ah! <PLAYER>-robo!"
+  },
+  {
+   "key": "script:0039:03FC",
+   "src": "ae7e8e03760b",
+   "t": "<FACE:6D>They're here already?!"
+  },
+  {
+   "key": "script:0039:040B",
+   "src": "5d36b76be0ad",
+   "t": "<FACE:7F>So we don't have to<NL>move it now-robo?"
+  },
+  {
+   "key": "script:0039:0421",
+   "src": "67aa6442585c",
+   "t": "<FACE:6C>…Nothing for it!<WAIT><FACE:6F>Let's Robattle!"
+  },
+  {
+   "key": "script:0039:043C",
+   "src": "842035737920",
+   "t": "<FACE:6D>You lot lack strength!<WAIT><FACE:81>We're sorry-robo…"
+  },
+  {
+   "key": "script:0039:045D",
+   "src": "a7977f03eed7",
+   "t": "<FACE:04>What were they trying<NL>to do?"
+  },
+  {
+   "key": "script:0039:046F",
+   "src": "348ba7426b97",
+   "t": "<FACE:05>Who cares about that?<WAIT>Let's get moving!"
+  }
+ ]
+}

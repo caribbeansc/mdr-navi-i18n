@@ -1,0 +1,440 @@
+{
+ "part": "script/script_0082",
+ "entries": [
+  {
+   "key": "script:0082:0BD3",
+   "src": "43730e253298",
+   "t": "<FACE:05>So they dig this place<NL>for Medabot material<WAIT><FACE:00>The path splits up<NL>ahead… don't get lost"
+  },
+  {
+   "key": "script:0082:0C1F",
+   "src": "2a7a5cffbfb8",
+   "t": "<FACE:08>Ah, look, <PLAYER>!<NL>The Sperobos again"
+  },
+  {
+   "key": "script:0082:0C3A",
+   "src": "58be04fd89b0",
+   "t": "<FACE:00>I think that's Raiun…<NL>Let's watch a bit"
+  },
+  {
+   "key": "script:0082:0C5F",
+   "src": "ca0a6642beb5",
+   "t": "<FACE:7D>Boss Raiun, tunnel 3<NL>is running late-robo"
+  },
+  {
+   "key": "script:0082:0C82",
+   "src": "3d35de29ed52",
+   "t": "<FACE:7C>What?!<WAIT><FACE:7A>In my great name,<NL>I won't allow it!<WAIT>If the work runs late,<NL>my face is ruined!"
+  },
+  {
+   "key": "script:0082:0CCD",
+   "src": "22a509913bed",
+   "t": "<FACE:7D>(Worried about his own<NL>face again-robo…)<WAIT>(Without that he'd be<NL>a nice guy-robo…)"
+  },
+  {
+   "key": "script:0082:0D01",
+   "src": "7bef645939aa",
+   "t": "<FACE:79>Hm! You there!<NL>You say something?"
+  },
+  {
+   "key": "script:0082:0D15",
+   "src": "0060a6c1ca78",
+   "t": "<FACE:80>N-no-robo! Nothing at<NL>all-robo!"
+  },
+  {
+   "key": "script:0082:0D2D",
+   "src": "5ad757544fe2",
+   "t": "<FACE:79>Hmph! Fine, whatever<NL><WAIT>Fussing over details<NL>makes me look petty!"
+  },
+  {
+   "key": "script:0082:0D65",
+   "src": "02d3f5fb8c84",
+   "t": "<FACE:79>More work Medabots on<NL>tunnel 3! Catch up!"
+  },
+  {
+   "key": "script:0082:0D96",
+   "src": "ebee1295bcb1",
+   "t": "<FACE:81>Eeeeeeeeh!<NL><WAIT>Do that and the other<NL>tunnels lag-robo!<WAIT>We're already barely<NL>keeping up-robo!"
+  },
+  {
+   "key": "script:0082:0DE4",
+   "src": "497ebfc576f7",
+   "t": "<FACE:7A>Enough! Silence!<WAIT><FACE:79>You all know the plan:<NL>use this equipment<WAIT>to mass-produce<NL>Medabots by the ton,<WAIT>then hit those brats<NL>all at once!<WAIT><FACE:7A>I bragged to the other<NL>Bosses about supplies<WAIT>After that, I cannot<NL>afford to be late!"
+  },
+  {
+   "key": "script:0082:0E8E",
+   "src": "d797505be3c3",
+   "t": "<FACE:79>If I fall behind,<NL>they'll mock me…"
+  },
+  {
+   "key": "script:0082:0EAF",
+   "src": "97c424dc1b06",
+   "t": "<FACE:7A>Absolutely no delays!<NL><WAIT>A delay in any Block<NL>is on all of you!<WAIT>If even one Block is<NL>late, you all get it!"
+  },
+  {
+   "key": "script:0082:0F05",
+   "src": "32590c982e80",
+   "t": "<FACE:81>Eeeeeeeek-robo!"
+  },
+  {
+   "key": "script:0082:0F15",
+   "src": "14f9934a84cd",
+   "t": "<FACE:7A>Get back to work, now!"
+  },
+  {
+   "key": "script:0082:0F28",
+   "src": "8c019b9e431d",
+   "t": "<FACE:80>Aaaah! It's that kid<NL>again-robo!<WAIT><FACE:7E>So you're the ones<NL>in our way-robo!"
+  },
+  {
+   "key": "script:0082:0F61",
+   "src": "0365a8c72cfc",
+   "t": "<FACE:7A>Whaaat!<NL><WAIT>In that case, no mercy<NL>even for children!"
+  },
+  {
+   "key": "script:0082:0F85",
+   "src": "3b2a46bec2dd",
+   "t": "<FACE:79>…That is to say…<NL><WAIT>Until now I held back<NL>since you're kids…"
+  },
+  {
+   "key": "script:0082:0FBA",
+   "src": "87fe39449ecc",
+   "t": "<FACE:7D>Boss Raiun!<NL><WAIT>Forget the excuses,<NL>just beat him-robo!"
+  },
+  {
+   "key": "script:0082:0FED",
+   "src": "835f448cb8f6",
+   "t": "<FACE:7C>E-excuses?! How dare<NL>you say that!<WAIT>I, the great Raiun…!"
+  },
+  {
+   "key": "script:0082:100F",
+   "src": "cb368530033a",
+   "t": "<FACE:05>Yeah, yeah, enough<NL>bickering. Robattle?"
+  },
+  {
+   "key": "script:0082:102B",
+   "src": "274f13555446",
+   "t": "<FACE:05>Let's get started"
+  },
+  {
+   "key": "script:0082:1038",
+   "src": "a7c181e75342",
+   "t": "<FACE:7A>Ngh!"
+  },
+  {
+   "key": "script:0082:103D",
+   "src": "d55f86bab447",
+   "t": "<FACE:81>Boss Raiun lost-robo…<WAIT><FACE:06>What? Weren't you<NL>holding back so far?<WAIT><FACE:79>…I-I'm still too soft…<NL>If I'd used That…<WAIT><FACE:09>That?"
+  },
+  {
+   "key": "script:0082:10A0",
+   "src": "e889770d5e2b",
+   "t": "<FACE:79>With That I'd have won<NL>but it ends horribly…"
+  },
+  {
+   "key": "script:0082:10D3",
+   "src": "d22bb254ab08",
+   "t": "<FACE:79>For today I'll call it<NL>a loss<WAIT>Next time won't go the<NL>same! I'll use That…<WAIT><FACE:05>That what?"
+  },
+  {
+   "key": "script:0082:1123",
+   "src": "ffef3362ba0a",
+   "t": "<FACE:7B>Heh heh… even I can't<NL>be cruel to children…<WAIT>Not using That at all!<NL>Bwaa ha ha ha!"
+  },
+  {
+   "key": "script:0082:116B",
+   "src": "0b6ae9199fd2",
+   "t": "<FACE:0A>Hey, what's \"That\"…?"
+  },
+  {
+   "key": "script:0082:1177",
+   "src": "78a6e0c2be07",
+   "t": "<FACE:7D>Knowing him-robo…<NL>it's probably a blu…<WAIT><FACE:7A>HEY!!!"
+  },
+  {
+   "key": "script:0082:1199",
+   "src": "8df8e25a3e63",
+   "t": "<FACE:80>Yes-robo! Coming right<NL>now-robo!"
+  },
+  {
+   "key": "script:0082:11AD",
+   "src": "70db85bf5c7e",
+   "t": "<FACE:04>A blu… ff?"
+  },
+  {
+   "key": "script:0082:11B7",
+   "src": "b0cbdab6b6df",
+   "t": "<FACE:67>Out of the way-mole<NL>Work's blocked-mole"
+  },
+  {
+   "key": "script:0082:11CA",
+   "src": "58e97d546131",
+   "t": "<FACE:67>If you're not working,<NL>get out-mole"
+  },
+  {
+   "key": "script:0082:11E5",
+   "src": "96aad714ed7f",
+   "t": "<FACE:67>…No time for this sort<NL>of thing-mole"
+  },
+  {
+   "key": "script:0082:1256",
+   "src": "710bb5f21f4b",
+   "t": "<FACE:05>Anyway, Medabot<NL>development is safe<WAIT>Reset the controls and<NL>let's move on!"
+  },
+  {
+   "key": "script:0082:1298",
+   "src": "2321f29a8e98",
+   "t": "<FACE:03>Ah, Amamiya!"
+  },
+  {
+   "key": "script:0082:12A5",
+   "src": "2fcd12814be5",
+   "t": "<FACE:2C>Come on, Amamiya!<NL>We have to run…"
+  },
+  {
+   "key": "script:0082:12BE",
+   "src": "d7a1c7d6b07a",
+   "t": "<FACE:29>…<NL>"
+  },
+  {
+   "key": "script:0082:12C5",
+   "src": "976ffec97fcc",
+   "t": "<FACE:2A>We're calling it off!"
+  },
+  {
+   "key": "script:0082:12D3",
+   "src": "bb11dd282df1",
+   "t": "<FACE:2C>Ah, Amamiya!<WAIT><FACE:2F>Amamiya…"
+  },
+  {
+   "key": "script:0082:12EB",
+   "src": "ea50090bd910",
+   "t": "<FACE:2B>……so…<NL>……that's why…"
+  },
+  {
+   "key": "script:0082:1300",
+   "src": "6c33f692c6c4",
+   "t": "<FACE:2A>Stop the bomb timer,<NL>quick!<WAIT><FACE:2B>It's fine!<NL>They won't stay long<WAIT><FACE:2A>It's too dangerous!<WAIT><FACE:2B>But… this is the only<NL>way to save ourselves<WAIT>You said it yourself,<NL>Amamiya!<WAIT>That we misfits would<NL>pull through alone!"
+  },
+  {
+   "key": "script:0082:13A4",
+   "src": "5e093618caf1",
+   "t": "<FACE:04>What's going on?<NL>Tensai… that bomb…"
+  },
+  {
+   "key": "script:0082:13C4",
+   "src": "e256f5fdac50",
+   "t": "<FACE:03>No way!<WAIT><FACE:2B>That's right… we're<NL>wrecking this Block!<WAIT><FACE:04>But why would you do<NL>something like that…"
+  },
+  {
+   "key": "script:0082:13FC",
+   "src": "5ac856bf0f4b",
+   "t": "<FACE:12>So that's it!"
+  },
+  {
+   "key": "script:0082:1403",
+   "src": "5eb305802d99",
+   "t": "<FACE:0F>This Block is the<NL>Cluster's center…<WAIT>Destroy it and the<NL>Cluster's cut in two!<WAIT><FACE:00>Shiden… then what<NL>happens?<WAIT><FACE:0F>Beyond here, thrusters<NL>keep it accelerating…<WAIT>The Lobby-side Blocks<NL>lose thrust, then…"
+  },
+  {
+   "key": "script:0082:1498",
+   "src": "52206e5fc90a",
+   "t": "<FACE:2B>The sun pulls us back<NL>close to Earth again!"
+  },
+  {
+   "key": "script:0082:14BF",
+   "src": "9e91655dbbc6",
+   "t": "<FACE:12>That's crazy! Nobody<NL>knows where we'd go!<WAIT><FACE:01>And someone's surely<NL>in the Blocks ahead!"
+  },
+  {
+   "key": "script:0082:1502",
+   "src": "437b158b9bfb",
+   "t": "<FACE:06>For starters, we were<NL>nearly caught in it!"
+  },
+  {
+   "key": "script:0082:1526",
+   "src": "07fe90fa94bf",
+   "t": "<FACE:2D>But… but…"
+  },
+  {
+   "key": "script:0082:1532",
+   "src": "03df2a433793",
+   "t": "<FACE:2B>It's now or never!<NL><WAIT>Any farther from Earth<NL>and this won't work!<WAIT><FACE:10>But at least think of<NL>everyone's safety…"
+  },
+  {
+   "key": "script:0082:1581",
+   "src": "3bf952e34876",
+   "t": "<FACE:2B>I thought this up!<NL>"
+  },
+  {
+   "key": "script:0082:1590",
+   "src": "c6cc6a218264",
+   "t": "<FACE:2B>And these two agreed…<NL><WAIT>We'll do it with our<NL>own strength!<NL><WAIT><FACE:2D>Even we can…<NL>save everybody…"
+  },
+  {
+   "key": "script:0082:15D9",
+   "src": "fd8ea91c545d",
+   "t": "<FACE:10>No choice… <PLAYER><NL>It's force, then…"
+  },
+  {
+   "key": "script:0082:15F5",
+   "src": "03ff32b53a0b",
+   "t": "<FACE:2B>So it's a Robattle?<NL><WAIT>Fine! We'll face you<NL>using Medabots here…"
+  },
+  {
+   "key": "script:0082:1635",
+   "src": "d7a1c7d6b07a",
+   "t": "<FACE:29>…<NL>"
+  },
+  {
+   "key": "script:0082:163C",
+   "src": "475f8fa5c2d9",
+   "t": "<FACE:29>All right, Tensai…<NL>I'll lend you a hand<WAIT><FACE:04>…Amamiya…"
+  },
+  {
+   "key": "script:0082:1660",
+   "src": "7a84bf49ca26",
+   "t": "<FACE:29>This'll satisfy you…<WAIT><FACE:2D>If everyone… would<NL>listen to my voice…"
+  },
+  {
+   "key": "script:0082:168A",
+   "src": "a63d4d684a0a",
+   "t": "<FACE:2A>Quick, hit the bomb<NL>switch!"
+  },
+  {
+   "key": "script:0082:169D",
+   "src": "b35ff1138cb5",
+   "t": "<FACE:08>…Phew…<NL>"
+  },
+  {
+   "key": "script:0082:16A8",
+   "src": "50e181071086",
+   "t": "<FACE:05>So this is how we got<NL>saved…"
+  },
+  {
+   "key": "script:0082:16BC",
+   "src": "cd1904b67268",
+   "t": "<FACE:04>Tensai… I…"
+  },
+  {
+   "key": "script:0082:16CC",
+   "src": "4f9bfe0691b7",
+   "t": "<FACE:2B>I know… <PLAYER>…<NL>It was a risky plan…"
+  },
+  {
+   "key": "script:0082:16F0",
+   "src": "f0196b800f0d",
+   "t": "<FACE:2D>But this was all I<NL>could think of…"
+  },
+  {
+   "key": "script:0082:1715",
+   "src": "45610029f217",
+   "t": "<FACE:29><PLAYER>…<NL><WAIT>Retaken this much<NL>already… well done<WAIT>But all are desperate,<NL>some try risky things"
+  },
+  {
+   "key": "script:0082:1770",
+   "src": "eeb95293f012",
+   "t": "<FACE:29>I won't tell you to<NL>accept it… just…<WAIT>Don't forget there are<NL>people like that<WAIT><FACE:04>…Got it<NL>I'll remember that…"
+  },
+  {
+   "key": "script:0082:17B7",
+   "src": "5ef9463ea052",
+   "t": "<FACE:05><PLAYER>, hurry up<NL>This Block matters"
+  },
+  {
+   "key": "script:0082:17D1",
+   "src": "a183fd77f07e",
+   "t": "<FACE:05>Those were our<NL>classmates, right?<WAIT>What were they calling<NL>off?"
+  },
+  {
+   "key": "script:0082:17F4",
+   "src": "b793297335b0",
+   "t": "<FACE:19>They sure dug a lot<NL>in here"
+  },
+  {
+   "key": "script:0082:1807",
+   "src": "92a93312c20a",
+   "t": "<FACE:14>Hm? What is it?<NL><WAIT>You haven't taken it<NL>back yet, right?"
+  },
+  {
+   "key": "script:0082:1826",
+   "src": "93f4e45e572c",
+   "t": "<FACE:0F>Take this back and we<NL>can make new Medabots"
+  },
+  {
+   "key": "script:0082:184A",
+   "src": "b5ae6bcbd958",
+   "t": "<FACE:0F>Are they classmates<NL>of yours?"
+  },
+  {
+   "key": "script:0082:185E",
+   "src": "631007ea830d",
+   "t": "<FACE:67>You're in the way of<NL>the work-mole!"
+  },
+  {
+   "key": "script:0082:186D",
+   "src": "1023ff99d6ff",
+   "t": "<FACE:67>Off to another<NL>job-mole…"
+  },
+  {
+   "key": "script:0082:1880",
+   "src": "003516b9052b",
+   "t": "<FACE:67>No time to chat-mole…"
+  },
+  {
+   "key": "script:0082:1896",
+   "src": "92255987efdf",
+   "t": "<FACE:29>Amamiya joined the<NL>team!<WAIT><FACE:2B>Tensai joined the<NL>team!<WAIT><FACE:2F>Nadare joined the<NL>team!"
+  },
+  {
+   "key": "script:0082:18E2",
+   "src": "0de93b8e4412",
+   "t": "<FACE:04>Hm?!"
+  },
+  {
+   "key": "script:0082:18E8",
+   "src": "8e532937a805",
+   "t": "<FACE:03>Isn't this a Tinpet?!<NL><WAIT>Ah, a Medal too!<WAIT><FACE:04>Why are they here…<NL><WAIT>Whose could they be?"
+  },
+  {
+   "key": "script:0082:192A",
+   "src": "cdfc0eec5f7b",
+   "t": "<FACE:05>What's wrong?"
+  },
+  {
+   "key": "script:0082:1933",
+   "src": "c3aff6019240",
+   "t": "<FACE:00>Oh, Hiyori<NL><WAIT>There's a Tinpet lying<NL>here, so I wondered…"
+  },
+  {
+   "key": "script:0082:1964",
+   "src": "735f1b01726e",
+   "t": "<FACE:0F>Let me have a look"
+  },
+  {
+   "key": "script:0082:1972",
+   "src": "187f16790835",
+   "t": "<FACE:0F>Hmm…<NL><WAIT>No RR control number<NL>on it… not ours…"
+  },
+  {
+   "key": "script:0082:19A3",
+   "src": "33af9ade9313",
+   "t": "<FACE:04>So that means…<NL>somebody dropped it?"
+  },
+  {
+   "key": "script:0082:19B9",
+   "src": "7c1039f8d6cf",
+   "t": "<FACE:05>So there might be<NL>someone up ahead!<WAIT><FACE:07>Well, just keep it!"
+  },
+  {
+   "key": "script:0082:19E9",
+   "src": "24e4ade8356e",
+   "t": "<FACE:67>What a waste of<NL>time-mole"
+  },
+  {
+   "key": "script:0082:19FC",
+   "src": "9e897878927d",
+   "t": "<FACE:00>The Block's already<NL>under control"
+  }
+ ]
+}

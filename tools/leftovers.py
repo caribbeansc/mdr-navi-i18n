@@ -2,10 +2,11 @@
 """What Japanese is still standing in a built ROM, without playing it.
 
   python3 tools/leftovers.py build/medarot-navi-kuwagata-es.gba
+  python3 tools/leftovers.py build/…-en.gba --lang en  # another pack
   python3 tools/leftovers.py build/…-es.gba --all      # backlog included
   python3 tools/leftovers.py build/…-es.gba --update   # accept what is left
 
-Only runs missing from langs/es/leftovers.json are listed, so a new one
+Only runs missing from langs/<code>/leftovers.json are listed, so a new one
 stands out from the known backlog; `navi.py build` prints the same count.
 The ones drawn through the re-purposed kana codes come out as GARBAGE on
 screen ("H¿ガP"), not as Japanese, so they are listed first.
@@ -24,13 +25,19 @@ from navi import leftovers as L                          # noqa: E402
 from navi.rom import Rom                                 # noqa: E402
 from navi.table import Charset, decode, load_japanese    # noqa: E402
 
-BASELINE = ROOT / "langs/es/leftovers.json"
+def baseline_for(code: str) -> Path:
+    return ROOT / "langs" / code / "leftovers.json"
 
 
-def scan(built_at: Path):
-    dump = next((p for p in ROOT.glob("*.gba")), None)
+def scan(built_at: Path, code: str = "es"):
+    built = Rom.load(built_at)
+    # Compare against the dump of the SAME release: the two cartridges are
+    # the same game at different offsets, and diffing across them would report
+    # every byte in the ROM.
+    dump = next((p for p in ROOT.glob("*.gba")
+                 if Rom.load(p).release.name == built.release.name), None)
     if dump is None:
-        raise SystemExit("no local dump to compare against")
+        raise SystemExit(f"no local {built.release.name} dump to compare against")
     original = Rom.load(dump)
     japanese = load_japanese()
     latin = Charset.load(ROOT / "data/charset-latin.tbl")
@@ -38,21 +45,27 @@ def scan(built_at: Path):
     from navi.lang import Pack
 
     catalog = build_catalog(original, japanese)
-    pack = Pack.load("es")
+    pack = Pack.load(code, release=original.release.name)
     skip = (L.script_area(original)
             + L.translated_area(original, catalog, pack)
-            + list(L.DATA_AREAS))
-    return original, japanese, L.find(original, Rom.load(built_at),
-                                      japanese, latin, skip=skip)
+            + L.data_areas(original))
+    return original, japanese, L.find(original, built, japanese, latin, skip=skip)
 
 
 def main() -> int:
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    flags = {a for a in sys.argv[1:] if a.startswith("--")}
+    argv = sys.argv[1:]
+    code = "es"
+    if "--lang" in argv:
+        at = argv.index("--lang")
+        code = argv[at + 1] if at + 1 < len(argv) else "es"
+        del argv[at:at + 2]
+    args = [a for a in argv if not a.startswith("--")]
+    flags = {a for a in argv if a.startswith("--")}
     if not args:
         print(__doc__)
         return 2
-    original, japanese, found = scan(Path(args[0]))
+    BASELINE = baseline_for(code)
+    original, japanese, found = scan(Path(args[0]), code)
     if "--update" in flags:
         # Only the neighbourhood-only class is silenced. Those are almost all
         # stat tables sitting next to translated names, and there are ~2000 of

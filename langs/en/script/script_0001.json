@@ -1,0 +1,130 @@
+{
+ "part": "script/script_0001",
+ "entries": [
+  {
+   "key": "script:0001:02DD",
+   "src": "c337e208a6a2",
+   "t": "<FACE:7D>Word is some kid got<NL>left behind here<WAIT>and he's wandering<NL>around here-robo…"
+  },
+  {
+   "key": "script:0001:0312",
+   "src": "6e4b5910970d",
+   "t": "<FACE:7D>…and they say he's<NL>pretty strong-robo!"
+  },
+  {
+   "key": "script:0001:0329",
+   "src": "79d985bd8fd0",
+   "t": "<FACE:7D>I heard it too-robo!<NL>Even Bosses struggle!"
+  },
+  {
+   "key": "script:0001:0350",
+   "src": "336786abdfad",
+   "t": "<FACE:7D>Gotta be a huge bear<NL>burlier than Nyuudou!<WAIT>Dropouts like us won't<NL>last a second-robo!"
+  },
+  {
+   "key": "script:0001:039C",
+   "src": "be2e090305ff",
+   "t": "<FACE:7D>Don't be a wimp-robo!<NL>It's our chance-robo!"
+  },
+  {
+   "key": "script:0001:03BA",
+   "src": "080641c7bd83",
+   "t": "<FACE:7D>Beat the Bosses' foe<NL>and we're Bosses too!<WAIT>And your own legs are<NL>shaking too-robo!"
+  },
+  {
+   "key": "script:0001:0406",
+   "src": "dcbb8da3790c",
+   "t": "<FACE:7D>W-well, sure, getting<NL>eaten scares me-robo!"
+  },
+  {
+   "key": "script:0001:0424",
+   "src": "81c0031ca625",
+   "t": "<FACE:81>E-eaten-robo!? Lose a<NL>Robattle, get eaten!?"
+  },
+  {
+   "key": "script:0001:0446",
+   "src": "f070cd74c731",
+   "t": "<FACE:7D>He's crazy strong-robo<NL>Maybe he's not human!<WAIT>No blood, no tears!<NL>What's his name-robo?<WAIT>I think it's <PLAYER>…"
+  },
+  {
+   "key": "script:0001:0495",
+   "src": "24a8b55f9624",
+   "t": "<FACE:05>Heeeey, <PLAYER>!<NL>Wait uuup!"
+  },
+  {
+   "key": "script:0001:04AA",
+   "src": "83dac5d938af",
+   "t": "<FACE:80><PLAYER>!?"
+  },
+  {
+   "key": "script:0001:04B0",
+   "src": "1cd724fb91b0",
+   "t": "<FACE:00>I got here first!"
+  },
+  {
+   "key": "script:0001:04BC",
+   "src": "6841cf64f84b",
+   "t": "<FACE:05>Geez, what a kid… Huh?"
+  },
+  {
+   "key": "script:0001:04D3",
+   "src": "ed27db3b2652",
+   "t": "<FACE:81>Y-you're <PLAYER>-robo?<WAIT><FACE:00>Yeah, that's me…"
+  },
+  {
+   "key": "script:0001:04EC",
+   "src": "1434df6a34ce",
+   "t": "<FACE:7D>(He's tiny-robo!)<NL><WAIT>(We could win-robo!)<NL><WAIT><FACE:7F>(Our chaaance-robo!!)"
+  },
+  {
+   "key": "script:0001:0521",
+   "src": "35138d361bfe",
+   "t": "<FACE:7E>Here we go!<NL>Robattle-robo!!"
+  },
+  {
+   "key": "script:0001:0535",
+   "src": "049697499c96",
+   "t": "<FACE:81>W-we lost-robo…<NL>Something's off-robo…<WAIT>Beaten by a scrawny,<NL>wimpy kid-robo!"
+  },
+  {
+   "key": "script:0001:0572",
+   "src": "4421f68a8ffa",
+   "t": "<FACE:00>Looks don't matter in<NL>a Robattle, do they?"
+  },
+  {
+   "key": "script:0001:0591",
+   "src": "3572b76d8f9a",
+   "t": "<FACE:7D>That's not true-robo!<NL><WAIT>When Nyuudou's losing,<NL>he makes this awful<WAIT>face and glares-robo!<NL><WAIT>And that throws your<NL>aim right off-robo!"
+  },
+  {
+   "key": "script:0001:05E6",
+   "src": "df1579c92fe2",
+   "t": "<FACE:00>…That's got nothing to<NL>do with it either…"
+  },
+  {
+   "key": "script:0001:05FC",
+   "src": "ee62b4352602",
+   "t": "<FACE:7D>(Let's run now-robo…)<NL><WAIT>(Tougher than he looks<NL>maybe not human-robo)"
+  },
+  {
+   "key": "script:0001:063B",
+   "src": "91e5ea5b007e",
+   "t": "<FACE:80>Ha! That's right-robo!<NL><WAIT>Run for it-robooooo!"
+  },
+  {
+   "key": "script:0001:065B",
+   "src": "3a065c7c8178",
+   "t": "<FACE:04>What was that about?<NL>"
+  },
+  {
+   "key": "script:0001:0667",
+   "src": "91fa53d35ffc",
+   "t": "<FACE:05>Well, whatever<NL><WAIT>Let's hurry on ahead<WAIT><FACE:02>Yeah, sure"
+  },
+  {
+   "key": "script:0001:0689",
+   "src": "f9e6f09ce21b",
+   "t": "<FACE:05>Let's go!"
+  }
+ ]
+}

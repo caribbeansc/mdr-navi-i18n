@@ -1,0 +1,195 @@
+{
+ "part": "script/script_0037",
+ "entries": [
+  {
+   "key": "script:0037:05A7",
+   "src": "94c8f00a6a29",
+   "t": "<FACE:80>Cluster captured-robo!<NL>Prep miniship launch!"
+  },
+  {
+   "key": "script:0037:05CE",
+   "src": "1ace94ad1c78",
+   "t": "<FACE:81>Er… most are in for<NL>overhaul. One works…"
+  },
+  {
+   "key": "script:0037:05FA",
+   "src": "c4fa8909c66b",
+   "t": "<FACE:7D>Why-robo? Why do that<NL>at a time like this!?"
+  },
+  {
+   "key": "script:0037:061B",
+   "src": "d7c097fcd335",
+   "t": "<FACE:7D>Thought we'd just grab<NL>it. Miniship attack?"
+  },
+  {
+   "key": "script:0037:0641",
+   "src": "c959a6db76b6",
+   "t": "<FACE:7D>We won't do that-robo<NL>Or why haul it here!?"
+  },
+  {
+   "key": "script:0037:0669",
+   "src": "f0dbc1d624e3",
+   "t": "<FACE:7D>Then why launch-robo?<NL>"
+  },
+  {
+   "key": "script:0037:067E",
+   "src": "3de23911fd35",
+   "t": "<FACE:7D>Well… a food run-robo…"
+  },
+  {
+   "key": "script:0037:0696",
+   "src": "23562b1b512a",
+   "t": "<FACE:81>What-robo?"
+  },
+  {
+   "key": "script:0037:069E",
+   "src": "3d28e369e6e6",
+   "t": "<FACE:7D>There are over 30 kids<NL>in the Cluster-robo…"
+  },
+  {
+   "key": "script:0037:06C2",
+   "src": "6ccf2f36067f",
+   "t": "<FACE:7D>We're to raise them as<NL>Sperobo members-robo<WAIT>Counting their share…<NL><WAIT>it goes past what the<NL>base can grow-robo…"
+  },
+  {
+   "key": "script:0037:0715",
+   "src": "14bedeeb00de",
+   "t": "<FACE:7E>What a disaster-robo!<NL>No plan at all-robo!"
+  },
+  {
+   "key": "script:0037:0734",
+   "src": "8a8ba7233728",
+   "t": "<FACE:81>We had no choice-robo!<NL><WAIT>We never thought so<NL>many kids were aboard<WAIT>Anyway, with the one<NL>ship we've got left…"
+  },
+  {
+   "key": "script:0037:0779",
+   "src": "97c01531302f",
+   "t": "<FACE:80>Ah! Something's stuck<NL>in the hatch-robo!"
+  },
+  {
+   "key": "script:0037:0791",
+   "src": "1545f9794a13",
+   "t": "<FACE:80>A docking tube-robo!<NL>The Cluster's-robo!<WAIT><FACE:7E>Now we can't go for<NL>food-robo!"
+  },
+  {
+   "key": "script:0037:07C8",
+   "src": "c138dba5fe64",
+   "t": "<FACE:03>Heeey, wait for me,<NL>everyone…"
+  },
+  {
+   "key": "script:0037:07DB",
+   "src": "53f6664b9108",
+   "t": "<FACE:07>Oh my, after you then"
+  },
+  {
+   "key": "script:0037:07EE",
+   "src": "a6db4a3c7bc8",
+   "t": "<FACE:7E>Mm!? An intruder-robo!<NL><WAIT>Coming alone! What a<NL>bold one-robo!"
+  },
+  {
+   "key": "script:0037:0817",
+   "src": "df93c3e5a417",
+   "t": "<FACE:03>Ah… no, um…<NL>I didn't mean to…"
+  },
+  {
+   "key": "script:0037:082F",
+   "src": "3dc2f5f02427",
+   "t": "<FACE:05>Looks like there's no<NL>trap…"
+  },
+  {
+   "key": "script:0037:0843",
+   "src": "c2cb75f54e36",
+   "t": "<FACE:05>Let's go, everyone!"
+  },
+  {
+   "key": "script:0037:0850",
+   "src": "16996955a2b8",
+   "t": "<FACE:17>Hiyori's the real trap<NL>in a way, ain't she…"
+  },
+  {
+   "key": "script:0037:086E",
+   "src": "7f179d4ba871",
+   "t": "<FACE:7E>All five of us will<NL>slow-cook you-robo…"
+  },
+  {
+   "key": "script:0037:088D",
+   "src": "3458e7ba21fc",
+   "t": "<FACE:05>That's far enough!"
+  },
+  {
+   "key": "script:0037:0897",
+   "src": "1ba694087e8c",
+   "t": "<FACE:03>Ah, Hiyori!"
+  },
+  {
+   "key": "script:0037:08A1",
+   "src": "e54b798ce945",
+   "t": "<FACE:05><PLAYER>… we came<NL>to help. Relax now!"
+  },
+  {
+   "key": "script:0037:08C3",
+   "src": "e81d13433b7c",
+   "t": "<FACE:04>No… the reason it got<NL>this way is…"
+  },
+  {
+   "key": "script:0037:08DD",
+   "src": "021db5ba6135",
+   "t": "<FACE:06>You guys!<NL><WAIT>Let go of that arm<NL>holding the Cluster!"
+  },
+  {
+   "key": "script:0037:0908",
+   "src": "ce503dc52fe5",
+   "t": "<FACE:7D>We can't do that-robo!<NL><WAIT>Pull the tube in-robo!<NL>Or else the food…<WAIT><FACE:03>Huh? Food!?"
+  },
+  {
+   "key": "script:0037:094B",
+   "src": "dc557db66ea5",
+   "t": "<FACE:06>What!? You'd threaten<NL>middle schoolers!?<WAIT>If that's your game,<NL>we'll settle it now!"
+  },
+  {
+   "key": "script:0037:0982",
+   "src": "01a540a7f60f",
+   "t": "<FACE:12>Wait… Hiyori, they're<NL>saying something big…"
+  },
+  {
+   "key": "script:0037:09A4",
+   "src": "829f328e31e5",
+   "t": "<FACE:06>We'll settle it with a<NL>Robattle!"
+  },
+  {
+   "key": "script:0037:09B3",
+   "src": "907e488bbf15",
+   "t": "<FACE:7E>No choice-robo! Food<NL>runs out, your fault!<WAIT><FACE:80>Let's secure food now<NL>while we can-robo?!"
+  },
+  {
+   "key": "script:0037:09F4",
+   "src": "84579c62676d",
+   "t": "<FACE:05>Food? What food?"
+  },
+  {
+   "key": "script:0037:0A02",
+   "src": "fd36e43ab019",
+   "t": "<FACE:0D>So there's no food for<NL>us, is that it?"
+  },
+  {
+   "key": "script:0037:0A24",
+   "src": "e03dd2bd05d7",
+   "t": "<FACE:19>That's it! They were<NL>after food by ship!<WAIT>And so… the tube was<NL>in the way…"
+  },
+  {
+   "key": "script:0037:0A68",
+   "src": "3bb2a089577a",
+   "t": "<FACE:12>Nonsense! An evil gang<NL>can't be that decent…"
+  },
+  {
+   "key": "script:0037:0A92",
+   "src": "20b6de4074f7",
+   "t": "<FACE:10>But they do need food<NL>"
+  },
+  {
+   "key": "script:0037:0AAE",
+   "src": "73a42c3b87e4",
+   "t": "<FACE:0F>Let's press on!"
+  }
+ ]
+}

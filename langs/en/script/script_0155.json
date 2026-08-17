@@ -1,0 +1,195 @@
+{
+ "part": "script/script_0155",
+ "entries": [
+  {
+   "key": "script:0155:0440",
+   "src": "0efcd2b6912d",
+   "t": "<FACE:00>Ah! Found you at last!<NL>I searched all over!<WAIT>Ikki, I need to talk…"
+  },
+  {
+   "key": "script:0155:0468",
+   "src": "f4031dec06dc",
+   "t": "<FACE:91>Ah, you're <PLAYER>!<NL>Sorry about earlier<WAIT>It's been a long time<NL>since a loss that bad<WAIT>I got kind of rattled…<WAIT><FACE:00>I see… losing hits me<NL>hard too…<WAIT>…Hey, how do you know<NL>my name?"
+  },
+  {
+   "key": "script:0155:04F3",
+   "src": "c9daffe95236",
+   "t": "<FACE:91>Dr. Medabot told me<NL>of the rampage here…<WAIT>You were the hero!"
+  },
+  {
+   "key": "script:0155:052F",
+   "src": "2ba894af4fe0",
+   "t": "<FACE:02>A hero? No way…<NL><WAIT>There was Shiden, and<NL>Navico…<WAIT><FACE:00>It was everyone… oh!<NL>"
+  },
+  {
+   "key": "script:0155:0563",
+   "src": "321a7e68a9c8",
+   "t": "<FACE:00>Are these people here<NL>your friends?<WAIT><FACE:91>Ah, that's right!<NL>"
+  },
+  {
+   "key": "script:0155:058A",
+   "src": "52ca9999ba4b",
+   "t": "<FACE:91>Let me introduce my<NL>Medafighter friends…<WAIT>Koji"
+  },
+  {
+   "key": "script:0155:05AA",
+   "src": "993559708db0",
+   "t": "<FACE:94>This guy's a strong<NL>Medafighter?<WAIT>Sure doesn't look it…"
+  },
+  {
+   "key": "script:0155:05D4",
+   "src": "0816761e8ae1",
+   "t": "<FACE:93>Oh my!<NL>Never judge by looks"
+  },
+  {
+   "key": "script:0155:05ED",
+   "src": "b936cbaec1ac",
+   "t": "<FACE:92>Ikki's been getting a<NL>big head lately<WAIT>That loss was good<NL>medicine for him"
+  },
+  {
+   "key": "script:0155:061D",
+   "src": "a5ead295b1e0",
+   "t": "<FACE:91>The prim one is Karin…<NL>You met Erika before?"
+  },
+  {
+   "key": "script:0155:0646",
+   "src": "5f609fba3678",
+   "t": "<FACE:92>Hey! Are you saying<NL>I'm not prim?"
+  },
+  {
+   "key": "script:0155:0668",
+   "src": "f612d5aea71c",
+   "t": "<FACE:91>And this person is,<NL>um…"
+  },
+  {
+   "key": "script:0155:067A",
+   "src": "99de3e3cb973",
+   "t": "<FACE:9D>Bwa ha ha! The Phantom<NL>Renegade is here!!"
+  },
+  {
+   "key": "script:0155:0699",
+   "src": "adbd23f780ff",
+   "t": "<FACE:03>I-Ikki… what is this!?"
+  },
+  {
+   "key": "script:0155:06AD",
+   "src": "a457cee56f98",
+   "t": "<FACE:91>I told everyone about<NL>our Robattle earlier<WAIT>and now they're all<NL>curious…"
+  },
+  {
+   "key": "script:0155:06DF",
+   "src": "8a54e96038d1",
+   "t": "<FACE:91><PLAYER>, if you don't<NL>mind…<WAIT>Would you Robattle me<NL>one more time?<WAIT>I'll put up a better<NL>fight than last time!"
+  },
+  {
+   "key": "script:0155:0721",
+   "src": "4619e52bc5e5",
+   "t": "<FACE:00>A better fight? Come<NL>on!<WAIT>You're all famous<NL>Medafighters!<WAIT>The pleasure's mine!<NL>Let's do it!"
+  },
+  {
+   "key": "script:0155:075D",
+   "src": "307e5ccc570e",
+   "t": "<FACE:04>…Ikki?"
+  },
+  {
+   "key": "script:0155:0768",
+   "src": "edb7502b982a",
+   "t": "<FACE:91>Aaah, that felt great!"
+  },
+  {
+   "key": "script:0155:0779",
+   "src": "615ad4ae77f2",
+   "t": "<FACE:91>There are still strong<NL>Medafighters around!"
+  },
+  {
+   "key": "script:0155:079E",
+   "src": "339cfa65aa64",
+   "t": "<FACE:91>Medabots really do run<NL>deep!"
+  },
+  {
+   "key": "script:0155:07B6",
+   "src": "e12dc25b370c",
+   "t": "<FACE:91>Call me anytime you<NL>want to Robattle!<WAIT>As friends this time!<WAIT><FACE:04>Ah… sure…"
+  },
+  {
+   "key": "script:0155:07EC",
+   "src": "45d90a1be219",
+   "t": "<FACE:91>See you!"
+  },
+  {
+   "key": "script:0155:07F4",
+   "src": "dfb8215bf304",
+   "t": "<FACE:03>Ah!!<NL>W-wait, Ikki!"
+  },
+  {
+   "key": "script:0155:080B",
+   "src": "30629f8c1509",
+   "t": "<FACE:00>Hey, you… no, all of<NL>you. Can we talk?"
+  },
+  {
+   "key": "script:0155:082C",
+   "src": "7a281d3715ea",
+   "t": "<FACE:91>Ah, right! You wanted<NL>to talk to me<WAIT>…What is it?"
+  },
+  {
+   "key": "script:0155:084F",
+   "src": "e45510c3aecc",
+   "t": "<FACE:00>Does anyone among you<NL>know a guy<WAIT>named Shiden?"
+  },
+  {
+   "key": "script:0155:087A",
+   "src": "90a9a6b59427",
+   "t": "<FACE:91>Shiden…? The famous<NL>Medafighter?<WAIT>I've heard of him…<NL>"
+  },
+  {
+   "key": "script:0155:08A4",
+   "src": "e2cd8c9f770c",
+   "t": "<FACE:91>Different area, so we<NL>never met at tourneys"
+  },
+  {
+   "key": "script:0155:08C7",
+   "src": "cc8e129ae373",
+   "t": "<FACE:94>We were going to meet<NL>at the Cluster party…<WAIT>But that mess happened<NL>before it even opened<WAIT>So we've still not met"
+  },
+  {
+   "key": "script:0155:0914",
+   "src": "b3abbbe81b04",
+   "t": "<FACE:92>From the magazines,<NL>he's quite handsome"
+  },
+  {
+   "key": "script:0155:0932",
+   "src": "0f4fae97c17b",
+   "t": "<FACE:93>Oh my, looks aren't<NL>everything"
+  },
+  {
+   "key": "script:0155:094A",
+   "src": "ac9ece2a1e1c",
+   "t": "<FACE:04>Huh? Where'd that<NL>Renegade fellow go?"
+  },
+  {
+   "key": "script:0155:0965",
+   "src": "3d3b2ce57e54",
+   "t": "<FACE:91>You're right! He was<NL>here a moment ago…<WAIT><FACE:00>Could he be the one<NL>who knows Shiden?"
+  },
+  {
+   "key": "script:0155:099C",
+   "src": "06ffba694319",
+   "t": "<FACE:91>I couldn't say…"
+  },
+  {
+   "key": "script:0155:09AC",
+   "src": "3f6f9e5cd68e",
+   "t": "<FACE:91>Oh, I know! Hikaru…<NL>Agata Hikaru, I mean<WAIT>He'd surely know him!<WAIT><FACE:00>Hikaru…<NL>Is he here right now?<WAIT><FACE:91>Yes, he's here! I'll<NL>tell you if I see him<WAIT><FACE:00>Then I'll go look for<NL>this Hikaru…"
+  },
+  {
+   "key": "script:0155:0A2C",
+   "src": "81a94a9eeddc",
+   "t": "<FACE:02>Thanks, Ikki"
+  },
+  {
+   "key": "script:0155:0A3A",
+   "src": "1edd98fef12f",
+   "t": "<FACE:91>Ikki joined the team!<NL><WAIT><FACE:94>Koji joined the team!<NL><WAIT><FACE:92>Erika joined the team!<NL><WAIT><FACE:93>Karin joined the team!"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "part": "script/script_0004",
+ "entries": [
+  {
+   "key": "script:0004:02BA",
+   "src": "ae81dcb2e29a",
+   "t": "<FACE:7D>We finally took it<NL>back-robo!<WAIT>The bosses might think<NL>better of us now-robo<WAIT>That's right-robo"
+  },
+  {
+   "key": "script:0004:02ED",
+   "src": "62d6d2b64bcf",
+   "t": "<FACE:7D>But why'd we lose last<NL>time-robo?"
+  },
+  {
+   "key": "script:0004:0305",
+   "src": "7744eaba4cb1",
+   "t": "<FACE:7D>I don't get it-robo…<NL><WAIT>Beaten by a wimpy<NL>middle schooler…<NL>"
+  },
+  {
+   "key": "script:0004:032A",
+   "src": "99c1936a6a33",
+   "t": "<FACE:7D>Maybe we just saw it<NL>wrong-robo?"
+  },
+  {
+   "key": "script:0004:033D",
+   "src": "0b1ca455ff23",
+   "t": "<FACE:7D>That must be it-robo<NL>He was like a bear!"
+  },
+  {
+   "key": "script:0004:0363",
+   "src": "d13af19e6b0b",
+   "t": "<FACE:00>What did you see<NL>wrong?"
+  },
+  {
+   "key": "script:0004:0373",
+   "src": "91a1b26e105b",
+   "t": "<FACE:81>(Turn around and he'll<NL>have an ogre face)<WAIT>(No, a demon's<NL>face-robo)"
+  },
+  {
+   "key": "script:0004:03B2",
+   "src": "72675a00f7cb",
+   "t": "<FACE:7D>That's weird-robo…<NL>Just a normal kid<WAIT>Which means our loss<NL>was a mistake-robo!"
+  },
+  {
+   "key": "script:0004:03EA",
+   "src": "99e66495dcf0",
+   "t": "<FACE:7E>Let's Robattle-robo!!"
+  },
+  {
+   "key": "script:0004:03F5",
+   "src": "3e7abe90ab23",
+   "t": "<FACE:81>We lost again-robo…<NL><WAIT>Still no presence<NL>at all-robo…"
+  },
+  {
+   "key": "script:0004:0417",
+   "src": "842c982d20a8",
+   "t": "<FACE:00>Like I said, looks…"
+  },
+  {
+   "key": "script:0004:0426",
+   "src": "e108b3f095f4",
+   "t": "<FACE:7D>That's weird-robo…"
+  },
+  {
+   "key": "script:0004:0432",
+   "src": "f93a0a344fd4",
+   "t": "<FACE:80>Ah!<NL><WAIT>Let's run before he<NL>hurts us-robo!"
+  },
+  {
+   "key": "script:0004:044D",
+   "src": "850168402b8b",
+   "t": "<FACE:80>Run for it-robo!"
+  }
+ ]
+}

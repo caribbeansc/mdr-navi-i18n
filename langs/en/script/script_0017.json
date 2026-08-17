@@ -1,0 +1,85 @@
+{
+ "part": "script/script_0017",
+ "entries": [
+  {
+   "key": "script:0017:0335",
+   "src": "4d80a7fffe92",
+   "t": "<FACE:7D>Ready yet-robo?<NL><WAIT><FACE:7D>Not yet-robo!<NL>"
+  },
+  {
+   "key": "script:0017:034C",
+   "src": "4d80a7fffe92",
+   "t": "<FACE:7D>Ready yet-robo?<NL><WAIT><FACE:7D>Not yet-robo!<NL>"
+  },
+  {
+   "key": "script:0017:0363",
+   "src": "eddd53ba48dc",
+   "t": "<FACE:00>What're you doing?<NL>"
+  },
+  {
+   "key": "script:0017:0376",
+   "src": "d201b8823674",
+   "t": "<FACE:7D>Emergency-robo!<NL>It's <PLAYER>-robo!"
+  },
+  {
+   "key": "script:0017:0384",
+   "src": "2d79cc63f29b",
+   "t": "<FACE:7D>What's wrong-robo?<NL>Everyone out-robo!<WAIT><FACE:7D>No way-robo!<NL><WAIT><FACE:7D>Not falling for that<NL>trick-robo<NL><WAIT><FACE:7D>No way they'd come to<NL>our Block again-robo!<WAIT><FACE:7D>It's not that-robo!<NL>I'm not lying-robo!!"
+  },
+  {
+   "key": "script:0017:03E7",
+   "src": "91d11c2f657d",
+   "t": "<FACE:80>I-it's true-robo!<NL><WAIT><FACE:80>It's <PLAYER>-robo!<NL>"
+  },
+  {
+   "key": "script:0017:03FC",
+   "src": "33d378560e0d",
+   "t": "<FACE:05>Quit playing around!<NL>"
+  },
+  {
+   "key": "script:0017:040A",
+   "src": "ab6b16210f3c",
+   "t": "<FACE:0A>No sense of urgency…<NL><WAIT><FACE:0A>That's why you get<NL>shipped off anywhere"
+  },
+  {
+   "key": "script:0017:043B",
+   "src": "6705b03f536e",
+   "t": "<FACE:7E>Th-that's not it-robo!<NL><WAIT><FACE:7E>We're not playing hide<NL>and seek for fun-robo"
+  },
+  {
+   "key": "script:0017:0461",
+   "src": "5ae3efba9cb7",
+   "t": "<FACE:7D>It's guerrilla combat<NL>training-robo"
+  },
+  {
+   "key": "script:0017:0472",
+   "src": "a46a2fa9032d",
+   "t": "<FACE:7D>That's right-robo!<NL><WAIT><FACE:00>You sure about that…?<NL>"
+  },
+  {
+   "key": "script:0017:0487",
+   "src": "bf6c4545f793",
+   "t": "<FACE:7D>Time to show off our<NL>training-robo!!"
+  },
+  {
+   "key": "script:0017:049E",
+   "src": "2e41419f94fa",
+   "t": "<FACE:80>W-we blew it-robo…<NL>"
+  },
+  {
+   "key": "script:0017:04AC",
+   "src": "f0ee5aec4d9b",
+   "t": "<FACE:7D>What's wrong-robo?<NL>"
+  },
+  {
+   "key": "script:0017:04B7",
+   "src": "1425e8707f67",
+   "t": "<FACE:7D>Charging in head-on<NL>isn't guerrilla-robo!"
+  },
+  {
+   "key": "script:0017:04D7",
+   "src": "b21cd0375333",
+   "t": "<FACE:00>That was hide-and-seek<NL>after all…"
+  }
+ ]
+}

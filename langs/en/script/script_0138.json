@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0138",
+ "entries": [
+  {
+   "key": "script:0138:01E7",
+   "src": "f0b2501e89d3",
+   "t": "<FACE:72>My, I'm getting<NL>rather good at this<WAIT>How fun! La la la…"
+  },
+  {
+   "key": "script:0138:020E",
+   "src": "c13e265280b3",
+   "t": "<FACE:72>La la la…<NL><WAIT>I'm an angel on ice<NL>La la la…"
+  },
+  {
+   "key": "script:0138:022E",
+   "src": "db223763f553",
+   "t": "<FACE:70>Ow, ow, ow, ow…<NL>"
+  },
+  {
+   "key": "script:0138:0239",
+   "src": "3d47b49dad8f",
+   "t": "<FACE:70>Well, if it isn't<NL><PLAYER>…<WAIT><FACE:04>Playing around in a<NL>spot like this again…"
+  },
+  {
+   "key": "script:0138:025E",
+   "src": "64b981f56934",
+   "t": "<FACE:70>Hmm… that cheeky<NL>girl isn't with you<WAIT><FACE:72>Then skate with big<NL>sister for a while!"
+  },
+  {
+   "key": "script:0138:0294",
+   "src": "29d1a1222544",
+   "t": "<FACE:70>Now, be a good boy!"
+  },
+  {
+   "key": "script:0138:02A3",
+   "src": "a5ae0930c93f",
+   "t": "<FACE:71>Honestly!<NL><WAIT>You don't have to look<NL>so disgusted!<WAIT>That's rude to a lady,<NL>you know!"
+  },
+  {
+   "key": "script:0138:02F7",
+   "src": "8c2e0f9f8905",
+   "t": "<FACE:03>Sekiran!"
+  },
+  {
+   "key": "script:0138:02FF",
+   "src": "33b3d38c0cc8",
+   "t": "<FACE:72>Well hello, boy<WAIT><FACE:00>What are you doing<NL>out of the hideout?"
+  },
+  {
+   "key": "script:0138:032F",
+   "src": "ef9990a56753",
+   "t": "<FACE:70>Cooped up in that<NL>hideout ruins my skin"
+  },
+  {
+   "key": "script:0138:0351",
+   "src": "0007520f5181",
+   "t": "<FACE:04>What do we do with<NL>this…?"
+  }
+ ]
+}

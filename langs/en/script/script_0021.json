@@ -1,0 +1,225 @@
+{
+ "part": "script/script_0021",
+ "entries": [
+  {
+   "key": "script:0021:07BA",
+   "src": "76e16c40e03f",
+   "t": "<FACE:03>Whoa!<NL>What… is this place?"
+  },
+  {
+   "key": "script:0021:07CC",
+   "src": "50f46e5c3d92",
+   "t": "<FACE:05>It's like an antlion<NL>pit…<WAIT>If you fell in, could<NL>you ever climb out?<WAIT><FACE:04>Hmm…"
+  },
+  {
+   "key": "script:0021:0803",
+   "src": "4ce18927a760",
+   "t": "<FACE:04>Can't we go around it<NL>somehow…?"
+  },
+  {
+   "key": "script:0021:0816",
+   "src": "bae8b99b2074",
+   "t": "<FACE:59>Heeey…<NL><WAIT>Heeey…"
+  },
+  {
+   "key": "script:0021:0825",
+   "src": "5894c27009c9",
+   "t": "<FACE:05>Hey, do you hear<NL>something?"
+  },
+  {
+   "key": "script:0021:0836",
+   "src": "f62d3bbb90d0",
+   "t": "<FACE:03>It's from down in the<NL>pit!<WAIT>Someone from class<NL>fell in!<WAIT><FACE:08>Oh no! We have to do<NL>something!"
+  },
+  {
+   "key": "script:0021:086C",
+   "src": "821784e069d8",
+   "t": "<FACE:09>What do we do,<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0021:0879",
+   "src": "2803f3d4f9d3",
+   "t": "<FACE:04>Yeah… but somebody<NL>has to climb down…<WAIT><FACE:09>What'll you do,<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0021:08A4",
+   "src": "bb62ce6676e1",
+   "t": "<FACE:04>It's dangerous… we<NL>might not get back…<WAIT><FACE:09>What should we do,<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0021:08C7",
+   "src": "62204d5b0217",
+   "t": "<FACE:04>…It's really<NL>dangerous!<WAIT><FACE:09>What do we do,<NL><PLAYER>?<WAIT><FACE:01>You get it, Hiyori?!<NL>It's truly dangerous!<WAIT><FACE:09>So what happens now,<NL><PLAYER>?"
+  },
+  {
+   "key": "script:0021:0910",
+   "src": "026577f33c76",
+   "t": "<FACE:01>Fine, I get it!<NL>I'll go! I'll go!!!"
+  },
+  {
+   "key": "script:0021:092B",
+   "src": "5264f7514144",
+   "t": "<FACE:07>Have a nice triiiiip!"
+  },
+  {
+   "key": "script:0021:093D",
+   "src": "8fb2e7332d99",
+   "t": "<FACE:0E>Did you follow that<NL>conversation?<WAIT><FACE:1D>Nope… I didn't catch<NL>a word of it…"
+  },
+  {
+   "key": "script:0021:0969",
+   "src": "a2f6f0d098cf",
+   "t": "<FACE:04>Ungh… Ow, ow, ow…"
+  },
+  {
+   "key": "script:0021:0978",
+   "src": "af0586c2b092",
+   "t": "<FACE:03>So this is what's<NL>inside the pit…"
+  },
+  {
+   "key": "script:0021:0998",
+   "src": "ea572877c9ce",
+   "t": "<FACE:7B>Bwaa ha ha ha! Another<NL>future grunt fell in!<WAIT>This Block's useful!<NL>Bwaa ha ha ha!"
+  },
+  {
+   "key": "script:0021:09E2",
+   "src": "1068d2d31ecc",
+   "t": "<FACE:01>Nngh… You're…"
+  },
+  {
+   "key": "script:0021:09EE",
+   "src": "c7cff3b1ff80",
+   "t": "<FACE:7B>Bwaa ha ha ha!<NL>I'm Raiun, Sky Boss<WAIT><PLAYER>, is it…<NL>I've heard your name<WAIT>But your run of glory<NL>ends here<WAIT>You'll regret ever<NL>meeting Raiun!"
+  },
+  {
+   "key": "script:0021:0A5E",
+   "src": "6a3ea204a57d",
+   "t": "<FACE:79>Hm? What is it?<NL><WAIT>Ignoring Raiun to<NL>look for something?"
+  },
+  {
+   "key": "script:0021:0A82",
+   "src": "c28d005aa2c6",
+   "t": "<FACE:04>No… it's just, we<NL>heard a voice here…"
+  },
+  {
+   "key": "script:0021:0AA0",
+   "src": "281d25d99e66",
+   "t": "<FACE:03>Ah! Hiderin!"
+  },
+  {
+   "key": "script:0021:0AAC",
+   "src": "0ccade51f393",
+   "t": "<FACE:45><PLAYER>!<NL>You're late!<WAIT>Aren't you the class<NL>president!<WAIT><FACE:48>Hurry up and get us<NL>out of here!"
+  },
+  {
+   "key": "script:0021:0ADB",
+   "src": "683a79dff555",
+   "t": "<FACE:47>And why do we have to<NL>go through all this!"
+  },
+  {
+   "key": "script:0021:0B03",
+   "src": "0b82330d8df7",
+   "t": "<FACE:04>Oh, come on…"
+  },
+  {
+   "key": "script:0021:0B0E",
+   "src": "b1bf209ac5e0",
+   "t": "<FACE:7C>Hold it right there!<NL><WAIT><FACE:79><PLAYER>, you'll be<NL>caught here like them"
+  },
+  {
+   "key": "script:0021:0B39",
+   "src": "4997fb6a3dac",
+   "t": "<FACE:79>Raiun himself will<NL>make you all Sperobos"
+  },
+  {
+   "key": "script:0021:0B61",
+   "src": "08b5bab8dd52",
+   "t": "<FACE:7B>Bwaa ha ha ha!"
+  },
+  {
+   "key": "script:0021:0B70",
+   "src": "03716aad93b8",
+   "t": "<FACE:01>(This guy…)<NL><WAIT>(Not like the other<NL>Bosses… is he tough?)"
+  },
+  {
+   "key": "script:0021:0B9F",
+   "src": "9455bdde6724",
+   "t": "<FACE:7B>Bwaa ha ha ha!<NL>One on one, then!<WAIT>Come at me!"
+  },
+  {
+   "key": "script:0021:0BC7",
+   "src": "102d61aec4ea",
+   "t": "<FACE:01>Ngh!"
+  },
+  {
+   "key": "script:0021:0BD1",
+   "src": "33d12f28e221",
+   "t": "<FACE:7C>…B-bwaa ha ha ha!<NL>Well done, boy!<WAIT><FACE:79>I was going easy on<NL>you, but you beat me!"
+  },
+  {
+   "key": "script:0021:0C16",
+   "src": "1d0e57e43b9d",
+   "t": "<FACE:79><PLAYER>, was it…<NL>I'll remember it!<WAIT><FACE:7B>Be proud of that!<NL>Bwaa ha ha ha!"
+  },
+  {
+   "key": "script:0021:0C4E",
+   "src": "4468a85a6e12",
+   "t": "<FACE:03>Ah! Wait a second!<NL>How do we get out?"
+  },
+  {
+   "key": "script:0021:0C69",
+   "src": "118daae46638",
+   "t": "<FACE:7C>Ah, right, young<NL><PLAYER>!<WAIT><FACE:79>Press the stair switch<NL>on that panel!<WAIT><FACE:03>Huh?<NL>"
+  },
+  {
+   "key": "script:0021:0CA5",
+   "src": "1d1fd79a56d8",
+   "t": "<FACE:00>This one?<NL>"
+  },
+  {
+   "key": "script:0021:0CAC",
+   "src": "b4c0eb09dd7b",
+   "t": "<FACE:00>Oh…<NL>That's how it works"
+  },
+  {
+   "key": "script:0021:0CC3",
+   "src": "dd3574f35a57",
+   "t": "<FACE:08>Ah, <PLAYER>!<NL>Are you all right?"
+  },
+  {
+   "key": "script:0021:0CD6",
+   "src": "b3cb37f4cb35",
+   "t": "<FACE:05>…Huh?<NL><WAIT>And the voice that was<NL>calling for help?"
+  },
+  {
+   "key": "script:0021:0CF9",
+   "src": "ca6dc4e0a169",
+   "t": "<FACE:03>Ah! Oh no!<NL><WAIT>We left Hiderin and<NL>the others behind!"
+  },
+  {
+   "key": "script:0021:0D15",
+   "src": "2c2530a753d0",
+   "t": "<FACE:45>How could you just go<NL>and forget about us!<WAIT><FACE:09>Oh, so it was these<NL>girls"
+  },
+  {
+   "key": "script:0021:0D43",
+   "src": "b05471edbb1b",
+   "t": "<FACE:45>What was that!<NL>Now I'm mad!"
+  },
+  {
+   "key": "script:0021:0D52",
+   "src": "b1f7f92c6203",
+   "t": "<FACE:03>Yikes!"
+  },
+  {
+   "key": "script:0021:0D58",
+   "src": "103e7cd400d7",
+   "t": "<FACE:45>Hmph!"
+  },
+  {
+   "key": "script:0021:0D5F",
+   "src": "00741d570ff3",
+   "t": "<FACE:45>Hiderin joined the<NL>team!<NL><WAIT><FACE:47>Tsunami joined the<NL>team!<NL><WAIT><FACE:48>Komechu joined the<NL>team!"
+  }
+ ]
+}

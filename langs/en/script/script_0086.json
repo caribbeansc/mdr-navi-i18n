@@ -1,0 +1,20 @@
+{
+ "part": "script/script_0086",
+ "entries": [
+  {
+   "key": "script:0086:085D",
+   "src": "f7db6beb91a7",
+   "t": "<FACE:00>We should check what's<NL>up ahead…"
+  },
+  {
+   "key": "script:0086:0877",
+   "src": "991032f1b118",
+   "t": "<FACE:01>«Roast it to a nice<NL>golden brown!»<WAIT><FACE:02>…Just kidding"
+  },
+  {
+   "key": "script:0086:0899",
+   "src": "81def32d0a00",
+   "t": "<FACE:03>Ah! Did my arm just<NL>get burned!?"
+  }
+ ]
+}

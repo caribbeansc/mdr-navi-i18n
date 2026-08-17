@@ -1,0 +1,60 @@
+{
+ "part": "script/script_0156",
+ "entries": [
+  {
+   "key": "script:0156:012A",
+   "src": "5bd3257a5d3d",
+   "t": "<FACE:00>Someone over there<NL>looks like a guest<WAIT>Let's go ask…"
+  },
+  {
+   "key": "script:0156:014F",
+   "src": "b67f2ab9341f",
+   "t": "<FACE:00>Excuse me a moment…"
+  },
+  {
+   "key": "script:0156:015E",
+   "src": "a3e55578502b",
+   "t": "<FACE:8D>Hm? What is it?<NL>"
+  },
+  {
+   "key": "script:0156:0168",
+   "src": "fc0e83d722c7",
+   "t": "<FACE:8D>Oh, right, you there…<NL>I want to ask you…<WAIT>Have you seen someone<NL>called Hikaru?"
+  },
+  {
+   "key": "script:0156:0198",
+   "src": "7ae81e25a372",
+   "t": "<FACE:03>You know Hikaru?<NL>I'm looking too!<WAIT><FACE:8D>Oh, really?"
+  },
+  {
+   "key": "script:0156:01CB",
+   "src": "751e89fa4536",
+   "t": "<FACE:00>A guy named Shiden<NL>gave me a package<WAIT>and it might be for<NL>Hikaru<WAIT><FACE:8D>Hikaru…<NL>with that Shiden?"
+  },
+  {
+   "key": "script:0156:0210",
+   "src": "12d487ee93f2",
+   "t": "<FACE:8D>They do know each<NL>other a little, sure…<WAIT>But are they that<NL>close?"
+  },
+  {
+   "key": "script:0156:023C",
+   "src": "fd7f53e81f03",
+   "t": "<FACE:00>If you see Hikaru,<NL>could you tell them…<WAIT>that I'm looking?<NL><WAIT>I'm <PLAYER>!<WAIT><FACE:8D><PLAYER>… the one<NL>who was the big hero<WAIT>in that accident? That<NL><PLAYER>?<WAIT><FACE:02>Well, 'big hero' is a<NL>bit much… um…"
+  },
+  {
+   "key": "script:0156:02AF",
+   "src": "4c69eabe3f28",
+   "t": "<FACE:8D>That's amazing!<NL>Hey, hey!<WAIT>Robattle with me just<NL>once, will you?<WAIT><FACE:03>Huh?! …I don't mind,<NL>but…<WAIT><FACE:8D>Then it's decided!"
+  },
+  {
+   "key": "script:0156:02F8",
+   "src": "f60d00efb972",
+   "t": "<FACE:8D>Well done! You really<NL>are strong!<WAIT>If I see Hikaru,<NL><WAIT>I'll be sure to say<NL>you're looking!<WAIT><FACE:00>Thank you very much!"
+  },
+  {
+   "key": "script:0156:0343",
+   "src": "c3d9cf52d766",
+   "t": "<FACE:8D>Kirara joined the<NL>team!"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "part": "script/script_0153",
+ "entries": [
+  {
+   "key": "script:0153:01EB",
+   "src": "f62e34b1ae38",
+   "t": "<FACE:03>Ah! Those over there<NL>are new faces<WAIT><FACE:00>Are they the guests<NL>Shiden mentioned?"
+  },
+  {
+   "key": "script:0153:0224",
+   "src": "3dcac70713a0",
+   "t": "<FACE:00>Maybe one of them gets<NL>this package…"
+  },
+  {
+   "key": "script:0153:0246",
+   "src": "4e471756e377",
+   "t": "<FACE:00>Hey, you guys, know a<NL>guy called Shiden?"
+  },
+  {
+   "key": "script:0153:026D",
+   "src": "8567b30af7a6",
+   "t": "<FACE:95>Shiden?<NL>Never heard of him…"
+  },
+  {
+   "key": "script:0153:027E",
+   "src": "acc237a98a9b",
+   "t": "<FACE:95>Hey, you two know him?"
+  },
+  {
+   "key": "script:0153:028F",
+   "src": "5da3c92a6f3a",
+   "t": "<FACE:96>Beats me… never heard<NL>that name, Boss lady"
+  },
+  {
+   "key": "script:0153:02A2",
+   "src": "e978ccc7e78c",
+   "t": "<FACE:97>I don't know him<NL>either…"
+  },
+  {
+   "key": "script:0153:02B0",
+   "src": "cf5e026c4d8f",
+   "t": "<FACE:95>Hey, forget that. Seen<NL>a guy named Ikki?"
+  },
+  {
+   "key": "script:0153:02D6",
+   "src": "755a2bd1f099",
+   "t": "<FACE:00>Ikki… you mean the<NL>Medafighter Ikki?<WAIT>You're friends of his?<WAIT><FACE:95>Friends?<NL>What are you saying?<WAIT>To us Screws, Ikki is<NL>practically a flunky!"
+  },
+  {
+   "key": "script:0153:0345",
+   "src": "a32e72400131",
+   "t": "<FACE:04>So Ikki is here too…<NL>Maybe he's the one…"
+  },
+  {
+   "key": "script:0153:0367",
+   "src": "6cdc2fd08fed",
+   "t": "<FACE:95>Hey, you there!<NL>Are you listening!?<WAIT>Forget Ikki, we Screws<NL>are way better…"
+  },
+  {
+   "key": "script:0153:039F",
+   "src": "6bfd18982a20",
+   "t": "<FACE:00>Uh… huh?<NL>The Screws…?<WAIT><FACE:04>Never heard of them…"
+  },
+  {
+   "key": "script:0153:03C2",
+   "src": "72790b1a1fb5",
+   "t": "<FACE:95>That does it!<NL>We're Robattling now!"
+  },
+  {
+   "key": "script:0153:03E5",
+   "src": "264264b553d2",
+   "t": "<FACE:00>Hey… anyway, about<NL>what you said, Ikki…"
+  },
+  {
+   "key": "script:0153:0405",
+   "src": "1dc35f120148",
+   "t": "<FACE:95>Shuuut uuup!<NL><WAIT>I'll show you Ikki is<NL>our flunky and we're<WAIT>the real strong ones!<NL>"
+  },
+  {
+   "key": "script:0153:044F",
+   "src": "add1ef436a55",
+   "t": "<FACE:95>Next time we meet,<NL>you'll be sorry!"
+  },
+  {
+   "key": "script:0153:0467",
+   "src": "96afc0f795b7",
+   "t": "<FACE:96>Ah! Wait a sec…<NL>Boss laaady!?"
+  },
+  {
+   "key": "script:0153:047D",
+   "src": "8ab58382b1b3",
+   "t": "<FACE:00>So Ikki, the famous<NL>Medafighter, is here…<WAIT>Maybe he's who this<NL>package is meant for…"
+  }
+ ]
+}
