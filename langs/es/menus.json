@@ -299,7 +299,7 @@
   {
    "key": "str:08D9A8",
    "src": "b0ca42a65fad",
-   "t": "Ga… gané-robo…<NL>¡Gané a <PLAYER><WAIT>-robo!<END>"
+   "t": "Ga… gané-robo…<NL>¡Le gané a <PLAYER>!<END>"
   },
   {
    "key": "str:08D9C4",
@@ -344,7 +344,7 @@
   {
    "key": "str:08DA68",
    "src": "3919e5354ea7",
-   "t": "El alma… cof… a veces<NL>supera al cuerpo…<WAIT>cof…<END>"
+   "t": "El alma… cof… a veces<NL>vence al cuerpo… cof<END>"
   },
   {
    "key": "str:08DA90",
@@ -354,12 +354,12 @@
   {
    "key": "str:08DAA4",
    "src": "3d74b230df6b",
-   "t": "Cof… cof… ¿empezamos<NL>ya la… ¡cof!<WAIT>…batalla?<END>"
+   "t": "Cof… cof… ¿empezamos<NL>ya la… cof… batalla?<END>"
   },
   {
    "key": "str:08DAD0",
    "src": "7c6465c5629c",
-   "t": "¡El que ríe al último<NL>gana! ¡Fuaaa ja ja<WAIT>ja!<END>"
+   "t": "El que ríe último gana<NL>¡Fuaaa ja ja ja!<END>"
   },
   {
    "key": "str:08DAF8",
@@ -399,7 +399,7 @@
   {
    "key": "str:08DBBC",
    "src": "6a8124ebcded",
-   "t": "…juju… <PLAYER>…<NL>el destino… a los<WAIT>dos…<END>"
+   "t": "…juju… <PLAYER>…<NL>el destino… a ambos…<END>"
   },
   {
    "key": "str:08DBD8",
@@ -419,7 +419,7 @@
   {
    "key": "str:08DC2C",
    "src": "cf6cff4d6902",
-   "t": "¡Los Sperobo ya casi<NL>conquistan el<WAIT>espacio!<END>"
+   "t": "¡Los Sperobo ya casi<NL>conquistan el cosmos!<END>"
   },
   {
    "key": "str:08DC54",
@@ -494,7 +494,7 @@
   {
    "key": "str:08DD88",
    "src": "de2ddba0c855",
-   "t": "Nosotros también<NL>servimos un poco,<WAIT>¿no?<END>"
+   "t": "Nosotros también<NL>servimos algo, ¿no?<END>"
   },
   {
    "key": "str:08DDA0",
@@ -569,7 +569,7 @@
   {
    "key": "str:08DEE8",
    "src": "1977b064053c",
-   "t": "La robobatalla de<NL><PLAYER>, la veré<WAIT>bien<END>"
+   "t": "La robobatalla de<NL><PLAYER> la veré bien<END>"
   },
   {
    "key": "str:08DF08",
@@ -674,7 +674,7 @@
   {
    "key": "str:08E0F4",
    "src": "fe66367beb19",
-   "t": "Seas o no el héroe de<NL>la clase, ¡no<WAIT>cedemos!<END>"
+   "t": "Seas o no héroe de la<NL>clase, ¡no cedemos!<END>"
   },
   {
    "key": "str:08E120",
@@ -704,7 +704,7 @@
   {
    "key": "str:08E19C",
    "src": "c0a3b1ea5d46",
-   "t": "Objetivo detenido…<NL>Nuevo objetivo…<WAIT>ataque<END>"
+   "t": "Objetivo detenido…<NL>Otro objetivo… ataque<END>"
   },
   {
    "key": "str:08E1C4",
@@ -719,7 +719,7 @@
   {
    "key": "str:08E210",
    "src": "32f1f4858640",
-   "t": "Objetivo fijado…<NL>Cuenta regresiva…<WAIT>3…2…<END>"
+   "t": "Objetivo fijado…<NL>Cuenta regresiva…3…2…<END>"
   },
   {
    "key": "str:08E234",
@@ -734,7 +734,7 @@
   {
    "key": "str:08E288",
    "src": "2e4394bbfd18",
-   "t": "Cambio de objetivo…<NL>ser desconocido…<WAIT>purga<END>"
+   "t": "Nuevo objetivo… ser<NL>desconocido… purgar<END>"
   },
   {
    "key": "str:08E2B8",
@@ -749,7 +749,7 @@
   {
    "key": "str:08E2EC",
    "src": "33ccc35cd2dc",
-   "t": "Objetivo confirmado…<NL>Es intruso… lo<WAIT>purgaré<END>"
+   "t": "Objetivo confirmado…<NL>Es intruso… purgaré<END>"
   },
   {
    "key": "str:08E320",
@@ -769,7 +769,7 @@
   {
    "key": "str:08E3A4",
    "src": "08d1b7cedb17",
-   "t": "¡Fuajajaja! Desde hoy<NL>trabajan para<WAIT>nosotros<END>"
+   "t": "¡Fuajajaja! Trabajarán<NL>para los Sperobo<END>"
   },
   {
    "key": "str:08E3C8",
@@ -779,12 +779,12 @@
   {
    "key": "str:08E3D8",
    "src": "fa1b2fa89529",
-   "t": "¡Serás el cimiento del<NL>futuro de los<WAIT>Sperobo!<END>"
+   "t": "¡Serás el cimiento del<NL>futuro Sperobo!<END>"
   },
   {
    "key": "str:08E400",
    "src": "93be35a1554f",
-   "t": "Cof… ¿desafiar a los<NL>Sperobo? Qué risa…<WAIT>cof<END>"
+   "t": "Cof… ¿desafiar a los<NL>Sperobo? Qué risa…<END>"
   },
   {
    "key": "str:08E430",
@@ -809,7 +809,7 @@
   {
    "key": "str:08E4B8",
    "src": "867268a8a405",
-   "t": "¡Burlarte de mí merece<NL>la muerte!<WAIT>¡Prepárate!<END>"
+   "t": "¡Tu burla merece la<NL>muerte! ¡Prepárate!<END>"
   },
   {
    "key": "str:08E4E0",
@@ -864,7 +864,7 @@
   {
    "key": "str:08E608",
    "src": "a9390acbde64",
-   "t": "¿Por qué no gano?<NL>¡La próxima no<WAIT>pierdo!<END>"
+   "t": "¿Por qué no gano?<NL>¡La próxima gano!<END>"
   },
   {
    "key": "str:08E62C",
@@ -949,7 +949,7 @@
   {
    "key": "str:08E7DC",
    "src": "46b4c7939a6c",
-   "t": "¡Fuajajaja!<NL>¡Su fuerza no es<WAIT>nada!<END>"
+   "t": "¡Fuajajaja! ¡Su fuerza<NL>no es nada!<END>"
   },
   {
    "key": "str:08E7FC",
@@ -989,7 +989,7 @@
   {
    "key": "str:08E8B0",
    "src": "95502e4c72a0",
-   "t": "¡Ustedes!<NL>¡Me los llevo a<WAIT>todos!<END>"
+   "t": "¡Ustedes! ¡Me los<NL>llevo a todos!<END>"
   },
   {
    "key": "str:08E8CC",
@@ -1059,7 +1059,7 @@
   {
    "key": "str:08EA1C",
    "src": "1e5052f35d8a",
-   "t": "Su fuerza… cof… la voy<NL>a tomar despacio…<WAIT>cof…<END>"
+   "t": "Su fuerza… cof… la voy<NL>a tomar despacio, cof<END>"
   },
   {
    "key": "str:08EA4C",
@@ -1069,7 +1069,7 @@
   {
    "key": "str:08EA6C",
    "src": "cd5db6b5abb9",
-   "t": "Ggg… ¿hasta aquí?…<NL>¡No! Esto no acaba<WAIT>así<END>"
+   "t": "Ggg… ¿hasta aquí?…<NL>¡No! Esto no termina<END>"
   },
   {
    "key": "str:08EA90",
@@ -1089,7 +1089,7 @@
   {
    "key": "str:08EAE4",
    "src": "0651f7c34385",
-   "t": "¡Fuaaa ja ja ja! Es un<NL>honor pelear con<WAIT>Raiun<END>"
+   "t": "¡Fuaaa ja ja ja! Es un<NL>honor medirse a Raiun<END>"
   },
   {
    "key": "str:08EB14",
@@ -1199,7 +1199,7 @@
   {
    "key": "str:08ED3C",
    "src": "e6d5433e4073",
-   "t": "Este Smog… cof… cof…<NL>no tantas veces…<WAIT>¡cof!<END>"
+   "t": "Este Smog… cof… cof…<NL>no tantas veces… cof<END>"
   },
   {
    "key": "str:08ED6C",
@@ -1234,7 +1234,7 @@
   {
    "key": "str:08EE3C",
    "src": "c1bb998383db",
-   "t": "¡Gajajaja!<NL>¡Ya es de los<WAIT>Sperobo!<END>"
+   "t": "¡Gajajaja! ¡Ya esto es<NL>de los Sperobo!<END>"
   },
   {
    "key": "str:08EE5C",
@@ -1244,7 +1244,7 @@
   {
    "key": "str:08EE70",
    "src": "53018cb005e2",
-   "t": "¡Les mostraré la<NL>fuerza de los<WAIT>Sperobo!<END>"
+   "t": "¡Verán la fuerza de<NL>los Sperobo!<END>"
   },
   {
    "key": "str:08EE88",
@@ -1294,7 +1294,7 @@
   {
    "key": "str:08EF70",
    "src": "53e5e488b77f",
-   "t": "¿Qué tal-robo?<NL>¡Si queremos,<WAIT>podemos!<END>"
+   "t": "¿Qué tal-robo?<NL>¡Si queremos podemos!<END>"
   },
   {
    "key": "str:08EF8C",
@@ -1494,7 +1494,7 @@
   {
    "key": "str:08F358",
    "src": "7d613eb5e10f",
-   "t": "Perder es… el destino…<NL>Volver a vernos…<WAIT>igual<END>"
+   "t": "Perder… es el destino…<NL>Vernos… también…<END>"
   },
   {
    "key": "str:08F380",
@@ -1524,7 +1524,7 @@
   {
    "key": "str:08F428",
    "src": "ae6f0f62f10b",
-   "t": "Es injusto que también<NL>seas bueno en<WAIT>batalla…<END>"
+   "t": "Es injusto que también<NL>batalles tan bien…<END>"
   },
   {
    "key": "str:08F440",
@@ -1539,7 +1539,7 @@
   {
    "key": "str:08F47C",
    "src": "0a8fa71f5f63",
-   "t": "¡Pero qué horror…!<NL>¡Esto no puede<WAIT>pasar…!<END>"
+   "t": "¡Pero qué horror…!<NL>¡Esto no puede pasar!<END>"
   },
   {
    "key": "str:08F4A0",
@@ -1589,7 +1589,7 @@
   {
    "key": "str:08F578",
    "src": "811215b07a17",
-   "t": "Siempre nos estorban…<NL>¿qué les<WAIT>hicimos-robo?<END>"
+   "t": "Siempre nos estorban…<NL>¿qué te hicimos-robo?<END>"
   },
   {
    "key": "str:08F598",
@@ -1709,7 +1709,7 @@
   {
    "key": "str:08F7E8",
    "src": "674db097068b",
-   "t": "Ja ja ja…<NL>Vístete mejor y<WAIT>vuelve<END>"
+   "t": "Ja ja ja… Vístete<NL>mejor y vuelve<END>"
   },
   {
    "key": "str:08F804",
@@ -1799,7 +1799,7 @@
   {
    "key": "str:08F9F0",
    "src": "2331b857458e",
-   "t": "¡Cof! ¿Qué tal? Cof…<NL>aunque sea débil…<WAIT>cof…<END>"
+   "t": "¡Cof! ¿Qué tal? Cof…<NL>aunque sea débil, cof<END>"
   },
   {
    "key": "str:08FA18",
@@ -1849,7 +1849,7 @@
   {
    "key": "str:08FAF8",
    "src": "a102e202c3e3",
-   "t": "Ahora sí sabrán qué<NL>puede la Banda<WAIT>Sperobo<END>"
+   "t": "Ahora sí verán la<NL>fuerza de los Sperobo<END>"
   },
   {
    "key": "str:08FB18",
@@ -1954,7 +1954,7 @@
   {
    "key": "str:08FD40",
    "src": "e3be1df371d1",
-   "t": "ALERTA… HALLADO ALGO<NL>PELIGROSO: EXPULSAR<WAIT>YA<END>"
+   "t": "ALERTA… ALGO PELIGROSO<NL>HALLADO: EXPULSAR YA<END>"
   },
   {
    "key": "str:08FD68",
@@ -1999,7 +1999,7 @@
   {
    "key": "str:08FE5C",
    "src": "e4dd0ef76e81",
-   "t": "¿Robobatalla? Acepto,<NL>¿pero podrás<WAIT>competir?<END>"
+   "t": "¿Robobatalla? Acepto,<NL>¿pero darás pelea?<END>"
   },
   {
    "key": "str:08FE88",
@@ -2019,7 +2019,7 @@
   {
    "key": "str:08FED4",
    "src": "97d54340086d",
-   "t": "OBJETO… EN SILENCIO…<NL>ATAQUE FINALIZADO…<WAIT>BIP<END>"
+   "t": "OBJETO… EN SILENCIO…<NL>ATAQUE TERMINADO… BIP<END>"
   },
   {
    "key": "str:08FEF4",

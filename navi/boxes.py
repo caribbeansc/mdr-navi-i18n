@@ -15,8 +15,16 @@ like clipping; neither was.
 
 Checking each line against its BOX, rather than keeping a list of individual
 sites that were allowed to break the rule, is what makes the check hold as the
-pack grows: "the robattle chatter is a dialogue box" is one fact, not forty
-exemptions.
+pack grows: which box draws a range is one fact, not forty exemptions.
+
+The third mistake is why that shape matters. The forty exemptions were folded
+into the single claim "the robattle chatter is a dialogue box" — and the claim
+was wrong. That pool pages on nothing: "¿Robobatalla? Acepto,<NL>¿pero
+podrás<WAIT>competir?" reached the screen as two rows ending in "¿pero podrás",
+with the rest silently not drawn. All 412 of its Japanese lines use <NL> exactly
+once and <END> at the end and NOTHING else, which is the cartridge saying the
+same thing. Getting the box right fixed thirty-seven lines at once; naming forty
+sites as exceptions had hidden them.
 
 Every width here was measured in the emulator with an A-Z-0-9 ruler written
 into the field, not inferred: the last character that appears is the width.
@@ -60,9 +68,10 @@ class Box:
 
 
 #: The event-script box, and every pool that draws through it: NPC lines, the
-#: robattle chatter, the item-get templates, the menu prompts. 22/21 proved
-#: with an A-Z ruler in-game, and the cartridge agrees — 38 of its 22-column
-#: rows are first rows and only 2 are not.
+#: item-get templates, the menu prompts. 22/21 proved with an A-Z ruler in-game,
+#: and the cartridge agrees — 38 of its 22-column rows are first rows and only 2
+#: are not. NOT the robattle chatter, which looks like this box and is not one
+#: (see ROBATTLE_CHATTER).
 DIALOGUE = Box("dialogue", 22, 21, DIALOGUE_CODES,
                "the dialogue box: 22 columns, 21 on later rows")
 
@@ -91,6 +100,26 @@ ROTATION_LINE = Box("rotation-line", 22, 22, frozenset(),
 COMPOSER = Box("composer-piece", None, None, PIECE_CODES,
                "a result-composer piece")
 
+#: The robattle chatter: the 412 lines a rival drops when a battle starts, is
+#: won or is lost, drawn in the bar under the two teams on the ROBOTTLE! screen.
+#: It reads like the dialogue box and is NOT one — it does not page. A <WAIT>
+#: here does not wait: everything after it is silently not drawn, which is how
+#: "¿Robobatalla? Acepto,<NL>¿pero podrás<WAIT>competir?" reached a player's
+#: screen without its "competir?" (the screenshot that proved it is the reason
+#: this box exists). The cartridge never asks it to page either: all 412 of its
+#: Japanese lines use <NL> exactly ONCE and <END> at the end, ten of them a
+#: <PLAYER> insert, and not one uses <WAIT> or <CLEAR> — the pool is written for
+#: two rows and a single screenful throughout.
+#:
+#: The width is NOT ruler-measured on this screen. 22/21 is inherited from the
+#: dialogue box, which is what these lines were already held to, and the
+#: screenshot confirms at least 21 draws whole; keeping the number costs nothing
+#: and keeps 412 lines guarded, but it is a conservative bound, not a
+#: measurement, and a ruler in this field would still be worth writing down.
+ROBATTLE_CHATTER = Box("robattle-chatter", 22, 21,
+                       frozenset({"NL", "END", "PLAYER"}),
+                       "the robattle chatter bar: two rows, and it never pages")
+
 #: The battle screen's own bars: the pre-robattle prompt, the drive/rotation
 #: lines of the medal page. Wider than the dialogue box — "¡Robobatalla con
 #: START!" is 23 characters and renders whole (work/atlas/shots/12-vs.png) —
@@ -110,6 +139,11 @@ NAME_FIELD = Box("name-field", None, None, frozenset(),
 #: the most permissive, so an unclassified region is reported rather than
 #: silently held to the wrong rule (see :func:`unclassified`).
 REGIONS: tuple[tuple[int, int, Box], ...] = (
+    # -- the robattle chatter ----------------------------------------------
+    # The pool runs 0x08D490-0x08FF90; the bounds are rounded out to the gaps
+    # on either side, which hold no text (the scan's neighbours there decode as
+    # tile data). The next classified range does not start until 0x0906F4.
+    (0x08D400, 0x090000, ROBATTLE_CHATTER),
     # -- the description tables, none of which honour a single code ---------
     # The aptitude table starts at 0x090744, not earlier: 0x0906F4-0x090744 is
     # the action-name table, ten entries of 8 bytes, which is why "base

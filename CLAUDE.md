@@ -349,14 +349,24 @@ Hard-won facts:
   and "Ataca al Medabot`<NL>`más cercano" as `Ataca al Medabotás cerca`. Both
   read like clipping and neither was. The Japanese is the evidence for what a
   field accepts — those description fields use no control code at all — so
-  tests/test_control_codes.py forbids every code in the description tables
-  (0x090000-0x096000) and, everywhere else, refuses a code the Japanese at
-  that site does without unless the site is recorded in `langs/es/codes.json`.
-  `python3 tools/codes.py` lists them with both texts side by side. Re-wrapping
-  dialogue with `<NL>` is legitimate, so the baseline is large (58 sites); what
-  matters is that a NEW one gets looked at. The 40 `<WAIT>` in the robattle
-  chatter pool (0x08Dxxx-0x08Fxxx) are in the baseline but were NOT verified on
-  screen — if a quip ever looks mangled, start there.
+  tests/test_control_codes.py checks every line against the BOX that draws it
+  (`navi/boxes.py`), not against a list of blessed sites, and refuses any code
+  that box does not honour. `python3 tools/codes.py` lists them with both texts
+  side by side; `python3 tools/wide.py` walks the pack against the same boxes.
+- **The robattle chatter bar is NOT the dialogue box, and this cost 37 lines.**
+  The 412 quips a rival drops at the start and end of a battle (0x08D490-
+  0x08FF90) draw in the bar under the two teams on the ROBOTTLE! screen, and it
+  **does not page**: a `<WAIT>` there is not honoured and everything after it is
+  silently not drawn. "¿Robobatalla? Acepto,`<NL>`¿pero podrás`<WAIT>`competir?"
+  reached a player's screen as two rows ending in "¿pero podrás". Thirty-seven
+  Spanish lines had used `<WAIT>` as if it were a page break, purely to escape
+  the 21-column second row, and every one of them was losing its ending. The
+  cartridge says so plainly: all 412 Japanese lines use `<NL>` exactly ONCE and
+  `<END>` at the end (ten also a `<PLAYER>`), and not one uses `<WAIT>` or
+  `<CLEAR>` — the pool is written for two rows and a single screenful. It is now
+  its own box (`ROBATTLE_CHATTER`), so the test enforces it for every pack.
+  The lesson generalises: when a whole class of sites is exempted from a rule,
+  the exemption is a claim about a box, and it can simply be wrong.
 - **An index-reached string in menus.json will be RELOCATED and lost.** The
   loose-string writer moves a translation that outgrows its field and repoints
   its pointers, which is right for pointer-reached text and silently wrong for

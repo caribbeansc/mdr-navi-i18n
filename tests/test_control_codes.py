@@ -8,10 +8,19 @@ cerca``. Both looked like clipping and neither was.
 
 The first version of this test kept a baseline of the individual sites that
 used a code their Japanese did without — fifty-eight of them. That was the
-wrong shape: forty of those were one fact, "the robattle chatter draws through
+wrong shape: forty of those were one claim, "the robattle chatter draws through
 the dialogue box", written out forty times. navi/boxes.py says which box draws
 what instead, so the rule is about kinds of box and holds for lines nobody has
 written yet.
+
+That claim then turned out to be FALSE, which is the better argument for this
+shape. The chatter bar does not page: a <WAIT> there is not honoured and
+everything after it is silently not drawn ("¿Robobatalla? Acepto,<NL>¿pero
+podrás<WAIT>competir?" reached a player's screen without its last word). One
+line in boxes.py — ROBATTLE_CHATTER, whose codes are the <NL>/<END>/<PLAYER>
+that all 412 of its Japanese lines use and nothing more — turned thirty-seven
+mangled lines into thirty-seven failures here. As forty named exceptions, the
+same bug would have stayed invisible.
 """
 
 from __future__ import annotations
