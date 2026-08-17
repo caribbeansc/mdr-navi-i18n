@@ -148,6 +148,10 @@ def apply_ips(original: bytes, patch: bytes) -> bytes:
 
 # -- BPS -----------------------------------------------------------------
 
+#: BPS actions, in the order the format numbers them.
+SOURCE_READ, TARGET_READ, SOURCE_COPY, TARGET_COPY = 0, 1, 2, 3
+
+
 def _varint(value: int) -> bytes:
     out = bytearray()
     while True:
@@ -171,12 +175,83 @@ def make_bps(original: bytes, patched: bytes) -> bytes:
     out += _varint(len(original))
     out += _varint(len(patched))
     out += _varint(0)  # no metadata
-    # Action 0 is TargetRead: the length field is (count - 1) << 2 | action.
-    out += _varint(((len(patched) - 1) << 2) | 0)
+    # The action field is (count - 1) << 2 | action, and TargetRead — the one
+    # that takes its bytes from the patch — is action 1. Action 0 is
+    # SourceRead, which copies from the source and reads nothing: emitting the
+    # target after it made a patch that structurally validated and that no
+    # conformant tool could apply, because the applier would copy the source,
+    # then try to parse the target bytes as more actions.
+    out += _varint(((len(patched) - 1) << 2) | TARGET_READ)
     out += patched
     out += struct.pack("<I", zlib.crc32(original) & 0xFFFFFFFF)
     out += struct.pack("<I", zlib.crc32(patched) & 0xFFFFFFFF)
     out += struct.pack("<I", zlib.crc32(bytes(out)) & 0xFFFFFFFF)
+    return bytes(out)
+
+
+def _read_varint(patch: bytes, at: int) -> tuple[int, int]:
+    value, shift = 0, 1
+    while True:
+        byte = patch[at]
+        at += 1
+        value += (byte & 0x7F) * shift
+        if byte & 0x80:
+            return value, at
+        shift <<= 7
+        value += shift
+
+
+def apply_bps(source: bytes, patch: bytes) -> bytes:
+    """Apply a BPS patch, so the tests can check one round-trips.
+
+    Written from the format rather than from :func:`make_bps`, and handling all
+    four actions although the writer only ever emits one: a reader that only
+    understands what our writer emits proves the two agree with each other, not
+    that the patch is a BPS patch. That is precisely how an unapplyable one
+    shipped — the structural test asserted the byte the writer happened to put
+    there, and called action 0 TargetRead in its own comment.
+    """
+    if patch[:4] != b"BPS1":
+        raise ValueError("Not a BPS patch")
+    source_crc, target_crc, patch_crc = struct.unpack("<III", patch[-12:])
+    if zlib.crc32(patch[:-4]) & 0xFFFFFFFF != patch_crc:
+        raise ValueError("The patch is corrupt")
+    if zlib.crc32(source) & 0xFFFFFFFF != source_crc:
+        raise ValueError("This patch is for a different source file")
+
+    at = 4
+    _, at = _read_varint(patch, at)          # source size
+    target_size, at = _read_varint(patch, at)
+    metadata, at = _read_varint(patch, at)
+    at += metadata
+
+    out = bytearray()
+    source_at = target_at = 0
+    end = len(patch) - 12
+    while at < end:
+        value, at = _read_varint(patch, at)
+        action, length = value & 3, (value >> 2) + 1
+        if action == SOURCE_READ:
+            out += source[len(out):len(out) + length]
+        elif action == TARGET_READ:
+            out += patch[at:at + length]
+            at += length
+        else:
+            delta, at = _read_varint(patch, at)
+            step = (-1 if delta & 1 else 1) * (delta >> 1)
+            if action == SOURCE_COPY:
+                source_at += step
+                out += source[source_at:source_at + length]
+                source_at += length
+            else:
+                target_at += step
+                for _ in range(length):
+                    out.append(out[target_at])
+                    target_at += 1
+    if len(out) != target_size:
+        raise ValueError(f"Patched to {len(out)} bytes, header says {target_size}")
+    if zlib.crc32(bytes(out)) & 0xFFFFFFFF != target_crc:
+        raise ValueError("The patched file does not match the patch's checksum")
     return bytes(out)
 
 

@@ -6,7 +6,8 @@ import zlib
 
 import pytest
 
-from navi.patch import IPS_LIMIT, apply_ips, make, make_bps, make_ips
+from navi.patch import (IPS_LIMIT, apply_bps, apply_ips, make, make_bps,
+                        make_ips)
 
 
 def _read_varint(blob: bytes, i: int) -> tuple[int, int]:
@@ -152,7 +153,8 @@ def test_make_bps_structure_and_checksums():
     assert metadata_size == 0
 
     action, i = _read_varint(blob, i)
-    assert action & 3 == 0                      # TargetRead
+    assert action & 3 == 1                      # TargetRead, the one that
+                                                # takes its bytes from the patch
     assert (action >> 2) + 1 == len(patched)    # covering the whole target
     assert blob[i:i + len(patched)] == patched
     i += len(patched)
@@ -162,3 +164,41 @@ def test_make_bps_structure_and_checksums():
     assert source_crc == zlib.crc32(original)
     assert target_crc == zlib.crc32(patched)
     assert patch_crc == zlib.crc32(blob[:-4])
+
+
+def test_bps_round_trips_through_a_conformant_applier():
+    """The structural test above is not enough, and this is the proof.
+
+    make_bps used to label its one action 0 — SourceRead, which copies from the
+    source and reads NOTHING from the patch — while emitting the target after
+    it. Every field validated, the checksums were right, and no real tool could
+    apply the result: it would copy the source and then read the target bytes
+    as more actions. Only running the patch catches that.
+    """
+    for original, patched in (
+        (b"MEDAROT NAVI", b"MEDAROT NAVI TRANSLATED, AND LONGER"),
+        (b"", b"a target from nothing"),
+        (bytes(range(256)) * 40, bytes(range(255, -1, -1)) * 61),
+    ):
+        assert apply_bps(original, make_bps(original, patched)) == patched
+
+
+def test_the_bps_fallback_past_16mb_round_trips():
+    original = bytes(64)
+    patched = bytes(IPS_LIMIT + 1)
+    ext, blob = make(original, patched)
+    assert ext == "bps"
+    assert apply_bps(original, blob) == patched
+
+
+def test_apply_bps_refuses_a_patch_for_another_file():
+    blob = make_bps(b"the source it was made for", b"whatever")
+    with pytest.raises(ValueError):
+        apply_bps(b"a different source entirely", blob)
+
+
+def test_apply_bps_refuses_a_corrupt_patch():
+    blob = bytearray(make_bps(b"source", b"target"))
+    blob[6] ^= 0xFF
+    with pytest.raises(ValueError):
+        apply_bps(b"source", bytes(blob))
