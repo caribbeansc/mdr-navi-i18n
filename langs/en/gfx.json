@@ -1185,7 +1185,7 @@
       4,
       2
      ],
-     "text": "Varía",
+     "text": "Chg.",
      "fill": 15,
      "outline": 1,
      "top": 4
@@ -1198,7 +1198,7 @@
       4,
       2
      ],
-     "text": "Atado",
+     "text": "Bind",
      "fill": 15,
      "outline": 1,
      "top": 4
@@ -1211,7 +1211,7 @@
       4,
       2
      ],
-     "text": "Sigue",
+     "text": "Cont.",
      "fill": 15,
      "outline": 1,
      "top": 4
@@ -1224,7 +1224,7 @@
       4,
       2
      ],
-     "text": "Alto",
+     "text": "Stop",
      "fill": 15,
      "outline": 1,
      "top": 4
@@ -1237,7 +1237,7 @@
       4,
       2
      ],
-     "text": "Cura",
+     "text": "Cure",
      "fill": 15,
      "outline": 1,
      "top": 0
@@ -1250,7 +1250,7 @@
       4,
       2
      ],
-     "text": "Frena",
+     "text": "Jam",
      "fill": 15,
      "outline": 1,
      "top": 4
@@ -1263,7 +1263,7 @@
       4,
       2
      ],
-     "text": "Caos",
+     "text": "Conf.",
      "fill": 15,
      "outline": 1,
      "top": 4
@@ -1276,7 +1276,7 @@
       4,
       2
      ],
-     "text": "Rango",
+     "text": "Range",
      "fill": 15,
      "outline": 1,
      "top": 4
@@ -1298,7 +1298,7 @@
       4,
       2
      ],
-     "text": "Sana",
+     "text": "Heal",
      "fill": 15,
      "outline": 1,
      "top": 4
@@ -1324,7 +1324,7 @@
       4,
       2
      ],
-     "text": "Anula",
+     "text": "Clear",
      "fill": 15,
      "outline": 1,
      "top": 0
@@ -1337,7 +1337,7 @@
       4,
       2
      ],
-     "text": "Serie",
+     "text": "Chain",
      "fill": 15,
      "outline": 1,
      "top": 4
@@ -1359,7 +1359,7 @@
       8,
       2
      ],
-     "text": "Esperando…",
+     "text": "Waiting…",
      "fill": 10,
      "outline": 8,
      "top": 4
@@ -1784,7 +1784,7 @@
       4,
       2
      ],
-     "text": "Grupo",
+     "text": "Team",
      "fill": 1,
      "outline": 1,
      "top": 8,
@@ -1853,7 +1853,7 @@
       4,
       2
      ],
-     "text": "Grupo",
+     "text": "Team",
      "fill": 1,
      "outline": 1,
      "top": 8,
@@ -1935,7 +1935,7 @@
       4,
       1
      ],
-     "text": "Ficha",
+     "text": "Stats",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -2017,7 +2017,7 @@
       4,
       1
      ],
-     "text": "Ficha",
+     "text": "Stats",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -2053,7 +2053,7 @@
       5,
       1
      ],
-     "text": "Grupo",
+     "text": "Team",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2079,7 +2079,7 @@
       5,
       1
      ],
-     "text": "Bolsa",
+     "text": "Items",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2118,7 +2118,7 @@
       7,
       1
      ],
-     "text": "Ficha",
+     "text": "Stats",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2131,7 +2131,7 @@
       4,
       1
      ],
-     "text": "Salva",
+     "text": "Save",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2183,7 +2183,7 @@
       7,
       1
      ],
-     "text": "Campo",
+     "text": "Field",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2196,7 +2196,7 @@
       5,
       1
      ],
-     "text": "Ficha",
+     "text": "Stats",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2218,7 +2218,7 @@
       3,
       2
      ],
-     "text": "Tip.",
+     "text": "Typ.",
      "fill": 15,
      "outline": 5,
      "top": 3
@@ -2231,7 +2231,7 @@
       3,
       2
      ],
-     "text": "Alm.",
+     "text": "Soul",
      "fill": 15,
      "outline": 5,
      "top": 3
@@ -2253,7 +2253,7 @@
       5,
       1
      ],
-     "text": "Cabeza",
+     "text": "Head",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2278,7 +2278,7 @@
       4,
       1
      ],
-     "text": "Brazo",
+     "text": "Arm",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2303,7 +2303,7 @@
       2,
       1
      ],
-     "text": "d.",
+     "text": "R.",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2328,7 +2328,7 @@
       2,
       1
      ],
-     "text": "i.",
+     "text": "L.",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2341,7 +2341,7 @@
       4,
       1
      ],
-     "text": "Patas",
+     "text": "Legs",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -2379,7 +2379,7 @@
       4,
       1
      ],
-     "text": "REST",
+     "text": "LEFT",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2430,7 +2430,7 @@
       2,
       1
      ],
-     "text": "PE",
+     "text": "SO",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2443,7 +2443,7 @@
       2,
       1
      ],
-     "text": "RS",
+     "text": "UL",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2481,7 +2481,7 @@
       3,
       1
      ],
-     "text": "PERI",
+     "text": "SKI",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2494,7 +2494,7 @@
       3,
       1
      ],
-     "text": "CIA",
+     "text": "LL",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2520,7 +2520,7 @@
       2,
       1
      ],
-     "text": "TO",
+     "text": "T",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2533,7 +2533,7 @@
       4,
       1
      ],
-     "text": "PREC.",
+     "text": "HIT",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2546,7 +2546,7 @@
       3,
       1
      ],
-     "text": "REQ.",
+     "text": "REQ",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2597,7 +2597,7 @@
       2,
       1
      ],
-     "text": "OB",
+     "text": "AI",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2610,7 +2610,7 @@
       2,
       1
      ],
-     "text": "JE",
+     "text": "M",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2623,7 +2623,7 @@
       2,
       1
      ],
-     "text": "AL",
+     "text": "RA",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2636,7 +2636,7 @@
       2,
       1
      ],
-     "text": "CA",
+     "text": "NG",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2649,7 +2649,7 @@
       2,
       1
      ],
-     "text": "BL",
+     "text": "AR",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2662,7 +2662,7 @@
       2,
       1
      ],
-     "text": "IN",
+     "text": "MR",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2688,7 +2688,7 @@
       2,
       1
      ],
-     "text": "OS",
+     "text": "ES",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2701,7 +2701,7 @@
       2,
       1
      ],
-     "text": "PR",
+     "text": "HT",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2726,7 +2726,7 @@
       2,
       1
      ],
-     "text": "DA",
+     "text": "PO",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2739,7 +2739,7 @@
       2,
       1
      ],
-     "text": "ÑO",
+     "text": "WR",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2791,7 +2791,7 @@
       2,
       1
      ],
-     "text": "VI",
+     "text": "BI",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2817,7 +2817,7 @@
       2,
       1
      ],
-     "text": "FE",
+     "text": "F",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2830,7 +2830,7 @@
       2,
       1
      ],
-     "text": "CU",
+     "text": "ME",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2843,7 +2843,7 @@
       2,
       1
      ],
-     "text": "ER",
+     "text": "LE",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2856,7 +2856,7 @@
       2,
       1
      ],
-     "text": "DI",
+     "text": "SH",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2869,7 +2869,7 @@
       2,
       1
      ],
-     "text": "ST",
+     "text": "OT",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2946,7 +2946,7 @@
       4,
       1
      ],
-     "text": "Aptit.",
+     "text": "Abil.  ",
      "fill": 1,
      "outline": 3,
      "top": 0,
@@ -3154,7 +3154,7 @@
       5,
       1
      ],
-     "text": "Destr.  ",
+     "text": "Skill    ",
      "fill": 1,
      "outline": 3,
      "top": 0,
@@ -3251,7 +3251,7 @@
       5,
       1
      ],
-     "text": "Rotac.  ",
+     "text": "Rotate ",
      "fill": 1,
      "outline": 3,
      "top": 0,
@@ -3274,7 +3274,7 @@
       6,
       1
      ],
-     "text": "CAMBIO",
+     "text": "SHIFT",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -3299,7 +3299,7 @@
       6,
       1
      ],
-     "text": "PODER",
+     "text": "POWER",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -3333,7 +3333,7 @@
       21,
       2
      ],
-     "text": "La partida guardada se dañó",
+     "text": "The saved data is broken",
      "fill": 15,
      "outline": 0,
      "top": 1
@@ -3346,7 +3346,7 @@
       21,
       2
      ],
-     "text": "Empieza desde el principio",
+     "text": "Please play from the beginning",
      "fill": 15,
      "outline": 0,
      "top": 1
@@ -3483,7 +3483,7 @@
       4,
       1
      ],
-     "text": "Bloq.",
+     "text": "Block",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -3660,7 +3660,7 @@
       5,
       1
      ],
-     "text": "Ficha",
+     "text": "Stats",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -3769,7 +3769,7 @@
       4,
       1
      ],
-     "text": "Campo",
+     "text": "Field",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -4018,7 +4018,7 @@
       4,
       1
      ],
-     "text": "Parte",
+     "text": "Parts",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -4071,7 +4071,7 @@
       4,
       1
      ],
-     "text": "Parte",
+     "text": "Parts",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -4316,7 +4316,7 @@
       8,
       1
      ],
-     "text": "Medarreloj",
+     "text": "Medawatch",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -4343,7 +4343,7 @@
       8,
       1
      ],
-     "text": "Medarreloj",
+     "text": "Medawatch",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -4370,7 +4370,7 @@
       3,
       1
      ],
-     "text": "Crea",
+     "text": "Make",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -4397,7 +4397,7 @@
       3,
       1
      ],
-     "text": "Crea",
+     "text": "Make",
      "fill": 1,
      "outline": 1,
      "top": 0,
@@ -4499,7 +4499,7 @@
       2,
       1
      ],
-     "text": "AL",
+     "text": "SO",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4512,7 +4512,7 @@
       2,
       1
      ],
-     "text": "MA",
+     "text": "UL",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4616,7 +4616,7 @@
       2,
       1
      ],
-     "text": "TO",
+     "text": "T",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4629,7 +4629,7 @@
       2,
       1
      ],
-     "text": "BL",
+     "text": "AR",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4642,7 +4642,7 @@
       2,
       1
      ],
-     "text": "IN",
+     "text": "MR",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4668,7 +4668,7 @@
       2,
       1
      ],
-     "text": "OS",
+     "text": "ES",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4681,7 +4681,7 @@
       2,
       1
      ],
-     "text": "DA",
+     "text": "PO",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4694,7 +4694,7 @@
       2,
       1
      ],
-     "text": "ÑO",
+     "text": "WR",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4707,7 +4707,7 @@
       2,
       1
      ],
-     "text": "OB",
+     "text": "AI",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4720,7 +4720,7 @@
       2,
       1
      ],
-     "text": "JE",
+     "text": "M",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4733,7 +4733,7 @@
       2,
       1
      ],
-     "text": "AL",
+     "text": "RA",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4746,7 +4746,7 @@
       2,
       1
      ],
-     "text": "CA",
+     "text": "NG",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4759,7 +4759,7 @@
       3,
       1
      ],
-     "text": "PERI",
+     "text": "SKI",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4772,7 +4772,7 @@
       3,
       1
      ],
-     "text": "CIA",
+     "text": "LL",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4785,7 +4785,7 @@
       4,
       1
      ],
-     "text": "PREC.",
+     "text": "HIT",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4798,7 +4798,7 @@
       3,
       1
      ],
-     "text": "REQ.",
+     "text": "REQ",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4849,7 +4849,7 @@
       2,
       1
      ],
-     "text": "PR",
+     "text": "HT",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4913,7 +4913,7 @@
       2,
       1
      ],
-     "text": "VI",
+     "text": "BI",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4939,7 +4939,7 @@
       2,
       1
      ],
-     "text": "FE",
+     "text": "F",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4952,7 +4952,7 @@
       2,
       1
      ],
-     "text": "CU",
+     "text": "ME",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4965,7 +4965,7 @@
       2,
       1
      ],
-     "text": "ER",
+     "text": "LE",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4978,7 +4978,7 @@
       2,
       1
      ],
-     "text": "DI",
+     "text": "SH",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4991,7 +4991,7 @@
       2,
       1
      ],
-     "text": "ST",
+     "text": "OT",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -5287,14 +5287,14 @@
    "room": 11
   },
   "2e3047e49bd0": {
-   "t": "Favors the part with most armor left",
+   "t": "Favors most armored part",
    "sites": [
     "0x090800"
    ],
    "room": 52
   },
   "f936e5e8e0d3": {
-   "t": "Aims at the farthest Medabot",
+   "t": "Aims at farthest Medabot",
    "sites": [
     "0x090834",
     "0x090A38",
@@ -5303,21 +5303,21 @@
    "room": 52
   },
   "d9947bd5efa0": {
-   "t": "Aims at the part with most armor left",
+   "t": "Aims at most armored part",
    "sites": [
     "0x090868"
    ],
    "room": 52
   },
   "2fd5a48bbfb6": {
-   "t": "Favors parts with no status",
+   "t": "Favors status-free parts",
    "sites": [
     "0x0908AC"
    ],
    "room": 52
   },
   "deb066ae58e9": {
-   "t": "Aims at the nearest Medabot",
+   "t": "Aims at nearest Medabot",
    "sites": [
     "0x0908E0",
     "0x09098C",
@@ -5327,42 +5327,42 @@
    "room": 52
   },
   "20fa8bf5e53e": {
-   "t": "Aims at parts with no status",
+   "t": "Aims at status-free parts",
    "sites": [
     "0x090914"
    ],
    "room": 52
   },
   "8a40a30eeb58": {
-   "t": "Favors the least damaged part",
+   "t": "Favors least damaged parts",
    "sites": [
     "0x090958"
    ],
    "room": 52
   },
   "584809d3faa2": {
-   "t": "Aims at the least damaged part",
+   "t": "Aims at least damaged part",
    "sites": [
     "0x0909C0"
    ],
    "room": 52
   },
   "f9f6fc6b3cf4": {
-   "t": "Prioritizes the most damaged part",
+   "t": "Favors most damaged parts",
    "sites": [
     "0x090A04"
    ],
    "room": 52
   },
   "2de1ef842d0c": {
-   "t": "Aims at the most damaged part",
+   "t": "Aims at the most damaged",
    "sites": [
     "0x090A6C"
    ],
    "room": 52
   },
   "3513c962cf92": {
-   "t": "Favors attack parts like «Strike»",
+   "t": "Favors attack parts",
    "sites": [
     "0x090AB0"
    ],
@@ -5376,7 +5376,7 @@
    "room": 52
   },
   "de7ae4c00fc1": {
-   "t": "Raises the power of all shooting parts",
+   "t": "Raises all shooting power",
    "sites": [
     "0x090D2C"
    ],
@@ -5390,21 +5390,21 @@
    "room": 52
   },
   "9a08d25b0c7b": {
-   "t": "Raises the damage of your attacks",
+   "t": "Raises the damage you deal",
    "sites": [
     "0x090DA4"
    ],
    "room": 52
   },
   "3055dcca6524": {
-   "t": "Defense rises with each use",
+   "t": "Defense rises with use",
    "sites": [
     "0x090DE8"
    ],
    "room": 52
   },
   "65a0708ff168": {
-   "t": "Deals damage before the foe attacks",
+   "t": "Hits before any foe attack",
    "sites": [
     "0x090E94"
    ],
@@ -5418,14 +5418,14 @@
    "room": 16
   },
   "bbe63f622cef": {
-   "t": "(Ailment) Inflicts Variable on all enemies",
+   "t": "(Ailment) Variable, all",
    "sites": [
     "0x090ED8"
    ],
    "room": 52
   },
   "053e09d65572": {
-   "t": "Lowers the success of every action",
+   "t": "Lowers all action success",
    "sites": [
     "0x090F0C",
     "0x0938A4",
@@ -5434,7 +5434,7 @@
    "room": 52
   },
   "c6b4c12de82e": {
-   "t": "Lowers AP and hinders action",
+   "t": "Lowers AP to hinder action",
    "sites": [
     "0x090F84"
    ],
@@ -5464,14 +5464,14 @@
    "room": 16
   },
   "608e192964c9": {
-   "t": "Drops AP at once so it can't act",
+   "t": "Drains all AP, can't act",
    "sites": [
     "0x091074"
    ],
    "room": 52
   },
   "6b7310cd94e7": {
-   "t": "Damages the foe and repairs itself",
+   "t": "Damages a foe, repairs you",
    "sites": [
     "0x0910EC"
    ],
@@ -5485,14 +5485,14 @@
    "room": 16
   },
   "b844b8a9dd31": {
-   "t": "(Ailment) On all enemy flying Medabots",
+   "t": "(Ailment) All flying foes",
    "sites": [
     "0x091130"
    ],
    "room": 52
   },
   "37bc4d52a7bf": {
-   "t": "inflicts a random minus status",
+   "t": "inflicts a random ailment",
    "sites": [
     "0x091164",
     "0x0911DC"
@@ -5507,7 +5507,7 @@
    "room": 16
   },
   "6103d167c52f": {
-   "t": "(Ailment) To all enemy diving Medabots",
+   "t": "(Ailment) All diving foes",
    "sites": [
     "0x0911A8"
    ],
@@ -5521,21 +5521,21 @@
    "room": 16
   },
   "9090c4070ed0": {
-   "t": "Raises all allies' scan and stealth",
+   "t": "Raises team scan & stealth",
    "sites": [
     "0x091220"
    ],
    "room": 52
   },
   "89a06216d603": {
-   "t": "Raises every ally's head part uses",
+   "t": "Raises team head part uses",
    "sites": [
     "0x091298"
    ],
    "room": 52
   },
   "125fdd9fc83b": {
-   "t": "Changes the field to «mountain»",
+   "t": "Changes field to mountain",
    "sites": [
     "0x0913BC"
    ],
@@ -5543,7 +5543,7 @@
    "comment": "medafuerza de terreno: la fila del panel dibuja 28 celdas y corta en seco, así que «Cambia el terreno a «montaña»» (29) perdía su comilla de cierre en pantalla. Toda la familia dice «campo», que además es la palabra del primer renglón"
   },
   "7381c7a810b0": {
-   "t": "Changes the field to «forest»",
+   "t": "Changes field to «forest»",
    "sites": [
     "0x091434"
    ],
@@ -5585,7 +5585,7 @@
    "room": 52
   },
   "d752b4126130": {
-   "t": "Changes to another Medaforce at turn start",
+   "t": "Turn start: new Medaforce",
    "sites": [
     "0x0918B0"
    ],
@@ -5599,7 +5599,7 @@
    "room": 52
   },
   "5f6988dbb778": {
-   "t": "At a rate of 30 percent or more",
+   "t": "At a rate of 30% or more",
    "sites": [
     "0x091928"
    ],
@@ -5615,28 +5615,28 @@
    "room": 52
   },
   "0e3fd05c4dfb": {
-   "t": "With a 60% or higher chance,",
+   "t": "At a rate of 60% or more",
    "sites": [
     "0x0919A0"
    ],
    "room": 52
   },
   "49e55a3013ac": {
-   "t": "At a rate of 90 percent or more",
+   "t": "At a rate of 90% or more",
    "sites": [
     "0x091A18"
    ],
    "room": 52
   },
   "4113f726b0bd": {
-   "t": "Lowers the remaining turns and",
+   "t": "Lowers the turns left and",
    "sites": [
     "0x091E50"
    ],
    "room": 52
   },
   "0b907c5e0021": {
-   "t": "speeds up the judgment time",
+   "t": "speeds up judgment time",
    "sites": [
     "0x091E84"
    ],
@@ -5650,14 +5650,14 @@
    "room": 16
   },
   "35d46c2318a9": {
-   "t": "Raises the remaining turns and",
+   "t": "Raises the turns left and",
    "sites": [
     "0x091EC8"
    ],
    "room": 52
   },
   "c7f4b1ffeee3": {
-   "t": "slows down the judgment time",
+   "t": "slows down judgment time",
    "sites": [
     "0x091EFC"
    ],
@@ -5671,14 +5671,14 @@
    "room": 16
   },
   "83b88a8b82d3": {
-   "t": "(Ailment) Confuses every foe",
+   "t": "(Ailment) Confusion, all",
    "sites": [
     "0x091F40"
    ],
    "room": 52
   },
   "abddb4c9a735": {
-   "t": "Picks any target, friend or foe",
+   "t": "Picks targets, ally or foe",
    "sites": [
     "0x091F74",
     "0x091FEC",
@@ -5694,7 +5694,7 @@
    "room": 16
   },
   "9114993664ed": {
-   "t": "(Field) Confuses every Medabot",
+   "t": "(Field) Confuses everyone",
    "sites": [
     "0x091FB8"
    ],
@@ -5710,7 +5710,7 @@
    "room": 16
   },
   "b5684ddb8f4c": {
-   "t": "All your parts become Optical type",
+   "t": "Your parts become Optical",
    "sites": [
     "0x092030",
     "0x0920A8",
@@ -5726,7 +5726,7 @@
    "room": 52
   },
   "9d1024addfd0": {
-   "t": "All your parts become Gunpowder type",
+   "t": "Your parts become Powder",
    "sites": [
     "0x092198",
     "0x092210",
@@ -5735,7 +5735,7 @@
    "room": 52
   },
   "898fa4c68bd6": {
-   "t": "Always hits and the damage pierces",
+   "t": "Always hits and pierces",
    "sites": [
     "0x0921CC",
     "0x092244",
@@ -5755,7 +5755,7 @@
    "room": 16
   },
   "31a86e6b70bd": {
-   "t": "Gives all your parts the Gravity type",
+   "t": "Your parts become Gravity",
    "sites": [
     "0x092300",
     "0x092378",
@@ -5785,7 +5785,7 @@
    "room": 16
   },
   "b6ff5435fcef": {
-   "t": "Repairs 1 part on every ally",
+   "t": "Repairs 1 part per ally",
    "sites": [
     "0x092468"
    ],
@@ -5799,7 +5799,7 @@
    "room": 16
   },
   "ead0d0f5e4a5": {
-   "t": "Repairs 2 parts on every ally",
+   "t": "Repairs 2 parts per ally",
    "sites": [
     "0x0924E0"
    ],
@@ -5813,7 +5813,7 @@
    "room": 16
   },
   "79e688d9319d": {
-   "t": "Repairs 3 parts on every ally",
+   "t": "Repairs 3 parts per ally",
    "sites": [
     "0x092558"
    ],
@@ -5827,35 +5827,35 @@
    "room": 16
   },
   "08923e812dde": {
-   "t": "Repairs 4 parts on every ally",
+   "t": "Repairs 4 parts per ally",
    "sites": [
     "0x0925D0"
    ],
    "room": 52
   },
   "514f927fe64d": {
-   "t": "Revives 1 part on every ally",
+   "t": "Revives 1 part per ally",
    "sites": [
     "0x092648"
    ],
    "room": 52
   },
   "aa60e13e79e7": {
-   "t": "Revives 2 parts on every ally",
+   "t": "Revives 2 parts per ally",
    "sites": [
     "0x0926C0"
    ],
    "room": 52
   },
   "73250c7861b3": {
-   "t": "Revives 3 parts on every ally",
+   "t": "Revives 3 parts per ally",
    "sites": [
     "0x092738"
    ],
    "room": 52
   },
   "07f88f7d33f6": {
-   "t": "Turns the damage taken so far into power",
+   "t": "Damage taken becomes power",
    "sites": [
     "0x0927E4"
    ],
@@ -5899,14 +5899,14 @@
    "room": 24
   },
   "f1296eeb323f": {
-   "t": "(Equip) When you move and melee attack",
+   "t": "(Equip) Melee after moving",
    "sites": [
     "0x093270"
    ],
    "room": 52
   },
   "03d6cc249d57": {
-   "t": "Movement halves and power goes up",
+   "t": "Movement halves, power rises",
    "sites": [
     "0x0932A4"
    ],
@@ -5920,28 +5920,28 @@
    "room": 24
   },
   "8808942c751d": {
-   "t": "A shooting attack that pulls the foe in",
+   "t": "Shooting: pulls the foe in",
    "sites": [
     "0x0933F0"
    ],
    "room": 52
   },
   "29027b5c376d": {
-   "t": "Pulls the enemy in toward you",
+   "t": "Pulls the foe in toward you",
    "sites": [
     "0x093424"
    ],
    "room": 52
   },
   "35a75e4f8388": {
-   "t": "(Equip) When you shoot without moving",
+   "t": "(Equip) Shot without moving",
    "sites": [
     "0x093470"
    ],
    "room": 52
   },
   "b09a4aecee84": {
-   "t": "Raises success and lands more criticals",
+   "t": "Raises success and criticals",
    "sites": [
     "0x0934A4"
    ],
@@ -5956,7 +5956,7 @@
    "room": 52
   },
   "48de2c717f20": {
-   "t": "Shooting attack with high success",
+   "t": "High-success shooting attack",
    "sites": [
     "0x0936F0",
     "0x093770"
@@ -5972,14 +5972,14 @@
    "room": 52
   },
   "68b7464fd9ed": {
-   "t": "Sacrifices the part used to deal damage",
+   "t": "Sacrifices a part for damage",
    "sites": [
     "0x093824"
    ],
    "room": 52
   },
   "dc7826d40234": {
-   "t": "Raises move AP and hinders moving",
+   "t": "Raises move AP, hard to move",
    "sites": [
     "0x0939A4",
     "0x093A24"
@@ -6001,7 +6001,7 @@
    "room": 24
   },
   "de65d0691bda": {
-   "t": "Drops AP at once and stops action",
+   "t": "Drains all AP, stops action",
    "sites": [
     "0x093BA4",
     "0x093C24"
@@ -6009,7 +6009,7 @@
    "room": 52
   },
   "9f714c784260": {
-   "t": "(Cover) Action that covers an ally",
+   "t": "(Cover) Covers an ally",
    "sites": [
     "0x093CF0",
     "0x093D70"
@@ -6017,42 +6017,42 @@
    "room": 52
   },
   "9d1b184f7d8f": {
-   "t": "Cuts the damage taken by its power",
+   "t": "Cuts the damage by its power",
    "sites": [
     "0x093D24"
    ],
    "room": 52
   },
   "76400a82316f": {
-   "t": "Nullifies damage lower than its power",
+   "t": "Voids damage under its power",
    "sites": [
     "0x093DA4"
    ],
    "room": 52
   },
   "4eae150d1b4a": {
-   "t": "Action strong only against flying Medabots",
+   "t": "Strong only vs flying foes",
    "sites": [
     "0x093DF0"
    ],
    "room": 52
   },
   "e1200db099f9": {
-   "t": "Success x16 only against flying Medabots",
+   "t": "Success x16 vs flying foes",
    "sites": [
     "0x093E24"
    ],
    "room": 52
   },
   "c281e2ed38ea": {
-   "t": "Action strong only against diving Medabots",
+   "t": "Strong only vs diving foes",
    "sites": [
     "0x093E70"
    ],
    "room": 52
   },
   "acf8896721ae": {
-   "t": "Success x16 only vs diving Medabots",
+   "t": "Success x16 vs diving foes",
    "sites": [
     "0x093EA4"
    ],
@@ -6066,14 +6066,14 @@
    "room": 52
   },
   "f38554d9c1d7": {
-   "t": "Raises success when attacking",
+   "t": "Raises success on attacks",
    "sites": [
     "0x093F24"
    ],
    "room": 52
   },
   "03c41ef57965": {
-   "t": "Action that helps dodge enemy attacks",
+   "t": "Helps dodge foe attacks",
    "sites": [
     "0x093F70"
    ],
@@ -6094,7 +6094,7 @@
    "room": 24
   },
   "b5a4d0d7a8c8": {
-   "t": "Action that boosts nearby terrain effects",
+   "t": "Raises nearby terrain effect",
    "sites": [
     "0x093FF0"
    ],
@@ -6108,35 +6108,35 @@
    "room": 24
   },
   "b8796928c7b4": {
-   "t": "Action that gathers all allies around you",
+   "t": "Gathers all allies to you",
    "sites": [
     "0x094070"
    ],
    "room": 52
   },
   "91a0e90dfbe3": {
-   "t": "Calls as many as it can to your side",
+   "t": "Calls as many as it can",
    "sites": [
     "0x0940A4"
    ],
    "room": 52
   },
   "ec28535e3ebd": {
-   "t": "(Trap) Set against melee attacks",
+   "t": "(Trap) Set vs melee attacks",
    "sites": [
     "0x0940F0"
    ],
    "room": 52
   },
   "3f780ffcb7d3": {
-   "t": "Deals damage before the foe's melee attack",
+   "t": "Hits before the foe's melee",
    "sites": [
     "0x094124"
    ],
    "room": 52
   },
   "927b4a3780fd": {
-   "t": "Deals damage before an enemy shot",
+   "t": "Hits before the foe's shot",
    "sites": [
     "0x0941A4"
    ],
@@ -6150,84 +6150,84 @@
    "room": 24
   },
   "e0eb92be7a52": {
-   "t": "(Trap) Set action that raises Medaforce",
+   "t": "(Trap) Raises Medaforce",
    "sites": [
     "0x0941F0"
    ],
    "room": 52
   },
   "91448f28327a": {
-   "t": "Raises Medaforce when the turn starts",
+   "t": "Raises MF at turn start",
    "sites": [
     "0x094224"
    ],
    "room": 52
   },
   "f89fd90a68c0": {
-   "t": "Blocks the foe's attack and voids its action",
+   "t": "Blocks and voids the action",
    "sites": [
     "0x0942A4"
    ],
    "room": 52
   },
   "35e372ec22fb": {
-   "t": "Revives a broken part when the action starts",
+   "t": "Revives the part when acting",
    "sites": [
     "0x094324"
    ],
    "room": 52
   },
   "1dd20db83add": {
-   "t": "Huge damage combined with a set trap",
+   "t": "Huge damage with a set trap",
    "sites": [
     "0x094424"
    ],
    "room": 52
   },
   "fc7127a33fac": {
-   "t": "(Trap) Keeps you from being targeted",
+   "t": "(Trap) You can't be targeted",
    "sites": [
     "0x094470"
    ],
    "room": 52
   },
   "d284b2ed16b5": {
-   "t": "Can't be targeted until the next action",
+   "t": "Not a target until you act",
    "sites": [
     "0x0944A4"
    ],
    "room": 52
   },
   "292722bd6963": {
-   "t": "Clears an ally's minus status and blocks it",
+   "t": "Clears/blocks ally ailments",
    "sites": [
     "0x0944F0"
    ],
    "room": 52
   },
   "ca092d377785": {
-   "t": "Clears the foe's trap status and blocks it",
+   "t": "Clears/blocks foe traps",
    "sites": [
     "0x094570"
    ],
    "room": 52
   },
   "470e16144235": {
-   "t": "(Field) Blocks the use of Medaforce",
+   "t": "(Field) Blocks Medaforce use",
    "sites": [
     "0x0945F0"
    ],
    "room": 52
   },
   "18ac52f24bb7": {
-   "t": "Can also make Medaforce usable again",
+   "t": "Can also unblock Medaforce",
    "sites": [
     "0x094624"
    ],
    "room": 52
   },
   "c063ed910127": {
-   "t": "Action that repairs a part's armor",
+   "t": "Repairs a part's armor",
    "sites": [
     "0x094670"
    ],
@@ -6241,49 +6241,49 @@
    "room": 52
   },
   "70318598dc05": {
-   "t": "Action that revives broken parts",
+   "t": "Revives broken parts",
    "sites": [
     "0x0946F0"
    ],
    "room": 52
   },
   "1eae16729d2b": {
-   "t": "No effect on parts still working",
+   "t": "No effect on working parts",
    "sites": [
     "0x094724"
    ],
    "room": 52
   },
   "15745ebe8470": {
-   "t": "Action that revives a broken ally",
+   "t": "Revives a broken ally",
    "sites": [
     "0x094770"
    ],
    "room": 52
   },
   "0ac5ecdc3548": {
-   "t": "No effect on allies still working",
+   "t": "No effect on working allies",
    "sites": [
     "0x0947A4"
    ],
    "room": 52
   },
   "7b8d4ecb8d89": {
-   "t": "Action that steals the foe's level",
+   "t": "Steals the foe's level",
    "sites": [
     "0x0947F0"
    ],
    "room": 52
   },
   "ee3df05b9c2a": {
-   "t": "Level also changes the Medaforce effect",
+   "t": "Medaforce changes with level",
    "sites": [
     "0x094824"
    ],
    "room": 52
   },
   "b02cc12319dd": {
-   "t": "Raises AP when the turn starts",
+   "t": "Raises AP at turn start",
    "sites": [
     "0x0948A4"
    ],
@@ -6297,7 +6297,7 @@
    "room": 24
   },
   "22415a8ca012": {
-   "t": "(Cover) Covers using the Nullify effect",
+   "t": "(Cover) Covers and voids",
    "sites": [
     "0x094924",
     "0x0949A4",
@@ -6313,21 +6313,21 @@
    "room": 24
   },
   "98cc9a9d8bc6": {
-   "t": "No ailments and no boosts either",
+   "t": "No minus or plus status",
    "sites": [
     "0x094AA4"
    ],
    "room": 52
   },
   "9fe0d5aceadf": {
-   "t": "Repairs damage when the turn starts",
+   "t": "Repairs damage at turn start",
    "sites": [
     "0x094B24"
    ],
    "room": 52
   },
   "faabe4afda25": {
-   "t": "Weak attacks do normal damage",
+   "t": "Weak attacks do usual damage",
    "sites": [
     "0x094BA4"
    ],
@@ -6341,28 +6341,28 @@
    "room": 52
   },
   "843dacb9d80b": {
-   "t": "The part's power is the move cost of 1 grid",
+   "t": "Its power is the AP per grid",
    "sites": [
     "0x094C24"
    ],
    "room": 52
   },
   "2a5cf17fd30e": {
-   "t": "(Equip) Success and power go up",
+   "t": "(Equip) Success and power up",
    "sites": [
     "0x094C70"
    ],
    "room": 52
   },
   "fd6d761d906f": {
-   "t": "Lowers AP when the turn starts",
+   "t": "Lowers AP at turn start",
    "sites": [
     "0x094D24"
    ],
    "room": 52
   },
   "cbcc446dfcb5": {
-   "t": "Action that raises an ally's AP",
+   "t": "Raises an ally's AP",
    "sites": [
     "0x094D70"
    ],
@@ -6376,7 +6376,7 @@
    "room": 24
   },
   "4adb72f02237": {
-   "t": "Action that raises an ally's Medaforce",
+   "t": "Raises an ally's Medaforce",
    "sites": [
     "0x094E70"
    ],
@@ -6390,7 +6390,7 @@
    "room": 24
   },
   "6ade715f0ccf": {
-   "t": "Changes to another part at turn start",
+   "t": "Turn start: new part",
    "sites": [
     "0x094EF0",
     "0x094F70",
@@ -6403,49 +6403,49 @@
    "room": 52
   },
   "8b14c3e8c4af": {
-   "t": "Changes to a part of any trait",
+   "t": "Changes to any trait part",
    "sites": [
     "0x094F24"
    ],
    "room": 52
   },
   "c5ba0358c684": {
-   "t": "Changes to a «Speed» trait part",
+   "t": "Changes to a «Speed» part",
    "sites": [
     "0x094FA4"
    ],
    "room": 52
   },
   "4184bb38014f": {
-   "t": "Changes into a «Damage» trait part",
+   "t": "Changes to a «Power» part",
    "sites": [
     "0x095024"
    ],
    "room": 52
   },
   "b25c10b77d86": {
-   "t": "Changes into a «Status» trait part",
+   "t": "Changes to a «Status» part",
    "sites": [
     "0x0950A4"
    ],
    "room": 52
   },
   "2cef2adbd724": {
-   "t": "Changes into a «Cover» trait part",
+   "t": "Changes to a «Cover» part",
    "sites": [
     "0x095124"
    ],
    "room": 52
   },
   "bc8897b3cc36": {
-   "t": "Changes to a «Heal» trait part",
+   "t": "Changes to a «Repair» part",
    "sites": [
     "0x0951A4"
    ],
    "room": 52
   },
   "f0536dd6e30c": {
-   "t": "Changes to a «Support» trait part",
+   "t": "Changes to a «Support» part",
    "sites": [
     "0x095224"
    ],
@@ -6459,77 +6459,77 @@
    "room": 24
   },
   "38102a0543d3": {
-   "t": "(Plus status) Grants Chain Action",
+   "t": "(Plus status) Chain Action",
    "sites": [
     "0x095270"
    ],
    "room": 52
   },
   "e14c19281ae2": {
-   "t": "Gives your action uses to an ally",
+   "t": "Gives action uses to an ally",
    "sites": [
     "0x0952A4"
    ],
    "room": 52
   },
   "462b28a141a0": {
-   "t": "Clears the foe's plus status and blocks it",
+   "t": "Clears/blocks foe +stat",
    "sites": [
     "0x0952F0"
    ],
    "room": 52
   },
   "f97bc3781bed": {
-   "t": "(Minus status) Foe can't pick a target",
+   "t": "(Ailment) Foe can't target",
    "sites": [
     "0x0953F0"
    ],
    "room": 52
   },
   "60fcde2c42be": {
-   "t": "Action that steals the foe's head part uses",
+   "t": "Steals the foe's head uses",
    "sites": [
     "0x095470"
    ],
    "room": 52
   },
   "f3a920100f9a": {
-   "t": "Never goes past the head part's uses",
+   "t": "Never goes past head uses",
    "sites": [
     "0x0954A4"
    ],
    "room": 52
   },
   "2a38523e4989": {
-   "t": "Action that steals the foe's Medaforce",
+   "t": "Steals the foe's Medaforce",
    "sites": [
     "0x0955F0"
    ],
    "room": 52
   },
   "88c169c965a4": {
-   "t": "(Ailment) Stops the foe moving away",
+   "t": "(Ailment) Foe can't get away",
    "sites": [
     "0x095670"
    ],
    "room": 52
   },
   "bd8b59772c6c": {
-   "t": "Canceled if the user Medabot moves away",
+   "t": "Ends if the user moves away",
    "sites": [
     "0x0956A4"
    ],
    "room": 52
   },
   "1b0dd969defc": {
-   "t": "(Minus status) Stops foes coming near",
+   "t": "(Ailment) Foe can't approach",
    "sites": [
     "0x0956F0"
    ],
    "room": 52
   },
   "0e39a1142f83": {
-   "t": "Canceled if the user comes near",
+   "t": "Ends if the user comes near",
    "sites": [
     "0x095724"
    ],
@@ -6592,7 +6592,7 @@
    "room": 52
   },
   "70994553c319": {
-   "t": "The field has no effect on it",
+   "t": "The field has no effect",
    "sites": [
     "0x0959F4"
    ],
@@ -10853,7 +10853,7 @@
    "room": 56
   },
   "f8ffacc3106e": {
-   "t": "(Field) Changes the battle terrain",
+   "t": "(Field) Changes terrain",
    "sites": [
     "0x0916D0",
     "0x091748",
@@ -10885,7 +10885,7 @@
    "room": 16
   },
   "34272c7c5090": {
-   "t": "The leg part's «Propulsion»",
+   "t": "Leg part's «Propulsion»",
    "sites": [
     "0x091A90"
    ],
@@ -10975,7 +10975,7 @@
    "room": 52
   },
   "9045a4e3b4df": {
-   "t": "All part attacks deal 60 damage",
+   "t": "All part attacks deal 60",
    "sites": [
     "0x091D1C"
    ],
@@ -10989,7 +10989,7 @@
    "room": 16
   },
   "fd337693a593": {
-   "t": "All part attacks do 20 damage",
+   "t": "All part attacks deal 20",
    "sites": [
     "0x091D94"
    ],
@@ -11003,7 +11003,7 @@
    "room": 16
   },
   "44d38adb70b5": {
-   "t": "All part attacks deal 120 damage",
+   "t": "All part attacks deal 120",
    "sites": [
     "0x091E0C"
    ],
@@ -11075,7 +11075,7 @@
    "room": 5
   },
   "dea9da40c8c5": {
-   "t": "Melee attack that blows the foe away",
+   "t": "Melee: blows the foe away",
    "sites": [
     "0x0931F0"
    ],
@@ -11113,14 +11113,14 @@
    "room": 24
   },
   "dbe801191ec8": {
-   "t": "Shooting attack that voids «Cover» and «Guard»",
+   "t": "Shooting: voids Cover/Guard",
    "sites": [
     "0x0937F0"
    ],
    "room": 52
   },
   "0dc0d8ccd28f": {
-   "t": "(Minus status) Melee that inflicts Variable",
+   "t": "(Ailment) Melee: Variable",
    "sites": [
     "0x093870",
     "0x0938F0"
@@ -11128,7 +11128,7 @@
    "room": 52
   },
   "1a84f329d676": {
-   "t": "(Minus status) Melee that inflicts Bind",
+   "t": "(Ailment) Melee: Bind",
    "sites": [
     "0x093970",
     "0x0939F0"
@@ -11136,7 +11136,7 @@
    "room": 52
   },
   "ccf689cc29d2": {
-   "t": "(Ailment) Melee that inflicts Continuous",
+   "t": "(Ailment) Melee: Continuous",
    "sites": [
     "0x093A70",
     "0x093AF0"
@@ -11144,7 +11144,7 @@
    "room": 52
   },
   "abae86726480": {
-   "t": "(Ailment) Melee that inflicts Stop",
+   "t": "(Ailment) Melee: Stop",
    "sites": [
     "0x093B70",
     "0x093BF0"
@@ -11159,14 +11159,14 @@
    "room": 24
   },
   "a1de962608b7": {
-   "t": "Melee that voids «Cover» and «Guard»",
+   "t": "Melee: voids Cover/Guard",
    "sites": [
     "0x093C70"
    ],
    "room": 52
   },
   "aa8948ed2a18": {
-   "t": "Destroys a foe that can't dodge or defend",
+   "t": "Destroys a defenseless foe",
    "sites": [
     "0x093CA4"
    ],
@@ -11180,7 +11180,7 @@
    "room": 24
   },
   "cc422fead5d7": {
-   "t": "Makes the 4 adjacent grids hard to enter",
+   "t": "Hard to enter the 4 grids",
    "sites": [
     "0x094024"
    ],
@@ -11201,14 +11201,14 @@
    "room": 24
   },
   "2148635c4cd8": {
-   "t": "(Trap) Set against shooting attacks",
+   "t": "(Trap) Set vs shooting",
    "sites": [
     "0x094170"
    ],
    "room": 52
   },
   "49065b357d26": {
-   "t": "(Trap) Set against a single attack",
+   "t": "(Trap) Set vs 1 attack",
    "sites": [
     "0x094270"
    ],
@@ -11222,7 +11222,7 @@
    "room": 24
   },
   "2ff894ab4099": {
-   "t": "(Trap) Set against broken parts",
+   "t": "(Trap) Set vs broken parts",
    "sites": [
     "0x0942F0"
    ],
@@ -11243,7 +11243,7 @@
    "room": 52
   },
   "917827fc1326": {
-   "t": "Activates with a «Crossfire» part",
+   "t": "Activates with «Crossfire»",
    "sites": [
     "0x0943A4"
    ],
@@ -11257,7 +11257,7 @@
    "room": 24
   },
   "2e8efc045f1a": {
-   "t": "(Trap) Set action that fires a cross attack",
+   "t": "(Trap) Fires a cross attack",
    "sites": [
     "0x0943F0"
    ],
@@ -11271,7 +11271,7 @@
    "room": 24
   },
   "a977adca20b6": {
-   "t": "Also clears the foe's ailment block",
+   "t": "Clears foe ailment block too",
    "sites": [
     "0x094524"
    ],
@@ -11285,7 +11285,7 @@
    "room": 24
   },
   "236ad95178b2": {
-   "t": "Also clears an ally's trap block",
+   "t": "Also clears ally trap block",
    "sites": [
     "0x0945A4"
    ],
@@ -11320,28 +11320,28 @@
    "room": 52
   },
   "741f08cb884b": {
-   "t": "(Equip) Nullifies «Laser» and «Beam»",
+   "t": "(Equip) Voids Laser/Beam",
    "sites": [
     "0x0948F0"
    ],
    "room": 52
   },
   "3eaec668b016": {
-   "t": "(Equip) Nullifies «Missile» and «Napalm»",
+   "t": "(Equip) Voids Missile/Napalm",
    "sites": [
     "0x094970"
    ],
    "room": 52
   },
   "2e077568a8c6": {
-   "t": "(Equip) Nullifies «Break» and «Press»",
+   "t": "(Equip) Voids Break/Press",
    "sites": [
     "0x0949F0"
    ],
    "room": 52
   },
   "04933ab6db9d": {
-   "t": "(Equip) No «Status» can be inflicted",
+   "t": "(Equip) Blocks all «Status»",
    "sites": [
     "0x094A70"
    ],
@@ -11355,14 +11355,14 @@
    "room": 24
   },
   "5b040dfd0db3": {
-   "t": "(Plus status) Grants Auto-repair",
+   "t": "(Plus status) Auto-repair",
    "sites": [
     "0x094AF0"
    ],
    "room": 52
   },
   "6d7b61603b88": {
-   "t": "(Guard) Repels only strong attacks",
+   "t": "(Guard) Repels strong hits",
    "sites": [
     "0x094B70"
    ],
@@ -11404,7 +11404,7 @@
    "room": 24
   },
   "1c4dd64173f7": {
-   "t": "(Equip) AP rises when the turn starts",
+   "t": "(Equip) AP up at turn start",
    "sites": [
     "0x094DF0"
    ],
@@ -11439,7 +11439,7 @@
    "room": 24
   },
   "c90ac9e1da49": {
-   "t": "Also clears an ally's Plus status block",
+   "t": "Also clears ally +stat block",
    "sites": [
     "0x095324"
    ],
@@ -11453,14 +11453,14 @@
    "room": 24
   },
   "23541f310ccc": {
-   "t": "(Minus status) Makes 1 part unusable",
+   "t": "(Ailment) Disables 1 part",
    "sites": [
     "0x095370"
    ],
    "room": 52
   },
   "da65d0d3a8df": {
-   "t": "The ailment lands on the part used",
+   "t": "Ailment hits the part used",
    "sites": [
     "0x0953A4"
    ],
@@ -11474,7 +11474,7 @@
    "room": 24
   },
   "9478ba887ef7": {
-   "t": "(Ailment) Action that stops dodging",
+   "t": "(Ailment) Foe can't evade",
    "sites": [
     "0x0954F0"
    ],
@@ -11488,7 +11488,7 @@
    "room": 24
   },
   "d89d59b05a60": {
-   "t": "(Ailment) Action that stops defending",
+   "t": "(Ailment) Foe can't defend",
    "sites": [
     "0x095570"
    ],
@@ -11523,14 +11523,14 @@
    "room": 52
   },
   "ddd9fd000409": {
-   "t": "Strong on «hill» and «mountain»",
+   "t": "Strong on hill and mountain",
    "sites": [
     "0x09588C"
    ],
    "room": 52
   },
   "e000ac13f485": {
-   "t": "Strong on «grass» and «forest»",
+   "t": "Strong on grass and forest",
    "sites": [
     "0x095904"
    ],
@@ -11544,7 +11544,7 @@
    "room": 52
   },
   "e23974ef7014": {
-   "t": "Strong on «shore» and «water»",
+   "t": "Strong on «shore» and «sea»",
    "sites": [
     "0x095A6C"
    ],
@@ -11955,7 +11955,7 @@
    "room": 18
   },
   "b678837547ee": {
-   "t": "(Trap) Set against part attacks",
+   "t": "(Trap) Set vs part attacks",
    "sites": [
     "0x090E60"
    ],
@@ -12241,7 +12241,7 @@
    "comment": "barrido 2026-08 (L・R・Aボタンでローテーションいちけってい)"
   },
   "0f531b32e298": {
-   "t": "Medaforce attack that also repairs damage",
+   "t": "Medaforce attack + repair",
    "sites": [
     "0x0910B8"
    ],
@@ -12273,7 +12273,7 @@
    "comment": "barrido 2026-08 (そくばくを つける)"
   },
   "2fbd8b53b80a": {
-   "t": "Inflicts Continuous on all enemies",
+   "t": "Continuous on all foes",
    "sites": [
     "0x090FD3"
    ],
@@ -12281,7 +12281,7 @@
    "comment": "barrido 2026-08 (敵全体に けいぞくを つける)"
   },
   "cf80eecbe949": {
-   "t": "Inflicts Stop on all enemies",
+   "t": "Inflicts Stop on all foes",
    "sites": [
     "0x09104B"
    ],
@@ -12324,7 +12324,7 @@
    "comment": "personalidad medalla (チェンジ)"
   },
   "dac1dda097bd": {
-   "t": "Aims at attack parts like «Strike»",
+   "t": "Aims at attack parts",
    "sites": [
     "0x090B18"
    ],
@@ -12557,7 +12557,7 @@
    "comment": "ayuda de la vista Destreza, encima de «Destreza +1» (str:4C6AE2). El motor empieza a leer en 0x4C6AC8: escrito un byte antes se pierde la primera letra (salía «arra llena:»); los 8 bytes previos son cabecera del registro"
   },
   "ac6329b599cc": {
-   "t": "Lowers the damage of enemy attacks",
+   "t": "Lowers the damage you take",
    "sites": [
     "0x090E1C"
    ],
@@ -12565,7 +12565,7 @@
    "comment": "medafuerza: segundo renglón de descripción (+0x44 del registro); el nombre y el primer renglón ya estaban traducidos y este se saltó"
   },
   "9efcc90e1d5f": {
-   "t": "Changes the field to «desert»",
+   "t": "Changes field to «desert»",
    "sites": [
     "0x091344"
    ],
@@ -12573,7 +12573,7 @@
    "comment": "medafuerza de terreno: segundo renglón; ver la nota de ancho en 125fdd9fc83b"
   },
   "bc188cbc8f42": {
-   "t": "Changes the terrain to «town»",
+   "t": "Changes field to «town»",
    "sites": [
     "0x0914AC"
    ],
