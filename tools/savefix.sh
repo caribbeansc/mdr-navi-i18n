@@ -21,8 +21,16 @@
 #                    build/medarot-navi-kuwagata-es.sav
 #
 # Needs DYLD_LIBRARY_PATH=$(brew --prefix mgba)/lib, like every gbashot run.
-# The key sequence is the Medawatch one: B opens the bar, RIGHT selects Save,
+# The key sequence is the Medarreloj one: B opens the bar, then RIGHT TWICE,
 # A opens the panel, UP moves off the default "No", A confirms.
+#
+# The second RIGHT is not padding. The bar is three entries wide —
+# Medarreloj | Ficha | Save — so one RIGHT lands on Ficha, and the A after it
+# opens the party sheet and walks its stat pages instead of saving. The repair
+# then fails with the save still stale, which reads exactly like the poke not
+# having worked; it is the menu that was wrong, not the pointer. Verify by
+# screenshotting frames 1040-1230: the help line under the bar names the
+# selected entry ("Revisa el poder de tus aliados" is Ficha, not Save).
 set -e
 
 ROM=$1
@@ -58,10 +66,10 @@ echo "puntero de escena correcto: 0x$POINTER"
 # Round two: poke it in and let the game save, hash and all.
 # shellcheck disable=SC2086
 DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH:-$(brew --prefix mgba)/lib} \
-  "$HERE/gbashot" "$WORK/r.gba" --frames 1800 $BOOT \
+  "$HERE/gbashot" "$WORK/r.gba" --frames 2000 $BOOT \
   --poke 850:201B334:"$POINTER" \
-  --press 900:b:4 --press 980:right:4 --press 1060:a:4 \
-  --press 1160:up:4 --press 1240:a:4 --press 1400:a:4 --press 1550:a:4 \
+  --press 900:b:4 --press 960:right:4 --press 1020:right:4 --press 1080:a:4 \
+  --press 1180:up:4 --press 1260:a:4 --press 1420:a:4 --press 1570:a:4 \
   >/dev/null 2>&1
 
 python3 "$HERE/savecheck.py" "$WORK/r.gba" "$WORK/r.sav"
