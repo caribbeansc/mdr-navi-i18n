@@ -955,7 +955,7 @@
       3,
       2
      ],
-     "text": "Ac.",
+     "text": "Act",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -968,7 +968,7 @@
       3,
       1
      ],
-     "text": "Uso",
+     "text": "Use",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -981,7 +981,7 @@
       3,
       1
      ],
-     "text": "Uso",
+     "text": "Use",
      "fill": 15,
      "outline": 5,
      "top": -4
@@ -1004,7 +1004,7 @@
       10,
       2
      ],
-     "text": "Robobatalla",
+     "text": "Robattle",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -1029,7 +1029,7 @@
       5,
       1
      ],
-     "text": "Cabeza",
+     "text": "Head",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -1054,7 +1054,7 @@
       4,
       1
      ],
-     "text": "Brazo",
+     "text": "Arm",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -1079,7 +1079,7 @@
       2,
       1
      ],
-     "text": "d.",
+     "text": "R.",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -1104,7 +1104,7 @@
       2,
       1
      ],
-     "text": "i.",
+     "text": "L.",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -1117,7 +1117,7 @@
       4,
       1
      ],
-     "text": "Patas",
+     "text": "Legs",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -1151,7 +1151,7 @@
       5,
       1
      ],
-     "text": "Cabeza",
+     "text": "Head",
      "fill": 15,
      "outline": 5,
      "top": 0
@@ -1396,7 +1396,7 @@
       2,
       2
      ],
-     "text": "Gol",
+     "text": "Hit",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -1422,7 +1422,7 @@
       1,
       1
      ],
-     "text": "T",
+     "text": "F",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -1461,7 +1461,7 @@
       1,
       1
      ],
-     "text": "T",
+     "text": "F",
      "fill": 15,
      "outline": 5,
      "top": -4
@@ -1500,7 +1500,7 @@
       4,
       2
      ],
-     "text": "Furia",
+     "text": "Rush",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -1513,7 +1513,7 @@
       4,
       2
      ],
-     "text": "Mira",
+     "text": "Aim",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -1578,7 +1578,7 @@
       1,
       1
      ],
-     "text": "a",
+     "text": "p",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -1617,7 +1617,7 @@
       1,
       1
      ],
-     "text": "a",
+     "text": "p",
      "fill": 15,
      "outline": 5,
      "top": -4
@@ -1630,7 +1630,7 @@
       2,
       1
      ],
-     "text": "Ar.",
+     "text": "Hl.",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -1655,7 +1655,7 @@
       2,
       1
      ],
-     "text": "Ar.",
+     "text": "Hl.",
      "fill": 15,
      "outline": 5,
      "top": -4
@@ -1668,7 +1668,7 @@
       4,
       2
      ],
-     "text": "Extra",
+     "text": "Spec.",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -1681,7 +1681,7 @@
       3,
       1
      ],
-     "text": "poyo",
+     "text": "elp  ",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -1694,7 +1694,7 @@
       4,
       1
      ],
-     "text": "Apoyo",
+     "text": "Help  ",
      "fill": 15,
      "outline": 5,
      "top": -4
@@ -1707,7 +1707,7 @@
       4,
       2
      ],
-     "text": "Frena",
+     "text": "Jam",
      "fill": 15,
      "outline": 5,
      "top": 4
@@ -2533,7 +2533,7 @@
       4,
       1
      ],
-     "text": "HIT",
+     "text": "HIT  ",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2597,7 +2597,7 @@
       2,
       1
      ],
-     "text": "AI",
+     "text": "TA",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -2610,7 +2610,7 @@
       2,
       1
      ],
-     "text": "M",
+     "text": "RG",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -3368,7 +3368,7 @@
       4,
       4
      ],
-     "text": "¡UN",
+     "text": "ONE",
      "fill": 8,
      "outline": 15,
      "top": 11
@@ -3390,7 +3390,7 @@
       4,
       4
      ],
-     "text": "TAJO!",
+     "text": "CUT!",
      "fill": 8,
      "outline": 15,
      "top": 11
@@ -3412,7 +3412,7 @@
       4,
       4
      ],
-     "text": "DAÑO",
+     "text": "SURE",
      "fill": 8,
      "outline": 15,
      "top": 11
@@ -3434,7 +3434,7 @@
       4,
       4
      ],
-     "text": "FIJO",
+     "text": "DMG!",
      "fill": 8,
      "outline": 15,
      "top": 11
@@ -4085,7 +4085,7 @@
    "block": "0x7F2190",
    "codec": "malias",
    "tiles_wide": 16,
-   "medawatch_layout": "es",
+   "medawatch_layout": "en",
    "map_points": [
     {
      "name": "carousel.build.plate.top",
@@ -4707,7 +4707,7 @@
       2,
       1
      ],
-     "text": "AI",
+     "text": "TA",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4720,7 +4720,7 @@
       2,
       1
      ],
-     "text": "M",
+     "text": "RG",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -4785,7 +4785,7 @@
       4,
       1
      ],
-     "text": "HIT",
+     "text": "HIT  ",
      "fill": 6,
      "outline": 5,
      "top": 0
@@ -5014,7 +5014,7 @@
       2,
       2
      ],
-     "text": "S",
+     "text": "C",
      "fill": 1,
      "outline": 7,
      "erase_ink": 1,
@@ -5044,7 +5044,7 @@
       2,
       2
      ],
-     "text": "T",
+     "text": "A",
      "fill": 1,
      "outline": 7,
      "erase_ink": 1,
@@ -5074,7 +5074,7 @@
       2,
       2
      ],
-     "text": "T",
+     "text": "A",
      "fill": 1,
      "outline": 7,
      "erase_ink": 1,
