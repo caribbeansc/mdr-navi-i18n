@@ -13,6 +13,9 @@ work/
 # Where your copy of the game is; personal, not shared.
 navi.config.json
 
+# Syncing a build to your own phone; personal, not shared.
+tools/pbsync.sh
+
 # Python
 __pycache__/
 *.pyc

@@ -2119,7 +2119,7 @@
   {
    "key": "str:0907BC",
    "src": "111174e727d7",
-   "t": "Apunta a las patas"
+   "t": "Busca las patas"
   },
   {
    "key": "str:090BF8",
@@ -2134,7 +2134,7 @@
   {
    "key": "str:090C3C",
    "src": "4fc9be9de4a2",
-   "t": "Daña todas las partes<NL>de un rival"
+   "t": "Daña todas sus partes"
   },
   {
    "key": "str:092998",
@@ -3104,7 +3104,7 @@
   {
    "key": "str:0930F0",
    "src": "2fa500a7dd5e",
-   "t": "Ataque de combate<NL>básico"
+   "t": "Corte: ataque básico"
   },
   {
    "key": "str:093124",
@@ -3120,11 +3120,6 @@
    "key": "str:095768",
    "src": "27b2342a50ee",
    "t": "Medabot volador"
-  },
-  {
-   "key": "str:09579C",
-   "src": "5b51c7a654f5",
-   "t": "Fuerte en «arenal»<NL>y «desierto»"
   },
   {
    "key": "str:095AA0",

@@ -329,6 +329,43 @@ Hard-won facts:
   original ends without a boundary tag, keep the translation's final row short
   enough that the next string's first row still fits beside it (22 visible) — and check the
   seam in a gbashot screenshot.
+- **Check a line against its BOX, in navi/boxes.py, not against one rule.**
+  The cartridge has several and they differ in the two things that matter:
+  columns before the cut, and which control codes they honour. Measured with
+  an A-Z-0-9 ruler written into the field — the last character drawn IS the
+  width: dialogue 22 then 21, the medal card's bar 26 and the part card's 28,
+  and in both of those bars the SECOND row keeps its last cell, unlike the
+  dialogue box. `python3 tools/wide.py` walks the pack against them. Where a
+  width is not measured the box says `None` and the check skips it: ten correct
+  battle-bar lines were being held to 22 when "¡Robobatalla con START!" (23)
+  demonstrably renders whole, and an honest gap beats a guessed number.
+  Offsets matter — the aptitude table starts at 0x090744 (0x0906F4 is the
+  action-name table, stride 8), the skill table's last record has its
+  descriptions PAST its name at 0x0956D8, and the medal and Medaforce pages
+  share ONE 26-column bar.
+- **A box that does not support a control code does worse than ignore it.** In
+  the Medarreloj's description bars `<NL>` swallows ITSELF AND THE CHARACTER
+  AFTER IT: "Ataque de combate`<NL>`básico" drew as `Ataque de combateásico`
+  and "Ataca al Medabot`<NL>`más cercano" as `Ataca al Medabotás cerca`. Both
+  read like clipping and neither was. The Japanese is the evidence for what a
+  field accepts — those description fields use no control code at all — so
+  tests/test_control_codes.py forbids every code in the description tables
+  (0x090000-0x096000) and, everywhere else, refuses a code the Japanese at
+  that site does without unless the site is recorded in `langs/es/codes.json`.
+  `python3 tools/codes.py` lists them with both texts side by side. Re-wrapping
+  dialogue with `<NL>` is legitimate, so the baseline is large (58 sites); what
+  matters is that a NEW one gets looked at. The 40 `<WAIT>` in the robattle
+  chatter pool (0x08Dxxx-0x08Fxxx) are in the baseline but were NOT verified on
+  screen — if a quip ever looks mangled, start there.
+- **An index-reached string in menus.json will be RELOCATED and lost.** The
+  loose-string writer moves a translation that outgrows its field and repoints
+  its pointers, which is right for pointer-reached text and silently wrong for
+  a table the game indexes: the leg-type terrain line at 0x09579C moved to the
+  ROM tail, its two pointers followed, and the game kept reading the Japanese
+  that was still in the field — drawing kana soup, and fragments of other
+  relocated strings in the row below. Its six siblings were in `extra_strings`,
+  written in place, which is why only that one failed. Index-reached text
+  belongs in `extra_strings` or in `SLOT_TABLES`, never in the loose pass.
 - **A site may have exactly ONE writer.** menus.json and gfx.json
   `extra_strings` can both name the same offset; the loose writer runs first,
   and extra_strings then fails its own fingerprint check (the bytes no longer

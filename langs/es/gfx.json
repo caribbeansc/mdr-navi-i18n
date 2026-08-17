@@ -5287,7 +5287,7 @@
    "room": 11
   },
   "2e3047e49bd0": {
-   "t": "Prioriza la parte con más blindaje",
+   "t": "Prioriza la más blindada",
    "sites": [
     "0x090800"
    ],
@@ -5303,14 +5303,14 @@
    "room": 52
   },
   "d9947bd5efa0": {
-   "t": "Apunta a la parte con más blindaje",
+   "t": "Busca la más blindada",
    "sites": [
     "0x090868"
    ],
    "room": 52
   },
   "2fd5a48bbfb6": {
-   "t": "Prioriza la parte sin síntomas",
+   "t": "Prioriza la sin síntomas",
    "sites": [
     "0x0908AC"
    ],
@@ -5327,42 +5327,42 @@
    "room": 52
   },
   "20fa8bf5e53e": {
-   "t": "Apunta a la parte sin síntomas",
+   "t": "Busca la sin síntomas",
    "sites": [
     "0x090914"
    ],
    "room": 52
   },
   "8a40a30eeb58": {
-   "t": "Prioriza la parte menos dañada",
+   "t": "Prioriza la menos dañada",
    "sites": [
     "0x090958"
    ],
    "room": 52
   },
   "584809d3faa2": {
-   "t": "Apunta a la parte menos dañada",
+   "t": "Busca la menos dañada",
    "sites": [
     "0x0909C0"
    ],
    "room": 52
   },
   "f9f6fc6b3cf4": {
-   "t": "Prioriza la parte más dañada",
+   "t": "Prioriza la más dañada",
    "sites": [
     "0x090A04"
    ],
    "room": 52
   },
   "2de1ef842d0c": {
-   "t": "Apunta a la parte más dañada",
+   "t": "Busca la más dañada",
    "sites": [
     "0x090A6C"
    ],
    "room": 52
   },
   "3513c962cf92": {
-   "t": "Prioriza partes de ataque como «Pegar»",
+   "t": "Prioriza las de ataque",
    "sites": [
     "0x090AB0"
    ],
@@ -5376,7 +5376,7 @@
    "room": 52
   },
   "de7ae4c00fc1": {
-   "t": "Sube el poder de todas las partes de tiro",
+   "t": "Sube el poder de tiro",
    "sites": [
     "0x090D2C"
    ],
@@ -5390,7 +5390,7 @@
    "room": 52
   },
   "9a08d25b0c7b": {
-   "t": "Sube el daño de tus ataques",
+   "t": "Sube el daño que causas",
    "sites": [
     "0x090DA4"
    ],
@@ -5404,7 +5404,7 @@
    "room": 52
   },
   "65a0708ff168": {
-   "t": "Daña antes que el ataque rival",
+   "t": "Daña antes que el rival",
    "sites": [
     "0x090E94"
    ],
@@ -5418,14 +5418,14 @@
    "room": 16
   },
   "bbe63f622cef": {
-   "t": "(Síntoma negativo) Pone Variación a todos",
+   "t": "(Sínt.) Variación a todos",
    "sites": [
     "0x090ED8"
    ],
    "room": 52
   },
   "053e09d65572": {
-   "t": "Baja el acierto de toda acción",
+   "t": "Baja el acierto al actuar",
    "sites": [
     "0x090F0C",
     "0x0938A4",
@@ -5434,7 +5434,7 @@
    "room": 52
   },
   "c6b4c12de82e": {
-   "t": "Baja el AP y dificulta actuar",
+   "t": "Baja el AP y cuesta actuar",
    "sites": [
     "0x090F84"
    ],
@@ -5464,14 +5464,14 @@
    "room": 16
   },
   "608e192964c9": {
-   "t": "Baja el AP de golpe e impide actuar",
+   "t": "Vacía el AP y paraliza",
    "sites": [
     "0x091074"
    ],
    "room": 52
   },
   "6b7310cd94e7": {
-   "t": "Daña al rival y se repara a sí mismo",
+   "t": "Daña al rival y te cura",
    "sites": [
     "0x0910EC"
    ],
@@ -5485,14 +5485,14 @@
    "room": 16
   },
   "b844b8a9dd31": {
-   "t": "(Síntoma negativo) A todo Medabot volador",
+   "t": "A todo rival volador",
    "sites": [
     "0x091130"
    ],
    "room": 52
   },
   "37bc4d52a7bf": {
-   "t": "rival le pone un síntoma al azar",
+   "t": "le da un síntoma al azar",
    "sites": [
     "0x091164",
     "0x0911DC"
@@ -5507,7 +5507,7 @@
    "room": 16
   },
   "6103d167c52f": {
-   "t": "(Síntoma negativo) A todo Medabot submarino",
+   "t": "A todo rival submarino",
    "sites": [
     "0x0911A8"
    ],
@@ -5521,21 +5521,21 @@
    "room": 16
   },
   "9090c4070ed0": {
-   "t": "Sube el radar y el sigilo de los aliados",
+   "t": "Sube radar y sigilo aliado",
    "sites": [
     "0x091220"
    ],
    "room": 52
   },
   "89a06216d603": {
-   "t": "Sube los usos de cabeza de los aliados",
+   "t": "Sube usos de cabeza aliada",
    "sites": [
     "0x091298"
    ],
    "room": 52
   },
   "125fdd9fc83b": {
-   "t": "Cambia el campo a «montaña»",
+   "t": "Cambia a «montaña»",
    "sites": [
     "0x0913BC"
    ],
@@ -5585,21 +5585,21 @@
    "room": 52
   },
   "d752b4126130": {
-   "t": "Al empezar el turno cambia de Medafuerza",
+   "t": "Al empezar el turno cambia",
    "sites": [
     "0x0918B0"
    ],
    "room": 52
   },
   "c32bf35a276a": {
-   "t": "Cambia a cualquier Medafuerza",
+   "t": "a cualquier Medafuerza",
    "sites": [
     "0x0918E4"
    ],
    "room": 52
   },
   "5f6988dbb778": {
-   "t": "Con probabilidad de 30 por ciento o más",
+   "t": "Con 30 por ciento o más",
    "sites": [
     "0x091928"
    ],
@@ -5615,21 +5615,21 @@
    "room": 52
   },
   "0e3fd05c4dfb": {
-   "t": "Con probabilidad de 60 por ciento o más",
+   "t": "Con 60 por ciento o más",
    "sites": [
     "0x0919A0"
    ],
    "room": 52
   },
   "49e55a3013ac": {
-   "t": "Con probabilidad de 90 por ciento o más",
+   "t": "Con 90 por ciento o más",
    "sites": [
     "0x091A18"
    ],
    "room": 52
   },
   "4113f726b0bd": {
-   "t": "Reduce los turnos restantes y",
+   "t": "Reduce turnos restantes y",
    "sites": [
     "0x091E50"
    ],
@@ -5650,7 +5650,7 @@
    "room": 16
   },
   "35d46c2318a9": {
-   "t": "Aumenta los turnos restantes y",
+   "t": "Aumenta turnos restantes y",
    "sites": [
     "0x091EC8"
    ],
@@ -5671,14 +5671,14 @@
    "room": 16
   },
   "83b88a8b82d3": {
-   "t": "(Síntoma negativo) Pone Confusión a todos",
+   "t": "(Sínt.) Confusión a todos",
    "sites": [
     "0x091F40"
    ],
    "room": 52
   },
   "abddb4c9a735": {
-   "t": "Al atacar elige blanco sin importar el bando",
+   "t": "Ataca a aliados o rivales",
    "sites": [
     "0x091F74",
     "0x091FEC",
@@ -5694,7 +5694,7 @@
    "room": 16
   },
   "9114993664ed": {
-   "t": "(Campo) Confunde a todos los Medabots",
+   "t": "(Campo) Confunde a todos",
    "sites": [
     "0x091FB8"
    ],
@@ -5710,7 +5710,7 @@
    "room": 16
   },
   "b5684ddb8f4c": {
-   "t": "Da a tus partes el atributo Óptica",
+   "t": "Da a tus partes Óptica",
    "sites": [
     "0x092030",
     "0x0920A8",
@@ -5726,7 +5726,7 @@
    "room": 52
   },
   "9d1024addfd0": {
-   "t": "Da a tus partes el atributo Pólvora",
+   "t": "Da a tus partes Pólvora",
    "sites": [
     "0x092198",
     "0x092210",
@@ -5735,7 +5735,7 @@
    "room": 52
   },
   "898fa4c68bd6": {
-   "t": "Acierto total y el daño perfora",
+   "t": "Siempre acierta y perfora",
    "sites": [
     "0x0921CC",
     "0x092244",
@@ -5755,7 +5755,7 @@
    "room": 16
   },
   "31a86e6b70bd": {
-   "t": "Da a tus partes el atributo Gravedad",
+   "t": "Da a tus partes Gravedad",
    "sites": [
     "0x092300",
     "0x092378",
@@ -5771,7 +5771,7 @@
    "room": 52
   },
   "29d7359339cf": {
-   "t": "El acierto se multiplica por 4",
+   "t": "El acierto se cuadruplica",
    "sites": [
     "0x092424"
    ],
@@ -5785,7 +5785,7 @@
    "room": 16
   },
   "b6ff5435fcef": {
-   "t": "Repara 1 parte de cada aliado",
+   "t": "Repara 1 parte por aliado",
    "sites": [
     "0x092468"
    ],
@@ -5799,7 +5799,7 @@
    "room": 16
   },
   "ead0d0f5e4a5": {
-   "t": "Repara 2 partes de cada aliado",
+   "t": "Repara 2 partes por aliado",
    "sites": [
     "0x0924E0"
    ],
@@ -5813,7 +5813,7 @@
    "room": 16
   },
   "79e688d9319d": {
-   "t": "Repara 3 partes de cada aliado",
+   "t": "Repara 3 partes por aliado",
    "sites": [
     "0x092558"
    ],
@@ -5827,35 +5827,35 @@
    "room": 16
   },
   "08923e812dde": {
-   "t": "Repara 4 partes de cada aliado",
+   "t": "Repara 4 partes por aliado",
    "sites": [
     "0x0925D0"
    ],
    "room": 52
   },
   "514f927fe64d": {
-   "t": "Revive 1 parte de cada aliado",
+   "t": "Revive 1 parte por aliado",
    "sites": [
     "0x092648"
    ],
    "room": 52
   },
   "aa60e13e79e7": {
-   "t": "Revive 2 partes de cada aliado",
+   "t": "Revive 2 partes por aliado",
    "sites": [
     "0x0926C0"
    ],
    "room": 52
   },
   "73250c7861b3": {
-   "t": "Revive 3 partes de cada aliado",
+   "t": "Revive 3 partes por aliado",
    "sites": [
     "0x092738"
    ],
    "room": 52
   },
   "07f88f7d33f6": {
-   "t": "Convierte en Fuerza el daño recibido",
+   "t": "El daño recibido da poder",
    "sites": [
     "0x0927E4"
    ],
@@ -5899,14 +5899,14 @@
    "room": 24
   },
   "f1296eeb323f": {
-   "t": "(Equipar) Si te mueves y atacas en combate",
+   "t": "(Equipar) Combate tras mover",
    "sites": [
     "0x093270"
    ],
    "room": 52
   },
   "03d6cc249d57": {
-   "t": "la movilidad baja a la mitad y sube el poder",
+   "t": "media movilidad y más poder",
    "sites": [
     "0x0932A4"
    ],
@@ -5920,7 +5920,7 @@
    "room": 24
   },
   "8808942c751d": {
-   "t": "Ataque de tiro que atrae al rival",
+   "t": "Tiro que atrae al rival",
    "sites": [
     "0x0933F0"
    ],
@@ -5934,21 +5934,21 @@
    "room": 52
   },
   "35a75e4f8388": {
-   "t": "(Equipar) Si disparas sin moverte",
+   "t": "(Equipar) Tiro sin mover",
    "sites": [
     "0x093470"
    ],
    "room": 52
   },
   "b09a4aecee84": {
-   "t": "sube el acierto y da más golpes críticos",
+   "t": "más acierto y más críticos",
    "sites": [
     "0x0934A4"
    ],
    "room": 52
   },
   "86ab2df4c181": {
-   "t": "Ataque de tiro de mucho poder",
+   "t": "Tiro de mucho poder",
    "sites": [
     "0x0934F0",
     "0x093570"
@@ -5956,7 +5956,7 @@
    "room": 52
   },
   "48de2c717f20": {
-   "t": "Ataque de tiro de mucho acierto",
+   "t": "Tiro de mucho acierto",
    "sites": [
     "0x0936F0",
     "0x093770"
@@ -5964,7 +5964,7 @@
    "room": 52
   },
   "c58ccc804e36": {
-   "t": "El acierto se multiplica por 2",
+   "t": "El acierto se duplica",
    "sites": [
     "0x093724",
     "0x0937A4"
@@ -5972,14 +5972,14 @@
    "room": 52
   },
   "68b7464fd9ed": {
-   "t": "Sacrifica la parte usada para hacer daño",
+   "t": "Daña sacrificando la parte",
    "sites": [
     "0x093824"
    ],
    "room": 52
   },
   "dc7826d40234": {
-   "t": "Sube el AP de moverse y dificulta avanzar",
+   "t": "Moverse cuesta más AP",
    "sites": [
     "0x0939A4",
     "0x093A24"
@@ -6001,7 +6001,7 @@
    "room": 24
   },
   "de65d0691bda": {
-   "t": "Baja el AP de golpe y deja sin actuar",
+   "t": "Baja el AP y deja sin actuar",
    "sites": [
     "0x093BA4",
     "0x093C24"
@@ -6009,7 +6009,7 @@
    "room": 52
   },
   "9f714c784260": {
-   "t": "(Cobertura) Acción para cubrir a un aliado",
+   "t": "(Cobertura) Cubre al aliado",
    "sites": [
     "0x093CF0",
     "0x093D70"
@@ -6017,49 +6017,49 @@
    "room": 52
   },
   "9d1b184f7d8f": {
-   "t": "Resta al daño recibido su poder",
+   "t": "Resta su poder al daño",
    "sites": [
     "0x093D24"
    ],
    "room": 52
   },
   "76400a82316f": {
-   "t": "Anula el daño menor que su poder",
+   "t": "Anula el daño bajo su poder",
    "sites": [
     "0x093DA4"
    ],
    "room": 52
   },
   "4eae150d1b4a": {
-   "t": "Acción fuerte solo ante Medabots voladores",
+   "t": "Fuerte solo ante voladores",
    "sites": [
     "0x093DF0"
    ],
    "room": 52
   },
   "e1200db099f9": {
-   "t": "Ante Medabots voladores el acierto es x16",
+   "t": "Acierto x16 ante voladores",
    "sites": [
     "0x093E24"
    ],
    "room": 52
   },
   "c281e2ed38ea": {
-   "t": "Acción fuerte solo ante Medabots submarinos",
+   "t": "Fuerte solo ante submarinos",
    "sites": [
     "0x093E70"
    ],
    "room": 52
   },
   "acf8896721ae": {
-   "t": "Ante Medabots submarinos el acierto es x16",
+   "t": "Acierto x16 ante submarinos",
    "sites": [
     "0x093EA4"
    ],
    "room": 52
   },
   "2fca42e5c65f": {
-   "t": "Acción que ayuda a los aliados a acertar",
+   "t": "Ayuda al equipo a acertar",
    "sites": [
     "0x093EF0"
    ],
@@ -6073,7 +6073,7 @@
    "room": 52
   },
   "03c41ef57965": {
-   "t": "Acción que ayuda a esquivar al rival",
+   "t": "Ayuda a esquivar al rival",
    "sites": [
     "0x093F70"
    ],
@@ -6094,7 +6094,7 @@
    "room": 24
   },
   "b5a4d0d7a8c8": {
-   "t": "Acción que refuerza el terreno de alrededor",
+   "t": "Refuerza el terreno vecino",
    "sites": [
     "0x093FF0"
    ],
@@ -6108,35 +6108,35 @@
    "room": 24
   },
   "b8796928c7b4": {
-   "t": "Acción que reúne al equipo a tu alrededor",
+   "t": "Reúne al equipo a tu lado",
    "sites": [
     "0x094070"
    ],
    "room": 52
   },
   "91a0e90dfbe3": {
-   "t": "Llama a tu lado a todos los que pueda",
+   "t": "Llama a los que pueda",
    "sites": [
     "0x0940A4"
    ],
    "room": 52
   },
   "ec28535e3ebd": {
-   "t": "(Trampa) Se coloca contra ataques de combate",
+   "t": "(Trampa) Contra el combate",
    "sites": [
     "0x0940F0"
    ],
    "room": 52
   },
   "3f780ffcb7d3": {
-   "t": "Daña antes que el ataque de combate rival",
+   "t": "Daña antes del combate rival",
    "sites": [
     "0x094124"
    ],
    "room": 52
   },
   "927b4a3780fd": {
-   "t": "Daña antes que el ataque de tiro rival",
+   "t": "Daña antes del tiro rival",
    "sites": [
     "0x0941A4"
    ],
@@ -6150,140 +6150,140 @@
    "room": 24
   },
   "e0eb92be7a52": {
-   "t": "(Trampa) Se coloca y sube la Medafuerza",
+   "t": "(Trampa) Sube la Medafuerza",
    "sites": [
     "0x0941F0"
    ],
    "room": 52
   },
   "91448f28327a": {
-   "t": "Sube la Medafuerza al empezar el turno",
+   "t": "Sube MF al empezar el turno",
    "sites": [
     "0x094224"
    ],
    "room": 52
   },
   "f89fd90a68c0": {
-   "t": "Bloquea el ataque rival y anula su acción",
+   "t": "Bloquea el ataque y lo anula",
    "sites": [
     "0x0942A4"
    ],
    "room": 52
   },
   "35e372ec22fb": {
-   "t": "Al empezar la acción revive la parte rota",
+   "t": "Al actuar revive la parte",
    "sites": [
     "0x094324"
    ],
    "room": 52
   },
   "1dd20db83add": {
-   "t": "Junto a una trampa puesta hace gran daño",
+   "t": "Con otra trampa, gran daño",
    "sites": [
     "0x094424"
    ],
    "room": 52
   },
   "fc7127a33fac": {
-   "t": "(Trampa) Impide ser blanco de acciones",
+   "t": "(Trampa) No serás blanco",
    "sites": [
     "0x094470"
    ],
    "room": 52
   },
   "d284b2ed16b5": {
-   "t": "No serás blanco hasta tu próxima acción",
+   "t": "Hasta tu próxima acción",
    "sites": [
     "0x0944A4"
    ],
    "room": 52
   },
   "292722bd6963": {
-   "t": "Quita síntomas negativos aliados y los bloquea",
+   "t": "Quita y evita negativos",
    "sites": [
     "0x0944F0"
    ],
    "room": 52
   },
   "ca092d377785": {
-   "t": "Quita las trampas rivales y las bloquea",
+   "t": "Quita y evita trampas",
    "sites": [
     "0x094570"
    ],
    "room": 52
   },
   "470e16144235": {
-   "t": "(Campo) Acción que impide usar la Medafuerza",
+   "t": "(Campo) Impide usar la MF",
    "sites": [
     "0x0945F0"
    ],
    "room": 52
   },
   "18ac52f24bb7": {
-   "t": "También puede volver a permitir su uso",
+   "t": "También puede permitirla",
    "sites": [
     "0x094624"
    ],
    "room": 52
   },
   "c063ed910127": {
-   "t": "Acción que repara el blindaje de la parte",
+   "t": "Repara el blindaje",
    "sites": [
     "0x094670"
    ],
    "room": 52
   },
   "ea1ade2225ab": {
-   "t": "No hace efecto en partes que ya no funcionan",
+   "t": "No sirve en partes paradas",
    "sites": [
     "0x0946A4"
    ],
    "room": 52
   },
   "70318598dc05": {
-   "t": "Acción que revive partes que no funcionan",
+   "t": "Revive partes paradas",
    "sites": [
     "0x0946F0"
    ],
    "room": 52
   },
   "1eae16729d2b": {
-   "t": "No hace efecto en partes que aún funcionan",
+   "t": "No sirve en partes activas",
    "sites": [
     "0x094724"
    ],
    "room": 52
   },
   "15745ebe8470": {
-   "t": "Acción que revive a un aliado fuera de combate",
+   "t": "Revive a un aliado parado",
    "sites": [
     "0x094770"
    ],
    "room": 52
   },
   "0ac5ecdc3548": {
-   "t": "No hace efecto en aliados que aún funcionan",
+   "t": "No sirve en aliados activos",
    "sites": [
     "0x0947A4"
    ],
    "room": 52
   },
   "7b8d4ecb8d89": {
-   "t": "Acción que roba el nivel del rival",
+   "t": "Roba el nivel del rival",
    "sites": [
     "0x0947F0"
    ],
    "room": 52
   },
   "ee3df05b9c2a": {
-   "t": "El nivel cambia el efecto de la Medafuerza",
+   "t": "Según el nivel cambia la MF",
    "sites": [
     "0x094824"
    ],
    "room": 52
   },
   "b02cc12319dd": {
-   "t": "Sube el AP al empezar el turno",
+   "t": "Sube AP al empezar el turno",
    "sites": [
     "0x0948A4"
    ],
@@ -6297,7 +6297,7 @@
    "room": 24
   },
   "22415a8ca012": {
-   "t": "(Cobertura) Cubre usando el efecto Anular",
+   "t": "(Cobertura) Cubre y anula",
    "sites": [
     "0x094924",
     "0x0949A4",
@@ -6313,56 +6313,56 @@
    "room": 24
   },
   "98cc9a9d8bc6": {
-   "t": "No entran síntomas negativos ni positivos",
+   "t": "Ni negativos ni positivos",
    "sites": [
     "0x094AA4"
    ],
    "room": 52
   },
   "9fe0d5aceadf": {
-   "t": "Repara daño al empezar el turno",
+   "t": "Repara al empezar el turno",
    "sites": [
     "0x094B24"
    ],
    "room": 52
   },
   "faabe4afda25": {
-   "t": "Los ataques débiles hacen su daño normal",
+   "t": "Los débiles dañan igual",
    "sites": [
     "0x094BA4"
    ],
    "room": 52
   },
   "c470304f661d": {
-   "t": "(Equipar) Fija el AP de movimiento",
+   "t": "(Equipar) AP de mover fijo",
    "sites": [
     "0x094BF0"
    ],
    "room": 52
   },
   "843dacb9d80b": {
-   "t": "El poder de la parte es el coste de 1 casilla",
+   "t": "Su poder es AP por casilla",
    "sites": [
     "0x094C24"
    ],
    "room": 52
   },
   "2a5cf17fd30e": {
-   "t": "(Equipar) Suben el acierto y el poder",
+   "t": "(Equipar) Sube acierto/poder",
    "sites": [
     "0x094C70"
    ],
    "room": 52
   },
   "fd6d761d906f": {
-   "t": "Baja el AP al empezar el turno",
+   "t": "Baja AP al empezar el turno",
    "sites": [
     "0x094D24"
    ],
    "room": 52
   },
   "cbcc446dfcb5": {
-   "t": "Acción que sube el AP de un aliado",
+   "t": "Sube el AP de un aliado",
    "sites": [
     "0x094D70"
    ],
@@ -6376,7 +6376,7 @@
    "room": 24
   },
   "4adb72f02237": {
-   "t": "Acción que sube la Medafuerza de un aliado",
+   "t": "Sube la Medafuerza aliada",
    "sites": [
     "0x094E70"
    ],
@@ -6390,7 +6390,7 @@
    "room": 24
   },
   "6ade715f0ccf": {
-   "t": "Al empezar el turno cambia a otra parte",
+   "t": "Al empezar el turno cambia",
    "sites": [
     "0x094EF0",
     "0x094F70",
@@ -6403,49 +6403,49 @@
    "room": 52
   },
   "8b14c3e8c4af": {
-   "t": "Cambia a una parte de cualquier rasgo",
+   "t": "a una parte cualquiera",
    "sites": [
     "0x094F24"
    ],
    "room": 52
   },
   "c5ba0358c684": {
-   "t": "Cambia a una parte de rasgo «Rapidez»",
+   "t": "a una parte «Rapidez»",
    "sites": [
     "0x094FA4"
    ],
    "room": 52
   },
   "4184bb38014f": {
-   "t": "Cambia a una parte de rasgo «Daño»",
+   "t": "a una parte «Daño»",
    "sites": [
     "0x095024"
    ],
    "room": 52
   },
   "b25c10b77d86": {
-   "t": "Cambia a una parte de rasgo «Síntoma»",
+   "t": "a una parte «Síntoma»",
    "sites": [
     "0x0950A4"
    ],
    "room": 52
   },
   "2cef2adbd724": {
-   "t": "Cambia a una parte de rasgo «Cobertura»",
+   "t": "a una parte «Cobertura»",
    "sites": [
     "0x095124"
    ],
    "room": 52
   },
   "bc8897b3cc36": {
-   "t": "Cambia a una parte de rasgo «Curar»",
+   "t": "a una parte «Curar»",
    "sites": [
     "0x0951A4"
    ],
    "room": 52
   },
   "f0536dd6e30c": {
-   "t": "Cambia a una parte de rasgo «Ayuda»",
+   "t": "a una parte «Ayuda»",
    "sites": [
     "0x095224"
    ],
@@ -6459,77 +6459,77 @@
    "room": 24
   },
   "38102a0543d3": {
-   "t": "(Síntoma positivo) Da acción en serie",
+   "t": "(Positivo) Acción en serie",
    "sites": [
     "0x095270"
    ],
    "room": 52
   },
   "e14c19281ae2": {
-   "t": "Acción que cede tus acciones a un aliado",
+   "t": "Cede tus acciones al aliado",
    "sites": [
     "0x0952A4"
    ],
    "room": 52
   },
   "462b28a141a0": {
-   "t": "Quita síntomas positivos rivales y los bloquea",
+   "t": "Quita y evita positivos",
    "sites": [
     "0x0952F0"
    ],
    "room": 52
   },
   "f97bc3781bed": {
-   "t": "(Síntoma negativo) Impide elegir blanco",
+   "t": "(Negativo) No elige blanco",
    "sites": [
     "0x0953F0"
    ],
    "room": 52
   },
   "60fcde2c42be": {
-   "t": "Acción que roba usos de la cabeza rival",
+   "t": "Roba usos a la cabeza rival",
    "sites": [
     "0x095470"
    ],
    "room": 52
   },
   "f3a920100f9a": {
-   "t": "No sube más allá de los usos de tu cabeza",
+   "t": "No pasa el tope de tu cabeza",
    "sites": [
     "0x0954A4"
    ],
    "room": 52
   },
   "2a38523e4989": {
-   "t": "Acción que roba la Medafuerza del rival",
+   "t": "Roba la Medafuerza rival",
    "sites": [
     "0x0955F0"
    ],
    "room": 52
   },
   "88c169c965a4": {
-   "t": "(Síntoma negativo) Impide alejarse de ti",
+   "t": "(Negativo) Impide alejarse",
    "sites": [
     "0x095670"
    ],
    "room": 52
   },
   "bd8b59772c6c": {
-   "t": "Se anula si el Medabot que la usó se aleja",
+   "t": "Acaba si su dueño se aleja",
    "sites": [
     "0x0956A4"
    ],
    "room": 52
   },
   "1b0dd969defc": {
-   "t": "(Síntoma negativo) Impide acercarse a ti",
+   "t": "(Negativo) Impide acercarse",
    "sites": [
     "0x0956F0"
    ],
    "room": 52
   },
   "0e39a1142f83": {
-   "t": "Se anula si el Medabot que la usó se acerca",
+   "t": "Acaba si su dueño se acerca",
    "sites": [
     "0x095724"
    ],
@@ -10853,7 +10853,7 @@
    "room": 56
   },
   "f8ffacc3106e": {
-   "t": "(Campo) Cambia el terreno de batalla",
+   "t": "(Campo) Cambia el terreno",
    "sites": [
     "0x0916D0",
     "0x091748",
@@ -10885,7 +10885,7 @@
    "room": 16
   },
   "34272c7c5090": {
-   "t": "Sube el parámetro «Propulsión»",
+   "t": "Sube «Propulsión»",
    "sites": [
     "0x091A90"
    ],
@@ -10910,7 +10910,7 @@
    "room": 16
   },
   "521486bab67b": {
-   "t": "Sube el parámetro «Movilidad»",
+   "t": "Sube «Movilidad»",
    "sites": [
     "0x091B08"
    ],
@@ -10924,7 +10924,7 @@
    "room": 16
   },
   "dc9e7c22ef1c": {
-   "t": "Sube el parámetro «Defensa»",
+   "t": "Sube «Defensa»",
    "sites": [
     "0x091B80"
    ],
@@ -10938,7 +10938,7 @@
    "room": 16
   },
   "3ddeb6c49bfd": {
-   "t": "Sube el parámetro «Combate»",
+   "t": "Sube «Combate»",
    "sites": [
     "0x091BF8"
    ],
@@ -10975,7 +10975,7 @@
    "room": 52
   },
   "9045a4e3b4df": {
-   "t": "Los ataques de partes hacen 60 de daño",
+   "t": "Las partes hacen 60",
    "sites": [
     "0x091D1C"
    ],
@@ -10989,7 +10989,7 @@
    "room": 16
   },
   "fd337693a593": {
-   "t": "Los ataques de partes hacen 20 de daño",
+   "t": "Las partes hacen 20",
    "sites": [
     "0x091D94"
    ],
@@ -11003,7 +11003,7 @@
    "room": 16
   },
   "44d38adb70b5": {
-   "t": "Los ataques de partes hacen 120 de daño",
+   "t": "Las partes hacen 120",
    "sites": [
     "0x091E0C"
    ],
@@ -11017,14 +11017,14 @@
    "room": 16
   },
   "4a3679554d37": {
-   "t": "El poder se multiplica por 3",
+   "t": "El poder se triplica",
    "sites": [
     "0x0920DC"
    ],
    "room": 52
   },
   "dfad7dac4c16": {
-   "t": "El poder se multiplica por 4",
+   "t": "El poder se cuadruplica",
    "sites": [
     "0x092154"
    ],
@@ -11075,7 +11075,7 @@
    "room": 5
   },
   "dea9da40c8c5": {
-   "t": "Ataque de combate que empuja al rival",
+   "t": "Combate que empuja al rival",
    "sites": [
     "0x0931F0"
    ],
@@ -11113,14 +11113,14 @@
    "room": 24
   },
   "dbe801191ec8": {
-   "t": "Tiro que anula «Cobertura» y «Guardia»",
+   "t": "Tiro anula Cob. y Guardia",
    "sites": [
     "0x0937F0"
    ],
    "room": 52
   },
   "0dc0d8ccd28f": {
-   "t": "(Síntoma negativo) Combate que da Variación",
+   "t": "(Negativo) Da Variación",
    "sites": [
     "0x093870",
     "0x0938F0"
@@ -11128,7 +11128,7 @@
    "room": 52
   },
   "1a84f329d676": {
-   "t": "(Síntoma negativo) Combate que da Atadura",
+   "t": "(Negativo) Da Atadura",
    "sites": [
     "0x093970",
     "0x0939F0"
@@ -11136,7 +11136,7 @@
    "room": 52
   },
   "ccf689cc29d2": {
-   "t": "(Síntoma negativo) Combate que da Continuo",
+   "t": "(Negativo) Da Continuo",
    "sites": [
     "0x093A70",
     "0x093AF0"
@@ -11144,7 +11144,7 @@
    "room": 52
   },
   "abae86726480": {
-   "t": "(Síntoma negativo) Combate que da Detención",
+   "t": "(Negativo) Da Detención",
    "sites": [
     "0x093B70",
     "0x093BF0"
@@ -11159,14 +11159,14 @@
    "room": 24
   },
   "a1de962608b7": {
-   "t": "Combate que anula «Cobertura» y «Guardia»",
+   "t": "Combate anula Cob. y Guardia",
    "sites": [
     "0x093C70"
    ],
    "room": 52
   },
   "aa8948ed2a18": {
-   "t": "Destruye al rival sin esquive ni defensa",
+   "t": "Destruye al rival indefenso",
    "sites": [
     "0x093CA4"
    ],
@@ -11180,7 +11180,7 @@
    "room": 24
   },
   "cc422fead5d7": {
-   "t": "Dificulta entrar a las 4 casillas vecinas",
+   "t": "Cuesta entrar en 4 casillas",
    "sites": [
     "0x094024"
    ],
@@ -11201,14 +11201,14 @@
    "room": 24
   },
   "2148635c4cd8": {
-   "t": "(Trampa) Se coloca contra ataques de tiro",
+   "t": "(Trampa) Contra el tiro",
    "sites": [
     "0x094170"
    ],
    "room": 52
   },
   "49065b357d26": {
-   "t": "(Trampa) Se coloca contra 1 ataque",
+   "t": "(Trampa) Contra 1 ataque",
    "sites": [
     "0x094270"
    ],
@@ -11222,7 +11222,7 @@
    "room": 24
   },
   "2ff894ab4099": {
-   "t": "(Trampa) Se coloca para las partes rotas",
+   "t": "(Trampa) Para partes rotas",
    "sites": [
     "0x0942F0"
    ],
@@ -11236,14 +11236,14 @@
    "room": 24
   },
   "69a2b79f6d72": {
-   "t": "(Trampa) Se coloca por ataque cruzado",
+   "t": "(Trampa) Por ataque cruzado",
    "sites": [
     "0x094370"
    ],
    "room": 52
   },
   "917827fc1326": {
-   "t": "Se activa con una parte «Fuego cruzado»",
+   "t": "Se activa con Fuego cruzado",
    "sites": [
     "0x0943A4"
    ],
@@ -11257,7 +11257,7 @@
    "room": 24
   },
   "2e8efc045f1a": {
-   "t": "(Trampa) Activa el ataque cruzado",
+   "t": "(Trampa) Activa el cruzado",
    "sites": [
     "0x0943F0"
    ],
@@ -11271,7 +11271,7 @@
    "room": 24
   },
   "a977adca20b6": {
-   "t": "También quita el antisíntoma rival",
+   "t": "También el antisíntoma rival",
    "sites": [
     "0x094524"
    ],
@@ -11285,7 +11285,7 @@
    "room": 24
   },
   "236ad95178b2": {
-   "t": "También quita ese bloqueo al aliado",
+   "t": "También el antitrampa aliado",
    "sites": [
     "0x0945A4"
    ],
@@ -11313,35 +11313,35 @@
    "room": 24
   },
   "c2e66af5c260": {
-   "t": "(Campo) Acción que sube el generador",
+   "t": "(Campo) Sube el generador",
    "sites": [
     "0x094870"
    ],
    "room": 52
   },
   "741f08cb884b": {
-   "t": "(Equipar) Anula «Láser» y «Rayo»",
+   "t": "Anula «Láser» y «Rayo»",
    "sites": [
     "0x0948F0"
    ],
    "room": 52
   },
   "3eaec668b016": {
-   "t": "(Equipar) Anula «Misil» y «Napalm»",
+   "t": "Anula «Misil» y «Napalm»",
    "sites": [
     "0x094970"
    ],
    "room": 52
   },
   "2e077568a8c6": {
-   "t": "(Equipar) Anula «Golpe» y «Prensa»",
+   "t": "Anula «Quiebre» y «Prensa»",
    "sites": [
     "0x0949F0"
    ],
    "room": 52
   },
   "04933ab6db9d": {
-   "t": "(Equipar) No entra ningún «Síntoma»",
+   "t": "(Equipar) No entra síntoma",
    "sites": [
     "0x094A70"
    ],
@@ -11355,14 +11355,14 @@
    "room": 24
   },
   "5b040dfd0db3": {
-   "t": "(Síntoma positivo) Da Cura continua",
+   "t": "(Positivo) Da Cura continua",
    "sites": [
     "0x094AF0"
    ],
    "room": 52
   },
   "6d7b61603b88": {
-   "t": "(Guardia) Rechaza solo los ataques fuertes",
+   "t": "(Guardia) Rechaza lo fuerte",
    "sites": [
     "0x094B70"
    ],
@@ -11390,7 +11390,7 @@
    "room": 24
   },
   "e433186026bb": {
-   "t": "(Campo) Acción que baja el generador",
+   "t": "(Campo) Baja el generador",
    "sites": [
     "0x094CF0"
    ],
@@ -11404,7 +11404,7 @@
    "room": 24
   },
   "1c4dd64173f7": {
-   "t": "(Equipar) Sube el AP al empezar el turno",
+   "t": "(Equipar) Sube AP cada turno",
    "sites": [
     "0x094DF0"
    ],
@@ -11439,7 +11439,7 @@
    "room": 24
   },
   "c90ac9e1da49": {
-   "t": "También quita ese bloqueo al aliado",
+   "t": "También el antibono aliado",
    "sites": [
     "0x095324"
    ],
@@ -11453,14 +11453,14 @@
    "room": 24
   },
   "23541f310ccc": {
-   "t": "(Síntoma negativo) Inutiliza 1 parte",
+   "t": "(Negativo) Inutiliza 1 parte",
    "sites": [
     "0x095370"
    ],
    "room": 52
   },
   "da65d0d3a8df": {
-   "t": "El síntoma cae en la misma parte usada",
+   "t": "Cae en la parte usada",
    "sites": [
     "0x0953A4"
    ],
@@ -11474,7 +11474,7 @@
    "room": 24
   },
   "9478ba887ef7": {
-   "t": "(Síntoma negativo) Impide esquivar",
+   "t": "(Negativo) Impide esquivar",
    "sites": [
     "0x0954F0"
    ],
@@ -11488,7 +11488,7 @@
    "room": 24
   },
   "d89d59b05a60": {
-   "t": "(Síntoma negativo) Impide defender",
+   "t": "(Negativo) Impide defender",
    "sites": [
     "0x095570"
    ],
@@ -11523,28 +11523,28 @@
    "room": 52
   },
   "ddd9fd000409": {
-   "t": "Fuerte en «loma» y «montaña»",
+   "t": "Fuerte en loma y montaña",
    "sites": [
     "0x09588C"
    ],
    "room": 52
   },
   "e000ac13f485": {
-   "t": "Fuerte en «pradera» y «bosque»",
+   "t": "Fuerte en pradera y bosque",
    "sites": [
     "0x095904"
    ],
    "room": 52
   },
   "68345f4b4ee6": {
-   "t": "Fuerte en «ruta» y «ciudad»",
+   "t": "Fuerte en ruta y ciudad",
    "sites": [
     "0x09597C"
    ],
    "room": 52
   },
   "e23974ef7014": {
-   "t": "Fuerte en «orilla» y «mar»",
+   "t": "Fuerte en orilla y mar",
    "sites": [
     "0x095A6C"
    ],
@@ -11573,7 +11573,7 @@
    "comment": "tabla ROTATION (ランダム)"
   },
   "b55d47d41952": {
-   "t": "Apunta al azar",
+   "t": "Busca al azar",
    "sites": [
     "0x090BC4"
    ],
@@ -11955,7 +11955,7 @@
    "room": 18
   },
   "b678837547ee": {
-   "t": "(Trampa) Salta ante ataques",
+   "t": "(Trampa) Salta si atacan",
    "sites": [
     "0x090E60"
    ],
@@ -12324,7 +12324,7 @@
    "comment": "personalidad medalla (チェンジ)"
   },
   "dac1dda097bd": {
-   "t": "Apunta a partes de ataque",
+   "t": "Busca las de ataque",
    "sites": [
     "0x090B18"
    ],
@@ -12565,7 +12565,7 @@
    "comment": "medafuerza: segundo renglón de descripción (+0x44 del registro); el nombre y el primer renglón ya estaban traducidos y este se saltó"
   },
   "9efcc90e1d5f": {
-   "t": "Cambia el campo a «desierto»",
+   "t": "Cambia a «desierto»",
    "sites": [
     "0x091344"
    ],
@@ -12595,6 +12595,30 @@
    ],
    "room": 16,
    "comment": "tipo de pierna: idem"
+  },
+  "5b51c7a654f5": {
+   "t": "Fuerte en arenal y desierto",
+   "sites": [
+    "0x09579C"
+   ],
+   "room": 52,
+   "comment": "tipo de pierna, terrenos fuertes. Se lee por índice: en menus.json el escritor de cadenas sueltas la reubicaba y repuntaba sus dos punteros, y el juego seguía leyendo el japonés"
+  },
+  "661c9b3f1c0a": {
+   "t": "(Sínt.) Continuo a todos",
+   "sites": [
+    "0x090FC8"
+   ],
+   "room": 52,
+   "comment": "medafuerza: segundo renglón de síntoma en masa, sin traducir hasta ahora"
+  },
+  "2d5fe9d51bf3": {
+   "t": "(Sínt.) Detención a todos",
+   "sites": [
+    "0x091040"
+   ],
+   "room": 52,
+   "comment": "medafuerza: segundo renglón de síntoma en masa, sin traducir hasta ahora"
   }
  },
  "sjis_strings": {

@@ -1,0 +1,4 @@
+{
+ "comment": "Rows still wider than the box that draws them, as OFFSET:COLUMNS. This is DEBT, not a list of exceptions: it must shrink to zero, and tests/test_control_codes.py fails on anything not in it so a new one cannot be added quietly. The widths themselves live in navi/boxes.py, measured in the emulator with a ruler. Regenerate after shortening a batch: python3 tools/wide.py --update.",
+ "known": []
+}

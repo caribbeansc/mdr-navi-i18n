@@ -5,7 +5,9 @@ decompressing all 1969 compressed blocks in the Kuwagata dump (Malias + BIOS
 LZ77), rendering them as tile sheets, and classifying each one visually.
 Verdicts over the whole ROM: 1780 blocks with no text, 81 already-Latin, 76
 not graphics at all, and **31 distinct blocks carrying Japanese** — 5 of them
-already handled by the build (title menu, OPTION screen), 25 pending.
+handled by the build. As of the 2026-08 pass the only ones left are choices, not
+work: the shop signs (illegible at size), the BGM note labels, and the two cards
+that carry real branding and real staff names, which stay as they are.
 
 The visual pass reads whole sheets, so it misses blocks that are mostly empty
 with a couple of 8x12 kanji in a corner: 0x662720 was classified as "no text"
@@ -36,7 +38,7 @@ the repository. The full table with transcriptions is regenerated locally into
 | 0x662970 | lz77 | 270 / 640 | **[DONE]** Battle-start header banner (ROBOBATALLA) |
 | 0x662720 | lz77 | 413 / 960 | **[DONE]** Battle parts-panel row captions: "action" (codes E003 E00B) → "Ac." and "uses" (codes E014 E018) → "Uso". Dedup'd atlas, 30 tiles, one pointer at 0x654BBC, no twin; the game decompresses it into the EWRAM tile pool at 0x02002474 and DMAs tiles into BG0 from 0x0801C880. Both captions are pre-rendered pixels, so they are invisible to string searches AND to the glyph banks — see the spec's notes in gfx.json for the tile runs and the 22px limit. The block's remaining labels (two AP plates and a TYPE plate) are already Latin |
 
-| 0x662BF0 | lz77 | 450 / 960 | **[PENDING-HIGH]** Target-scope stamp atlas for the battle part panel: the red hanko stamps 単 (single target, user-reported) and almost certainly 全 (all targets), dedup'd across 30 tiles — tiles 01/03 carry extra grids that need a VRAM dump from the target-select frame to place. Found by the 2026-08 visual re-sweep |
+| 0x662BF0 | lz77 | 450 / 960 | **[DONE]** Target-scope stamp atlas for the battle part panel: the red hanko stamps 単 (single target) and 全 (all targets), dedup'd across 30 tiles, each drawn twice (left and right of the panel). Spec `target-stamps`; the stamps are one glyph wide, so they read `1` / `T` |
 
 ## Pending — medium
 
