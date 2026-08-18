@@ -1,5 +1,6 @@
-# Builds the IPS patch for every language pack against both releases of the
-# game and publishes them as a GitHub release on each push to main.
+# On each push to main: builds the IPS patch for every language pack against
+# both releases of the game, builds the double-clickable patcher (gui.py) for
+# Windows and macOS, and publishes everything together as one GitHub release.
 #
 # The game itself is never in this repository, so the dumps arrive through
 # two repository secrets, each a private direct-download URL:
@@ -10,8 +11,10 @@
 # Every download is verified against the SHA-1 on record in navi/rom.py
 # before anything is built, so a wrong or corrupted file fails the run
 # instead of shipping a broken patch. With no secrets configured (a fork,
-# or before they are set) the workflow is a clean no-op. Only dist/ ever
-# leaves the runner — the patches and their checksums, never a ROM.
+# or before they are set) the patch job is a clean no-op and no release is
+# published — the patcher still builds, as compile CI for gui.py. Only
+# dist/ and the patcher executables ever leave the runners — never a ROM;
+# the executables bundle this repository's code, langs/ and data/ only.
 
 name: release-patches
 
@@ -35,6 +38,10 @@ jobs:
       ROM_URL_KABUTO: ${{ secrets.ROM_URL_KABUTO }}
       SHA1_KUWAGATA: de8de6734f0f990832988ea133fa05241946800e
       SHA1_KABUTO: 3135545e02fa5557dda0976165cf5c7f3c0b6f8e
+    outputs:
+      built: ${{ steps.roms.outputs.built }}
+      kuwagata: ${{ steps.roms.outputs.kuwagata }}
+      kabuto: ${{ steps.roms.outputs.kabuto }}
     steps:
       - uses: actions/checkout@v7
 
@@ -43,17 +50,19 @@ jobs:
         run: |
           echo "kuwagata=${ROM_URL_KUWAGATA:+true}" >> "$GITHUB_OUTPUT"
           echo "kabuto=${ROM_URL_KABUTO:+true}" >> "$GITHUB_OUTPUT"
-          if [ -z "${ROM_URL_KUWAGATA}${ROM_URL_KABUTO}" ]; then
+          if [ -n "${ROM_URL_KUWAGATA}${ROM_URL_KABUTO}" ]; then
+            echo "built=true" >> "$GITHUB_OUTPUT"
+          else
             echo "::notice::No ROM_URL_* secrets configured; nothing to build or release."
           fi
 
       - uses: actions/setup-python@v7
-        if: steps.roms.outputs.kuwagata || steps.roms.outputs.kabuto
+        if: steps.roms.outputs.built
         with:
           python-version: '3.12'
 
       - name: Download and verify the dumps
-        if: steps.roms.outputs.kuwagata || steps.roms.outputs.kabuto
+        if: steps.roms.outputs.built
         run: |
           set -euo pipefail
           for rel in kuwagata kabuto; do
@@ -75,7 +84,7 @@ jobs:
           python -m pytest -q
 
       - name: Build every patch
-        if: steps.roms.outputs.kuwagata || steps.roms.outputs.kabuto
+        if: steps.roms.outputs.built
         run: |
           set -euo pipefail
           langs=$(for d in langs/*/; do
@@ -92,14 +101,95 @@ jobs:
           done
           ls -l dist/
 
+      - uses: actions/upload-artifact@v7
+        if: steps.roms.outputs.built
+        with:
+          name: ips
+          path: dist/
+          if-no-files-found: error
+
+  # The double-clickable patcher: gui.py frozen with the repo's code, langs/
+  # and data/ inside. It needs no secrets, so it also runs on forks and on
+  # pushes without ROM secrets, where it serves as compile CI for gui.py.
+  gui:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            artifact: MedarotNavi-Patcher-Windows
+          - os: macos-latest
+            artifact: MedarotNavi-Patcher-macOS-AppleSilicon
+          - os: macos-15-intel
+            artifact: MedarotNavi-Patcher-macOS-Intel
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install PyInstaller
+        run: pip install pyinstaller
+
+      - name: Build (Windows)
+        if: runner.os == 'Windows'
+        run: >
+          pyinstaller --noconfirm --clean --onefile --windowed
+          --name MedarotNavi-Patcher
+          --add-data "langs;langs"
+          --add-data "data;data"
+          gui.py
+
+      - name: Build (macOS)
+        if: runner.os == 'macOS'
+        run: >
+          pyinstaller --noconfirm --clean --onefile --windowed
+          --name "MedarotNavi-Patcher"
+          --add-data "langs:langs"
+          --add-data "data:data"
+          gui.py
+
+      - name: Package (Windows)
+        if: runner.os == 'Windows'
+        run: Move-Item dist/MedarotNavi-Patcher.exe "${{ matrix.artifact }}.exe"
+
+      # Zip with ditto so the .app bundle structure and permissions survive.
+      - name: Package (macOS)
+        if: runner.os == 'macOS'
+        run: ditto -c -k --keepParent "dist/MedarotNavi-Patcher.app" "${{ matrix.artifact }}.zip"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.artifact }}
+          path: |
+            ${{ matrix.artifact }}.exe
+            ${{ matrix.artifact }}.zip
+          if-no-files-found: error
+
+  release:
+    needs: [patches, gui]
+    if: needs.patches.outputs.built
+    runs-on: ubuntu-latest
+    env:
+      SHA1_KUWAGATA: de8de6734f0f990832988ea133fa05241946800e
+      SHA1_KABUTO: 3135545e02fa5557dda0976165cf5c7f3c0b6f8e
+      HAS_KUWAGATA: ${{ needs.patches.outputs.kuwagata }}
+      HAS_KABUTO: ${{ needs.patches.outputs.kabuto }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
+        with:
+          path: out
+          merge-multiple: true
+
       - name: Publish the release
-        if: steps.roms.outputs.kuwagata || steps.roms.outputs.kabuto
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          (cd dist && sha256sum * > "$RUNNER_TEMP/SHA256SUMS")
-          mv "$RUNNER_TEMP/SHA256SUMS" dist/SHA256SUMS
+          (cd out && sha256sum * > "$RUNNER_TEMP/SHA256SUMS")
+          mv "$RUNNER_TEMP/SHA256SUMS" out/SHA256SUMS
           notes="$RUNNER_TEMP/notes.md"
           {
             echo "Patches only — this is not the game, and it cannot get it for you."
@@ -107,9 +197,9 @@ jobs:
             echo
             echo "| Source ROM | SHA-1 of the unpatched dump |"
             echo "|---|---|"
-            [ -f "$RUNNER_TEMP/kuwagata.gba" ] && \
+            [ -n "$HAS_KUWAGATA" ] && \
               echo "| Kuwagata (Japan) | \`$SHA1_KUWAGATA\` |"
-            [ -f "$RUNNER_TEMP/kabuto.gba" ] && \
+            [ -n "$HAS_KABUTO" ] && \
               echo "| Kabuto (Japan) | \`$SHA1_KABUTO\` |"
             echo
             echo "Files are named \`medarot-navi-<release>-<language>.ips\`."
@@ -118,9 +208,16 @@ jobs:
               "or give the .ips the ROM's own name and keep them side by" \
               "side — mGBA patches on load."
             echo
+            echo "**Prefer a double-clickable app?** The \`MedarotNavi-Patcher\`" \
+              "downloads point at your own dump and write the translated ROM" \
+              "next to it. Windows: run the .exe (SmartScreen: 'More info' >" \
+              "'Run anyway'). macOS: unzip, right-click the app > Open the" \
+              "first time (it is not notarized). The app carries this" \
+              "repository's code and translations, never the game."
+            echo
             echo "Built from ${GITHUB_SHA}."
           } > "$notes"
-          gh release create "r${GITHUB_RUN_NUMBER}" dist/* \
+          gh release create "r${GITHUB_RUN_NUMBER}" out/* \
             --target "$GITHUB_SHA" \
             --title "Patches r${GITHUB_RUN_NUMBER}" \
             --notes-file "$notes"
