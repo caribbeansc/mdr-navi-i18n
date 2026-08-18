@@ -1,0 +1,126 @@
+# Builds the IPS patch for every language pack against both releases of the
+# game and publishes them as a GitHub release on each push to main.
+#
+# The game itself is never in this repository, so the dumps arrive through
+# two repository secrets, each a private direct-download URL:
+#
+#   ROM_URL_KUWAGATA   the Kuwagata (Japan) dump
+#   ROM_URL_KABUTO     the Kabuto (Japan) dump
+#
+# Every download is verified against the SHA-1 on record in navi/rom.py
+# before anything is built, so a wrong or corrupted file fails the run
+# instead of shipping a broken patch. With no secrets configured (a fork,
+# or before they are set) the workflow is a clean no-op. Only dist/ ever
+# leaves the runner — the patches and their checksums, never a ROM.
+
+name: release-patches
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-patches
+  cancel-in-progress: false
+
+jobs:
+  patches:
+    runs-on: ubuntu-latest
+    env:
+      ROM_URL_KUWAGATA: ${{ secrets.ROM_URL_KUWAGATA }}
+      ROM_URL_KABUTO: ${{ secrets.ROM_URL_KABUTO }}
+      SHA1_KUWAGATA: de8de6734f0f990832988ea133fa05241946800e
+      SHA1_KABUTO: 3135545e02fa5557dda0976165cf5c7f3c0b6f8e
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Which dumps are available
+        id: roms
+        run: |
+          echo "kuwagata=${ROM_URL_KUWAGATA:+true}" >> "$GITHUB_OUTPUT"
+          echo "kabuto=${ROM_URL_KABUTO:+true}" >> "$GITHUB_OUTPUT"
+          if [ -z "${ROM_URL_KUWAGATA}${ROM_URL_KABUTO}" ]; then
+            echo "::notice::No ROM_URL_* secrets configured; nothing to build or release."
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.roms.outputs.kuwagata || steps.roms.outputs.kabuto
+        with:
+          python-version: '3.12'
+
+      - name: Download and verify the dumps
+        if: steps.roms.outputs.kuwagata || steps.roms.outputs.kabuto
+        run: |
+          set -euo pipefail
+          for rel in kuwagata kabuto; do
+            url_var="ROM_URL_${rel^^}"
+            [ -n "${!url_var}" ] || continue
+            sha_var="SHA1_${rel^^}"
+            curl -fsSL --retry 3 -o "$RUNNER_TEMP/$rel.gba" "${!url_var}"
+            echo "${!sha_var}  $RUNNER_TEMP/$rel.gba" | sha1sum -c -
+          done
+
+      # The suite runs against Kuwagata, the canonical release every offset
+      # in this repository is written for. A red test blocks the release.
+      - name: Test against the canonical dump
+        if: steps.roms.outputs.kuwagata
+        run: |
+          set -euo pipefail
+          python navi.py rom "$RUNNER_TEMP/kuwagata.gba"
+          pip install --quiet pytest
+          python -m pytest -q
+
+      - name: Build every patch
+        if: steps.roms.outputs.kuwagata || steps.roms.outputs.kabuto
+        run: |
+          set -euo pipefail
+          langs=$(for d in langs/*/; do
+            [ -f "$d/lang.json" ] && basename "$d" || true
+          done)
+          echo "language packs: $langs"
+          for rel in kuwagata kabuto; do
+            rom="$RUNNER_TEMP/$rel.gba"
+            [ -f "$rom" ] || continue
+            python navi.py rom "$rom"
+            for lang in $langs; do
+              python navi.py build "$lang"
+            done
+          done
+          ls -l dist/
+
+      - name: Publish the release
+        if: steps.roms.outputs.kuwagata || steps.roms.outputs.kabuto
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          (cd dist && sha256sum * > "$RUNNER_TEMP/SHA256SUMS")
+          mv "$RUNNER_TEMP/SHA256SUMS" dist/SHA256SUMS
+          notes="$RUNNER_TEMP/notes.md"
+          {
+            echo "Patches only — this is not the game, and it cannot get it for you."
+            echo "Apply the patch matching **your** cartridge to your own dump:"
+            echo
+            echo "| Source ROM | SHA-1 of the unpatched dump |"
+            echo "|---|---|"
+            [ -f "$RUNNER_TEMP/kuwagata.gba" ] && \
+              echo "| Kuwagata (Japan) | \`$SHA1_KUWAGATA\` |"
+            [ -f "$RUNNER_TEMP/kabuto.gba" ] && \
+              echo "| Kabuto (Japan) | \`$SHA1_KABUTO\` |"
+            echo
+            echo "Files are named \`medarot-navi-<release>-<language>.ips\`."
+            echo "Patch in the browser with" \
+              "[RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/)," \
+              "or give the .ips the ROM's own name and keep them side by" \
+              "side — mGBA patches on load."
+            echo
+            echo "Built from ${GITHUB_SHA}."
+          } > "$notes"
+          gh release create "r${GITHUB_RUN_NUMBER}" dist/* \
+            --target "$GITHUB_SHA" \
+            --title "Patches r${GITHUB_RUN_NUMBER}" \
+            --notes-file "$notes"
