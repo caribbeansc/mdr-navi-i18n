@@ -167,6 +167,25 @@ line that reads wrong helps just as much.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/caribbeansc)
 
+## Credits
+
+Prior art and tools this project stands on — the detail lives in
+[NOTICE](NOTICE) and [docs/EXTERNAL-REPOS.md](docs/EXTERNAL-REPOS.md):
+
+- [Normmatt/Medarot-Navi-GBA-Translation](https://github.com/Normmatt/Medarot-Navi-GBA-Translation) —
+  the character table our charsets derive from, the script-bytecode opcode
+  sizes, the "Malias" graphics codec ported from Malias2.cs, the
+  already-reversed Kabuto addresses, and the proof that the cartridge maps
+  ROM past 8 MB.
+- [Medabots/medarot-navi](https://github.com/Medabots/medarot-navi) — the
+  full-disassembly attempt; its dual-release Makefile is why one pack serves
+  both cartridges here instead of forking.
+- [mGBA](https://mgba.io) — `tools/gbashot` and `gbawatch` link against
+  libmgba; every in-emulator verification in this project runs on it.
+- [medarot-rb-i18n](https://github.com/caribbeansc/medarot-rb-i18n) — the
+  sibling project this repository is modelled on: language packs holding
+  fingerprints and translations, never the game.
+
 ## Licence
 
 Code MIT ([LICENSE](LICENSE)); translations CC BY-SA 4.0
