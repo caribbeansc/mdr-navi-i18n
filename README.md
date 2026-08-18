@@ -39,6 +39,11 @@ under `langs/<code>/kabuto/`.
 > **You need your own copy of the game.** These tools read your own cartridge
 > dump. They do not contain the game and cannot get it for you.
 
+**Downloads:** ready-made IPS patches and the `MedarotNavi-Patcher` app are on
+the [releases page](https://github.com/caribbeansc/mdr-navi-i18n/releases) —
+new ones are published automatically when a translation changes. See
+[Play it](#play-it--the-easy-way-no-python-no-terminal) below.
+
 ## Play it — the easy way (no Python, no terminal)
 
 Download the patcher from the
