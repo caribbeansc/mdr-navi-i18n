@@ -12,10 +12,10 @@ request.
 
 It starts out with two translations:
 
-| Language | Lines | State |
-|---|---:|---|
-| Español | menus + scripts | in progress |
-| English | menus + scripts | in progress |
+| Language | Text | Artwork | State |
+|---|---:|---:|---|
+| Español | 3823 / 4032 (95%) | 18 | playable, in final validation |
+| English | 3926 / 4127 (95%) | 18 | playable, in final validation |
 
 Each glossary follows the anime's own dub — the Latin American one (Etcétera
 Group / Fox Kids, 2002) for Spanish, the English one (Nelvana / Fox Kids, 2001)
