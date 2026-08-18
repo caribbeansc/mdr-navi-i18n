@@ -245,5 +245,5 @@ jobs:
           } > "$notes"
           gh release create "$tag" out/* \
             --target "$GITHUB_SHA" \
-            --title "Translations v${day} (${short})" \
+            --title "IPS patches v${day} (${short})" \
             --notes-file "$notes"
