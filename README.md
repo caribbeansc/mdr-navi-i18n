@@ -5,55 +5,28 @@
 
 **メダロットnavi** (GBA, 2001) never left Japan, so it only speaks Japanese.
 
-**Just want to play?** Download ready-made IPS patches, or the ready-to-run
-patcher for Windows and macOS, from the
+**Just want to play?** Grab the ready-made IPS patches or the Windows/macOS
+patcher from the
 [**latest release**](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest)
-— no Python, no terminal. They are rebuilt automatically whenever the
-translations change, so the download is always current. Details in
-[Play it — the easy way](#play-it--the-easy-way-no-python-no-terminal) below.
+— see [Play it](#play-it--the-easy-way-no-python-no-terminal) below.
 
-**What this repository is for:** handing anyone the tooling to translate it
-without reverse-engineering anything themselves. You point it at your own dump,
-type your text, and it builds you a patched ROM. Adding a language takes a
-folder, not code, and improving a translation that is already here takes a pull
-request.
+**What this repository is for:** translating the game without
+reverse-engineering anything. Point it at your own dump, type your text, and
+it builds a patched ROM; a new language is a folder, not code.
 
-It starts out with two translations. Both cover the game's full text — the
-4480 Japanese lines the catalogue reads, across all 170 event scripts and
-every real loose string:
+It starts out with two translations, both covering the game's full text:
 
 | Language | Text | Artwork | State |
 |---|---:|---:|---|
 | Español | 100% | 314 labels | playable, in final validation |
 | English | 100% | 314 labels | playable, in final validation |
 
-The raw scan lists 5802 candidates; the
-other 1322 are scanner artifacts (data that happens to decode as kana:
-character tables, tile rows) or index-reached lines the graphics pass writes
-instead, and "translating" them here would corrupt them.
-
-Both packs were written by an LLM, so take them as **a starting point, not a
-finished localisation**: 100% means every line is translated, not that every
-line is right — the goal is to polish them from here, together. Fixing a line
-takes a minute, and every correction reaches everyone. See
-[Fix a line](#fix-a-line-or-add-a-language).
-
-Each glossary follows the anime's own dub — the Latin American one (Etcétera
-Group / Fox Kids, 2002) for Spanish, the English one (Nelvana / Fox Kids, 2001)
-for English — so a player meets the same words here, in the sibling game
-[medarot-rb-i18n](https://github.com/caribbeansc/medarot-rb-i18n), and on
-television.
-
-**Both releases work.** Medarot Navi shipped as Kuwagata and Kabuto on the same
-day, and they are the same build with the data shifted a few hundred bytes. A
-pack is written once, against Kuwagata, and `navi/align.py` says where each of
-its lines lives in the other cartridge; only what the two releases genuinely
-word differently — the cover Medabot's own scenes — needs its own translation,
-under `langs/<code>/kabuto/`.
+**Both releases work.** Kuwagata and Kabuto are the same build with the data
+shifted a few hundred bytes: one pack serves both cartridges, and only the
+cover Medabot's own scenes need their own translation.
 
 > **You need your own copy of the game.** These tools read your own cartridge
-> dump. They do not contain the game and cannot get it for you. Both releases
-> are covered: Kuwagata and Kabuto.
+> dump. They do not contain the game and cannot get it for you.
 
 ---
 
@@ -95,6 +68,20 @@ containing nothing from the game:
 2. Pick a language and click **Create patched ROM**. Seconds later the
    translated ROM appears next to your dump, named
    `medarot-navi-<release>-<language>.gba`; your original file is not touched.
+
+## About the translations
+
+Both packs were written by an LLM, so take them as **a starting point, not a
+finished localisation**: 100% means every line is translated, not that every
+line is right — the goal is to polish them from here, together. Fixing a line
+takes a minute, and every correction reaches everyone. See
+[Fix a line](#fix-a-line-or-add-a-language).
+
+Each glossary follows the anime's own dub — the Latin American one (Etcétera
+Group / Fox Kids, 2002) for Spanish, the English one (Nelvana / Fox Kids, 2001)
+for English — so a player meets the same words here, in the sibling game
+[medarot-rb-i18n](https://github.com/caribbeansc/medarot-rb-i18n), and on
+television.
 
 ## Use it — from source
 
