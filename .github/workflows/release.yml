@@ -2,17 +2,15 @@
 # both releases of the game, builds the double-clickable patcher (gui.py) for
 # Windows and macOS, and publishes everything together as one GitHub release.
 #
-# The game itself is never in this repository, so the dumps arrive through
-# two repository secrets, each a private direct-download URL:
-#
-#   ROM_URL_KUWAGATA   the Kuwagata (Japan) dump
-#   ROM_URL_KABUTO     the Kabuto (Japan) dump
+# The game itself is never in this repository, nor anywhere public. The
+# build inputs come from a private location that only two repository
+# secrets know: ROMS_SOURCE says where, ROMS_TOKEN grants read-only access.
 #
 # Every download is verified against the SHA-1 on record in navi/rom.py
 # before anything is built, so a wrong or corrupted file fails the run
-# instead of shipping a broken patch. With no secrets configured (a fork,
-# or before they are set) the patch job is a clean no-op and no release is
-# published — the patcher still builds, as compile CI for gui.py. Only
+# instead of shipping a broken patch. With the secrets unset (a fork, or
+# before they are configured) the patch job is a clean no-op and no release
+# is published — the patcher still builds, as compile CI for gui.py. Only
 # dist/ and the patcher executables ever leave the runners — never a ROM;
 # the executables bundle this repository's code, langs/ and data/ only.
 
@@ -44,8 +42,8 @@ jobs:
   patches:
     runs-on: ubuntu-latest
     env:
-      ROM_URL_KUWAGATA: ${{ secrets.ROM_URL_KUWAGATA }}
-      ROM_URL_KABUTO: ${{ secrets.ROM_URL_KABUTO }}
+      ROMS_TOKEN: ${{ secrets.ROMS_TOKEN }}
+      ROMS_SOURCE: ${{ secrets.ROMS_SOURCE }}
       SHA1_KUWAGATA: de8de6734f0f990832988ea133fa05241946800e
       SHA1_KABUTO: 3135545e02fa5557dda0976165cf5c7f3c0b6f8e
     outputs:
@@ -55,15 +53,13 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Which dumps are available
+      - name: Are the source secrets configured
         id: roms
         run: |
-          echo "kuwagata=${ROM_URL_KUWAGATA:+true}" >> "$GITHUB_OUTPUT"
-          echo "kabuto=${ROM_URL_KABUTO:+true}" >> "$GITHUB_OUTPUT"
-          if [ -n "${ROM_URL_KUWAGATA}${ROM_URL_KABUTO}" ]; then
-            echo "built=true" >> "$GITHUB_OUTPUT"
+          if [ -n "$ROMS_TOKEN" ] && [ -n "$ROMS_SOURCE" ]; then
+            { echo "built=true"; echo "kuwagata=true"; echo "kabuto=true"; } >> "$GITHUB_OUTPUT"
           else
-            echo "::notice::No ROM_URL_* secrets configured; nothing to build or release."
+            echo "::notice::Source secrets not configured; nothing to build or release."
           fi
 
       - uses: actions/setup-python@v7
@@ -73,13 +69,16 @@ jobs:
 
       - name: Download and verify the dumps
         if: steps.roms.outputs.built
+        env:
+          GH_TOKEN: ${{ secrets.ROMS_TOKEN }}
         run: |
           set -euo pipefail
+          from="${ROMS_SOURCE%@*}"
+          tag="${ROMS_SOURCE#*@}"
           for rel in kuwagata kabuto; do
-            url_var="ROM_URL_${rel^^}"
-            [ -n "${!url_var}" ] || continue
             sha_var="SHA1_${rel^^}"
-            curl -fsSL --retry 3 -o "$RUNNER_TEMP/$rel.gba" "${!url_var}"
+            gh release download "$tag" --repo "$from" \
+              --pattern "$rel.gba" --output "$RUNNER_TEMP/$rel.gba"
             echo "${!sha_var}  $RUNNER_TEMP/$rel.gba" | sha1sum -c -
           done
 
