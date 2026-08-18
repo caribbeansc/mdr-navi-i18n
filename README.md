@@ -58,10 +58,17 @@ under `langs/<code>/kabuto/`.
 
 ## Play it — the easy way (no Python, no terminal)
 
-Download the patcher from the
-[**latest release**](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest).
-It is built automatically from this repository and contains nothing from the
-game. Pick the file for your computer:
+Every [**release**](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest)
+ships two ways to play, both built automatically from this repository and
+containing nothing from the game:
+
+- **IPS patches** — `medarot-navi-<release>-<language>.ips`, one per cartridge
+  and language. Apply the one matching your dump in the browser with
+  [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/), or give the
+  `.ips` the ROM's own name and keep them side by side — mGBA patches on load.
+- **The patcher** — a double-clickable app that applies the translation for
+  you and writes the patched ROM next to your dump. Pick the file for your
+  computer:
 
 ### Windows
 
@@ -87,11 +94,6 @@ game. Pick the file for your computer:
 2. Pick a language and click **Create patched ROM**. Seconds later the
    translated ROM appears next to your dump, named
    `medarot-navi-<release>-<language>.gba`; your original file is not touched.
-
-Prefer plain patch files? Every release also ships the IPS patches: apply the
-one matching your cartridge with
-[RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/), or give the
-`.ips` the ROM's own name next to it and mGBA patches on load.
 
 ## Use it — from source
 
