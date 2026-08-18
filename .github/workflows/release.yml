@@ -209,8 +209,16 @@ jobs:
           set -euo pipefail
           (cd out && sha256sum * > "$RUNNER_TEMP/SHA256SUMS")
           mv "$RUNNER_TEMP/SHA256SUMS" out/SHA256SUMS
+          # Version scheme, shared with the sibling repos: the tag is
+          # v<build date>-<short commit>, so a player can tell at a glance
+          # WHEN a download is from and exactly WHAT it was built from.
+          day="$(date -u +%Y.%m.%d)"
+          short="${GITHUB_SHA::7}"
+          tag="v${day}-${short}"
           notes="$RUNNER_TEMP/notes.md"
           {
+            echo "**Version ${tag}**, built from commit ${GITHUB_SHA}."
+            echo
             echo "Patches only — this is not the game, and it cannot get it for you."
             echo "Apply the patch matching **your** cartridge to your own dump:"
             echo
@@ -234,10 +242,8 @@ jobs:
               "first time (it is not notarized). The macOS app is universal —" \
               "Intel and Apple Silicon alike. The app carries this" \
               "repository's code and translations, never the game."
-            echo
-            echo "Built from ${GITHUB_SHA}."
           } > "$notes"
-          gh release create "r${GITHUB_RUN_NUMBER}" out/* \
+          gh release create "$tag" out/* \
             --target "$GITHUB_SHA" \
-            --title "Patches r${GITHUB_RUN_NUMBER}" \
+            --title "Translations v${day} (${short})" \
             --notes-file "$notes"
