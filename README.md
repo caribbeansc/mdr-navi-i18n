@@ -14,8 +14,14 @@ It starts out with two translations:
 
 | Language | Text | Artwork | State |
 |---|---:|---:|---|
-| Español | 4480 / 5802 lines (77%) | 314 labels | playable, in final validation |
-| English | 4480 / 5802 lines (77%) | 314 labels | playable, in final validation |
+| Español | 4480 lines (100%) | 314 labels | playable, in final validation |
+| English | 4480 lines (100%) | 314 labels | playable, in final validation |
+
+Every line of game text the catalogue reads is covered — all 170 event
+scripts and every real loose string. The raw scan lists 5802 candidates; the
+other 1322 are scanner artifacts (data that happens to decode as kana:
+character tables, tile rows) or index-reached lines the graphics pass writes
+instead, and "translating" them here would corrupt them.
 
 Each glossary follows the anime's own dub — the Latin American one (Etcétera
 Group / Fox Kids, 2002) for Spanish, the English one (Nelvana / Fox Kids, 2001)
