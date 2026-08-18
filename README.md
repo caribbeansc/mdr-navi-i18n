@@ -35,7 +35,11 @@ under `langs/<code>/kabuto/`.
 
 ## Use it
 
-You need Python 3.10+, nothing else:
+**No terminal?** Each [release](../../releases) ships ready-made IPS patches
+and `MedarotNavi-Patcher`, a double-clickable app for Windows and macOS:
+point it at your own dump and it writes the translated ROM next to it.
+
+For everything else you need Python 3.10+, nothing more:
 
 ```
 git clone <this repo>
