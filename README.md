@@ -167,6 +167,14 @@ line that reads wrong helps just as much.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/caribbeansc)
 
+## The rest of the series
+
+This repository is one piece of a longer effort to translate **every Medarot
+game**. [medarot-rb-i18n](https://github.com/caribbeansc/medarot-rb-i18n)
+does the same for メダロット カードロボトル RB (Switch), Medarot 9 (3DS) is
+about 60% translated, and once the series is covered the plan is to move on
+to other sagas that never received a translation.
+
 ## Credits
 
 Prior art and tools this project stands on — the detail lives in
