@@ -18,15 +18,16 @@ type your text, and it builds you a patched ROM. Adding a language takes a
 folder, not code, and improving a translation that is already here takes a pull
 request.
 
-It starts out with two translations:
+It starts out with two translations. Both cover the game's full text — the
+4480 Japanese lines the catalogue reads, across all 170 event scripts and
+every real loose string:
 
 | Language | Text | Artwork | State |
 |---|---:|---:|---|
-| Español | 4480 lines (100%) | 314 labels | playable, in final validation |
-| English | 4480 lines (100%) | 314 labels | playable, in final validation |
+| Español | 100% | 314 labels | playable, in final validation |
+| English | 100% | 314 labels | playable, in final validation |
 
-Every line of game text the catalogue reads is covered — all 170 event
-scripts and every real loose string. The raw scan lists 5802 candidates; the
+The raw scan lists 5802 candidates; the
 other 1322 are scanner artifacts (data that happens to decode as kana:
 character tables, tile rows) or index-reached lines the graphics pass writes
 instead, and "translating" them here would corrupt them.
