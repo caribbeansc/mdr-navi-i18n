@@ -56,9 +56,8 @@ game. Pick the file for your computer:
 
 ### macOS
 
-1. Download the app for your Mac: **`…macOS-AppleSilicon.zip`** for an
-   M1/M2/M3 Mac, or **`…macOS-Intel.zip`** for an older Intel one. Not sure
-   which you have?  → *About This Mac*.
+1. Download **`MedarotNavi-Patcher-macOS.zip`** — one app for every Mac,
+   Apple Silicon and Intel alike.
 2. Double-click the `.zip` to unpack the app, then **right-click it and choose
    Open** (not a normal double-click) the first time. macOS asks once whether
    you're sure — click **Open**. After that it opens like any app. This extra
