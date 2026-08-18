@@ -121,6 +121,10 @@ jobs:
   # The double-clickable patcher: gui.py frozen with the repo's code, langs/
   # and data/ inside. It needs no secrets, so it also runs on forks and on
   # pushes without ROM secrets, where it serves as compile CI for gui.py.
+  # The macOS app is built universal2 on the plentiful Apple Silicon runner —
+  # gui.py is pure stdlib, so nothing stands in the way of a fat binary — and
+  # the scarce Intel runner is not needed at all. PyInstaller refuses to link
+  # a universal2 app from thin pieces, and the lipo step double-checks.
   gui:
     strategy:
       fail-fast: false
@@ -129,9 +133,7 @@ jobs:
           - os: windows-latest
             artifact: MedarotNavi-Patcher-Windows
           - os: macos-latest
-            artifact: MedarotNavi-Patcher-macOS-AppleSilicon
-          - os: macos-15-intel
-            artifact: MedarotNavi-Patcher-macOS-Intel
+            artifact: MedarotNavi-Patcher-macOS
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v7
@@ -151,14 +153,22 @@ jobs:
           --add-data "data;data"
           gui.py
 
-      - name: Build (macOS)
+      - name: Build (macOS, universal2)
         if: runner.os == 'macOS'
         run: >
           pyinstaller --noconfirm --clean --onefile --windowed
+          --target-arch universal2
           --name "MedarotNavi-Patcher"
           --add-data "langs:langs"
           --add-data "data:data"
           gui.py
+
+      - name: Verify the app runs on both architectures (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          archs=$(lipo -archs "dist/MedarotNavi-Patcher.app/Contents/MacOS/MedarotNavi-Patcher")
+          echo "archs: $archs"
+          case "$archs" in *x86_64*arm64*|*arm64*x86_64*) ;; *) exit 1;; esac
 
       - name: Package (Windows)
         if: runner.os == 'Windows'
@@ -222,7 +232,8 @@ jobs:
               "downloads point at your own dump and write the translated ROM" \
               "next to it. Windows: run the .exe (SmartScreen: 'More info' >" \
               "'Run anyway'). macOS: unzip, right-click the app > Open the" \
-              "first time (it is not notarized). The app carries this" \
+              "first time (it is not notarized). The macOS app is universal —" \
+              "Intel and Apple Silicon alike. The app carries this" \
               "repository's code and translations, never the game."
             echo
             echo "Built from ${GITHUB_SHA}."
