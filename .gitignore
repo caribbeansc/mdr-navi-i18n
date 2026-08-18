@@ -29,3 +29,4 @@ __pycache__/
 
 # Local tool builds
 tools/gbashot
+tools/gbawatch
