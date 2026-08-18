@@ -2,6 +2,8 @@
 
 **メダロットnavi** (GBA, 2001) never left Japan, so it only speaks Japanese.
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/caribbeansc)
+
 **What this repository is for:** handing anyone the tooling to translate it
 without reverse-engineering anything themselves. You point it at your own dump,
 type your text, and it builds you a patched ROM. Adding a language takes a
@@ -85,13 +87,21 @@ The game keeps its dialogue in 170 bytecode scripts and its menus as
 pointer-reachable strings; the font is 1bpp with no lower case and no accents.
 The build teaches the font the missing letters (in the kana slots the game uses
 least, so untranslated text stays readable), overwrites lines that fit, and
-relocates whole scripts when they grow. Details in [docs/PIPELINE.md] and in
+relocates whole scripts when they grow. Details in
+[docs/PIPELINE.md](docs/PIPELINE.md) and in
 the module docstrings under `navi/` — every offset is written down next to the
 code that uses it.
 
 `tools/gbashot` (optional, `brew install mgba libpng && make -C tools`) runs
 the ROM headless at unlocked speed and takes screenshots, so a change can be
 verified against real pixels without opening an emulator.
+
+## Support
+
+If this made the game playable for you, you can buy me a coffee. Fixing a
+line that reads wrong helps just as much.
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/caribbeansc)
 
 ## Licence
 
