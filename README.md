@@ -1,6 +1,6 @@
 # Medarot Navi, in your language
 
-[![Download the patcher](https://img.shields.io/badge/Download-patcher%20for%20Windows%20%C2%B7%20macOS-2ea44f?style=for-the-badge&logo=github)](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest)
+[![Download IPS patches and the patcher](https://img.shields.io/badge/Download-IPS%20patches%20%C2%B7%20patcher-2ea44f?style=for-the-badge&logo=github)](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/caribbeansc)
 
 **メダロットnavi** (GBA, 2001) never left Japan, so it only speaks Japanese.
@@ -30,6 +30,12 @@ scripts and every real loose string. The raw scan lists 5802 candidates; the
 other 1322 are scanner artifacts (data that happens to decode as kana:
 character tables, tile rows) or index-reached lines the graphics pass writes
 instead, and "translating" them here would corrupt them.
+
+Both packs were written by an LLM, so take them as **a starting point, not a
+finished localisation**: 100% means every line is translated, not that every
+line is right — the goal is to polish them from here, together. Fixing a line
+takes a minute, and every correction reaches everyone. See
+[Fix a line](#fix-a-line-or-add-a-language).
 
 Each glossary follows the anime's own dub — the Latin American one (Etcétera
 Group / Fox Kids, 2002) for Spanish, the English one (Nelvana / Fox Kids, 2001)
