@@ -39,13 +39,48 @@ under `langs/<code>/kabuto/`.
 > **You need your own copy of the game.** These tools read your own cartridge
 > dump. They do not contain the game and cannot get it for you.
 
-## Use it
+## Play it — the easy way (no Python, no terminal)
 
-**No terminal?** Each [release](../../releases) ships ready-made IPS patches
-and `MedarotNavi-Patcher`, a double-clickable app for Windows and macOS:
-point it at your own dump and it writes the translated ROM next to it.
+Download the patcher from the
+[**latest release**](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest).
+It is built automatically from this repository and contains nothing from the
+game. Pick the file for your computer:
 
-For everything else you need Python 3.10+, nothing more:
+### Windows
+
+1. Download **`MedarotNavi-Patcher-Windows.exe`** and double-click it.
+2. The first time, Windows may warn that it doesn't recognise the app (it is
+   free software without a paid publisher certificate). Click **More info**,
+   then **Run anyway**. The whole source is in this repository if you want to
+   check it first.
+
+### macOS
+
+1. Download the app for your Mac: **`…macOS-AppleSilicon.zip`** for an
+   M1/M2/M3 Mac, or **`…macOS-Intel.zip`** for an older Intel one. Not sure
+   which you have?  → *About This Mac*.
+2. Double-click the `.zip` to unpack the app, then **right-click it and choose
+   Open** (not a normal double-click) the first time. macOS asks once whether
+   you're sure — click **Open**. After that it opens like any app. This extra
+   step is only because the app isn't signed with a paid Apple certificate.
+
+### Then, on either system
+
+1. Point the patcher at your own dump of the game (a `.gba` file) — Kuwagata
+   or Kabuto, it tells them apart on its own.
+2. Pick a language and click **Create patched ROM**. Seconds later the
+   translated ROM appears next to your dump, named
+   `medarot-navi-<release>-<language>.gba`; your original file is not touched.
+
+Prefer plain patch files? Every release also ships the IPS patches: apply the
+one matching your cartridge with
+[RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/), or give the
+`.ips` the ROM's own name next to it and mGBA patches on load.
+
+## Use it — from source
+
+You need Python 3.10+, nothing else. `python gui.py` opens the same graphical
+patcher; the menu below does the same and more from the terminal:
 
 ```
 git clone <this repo>
