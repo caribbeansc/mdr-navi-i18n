@@ -18,9 +18,19 @@
 
 name: release-patches
 
+# Releases happen only when something a player receives could have changed:
+# translations, build code, data tables, the patcher, or this workflow.
+# A README or docs push publishes nothing; workflow_dispatch forces a run.
 on:
   push:
     branches: [main]
+    paths:
+      - 'langs/**'
+      - 'navi/**'
+      - 'data/**'
+      - 'navi.py'
+      - 'gui.py'
+      - '.github/workflows/release.yml'
   workflow_dispatch:
 
 permissions:
