@@ -1,8 +1,16 @@
 # Medarot Navi, in your language
 
+[![Download the patcher](https://img.shields.io/badge/Download-patcher%20for%20Windows%20%C2%B7%20macOS-2ea44f?style=for-the-badge&logo=github)](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/caribbeansc)
+
 **メダロットnavi** (GBA, 2001) never left Japan, so it only speaks Japanese.
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/caribbeansc)
+**Just want to play?** Download ready-made IPS patches, or the ready-to-run
+patcher for Windows and macOS, from the
+[**latest release**](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest)
+— no Python, no terminal. They are rebuilt automatically whenever the
+translations change, so the download is always current. Details in
+[Play it — the easy way](#play-it--the-easy-way-no-python-no-terminal) below.
 
 **What this repository is for:** handing anyone the tooling to translate it
 without reverse-engineering anything themselves. You point it at your own dump,
@@ -37,12 +45,10 @@ word differently — the cover Medabot's own scenes — needs its own translatio
 under `langs/<code>/kabuto/`.
 
 > **You need your own copy of the game.** These tools read your own cartridge
-> dump. They do not contain the game and cannot get it for you.
+> dump. They do not contain the game and cannot get it for you. Both releases
+> are covered: Kuwagata and Kabuto.
 
-**Downloads:** ready-made IPS patches and the `MedarotNavi-Patcher` app are on
-the [releases page](https://github.com/caribbeansc/mdr-navi-i18n/releases) —
-new ones are published automatically when a translation changes. See
-[Play it](#play-it--the-easy-way-no-python-no-terminal) below.
+---
 
 ## Play it — the easy way (no Python, no terminal)
 
