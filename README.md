@@ -7,8 +7,8 @@
 
 **Just want to play?** Grab the ready-made IPS patches or the Windows/macOS
 patcher from the
-[**latest release**](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest)
-— see [Play it](#play-it--the-easy-way-no-python-no-terminal) below.
+[**latest release**](https://github.com/caribbeansc/mdr-navi-i18n/releases/latest).
+See [Play it](#play-it--the-easy-way-no-python-no-terminal) below.
 
 **What this repository is for:** translating the game without
 reverse-engineering anything. Point it at your own dump, type your text, and
@@ -39,7 +39,7 @@ containing nothing from the game:
 - **IPS patches** — `medarot-navi-<release>-<language>.ips`, one per cartridge
   and language. Apply the one matching your dump in the browser with
   [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/), or give the
-  `.ips` the ROM's own name and keep them side by side — mGBA patches on load.
+  `.ips` the ROM's own name and keep them side by side; mGBA patches on load.
 - **The patcher** — a double-clickable app that applies the translation for
   you and writes the patched ROM next to your dump. Pick the file for your
   computer:
@@ -58,12 +58,12 @@ containing nothing from the game:
    Apple Silicon and Intel alike.
 2. Double-click the `.zip` to unpack the app, then **right-click it and choose
    Open** (not a normal double-click) the first time. macOS asks once whether
-   you're sure — click **Open**. After that it opens like any app. This extra
+   you're sure; click **Open**. After that it opens like any app. This extra
    step is only because the app isn't signed with a paid Apple certificate.
 
 ### Then, on either system
 
-1. Point the patcher at your own dump of the game (a `.gba` file) — Kuwagata
+1. Point the patcher at your own dump of the game (a `.gba` file): Kuwagata
    or Kabuto, it tells them apart on its own.
 2. Pick a language and click **Create patched ROM**. Seconds later the
    translated ROM appears next to your dump, named
@@ -73,13 +73,13 @@ containing nothing from the game:
 
 Both packs were written by an LLM, so take them as **a starting point, not a
 finished localisation**: 100% means every line is translated, not that every
-line is right — the goal is to polish them from here, together. Fixing a line
+line is right; the goal is to polish them from here, together. Fixing a line
 takes a minute, and every correction reaches everyone. See
 [Fix a line](#fix-a-line-or-add-a-language).
 
-Each glossary follows the anime's own dub — the Latin American one (Etcétera
+Each glossary follows the anime's own dub: the Latin American one (Etcétera
 Group / Fox Kids, 2002) for Spanish, the English one (Nelvana / Fox Kids, 2001)
-for English — so a player meets the same words here, in the sibling game
+for English. A player meets the same words here, in the sibling game
 [medarot-rb-i18n](https://github.com/caribbeansc/medarot-rb-i18n), and on
 television.
 
@@ -111,8 +111,8 @@ patched ROM lands in `build/`, and an IPS patch for sharing in `dist/`.
 
 `python navi.py extract es` writes every line of the game into `work/`, the
 Japanese on one side and the Spanish on the other. Fix what reads wrong, run
-`python navi.py validate es` — it measures every line against the 32-character
-text box and refuses what will not fit — then `build`.
+`python navi.py validate es`, which measures every line against the
+32-character text box and refuses what will not fit, then `build`.
 
 A new language is a folder: copy `langs/es/`, empty the `"t"` fields, translate.
 If your language needs characters the font lacks, draw them in
@@ -140,7 +140,7 @@ The build teaches the font the missing letters (in the kana slots the game uses
 least, so untranslated text stays readable), overwrites lines that fit, and
 relocates whole scripts when they grow. Details in
 [docs/PIPELINE.md](docs/PIPELINE.md) and in
-the module docstrings under `navi/` — every offset is written down next to the
+the module docstrings under `navi/`. Every offset is written down next to the
 code that uses it.
 
 `tools/gbashot` (optional, `brew install mgba libpng && make -C tools`) runs
@@ -164,7 +164,7 @@ to other sagas that never received a translation.
 
 ## Credits
 
-Prior art and tools this project stands on — the detail lives in
+Prior art and tools this project stands on. The detail lives in
 [NOTICE](NOTICE) and [docs/EXTERNAL-REPOS.md](docs/EXTERNAL-REPOS.md):
 
 - [Normmatt/Medarot-Navi-GBA-Translation](https://github.com/Normmatt/Medarot-Navi-GBA-Translation) —
