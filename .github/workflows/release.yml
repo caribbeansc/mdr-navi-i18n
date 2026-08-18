@@ -36,7 +36,7 @@ jobs:
       SHA1_KUWAGATA: de8de6734f0f990832988ea133fa05241946800e
       SHA1_KABUTO: 3135545e02fa5557dda0976165cf5c7f3c0b6f8e
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Which dumps are available
         id: roms
@@ -47,7 +47,7 @@ jobs:
             echo "::notice::No ROM_URL_* secrets configured; nothing to build or release."
           fi
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         if: steps.roms.outputs.kuwagata || steps.roms.outputs.kabuto
         with:
           python-version: '3.12'
