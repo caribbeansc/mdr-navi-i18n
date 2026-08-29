@@ -37,6 +37,36 @@
    "t": "<FACE:05>¡Eso mismo! ¡Ve, ve!"
   },
   {
+   "key": "script:0088:060A",
+   "src": "be39b41bd129",
+   "t": "<FACE:7D>Sabía que<NL>vendrían-robo"
+  },
+  {
+   "key": "script:0088:061B",
+   "src": "ed2a8480be7a",
+   "t": "<FACE:01>¡Vamos! ¡Robobatalla!"
+  },
+  {
+   "key": "script:0088:062C",
+   "src": "c943657cf7bc",
+   "t": "<FACE:7D>Pues lo congelamos<NL>otra vez y nos<WAIT>vamos-robo"
+  },
+  {
+   "key": "script:0088:0646",
+   "src": "a84644e790c3",
+   "t": "<FACE:03>¡Ah! Espera un mome…"
+  },
+  {
+   "key": "script:0088:0657",
+   "src": "3c9c3d37faa3",
+   "t": "<FACE:80>¡Adiós-robo!"
+  },
+  {
+   "key": "script:0088:0661",
+   "src": "6d36ac43c437",
+   "t": "<FACE:06>¡Te lo dije!<WAIT>¡Si vas a soplar<NL>viento helado, avisa!"
+  },
+  {
    "key": "script:0088:068B",
    "src": "13e35e188044",
    "t": "<FACE:00>Hay que recuperar<NL>este bloque también"

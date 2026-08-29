@@ -125,8 +125,13 @@ def build(rom: Rom, charset: Charset | None = None, loose: bool = True,
 
     ``seeds`` are canonical (Kuwagata) offsets of loose strings a pack already
     translates; on another release they are followed through the alignment to
-    catch what the scan words differently there. They are ignored on Kuwagata
-    itself, whose scan is what the keys were named from in the first place.
+    catch what the scan words differently there. They are followed on Kuwagata
+    too, because the scan is not a fixed list even here: it weighs a candidate
+    against a bigram model trained on the scripts, so widening what the script
+    walk finds moves the threshold, and four already-translated labels around
+    0x645E dropped out of the scan the day rescue_sites was added. A seed only
+    catalogues a line where the dump still holds the Japanese its fingerprint
+    was written against, so following one can never invent a line.
     """
     charset = charset or load_japanese()
     catalog = Catalog()
@@ -172,7 +177,7 @@ def build(rom: Rom, charset: Charset | None = None, loose: bool = True,
                 fixed=found.fixed,
             )
 
-        if seeds and rom.release.tag:
+        if seeds:
             for line in seeded(rom, charset, seeds, catalog.lines):
                 catalog.lines[line.key] = line
 

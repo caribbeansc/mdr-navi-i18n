@@ -112,9 +112,569 @@
    "t": "<FACE:05>(Mmm…)<NL><WAIT>(Tarjeta VIP RR 0001<DELAY:001E><NL> «Murasame Shiden»<DELAY:000A>…)<WAIT>(Con esto es como<NL> decir «yo fui»…)"
   },
   {
+   "key": "script:0027:1499",
+   "src": "cd41b168f1ff",
+   "t": "<FACE:07>¿Qué estás haciendo?"
+  },
+  {
+   "key": "script:0027:14A3",
+   "src": "423d879366be",
+   "t": "<FACE:12>…Ah, eres tú, Hiyori.<NL>"
+  },
+  {
+   "key": "script:0027:14B3",
+   "src": "782aea1d3754",
+   "t": "<FACE:11>Ya veo, dejé puesta la<NL>tarjeta… qué torpe."
+  },
+  {
+   "key": "script:0027:14D8",
+   "src": "006f27f4a613",
+   "t": "<FACE:06>¡Te pregunté qué<NL>estás haciendo!"
+  },
+  {
+   "key": "script:0027:14ED",
+   "src": "f7f1db785bf5",
+   "t": "<FACE:0F>Vaya, qué carácter.<WAIT><FACE:0F>Cuando te conocí…<NL><WAIT>te imaginé una joven<NL>bastante más fina."
+  },
+  {
+   "key": "script:0027:1533",
+   "src": "248ea5b33c49",
+   "t": "<FACE:06>¡No necesito que TÚ<NL>me creas fina!<WAIT>¡Responde la pregunta!"
+  },
+  {
+   "key": "script:0027:1565",
+   "src": "9013a272443c",
+   "t": "<FACE:0F>Entonces no hace falta<NL>responder. Sí, soy…<WAIT><FACE:01>¡Shiden!"
+  },
+  {
+   "key": "script:0027:1595",
+   "src": "714f8f42d0ef",
+   "t": "<FACE:0F>Que un medaguerrero<NL>sin siquiera rango<WAIT>llegara hasta aquí…<NL><WAIT>no lo vi venir.<NL>"
+  },
+  {
+   "key": "script:0027:15CF",
+   "src": "649a4a2a2ac1",
+   "t": "<FACE:12>El Cluster a la<NL>deriva, por ejemplo…<WAIT><FACE:10>Un suceso tras otro<NL>fuera de mis<WAIT>cálculos."
+  },
+  {
+   "key": "script:0027:160E",
+   "src": "2664e2ba4950",
+   "t": "<FACE:01>¿Tú trabajas para RR?"
+  },
+  {
+   "key": "script:0027:1625",
+   "src": "ca33e1667227",
+   "t": "<FACE:11>Je. Se me escapó.<WAIT><FACE:0F>Prácticamente te lo<NL>dije yo mismo.<WAIT>Eso, y la tarjeta que<NL>olvidé puesta…<WAIT>Una situación que no<NL>tenía prevista me ha<WAIT>alterado por completo.<NL>Qué torpeza la mía."
+  },
+  {
+   "key": "script:0027:16A4",
+   "src": "6bf844eff7e6",
+   "t": "<FACE:01>¿Qué eres tú para RR?"
+  },
+  {
+   "key": "script:0027:16BC",
+   "src": "e4a08c3449e1",
+   "t": "<FACE:10>Cuántas preguntas…<NL><WAIT><FACE:0F>Bien, responderé, sólo<NL>por esta vez.<WAIT>Creerlo o no ya es<NL>cosa de ustedes."
+  },
+  {
+   "key": "script:0027:16FD",
+   "src": "b32d67e2c2df",
+   "t": "<FACE:06>¡Deja el misterio y<NL>responde ya!"
+  },
+  {
+   "key": "script:0027:1714",
+   "src": "cd97cfff8b9b",
+   "t": "<FACE:0F>Pregunto yo entonces…<NL><WAIT>Si dijera que yo…<NL><WAIT>en realidad dirijo RR,<NL>¿me creerían?"
+  },
+  {
+   "key": "script:0027:175D",
+   "src": "0e42b24e57ca",
+   "t": "<FACE:03>¿¡Qué!?"
+  },
+  {
+   "key": "script:0027:1764",
+   "src": "9e165e679331",
+   "t": "<FACE:0F>¿Qué pasa?<NL><WAIT>Si tienen algo que<NL>decir, díganlo."
+  },
+  {
+   "key": "script:0027:1786",
+   "src": "5e973e02da9e",
+   "t": "<FACE:05>Suena difícil de<NL>creer.<WAIT>Pero alterar los datos<WAIT>y quedarse siempre en<NL>la cima del ranking…<WAIT>sólo alguien que manda<NL>podría hacer eso, sí."
+  },
+  {
+   "key": "script:0027:17E1",
+   "src": "325d157c528a",
+   "t": "<FACE:0F>Nada es imposible para<NL>un genio de la red."
+  },
+  {
+   "key": "script:0027:1802",
+   "src": "015c69f13a64",
+   "t": "<FACE:05>Pues para ser genio<NL>lo ocultaste muy mal."
+  },
+  {
+   "key": "script:0027:181C",
+   "src": "9e0d77c8af2a",
+   "t": "<FACE:11>Je… no tanto.<NL><WAIT><FACE:0F>Ustedes son los únicos<NL>que lo saben.<NL>"
+  },
+  {
+   "key": "script:0027:1846",
+   "src": "4e12963717bf",
+   "t": "<FACE:0F>Y el Cluster va a la<NL>deriva ahora mismo.<WAIT>Cuando vuelva el<NL>control, yo ya habré<WAIT>borrado todo rastro<NL>de la manipulación."
+  },
+  {
+   "key": "script:0027:18A7",
+   "src": "d806365bacb8",
+   "t": "<FACE:0F>…¿A quién creerán, a<NL>ustedes o a mí?<WAIT><FACE:11>Sin pruebas, su<NL>versión será sólo la<WAIT>envidia<WAIT>de quien no llega a la<NL>cima. Nada más."
+  },
+  {
+   "key": "script:0027:1912",
+   "src": "5afb551878df",
+   "t": "<FACE:06>¡Serás cobarde!"
+  },
+  {
+   "key": "script:0027:1922",
+   "src": "28f125c79a0c",
+   "t": "<FACE:04>Shiden… ¿de verdad<NL>esto te hace feliz?<WAIT><FACE:10>¿Feliz? Bah.<NL>"
+  },
+  {
+   "key": "script:0027:194E",
+   "src": "7a0a000bf66a",
+   "t": "<FACE:0F>No entiendo."
+  },
+  {
+   "key": "script:0027:195E",
+   "src": "aca5906959e7",
+   "t": "<FACE:01>El que no entiende soy<NL>yo.<WAIT><FACE:01>Llegar tan lejos<WAIT>sólo por el primer<NL>puesto, ¿es<WAIT>divertido?<WAIT>Yo lo odiaría."
+  },
+  {
+   "key": "script:0027:19A3",
+   "src": "3bfbea567b5e",
+   "t": "<FACE:0F>Sólo sabes palabras<NL>bonitas, muchacho…<WAIT><FACE:10>Un combate que no se<NL>gana no sirve de<WAIT>nada.<WAIT>Deja esa blandura o<NL>serás un perdedor."
+  },
+  {
+   "key": "script:0027:1A04",
+   "src": "a89b88c80cdc",
+   "t": "<FACE:06>¡Ay, qué rabia me das!<WAIT>¡Esa forma de pensar<NL>ya es la del<WAIT>perdedor!<WAIT>¿¡No lo entiendes!?"
+  },
+  {
+   "key": "script:0027:1A45",
+   "src": "c2af15ebe097",
+   "t": "<FACE:03>¡H-Hiyori, Hiyori!"
+  },
+  {
+   "key": "script:0027:1A52",
+   "src": "e206b8dc4214",
+   "t": "<FACE:0F>Je… da igual.<WAIT>Tengo tiempo de sobra<NL>y nadie que me pare."
+  },
+  {
+   "key": "script:0027:1A83",
+   "src": "2f83edc85137",
+   "t": "<FACE:06>¡Oye, espera!"
+  },
+  {
+   "key": "script:0027:1A8F",
+   "src": "75192ce32c4c",
+   "t": "<FACE:00>Hiyori…"
+  },
+  {
+   "key": "script:0027:1A97",
+   "src": "9e4bf45fc772",
+   "t": "<FACE:06>¿Qué?"
+  },
+  {
+   "key": "script:0027:1A9F",
+   "src": "e07958478253",
+   "t": "<FACE:04>No entiendo de cosas<NL>complicadas,<WAIT>y quizá sí soy un<NL>ingenuo."
+  },
+  {
+   "key": "script:0027:1AD1",
+   "src": "f95513b1f8c0",
+   "t": "<FACE:01>Pero como<NL>medaguerrero, igual<WAIT>que tú,<WAIT>creo que te equivocas."
+  },
+  {
+   "key": "script:0027:1AFF",
+   "src": "ed488dfd9a04",
+   "t": "<FACE:0F>¿Y bien?"
+  },
+  {
+   "key": "script:0027:1B06",
+   "src": "3165b9d40959",
+   "t": "<FACE:01>¡Los Medabots dirán<NL>quién tiene razón!<WAIT>¡Robobatalla, Shiden!"
+  },
+  {
+   "key": "script:0027:1B3A",
+   "src": "40a24cb494f3",
+   "t": "<FACE:11>Bah.<WAIT><FACE:0F>Un pensar tan simple y<NL>ligero no es para mí."
+  },
+  {
+   "key": "script:0027:1B66",
+   "src": "80efbf5c347e",
+   "t": "<FACE:10>¿Quién eres?"
+  },
+  {
+   "key": "script:0027:1B6F",
+   "src": "c9c61d9f5e74",
+   "t": "<FACE:14>¡Ah! ¡Ahí están!"
+  },
+  {
+   "key": "script:0027:1B7D",
+   "src": "b350697033be",
+   "t": "<FACE:03>¿Q-qué quieren?<WAIT><FACE:08>¿No estaban con la<NL>computadora de allá?"
+  },
+  {
+   "key": "script:0027:1BA9",
+   "src": "1e5d3dccc76b",
+   "t": "<FACE:14>¡Nuestro líder se nos<NL>desapareció!"
+  },
+  {
+   "key": "script:0027:1BC2",
+   "src": "1d337d17b945",
+   "t": "<FACE:19>Estaba con nosotros<NL>hace nada, ¿sabe?<WAIT><FACE:14>Pensamos que ustedes<NL>lo habrían visto."
+  },
+  {
+   "key": "script:0027:1BF7",
+   "src": "da620e202a23",
+   "t": "<FACE:00>Yo no lo vi.<WAIT><FACE:05>Yo tampoco."
+  },
+  {
+   "key": "script:0027:1C14",
+   "src": "15692a393ead",
+   "t": "<FACE:11>Vaya, vaya…<NL><WAIT>cuánta compañía has<NL>reunido."
+  },
+  {
+   "key": "script:0027:1C36",
+   "src": "da7fd2c41a72",
+   "t": "<FACE:14>¡Ah, cierto! ¡Tú!<NL>¿Viste a nuestro<WAIT>líder?<WAIT><FACE:1A>¡Ocultar cosas no te<NL>conviene-robo!"
+  },
+  {
+   "key": "script:0027:1C69",
+   "src": "4f0b6becd528",
+   "t": "<FACE:0F>Déjame pensar…"
+  },
+  {
+   "key": "script:0027:1C73",
+   "src": "4fb133e2cba6",
+   "t": "<FACE:06>¿Qué pretendes?"
+  },
+  {
+   "key": "script:0027:1C7F",
+   "src": "b5345336cd87",
+   "t": "<FACE:11>Un pequeño juego.<NL><WAIT>Sería una lástima no<NL>usar el sistema que<WAIT>tienen aquí."
+  },
+  {
+   "key": "script:0027:1CB5",
+   "src": "5f745188106c",
+   "t": "<FACE:00>¿O sea?"
+  },
+  {
+   "key": "script:0027:1CBC",
+   "src": "4e5160ea3e77",
+   "t": "<FACE:0F>La «Bola Reloj».<WAIT>Lleva dentro una IA y<NL>un Medarreloj,<WAIT>así que puede dar<NL>órdenes a un Medabot<WAIT>en plena robobatalla.<WAIT>Una bola controla a un<NL>solo Medabot.<WAIT>…Un medaguerrero de<NL>IA, si prefieres.<WAIT>Así que, por las<NL>reglas oficiales del<WAIT>torneo<WAIT>de RR, será un combate<NL>de cinco contra<WAIT>cinco.<WAIT><FACE:11>Como estoy solo, usaré<NL>cuatro Bolas Reloj.<WAIT>¿Alguna objeción?"
+  },
+  {
+   "key": "script:0027:1DA2",
+   "src": "b10a2ab6a341",
+   "t": "<FACE:15>¡Oye, oye, este tipo<NL>lo decide todo solo!<WAIT>¡Andamos ocupados<NL>buscando a nuestro<WAIT>jefe!<WAIT>¡Molesta a otro!<WAIT><FACE:1A>¡Eso-robo!"
+  },
+  {
+   "key": "script:0027:1DF2",
+   "src": "9f5ac7e2df6d",
+   "t": "<FACE:01>Bien, con esas reglas.<NL>¡No vamos a perder!"
+  },
+  {
+   "key": "script:0027:1E20",
+   "src": "ff3562ef4bc5",
+   "t": "<FACE:17>O-oye, ¿qué? Así sin<NL>más…<WAIT><FACE:1C>¡A nosotros nadie nos<NL>avisó-robo!"
+  },
+  {
+   "key": "script:0027:1E49",
+   "src": "89c5579e379e",
+   "t": "<FACE:05>Es el número uno de<NL>todo el ranking.<WAIT><FACE:07>Si le ganan, podrán<NL>presumirlo siempre[<3]"
+  },
+  {
+   "key": "script:0027:1E7D",
+   "src": "03551d390f3e",
+   "t": "<FACE:19>B-bueno, dicho así<NL>-robo…"
+  },
+  {
+   "key": "script:0027:1E8C",
+   "src": "3dce0dd7c13b",
+   "t": "<FACE:14>¡Eso! ¡Le ganamos y<NL>el jefe nos verá!"
+  },
+  {
+   "key": "script:0027:1EAF",
+   "src": "3211229d41b0",
+   "t": "<FACE:07>(Qué fáciles son[<3])"
+  },
+  {
+   "key": "script:0027:1EC1",
+   "src": "c4af6d8219c5",
+   "t": "<FACE:0F>Parece que están<NL>listos. Empecemos…"
+  },
+  {
+   "key": "script:0027:1EDF",
+   "src": "112d919d53ba",
+   "t": "<FACE:10>Tsk…"
+  },
+  {
+   "key": "script:0027:1EE7",
+   "src": "fbad7c9efa8e",
+   "t": "<FACE:06>¿Y bien?<WAIT>No sé quién te crees<NL>que eres,<WAIT>pero jamás perderemos<NL>contra alguien que<WAIT>cree<WAIT>que alterar datos es<NL>ganar."
+  },
+  {
+   "key": "script:0027:1F39",
+   "src": "2fed3091d95e",
+   "t": "<FACE:17>¿Alterar datos? ¿De<NL>qué hablan?<WAIT><FACE:1A>¿Entonces lo del<NL>primer puesto era<WAIT>mentira-robo?"
+  },
+  {
+   "key": "script:0027:1F70",
+   "src": "8efab5878f48",
+   "t": "<FACE:04>Shiden…<WAIT>¿Sabes por qué<NL>perdiste?<WAIT>Eres fuerte, sí, pero<NL>en tu forma de pelear<WAIT>no hay ni un poco de<NL>cariño por tus<WAIT>Medabots.<WAIT>Con un medaguerrero<NL>así,<WAIT>los Medabots no dan<NL>todo lo que tienen.<WAIT><FACE:01>¡Apoyarse en Bolas<NL>Reloj está mal!"
+  },
+  {
+   "key": "script:0027:2011",
+   "src": "f9fd3fb81461",
+   "t": "<FACE:10>¿Y con eso pretendes<NL>convencerme?"
+  },
+  {
+   "key": "script:0027:202A",
+   "src": "3d4b7bed9c7b",
+   "t": "<FACE:0F>Puede que esta vez<NL>hayan ganado."
+  },
+  {
+   "key": "script:0027:2048",
+   "src": "4cf140ad6be7",
+   "t": "<FACE:10>Pero recuérdalo:<NL>al final gano yo."
+  },
+  {
+   "key": "script:0027:2068",
+   "src": "1352e6b3c59c",
+   "t": "<FACE:06>¡Ah, espera!"
+  },
+  {
+   "key": "script:0027:2076",
+   "src": "e2edee8745bc",
+   "t": "<FACE:06>¿¡Por qué me<NL>detienes!?<WAIT>¡Si lo dejamos irá a<NL>borrar las pruebas de<WAIT>lo que hizo en otra<NL>parte!<WAIT>¡Esta no es la única<NL>terminal, sabes!"
+  },
+  {
+   "key": "script:0027:20CD",
+   "src": "ce7d3506c339",
+   "t": "<FACE:01>Detenerlo ahora no<NL>sirve de nada.<WAIT>Si no cambia su forma<NL>de pensar,<WAIT>lo volverá a hacer."
+  },
+  {
+   "key": "script:0027:2101",
+   "src": "63b9a6d0bdd0",
+   "t": "<FACE:06>¡Pero no está bien!<WAIT><FACE:02>Tranquila, Hiyori.<NL>Yo lo haré cambiar."
+  },
+  {
+   "key": "script:0027:2134",
+   "src": "18a3e44393da",
+   "t": "<FACE:09>Uf. ¿De dónde saca<NL>tanta seguridad?"
+  },
+  {
+   "key": "script:0027:2151",
+   "src": "99c101a59474",
+   "t": "<FACE:08>Cierto, hay que<NL>recuperar el bloque…"
+  },
+  {
+   "key": "script:0027:2175",
+   "src": "cb8ad88cdeed",
+   "t": "<FACE:05>El panel es ese."
+  },
+  {
+   "key": "script:0027:2183",
+   "src": "49593fdb1ac2",
+   "t": "<FACE:53>Computadora central<DELAY:0078><DELAY:0006><NL>«Navi» reiniciando.<DELAY:003C><DELAY:0014><END>"
+  },
+  {
+   "key": "script:0027:21AB",
+   "src": "3250b5ab63cd",
+   "t": "<FACE:53>Chequeo de sistemas…<WAIT><FACE:02>¡Bien!<WAIT><FACE:00>¡Ya podemos ver cómo<NL>está el Cluster!"
+  },
+  {
+   "key": "script:0027:21D9",
+   "src": "70b4a5aeaa29",
+   "t": "<FACE:53>El Cluster se ha<NL>desviado mucho de su<WAIT>órbita y hay que<NL>corregirla ya…<WAIT><FACE:00>Eso ya lo sabemos,<NL>Navi. ¿Qué hacemos?"
+  },
+  {
+   "key": "script:0027:2240",
+   "src": "bd18ebab63e4",
+   "t": "<FACE:53>El 80 por ciento de<NL>los bloques quedó<WAIT>incomunicado y no se<NL>puede acceder…<WAIT>La reconstrucción<NL>automática de la red<WAIT>no funciona…<WAIT>Hay que reiniciar a<NL>mano el control de<WAIT>cada bloque."
+  },
+  {
+   "key": "script:0027:22CF",
+   "src": "277492951530",
+   "t": "<FACE:08>¿Hasta el otro extremo<NL>del Cluster?"
+  },
+  {
+   "key": "script:0027:22F7",
+   "src": "1bd455871be2",
+   "t": "<FACE:09>Aaaaayyy…"
+  },
+  {
+   "key": "script:0027:2302",
+   "src": "a286f087b485",
+   "t": "<FACE:53>No puedo permitirlo.<WAIT>Mientras no conozca el<NL>estado de cada<WAIT>bloque,<WAIT>no puedo poner en<NL>peligro a los<WAIT>invitados."
+  },
+  {
+   "key": "script:0027:234E",
+   "src": "91f7f23986da",
+   "t": "<FACE:08>¡Qué!<WAIT><FACE:06>¿¡Y cómo se supone que<NL>volvemos a la Tierra!"
+  },
+  {
+   "key": "script:0027:2373",
+   "src": "f92d14a13433",
+   "t": "<FACE:01>¡Ella tiene razón,<NL>Navi!<WAIT>¡Y más adelante hay<NL>amigos nuestros<WAIT>atrapados! Preocúpate<NL>por ellos, no por…"
+  },
+  {
+   "key": "script:0027:23BC",
+   "src": "b45d71a1fb93",
+   "t": "<FACE:53>¿Preocuparme?<NL><WAIT>Ese parámetro no está<NL>definido.<WAIT>Según las reglas de<NL>atención a invitados…"
+  },
+  {
+   "key": "script:0027:23F6",
+   "src": "568602d12e6d",
+   "t": "<FACE:05>¿Reglas? ¿Y esas<NL>reglas<WAIT>dicen que hay que<NL>dejar a un invitado<WAIT>en un<WAIT>bloque que no conoces?"
+  },
+  {
+   "key": "script:0027:243C",
+   "src": "e00a60512d9f",
+   "t": "<FACE:53>No…<WAIT>Rescatar invitados es<NL>lo prioritario.<WAIT>Pero eso lo hace el<NL>personal del Cluster…"
+  },
+  {
+   "key": "script:0027:2481",
+   "src": "1eac503dbb5d",
+   "t": "<FACE:00>¡Entonces háznos<NL>personal temporal!<WAIT><FACE:53>Eso es…"
+  },
+  {
+   "key": "script:0027:24AF",
+   "src": "25af8a1a0390",
+   "t": "<FACE:08>¡Eso! <PLAYER>,<NL>¡saca a <MEDABOT>!<WAIT><FACE:03>¿Eh? Ah… sí."
+  },
+  {
+   "key": "script:0027:24CF",
+   "src": "b052549e31d6",
+   "t": "<FACE:05>¡Mira este Medabot!<NL><WAIT>¡Nos lo dio tu jefe,<NL>Murasame Shiden!<WAIT>¡O sea que él y<NL><PLAYER> son socios!<WAIT>¿Y bien?<NL><WAIT>¿Sigues sin hacernos<NL>personal?"
+  },
+  {
+   "key": "script:0027:252C",
+   "src": "bf9eca274d15",
+   "t": "<FACE:53>Cierto… ese Medabot<NL>es un modelo inédito…"
+  },
+  {
+   "key": "script:0027:2555",
+   "src": "a52a93081249",
+   "t": "<FACE:03>(¡Hiyori! ¿Socios él<NL> y yo? ¡Es mentira!)"
+  },
+  {
+   "key": "script:0027:2579",
+   "src": "e484efbe300b",
+   "t": "<FACE:06>(¡Da igual! ¡Es una<NL>computadora!)<WAIT><FACE:04>(Computadora o no,<NL>mentir está mal.)<WAIT>(Es una amiga que nos<NL>cuida…)"
+  },
+  {
+   "key": "script:0027:25DD",
+   "src": "0d39acc13caa",
+   "t": "<FACE:53>…<WAIT>…Entendido.<WAIT>Quedan autorizados<NL>como personal<WAIT>temporal<WAIT>de rescate.<WAIT>Modificaré sus<NL>Medarrelojes para<WAIT>hablar dentro del<NL>Cluster."
+  },
+  {
+   "key": "script:0027:2643",
+   "src": "9b0400f809c0",
+   "t": "<FACE:07>¡Podemos hablarle!"
+  },
+  {
+   "key": "script:0027:264C",
+   "src": "5bd58f89256e",
+   "t": "<FACE:05>(¿Ves? Portarse bien…)<WAIT><FACE:06>(¡En la vida no bastan<NL>las palabras<WAIT>bonitas!)"
+  },
+  {
+   "key": "script:0027:2682",
+   "src": "37cd533c663c",
+   "t": "<FACE:04>(Pero…)<WAIT><FACE:53>…"
+  },
+  {
+   "key": "script:0027:2691",
+   "src": "9140a5306f73",
+   "t": "<FACE:8E>En fin, la computadora<NL>central ya arrancó…<WAIT>al menos evitamos<NL>lo peor."
+  },
+  {
+   "key": "script:0027:26CC",
+   "src": "968989cee31e",
+   "t": "<FACE:03>¡Ah! ¡La eminencia de<NL>los Medabots, el<WAIT>Doctor!<WAIT><FACE:8E>Mm… ¿y tu nombre?"
+  },
+  {
+   "key": "script:0027:2701",
+   "src": "78dd39b60dd2",
+   "t": "<FACE:00>Soy <PLAYER>.<WAIT>Jefe temporal del<NL>grupo atrapado aquí…<WAIT><FACE:03>¡Ah!<WAIT><FACE:00>¡Y hace un momento nos<NL>hicieron personal<WAIT>temporal del Cluster!<WAIT><FACE:8F>¿Temporal? …en fin…<WAIT><FACE:8E>Aquí es el laboratorio<NL>de Medabots.<WAIT>Vaya situación en la<NL>que están…<WAIT>Para investigar<NL>pedimos ayuda a RR,<WAIT>y estamos enlazados<NL>por un sistema propio<WAIT>Parece que sólo esta<NL>línea llega allá…"
+  },
+  {
+   "key": "script:0027:27F8",
+   "src": "0bce9f5bd2c5",
+   "t": "<FACE:04>Doctor… sobre RR…<WAIT><FACE:8E>Mm… parece que traman<NL>algo raro…<WAIT>Por ahora conviene<WAIT>ocultarle esta línea a<NL>RR.<WAIT><FACE:00>Sí, por favor.<WAIT><FACE:8E>Por el informe de Navi<NL>ya sé cómo están.<WAIT>Lo que me inquieta son<NL>los bloques sin<WAIT>acceso.<WAIT>El Cluster va a la<NL>deriva porque alguien<WAIT>encendió el motor de<NL>corrección de órbita,<WAIT><FACE:8F>y quien lo hizo debe<NL>seguir escondido.<WAIT><FACE:00>¡Entonces la deriva no<NL>fue un accidente!<WAIT><FACE:8E>Aun así…<WAIT>aunque no recuperen el<NL>control total,<WAIT>casi todo el Cluster<NL>debería funcionar ya.<WAIT>Los apoyaremos desde<NL>aquí,<WAIT>así que les pido que<NL>se esfuercen…"
+  },
+  {
+   "key": "script:0027:29AA",
+   "src": "3be4841f2145",
+   "t": "<FACE:00>¡Entendido!<NL>Gracias, Doctor.<WAIT><FACE:8E>Por lo pronto, en esa<NL>sala hay Medallas y<WAIT>Tinpets. Úsenlos para<NL>reforzar el equipo.<WAIT><FACE:00>¡Sí!"
+  },
+  {
+   "key": "script:0027:2A02",
+   "src": "c22ab4356016",
+   "t": "<FACE:8E>Y otra cosa…<WAIT>más adelante hay<NL>«Salas» que<WAIT>desarrollan<WAIT>Medabots. Coloquen a<NL>sus amigos y<WAIT>pónganlas<WAIT>a funcionar y sacarán<NL>partes en desarrollo.<WAIT>Aprovéchenlas.<WAIT><FACE:00>¡Las partes más<NL>nuevas! ¡Qué alivio!"
+  },
+  {
+   "key": "script:0027:2A92",
+   "src": "ee8a42415b2a",
+   "t": "<FACE:19>¡Jefe!<WAIT><FACE:14>¡Lo andábamos<NL>buscando!"
+  },
+  {
+   "key": "script:0027:2AA5",
+   "src": "8f54ff3c2485",
+   "t": "<FACE:00>Fubuki, ¿dónde<NL>estabas?"
+  },
+  {
+   "key": "script:0027:2AB8",
+   "src": "af717f474367",
+   "t": "<FACE:0A>En ningún lado…<WAIT>Estaba averiguando una<NL>cosa.<WAIT>Busqué cómo recuperar<NL>el control del<WAIT>Cluster,<WAIT>pero <FACE:0E>no hay nada que<NL>hacer."
+  },
+  {
+   "key": "script:0027:2B0C",
+   "src": "a776fbd35cd2",
+   "t": "<FACE:04>Mmm, ya veo…"
+  },
+  {
+   "key": "script:0027:2B18",
+   "src": "6c607046dcf0",
+   "t": "<FACE:05>De nada sirve<NL>lamentarse. Sigamos."
+  },
+  {
    "key": "script:0027:2B44",
    "src": "e5bb080bc9ba",
    "t": "<FACE:04>Es aquí…<NL><WAIT><FACE:01>¡Rápido!<NL>¡Hiyori y yo por acá!<WAIT>Fubuki, ustedes vayan<NL>por allá.<WAIT><FACE:0A>Entendido."
+  },
+  {
+   "key": "script:0027:2B7D",
+   "src": "7b4686d4ca59",
+   "t": "<FACE:0A>¿Mm?"
+  },
+  {
+   "key": "script:0027:2B82",
+   "src": "e96d52699f27",
+   "t": "<FACE:0A>¿Y esto…?"
+  },
+  {
+   "key": "script:0027:2B8B",
+   "src": "dd6fc591e5b3",
+   "t": "<FACE:05>Vaya, ¿un pétalo?<NL>¿Qué hace aquí?"
+  },
+  {
+   "key": "script:0027:2BA9",
+   "src": "7203e8467be8",
+   "t": "<FACE:00>Oye, ¿qué pasa,<NL>Fubuki? Vamos ya."
+  },
+  {
+   "key": "script:0027:2BC3",
+   "src": "aa6e4ca42093",
+   "t": "<FACE:0D>Ah… sí…"
   }
  ]
 }

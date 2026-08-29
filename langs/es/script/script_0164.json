@@ -22,6 +22,16 @@
    "t": "<FACE:36>Así lo haremos, sí"
   },
   {
+   "key": "script:0164:0397",
+   "src": "1e77dbf3ef64",
+   "t": "<FACE:34>Vaya, qué persona<NL>más grosera<WAIT>¡Fuera de aquí!"
+  },
+  {
+   "key": "script:0164:03B6",
+   "src": "917c3dd0cd94",
+   "t": "<FACE:04>Ay ay ay ay…"
+  },
+  {
    "key": "script:0164:03F0",
    "src": "f460c14fd8d9",
    "t": "<FACE:33>No hay remedio…<NL>Sea, solo un poquito<WAIT>puedo mostrarles esta<NL>mansión tan lujosa"

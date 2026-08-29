@@ -77,9 +77,174 @@
    "t": "<FACE:15>¡Qué dices!<NL>¡Yo soy mejor que tú!<WAIT><FACE:14>¡Yo le enseño, líder!"
   },
   {
+   "key": "script:0078:0EDC",
+   "src": "fb62f9d3d8f7",
+   "t": "<FACE:00>¡Es esto!<NL><WAIT>Esto es lo que mueve<NL>esas bocinas…"
+  },
+  {
+   "key": "script:0078:0EF8",
+   "src": "16b7f6e54317",
+   "t": "<FACE:05>Vaya, es verdad…<NL><WAIT>¡Este es el cable de<NL>esa bocina!"
+  },
+  {
+   "key": "script:0078:0F19",
+   "src": "7c8ce4242b6b",
+   "t": "<FACE:19>Entonces lo cortamos,<NL>¿no-robo?"
+  },
+  {
+   "key": "script:0078:0F32",
+   "src": "08e63c4095a8",
+   "t": "<FACE:14>¡Eso! ¡Si lo cortas<NL>se acaba el ruido!"
+  },
+  {
+   "key": "script:0078:0F52",
+   "src": "b574bf16e9f9",
+   "t": "<FACE:0A>Córtalo ya con tu<NL>Medabot, <PLAYER>!"
+  },
+  {
+   "key": "script:0078:0F6F",
+   "src": "74ebf94f40dd",
+   "t": "<FACE:80>Yujuuu (crac)…"
+  },
+  {
+   "key": "script:0078:0F7D",
+   "src": "401671ef566e",
+   "t": "<FACE:7D>¿Eh… la bocina se<NL>paró-robo? ¿Qué<WAIT>pasó-robo?"
+  },
+  {
+   "key": "script:0078:0FA0",
+   "src": "abcb1c9b5fdf",
+   "t": "<FACE:7E>¡Son ellos-robo!<NL>"
+  },
+  {
+   "key": "script:0078:0FAB",
+   "src": "d13e4188f32d",
+   "t": "<FACE:7E>¡Cortaron el cable<NL>-robo!"
+  },
+  {
+   "key": "script:0078:0FC2",
+   "src": "b970b7d6105f",
+   "t": "<FACE:02>¡Lo logramos!<NL>¡Se cortó el sonido!"
+  },
+  {
+   "key": "script:0078:0FDB",
+   "src": "ad51ac2b1405",
+   "t": "<FACE:02>Una preocupación<NL>menos…"
+  },
+  {
+   "key": "script:0078:0FEA",
+   "src": "2f297e1f6bdc",
+   "t": "<FACE:08>Oye, esos de allá<NL>están armando<WAIT>escándalo"
+  },
+  {
+   "key": "script:0078:1007",
+   "src": "671e1a760d25",
+   "t": "<FACE:05>Parece que nos vieron<WAIT><FACE:19>¡Se ven muy enojados<NL>-robo!<WAIT><FACE:14>¡Vienen para acá!"
+  },
+  {
+   "key": "script:0078:103E",
+   "src": "d2e03bdbd63e",
+   "t": "<FACE:01>¡Pelear de frente es<NL>mala idea!<WAIT>¡Escondámonos y nos<NL>reorganizamos!<WAIT>Quiero armar un<NL>Medabot que sirva en<WAIT>este campo…"
+  },
+  {
+   "key": "script:0078:108C",
+   "src": "48f050cdf88f",
+   "t": "<FACE:06>¿¡De qué hablas!?"
+  },
+  {
+   "key": "script:0078:1098",
+   "src": "c3c6755278e6",
+   "t": "<FACE:03>¿¡Eh!?"
+  },
+  {
+   "key": "script:0078:109E",
+   "src": "e6660a1da8d2",
+   "t": "<FACE:06>¡Llevo rato diciendo<NL>que tengo frío!"
+  },
+  {
+   "key": "script:0078:10BA",
+   "src": "4560b2ed0c69",
+   "t": "<FACE:04>Eh, bueno…<WAIT><FACE:06>¡Acaba con ellos y<NL>toma el bloque!"
+  },
+  {
+   "key": "script:0078:10E3",
+   "src": "74042672bd66",
+   "t": "<FACE:7E>¡Oigan! ¡Ustedes!<NL>¡Vaya travesura-robo!<WAIT>¡Ahora les vamos a dar<NL>una lecc…"
+  },
+  {
+   "key": "script:0078:1112",
+   "src": "829f328e31e5",
+   "t": "<FACE:06>¡Robobatalla, ya!"
+  },
+  {
+   "key": "script:0078:1121",
+   "src": "2a8ecc82a8c7",
+   "t": "<FACE:81>…¿¡Eh!?… ¡sí-robo!"
+  },
+  {
+   "key": "script:0078:1131",
+   "src": "f6efbfb627da",
+   "t": "<FACE:06>¡Sí, sí, perdieron!<NL><WAIT>¡Ahora largo de aquí,<NL>todos ustedes!"
+  },
+  {
+   "key": "script:0078:1157",
+   "src": "f2516db09892",
+   "t": "<FACE:08>¡Brrr, qué frío!"
+  },
+  {
+   "key": "script:0078:1160",
+   "src": "9d1c79ebc357",
+   "t": "<FACE:7E>¡Tontooos-robo!"
+  },
+  {
+   "key": "script:0078:1170",
+   "src": "a2fb37753f14",
+   "t": "<FACE:08>¡Cuidado! ¡Ese temblor<NL>fue más fuerte!<NL>"
+  },
+  {
+   "key": "script:0078:118B",
+   "src": "c5e5e1819268",
+   "t": "<FACE:08>¡Va a haber una<NL>avalancha! ¡<PLAYER>!<WAIT><FACE:05>¡Toma el control de<NL>este bloque, rápido!<WAIT><FACE:03>¡Qué! Pero…<WAIT><FACE:05>¡¿Qué estás diciendo?!<NL><WAIT>¡Si no te apuras no<NL>vamos a poder seguir!<WAIT><FACE:04>No… es que…<NL><WAIT>la avalancha nos…"
+  },
+  {
+   "key": "script:0078:120F",
+   "src": "57928b2c386e",
+   "t": "<FACE:06>¡Anda ya!"
+  },
+  {
+   "key": "script:0078:121E",
+   "src": "3505e750d6b0",
+   "t": "<FACE:00>Uf…<NL>Llegué de milagro…"
+  },
+  {
+   "key": "script:0078:1233",
+   "src": "af528af3872b",
+   "t": "<FACE:08>¡<PLAYER>!"
+  },
+  {
+   "key": "script:0078:123C",
+   "src": "623b0a8ff7f2",
+   "t": "<FACE:0D>Claro…<NL><WAIT>tampoco iban a recrear<NL>la avalancha…"
+  },
+  {
+   "key": "script:0078:125C",
+   "src": "b15e7648d2a4",
+   "t": "<FACE:05>…Menos mal"
+  },
+  {
    "key": "script:0078:1269",
    "src": "5ec8e6fce898",
    "t": "<FACE:01>¡Hay que apagar esos<NL>altavoces ya!"
+  },
+  {
+   "key": "script:0078:1280",
+   "src": "40edeee9748c",
+   "t": "<FACE:04>¿Una maqueta…?"
+  },
+  {
+   "key": "script:0078:128A",
+   "src": "961967045469",
+   "t": "<FACE:00>Cuento contigo,<NL><MEDABOT>"
   }
  ]
 }

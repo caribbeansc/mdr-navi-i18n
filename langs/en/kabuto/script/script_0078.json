@@ -77,9 +77,164 @@
    "t": "<FACE:15>What are you saying!<NL>I'm better than you!<WAIT><FACE:14>I'll teach ya, leader!"
   },
   {
+   "key": "script:0078:0EFC",
+   "src": "fb62f9d3d8f7",
+   "t": "<FACE:00>This is it!<WAIT>This is what runs<NL>those speakers…"
+  },
+  {
+   "key": "script:0078:0F18",
+   "src": "16b7f6e54317",
+   "t": "<FACE:05>Oh, you're right…<NL><WAIT>This is the cable for<NL>that speaker!"
+  },
+  {
+   "key": "script:0078:0F39",
+   "src": "7c8ce4242b6b",
+   "t": "<FACE:19>So we just cut it,<NL>right-robo?"
+  },
+  {
+   "key": "script:0078:0F72",
+   "src": "b574bf16e9f9",
+   "t": "<FACE:0A>Hurry up and cut it<NL>with your Medabot,<WAIT><PLAYER>!"
+  },
+  {
+   "key": "script:0078:0F8F",
+   "src": "74ebf94f40dd",
+   "t": "<FACE:80>Yahooo (snap)…"
+  },
+  {
+   "key": "script:0078:0F9D",
+   "src": "401671ef566e",
+   "t": "<FACE:7D>Huh… the speaker's<NL>stopped-robo? What<WAIT>happened-robo!?"
+  },
+  {
+   "key": "script:0078:0FC0",
+   "src": "abcb1c9b5fdf",
+   "t": "<FACE:7E>It's them-robo!<NL>"
+  },
+  {
+   "key": "script:0078:0FCB",
+   "src": "d13e4188f32d",
+   "t": "<FACE:7E>They cut the<NL>cable-robo!!"
+  },
+  {
+   "key": "script:0078:0FE2",
+   "src": "b970b7d6105f",
+   "t": "<FACE:02>We did it!<NL>The speakers cut out!"
+  },
+  {
+   "key": "script:0078:0FFB",
+   "src": "ad51ac2b1405",
+   "t": "<FACE:02>That's one worry gone…"
+  },
+  {
+   "key": "script:0078:100A",
+   "src": "2f297e1f6bdc",
+   "t": "<FACE:08>That lot over there<NL>are making a racket"
+  },
+  {
+   "key": "script:0078:1027",
+   "src": "671e1a760d25",
+   "t": "<FACE:05>Looks like they<NL>noticed us<WAIT><FACE:19>They look really angry<NL>-robo!<WAIT><FACE:14>They're coming this<NL>way!"
+  },
+  {
+   "key": "script:0078:105E",
+   "src": "d2e03bdbd63e",
+   "t": "<FACE:01>Fighting them head on<NL>is a bad idea!<WAIT>Hide and regroup!<WAIT>I want a Medabot for<NL>this field, too…"
+  },
+  {
+   "key": "script:0078:10AC",
+   "src": "48f050cdf88f",
+   "t": "<FACE:06>What are you on about!"
+  },
+  {
+   "key": "script:0078:10B8",
+   "src": "c3c6755278e6",
+   "t": "<FACE:03>Huh!?"
+  },
+  {
+   "key": "script:0078:10BE",
+   "src": "e6660a1da8d2",
+   "t": "<FACE:06>I've been telling you<NL>I'm cold, cold!"
+  },
+  {
+   "key": "script:0078:10DA",
+   "src": "4560b2ed0c69",
+   "t": "<FACE:04>Er, well…<WAIT><FACE:06>Finish them off quick<NL>and take this Block!"
+  },
+  {
+   "key": "script:0078:1103",
+   "src": "74042672bd66",
+   "t": "<FACE:7E>Oi! You lot! Some<NL>prank, that-robo!<WAIT>Right, we'll teach you<NL>a…"
+  },
+  {
+   "key": "script:0078:1132",
+   "src": "829f328e31e5",
+   "t": "<FACE:06>Robattle, now!"
+  },
+  {
+   "key": "script:0078:1141",
+   "src": "2a8ecc82a8c7",
+   "t": "<FACE:81>…Huh!?… yes-robo!"
+  },
+  {
+   "key": "script:0078:1151",
+   "src": "f6efbfb627da",
+   "t": "<FACE:06>Yes, yes, you lost!<NL><WAIT>Now clear off, the<NL>lot of you!"
+  },
+  {
+   "key": "script:0078:1177",
+   "src": "f2516db09892",
+   "t": "<FACE:08>Brrr, so cold!"
+  },
+  {
+   "key": "script:0078:1180",
+   "src": "9d1c79ebc357",
+   "t": "<FACE:7E>You idiooots-robo!!"
+  },
+  {
+   "key": "script:0078:1190",
+   "src": "a2fb37753f14",
+   "t": "<FACE:08>Look out! That shake<NL>was the biggest yet!"
+  },
+  {
+   "key": "script:0078:11AB",
+   "src": "c5e5e1819268",
+   "t": "<FACE:08>There'll be an<NL>avalanche! <PLAYER>!<WAIT><FACE:05>Take control of this<NL>Block, quickly!<WAIT><FACE:03>What! But…<WAIT><FACE:05>What are you saying!<NL><WAIT>Hurry, or we won't be<NL>able to go on at all!<WAIT><FACE:04>No… um…<NL><WAIT>the avalanche will…"
+  },
+  {
+   "key": "script:0078:122F",
+   "src": "57928b2c386e",
+   "t": "<FACE:06>Get going!"
+  },
+  {
+   "key": "script:0078:123E",
+   "src": "3505e750d6b0",
+   "t": "<FACE:00>Phew…<NL>Made it somehow…"
+  },
+  {
+   "key": "script:0078:1253",
+   "src": "af528af3872b",
+   "t": "<FACE:08><PLAYER>!!!"
+  },
+  {
+   "key": "script:0078:127C",
+   "src": "b15e7648d2a4",
+   "t": "<FACE:05>…Thank goodness"
+  },
+  {
    "key": "script:0078:1289",
    "src": "5ec8e6fce898",
    "t": "<FACE:01>We have to stop those<NL>speakers, fast!"
+  },
+  {
+   "key": "script:0078:12A0",
+   "src": "40edeee9748c",
+   "t": "<FACE:04>A mock-up…?"
+  },
+  {
+   "key": "script:0078:12AA",
+   "src": "961967045469",
+   "t": "<FACE:00>You're up, <MEDABOT>"
   }
  ]
 }

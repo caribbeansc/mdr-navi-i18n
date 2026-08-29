@@ -21,16 +21,23 @@
 #                    build/medarot-navi-kuwagata-es.sav
 #
 # Needs DYLD_LIBRARY_PATH=$(brew --prefix mgba)/lib, like every gbashot run.
-# The key sequence is the Medarreloj one: B opens the bar, then RIGHT TWICE,
+# The key sequence is the Medarreloj one: B opens the bar, LEFT selects Save,
 # A opens the panel, UP moves off the default "No", A confirms.
 #
-# The second RIGHT is not padding. The bar is three entries wide —
-# Medarreloj | Ficha | Save — so one RIGHT lands on Ficha, and the A after it
-# opens the party sheet and walks its stat pages instead of saving. The repair
-# then fails with the save still stale, which reads exactly like the poke not
-# having worked; it is the menu that was wrong, not the pointer. Verify by
-# screenshotting frames 1040-1230: the help line under the bar names the
-# selected entry ("Revisa el poder de tus aliados" is Ficha, not Save).
+# LEFT, not RIGHT, and that is the whole trick. The bar GROWS as the game
+# unlocks entries — by the Cluster it is five wide (Medawatch | Team | Make |
+# Stats | Save), not the three this script was first written against — and it
+# WRAPS, so no fixed number of RIGHTs lands on Save for every save file: two
+# RIGHTs opened Make and walked its Block pages instead of saving, which reads
+# exactly like the poke not having worked. Save is the LAST entry, so one LEFT
+# from the freshly opened bar wraps straight onto it whatever the width.
+# Verify by screenshotting after the LEFT: the help line under the bar names
+# the selected entry ("Save your progress").
+#
+# The boot is done in two runs with a savestate between them, because the save
+# has to be LOADED before the menu keys mean anything and the A-mashing that
+# loads it would keep firing during the menu. A fixed handful of A presses is
+# not enough: a title screen plus the load menu can take past frame 1200.
 set -e
 
 ROM=$1
@@ -44,14 +51,12 @@ trap 'rm -rf "$WORK"' EXIT
 cp "$ROM" "$WORK/r.gba"
 cp "$SAV" "$WORK/r.sav"
 
-BOOT="--press 200:a:4 --press 280:a:4 --press 360:a:4 --press 440:a:4 \
-      --press 520:a:4 --press 600:a:4 --press 680:a:4"
-
-# Round one: boot into the loaded save and read the scene's map/sub bytes.
-# shellcheck disable=SC2086
+# Round one: mash A until the save is loaded, then freeze that moment. The
+# state is what lets round two drive the menu without A being mashed into it.
 DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH:-$(brew --prefix mgba)/lib} \
-  "$HERE/gbashot" "$WORK/r.gba" --frames 1200 $BOOT \
-  --dumpvram 1150:"$WORK/r.ram.bin" >/dev/null 2>&1
+  "$HERE/gbashot" "$WORK/r.gba" --frames 1300 --every 60:a \
+  --savestate 1280:"$WORK/loaded.state" \
+  --dumpvram 1250:"$WORK/r.ram.bin" >/dev/null 2>&1
 
 POINTER=$(python3 - "$WORK/r.ram.bin" "$WORK/r.gba" <<'PY'
 import struct, sys
@@ -63,13 +68,14 @@ PY
 )
 echo "puntero de escena correcto: 0x$POINTER"
 
-# Round two: poke it in and let the game save, hash and all.
-# shellcheck disable=SC2086
+# Round two: from the loaded state, poke it in and let the game save, hash
+# and all.
 DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH:-$(brew --prefix mgba)/lib} \
-  "$HERE/gbashot" "$WORK/r.gba" --frames 2000 $BOOT \
-  --poke 850:201B334:"$POINTER" \
-  --press 900:b:4 --press 960:right:4 --press 1020:right:4 --press 1080:a:4 \
-  --press 1180:up:4 --press 1260:a:4 --press 1420:a:4 --press 1570:a:4 \
+  "$HERE/gbashot" "$WORK/r.gba" --loadstate "$WORK/loaded.state" \
+  --frames 1100 --poke 20:201B334:"$POINTER" \
+  --press 60:b:4 --press 130:left:4 --press 200:a:4 \
+  --press 320:up:4 --press 400:a:4 \
+  --press 560:a:4 --press 720:a:4 --press 880:a:4 \
   >/dev/null 2>&1
 
 python3 "$HERE/savecheck.py" "$WORK/r.gba" "$WORK/r.sav"

@@ -115,6 +115,11 @@
    "key": "script:0158:05DD",
    "src": "0f1704124845",
    "t": "<FACE:02>Really!? I'll go check<NL>the other rooms!<WAIT>Thank you!"
+  },
+  {
+   "key": "script:0158:0607",
+   "src": "1a907b47598e",
+   "t": "<FACE:00>Good!<WAIT>Looks like it's<NL>running properly."
   }
  ]
 }

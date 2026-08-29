@@ -82,6 +82,46 @@
    "t": "<FACE:07>Just go, go on!"
   },
   {
+   "key": "script:0087:0936",
+   "src": "53a242764759",
+   "t": "<FACE:81>Aah… I told them not<NL>to…<WAIT>and here they<NL>are-robo…"
+  },
+  {
+   "key": "script:0087:095B",
+   "src": "d3d0fc6294bd",
+   "t": "<FACE:00>Right! Let's Robattle!"
+  },
+  {
+   "key": "script:0087:096C",
+   "src": "479fe3782a8c",
+   "t": "<FACE:7D>Fine, I admit I lost<NL>-robo…<WAIT>But how do you plan to<NL>get out of here-robo!"
+  },
+  {
+   "key": "script:0087:099F",
+   "src": "9f42f8cad610",
+   "t": "<FACE:7D>The ice is about to<NL>break-robo!<WAIT><FACE:04>…?<NL>"
+  },
+  {
+   "key": "script:0087:09C3",
+   "src": "4e72f2f30367",
+   "t": "<FACE:00>Can't we set the<NL>control unit colder<WAIT>to freeze it again?"
+  },
+  {
+   "key": "script:0087:09F2",
+   "src": "c453229802d9",
+   "t": "<FACE:7F>Ah! You're right-robo!<NL>"
+  },
+  {
+   "key": "script:0087:0A01",
+   "src": "152c707a0ea4",
+   "t": "<FACE:7F>Thank you-robo!"
+  },
+  {
+   "key": "script:0087:0A0D",
+   "src": "452605ed9138",
+   "t": "<FACE:06>If you're going to<NL>blow a freezing wind<WAIT>at us,<WAIT>say so first!"
+  },
+  {
    "key": "script:0087:0A31",
    "src": "177fb5c68bd7",
    "t": "<FACE:06>That's the wrong way!<NL>Hurry up and go!"

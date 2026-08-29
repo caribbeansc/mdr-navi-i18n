@@ -82,6 +82,46 @@
    "t": "<FACE:07>¡Ya, ya! ¡Anda!"
   },
   {
+   "key": "script:0087:0936",
+   "src": "53a242764759",
+   "t": "<FACE:81>Ay… tanto que les dije<NL>que no…<WAIT>y al final<NL>vinieron-robo"
+  },
+  {
+   "key": "script:0087:095B",
+   "src": "d3d0fc6294bd",
+   "t": "<FACE:00>¡Vamos! ¡Robobatalla!"
+  },
+  {
+   "key": "script:0087:096C",
+   "src": "479fe3782a8c",
+   "t": "<FACE:7D>Está bien, perdí-robo…<WAIT>¡Pero a ver cómo sales<NL>tú de aquí-robo!"
+  },
+  {
+   "key": "script:0087:099F",
+   "src": "9f42f8cad610",
+   "t": "<FACE:7D>¡El hielo está a punto<NL>de romperse-robo!<WAIT><FACE:04>…¿?<NL>"
+  },
+  {
+   "key": "script:0087:09C3",
+   "src": "4e72f2f30367",
+   "t": "<FACE:00>¿Y si bajamos la<NL>temperatura desde el<WAIT>control para<NL>congelarlo?"
+  },
+  {
+   "key": "script:0087:09F2",
+   "src": "c453229802d9",
+   "t": "<FACE:7F>¡Ah! ¡Es verdad-robo!<NL>"
+  },
+  {
+   "key": "script:0087:0A01",
+   "src": "152c707a0ea4",
+   "t": "<FACE:7F>¡Gracias-robo!"
+  },
+  {
+   "key": "script:0087:0A0D",
+   "src": "452605ed9138",
+   "t": "<FACE:06>¡Si vas a soplar<NL>viento helado, avisa!"
+  },
+  {
    "key": "script:0087:0A31",
    "src": "177fb5c68bd7",
    "t": "<FACE:06>¡No es por ahí!<NL>¡Apúrate y ve de una!"

@@ -37,6 +37,36 @@
    "t": "<FACE:05>That's right! Go on,<NL>go on!"
   },
   {
+   "key": "script:0088:060A",
+   "src": "be39b41bd129",
+   "t": "<FACE:7D>Knew you'd come-robo…"
+  },
+  {
+   "key": "script:0088:061B",
+   "src": "ed2a8480be7a",
+   "t": "<FACE:01>Right! Let's Robattle!"
+  },
+  {
+   "key": "script:0088:062C",
+   "src": "c943657cf7bc",
+   "t": "<FACE:7D>Then we'll freeze it<NL>again and be off-robo"
+  },
+  {
+   "key": "script:0088:0646",
+   "src": "a84644e790c3",
+   "t": "<FACE:03>Ah! Wait a se…"
+  },
+  {
+   "key": "script:0088:0657",
+   "src": "3c9c3d37faa3",
+   "t": "<FACE:80>Farewell-robo!"
+  },
+  {
+   "key": "script:0088:0661",
+   "src": "6d36ac43c437",
+   "t": "<FACE:06>I told you!<WAIT>If you're blowing a<NL>cold wind, say so!"
+  },
+  {
    "key": "script:0088:068B",
    "src": "13e35e188044",
    "t": "<FACE:00>We've got to take this<NL>Block back too"

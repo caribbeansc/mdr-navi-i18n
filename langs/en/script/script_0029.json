@@ -65,6 +65,806 @@
    "key": "script:0029:2C4A",
    "src": "cfa4823e69a3",
    "t": "<FACE:08>Aaaaaaaaah!<WAIT><FACE:03>What was thaaat?"
+  },
+  {
+   "key": "script:0029:2C62",
+   "src": "5e952e6cd586",
+   "t": "<FACE:00>You're «Mistral»,<NL>aren't you!?"
+  },
+  {
+   "key": "script:0029:2C79",
+   "src": "0f6c363bdd45",
+   "t": "<FACE:12>Mistral!?"
+  },
+  {
+   "key": "script:0029:2C83",
+   "src": "d8e78ee30e9a",
+   "t": "<FACE:10>But that shape…"
+  },
+  {
+   "key": "script:0029:2C92",
+   "src": "710b83e21947",
+   "t": "<FACE:8B>My name is Mistral.<WAIT>I am a Medabot built<NL>on a certain world.<WAIT>My master sent me to<NL>study Earth, the<WAIT>planet<WAIT>where Medabots are<NL>said to have begun."
+  },
+  {
+   "key": "script:0029:2CF5",
+   "src": "f2263b8cb0bc",
+   "t": "<FACE:04>Study?<NL><WAIT><FACE:01>And that's why you did<NL>all this?<WAIT><FACE:8B>Correct.<NL><WAIT>To measure human<NL>civilisation, Medabot<WAIT>ability and the level<NL>of your Robattles."
+  },
+  {
+   "key": "script:0029:2D47",
+   "src": "54a99d52d27f",
+   "t": "<FACE:00>So that's why you took<NL>the Cluster!<WAIT><FACE:8B>Yes. This Cluster and<NL>its computer, Navi,<WAIT>were most convenient<NL>for studying all<WAIT>Earth.<WAIT>Above all, the<NL>personal records of<WAIT>every<WAIT>Medafighter, gathered<NL>by Shiden over there."
+  },
+  {
+   "key": "script:0029:2DC8",
+   "src": "e7dbc7fc1659",
+   "t": "<FACE:10>…Yes. I admit it…<WAIT>I used my position to<NL>collect and analyse<WAIT>the personal data of<NL>every Medafighter<WAIT>registered with RR…<WAIT><FACE:8B>I shall take this data<NL>home at once.<WAIT>Humans are careless<NL>and cause accidents<WAIT>like this one easily.<WAIT>Once my master knows,<NL>neither your<WAIT>civilisation<WAIT>nor your Medafighters<NL>will be any threat."
+  },
+  {
+   "key": "script:0029:2E99",
+   "src": "0011564716bc",
+   "t": "<FACE:17>This is bad!<WAIT><FACE:14>They're not gonna<NL>invade Earth, are<WAIT>they!?<WAIT><FACE:8B>That is for my master<NL>to decide."
+  },
+  {
+   "key": "script:0029:2ECF",
+   "src": "dcc72ea83e4c",
+   "t": "<FACE:05>But then, you have the<NL>data,<WAIT>so there's no need to<NL>drag the whole<WAIT>Cluster<WAIT>along!<WAIT><FACE:06>Send us back to Earth,<NL>right now!"
+  },
+  {
+   "key": "script:0029:2F22",
+   "src": "0aab4aec6c7f",
+   "t": "<FACE:8B>That was the plan.<WAIT>But Navico<WAIT>changed my mind when I<NL>looked at her.<WAIT>This Navi is a<NL>computer, and yet<WAIT>she ignores part of<NL>what humans order.<WAIT>Astonishing as it is,<NL>this computer has<WAIT>a «soul»."
+  },
+  {
+   "key": "script:0029:2FB1",
+   "src": "c51f51e50639",
+   "t": "<FACE:12>A «soul», you say!?"
+  },
+  {
+   "key": "script:0029:2FBF",
+   "src": "4740486cc2ca",
+   "t": "<FACE:54>I-I have a «soul»!?<WAIT><FACE:8B>Not even my master's<NL>people managed that."
+  },
+  {
+   "key": "script:0029:2FFD",
+   "src": "264007436b6a",
+   "t": "<FACE:10>…Managed?"
+  },
+  {
+   "key": "script:0029:3009",
+   "src": "5a84182a1790",
+   "t": "<FACE:8B>It seems the secret<NL>lies somewhere in the<WAIT>bond between all of<NL>you humans and this<WAIT>computer.<WAIT>I shall take you all<NL>home as samples<WAIT>and find how a soul is<NL>born in a machine."
+  },
+  {
+   "key": "script:0029:309C",
+   "src": "a9ff9c73ac21",
+   "t": "<FACE:0D>No way!"
+  },
+  {
+   "key": "script:0029:30A3",
+   "src": "8382394e27b1",
+   "t": "<FACE:15>You mean we never get<NL>to go home!?"
+  },
+  {
+   "key": "script:0029:30C1",
+   "src": "946794ecd9d9",
+   "t": "<FACE:1D>No way-robo! I wanna<NL>go home-robo!<WAIT><FACE:8B>Cry or scream as you<NL>like: you are prized<WAIT>samples. You come to<NL>my master's world."
+  },
+  {
+   "key": "script:0029:311A",
+   "src": "8e4cf53b02a0",
+   "t": "<FACE:0B>That's awful!<WAIT>You can't just do<NL>that!"
+  },
+  {
+   "key": "script:0029:312B",
+   "src": "a347e7af3bbb",
+   "t": "<FACE:20>I shan't allow it!"
+  },
+  {
+   "key": "script:0029:3139",
+   "src": "5d20b70c1560",
+   "t": "<FACE:12>Rainy!?<NL><WAIT>Where are you?<WAIT><FACE:1F>Hee hee, brother!<NL>I am<WAIT>in the computer Block!"
+  },
+  {
+   "key": "script:0029:3175",
+   "src": "9ed035e7f8fb",
+   "t": "<FACE:1E>Navi!<NL><WAIT>Put up the screen!"
+  },
+  {
+   "key": "script:0029:318B",
+   "src": "189d27e72e63",
+   "t": "<FACE:1E>Mistral! If your aim<NL>is Navi's secret,"
+  },
+  {
+   "key": "script:0029:31B0",
+   "src": "123e2f9c2ac1",
+   "t": "<FACE:1E>then this room being<NL>wrecked would be a<WAIT>problem, no?"
+  },
+  {
+   "key": "script:0029:31D0",
+   "src": "9329c7f92da5",
+   "t": "<FACE:1E>If you'd rather it<NL>stayed whole, let<WAIT>everyone go!!"
+  },
+  {
+   "key": "script:0029:31F7",
+   "src": "f35c45a7d3c8",
+   "t": "<FACE:0F>Well done, Rainy!"
+  },
+  {
+   "key": "script:0029:3205",
+   "src": "6085ac5e0508",
+   "t": "<FACE:1E>Brother…"
+  },
+  {
+   "key": "script:0029:320F",
+   "src": "628cc06cc95b",
+   "t": "<FACE:01>Don't, Rainy!<NL>That would kill Navi!"
+  },
+  {
+   "key": "script:0029:3233",
+   "src": "a5b8263e9086",
+   "t": "<FACE:1E>What are you saying,<NL>Master <PLAYER>!<WAIT>A computer's life next<NL>to a human's…"
+  },
+  {
+   "key": "script:0029:325E",
+   "src": "9f3e0c414ef8",
+   "t": "<FACE:01>Navi's our friend!<WAIT>We became friends!<NL>Friends help friends!"
+  },
+  {
+   "key": "script:0029:3292",
+   "src": "8c419f04ad78",
+   "t": "<FACE:01>Right, Navi?"
+  },
+  {
+   "key": "script:0029:329E",
+   "src": "56559cecb1ce",
+   "t": "<FACE:54>No, <PLAYER>…<NL><WAIT>It's true that you and<NL>I are friends…"
+  },
+  {
+   "key": "script:0029:32C3",
+   "src": "e42594978442",
+   "t": "<FACE:54>But my highest duty<NL>is still to protect<WAIT>human beings.<WAIT>For that I would not<NL>hesitate to vanish…"
+  },
+  {
+   "key": "script:0029:331C",
+   "src": "b16d7ecdbee3",
+   "t": "<FACE:01>Navi!"
+  },
+  {
+   "key": "script:0029:3322",
+   "src": "a90ae8330042",
+   "t": "<FACE:8B>That act is futile.<WAIT>In my earlier access I<NL>copied Navi's<WAIT>program.<WAIT>Destroy the original<NL>and I can still study<WAIT>the copy.<WAIT>All I need now are<NL>these children."
+  },
+  {
+   "key": "script:0029:3397",
+   "src": "730f668defb3",
+   "t": "<FACE:20>What did you say!"
+  },
+  {
+   "key": "script:0029:33A1",
+   "src": "cee98d9862cd",
+   "t": "<FACE:54>No, Mistral…<NL>you made one mistake…<WAIT>While you were reading<NL>my protocol,<WAIT>I was reading<NL>yours as well."
+  },
+  {
+   "key": "script:0029:340D",
+   "src": "1e199c4b1b8a",
+   "t": "<FACE:54>So I can reach your<NL>memory too…"
+  },
+  {
+   "key": "script:0029:3431",
+   "src": "c74e0746920a",
+   "t": "<FACE:8B>Impossible…!"
+  },
+  {
+   "key": "script:0029:343C",
+   "src": "39cdbc839a20",
+   "t": "<FACE:54>Erase the copy as well<NL>and your plan fails!<WAIT><FACE:8B>S-stop this…"
+  },
+  {
+   "key": "script:0029:3475",
+   "src": "e7033bf806b6",
+   "t": "<FACE:01>Navi!<NL><WAIT>Don't do anything<NL>stupid!<WAIT><FACE:54>I cannot accept that<NL>order!"
+  },
+  {
+   "key": "script:0029:349B",
+   "src": "4e092bf84450",
+   "t": "<FACE:01>It's an order! From a<NL>human!<WAIT>Do as I say, Navi!"
+  },
+  {
+   "key": "script:0029:34C4",
+   "src": "31791dbf5de2",
+   "t": "<FACE:54>…<PLAYER>…"
+  },
+  {
+   "key": "script:0029:34CE",
+   "src": "400a82139b90",
+   "t": "<FACE:54>However fond you<NL>humans are of the<WAIT>unknown…<WAIT>being carried off like<NL>this is not what you<WAIT>want, is it…<WAIT>Because I understand<NL>that…"
+  },
+  {
+   "key": "script:0029:3520",
+   "src": "08068f6355f6",
+   "t": "<FACE:54>I cannot hand you over<NL>like this."
+  },
+  {
+   "key": "script:0029:353C",
+   "src": "6d02d7bb152b",
+   "t": "<FACE:56>To stop Mistral I<NL>accept no orders."
+  },
+  {
+   "key": "script:0029:355E",
+   "src": "f93835572dfd",
+   "t": "<FACE:20>Aaaaah!<WAIT><FACE:12>Rainy!<WAIT><FACE:21>Brotheeer!"
+  },
+  {
+   "key": "script:0029:3579",
+   "src": "269e979c27ec",
+   "t": "<FACE:55>First, holding you all<NL>in place…"
+  },
+  {
+   "key": "script:0029:358D",
+   "src": "e042da8fedfa",
+   "t": "<FACE:55>Then my copy…<NL><WAIT>…and the original."
+  },
+  {
+   "key": "script:0029:35AF",
+   "src": "c66ad9b4e9ad",
+   "t": "<FACE:01>Stop it, Navi!<NL><WAIT>Let's all think of<NL>another way!"
+  },
+  {
+   "key": "script:0029:35D3",
+   "src": "b8333aeb1138",
+   "t": "<FACE:55>It's no use…<WAIT>Mistral… copied every<NL>Medafighter<WAIT>record out of my<NL>memory back in the<WAIT>Cluster.<WAIT>Every plan you make<NL>will be read…<WAIT>You cannot win a<NL>Robattle…<WAIT>There is only this…"
+  },
+  {
+   "key": "script:0029:3658",
+   "src": "8cae3af413b2",
+   "t": "<FACE:08>No!"
+  },
+  {
+   "key": "script:0029:365F",
+   "src": "58d42a9a07a7",
+   "t": "<FACE:10>Tch!<NL>This is my fault…"
+  },
+  {
+   "key": "script:0029:3670",
+   "src": "0dad2c0bea30",
+   "t": "<FACE:01>You never know till<NL>you try!"
+  },
+  {
+   "key": "script:0029:3689",
+   "src": "91bd5581c4a5",
+   "t": "<FACE:55>…Defence barrier<NL>breached…<WAIT>Mistral… I am coming<NL>in…"
+  },
+  {
+   "key": "script:0029:36B6",
+   "src": "963e6b55adac",
+   "t": "<FACE:12>Don't, <PLAYER>!"
+  },
+  {
+   "key": "script:0029:36BF",
+   "src": "85e1204c1ffe",
+   "t": "<FACE:10>Every process Navi has<WAIT>is locked in a fight<NL>with Mistral's<WAIT>defence<WAIT>program!<WAIT>Our voices can't reach<NL>her any more!"
+  },
+  {
+   "key": "script:0029:370A",
+   "src": "13a1624370a1",
+   "t": "<FACE:04>No, Shiden!"
+  },
+  {
+   "key": "script:0029:3716",
+   "src": "79072ab0a4a4",
+   "t": "<FACE:54>…This is… the memory…<NL>…linked to Mistral…"
+  },
+  {
+   "key": "script:0029:3739",
+   "src": "f4508d8d6d0b",
+   "t": "<FACE:54>…Mistral… you came<NL>here for your<WAIT>master, just as I did…<NL>but…<WAIT>…I too… for the sake<NL>of my friends…<WAIT>…cannot… must not…<NL>lose to you!"
+  },
+  {
+   "key": "script:0029:37B2",
+   "src": "294c0e9b6a74",
+   "t": "<FACE:54><SFX:74>…Everyone… <DELAY:003C><DELAY:000B><CLEAR>for calling me… a<NL>friend…<DELAY:0078><DELAY:0035> thank… <DELAY:002C>you…<DELAY:003C><DELAY:0027><CLEAR>…Mistral says… <DELAY:003C><DELAY:0026>humans<NL>are… <DELAY:003C><DELAY:000B>careless… but I…<DELAY:0078><DELAY:0014><CLEAR>I… <DELAY:003C><DELAY:0023>love that<NL>carelessness…<DELAY:0078><DELAY:0018><CLEAR>…that vagueness… <DELAY:0078><DELAY:0003><CLEAR>…that kindness… <DELAY:003C><DELAY:0004>I love<NL>it…<DELAY:0078><DELAY:0033><CLEAR>…run now… <DELAY:003C><DELAY:0011>while you<NL>can… <DELAY:0078><DELAY:0007><CLEAR>…Mistral is… <DELAY:003C><DELAY:000F>weakened…<NL><DELAY:003C><DELAY:001B><CLEAR>now… <DELAY:002C>go…<DELAY:003C><END>"
+  },
+  {
+   "key": "script:0029:38DA",
+   "src": "55756804e9c2",
+   "t": "<FACE:03>…That's it!"
+  },
+  {
+   "key": "script:0029:38E3",
+   "src": "eca94ad76060",
+   "t": "<FACE:00>Now's our chance to<NL>beat Mistral!<WAIT>Right now! If we all<NL>fight together!<WAIT><FACE:0F>I see… with its main<NL>process taken up by<WAIT>the defence program,<NL>Mistral is weaker.<WAIT><FACE:10>But Mistral has all<NL>the Medafighter data…"
+  },
+  {
+   "key": "script:0029:3972",
+   "src": "91ba992b3aa8",
+   "t": "<FACE:0A>Have you forgotten,<NL>Master Shiden?<WAIT>You never know till<NL>you try!"
+  },
+  {
+   "key": "script:0029:399D",
+   "src": "4879be28e090",
+   "t": "<FACE:0F>Right… so it is."
+  },
+  {
+   "key": "script:0029:39AC",
+   "src": "4f24798f36e4",
+   "t": "<FACE:05>Then it's settled…"
+  },
+  {
+   "key": "script:0029:39BA",
+   "src": "3f20949814d9",
+   "t": "<FACE:6A>Robattle, fight!"
+  },
+  {
+   "key": "script:0029:39C8",
+   "src": "79b038df4a71",
+   "t": "<FACE:01>Navi!<NL><WAIT>Answer me! Navi!"
+  },
+  {
+   "key": "script:0029:39DE",
+   "src": "2488e3681ced",
+   "t": "<FACE:09><PLAYER>…<NL>Navico is already…"
+  },
+  {
+   "key": "script:0029:39F1",
+   "src": "20f04a7e0e75",
+   "t": "<FACE:01>That can't be! She was<NL>…right here with us…"
+  },
+  {
+   "key": "script:0029:3A12",
+   "src": "aa599df50729",
+   "t": "<FACE:12>It's no good…<WAIT><FACE:10>She isn't the Navi we<NL>knew any more…<WAIT>Everything but the<NL>base program has been<WAIT>wiped…<WAIT><FACE:13>Mistral's copy too,<NL>most likely…"
+  },
+  {
+   "key": "script:0029:3A6F",
+   "src": "85de57cc527f",
+   "t": "<FACE:04>But… but a moment ago…<NL>she did so much for<WAIT>us…<WAIT><FACE:01>There's a computer<NL>Block! There's<WAIT>hardware!<WAIT>You can't tell me she<NL>can't be brought<WAIT>back!<WAIT><FACE:13>A computer program is<NL>only a set of<WAIT>signals…<WAIT>Lose them and there is<NL>…nothing."
+  },
+  {
+   "key": "script:0029:3B01",
+   "src": "6a269f69f8a0",
+   "t": "<FACE:09>Navi… it's just like<NL>a «soul», isn't it…"
+  },
+  {
+   "key": "script:0029:3B19",
+   "src": "fa1371fa86f8",
+   "t": "<FACE:01>Then…<NL><WAIT>then Navi's gone for<NL>good!? Shiden…"
+  },
+  {
+   "key": "script:0029:3B3F",
+   "src": "93de367dfc7f",
+   "t": "<FACE:21>Brother… Navi…<NL><WAIT>Navi isn't responding…"
+  },
+  {
+   "key": "script:0029:3B63",
+   "src": "032a8c988aec",
+   "t": "<FACE:12>Rainy! You're safe!<WAIT><FACE:21>To think she really<NL>erased herself… I…"
+  },
+  {
+   "key": "script:0029:3B9C",
+   "src": "694428e22fed",
+   "t": "<FACE:03>Mistral!"
+  },
+  {
+   "key": "script:0029:3BA5",
+   "src": "2f4d998aa0a1",
+   "t": "<FACE:12>Mistral, you say!?"
+  },
+  {
+   "key": "script:0029:3BB2",
+   "src": "c33dcead7fea",
+   "t": "<FACE:08>…So small now. Is that<NL>really Mistral?"
+  },
+  {
+   "key": "script:0029:3BDC",
+   "src": "a17a5c58f274",
+   "t": "<FACE:00>Yeah… that's what<NL>it's saying…"
+  },
+  {
+   "key": "script:0029:3BF2",
+   "src": "01332a2d0e9a",
+   "t": "<FACE:0F>But that's strange!<NL><WAIT>Losing a Robattle<NL>shouldn't leave a<WAIT>Medabot like that.<WAIT><FACE:01>Still… it really is<NL>Mistral!"
+  },
+  {
+   "key": "script:0029:3C40",
+   "src": "06c574840145",
+   "t": "<FACE:09>Why…<NL>why go this far…"
+  },
+  {
+   "key": "script:0029:3C5C",
+   "src": "ebdc1a3682a4",
+   "t": "<FACE:69>That is how badly it<NL>wanted you with it…"
+  },
+  {
+   "key": "script:0029:3C81",
+   "src": "854a6cb6019d",
+   "t": "<FACE:09>That's…<DELAY:001E> that's not<NL>fair!"
+  },
+  {
+   "key": "script:0029:3C99",
+   "src": "d3057a2c91be",
+   "t": "<FACE:1A>That's right-robo!<NL>What a nuisance-robo!"
+  },
+  {
+   "key": "script:0029:3CAE",
+   "src": "671f6890c5ac",
+   "t": "<FACE:04>Why, professor? The<NL>mission was done.<WAIT>A civilisation that<NL>built a ship like<WAIT>this<WAIT>could analyse the data<NL>and take the Cluster<WAIT>-<WAIT>take all of Earth!"
+  },
+  {
+   "key": "script:0029:3D12",
+   "src": "5a3e7128b927",
+   "t": "<FACE:6B>It grew fond of you.<WAIT><FACE:03>What!?<WAIT><FACE:04>…But Mistral called<NL>humans «careless»…"
+  },
+  {
+   "key": "script:0029:3D5C",
+   "src": "67a0c25b8aaa",
+   "t": "<FACE:69>Think about it. They<NL>build a ship like<WAIT>this, yet leave the<NL>adventure itself to<WAIT>machines and Medabots…<NL>That is its master."
+  },
+  {
+   "key": "script:0029:3DB0",
+   "src": "a058cdad0fd8",
+   "t": "<FACE:69>Could you grow fond of<NL>a crowd like that,<WAIT><PLAYER>?"
+  },
+  {
+   "key": "script:0029:3DC9",
+   "src": "a1b830934df6",
+   "t": "<FACE:04>…True enough…<WAIT><FACE:00>A while after we came<NL>aboard this ship…<WAIT>when I realised it was<NL>empty, it felt awful…"
+  },
+  {
+   "key": "script:0029:3E1F",
+   "src": "26f5bd5db3ea",
+   "t": "<FACE:04>Their Medabots are<NL>mechanical, cold…"
+  },
+  {
+   "key": "script:0029:3E3D",
+   "src": "6f769acbc2c7",
+   "t": "<FACE:69>A Medabot that never<NL>knew its master's<WAIT>love<WAIT>turns mechanical…<WAIT>Mistral was surely<NL>drawn to your warmth…<WAIT>and to yours above<NL>all, <PLAYER>."
+  },
+  {
+   "key": "script:0029:3E9C",
+   "src": "22b470bfd2c2",
+   "t": "<FACE:69>You valued your<NL>friends and warmed<WAIT>even the<WAIT>cold hearts of Niwaka<NL>and Shiden…<WAIT>and beyond that you<NL>gave the computer<WAIT>Navi<WAIT>a warm «soul» of her<NL>own…<WAIT>Take these children<NL>along, Mistral<WAIT>thought,<WAIT>and perhaps my master<NL>would change too…"
+  },
+  {
+   "key": "script:0029:3F35",
+   "src": "98146688d061",
+   "t": "<FACE:6B>Is that not so,<NL>Mistral?"
+  },
+  {
+   "key": "script:0029:3F4A",
+   "src": "4d359e3cff53",
+   "t": "<FACE:03>Is that it, Mistral…"
+  },
+  {
+   "key": "script:0029:3F5B",
+   "src": "7409ea872bf1",
+   "t": "<FACE:75>Cough! Hack! Put like<NL>that… Mistral's<WAIT>master is a sorry sort<NL>as well…"
+  },
+  {
+   "key": "script:0029:3F8A",
+   "src": "259f8aa770ff",
+   "t": "<FACE:79>Indeed… to be given up<NL>on by a Medabot…<WAIT>for all that mighty<NL>civilisation…"
+  },
+  {
+   "key": "script:0029:3FC3",
+   "src": "a22feef8beda",
+   "t": "<FACE:73>…Riches don't… make<NL>you happy…"
+  },
+  {
+   "key": "script:0029:3FDA",
+   "src": "076623c9450e",
+   "t": "<FACE:09>What a lonely story…"
+  },
+  {
+   "key": "script:0029:3FE8",
+   "src": "7aadbea8ee45",
+   "t": "<FACE:10>It resembles me…<NL><WAIT>To win Robattles…<NL>to hold my rank,<WAIT>I leaned on data, on<NL>machines…<WAIT>and ended up alone.<WAIT>Without <PLAYER>, who<NL>knows what would have<WAIT>become of the Cluster…<WAIT>Or if Navi had never<NL>grown a «soul»…"
+  },
+  {
+   "key": "script:0029:4125",
+   "src": "01749f3f2a01",
+   "t": "<FACE:1E>Treating Navi as a<NL>friend to the very<WAIT>end<WAIT>was right after all,<NL>Master <PLAYER>…<WAIT><FACE:21>And I tried to break<NL>her…<WAIT>Just like those<NL>people…"
+  },
+  {
+   "key": "script:0029:4184",
+   "src": "7cb89d1cc3f8",
+   "t": "<FACE:0E>That's not so, Miss<NL>Rainy…<WAIT><FACE:0A>Those flower fortunes<NL>you told over and<WAIT>over…<WAIT>you told one in the<NL>computer Block too…<WAIT>Navi must have watched<NL>you worrying, all of<WAIT>it…<WAIT><FACE:0E>That will have reached<NL>her as well…"
+  },
+  {
+   "key": "script:0029:4210",
+   "src": "f961784ec37b",
+   "t": "<FACE:1E>Brother will… come…"
+  },
+  {
+   "key": "script:0029:4221",
+   "src": "c46ec954bd2b",
+   "t": "<FACE:1E>He won't…"
+  },
+  {
+   "key": "script:0029:422A",
+   "src": "e2396517ceaa",
+   "t": "<FACE:1E>He will…"
+  },
+  {
+   "key": "script:0029:4232",
+   "src": "c46ec954bd2b",
+   "t": "<FACE:1E>He won't…"
+  },
+  {
+   "key": "script:0029:423B",
+   "src": "e2396517ceaa",
+   "t": "<FACE:1E>He will…"
+  },
+  {
+   "key": "script:0029:4243",
+   "src": "6565ca0b3e91",
+   "t": "<FACE:1E>Navi…<WAIT>Papa, Mama, my<NL>brother…<WAIT>they always give me<NL>wonderful presents…<WAIT>"
+  },
+  {
+   "key": "script:0029:4280",
+   "src": "97a6d73c00fa",
+   "t": "<FACE:21>but not one of them<NL>pays me any<WAIT>attention…"
+  },
+  {
+   "key": "script:0029:42A0",
+   "src": "cf9544872d30",
+   "t": "<FACE:21>What I really need is…"
+  },
+  {
+   "key": "script:0029:42B8",
+   "src": "d8f4482530a4",
+   "t": "<FACE:0D>And Master Shiden too!<WAIT><FACE:0E>His methods may have<NL>been crooked, but<WAIT><FACE:0A>the way he worked to<NL>stay at the top -<WAIT>I never disliked that!"
+  },
+  {
+   "key": "script:0029:430A",
+   "src": "6dec3c9f1ef2",
+   "t": "<FACE:0A>When Master Shiden saw<NL>my Robattle talent<WAIT>and asked me to train<NL>with him, I was so<WAIT>happy!<WAIT>That's why I could go<NL>along with spy work.<WAIT>Navi must be the same…<WAIT>Shiden made her, so<NL>he shaped her too."
+  },
+  {
+   "key": "script:0029:43A6",
+   "src": "f0fca5e82872",
+   "t": "<FACE:02>That's it!<NL>And not just me -<WAIT>Navi got her soul from<NL>watching all of us!"
+  },
+  {
+   "key": "script:0029:43D9",
+   "src": "d26015fbf5b2",
+   "t": "<FACE:0E>So Mistral wanted us<NL>to change its master…"
+  },
+  {
+   "key": "script:0029:4402",
+   "src": "deecc3ecd8b2",
+   "t": "<FACE:04>Yes…<NL>If it can't take us…"
+  },
+  {
+   "key": "script:0029:441E",
+   "src": "ef4b785f6f2b",
+   "t": "<FACE:03>Huh?<NL>Navi told you that?"
+  },
+  {
+   "key": "script:0029:4431",
+   "src": "3d94cf46b858",
+   "t": "<FACE:05>What's wrong, <PLAYER>?<WAIT><FACE:0F>Do you hear something<NL>again?"
+  },
+  {
+   "key": "script:0029:444E",
+   "src": "8e89add09279",
+   "t": "<FACE:00>That if you have a<NL>heart of your own<WAIT>and the will to change<NL>things, you can<WAIT>change<WAIT>your master's heart…"
+  },
+  {
+   "key": "script:0029:448D",
+   "src": "f69f5e75dfa4",
+   "t": "<FACE:05>Then… we're allowed<NL>to go home?"
+  },
+  {
+   "key": "script:0029:44A7",
+   "src": "1281ff93a239",
+   "t": "<FACE:02>That's what it says!<NL>Back to the Cluster!"
+  },
+  {
+   "key": "script:0029:44C4",
+   "src": "a49d150cc929",
+   "t": "<FACE:16>Yahoooo!<WAIT><FACE:07>So it does talk!"
+  },
+  {
+   "key": "script:0029:44DB",
+   "src": "841d0bfa4496",
+   "t": "<FACE:00>Hey… Mistral… you<NL>taught us something<WAIT>too… Lean on machines<NL>and leave them<WAIT>everything, and you<NL>end up as lonely as<WAIT>your<WAIT>master, don't you…"
+  },
+  {
+   "key": "script:0029:4541",
+   "src": "2e714a4c88c0",
+   "t": "<FACE:00>We'll work at it, and<NL>build machines we can<WAIT>befriend, like Navi…<WAIT>and make a happy world<NL>where people and<WAIT>machines hold each<NL>other up.<WAIT>I don't know when…"
+  },
+  {
+   "key": "script:0029:45B4",
+   "src": "9ee024fa2772",
+   "t": "<FACE:00>Let's meet again then…"
+  },
+  {
+   "key": "script:0029:45C6",
+   "src": "f93b434fb376",
+   "t": "<FACE:00>…Huh? Mistral is…<NL>…gone.<WAIT><FACE:0F>It seems to have left…<NL><WAIT>Now, getting back to<NL>Earth won't be easy…"
+  },
+  {
+   "key": "script:0029:4610",
+   "src": "e7f8425f91ec",
+   "t": "<FACE:12>Impossible! We're in<NL>Earth orbit already!?<WAIT>And only seconds have<NL>passed! That can't…"
+  },
+  {
+   "key": "script:0029:464C",
+   "src": "b6137424e919",
+   "t": "<FACE:69>Even I can only call<NL>it impossible.<WAIT>That ship's technology<NL>can cross time<WAIT>itself,<WAIT>it seems…<WAIT>In which case this too<NL>would be possible…"
+  },
+  {
+   "key": "script:0029:46AC",
+   "src": "aeda8aefaf3a",
+   "t": "<FACE:03>Ah! Professor!<NL><WAIT>Was the Sperobo Gang's<NL>hideout brought back<WAIT>as well?<WAIT><FACE:6A>What are you saying!!<NL><WAIT>The tube is still<NL>attached, isn't it!!"
+  },
+  {
+   "key": "script:0029:4703",
+   "src": "776dfe90d136",
+   "t": "<FACE:03>Ah! Sorry!"
+  },
+  {
+   "key": "script:0029:4710",
+   "src": "e66b40b7bcf5",
+   "t": "<FACE:6C>We've got a guilty<NL>conscience here.<WAIT>Shall we scurry back<NL>to the asteroid belt?"
+  },
+  {
+   "key": "script:0029:4743",
+   "src": "4a75b3e196fb",
+   "t": "<FACE:6A>Fool!<WAIT>Going back where we<NL>came from is no<WAIT>progress!"
+  },
+  {
+   "key": "script:0029:4767",
+   "src": "0b3d04caf2c3",
+   "t": "<FACE:6C>Then where do we aim?"
+  },
+  {
+   "key": "script:0029:477B",
+   "src": "cbeeb7dbe521",
+   "t": "<FACE:69>You saw that<NL>mothership!<WAIT>It has been hiding at<NL>Jupiter since ages<WAIT>past!<WAIT>Sweep the place and<NL>who knows…<WAIT>a Medabot or two might<NL>be lying about!"
+  },
+  {
+   "key": "script:0029:47E1",
+   "src": "846f96109b5c",
+   "t": "<FACE:6F>Sweep… the whole of<NL>Jupiter!?<WAIT>Th-that's… surely<NL>that's impossi…"
+  },
+  {
+   "key": "script:0029:4814",
+   "src": "0eda4205d4a7",
+   "t": "<FACE:6A>There is no such word<NL>as impossible in my<WAIT>dictionaryyyy!!!"
+  },
+  {
+   "key": "script:0029:483D",
+   "src": "4ff13aa26697",
+   "t": "<FACE:00>Never runs out of<NL>energy, does he…"
+  },
+  {
+   "key": "script:0029:4855",
+   "src": "6c93def11fe0",
+   "t": "<FACE:12>A signal from Earth!<NL>They ask if we're OK!"
+  },
+  {
+   "key": "script:0029:487A",
+   "src": "3805dc7a10a1",
+   "t": "<FACE:0F>Only the base program<NL>is left, so<WAIT>everything<WAIT>is manual…<WAIT><FACE:13>If only Navi were<NL>here…"
+  },
+  {
+   "key": "script:0029:48BD",
+   "src": "4930520f8c10",
+   "t": "<FACE:1E>She is."
+  },
+  {
+   "key": "script:0029:48C5",
+   "src": "b1c6615b5eae",
+   "t": "<FACE:03>What!? How?"
+  },
+  {
+   "key": "script:0029:48D2",
+   "src": "634efc7e1d65",
+   "t": "<FACE:1E>Just before Navi<NL>erased herself, I<WAIT>split her<WAIT>program up and sent it<NL>into the spare memory<WAIT>of all your<NL>Medawatches.<WAIT>Gather the data from<NL>your Medawatches<WAIT>and rebuild it, and<NL>she'll be as she was.<WAIT>Though when she really<NL>did erase herself,<WAIT>it did give me a<NL>fright…"
+  },
+  {
+   "key": "script:0029:4987",
+   "src": "50757c37c3da",
+   "t": "<FACE:1E>That Mistral…<NL><WAIT>a rather fine program,<NL>"
+  },
+  {
+   "key": "script:0029:49AD",
+   "src": "0aca2c737ff4",
+   "t": "<FACE:1F>but no talent<NL>for hacking at all!!"
+  },
+  {
+   "key": "script:0029:49C6",
+   "src": "3d8c544a5521",
+   "t": "<FACE:11>Well done, Rainy!<WAIT><FACE:1F>Oh, brother, really."
+  },
+  {
+   "key": "script:0029:49E2",
+   "src": "144e3b57d0fb",
+   "t": "<FACE:09>But Mistral… will it<NL>ever meet them…<WAIT>the master who sent it<NL>out so very long ago…"
+  },
+  {
+   "key": "script:0029:4A19",
+   "src": "63cca3988cff",
+   "t": "<FACE:00>It will, I'm sure…<NL>Like the professor<WAIT>said,<WAIT>that ship can cross<NL>time and space…"
+  },
+  {
+   "key": "script:0029:4A5A",
+   "src": "8cf47858a3fa",
+   "t": "<FACE:05>That vision in the<NL>gym, what was it?<WAIT>It didn't look like a<NL>mere vision…<WAIT><FACE:00>I've been thinking…<NL>while Mistral slept<WAIT>underground, maybe it<NL>watched the school."
+  },
+  {
+   "key": "script:0029:4ADA",
+   "src": "ea20522e6229",
+   "t": "<FACE:00>So Mistral was shaped<NL>by us, like Navi…<WAIT>That's why we got<NL>caught up in this…"
+  },
+  {
+   "key": "script:0029:4B20",
+   "src": "77e8d1f774de",
+   "t": "<FACE:00>When we're back at<NL>school, let's go<WAIT>there one more time."
+  },
+  {
+   "key": "script:0029:4B45",
+   "src": "2527c0fc8e65",
+   "t": "<FACE:05>Now that you mention<NL>it, they're tearing<WAIT>that<WAIT>old building down<NL>soon…<WAIT>There was talk of<NL>keeping it, I heard…"
+  },
+  {
+   "key": "script:0029:4B81",
+   "src": "b76cbc2c4143",
+   "t": "<FACE:00>It can't be used any<NL>more, after all…"
+  },
+  {
+   "key": "script:0029:4B94",
+   "src": "59c8d206dd04",
+   "t": "<FACE:00>But its work is done,<NL>and the memories<WAIT>stay…<WAIT>We met Mistral there…"
+  },
+  {
+   "key": "script:0029:4BCC",
+   "src": "9dd9acec281e",
+   "t": "<FACE:00>and it all began!"
+  },
+  {
+   "key": "script:0029:4BDB",
+   "src": "caf140e6f743",
+   "t": "<FACE:05>So it did… And now<NL>it's finally over.<WAIT><FACE:07>Good work, <PLAYER>[<3]"
+  },
+  {
+   "key": "script:0029:4C06",
+   "src": "d0266fb9d4f5",
+   "t": "<FACE:04>No…<NL>it isn't over yet…<WAIT><FACE:08>What!?"
+  },
+  {
+   "key": "script:0029:4C23",
+   "src": "d4df2557dd7c",
+   "t": "<FACE:00>I promised Mistral<NL>we'd each build a<WAIT>better world, and meet<NL>again one day…"
+  },
+  {
+   "key": "script:0029:4C5B",
+   "src": "4efe6a29eb60",
+   "t": "<FACE:05>One day…<NL>that's some scale you<WAIT>are thinking on.<NL>Do you get it, <PLAYER>?"
+  },
+  {
+   "key": "script:0029:4C86",
+   "src": "8af83d0e93cf",
+   "t": "<FACE:05>Next to this universe,<NL>our lives are…"
+  },
+  {
+   "key": "script:0029:4CA6",
+   "src": "56ce1aa5ad6c",
+   "t": "<FACE:00>It's fine, Hiyori!<NL><WAIT>If not us, then the<NL>ones after us, and if<WAIT>not them, the ones<NL>after that.<WAIT>Someone will keep that<NL>promise in our place."
+  },
+  {
+   "key": "script:0029:4D01",
+   "src": "2a7cec48eae1",
+   "t": "<FACE:00>Because…<WAIT><FACE:05>Because?"
+  },
+  {
+   "key": "script:0029:4D10",
+   "src": "4db7627f61b3",
+   "t": "<FACE:02>what we feel gets<NL>passed on and on."
   }
  ]
 }

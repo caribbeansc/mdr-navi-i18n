@@ -312,9 +312,24 @@
    "t": "<FACE:06>¿Qué? ¡Pues claro<NL>que sí!<WAIT>¡Si valieran, retarían<NL>a robobatalla!<WAIT>En el Cluster siempre<NL>perdían con nosotros<WAIT>Creen que no pueden<NL>ganar, ¡por eso esto!"
   },
   {
+   "key": "script:0071:166A",
+   "src": "7bd606e48fbe",
+   "t": "<FACE:6D>¡No lo aguanto-robo!<NL><WAIT>¡Huir de un combate<NL>después de eso<WAIT>avergonzaría a toda la<NL>Banda Sperobo-robo!"
+  },
+  {
+   "key": "script:0071:16AF",
+   "src": "af1ef4d5e228",
+   "t": "<FACE:04>Impresionante…<WAIT>Eres de primera<NL>sacando de quicio a<WAIT>la gente…"
+  },
+  {
    "key": "script:0071:16D9",
    "src": "69ebca237ca5",
    "t": "<FACE:00>No hace falta ir por<NL>aquí…"
+  },
+  {
+   "key": "script:0071:1704",
+   "src": "7c116dc92768",
+   "t": "<FACE:6D>Grrrr…<NL><WAIT><FACE:6C>B-bueno, da igual…<NL><WAIT>De todos modos aquí<NL>se acaban-robo."
   }
  ]
 }

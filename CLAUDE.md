@@ -55,6 +55,13 @@ DYLD_LIBRARY_PATH=$(brew --prefix mgba)/lib ./tools/gbashot build/…gba \
   on a different build dereferences stale addresses and can hang with PC→0 —
   a fake crash that bisects like an impossible "interaction". Any repro or
   bisect must regenerate its states with the build under test, from power-on.
+  They do sometimes survive a build change intact, though, and that is worth
+  trying before walking a scene again: a player's `.ss1` taken on the broken
+  build loaded on the fixed one and showed the same frame, now translated.
+- **mGBA's own `.ss*` savestates LOAD in gbashot** (`--loadstate x.ss1`) —
+  both are libmgba, so the format is shared. This is the cheapest way to
+  reach a scene a player reported: ask for their savestate instead of
+  walking there. (Pizza Boy's `.stat` is a different thing and does not.)
 - `tools/gbawatch` (same Makefile) answers *who wrote this byte*: it arms a
   write watchpoint and prints pc/lr/r0-r5 at every hit. It takes the same
   `--press FRAME:KEY[:HELD]` and `--loadstate`, so screens that need the
@@ -85,17 +92,34 @@ landed and refuses to be quiet about one it could not place.
 - 170 event scripts via a master pointer table at 0x6299A0 (370 entries, dupes
   allowed). Inside a script, opcode 0x01 carries a 16-bit offset from the
   script's start to its string. Opcode walker in `navi/script.py`; sizes came
-  from Normmatt's ScriptEditor (see NOTICE).
+  from Normmatt's ScriptEditor (see NOTICE). **The walk alone misses sites**:
+  it enters only through the header's subscripts and follows only the jumps it
+  knows, which left 438 lines of dialogue uncatalogued — most of scripts 27 and
+  29, the RR confrontation and the finale. `rescue_sites` reads the code as
+  bytes as well and takes every `01 <lo> <hi>` that points at the START of a
+  string (the byte before it is a terminator); that test re-finds 3443 of the
+  walk's own 3444 sites with no disagreement, and recovers 326 more. The 105
+  that remain are reachable by nothing at all — no relative pointer, no
+  absolute one anywhere in the ROM — so they are script that was cut. They are
+  pinned by offset in tests/data/unreached-scripts.json, and
+  tests/test_unreached_scripts.py fails both ways: on a run that becomes
+  reachable (translate it) and on one that appears (the walk lost a line).
 - Loose text (menus, labels) is found by scanning every aligned ROM pointer and
   keeping targets that decode as text, filtered by a bigram model trained on
   the scripts themselves (`navi/strings.py`). Strings in fixed-stride tables
   (terrain names: 4 chars!) are flagged `fixed` and can never grow or move.
 - Font: 1bpp, 9 bytes/glyph, **ink = 0 bit**, indexed by character code, at
   0x658BF0. No lowercase, no accents. The build raises the native Latin block
-  (0x9E–0xDF) one pixel and draws our glyphs (`data/glyphs-latin.txt`) into the
-  **least-used** kana codes — chosen by counting, `navi/slots.py` — so
-  untranslated Japanese stays readable (1.9% of characters affected, vs 49% if
-  you take the obvious hiragana block). Never blank unassigned kana glyphs.
+  (0x9E–0xDF) one pixel and draws our glyphs (`data/glyphs-latin.txt`) into
+  kana codes. `navi/slots.py` picks the least-used ones by counting, but the
+  pack no longer uses that: `data/charset-latin.tbl` is a **keyboard layout**
+  that spends the WHOLE kana range 0x01–0x6B on Latin, so the name-entry grid
+  types upper case on page 1 and lower case on page 2.
+  **So Japanese left alive anywhere no longer degrades gracefully — it draws
+  as Latin soup.** A player reported exactly that two hours in; the line was
+  real dialogue the catalogue had never seen (see `rescue_sites`). Any check
+  that used to reason "worst case, it stays readable Japanese" is now a check
+  on something that reaches the player as garbage.
 
 ## The hard rules
 
@@ -230,6 +254,19 @@ Hard-won facts:
   The loose scan is a heuristic and finds slightly different runs on each
   cartridge, so the catalogue is also SEEDED from the pack's own keys
   (`catalog.seeded`) — same finding, read through the alignment.
+- **`tools/apply.py` cannot write the other release's pack.** It does
+  `Pack.load(code)` with no release, and a pack loaded WITH one merges the
+  base and `kabuto/` entries without recording where each came from — so
+  `save_part` would dump the whole pack into `kabuto/`. Lines that only the
+  other cartridge words its own way go into
+  `langs/<code>/kabuto/script/script_NNNN.json` by hand, keyed by that dump's
+  own offsets with that dump's fingerprint. When the Japanese is identical and
+  only the offset moved (script 78's 31 lines, all shifted +0x20), the
+  Kuwagata translation is reused verbatim.
+- **The `game`-marked tests run against whatever ROM `navi.config.json`
+  points at.** Leave it on Kabuto after a build and 19 of them fail, all of
+  them written against Kuwagata offsets. Point it back before reading a test
+  run as a regression.
 - `Charset.multi` handles `[<3]` and `[note]` spellings; width checks count
   them as one cell.
 - **Fused fixed-table records** (several 8-byte name fields with no

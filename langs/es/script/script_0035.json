@@ -12,6 +12,11 @@
    "t": "<FACE:00>Sí, Murasame Shiden,<NL>que lo halló conmigo,<WAIT>es el medaguerrero más<NL>popular en el ranking<WAIT>que organiza RR, la<NL>creadora del Cluster<WAIT>Por eso me sugirió que<NL>lo estudiaran a fondo"
   },
   {
+   "key": "script:0035:0E07",
+   "src": "836cfe244bce",
+   "t": "Sí. Murasame Shiden,<NL>que lo encontró<WAIT>conmigo,<WAIT>lleva años siendo el<NL>medaguerrero número<WAIT>uno<WAIT>del ranking que maneja<NL>Robattle Research,<WAIT>la empresa que<NL>construyó el Cluster.<WAIT>Él me sugirió que lo<NL>investigaran a fondo."
+  },
+  {
    "key": "script:0035:0E78",
    "src": "3b1afdd6aa0e",
    "t": "<FACE:2E>Gracias a eso nos<NL>invitaron a todos<WAIT>a la inauguración del<NL>parque «Cluster»"

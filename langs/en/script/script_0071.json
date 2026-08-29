@@ -312,9 +312,24 @@
    "t": "<FACE:06>What? Obviously!<NL><WAIT>If they had the skill,<NL>they'd Robattle us!<WAIT>They kept losing to us<NL>back in the Cluster<WAIT>They think they can't<NL>win, so they do this!"
   },
   {
+   "key": "script:0071:166A",
+   "src": "7bd606e48fbe",
+   "t": "<FACE:6D>I can't take it-robo!!<NL><WAIT>Running from a fight<NL>after all that talk<WAIT>would shame the whole<NL>Sperobo Gang-robo!!"
+  },
+  {
+   "key": "script:0071:16AF",
+   "src": "af1ef4d5e228",
+   "t": "<FACE:04>Impressive…<WAIT>You are world class<NL>at annoying people…"
+  },
+  {
    "key": "script:0071:16D9",
    "src": "69ebca237ca5",
    "t": "<FACE:00>No need to go this<NL>way…"
+  },
+  {
+   "key": "script:0071:1704",
+   "src": "7c116dc92768",
+   "t": "<FACE:6D>Grrrrr…<NL><WAIT><FACE:6C>F-fine, never mind…<NL><WAIT>You lot are finished<NL>here anyway-robo!"
   }
  ]
 }

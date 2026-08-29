@@ -22,6 +22,16 @@
    "t": "<FACE:36>Let us do just that"
   },
   {
+   "key": "script:0164:0397",
+   "src": "1e77dbf3ef64",
+   "t": "<FACE:34>My, what a rude person<NL><WAIT>Get out!!"
+  },
+  {
+   "key": "script:0164:03B6",
+   "src": "917c3dd0cd94",
+   "t": "<FACE:04>Ow ow ow ow…"
+  },
+  {
    "key": "script:0164:03F0",
    "src": "f460c14fd8d9",
    "t": "<FACE:33>There's no help for it<NL>Just a little, then<WAIT>We might show you this<NL>gorgeous mansion"

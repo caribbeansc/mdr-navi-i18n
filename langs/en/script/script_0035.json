@@ -12,6 +12,11 @@
    "t": "<FACE:00>Yeah. Murasame Shiden,<NL>who found it with me,<WAIT>is the top Medafighter<NL>in the ranking run by<WAIT>Robattle Research, who<NL>built the Cluster<WAIT>So he told me to have<NL>it studied closely"
   },
   {
+   "key": "script:0035:0E07",
+   "src": "836cfe244bce",
+   "t": "Yeah. Murasame Shiden,<NL>who found it with me,<WAIT>has been the top<NL>Medafighter for ages<WAIT>in the ranking run by<NL>Robattle Research,<WAIT>the firm that built<NL>the Cluster.<WAIT>He told me to have it<NL>looked into."
+  },
+  {
    "key": "script:0035:0E78",
    "src": "3b1afdd6aa0e",
    "t": "<FACE:2E>Thanks to that, all of<NL>us got invited to the<WAIT>grand opening of that<NL>\"Cluster\" space park"
