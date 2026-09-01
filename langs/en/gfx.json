@@ -6617,56 +6617,56 @@
    "sites": [
     "0x0966E8"
    ],
-   "room": 20
+   "room": 16
   },
   "5bb9422e057e": {
    "t": "BAS-05BH--------",
    "sites": [
     "0x0966FC"
    ],
-   "room": 20
+   "room": 16
   },
   "0934cfb68a1a": {
    "t": "BAS-02BH--------",
    "sites": [
     "0x0972C8"
    ],
-   "room": 20
+   "room": 16
   },
   "3c7e5e6d3619": {
    "t": "BAS-06BH--------",
    "sites": [
     "0x0972DC"
    ],
-   "room": 20
+   "room": 16
   },
   "58f795ce573e": {
    "t": "BAS-03BH--------",
    "sites": [
     "0x097EA8"
    ],
-   "room": 20
+   "room": 16
   },
   "0994d5d2ee64": {
    "t": "BAS-07BH--------",
    "sites": [
     "0x097EBC"
    ],
-   "room": 20
+   "room": 16
   },
   "561d3bfb2b1c": {
    "t": "BAS-04BH--------",
    "sites": [
     "0x098A88"
    ],
-   "room": 20
+   "room": 16
   },
   "b25d9f6f14c6": {
    "t": "BAS-08BH--------",
    "sites": [
     "0x098A9C"
    ],
-   "room": 20
+   "room": 16
   },
   "0eac06b6226d": {
    "t": "Strainr",
@@ -6754,11 +6754,11 @@
    "room": 8
   },
   "162a21b49929": {
-   "t": "Injection",
+   "t": "Injectin",
    "sites": [
     "0x096808"
    ],
-   "room": 12
+   "room": 8
   },
   "9d356b9e129f": {
    "t": "Alpa",
@@ -6796,11 +6796,11 @@
    "room": 8
   },
   "3790b1c9d58f": {
-   "t": "SpreadBdy",
+   "t": "SpredBdy",
    "sites": [
     "0x096880"
    ],
-   "room": 10
+   "room": 8
   },
   "4e70a335ada8": {
    "t": "GroupOf",
@@ -6880,11 +6880,11 @@
    "room": 8
   },
   "2e4a317115ff": {
-   "t": "LifeForce",
+   "t": "LifeFrce",
    "sites": [
     "0x096970"
    ],
-   "room": 10
+   "room": 8
   },
   "9548ab188c15": {
    "t": "ShortLf",
@@ -6894,25 +6894,25 @@
    "room": 8
   },
   "3b3e4f180288": {
-   "t": "LardHammer",
+   "t": "LardHmmr",
    "sites": [
     "0x096998"
    ],
-   "room": 11
+   "room": 8
   },
   "670230926ef4": {
-   "t": "RadiateHtr",
+   "t": "RadiatHt",
    "sites": [
     "0x0969AC"
    ],
-   "room": 12
+   "room": 8
   },
   "e2d6d6cc0cec": {
-   "t": "KaiserMsl",
+   "t": "KaisrMsl",
    "sites": [
     "0x0969C0"
    ],
-   "room": 10
+   "room": 8
   },
   "da7d58ff602a": {
    "t": "SmthBnd",
@@ -6933,7 +6933,7 @@
    "sites": [
     "0x0969FC"
    ],
-   "room": 9
+   "room": 8
   },
   "33c2d0b4af1a": {
    "t": "Justice",
@@ -6950,11 +6950,11 @@
    "room": 8
   },
   "d1e55b8dd3d8": {
-   "t": "WaterApose",
+   "t": "WatrApos",
    "sites": [
     "0x096A38"
    ],
-   "room": 12
+   "room": 8
   },
   "210c13d2190c": {
    "t": "LghtLob",
@@ -6999,18 +6999,18 @@
    "room": 8
   },
   "00eb4f139df5": {
-   "t": "CookStove",
+   "t": "CookStv",
    "sites": [
     "0x096AC4"
    ],
-   "room": 10
+   "room": 8
   },
   "e81898fe9000": {
-   "t": "MasvShoot",
+   "t": "MasvShot",
    "sites": [
     "0x096AD8"
    ],
-   "room": 10
+   "room": 8
   },
   "3a849620ff09": {
    "t": "GustClw",
@@ -7020,11 +7020,11 @@
    "room": 8
   },
   "97952f76f99c": {
-   "t": "PhysclHnd",
+   "t": "PhyslHnd",
    "sites": [
     "0x096B00"
    ],
-   "room": 10
+   "room": 8
   },
   "9a6cacc7e5ac": {
    "t": "FirmGet",
@@ -7034,11 +7034,11 @@
    "room": 8
   },
   "b299885554c1": {
-   "t": "AshBreakr",
+   "t": "AshBrekr",
    "sites": [
     "0x096B28"
    ],
-   "room": 10
+   "room": 8
   },
   "f849ac6787cd": {
    "t": "HakaiTe",
@@ -7052,7 +7052,7 @@
    "sites": [
     "0x096B50"
    ],
-   "room": 10
+   "room": 8
   },
   "f1d14341071a": {
    "t": "Copper",
@@ -7080,14 +7080,14 @@
    "sites": [
     "0x096BA0"
    ],
-   "room": 9
+   "room": 8
   },
   "cd1e9769c925": {
    "t": "Canter",
    "sites": [
     "0x096BB4"
    ],
-   "room": 9
+   "room": 8
   },
   "c05f5c226e40": {
    "t": "JamCrwl",
@@ -7108,21 +7108,21 @@
    "sites": [
     "0x096BF0"
    ],
-   "room": 9
+   "room": 8
   },
   "439577895453": {
    "t": "CircShot",
    "sites": [
     "0x096C04"
    ],
-   "room": 9
+   "room": 8
   },
   "66900df5ff7b": {
    "t": "LightSpd",
    "sites": [
     "0x096C18"
    ],
-   "room": 9
+   "room": 8
   },
   "a61b278283da": {
    "t": "MslRain",
@@ -7146,11 +7146,11 @@
    "room": 8
   },
   "e387d3adeb38": {
-   "t": "GoldBrkrMni",
+   "t": "GoldBrkr",
    "sites": [
     "0x096C68"
    ],
-   "room": 12
+   "room": 8
   },
   "800084236e1f": {
    "t": "LongGun",
@@ -7237,11 +7237,11 @@
    "room": 8
   },
   "36238c63554d": {
-   "t": "RisingSword",
+   "t": "RisngSwd",
    "sites": [
     "0x096D6C"
    ],
-   "room": 12
+   "room": 8
   },
   "7b004b69be50": {
    "t": "Memoriz",
@@ -7269,14 +7269,14 @@
    "sites": [
     "0x096DBC"
    ],
-   "room": 10
+   "room": 8
   },
   "64eb4d6ea79f": {
    "t": "PinTile",
    "sites": [
     "0x096DD0"
    ],
-   "room": 10
+   "room": 8
   },
   "02181e8ce2a5": {
    "t": "HoardUp",
@@ -7328,11 +7328,11 @@
    "room": 8
   },
   "d6e0cfeddf0b": {
-   "t": "DiscChnge",
+   "t": "DiscChng",
    "sites": [
     "0x096E84"
    ],
-   "room": 10
+   "room": 8
   },
   "00823208e1e9": {
    "t": "SmellBm",
@@ -7356,25 +7356,25 @@
    "room": 8
   },
   "3c730e651e0d": {
-   "t": "StoneCrush",
+   "t": "StonCrsh",
    "sites": [
     "0x096ED4"
    ],
-   "room": 12
+   "room": 8
   },
   "0714ddf84437": {
-   "t": "SweatBeam",
+   "t": "SweatBem",
    "sites": [
     "0x096EE8"
    ],
-   "room": 12
+   "room": 8
   },
   "4c500222a7fe": {
    "t": "ArmJoint",
    "sites": [
     "0x096EFC"
    ],
-   "room": 12
+   "room": 8
   },
   "7fa197d8d346": {
    "t": "AftNose",
@@ -7423,14 +7423,14 @@
    "sites": [
     "0x096F88"
    ],
-   "room": 9
+   "room": 8
   },
   "2427d9929b5d": {
-   "t": "StreamFlow",
+   "t": "StremFlw",
    "sites": [
     "0x096F9C"
    ],
-   "room": 12
+   "room": 8
   },
   "7d4bd33f256c": {
    "t": "Astnish",
@@ -7468,18 +7468,18 @@
    "room": 8
   },
   "b2856add3f03": {
-   "t": "Trnsience",
+   "t": "Trnsienc",
    "sites": [
     "0x097014"
    ],
-   "room": 10
+   "room": 8
   },
   "8aa97d971c87": {
    "t": "Love",
    "sites": [
     "0x097028"
    ],
-   "room": 7
+   "room": 8
   },
   "d129f0d0f220": {
    "t": "Doutaku",
@@ -7503,11 +7503,11 @@
    "room": 8
   },
   "6d00c10af481": {
-   "t": "HoiHoiTrp",
+   "t": "HoiHoiTr",
    "sites": [
     "0x097078"
    ],
-   "room": 10
+   "room": 8
   },
   "29b3d23bf4c3": {
    "t": "D.Missl",
@@ -7517,11 +7517,11 @@
    "room": 8
   },
   "4a4576db26f9": {
-   "t": "SnipRifle",
+   "t": "SnipRifl",
    "sites": [
     "0x0970A0"
    ],
-   "room": 10
+   "room": 8
   },
   "24623eaa53a0": {
    "t": "MuteHnd",
@@ -7535,84 +7535,84 @@
    "sites": [
     "0x0970C8"
    ],
-   "room": 10
+   "room": 8
   },
   "68e6ac5ac757": {
-   "t": "ChanbaraSwd",
+   "t": "ChanbSwd",
    "sites": [
     "0x0970DC"
    ],
-   "room": 12
+   "room": 8
   },
   "a20607394cea": {
-   "t": "RevolvKai",
+   "t": "RevolKai",
    "sites": [
     "0x0970F0"
    ],
-   "room": 10
+   "room": 8
   },
   "4e66898ceab2": {
-   "t": "MachSword",
+   "t": "MachSwrd",
    "sites": [
     "0x097104"
    ],
-   "room": 11
+   "room": 8
   },
   "7d54c1f9743b": {
    "t": "Ignition",
    "sites": [
     "0x097118"
    ],
-   "room": 10
+   "room": 8
   },
   "bad2f9418360": {
-   "t": "TanTanSwd",
+   "t": "TanTnSwd",
    "sites": [
     "0x09712C"
    ],
-   "room": 10
+   "room": 8
   },
   "b3a906288835": {
    "t": "ModelGun",
    "sites": [
     "0x097140"
    ],
-   "room": 10
+   "room": 8
   },
   "1675375c5745": {
    "t": "FourVice",
    "sites": [
     "0x097154"
    ],
-   "room": 9
+   "room": 8
   },
   "a597ff0961af": {
    "t": "ShinSwrd",
    "sites": [
     "0x097168"
    ],
-   "room": 9
+   "room": 8
   },
   "bc2ea12b2ef2": {
    "t": "Supliket",
    "sites": [
     "0x09717C"
    ],
-   "room": 9
+   "room": 8
   },
   "f76b7418ace9": {
    "t": "Fuser",
    "sites": [
     "0x097190"
    ],
-   "room": 9
+   "room": 8
   },
   "d93611cd47f8": {
    "t": "ShotSphr",
    "sites": [
     "0x0971A4"
    ],
-   "room": 9
+   "room": 8
   },
   "545cc8e454e4": {
    "t": "Hoof",
@@ -7636,11 +7636,11 @@
    "room": 8
   },
   "d6a13dc6c85b": {
-   "t": "LastConcert",
+   "t": "LastCncr",
    "sites": [
     "0x0971F4"
    ],
-   "room": 12
+   "room": 8
   },
   "adca2e148c2f": {
    "t": "BeatDth",
@@ -7650,11 +7650,11 @@
    "room": 8
   },
   "9351d202092c": {
-   "t": "PatVulcan",
+   "t": "PatVulcn",
    "sites": [
     "0x09721C"
    ],
-   "room": 10
+   "room": 8
   },
   "bcb8e8648b5d": {
    "t": "DonrCap",
@@ -7699,11 +7699,11 @@
    "room": 8
   },
   "06a46e400b49": {
-   "t": "NormLaser",
+   "t": "NormLasr",
    "sites": [
     "0x0972A8"
    ],
-   "room": 10
+   "room": 8
   },
   "e36be26483b5": {
    "t": "LghtGrd",
@@ -7731,7 +7731,7 @@
    "sites": [
     "0x097F14"
    ],
-   "room": 10
+   "room": 8
   },
   "91251d5a4adb": {
    "t": "Telepol",
@@ -7860,11 +7860,11 @@
    "room": 8
   },
   "9c34462b9f59": {
-   "t": "P.Tatakatta",
+   "t": "P.Tataka",
    "sites": [
     "0x098090"
    ],
-   "room": 12
+   "room": 8
   },
   "9464c6170e13": {
    "t": "Fertile",
@@ -7941,7 +7941,7 @@
    "sites": [
     "0x09816C"
    ],
-   "room": 9
+   "room": 8
   },
   "c2ac92bcac97": {
    "t": "KaisrSt",
@@ -8056,25 +8056,25 @@
    "room": 8
   },
   "fb0f61cb23b9": {
-   "t": "ForestKpr",
+   "t": "ForstKpr",
    "sites": [
     "0x0982C0"
    ],
-   "room": 10
+   "room": 8
   },
   "6b4ff1b58ed7": {
    "t": "MottoKoi",
    "sites": [
     "0x0982D4"
    ],
-   "room": 10
+   "room": 8
   },
   "51726c86fb0a": {
    "t": "AshLeg",
    "sites": [
     "0x0982E8"
    ],
-   "room": 10
+   "room": 8
   },
   "95c693615e0d": {
    "t": "Oritats",
@@ -8116,7 +8116,7 @@
    "sites": [
     "0x098360"
    ],
-   "room": 9
+   "room": 8
   },
   "873debfbc42c": {
    "t": "KnowHow",
@@ -8137,28 +8137,28 @@
    "sites": [
     "0x09839C"
    ],
-   "room": 9
+   "room": 8
   },
   "80d16d408c42": {
    "t": "SilvrLeg",
    "sites": [
     "0x0983B0"
    ],
-   "room": 9
+   "room": 8
   },
   "dfdb6f3ac306": {
    "t": "Slalom",
    "sites": [
     "0x0983C4"
    ],
-   "room": 9
+   "room": 8
   },
   "c31162ccf038": {
    "t": "RayTrack",
    "sites": [
     "0x0983D8"
    ],
-   "room": 9
+   "room": 8
   },
   "ef403f8b0250": {
    "t": "Broiler",
@@ -8203,11 +8203,11 @@
    "room": 8
   },
   "f2c8fb52dcb2": {
-   "t": "StrawSandal",
+   "t": "StrwSndl",
    "sites": [
     "0x098464"
    ],
-   "room": 12
+   "room": 8
   },
   "2436530cbd75": {
    "t": "Astute",
@@ -8315,11 +8315,11 @@
    "room": 8
   },
   "e0f22b34a191": {
-   "t": "RotaryChr",
+   "t": "RotarChr",
    "sites": [
     "0x0985A4"
    ],
-   "room": 10
+   "room": 8
   },
   "13c6245c5f24": {
    "t": "Intelct",
@@ -8336,11 +8336,11 @@
    "room": 8
   },
   "e283a5c62229": {
-   "t": "FrontHold",
+   "t": "FrontHld",
    "sites": [
     "0x0985F4"
    ],
-   "room": 10
+   "room": 8
   },
   "d794124f7a7e": {
    "t": "Weight",
@@ -8364,11 +8364,11 @@
    "room": 8
   },
   "47e8928e53e7": {
-   "t": "Turntable",
+   "t": "Turntabl",
    "sites": [
     "0x098644"
    ],
-   "room": 10
+   "room": 8
   },
   "b41e1c88b816": {
    "t": "Wriggly",
@@ -8382,7 +8382,7 @@
    "sites": [
     "0x09866C"
    ],
-   "room": 10
+   "room": 8
   },
   "b6a947c487fa": {
    "t": "DrawUp",
@@ -8413,11 +8413,11 @@
    "room": 8
   },
   "2c8fd4468315": {
-   "t": "RollBrush",
+   "t": "RollBrsh",
    "sites": [
     "0x0986D0"
    ],
-   "room": 12
+   "room": 8
   },
   "c27e6c61c1a9": {
    "t": "Luxury",
@@ -8427,11 +8427,11 @@
    "room": 8
   },
   "9a5dec8fd1d9": {
-   "t": "NeptuRide",
+   "t": "NeptuRid",
    "sites": [
     "0x0986F8"
    ],
-   "room": 10
+   "room": 8
   },
   "0cf4de6ed345": {
    "t": "Onyx",
@@ -8441,11 +8441,11 @@
    "room": 8
   },
   "47eeb1434f65": {
-   "t": "SharpSnout",
+   "t": "SharpSnt",
    "sites": [
     "0x098720"
    ],
-   "room": 12
+   "room": 8
   },
   "fcd03455da8c": {
    "t": "SharpMz",
@@ -8539,11 +8539,11 @@
    "room": 8
   },
   "225785aee564": {
-   "t": "SpiderNet",
+   "t": "SpidrNet",
    "sites": [
     "0x098838"
    ],
-   "room": 10
+   "room": 8
   },
   "feed504fd6d9": {
    "t": "D.Crawl",
@@ -8557,7 +8557,7 @@
    "sites": [
     "0x098860"
    ],
-   "room": 10
+   "room": 8
   },
   "f50de23552b7": {
    "t": "MuteLeg",
@@ -8567,60 +8567,60 @@
    "room": 8
   },
   "3df112806d0d": {
-   "t": "Ochitsuka",
+   "t": "Ochitsuk",
    "sites": [
     "0x098888"
    ],
-   "room": 10
+   "room": 8
   },
   "5f80757affe2": {
    "t": "Tatakka",
    "sites": [
     "0x09889C"
    ],
-   "room": 10
+   "room": 8
   },
   "a8eac5085ca2": {
-   "t": "OchitsKai",
+   "t": "OchtsKai",
    "sites": [
     "0x0988B0"
    ],
-   "room": 10
+   "room": 8
   },
   "21d51df023f0": {
-   "t": "MachTatakka",
+   "t": "MachTtkk",
    "sites": [
     "0x0988C4"
    ],
-   "room": 12
+   "room": 8
   },
   "01fc3b3582cc": {
    "t": "Firework",
    "sites": [
     "0x0988D8"
    ],
-   "room": 10
+   "room": 8
   },
   "7c7196beaf8b": {
    "t": "Kotonton",
    "sites": [
     "0x0988EC"
    ],
-   "room": 10
+   "room": 8
   },
   "7e54e364bca3": {
-   "t": "Yukatsuki",
+   "t": "Yukatski",
    "sites": [
     "0x098900"
    ],
-   "room": 10
+   "room": 8
   },
   "d55ca15ff6c5": {
    "t": "WindFlak",
    "sites": [
     "0x098914"
    ],
-   "room": 9
+   "room": 8
   },
   "5b88450b4af7": {
    "t": "KeenEdg",
@@ -8634,14 +8634,14 @@
    "sites": [
     "0x09893C"
    ],
-   "room": 9
+   "room": 8
   },
   "434df811fb7b": {
    "t": "Emplace",
    "sites": [
     "0x098950"
    ],
-   "room": 9
+   "room": 8
   },
   "f19806174cf3": {
    "t": "Migratr",
@@ -8704,14 +8704,14 @@
    "sites": [
     "0x098A04"
    ],
-   "room": 10
+   "room": 8
   },
   "90c6fa4ef330": {
-   "t": "LegHiHeel",
+   "t": "LegHiHel",
    "sites": [
     "0x098A18"
    ],
-   "room": 10
+   "room": 8
   },
   "e7ce4b28533d": {
    "t": "LeoPuls",
@@ -8746,7 +8746,7 @@
    "sites": [
     "0x098A7C"
    ],
-   "room": 9
+   "room": 8
   },
   "876e6fd8106c": {
    "t": "Friglee",
@@ -8764,18 +8764,18 @@
    "room": 8
   },
   "1db479beea57": {
-   "t": "JesterCup",
+   "t": "JestrCup",
    "sites": [
     "0x095B60"
    ],
-   "room": 10
+   "room": 8
   },
   "e2938839e150": {
    "t": "Leader",
    "sites": [
     "0x095B74"
    ],
-   "room": 9
+   "room": 8
   },
   "63592cd22268": {
    "t": "Tongoo",
@@ -8820,11 +8820,11 @@
    "room": 8
   },
   "a6c880d94976": {
-   "t": "RoseGlory",
+   "t": "RoseGlry",
    "sites": [
     "0x095C00"
    ],
-   "room": 10
+   "room": 8
   },
   "dbb791cede8c": {
    "t": "AromSyr",
@@ -8922,7 +8922,7 @@
    "sites": [
     "0x095D18"
    ],
-   "room": 10
+   "room": 8
   },
   "5a8919a256ce": {
    "t": "RoseChk",
@@ -8978,35 +8978,35 @@
    "sites": [
     "0x095DB8"
    ],
-   "room": 12
+   "room": 8
   },
   "b2d4ecaba76e": {
-   "t": "SharpShoot",
+   "t": "SharpSht",
    "sites": [
     "0x095DCC"
    ],
-   "room": 12
+   "room": 8
   },
   "6e99bcd3df56": {
-   "t": "KaiserBrk",
+   "t": "KaisrBrk",
    "sites": [
     "0x095DE0"
    ],
-   "room": 10
+   "room": 8
   },
   "029c2a81180e": {
-   "t": "SickleShape",
+   "t": "SicklShp",
    "sites": [
     "0x095DF4"
    ],
-   "room": 12
+   "room": 8
   },
   "97fc27f79a33": {
-   "t": "SweepRiot",
+   "t": "SweepRit",
    "sites": [
     "0x095E08"
    ],
-   "room": 10
+   "room": 8
   },
   "6fe0ccc865f4": {
    "t": "Flight",
@@ -9030,11 +9030,11 @@
    "room": 8
   },
   "3d5b26e54036": {
-   "t": "StraightLn",
+   "t": "StrghtLn",
    "sites": [
     "0x095E58"
    ],
-   "room": 12
+   "room": 8
   },
   "5dd5a1c1caa9": {
    "t": "ExcLob",
@@ -9044,11 +9044,11 @@
    "room": 8
   },
   "c0bc923d32a0": {
-   "t": "WildFlowr",
+   "t": "WildFlwr",
    "sites": [
     "0x095E80"
    ],
-   "room": 10
+   "room": 8
   },
   "9667f0610bb1": {
    "t": "Behind",
@@ -9104,21 +9104,21 @@
    "sites": [
     "0x095F20"
    ],
-   "room": 10
+   "room": 8
   },
   "d701ca80806a": {
-   "t": "MechaSlow",
+   "t": "MechSlow",
    "sites": [
     "0x095F34"
    ],
-   "room": 10
+   "room": 8
   },
   "897ed1f4802e": {
-   "t": "BoosterHd",
+   "t": "BostrHd",
    "sites": [
     "0x095F48"
    ],
-   "room": 10
+   "room": 8
   },
   "13dac155cf6a": {
    "t": "RyuIkri",
@@ -9149,18 +9149,18 @@
    "room": 8
   },
   "b1819a933cdf": {
-   "t": "FinalHorn",
+   "t": "FinlHorn",
    "sites": [
     "0x095FAC"
    ],
-   "room": 12
+   "room": 8
   },
   "299128de012e": {
    "t": "X-Ray",
    "sites": [
     "0x095FC0"
    ],
-   "room": 9
+   "room": 8
   },
   "135951b3cb9d": {
    "t": "Hearty",
@@ -9181,28 +9181,28 @@
    "sites": [
     "0x095FFC"
    ],
-   "room": 9
+   "room": 8
   },
   "e91cc1efca82": {
    "t": "ScopeBdy",
    "sites": [
     "0x096010"
    ],
-   "room": 9
+   "room": 8
   },
   "513fdd1ea17e": {
    "t": "Projectr",
    "sites": [
     "0x096024"
    ],
-   "room": 9
+   "room": 8
   },
   "32d01a34ea3a": {
    "t": "HopeSpd",
    "sites": [
     "0x096038"
    ],
-   "room": 9
+   "room": 8
   },
   "7f70f3f7970d": {
    "t": "RoundJm",
@@ -9310,11 +9310,11 @@
    "room": 8
   },
   "2bd026f44d59": {
-   "t": "FlashLight",
+   "t": "FlashLgt",
    "sites": [
     "0x096178"
    ],
-   "room": 12
+   "room": 8
   },
   "012a1d477cc6": {
    "t": "2ndSght",
@@ -9331,18 +9331,18 @@
    "room": 8
   },
   "ab1bcd265f10": {
-   "t": "FurDevelop",
+   "t": "FurDevlp",
    "sites": [
     "0x0961B4"
    ],
-   "room": 12
+   "room": 8
   },
   "79e046ffd9dc": {
-   "t": "SugarCube",
+   "t": "SugarCub",
    "sites": [
     "0x0961C8"
    ],
-   "room": 10
+   "room": 8
   },
   "ef222409da5f": {
    "t": "Feedbck",
@@ -9359,11 +9359,11 @@
    "room": 8
   },
   "9f9fb8a87afa": {
-   "t": "TapunPutn",
+   "t": "TapunPtn",
    "sites": [
     "0x096204"
    ],
-   "room": 10
+   "room": 8
   },
   "89ae6259c505": {
    "t": "Caprice",
@@ -9373,11 +9373,11 @@
    "room": 8
   },
   "0f797ab9d690": {
-   "t": "RippleSound",
+   "t": "RipplSnd",
    "sites": [
     "0x096240"
    ],
-   "room": 12
+   "room": 8
   },
   "8fd66248d758": {
    "t": "Walnuts",
@@ -9408,11 +9408,11 @@
    "room": 8
   },
   "5fc4267329c3": {
-   "t": "Instrumnt",
+   "t": "Instrumt",
    "sites": [
     "0x0962A4"
    ],
-   "room": 10
+   "room": 8
   },
   "389624c98e2c": {
    "t": "HardHd",
@@ -9429,18 +9429,18 @@
    "room": 8
   },
   "757df73084f7": {
-   "t": "NeedleDlm",
+   "t": "NedleDlm",
    "sites": [
     "0x0962E0"
    ],
-   "room": 10
+   "room": 8
   },
   "a8c40f17f656": {
-   "t": "ElbowPush",
+   "t": "ElbowPsh",
    "sites": [
     "0x0962F4"
    ],
-   "room": 12
+   "room": 8
   },
   "13c725226339": {
    "t": "SolidHd",
@@ -9457,11 +9457,11 @@
    "room": 8
   },
   "bf79ab3098fd": {
-   "t": "PlainWater",
+   "t": "PlainWtr",
    "sites": [
     "0x096330"
    ],
-   "room": 12
+   "room": 8
   },
   "862a52b112f1": {
    "t": "SpdSkin",
@@ -9489,14 +9489,14 @@
    "sites": [
     "0x096380"
    ],
-   "room": 12
+   "room": 8
   },
   "f509a4bf568a": {
-   "t": "ChineseInk",
+   "t": "ChinaInk",
    "sites": [
     "0x096394"
    ],
-   "room": 12
+   "room": 8
   },
   "1fa70232cc36": {
    "t": "Calmy",
@@ -9513,18 +9513,18 @@
    "room": 8
   },
   "74b98cf98baa": {
-   "t": "Acrobatic",
+   "t": "Acrobtic",
    "sites": [
     "0x0963D0"
    ],
-   "room": 10
+   "room": 8
   },
   "4d62667f37b4": {
-   "t": "Independt",
+   "t": "Independ",
    "sites": [
     "0x0963E4"
    ],
-   "room": 10
+   "room": 8
   },
   "c6825b28a31c": {
    "t": "LivngRm",
@@ -9569,25 +9569,25 @@
    "room": 8
   },
   "3507b6d8af7b": {
-   "t": "MeteorStk",
+   "t": "MetorStk",
    "sites": [
     "0x096470"
    ],
-   "room": 10
+   "room": 8
   },
   "29c5dd0516e8": {
-   "t": "Fluotitis",
+   "t": "Fluotiti",
    "sites": [
     "0x096484"
    ],
-   "room": 10
+   "room": 8
   },
   "2aa0683f3462": {
-   "t": "BoobyTrap",
+   "t": "BobyTrap",
    "sites": [
     "0x096498"
    ],
-   "room": 10
+   "room": 8
   },
   "1904d5540c1f": {
    "t": "D.Break",
@@ -9597,11 +9597,11 @@
    "room": 8
   },
   "2ae3048c10b4": {
-   "t": "LinCannon",
+   "t": "LinCanon",
    "sites": [
     "0x0964C0"
    ],
-   "room": 10
+   "room": 8
   },
   "86a9629409e6": {
    "t": "MuteBdy",
@@ -9615,56 +9615,56 @@
    "sites": [
     "0x0964E8"
    ],
-   "room": 9
+   "room": 8
   },
   "ce548fbac7a6": {
    "t": "Antenna",
    "sites": [
     "0x0964FC"
    ],
-   "room": 9
+   "room": 8
   },
   "1ed254d0674f": {
-   "t": "MissilKai",
+   "t": "MislKai",
    "sites": [
     "0x096510"
    ],
-   "room": 10
+   "room": 8
   },
   "2dde5b644a08": {
-   "t": "MachAntenna",
+   "t": "MachAntn",
    "sites": [
     "0x096524"
    ],
-   "room": 12
+   "room": 8
   },
   "a4790c0e054b": {
-   "t": "Prominnce",
+   "t": "Prominnc",
    "sites": [
     "0x096538"
    ],
-   "room": 10
+   "room": 8
   },
   "cc558ecb350b": {
    "t": "Cantenna",
    "sites": [
     "0x09654C"
    ],
-   "room": 9
+   "room": 8
   },
   "31dfe4ded7d6": {
    "t": "Yusail",
    "sites": [
     "0x096560"
    ],
-   "room": 9
+   "room": 8
   },
   "2c16d7f8ea88": {
    "t": "TwinIncm",
    "sites": [
     "0x096574"
    ],
-   "room": 9
+   "room": 8
   },
   "d59c6708484d": {
    "t": "Insult",
@@ -9678,14 +9678,14 @@
    "sites": [
     "0x09659C"
    ],
-   "room": 9
+   "room": 8
   },
   "77b3acb5b361": {
    "t": "Ballista",
    "sites": [
     "0x0965B0"
    ],
-   "room": 9
+   "room": 8
   },
   "92a6bae83721": {
    "t": "Reinfrc",
@@ -9723,25 +9723,25 @@
    "room": 8
   },
   "7d6aa3156306": {
-   "t": "FinalMarch",
+   "t": "FinlMrch",
    "sites": [
     "0x096628"
    ],
-   "room": 12
+   "room": 8
   },
   "07a0bb82639b": {
-   "t": "VarblHair",
+   "t": "VarblHar",
    "sites": [
     "0x09663C"
    ],
-   "room": 10
+   "room": 8
   },
   "070917dd5462": {
    "t": "HolyGrnd",
    "sites": [
     "0x096650"
    ],
-   "room": 10
+   "room": 8
   },
   "709352613645": {
    "t": "Taser",
@@ -9751,18 +9751,18 @@
    "room": 8
   },
   "6cc0a258ccf7": {
-   "t": "BodyConsc",
+   "t": "BodyCnsc",
    "sites": [
     "0x096678"
    ],
-   "room": 10
+   "room": 8
   },
   "96e663bcd63b": {
-   "t": "Stronghold",
+   "t": "Strnghld",
    "sites": [
     "0x09668C"
    ],
-   "room": 12
+   "room": 8
   },
   "aed7fea7e8d9": {
    "t": "EvilBdy",
@@ -9772,11 +9772,11 @@
    "room": 8
   },
   "62f0e21adb7c": {
-   "t": "PlasmaLsr",
+   "t": "PlasmLsr",
    "sites": [
     "0x0966B4"
    ],
-   "room": 10
+   "room": 8
   },
   "3be6a6340335": {
    "t": "Battery",
@@ -9790,7 +9790,7 @@
    "sites": [
     "0x0966DC"
    ],
-   "room": 10
+   "room": 8
   },
   "3ffae6a21f58": {
    "t": "Skimmer",
@@ -9829,11 +9829,11 @@
    "room": 8
   },
   "d64586559670": {
-   "t": "AbsorbMetal",
+   "t": "AbsrbMtl",
    "sites": [
     "0x09735C"
    ],
-   "room": 12
+   "room": 8
   },
   "597028842ab5": {
    "t": "EneMass",
@@ -10018,25 +10018,25 @@
    "room": 8
   },
   "d1f6c8b09699": {
-   "t": "SweatHammer",
+   "t": "SweatHmr",
    "sites": [
     "0x097578"
    ],
-   "room": 12
+   "room": 8
   },
   "5f533ff444ce": {
-   "t": "GigaOutput",
+   "t": "GigaOutp",
    "sites": [
     "0x09758C"
    ],
-   "room": 12
+   "room": 8
   },
   "3177803b4714": {
-   "t": "KaiserLsr",
+   "t": "KaisrLsr",
    "sites": [
     "0x0975A0"
    ],
-   "room": 10
+   "room": 8
   },
   "76d45456fd74": {
    "t": "S.Curve",
@@ -10074,11 +10074,11 @@
    "room": 8
   },
   "db1f388e017e": {
-   "t": "WaterResist",
+   "t": "WatrRsst",
    "sites": [
     "0x097618"
    ],
-   "room": 12
+   "room": 8
   },
   "a63811e92f41": {
    "t": "LeftLob",
@@ -10120,7 +10120,7 @@
    "sites": [
     "0x097690"
    ],
-   "room": 10
+   "room": 8
   },
   "8aa0ce25c976": {
    "t": "K.Range",
@@ -10130,11 +10130,11 @@
    "room": 8
   },
   "0a65a3fe3581": {
-   "t": "SolidShot",
+   "t": "SolidSht",
    "sites": [
     "0x0976B8"
    ],
-   "room": 10
+   "room": 8
   },
   "7bc19ab0561e": {
    "t": "B.Claw",
@@ -10144,25 +10144,25 @@
    "room": 8
   },
   "a8bced744afe": {
-   "t": "StrongArm",
+   "t": "StrngArm",
    "sites": [
     "0x0976E0"
    ],
-   "room": 10
+   "room": 8
   },
   "e2ba200191ff": {
-   "t": "ChantCtch",
+   "t": "ChantCch",
    "sites": [
     "0x0976F4"
    ],
-   "room": 10
+   "room": 8
   },
   "e5f7ada8f8d6": {
-   "t": "AshBuster",
+   "t": "AshBustr",
    "sites": [
     "0x097708"
    ],
-   "room": 10
+   "room": 8
   },
   "5340b3dda241": {
    "t": "Hametsu",
@@ -10176,7 +10176,7 @@
    "sites": [
     "0x097730"
    ],
-   "room": 10
+   "room": 8
   },
   "4f1dba38687a": {
    "t": "Rippy",
@@ -10193,18 +10193,18 @@
    "room": 8
   },
   "0838c340bd2b": {
-   "t": "LongJumpy",
+   "t": "LongJump",
    "sites": [
     "0x09776C"
    ],
-   "room": 12
+   "room": 8
   },
   "3bfc78bdda6d": {
    "t": "B.Hammer",
    "sites": [
     "0x097780"
    ],
-   "room": 9
+   "room": 8
   },
   "51cda8efaba7": {
    "t": "Gallop",
@@ -10218,7 +10218,7 @@
    "sites": [
     "0x0977A8"
    ],
-   "room": 12
+   "room": 8
   },
   "6989bdf6cac6": {
    "t": "Desire",
@@ -10232,35 +10232,35 @@
    "sites": [
     "0x0977D0"
    ],
-   "room": 9
+   "room": 8
   },
   "b32258975636": {
    "t": "PivotSht",
    "sites": [
     "0x0977E4"
    ],
-   "room": 9
+   "room": 8
   },
   "c85f098e452b": {
    "t": "EchoSpd",
    "sites": [
     "0x0977F8"
    ],
-   "room": 9
+   "room": 8
   },
   "c739fc5cbd70": {
-   "t": "MissileShwr",
+   "t": "MislShwr",
    "sites": [
     "0x09780C"
    ],
-   "room": 12
+   "room": 8
   },
   "dc1a68651957": {
    "t": "StopGap",
    "sites": [
     "0x097820"
    ],
-   "room": 12
+   "room": 8
   },
   "6b1a4051ffa0": {
    "t": "ArmyHen",
@@ -10305,11 +10305,11 @@
    "room": 8
   },
   "9c295b63270d": {
-   "t": "SilncEdge",
+   "t": "SilncEdg",
    "sites": [
     "0x0978AC"
    ],
-   "room": 10
+   "room": 8
   },
   "4d1e9672f4bc": {
    "t": "Soda",
@@ -10354,18 +10354,18 @@
    "room": 8
   },
   "a63cc6cc0c8f": {
-   "t": "FireCannon",
+   "t": "FireCnon",
    "sites": [
     "0x097938"
    ],
-   "room": 12
+   "room": 8
   },
   "d029acb4caf6": {
-   "t": "ScapeShield",
+   "t": "ScapShld",
    "sites": [
     "0x09794C"
    ],
-   "room": 12
+   "room": 8
   },
   "9eb2f31573f4": {
    "t": "Remembr",
@@ -10375,12 +10375,12 @@
    "room": 8
   },
   "a602c2d1cb4c": {
-   "t": "Technique",
+   "t": "Technqe",
    "sites": [
     "0x097974",
     "0x09089C"
    ],
-   "room": 16
+   "room": 8
   },
   "7101461ffe64": {
    "t": "Devious",
@@ -10394,14 +10394,14 @@
    "sites": [
     "0x09799C"
    ],
-   "room": 10
+   "room": 8
   },
   "04f310808ea0": {
    "t": "SouTile",
    "sites": [
     "0x0979B0"
    ],
-   "room": 10
+   "room": 8
   },
   "f6a457371edb": {
    "t": "StoreUp",
@@ -10474,11 +10474,11 @@
    "room": 8
   },
   "85a51dc6b81d": {
-   "t": "NapalmShr",
+   "t": "NaplmShr",
    "sites": [
     "0x097AA0"
    ],
-   "room": 10
+   "room": 8
   },
   "36b73df20b8e": {
    "t": "RockBrk",
@@ -10488,18 +10488,18 @@
    "room": 8
   },
   "237d2ecb3a1e": {
-   "t": "PerspirBeam",
+   "t": "PrspBeam",
    "sites": [
     "0x097AC8"
    ],
-   "room": 12
+   "room": 8
   },
   "5dc5889a9538": {
    "t": "ArmStick",
    "sites": [
     "0x097ADC"
    ],
-   "room": 12
+   "room": 8
   },
   "fa0521933e4f": {
    "t": "Succesn",
@@ -10548,7 +10548,7 @@
    "sites": [
     "0x097B68"
    ],
-   "room": 9
+   "room": 8
   },
   "57a111cd4ecd": {
    "t": "CurFlow",
@@ -10628,11 +10628,11 @@
    "room": 8
   },
   "1fa1fc9f71a1": {
-   "t": "StickTrap",
+   "t": "StickTrp",
    "sites": [
     "0x097C58"
    ],
-   "room": 10
+   "room": 8
   },
   "05921639710e": {
    "t": "D.Laser",
@@ -10642,11 +10642,11 @@
    "room": 8
   },
   "bde935bdf84f": {
-   "t": "AsltRifle",
+   "t": "AsltRifl",
    "sites": [
     "0x097C80"
    ],
-   "room": 10
+   "room": 8
   },
   "a8361bfda94f": {
    "t": "MuteArm",
@@ -10660,84 +10660,84 @@
    "sites": [
     "0x097CA8"
    ],
-   "room": 10
+   "room": 8
   },
   "bf2c2471ad77": {
-   "t": "PikoPekoHmr",
+   "t": "PikoPeko",
    "sites": [
     "0x097CBC"
    ],
-   "room": 12
+   "room": 8
   },
   "d5b839c8bbfa": {
    "t": "MGunKai",
    "sites": [
     "0x097CD0"
    ],
-   "room": 10
+   "room": 8
   },
   "1427e805dc30": {
-   "t": "MachHammer",
+   "t": "MachHmmr",
    "sites": [
     "0x097CE4"
    ],
-   "room": 12
+   "room": 8
   },
   "2e54cf0fb154": {
    "t": "Explode",
    "sites": [
     "0x097CF8"
    ],
-   "room": 10
+   "room": 8
   },
   "efeb78134a93": {
-   "t": "TaitaiSwd",
+   "t": "TaitaSwd",
    "sites": [
     "0x097D0C"
    ],
-   "room": 10
+   "room": 8
   },
   "beee501e01e8": {
    "t": "PariGun",
    "sites": [
     "0x097D20"
    ],
-   "room": 10
+   "room": 8
   },
   "0e85ca774b35": {
    "t": "I.Beat",
    "sites": [
     "0x097D34"
    ],
-   "room": 9
+   "room": 8
   },
   "1537d8646eae": {
    "t": "SolidHmr",
    "sites": [
     "0x097D48"
    ],
-   "room": 9
+   "room": 8
   },
   "d5b3e2ac48bd": {
    "t": "Auxiliry",
    "sites": [
     "0x097D5C"
    ],
-   "room": 9
+   "room": 8
   },
   "f6f4229437ab": {
    "t": "Blaster",
    "sites": [
     "0x097D70"
    ],
-   "room": 9
+   "room": 8
   },
   "f43fd0cc6bbf": {
    "t": "DuctShtr",
    "sites": [
     "0x097D84"
    ],
-   "room": 9
+   "room": 8
   },
   "c87c3db7d2da": {
    "t": "Angus",
@@ -10761,53 +10761,53 @@
    "room": 8
   },
   "6ecbefa4805e": {
-   "t": "EndRecital",
+   "t": "EndRectl",
    "sites": [
     "0x097DD4"
    ],
-   "room": 12
+   "room": 8
   },
   "cbd430bda373": {
-   "t": "StrikeDead",
+   "t": "StrikDed",
    "sites": [
     "0x097DE8"
    ],
-   "room": 12
+   "room": 8
   },
   "85e799a83e5f": {
-   "t": "ShortShot",
+   "t": "ShortSht",
    "sites": [
     "0x097DFC"
    ],
-   "room": 10
+   "room": 8
   },
   "05cf7c72ffee": {
-   "t": "M.Capsule",
+   "t": "M.Capsul",
    "sites": [
     "0x097E10"
    ],
-   "room": 10
+   "room": 8
   },
   "01e12d673ae1": {
-   "t": "StunStick",
+   "t": "StunStck",
    "sites": [
     "0x097E24"
    ],
-   "room": 10
+   "room": 8
   },
   "ebe22fabacb6": {
    "t": "ArmCandy",
    "sites": [
     "0x097E38"
    ],
-   "room": 10
+   "room": 8
   },
   "66192f946f13": {
-   "t": "Effecteen",
+   "t": "Effectn",
    "sites": [
     "0x097E4C"
    ],
-   "room": 12
+   "room": 8
   },
   "5007ab83ca3e": {
    "t": "EvilArm",
@@ -10821,21 +10821,21 @@
    "sites": [
     "0x097E74"
    ],
-   "room": 10
+   "room": 8
   },
   "642bc986038a": {
    "t": "HyperLsr",
    "sites": [
     "0x097E88"
    ],
-   "room": 10
+   "room": 8
   },
   "493c7bd531ff": {
-   "t": "GreatShield",
+   "t": "GrtShild",
    "sites": [
     "0x097E9C"
    ],
-   "room": 12
+   "room": 8
   },
   "aba64ec13d12": {
    "t": "Tailor",

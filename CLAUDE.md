@@ -254,6 +254,24 @@ Hard-won facts:
   The loose scan is a heuristic and finds slightly different runs on each
   cartridge, so the catalogue is also SEEDED from the pack's own keys
   (`catalog.seeded`) — same finding, read through the alignment.
+- **A `room` in gfx.json is a CLAIM, and a wrong one corrupts data silently.**
+  The extra-strings writer writes the payload and then zero-pads to `room`, so
+  a room bigger than the field damages the record whether the translation is
+  long (it writes over what follows) or short (the padding does). The part
+  table is 608 records of 0x14 — eight bytes of model code, eight of name,
+  then three bytes of the part's own stats — and 188 names claimed a room of
+  9 to 12 while the entries covering code and name together claimed 20. 125
+  records shipped with the wrong stats. Nothing downstream could see it: the
+  text encodes, fits its box and renders; only the bytes after it are wrong.
+  A player found it because one of those stats is on screen ("Prominence is
+  listed as Female") and the rest are silent. `TEXT_RECORDS` in navi/strings.py
+  now declares how much text each record holds, the writer refuses anything
+  longer, and tests/test_record_data.py rebuilds and compares every record's
+  data tail against the dump. To hunt for more of these: group the sites into
+  tables by their spacing, measure the longest Japanese in the table, and see
+  whether `room` reaches a column that is non-zero in any record — a column
+  like that cannot be padding. That check finds the part table on the old
+  gfx.json and nothing on the new one.
 - **`tools/apply.py` cannot write the other release's pack.** It does
   `Pack.load(code)` with no release, and a pack loaded WITH one merges the
   base and `kabuto/` entries without recording where each came from — so

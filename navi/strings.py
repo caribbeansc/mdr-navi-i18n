@@ -267,6 +267,47 @@ SLOT_TABLES = (
 )
 
 
+#: Fixed-stride records whose TEXT is followed by the record's own data, as
+#: ``(first record, stride, records, bytes of text at the front)``.
+#:
+#: The part table is 608 records of 0x14: an eight-byte model code and an
+#: eight-byte name — sixteen bytes of text — and then three bytes of the
+#: part's own stats with a zero for padding. Neither text field carries a
+#: terminator; 127 of the 608 names fill all eight bytes, so the game reads
+#: fixed widths and a translation has exactly those bytes to spend.
+#:
+#: gfx.json declared a "room" of 9 to 12 for 188 of those names, and 20 — the
+#: whole record — for the entries that cover code and name together. The
+#: extra-strings writer believes room: it writes the payload and then
+#: ZERO-PADS to room. Both halves of that corrupted the record — a long name
+#: wrote over the stats, a short one padded zeroes over them — and 125 records
+#: came out of the build with the wrong data. A player found it because the
+#: stat they could see was the part's gender ("Prominence is listed as
+#: Female"); the others are silent. Nothing catches it downstream: the text is
+#: valid, fits its box and renders. Only the bytes after it are wrong.
+TEXT_RECORDS = (
+    (0x095B30, 0x14, 608, 0x10),
+)
+
+
+def record_text_room(offset: int) -> int | None:
+    """Bytes a translation may write at ``offset``, or None if unconstrained.
+
+    The answer is how much of the record's TEXT is left from there on, so a
+    site on the name field gets eight and one on the model code gets sixteen.
+    ``offset`` is a canonical (Kuwagata) file offset, the way gfx.json and the
+    packs name every site.
+    """
+    for start, stride, count, text in TEXT_RECORDS:
+        if not start <= offset < start + stride * count:
+            continue
+        position = (offset - start) % stride
+        if position < text:
+            return text - position
+        return 0            # inside the data tail: nothing may be written
+    return None
+
+
 def split_slot_tables(found: list[LooseString], rom: Rom,
                       charset: Charset) -> list[LooseString]:
     """Replace runs that cross a :data:`SLOT_TABLES` table with one entry per slot."""

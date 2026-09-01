@@ -28,6 +28,7 @@ from .catalog import Catalog, Line
 from .lang import Pack
 from .rom import BASE, Rom, find_free_space
 from .script import Script
+from .strings import record_text_room
 from .table import KANJI_LEAD, Charset, TableError, encode
 
 #: A 16-bit pointer counted from the start of the script caps how big one can get.
@@ -602,6 +603,17 @@ def _write_extra_strings(rom: Rom, pack: Pack, charset: Charset, report: Report)
         # still cover every site that decodes to that Japanese.
         src = src.split("@")[0]
         room = int(entry["room"])
+        # A site that lands on a name field INSIDE a fixed-stride record has
+        # exactly the field's bytes, whatever gfx.json claims for it. Believing
+        # a "room" of 12 for an eight-byte field corrupted 125 part records:
+        # the writer pads with zeroes up to room, so a long name overwrote the
+        # part's stats and a short one zeroed them. See RECORD_NAME_FIELDS.
+        field = min((width for width in
+                     (record_text_room(int(str(site), 16))
+                      for site in entry["sites"]) if width is not None),
+                    default=None)
+        if field is not None:
+            room = min(room, field)
         try:
             payload = encode(text, charset)
         except TableError as exc:
@@ -651,6 +663,12 @@ def _write_extra_strings(rom: Rom, pack: Pack, charset: Charset, report: Report)
                 continue
             payload = (body + bytes([charset.encode.get(" ", 0xDB)])
                        * (room_for_body - len(body)) + b"\xf0" + tail)
+        elif field is not None:
+            # The field has no terminator of its own — 127 of the part names
+            # fill all eight bytes — so one is added only when there is room
+            # for it, exactly as the Japanese does.
+            if len(payload) < field:
+                payload += b"\x00"
         elif not text.endswith(("<END>", "<X:F0>")):
             payload += b"\x00"
         elif text.endswith("<X:F0>") and len(payload) >= room:
@@ -666,7 +684,9 @@ def _write_extra_strings(rom: Rom, pack: Pack, charset: Charset, report: Report)
             continue
         if len(payload) > room:
             report.skipped.append(
-                (f"extra:{src}", f"{len(payload)} bytes into a {room}-byte slot"))
+                (f"extra:{src}", f"{len(payload)} bytes into a {room}-byte slot"
+                 + (" (a fixed record field; the bytes after it are the "
+                    "record's own data)" if field is not None else "")))
             continue
         for at in sites:
             source, _ = decode(bytes(rom.data), at, japanese, limit=64)
