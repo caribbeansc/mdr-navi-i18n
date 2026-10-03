@@ -4558,8 +4558,8 @@
   },
   {
    "key": "str:5D7790",
-   "src": "27171411d041",
-   "t": "<FACE:08>Ah!<WAIT><FACE:00>She's floating away<NL>again…<WAIT><FACE:06>Do it right this time!<WAIT><FACE:04>Yeah, yeah…<WAIT><FACE:00>Careful, careful…<WAIT><FACE:05>Why not get <MEDABOT><NL>to help you?<WAIT><FACE:00>Ah, good idea<NL><MEDABOT>, transport!!<SFX:43><DELAY:003C><DELAY:0028><CLEAR>"
+   "src": "cf57ad1e1a40",
+   "t": "<FACE:08>Ah!<WAIT><FACE:00>She's floating away<NL>again…<WAIT><FACE:06>Do it right this time!<WAIT><FACE:04>Yeah, yeah…<WAIT><FACE:00>Careful, careful…<WAIT><FACE:05>Why not get <MEDABOT><NL>to help you?<WAIT><FACE:00>Ah, good idea<NL><MEDABOT>, transport!!<SFX:43><DELAY:003C><DELAY:0028><CLEAR>Heave… ho… and…<WAIT><FACE:A4><SFX:37>(THUD!!)<WAIT><FACE:00>Ow, ow…<WAIT><FACE:A4><SFX:4B>!!!!!<DELAY:0028><WAIT><FACE:05>Hey, something's off<NL>this time, isn't it?<WAIT><FACE:00>Y-yeah…<WAIT><FACE:A4><SFX:51>(ZAP!!)<DELAY:003C><DELAY:001E><NL>What gives, you lot?!<WAIT><FACE:03>Waaah!<WAIT><FACE:A4>Just as I'm snoozing…<NL>How dare you rascals!<WAIT><FACE:03>It's acting totally<NL>out of character…<WAIT><FACE:05>Maybe we should back<NL>off and watch a bit…<WAIT><FACE:00>Y-yeah…<NL>(Tiptoe…<DELAY:001E> tiptoe…)<WAIT><FACE:A4>Hold it right there!<NL>You won't get away"
   },
   {
    "key": "str:5D78FC",
@@ -5103,8 +5103,8 @@
   },
   {
    "key": "str:7F653D",
-   "src": "be4eebaa976b",
-   "t": "<FACE:00>Navi, the Lobby Block<NL>Mistral: any change?<WAIT><FACE:53><SFX:32>Mistral… you mean the<NL>space Medabot?<WAIT>Every kind of sensor<NL>is trained on it, but<WAIT>it is fully shut down<NL>and hasn't moved once<WAIT><FACE:04>Shut down? But I<NL>really heard a voice…<WAIT><FACE:53><SFX:32>A voice?<NL><WAIT>Had it made a sound,<NL>sensors would react<WAIT><FACE:00>Not that kind of voice<NL>I hear it in my heart<WAIT><FACE:53><SFX:32>The heart…?<NL><WAIT>The human heart has no<NL>such ability, surely?<WAIT><FACE:04>No, um… it's not about<NL>'abilities' or such<WAIT>It just comes through…<NL><WAIT>Anyway, Mistral can't<NL>be fully shut down…<WAIT><FACE:05>Okay, okay, <PLAYER>!<NL>Don't overthink it!<WAIT>On to the next Block!<WAIT><FACE:53>…<DELAY:0028><NL><CLEAR>"
+   "src": "3e49113a0001",
+   "t": "<FACE:00>Navi, the Lobby Block<NL>Mistral: any change?<WAIT><FACE:53><SFX:32>Mistral… you mean the<NL>space Medabot?<WAIT>Every kind of sensor<NL>is trained on it, but<WAIT>it is fully shut down<NL>and hasn't moved once<WAIT><FACE:04>Shut down? But I<NL>really heard a voice…<WAIT><FACE:53><SFX:32>A voice?<NL><WAIT>Had it made a sound,<NL>sensors would react<WAIT><FACE:00>Not that kind of voice<NL>I hear it in my heart<WAIT><FACE:53><SFX:32>The heart…?<NL><WAIT>The human heart has no<NL>such ability, surely?<WAIT><FACE:04>No, um… it's not about<NL>'abilities' or such<WAIT>It just comes through…<NL><WAIT>Anyway, Mistral can't<NL>be fully shut down…<WAIT><FACE:05>Okay, okay, <PLAYER>!<NL>Don't overthink it!<WAIT>On to the next Block!<WAIT><FACE:53>…<DELAY:0028><NL><CLEAR><SFX:69>The heart…<DELAY:0078><DELAY:0030><NL><CLEAR>Something that<NL><DELAY:003C><DELAY:0007>reaches the heart…?<DELAY:003C><DELAY:002D><MUSIC>"
   },
   {
    "key": "str:7F6755",
@@ -5128,8 +5128,8 @@
   },
   {
    "key": "str:7F696F",
-   "src": "fac6477a6648",
-   "t": "<FACE:03>What?! What is it?!<NL><WAIT><FACE:53><SFX:66>Emergency! <DELAY:003C><DELAY:0008>Emergency!<DELAY:003C><DELAY:0018><NL><CLEAR>"
+   "src": "d207251733c3",
+   "t": "<FACE:03>What?! What is it?!<NL><WAIT><FACE:53><SFX:66>Emergency! <DELAY:003C><DELAY:0008>Emergency!<DELAY:003C><DELAY:0018><NL><CLEAR><SFX:67>Asteroid sighted on<NL>the Cluster's course!<DELAY:0078><DELAY:0023><CLEAR>One hour until we hit<NL><DELAY:0035>its gravity field!<DELAY:0078><DELAY:0003><MUSIC><WAIT>Start the attitude<NL>control engine in<WAIT>the Pyramid Block now!<WAIT><FACE:17>Wh-what was that?!<WAIT><FACE:1C>This is terrible, sir!<WAIT><FACE:03>Th-the Pyramid Block?<WAIT><FACE:08>H-hold on a second!<NL>Getting my pamphlet…<WAIT><FACE:0B>You go right from here<NL>and around the bend!<WAIT><FACE:08>Huh?<WAIT><FACE:00>You know a lot, Fubuki<WAIT><FACE:0A>Who cares about that?<WAIT><FACE:01>Right, we must hurry!<NL><WAIT>Set our route and go<NL>straight there!"
   },
   {
    "key": "str:7F6ACE",

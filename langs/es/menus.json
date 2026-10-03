@@ -4583,8 +4583,8 @@
   },
   {
    "key": "str:5D7790",
-   "src": "27171411d041",
-   "t": "<FACE:08>¡Ah!<WAIT><FACE:00>La corriente se la<NL>lleva otra vez…<WAIT><FACE:06>¡Esta vez hazlo bien!<WAIT><FACE:04>Sí, sí…<WAIT><FACE:00>Con calma, con calma…<WAIT><FACE:05>¿Y si <MEDABOT><NL>te ayuda?<WAIT><FACE:00>Ah, tienes razón<NL>¡<MEDABOT>,<WAIT>transporte!<SFX:43><DELAY:003C><DELAY:0028><CLEAR>"
+   "src": "cf57ad1e1a40",
+   "t": "<FACE:08>¡Ah!<WAIT><FACE:00>La corriente se la<NL>lleva otra vez…<WAIT><FACE:06>¡Esta vez hazlo bien!<WAIT><FACE:04>Sí, sí…<WAIT><FACE:00>Con calma, con calma…<WAIT><FACE:05>¿Y si <MEDABOT><NL>te ayuda?<WAIT><FACE:00>Ah, tienes razón<NL>¡<MEDABOT>,<WAIT>transporte!<SFX:43><DELAY:003C><DELAY:0028><CLEAR>Uf… uf… ya casi…<WAIT><FACE:A4><SFX:37>(¡PUM!)<WAIT><FACE:00>Ay, ay…<WAIT><FACE:A4><SFX:4B>¡¡¡¡¡!!!!!<DELAY:0028><WAIT><FACE:05>Oye, ¿no notas algo<NL>raro esta vez?<WAIT><FACE:00>S-sí…<WAIT><FACE:A4><SFX:51>(¡ZAS!)<DELAY:003C><DELAY:001E><NL>¡¿Y ustedes qué?!<WAIT><FACE:03>¡Uaaah!<WAIT><FACE:A4>¡Mi siesta, arruinada!<NL>¡¿Quiénes se creen?!<WAIT><FACE:03>¡Este no es el de<NL>siempre…!<WAIT><FACE:05>Mejor alejarnos un<NL>poco y observar…<WAIT><FACE:00>S-sí…<NL>(Pasito…<DELAY:001E> pasito…)<WAIT><FACE:A4>¡Alto ahí!<NL>No se me escapan"
   },
   {
    "key": "str:5D78FC",
@@ -5128,8 +5128,8 @@
   },
   {
    "key": "str:7F653D",
-   "src": "be4eebaa976b",
-   "t": "<FACE:00>Navi, ¿alguna novedad<NL>de Mistral, el del<WAIT>Bloque Lobby?<WAIT><FACE:53><SFX:32>¿Mistral…? ¿Se refiere<NL>al Medabot espacial?<WAIT>Sensores de todo tipo<NL>vigilan la<WAIT>exhibición…<WAIT>Está del todo inactivo<NL>y no se ha movido<WAIT>desde que llegó aquí<WAIT><FACE:04>¿Inactivo? Pero yo<NL>oí una voz, seguro…<WAIT><FACE:53><SFX:32>¿Una voz?<WAIT>Si hubiera emitido<NL>sonido, ¿no habrían<WAIT>reaccionado los<NL>sensores?<WAIT><FACE:00>No es esa clase de<NL>voz… La oigo… dentro<WAIT>de mi corazón<WAIT><FACE:53><SFX:32>¿El corazón…?<WAIT>El corazón humano no<NL>tiene esa capacidad,<WAIT>¿o sí?<WAIT><FACE:04>Eh, no… no hablo de<NL>«capacidades» ni nada<WAIT>tan serio… Es algo<NL>que se transmite…<WAIT>El punto es que<NL>Mistral no puede<WAIT>estar del todo<NL>inactivo…<WAIT><FACE:05>¡Ya, ya, <PLAYER>!<NL>¡No lo pienses tanto!<WAIT>¡Vamos al siguiente<NL>bloque!<WAIT><FACE:53>…<DELAY:0028><CLEAR>"
+   "src": "3e49113a0001",
+   "t": "<FACE:00>Navi, ¿alguna novedad<NL>de Mistral, el del<WAIT>Bloque Lobby?<WAIT><FACE:53><SFX:32>¿Mistral…? ¿Se refiere<NL>al Medabot espacial?<WAIT>Sensores de todo tipo<NL>vigilan la<WAIT>exhibición…<WAIT>Está del todo inactivo<NL>y no se ha movido<WAIT>desde que llegó aquí<WAIT><FACE:04>¿Inactivo? Pero yo<NL>oí una voz, seguro…<WAIT><FACE:53><SFX:32>¿Una voz?<WAIT>Si hubiera emitido<NL>sonido, ¿no habrían<WAIT>reaccionado los<NL>sensores?<WAIT><FACE:00>No es esa clase de<NL>voz… La oigo… dentro<WAIT>de mi corazón<WAIT><FACE:53><SFX:32>¿El corazón…?<WAIT>El corazón humano no<NL>tiene esa capacidad,<WAIT>¿o sí?<WAIT><FACE:04>Eh, no… no hablo de<NL>«capacidades» ni nada<WAIT>tan serio… Es algo<NL>que se transmite…<WAIT>El punto es que<NL>Mistral no puede<WAIT>estar del todo<NL>inactivo…<WAIT><FACE:05>¡Ya, ya, <PLAYER>!<NL>¡No lo pienses tanto!<WAIT>¡Vamos al siguiente<NL>bloque!<WAIT><FACE:53>…<DELAY:0028><CLEAR><SFX:69>El corazón…<DELAY:0078><DELAY:0030><NL><CLEAR>¿Algo que <DELAY:003C><DELAY:0007>llega<NL>al corazón…?<DELAY:003C><DELAY:002D><MUSIC>"
   },
   {
    "key": "str:7F6755",
@@ -5153,8 +5153,8 @@
   },
   {
    "key": "str:7F696F",
-   "src": "fac6477a6648",
-   "t": "<FACE:03>¿¡Pero qué pasa!?<NL><WAIT><FACE:53><SFX:66>¡Emergencia!<DELAY:003C><DELAY:0008><NL>¡Emergencia!<DELAY:003C><DELAY:0018><NL><CLEAR>"
+   "src": "d207251733c3",
+   "t": "<FACE:03>¿¡Pero qué pasa!?<NL><WAIT><FACE:53><SFX:66>¡Emergencia!<DELAY:003C><DELAY:0008><NL>¡Emergencia!<DELAY:003C><DELAY:0018><NL><CLEAR><SFX:67>¡Asteroide en la ruta<NL>del Cluster!<DELAY:0078><DELAY:0023><CLEAR>¡En una hora entramos<NL><DELAY:0035>en su gravedad!<DELAY:0078><DELAY:0003><MUSIC><WAIT>¡Activen de inmediato<NL>el control de actitud<WAIT>del Bloque Pirámide!<WAIT><FACE:17>¡¿Q-qué dices, pues?!<WAIT><FACE:1C>¡Es terrible!<WAIT><FACE:03>¿E-el Bloque Pirámide?<WAIT><FACE:08>E-espera un momento<NL>Traigo el folleto…<WAIT><FACE:0B>Vas a la derecha y<NL>doblas: ¡ahí está!<WAIT><FACE:08>¿Eh?<WAIT><FACE:00>Sabes mucho, Fubuki<WAIT><FACE:0A>¿Y eso qué importa?<WAIT><FACE:01>¡Cierto, hay que<NL>apurarse!<WAIT>¡Fijemos la ruta y<NL>vamos derecho!"
   },
   {
    "key": "str:7F6ACE",

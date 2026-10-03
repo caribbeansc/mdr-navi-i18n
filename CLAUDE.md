@@ -560,3 +560,9 @@ Hard-won facts:
   address back: "Trade parts", "Give a Medal", "Level" and three more (four
   in Spanish) drew their abandoned Japanese. The loose writer keeps any word
   the build already moved.
+- **Loose text has chains too.** The engine reads through `<CLEAR>` until a
+  0x00 or `<END>`, and `decode` stops at `<CLEAR>`, so three loose scenes
+  were catalogued as their first box and their translations, sealed with
+  0x00, cut them short (the asteroid alarm lost eleven boxes). `read_chain`
+  in navi/catalog.py reads them whole; the room stays the first box, as for
+  scripts, so a chain is relocated whole. tests/test_loose_chains.py.

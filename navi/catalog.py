@@ -22,6 +22,37 @@ from .strings import LooseString, scan, script_area
 from .table import Charset, decode, load_japanese
 
 
+def read_chain(data: bytes, at: int, charset: Charset,
+               starts: set[int] | frozenset[int] = frozenset(),
+               limit: int = 4096) -> tuple[str, int]:
+    """The text the engine reads from ``at``, as ``(text, end)``.
+
+    `decode` stops at <CLEAR>, but the engine does not: it clears the box and
+    reads on, and only a 0x00 or an <END> stops it. So a line that ends in
+    <CLEAR> with more text behind it is ONE string to the game, a chain of
+    boxes, and has to be translated as one. Three loose lines are like that.
+    Translating only their first box sealed the translation with a 0x00 and
+    cut the scene there: the alarm in the Cluster ("Emergency!") lost the
+    eleven boxes that send the party to the Pyramid Block, and the scene
+    where the Medabot is sent to haul something out of the water lost its
+    next thirteen. Navi's closing lines in the Lobby scene were cut too.
+
+    Reading stops where another catalogued line starts (``starts``), like
+    read_strings does for the scripts' chains.
+    """
+    import re
+
+    text, end = decode(data, at, charset, limit=limit)
+    while (2 <= end < len(data) and data[end - 1] == 0xF4
+           and data[end] not in (0x00, 0xF3) and end not in starts):
+        more, after = decode(data, end, charset, limit=limit)
+        if after <= end or len(re.sub(r"<[^>]+>", "", more).strip()) < 2:
+            break
+        text += more
+        end = after
+    return text, end
+
+
 @dataclass
 class Line:
     """One translatable line."""
@@ -104,8 +135,14 @@ def seeded(rom: Rom, charset: Charset, wanted: dict[int, str],
         if at is None or loose_key(canonical) in known:
             continue
         text, end = decode(data, at, charset, limit=200)
-        if not text.strip() or end <= at or fingerprint(text) != src:
+        if not text.strip() or end <= at:
             continue
+        if fingerprint(text) != src:
+            # A pack translates a chain whole (see read_chain).
+            whole, _ = read_chain(data, at, charset)
+            if fingerprint(whole) != src:
+                continue
+            text = whole
         padded = padded_end(data, end, stop)
         out.append(Line(
             key=loose_key(canonical),
@@ -180,6 +217,18 @@ def build(rom: Rom, charset: Charset | None = None, loose: bool = True,
             for line in seeded(rom, charset, seeds, catalog.lines):
                 catalog.lines[line.key] = line
 
+        data = bytes(rom.data)
+        loose_starts = {line.offset for line in catalog.lines.values() if line.kind == "loose"}
+        for line in catalog.lines.values():
+            if line.kind != "loose" or line.fixed:
+                continue
+            # The text grows to the whole chain; the ROOM stays the first box,
+            # as in read_strings, so a chain is relocated whole and the
+            # original stays intact for anything that enters it mid-way.
+            text, _ = read_chain(data, line.offset, charset, loose_starts - {line.offset})
+            if len(text) > len(line.text) and text.startswith(line.text):
+                line.text = text
+
         for key in phantoms(rom, charset, catalog):
             del catalog.lines[key]
 
@@ -235,7 +284,7 @@ def phantoms(rom: Rom, charset: Charset, catalog: Catalog) -> list[str]:
 
     out = []
     for i, outer in enumerate(loose):
-        _, end = decode(data, outer.offset, charset, limit=4096)
+        _, end = read_chain(data, outer.offset, charset, starts - {outer.offset})
         for inner in loose[i + 1:]:
             if inner.offset >= end:
                 break
