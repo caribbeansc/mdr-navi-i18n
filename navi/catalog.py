@@ -16,7 +16,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from .lang import fingerprint
-from .rom import Rom
+from .rom import Rom, data_end
 from .script import Script, read_scripts, read_strings
 from .strings import LooseString, scan, script_area
 from .table import Charset, decode, load_japanese
@@ -93,10 +93,11 @@ def seeded(rom: Rom, charset: Charset, wanted: dict[int, str],
     catalogued where the dump still holds the Japanese the pack was written
     against, so a seed can never invent a line that is not there.
     """
-    from .strings import PAD_LIMIT, pointer_index
+    from .strings import padded_end, pointer_index
 
     index = pointer_index(rom)
     data = bytes(rom.data)
+    stop = data_end(rom)
     out: list[Line] = []
     for canonical, src in sorted(wanted.items()):
         at = rom.at(canonical)
@@ -105,9 +106,7 @@ def seeded(rom: Rom, charset: Charset, wanted: dict[int, str],
         text, end = decode(data, at, charset, limit=200)
         if not text.strip() or end <= at or fingerprint(text) != src:
             continue
-        padded = end
-        while padded < len(data) and data[padded] == 0 and padded - end < PAD_LIMIT:
-            padded += 1
+        padded = padded_end(data, end, stop)
         out.append(Line(
             key=loose_key(canonical),
             text=text,
@@ -181,7 +180,71 @@ def build(rom: Rom, charset: Charset | None = None, loose: bool = True,
             for line in seeded(rom, charset, seeds, catalog.lines):
                 catalog.lines[line.key] = line
 
+        for key in phantoms(rom, charset, catalog):
+            del catalog.lines[key]
+
     return catalog
+
+
+def phantoms(rom: Rom, charset: Charset, catalog: Catalog) -> list[str]:
+    """Loose lines that are only the TAIL of another line, reached by nothing real.
+
+    The pointer scan believes any aligned word that spells a cartridge address,
+    so a word inside a compressed sheet that happens to equal an address in the
+    middle of a line makes that middle look like a string of its own. Two did:
+    str:7F6AF3 starts 37 bytes into str:7F6ACE, a scene the game reaches
+    through the table at 0x7F7348, and str:7F7503 starts seven bytes into
+    "Block intrusion alert!" (str:7F74FC, loaded by the code at 0x844A6).
+    Their only "pointers" were at 0x55EF08 and 0x74BAA8, both inside
+    compressed graphics. Once they were in a pack, the seeds kept them alive
+    on both releases.
+
+    A tail costs twice. Written in place, it lands on top of its own head's
+    translation: the intrusion alert drew three bytes of garbage in front of
+    "Intruder alert!". Relocated, the writer "repoints" the coincidence and
+    corrupts the sheet. So a non-fixed line that starts inside another line's
+    own bytes, before that line's terminator, is dropped unless the code
+    loads one of its pointers, or one of them sits in a table of strings,
+    next to a word that points at another catalogued line. That is stricter
+    than `is_pointer_site`, on purpose: 0x74BAA8 passes that test, because the
+    compressed bytes beside it happen to spell 0x08030087. Fixed-stride slots
+    nest by design, because a name that fills its slot has no terminator, so
+    they are left alone.
+    """
+    import struct
+
+    from .rom import BASE
+    from .strings import _thumb_literal_load
+
+    data = bytes(rom.data)
+    loose = sorted((line for line in catalog.lines.values() if line.kind == "loose"),
+                   key=lambda line: line.offset)
+    starts = {line.offset for line in loose}
+
+    def vouched(site: int) -> bool:
+        if site < 0x8000:
+            return False
+        if _thumb_literal_load(data, site):
+            return True
+        for delta in (-8, -4, 4, 8):
+            at = site + delta
+            if 0 <= at and at + 4 <= len(data):
+                if struct.unpack_from("<I", data, at)[0] - BASE in starts:
+                    return True
+        return False
+
+    out = []
+    for i, outer in enumerate(loose):
+        _, end = decode(data, outer.offset, charset, limit=4096)
+        for inner in loose[i + 1:]:
+            if inner.offset >= end:
+                break
+            if inner.fixed or outer.fixed:
+                continue
+            if any(vouched(site) for site in inner.pointers):
+                continue
+            out.append(inner.key)
+    return sorted(set(out))
 
 
 def loose_string(line: Line) -> LooseString:

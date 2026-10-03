@@ -13,7 +13,7 @@ import struct
 from collections import defaultdict
 from dataclasses import dataclass, field
 
-from .rom import BASE, Rom
+from .rom import BASE, Rom, data_end
 from .table import Charset, TERMINATORS, decode
 
 #: A run shorter than this is almost always a coincidence.
@@ -77,15 +77,76 @@ def _plausible(text: str, charset: Charset) -> bool:
 PAD_LIMIT = 15
 
 
-def _run_from(rom: Rom, start: int, charset: Charset, max_length: int
-              ) -> list[tuple[int, str, int]]:
+def padded_end(data: bytes | bytearray, end: int, stop: int) -> int:
+    """``end`` extended over the zero padding that follows a string.
+
+    Fixed-stride tables pad each record to its stride with extra zeroes, and
+    those are absorbed into the record's length, which both keeps a run going
+    and reports the capacity a translation really has.
+
+    It never runs past ``stop``, the end of the data (see rom.data_end). The
+    zeroes after the LAST string in the cartridge are not padding but the
+    free tail, and that is where the build relocates scripts. str:7F7526 once
+    claimed 15 of them, so its translation, written "in place", went over the
+    header of the relocated script 0. That script is the one 170 of the
+    master table's slots share.
+    """
+    padded = end
+    while padded < stop and data[padded] == 0x00 and padded - end < PAD_LIMIT:
+        padded += 1
+    return padded
+
+
+def _thumb_literal_load(data: bytes | bytearray, site: int) -> bool:
+    """Whether a Thumb ``ldr rN, [pc, #imm]`` in the KB before ``site`` loads it."""
+    for at in range(max(0, site - 1024), site, 2):
+        half = data[at] | (data[at + 1] << 8)
+        if half >> 11 == 0b01001 and ((at + 4) & ~3) + (half & 0xFF) * 4 == site:
+            return True
+    return False
+
+
+def is_pointer_site(data: bytes | bytearray, site: int) -> bool:
+    """Whether the aligned word at ``site`` is a pointer, not data that looks like one.
+
+    The scan takes every aligned word that equals a cartridge address, and
+    most of the ROM is not code or tables: it is sound, pixels and compressed
+    graphics, where four bytes such as ``f4 fe 08 08`` spell 0x0808FEF4 by
+    accident. The loose writer used to repoint every one of them when it
+    moved a string. That wrote addresses into 8-bit PCM samples and, at
+    0x55EF08, into the middle of a compressed sheet. So a word counts as a
+    pointer only with evidence:
+
+    - the code loads it (a PC-relative ``ldr`` aims at it), or
+    - it sits in a table, with a neighbour within 8 bytes that is itself a
+      cartridge address.
+
+    Every site the build ever repointed for a real reason passes. None of the
+    coincidences did. Words below 0x8000 never count: the boot code can spell
+    an address by accident, and repointing one white-screened the ROM.
+    """
+    if site < 0x8000 or site + 4 > len(data):
+        return False
+    if _thumb_literal_load(data, site):
+        return True
+    for delta in (-8, -4, 4, 8):
+        at = site + delta
+        if 0 <= at and at + 4 <= len(data):
+            value = struct.unpack_from("<I", data, at)[0]
+            if BASE <= value < BASE + len(data):
+                return True
+    return False
+
+
+def _run_from(rom: Rom, start: int, charset: Charset, max_length: int,
+              stop: int | None = None) -> list[tuple[int, str, int]]:
     """Decode strings back to back from ``start`` for as long as they hold up.
 
     Fixed-stride tables pad each record to its stride with extra zeroes; those
-    are absorbed into the record's length, which both keeps the run going and
-    reports the capacity a translation really has.
+    are absorbed into the record's length (see `padded_end`).
     """
     data = rom.data
+    stop = len(data) if stop is None else stop
     out: list[tuple[int, str, int]] = []
     at = start
     while at < len(data):
@@ -96,9 +157,7 @@ def _run_from(rom: Rom, start: int, charset: Charset, max_length: int
             break
         if data[end - 1] not in TERMINATORS:
             break
-        padded = end
-        while padded < len(data) and data[padded] == 0x00 and padded - end < PAD_LIMIT:
-            padded += 1
+        padded = padded_end(data, end, stop)
         out.append((at, text, padded - at, end - at))
         at = padded
     return out
@@ -177,6 +236,7 @@ def scan(rom: Rom, charset: Charset, exclude: tuple[int, int] | None = None,
     """
     index = pointer_index(rom)
     data = rom.data
+    stop = data_end(rom)
     model = model or LanguageModel.from_scripts(rom)
     accepted: dict[int, tuple[str, int]] = {}
     visited: set[int] = set()
@@ -189,7 +249,7 @@ def scan(rom: Rom, charset: Charset, exclude: tuple[int, int] | None = None,
         # Only start a run where one really starts: after a terminator.
         if target > 0 and data[target - 1] not in TERMINATORS:
             continue
-        run = _run_from(rom, target, charset, max_length)
+        run = _run_from(rom, target, charset, max_length, stop)
         if not run:
             continue
 

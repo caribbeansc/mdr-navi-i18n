@@ -28,7 +28,7 @@ from .catalog import Catalog, Line
 from .lang import Pack
 from .rom import BASE, Rom, find_free_space
 from .script import Script
-from .strings import record_text_room
+from .strings import is_pointer_site, record_text_room
 from .table import KANJI_LEAD, Charset, TableError, encode
 
 #: A 16-bit pointer counted from the start of the script caps how big one can get.
@@ -86,6 +86,9 @@ class Allocator:
         self._reserve = reserve
         self.used = 0
         self.expanded = False
+        #: The lowest offset this allocator can ever hand out. Nothing may be
+        #: written in place at or past it, or it lands on relocated data.
+        self.floor = self._runs[0][0] if self._runs else len(rom.data)
 
     def take(self, size: int, align: int = 4) -> int:
         for i, (offset, length) in enumerate(self._runs):
@@ -791,6 +794,9 @@ def build(rom: Rom, catalog: Catalog, pack: Pack, charset: Charset) -> Report:
     from .strings import pointer_index
 
     report = Report(language=pack.code)
+    # What the dump held before any write: whether a word is a pointer is a
+    # question about the cartridge, not about a half-built copy of it.
+    pristine = bytes(rom.data)
 
     font_data, placed = font.build_font(rom, charset)
     rom.write(rom.release.font, font_data)
@@ -846,23 +852,42 @@ def build(rom: Rom, catalog: Catalog, pack: Pack, charset: Charset) -> Report:
         payload = _encode_or_skip(text, charset, line.key, report)
         if payload is None:
             continue
-        if line.fixed and len(payload) > line.length:
+        # The free tail starts where the allocator does, and relocated scripts
+        # already live there: a line's "room" never reaches into it (see
+        # strings.padded_end for the one that did).
+        room = min(line.length, max(0, allocator.floor - line.offset))
+        if line.fixed and len(payload) > room:
             report.skipped.append((
                 line.key,
                 f"a record in a fixed-stride table: {len(payload)} bytes "
-                f"will not fit in {line.length}"))
+                f"will not fit in {room}"))
             continue
-        if len(payload) <= line.length:
+        if len(payload) <= room:
             # Pad with the terminator the original used, so anything reading
             # past the end behaves as before.
-            rom.write(line.offset, payload + bytes(line.length - len(payload)))
+            blob = bytearray(payload + bytes(room - len(payload)))
+            # Some lines span a pointer table and copy its bytes verbatim
+            # (<B:xx>) to reach the text behind it. If the build has already
+            # repointed one of those words, the copy would put the OLD address
+            # back, and the string it names would draw from its abandoned
+            # Japanese. On Kabuto that undid seven menu labels ("Trade parts",
+            # "Give a Medal", "Level"...). A word the build moved stays moved.
+            for k in range((-line.offset) % 4, len(blob) - 3, 4):
+                at = line.offset + k
+                was = pristine[at:at + 4]
+                if (blob[k:k + 4] == was and rom.data[at:at + 4] != was
+                        and BASE <= int.from_bytes(was, "little") < BASE + len(pristine)):
+                    blob[k:k + 4] = rom.data[at:at + 4]
+            rom.write(line.offset, bytes(blob))
             report.strings_inline += 1
         else:
-            # NEVER rewrite a "pointer" inside the boot code: words below
-            # 0x8000 can equal a string address by coincidence (two THUMB
-            # instructions at 0x334 did), and repointing one white-screens
-            # the ROM at power-on.
-            safe_sites = [site for site in line.pointers if site >= 0x8000]
+            # Only a word with evidence of being a pointer is repointed (see
+            # strings.is_pointer_site). That rules out the boot code, where two
+            # THUMB instructions at 0x334 spelled a string's address and
+            # repointing them white-screened the ROM, and the sound and
+            # graphics, where four bytes spell an address by accident.
+            safe_sites = [site for site in line.pointers
+                          if is_pointer_site(pristine, site)]
             if not safe_sites:
                 report.skipped.append((line.key, "too long, and nothing points at it"))
                 continue

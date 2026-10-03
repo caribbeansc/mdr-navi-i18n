@@ -528,3 +528,35 @@ Hard-won facts:
   HASH, not a checksum (byte/half/word sums and CRC32 over every plausible
   range were tried against four real saves; none match), and the loader
   rejects a save whose hash does not fit.
+- **A build changes text and the pointers to it, and NOTHING else — check
+  the bytes.** `pytest -m slow tests/test_build_integrity.py` builds every
+  pack against both releases and checks three things: script code differs
+  from the dump only in text-site pointers, every word that changed from one
+  address to another has evidence of being a pointer, and each translation is
+  intact where its real pointer leads. Every failure below encoded, fitted,
+  validated and rendered fine, and that test is what sees them. Run it before
+  every release.
+- **The free tail is not padding.** Loose strings absorb up to 15 trailing
+  zeroes as room (fixed-stride tables pad their records that way). The LAST
+  string in the cartridge, str:7F7526, claimed 15 of the free tail's, and its
+  English translation went "in place" over the relocated copy of script 0,
+  whose header 170 master-table slots share. `padded_end` stops at
+  `data_end`, and the loose writer never writes at or past `Allocator.floor`.
+- **A word that spells an address is not a pointer.** The scan takes every
+  aligned word equal to a cartridge address, and in 8-bit sound samples or
+  compressed sheets four bytes do that by chance (`f4 fe 08 08`). The loose
+  writer used to repoint all of them: 5-7 words per build, one inside the
+  compressed tileset of the Cluster's "Suburbs" room (0x55DEE8, 13.5 KB of its
+  28 KB decoded wrong). Only a word with evidence is repointed now
+  (`strings.is_pointer_site`): a PC-relative `ldr` loads it, or a neighbour
+  within 8 bytes is an address too.
+- **A loose line that starts inside another one is a phantom** unless the
+  code loads it or it sits in a table of strings (`catalog.phantoms`).
+  str:7F6AF3 was the tail of str:7F6ACE, catalogued only because of a word in
+  that tileset; translated, it was relocated and the word "repointed".
+- **A copied pointer table undoes a repoint.** Some Kabuto lines span a
+  pointer table and copy its bytes (`<B:xx>`) to reach the text behind it.
+  Written after a string the table names was moved, the copy put the OLD
+  address back: "Trade parts", "Give a Medal", "Level" and three more (four
+  in Spanish) drew their abandoned Japanese. The loose writer keeps any word
+  the build already moved.
