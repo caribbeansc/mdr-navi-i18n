@@ -5,6 +5,8 @@
   python3 tools/leftovers.py build/…-en.gba --lang en  # another pack
   python3 tools/leftovers.py build/…-es.gba --all      # backlog included
   python3 tools/leftovers.py build/…-es.gba --update   # accept what is left
+  python3 tools/leftovers.py build/…-es.gba --accept 646246:13 087222:7
+                                    # findings checked by hand: not text
 
 Only runs missing from langs/<code>/leftovers.json are listed, so a new one
 stands out from the known backlog; `navi.py build` prints the same count.
@@ -44,8 +46,11 @@ def scan(built_at: Path, code: str = "es"):
     from navi.catalog import build as build_catalog
     from navi.lang import Pack
 
-    catalog = build_catalog(original, japanese)
     pack = Pack.load(code, release=original.release.name)
+    # The same catalogue the build writes from, seeds included: without them
+    # the lines only a seed catalogues looked untranslated, and their dead
+    # Japanese (left behind when the translation was moved) was reported.
+    catalog = build_catalog(original, japanese, seeds=pack.loose_sites())
     skip = (L.script_area(original)
             + L.translated_area(original, catalog, pack)
             + L.data_areas(original))
@@ -65,19 +70,37 @@ def main() -> int:
         print(__doc__)
         return 2
     BASELINE = baseline_for(code)
+    accept = []
+    if "--accept" in flags:
+        accept = args[1:]
+        args = args[:1]
     original, japanese, found = scan(Path(args[0]), code)
+    known = L.load_baseline(BASELINE)
     if "--update" in flags:
         # Only the neighbourhood-only class is silenced. Those are almost all
         # stat tables sitting next to translated names, and there are ~2000 of
         # them; the prose findings are a worklist and stay in the report until
-        # they are translated.
-        quiet = [f for f in found if f.why == "vecindad"]
+        # they are translated. What was already accepted and is still found
+        # stays accepted: a finding someone checked by hand (--accept) must
+        # not come back on the next --update.
+        quiet = [f for f in found if f.why == "vecindad" or f.key in known]
         L.save_baseline(BASELINE, quiet)
         print(f"registradas {len(quiet)} de {len(found)} "
-              "(solo la clase «vecindad»; las de prosa siguen a la vista)")
+              "(la clase «vecindad» y lo ya aceptado; el resto sigue a la vista)")
+        return 0
+    if "--accept" in flags:
+        # A finding checked by hand and found NOT to be text the game draws
+        # (dead data, a template nothing reads). Offsets only, as always.
+        by_key = {f.key: f for f in found}
+        unknown = [k for k in accept if k not in by_key]
+        if unknown or not accept:
+            print(f"no son hallazgos actuales: {unknown or '(ninguna clave)'}")
+            return 2
+        L.save_baseline(BASELINE, [f for f in found if f.key in accept])
+        print(f"aceptadas {len(accept)}; {BASELINE.name} conoce ahora "
+              f"{len(L.load_baseline(BASELINE))}")
         return 0
 
-    known = L.load_baseline(BASELINE)
     show = found if "--all" in flags else [f for f in found if f.key not in known]
     source = bytes(original.data)
     garbage = sum(1 for f in show if f.garbage)

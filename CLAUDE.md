@@ -481,6 +481,20 @@ Hard-won facts:
   is diffed against `langs/es/leftovers.json`, which holds OFFSETS ONLY (the
   Japanese must never enter the repo) and silences the noisy
   neighbourhood-only class, so a NEW leftover stands out.
+  **The count is only useful at zero.** It had grown to 203, and 193 of them
+  were compressed graphics, code and level data that the prose model read as
+  writing. The one real line among them (the bully's "your save data was
+  destroyed — go cry" joke, str:0E0678, behind a stray byte the scan rejects)
+  went unseen. So a prose-only finding must now be REACHED: something points
+  into its string. Keys are Kuwagata offsets (Kabuto-only runs are tagged
+  `KBT:`) so one baseline serves both releases, and the baseline only grows:
+  `--update` adds the neighbourhood class, and `--accept KEY…` adds a finding
+  vetted by hand. tests/test_build_integrity.py fails on any finding nobody
+  vetted, on all four builds. Vetted, not text: the layout TEMPLATES at
+  0x645E30-0x64628F (placeholder rows like 999/88/77 for the part screens).
+  Nothing in the ROM points at their tables, and read watchpoints on all 216
+  of their addresses stay silent while the part, medal and Medaforce screens
+  draw (a read of the part's own name, the control, fires).
 - **Index-reached NAME tables need one catalog entry per slot** —
   `SLOT_TABLES` in navi/strings.py, `(first slot, stride, slots, width)`. A
   name that fills its slot leaves no terminator, so the pointer scan reads it
@@ -557,9 +571,11 @@ Hard-won facts:
 - **A copied pointer table undoes a repoint.** Some Kabuto lines span a
   pointer table and copy its bytes (`<B:xx>`) to reach the text behind it.
   Written after a string the table names was moved, the copy put the OLD
-  address back: "Trade parts", "Give a Medal", "Level" and three more (four
-  in Spanish) drew their abandoned Japanese. The loose writer keeps any word
-  the build already moved.
+  address back, and five live labels ("Can be placed here" and its two
+  siblings, "Trade parts", "Give a Medal") drew their abandoned Japanese.
+  ("Level" and "Patas" were reverted too, but those sit in the dead layout
+  templates; see the leftovers note.) The loose writer keeps any word the
+  build already moved.
 - **Loose text has chains too.** The engine reads through `<CLEAR>` until a
   0x00 or `<END>`, and `decode` stops at `<CLEAR>`, so three loose scenes
   were catalogued as their first box and their translations, sealed with

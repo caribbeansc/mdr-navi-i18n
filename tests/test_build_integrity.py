@@ -204,3 +204,30 @@ def test_each_translation_is_where_its_pointer_leads(built):
     assert not broken, (
         f"{len(broken)} translations are not intact where the game reads them "
         f"(first few: {broken[:8]})")
+
+
+@pytest.mark.game
+@pytest.mark.slow
+def test_no_japanese_left_standing_that_nobody_vetted(built):
+    """Every Japanese run the build leaves is known to the pack's baseline.
+
+    The build prints this count and it had grown to 203 that nobody read:
+    193 were tiles, code and level data the prose model mistook for writing,
+    and the real line among them (a joke the cast's bully says, "your save
+    data was destroyed — cry") went unseen behind them. Prose findings now
+    need something to reach them, the baseline is keyed by Kuwagata offsets so
+    one file serves both releases, and what is left was checked by hand.
+    A NEW finding fails here: translate it, or vet it and --accept it.
+    """
+    from navi import leftovers as L
+    from navi.table import load_japanese
+
+    dump, before, after, catalog, pack, charset = built
+    original = Rom(bytearray(before), dump.path)
+    result = Rom(bytearray(after), dump.path)
+    skip = (L.script_area(original) + L.translated_area(original, catalog, pack)
+            + L.data_areas(original))
+    found = L.find(original, result, load_japanese(), charset, skip=skip)
+    known = L.load_baseline(pack.path / "leftovers.json")
+    fresh = [f"{f.key} ({f.why})" for f in found if f.key not in known]
+    assert not fresh, f"{len(fresh)} Japanese runs nobody vetted: {fresh[:10]}"

@@ -80,10 +80,18 @@ class Leftover:
     #: 107 of the 157 kana codes are re-used, so "any of them" would be true
     #: of nearly everything; what marks a run as unreadable is the share.
     garbage: bool
+    #: Where Kuwagata keeps the same bytes, the way pack keys name a line, so
+    #: that one baseline serves both releases. ``None`` when this release has
+    #: no twin there, and the key is then tagged with the release instead.
+    canonical: int | None = None
+    tag: str = ""
 
     @property
     def key(self) -> str:
-        return f"{self.offset:06X}:{self.length}"
+        if self.canonical is not None:
+            return f"{self.canonical:06X}:{self.length}"
+        return f"{self.tag}:{self.offset:06X}:{self.length}" if self.tag \
+            else f"{self.offset:06X}:{self.length}"
 
 
 def reused_codes(japanese: Charset, latin: Charset) -> set[int]:
@@ -130,11 +138,24 @@ def translated_area(original: Rom, catalog, pack) -> list[tuple[int, int]]:
     pointer repointed, which leaves the Japanese sitting there, dead. Those
     bytes look exactly like a leftover and are not one — 'Acción' and
     'Destreza' were both reported that way before this.
+
+    A chain (catalog.read_chain) is translated whole but its room is only
+    its first box, so the dead Japanese it leaves runs to the end of the
+    chain, not of the room: the tail of the Medabot-in-the-water scene was
+    reported as a leftover until this read the chain too.
     """
+    from .catalog import read_chain
+    from .table import load_japanese
+
+    japanese = load_japanese()
+    data = bytes(original.data)
     out = []
     for line in catalog.of_kind("loose"):
         if pack.translation_for(line.key, line.text):
-            out.append((line.offset, line.offset + max(line.length, 1)))
+            end = line.offset + max(line.length, 1)
+            if not line.fixed:
+                end = max(end, read_chain(data, line.offset, japanese)[1])
+            out.append((line.offset, end))
     return out
 
 
@@ -158,6 +179,23 @@ def find(original: Rom, built: Rom, japanese: Charset, latin: Charset,
         a = min(max(low - NEIGHBOURHOOD, 0), limit)
         b = min(max(high + NEIGHBOURHOOD, 0), limit)
         return rewritten[b] - rewritten[a]
+
+    # Prose alone is not enough. Of 205 prose-only findings on the Spanish
+    # build, 104 sat inside compressed graphics and 89 in code and level data
+    # that nothing points at: the model reads them as writing, and they drowned
+    # the one real line among them. A string the game draws is reached through
+    # a pointer to it (or into it, past a stray byte), or it sits among text
+    # we know, which is what the neighbourhood signal sees. So a prose-only
+    # finding has to be reached.
+    from .strings import pointer_index
+
+    targets = set(pointer_index(original))
+
+    def reached(at: int) -> bool:
+        start = at
+        while start > 0 and at - start < 256 and source[start - 1] not in (0x00, 0xF3):
+            start -= 1
+        return any(t in targets for t in range(start, at + 1))
 
     skip = script_area(original) if skip is None else skip
     blocked = bytearray(limit)
@@ -200,10 +238,15 @@ def find(original: Rom, built: Rom, japanese: Charset, latin: Charset,
             why.append("vecindad")
         if not why:
             continue
-        out.append(Leftover(offset=j - len(run), length=len(run), chars=chars,
+        if why == ["prosa"] and not reached(j - len(run)):
+            continue
+        at = j - len(run)
+        out.append(Leftover(offset=at, length=len(run), chars=chars,
                             why="+".join(why),
                             garbage=sum(b in reused for b in run)
-                            >= len(run) * GARBLED_SHARE))
+                            >= len(run) * GARBLED_SHARE,
+                            canonical=original.back(at, len(run)),
+                            tag=original.release.tag))
     # Prose first: a run both signals agree on is almost always real text,
     # and a neighbourhood-only hit in a stat table almost never is.
     rank = {"prosa+vecindad": 0, "prosa": 1, "vecindad": 2}
@@ -229,10 +272,19 @@ def load_baseline(path: Path) -> set[str]:
 
 
 def save_baseline(path: Path, found: list[Leftover]) -> None:
-    """Record the current backlog. Offsets only — never the Japanese."""
+    """Add to the backlog. Offsets only — never the Japanese.
+
+    It only ever GROWS. One file serves both releases (keys are Kuwagata
+    offsets, or tagged with the release when it has no Kuwagata twin), so a
+    run on one cartridge cannot tell which of the other's keys are stale;
+    rewriting the file from one scan would drop everything only the other
+    release reports.
+    """
+    keys = load_baseline(path) | {item.key for item in found}
     path.write_text(json.dumps(
         {"comment": "Japanese the build knowingly leaves standing. Offsets "
                     "and lengths only: the text itself never enters the "
-                    "repository. Regenerate with tools/leftovers.py --update.",
-         "known": sorted(item.key for item in found)},
+                    "repository. Grow it with tools/leftovers.py --update "
+                    "or --accept.",
+         "known": sorted(keys)},
         ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

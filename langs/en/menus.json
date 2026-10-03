@@ -3237,6 +3237,11 @@
    "t": "Jam"
   },
   {
+   "key": "str:0E0678",
+   "src": "3ef24395e487",
+   "t": "<FACE:69>Your save data's been<NL>wiped out. Go cry!"
+  },
+  {
    "key": "str:0E0694",
    "src": "05ef79d077c7",
    "t": "<FACE:69>Get lost!"
