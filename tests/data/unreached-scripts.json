@@ -1,6 +1,6 @@
 {
- "_": "Text inside an event script that the catalogue does not name, by KUWAGATA script index and offset within the script. OFFSETS ONLY: the Japanese must never enter the repository. Every one of these was checked to be reachable by nothing \u2014 no 01 <lo> <hi> anywhere in its script, and no absolute pointer to it anywhere in the ROM \u2014 so it is script that was written and then cut. The test pins the list so that a line the walk STOPS seeing, or a new unreachable run, shows up as a diff instead of reaching a player as Latin soup.",
- "count": 105,
+ "_": "Text inside an event script that the catalogue does not name, by KUWAGATA script index and offset within the script. OFFSETS ONLY: the Japanese must never enter the repository. Every one of these was checked to be reachable by nothing \u2014 no text op aimed at it anywhere in its script (a 01 <lo> <hi> that is really some instruction's argument does not count), and no absolute pointer to it anywhere in the ROM \u2014 so it is script that was written and then cut. The test pins the list so that a line the walk STOPS seeing, or a new unreachable run, shows up as a diff instead of reaching a player as Latin soup.",
+ "count": 106,
  "runs": {
   "0004": [
    "03A9"
@@ -217,6 +217,9 @@
   ],
   "0157": [
    "03CA"
+  ],
+  "0158": [
+   "0607"
   ],
   "0159": [
    "03CD"

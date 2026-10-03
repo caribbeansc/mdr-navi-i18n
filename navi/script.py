@@ -14,7 +14,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from .rom import Rom
-from .table import Charset, decode
+from .table import ARG_CODES, KANJI_LEAD, Charset, decode
 
 #: Opcodes that stop execution of the current branch.
 END_OPS = {0x00, 0x16, 0x1D, 0x2A, 0x2C, 0x2D, 0x2E, 0x2F, 0x35, 0x36}
@@ -58,6 +58,9 @@ class Script:
     offset: int
     data: bytes
     sites: list[TextSite] = field(default_factory=list)
+    #: Every byte the walk read as an ARGUMENT of an instruction. A 0x01 among
+    #: them is data, not a text op, however much it looks like one.
+    operands: frozenset[int] = frozenset()
 
     @property
     def subscripts(self) -> int:
@@ -74,7 +77,12 @@ class _Walker:
     def __init__(self, data: bytes):
         self.data = data
         self.sites: list[TextSite] = []
+        self.operands: set[int] = set()
         self._seen: set[int] = set()
+
+    def _decoded(self, at: int, size: int) -> None:
+        """Remember that the bytes after the opcode at `at` are its arguments."""
+        self.operands.update(range(at + 1, min(at + size, len(self.data))))
 
     def run(self, start: int, depth: int = 0) -> None:
         if depth > 8 or start in self._seen:
@@ -97,11 +105,13 @@ class _Walker:
                     return
                 text_at = data[idx + 1] | (data[idx + 2] << 8)
                 self.sites.append(TextSite(pointer_at=idx + 1, text_at=text_at))
+                self._decoded(idx, 3)
                 if text_at < limit:
                     limit = text_at
                 idx += 3
                 continue
             if op == 0x0A:  # four-way branch on the player's facing
+                self._decoded(idx, 10)
                 for arg in (2, 4, 6, 8):
                     if idx + arg + 1 >= len(data):
                         break
@@ -110,15 +120,18 @@ class _Walker:
                         self.run(target, depth + 1)
                 return
             if op == 0x10:  # inline movement list
+                start_at = idx
                 idx += 1
                 while idx < limit and data[idx] == 0x05:
                     idx += 6
                 while idx < limit and data[idx] == 0x06:
                     idx += 3
+                self._decoded(start_at, idx - start_at)
                 continue
             if op == 0x03:  # unconditional jump
                 if idx + 2 >= len(data):
                     return
+                self._decoded(idx, 3)
                 target = data[idx + 1] | (data[idx + 2] << 8)
                 if target > idx:
                     idx = target
@@ -127,22 +140,26 @@ class _Walker:
             if op == 0x31:
                 if idx + 4 >= len(data):
                     return
+                self._decoded(idx, 5)
                 self.run(data[idx + 3] | (data[idx + 4] << 8), depth + 1)
                 idx += 5
                 continue
             if op == 0x34:
                 if idx + 3 >= len(data):
                     return
+                self._decoded(idx, 4)
                 self.run(data[idx + 2] | (data[idx + 3] << 8), depth + 1)
                 idx += 4
                 continue
             size = OP_SIZE.get(op)
             if size is None:
                 return
+            self._decoded(idx, size)
             idx += size
 
 
-def rescue_sites(data: bytes, sites: list[TextSite]) -> list[TextSite]:
+def rescue_sites(data: bytes, sites: list[TextSite],
+                 operands: frozenset[int] | set[int] = frozenset()) -> list[TextSite]:
     """The text ops the walk could not reach, found by reading the code as bytes.
 
     The walker enters a script only through its header's subscripts and only
@@ -173,11 +190,30 @@ def rescue_sites(data: bytes, sites: list[TextSite]) -> list[TextSite]:
     not a rule (the comment on CHAIN_KEYS says what that cost last time).
     Those tails are picked up anyway, as chains, once their head is known.
 
-    105 strings are still left over after this, listed by offset in
-    tests/data/unreached-scripts.json. Their offset appears nowhere in their
-    script as bytes and all but two sit behind a clean terminator, so nothing
-    reaches them by pointer and nothing runs into them from the line before:
-    they read as script that was written and then cut.
+    106 strings are still left over after this, listed by offset in
+    tests/data/unreached-scripts.json. No text op reaches them and all but two
+    sit behind a clean terminator, so nothing reaches them by pointer and
+    nothing runs into them from the line before: they read as script that was
+    written and then cut.
+
+    The scan is only safe because a FALSE site costs nothing until the build
+    repoints it, and then it costs the game's logic. Two got through at
+    first, and both were arguments. Script 35, the bus scene at the Cluster,
+    has a run of five-byte ``07 XX 00 00 01`` instructions right after the
+    class president's "may I have a word?". The last byte of one and the
+    first two of the next read as ``01 07 0E``, a "text op" aimed at 0x0E07.
+    That offset is two bytes INTO a line that opens with <FACE:00>, and the
+    0x00 there is FACE's argument, which passed for a terminator. The build
+    appended the phantom line and wrote its offset over ``07 0E``. The engine
+    met opcode 0x9A in the middle of that list, and players were thrown onto
+    the station map with half the story skipped. Script 158 had the same
+    shape, aimed by coincidence at a real line that nothing else reaches.
+
+    So two more rules hold now, and each rejects those two sites and none of
+    the other 324. The 0x01 must not be a byte the walk already read as some
+    instruction's argument (`operands`). The target must start a string once
+    the text area is read as text, which skips control-code arguments and
+    the second byte of each kanji (`_string_starts`).
     """
     known = {site.text_at for site in sites}
     if not known:
@@ -185,27 +221,54 @@ def rescue_sites(data: bytes, sites: list[TextSite]) -> list[TextSite]:
     # Text lives after the code, so the earliest string the walk found is the
     # end of the code — and everything from there on is the text area.
     text_start = min(known)
+    starts = _string_starts(data, text_start)
     found: dict[int, TextSite] = {}
     for at in range(text_start - 2):
-        if data[at] != TEXT_OP:
+        if data[at] != TEXT_OP or at in operands:
             continue
         target = data[at + 1] | (data[at + 2] << 8)
         if target in known or target in found:
             continue
         if not text_start <= target < len(data) - 1:
             continue
-        # The byte before a string is the previous string's terminator, and
-        # the engine has two: 0x00 and <END> (0xF3). Accepting only 0x00 left
-        # script:0027:21AB and script:0029:38DA behind, both of them pointed
-        # at by a real text op — the tests/data/unreached-scripts.json check
-        # is what caught that. The first string in the area has the code in
-        # front of it instead.
-        if target != text_start and data[target - 1] not in (0x00, 0xF3):
+        if target not in starts:
             continue
         if data[target] == 0x00:
             continue
         found[target] = TextSite(pointer_at=at + 1, text_at=target)
     return [found[at] for at in sorted(found)]
+
+
+def _string_starts(data: bytes, text_start: int) -> set[int]:
+    """Where a string can begin in the text area: right after a terminator.
+
+    The byte before a string is the previous string's terminator, and the
+    engine has two: 0x00 and <END> (0xF3). Accepting only 0x00 left
+    script:0027:21AB and script:0029:38DA behind, both of them pointed at by
+    a real text op, and the tests/data/unreached-scripts.json check is what
+    caught that. The first string in the area has the code in front of it
+    instead.
+
+    The area is read as text, not peeked at one byte back, because a 0x00 is
+    not always a terminator. <FACE:00> is ``F6 00``, and a test on the
+    previous byte alone took the third byte of every such line for the start
+    of a new one. That is how script 35's bus scene lost its logic (see
+    rescue_sites).
+    """
+    starts = {text_start}
+    at = text_start
+    while at < len(data):
+        byte = data[at]
+        if byte in KANJI_LEAD:
+            at += 2
+            continue
+        if byte in ARG_CODES:
+            at += 1 + ARG_CODES[byte][1]
+            continue
+        at += 1
+        if byte in (0x00, 0xF3):
+            starts.add(at)
+    return starts
 
 
 def script_bounds(rom: Rom) -> list[tuple[int, int]]:
@@ -254,7 +317,8 @@ def read_scripts(rom: Rom) -> list[Script]:
             if head + 4 >= len(data):
                 break
             walker.run(data[head + 4] << 8 | data[head + 3])
-        script.sites = walker.sites + rescue_sites(data, walker.sites)
+        script.sites = walker.sites + rescue_sites(data, walker.sites, walker.operands)
+        script.operands = frozenset(walker.operands)
         scripts.append(script)
     return scripts
 

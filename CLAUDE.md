@@ -97,13 +97,23 @@ landed and refuses to be quiet about one it could not place.
   knows, which left 438 lines of dialogue uncatalogued — most of scripts 27 and
   29, the RR confrontation and the finale. `rescue_sites` reads the code as
   bytes as well and takes every `01 <lo> <hi>` that points at the START of a
-  string (the byte before it is a terminator); that test re-finds 3443 of the
-  walk's own 3444 sites with no disagreement, and recovers 326 more. The 105
-  that remain are reachable by nothing at all — no relative pointer, no
-  absolute one anywhere in the ROM — so they are script that was cut. They are
-  pinned by offset in tests/data/unreached-scripts.json, and
-  tests/test_unreached_scripts.py fails both ways: on a run that becomes
-  reachable (translate it) and on one that appears (the walk lost a line).
+  string; that test re-finds 3443 of the walk's own 3444 sites with no
+  disagreement, and recovers 324 more. The 106 that remain are reachable by
+  nothing at all — no text op, no absolute pointer anywhere in the ROM — so
+  they are script that was cut. They are pinned by offset in
+  tests/data/unreached-scripts.json, and tests/test_unreached_scripts.py fails
+  both ways: on a run that becomes reachable (translate it) and on one that
+  appears (the walk lost a line).
+- **A `01` the walk read as an ARGUMENT is not a text op, and a FACE's `00`
+  is not a terminator.** The first rescue took two of each, and the build
+  repointed them, rewriting script LOGIC: in script 35, the bus scene at the
+  Cluster, `07 0B 00 00 01 | 07 0E …` spelled `01 07 0E`, aimed two bytes into
+  a line opening with `<FACE:00>` (`F6 00`). The build turned `07 0E` into
+  `9A 14`, and players who talked to the class president were dropped on the
+  station map with the story skipped (issue #3). The walker now records its
+  instructions' operand bytes (`Script.operands`), rescue refuses a `01` among
+  them, and string starts are found by reading the text area as text
+  (`_string_starts`). tests/test_rescue_sites.py builds each shape by hand.
 - Loose text (menus, labels) is found by scanning every aligned ROM pointer and
   keeping targets that decode as text, filtered by a bigram model trained on
   the scripts themselves (`navi/strings.py`). Strings in fixed-stride tables

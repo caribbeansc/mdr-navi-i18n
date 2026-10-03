@@ -97,21 +97,31 @@ def test_the_pinned_runs_are_reachable_by_nothing(game_rom):
     A 16-bit pointer to a string lives in its own script, and an absolute one
     would be a word anywhere in the ROM. Neither exists for any of these, so
     they are script that was cut, not script the pack forgot.
+
+    A ``01 <lo> <hi>`` whose 0x01 the walk read as another instruction's
+    ARGUMENT is not a pointer. Script 158 spells 0x0607 that way, by
+    coincidence, in the middle of a run of ``07`` instructions. Taking it
+    for a text op is what rewrote the bus scene's logic (see rescue_sites).
     """
     import struct
 
-    from navi.script import script_bounds
+    from navi.script import read_scripts, script_bounds
 
     pinned = json.loads(PINNED.read_text())["runs"]
     data = bytes(game_rom.data)
     bounds = script_bounds(game_rom)
+    scripts = read_scripts(game_rom)
     reachable = []
     for index, offsets in pinned.items():
         base, length = bounds[int(index)]
         script = data[base:base + length]
+        operands = scripts[int(index)].operands
         for spelling in offsets:
             at = int(spelling, 16)
-            if bytes([0x01, at & 0xFF, (at >> 8) & 0xFF]) in script:
+            needle = bytes([0x01, at & 0xFF, (at >> 8) & 0xFF])
+            hits = [i for i in range(len(script) - 2)
+                    if script[i:i + 3] == needle and i not in operands]
+            if hits:
                 reachable.append(f"script:{index}:{spelling} (relative)")
             if struct.pack("<I", 0x08000000 + base + at) in data:
                 reachable.append(f"script:{index}:{spelling} (absolute)")
